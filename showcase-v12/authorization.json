@@ -1,0 +1,31 @@
+{
+  "revision": 12,
+  "authorization_source": "direct_user_reply_in_current_chat",
+  "user_reply": "4번으로 하고 말하는 속도도 1.15배 정도로 빠르게 하면 될거 같아. 그리고 영상에서 과제 소개 시 과제 제목이 너무 빠르게 지나가게 구성이 되어 있어. 아마 5분 15초 제한때문에 바꾼거 같은데 5분 30초까지 영상을 늘려도 되니까 이건 이전 영상처럼 원복해줘. 그리고 나레이션 속도를 올려서 어느 정도 시간 확보가 되서 괜찮을거 같아.",
+  "baseline_revision": 11,
+  "baseline_video_sha256": "1988894783d674f4c8cd11d2b2d393821e4ddff9d506b5d284bb0fc7715edf1b",
+  "selected_tone_preview": "jNBpdsn3DW247ttAh5dS",
+  "selected_take": 4,
+  "voice": "Kyung - Warm, Calm and Clear",
+  "voice_id": "JQaWvPoEUkcuOTfxFYpJ",
+  "model": "eleven_v4",
+  "speech_tempo": 1.15,
+  "pitch_cents": 0,
+  "max_video_seconds": 330,
+  "task_title_restoration": "Restore the previously separate task title/name scenes after reviewing historical timings.",
+  "script_sha256": "351c4ce6a474caf0a8bc290fe0a2796dea6240baff3cca9cff1957895bc0093e",
+  "script_lines": 68,
+  "generation_mode": "single_take",
+  "generations_count": 1,
+  "preserve": [
+    "68 narration utterances",
+    "task order",
+    "existing photos, visual designs and text",
+    "BGM identity and mix character",
+    "opening and ending design"
+  ],
+  "created_at_utc": "2026-10-19T23:09:32.552141+00:00",
+  "recovery_authorization": "narration/two-parts/authorization.json",
+  "recovery_generation_mode": "two_part_with_user_authorization",
+  "two_part_exception_authorized": true
+}

@@ -1,0 +1,20 @@
+{
+  "source": "Revision5 repaired music stem (identical music used in approved Revision6)",
+  "source_sha256": "fd15a25aeabf707c3491a9021433063d8b84b0e517f342a7d29f4aabc07c1e1d",
+  "sample_rate": 48000,
+  "channels": 2,
+  "cuts": [
+    {
+      "file": "assets/bgm/v6-body-entry-music.wav",
+      "start_sample": 1872000,
+      "end_sample": 1929600,
+      "pcm_sha256": "c5f2610fd728808b8bb5da8059b623baa6e79d4a2e7b8d7cce6f868dfb34d11a"
+    },
+    {
+      "file": "assets/bgm/v6-body-exit-music.wav",
+      "start_sample": 13771200,
+      "end_sample": 13828800,
+      "pcm_sha256": "3f75026f265df2b564dfdc22199b1943d8e7cb4d32d48c2e3bcdb5736049fa35"
+    }
+  ]
+}

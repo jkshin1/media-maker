@@ -1,0 +1,76 @@
+{
+  "revision": 10,
+  "source_revision": 9,
+  "created_at_utc": "2026-10-19T09:38:32.090363+00:00",
+  "baseline_video": "out/showcase-v9/RD_Process_AI_Fast_Track_Showcase_Revision9.mp4",
+  "baseline_video_sha256": "425210d95244bf498dce621e3a64c8f93afb418e30fdc6d48a0228df2d4e1349",
+  "baseline_source_archive_sha256": "ce1f663779bd05e505302a5d226275db1528d093058572cc22e95d278684310e",
+  "baseline_timeline_sha256": "03c984a6d5b29b3be07a29669d76c3bc25cdde23da9b0ac9789b3dea73cbb68b",
+  "duration_seconds": 314.5,
+  "frames": 9435,
+  "source_hashes": {
+    "render.mjs": "71c34ba25dc81d660bb0fd47b3fb3195fb58b7432ef94c3e3215360ac72a2bc2",
+    "stage.mjs": "184cfbd0517cf760659ba11e5de488477aa6d63f90024d3044bba6ab2a5e6733",
+    "task-scenes.js": "6ba2885881045b9b269fc88f2b9ef75b15224eb059da0221f1427813cd6874d0",
+    "hero-scenes.js": "e68758f3eea3c6852f4b82432d2fdcf3417145c5e85d8f8296854953558810b5",
+    "task-visuals-early.js": "52665e6d915bd3a59bc19aa08a40899f6caa87c76b653112f96d70b74cd6807b",
+    "task-visuals-late.js": "2e0e45bba34a3dd027983dcf5e012af31fa0d654893224523c960680671ab2b0",
+    "photo-camera.js": "a5dc2cdedce68ddfc62c2a9d02b363d4f4dccd0b5e8d008d2be4adfc24fc718c",
+    "photo-camera-profiles.json": "bdb4a702181aa6afea4f7bdc99fa274fca5be62519ef2c9fef430277a80c5a41",
+    "spec.json": "0f6a3caf04d1d82a728f476b21c166fa225f2cd113c57cd27e92185378d19345",
+    "timeline.json": "03c984a6d5b29b3be07a29669d76c3bc25cdde23da9b0ac9789b3dea73cbb68b"
+  },
+  "visible_change": "Remove only 자료 기준, retaining blank note slots and remaining inline text.",
+  "pronunciation_changes": [
+    {
+      "id": "task11_cut2",
+      "before": "로트 아이디를 입력하면 맵과 트렌드, 케이 파라미터를 함께 조회합니다.",
+      "after": "랏 아이디를 입력하면 맵과 트렌드, 케이 파라미터를 함께 조회합니다."
+    },
+    {
+      "id": "task9_cut2",
+      "before": "로트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "after": "랏 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다."
+    },
+    {
+      "id": "task4_cut1",
+      "before": "로트, 장비, 에프디씨를 따로 조회하고 디오이 결과를 공유하기 어려웠습니다.",
+      "after": "랏, 장비, 에프디씨를 따로 조회하고 디오이 결과를 공유하기 어려웠습니다."
+    },
+    {
+      "id": "task3_cut1",
+      "before": "로트 분석을 위해 공정, 장비, 인라인 정보를 따로 조사했습니다.",
+      "after": "랏 분석을 위해 공정, 장비, 인라인 정보를 따로 조사했습니다."
+    },
+    {
+      "id": "task3_cut2",
+      "before": "앱에서 로트와 장비 이력, 인라인 데이터를 조회하고 추출합니다.",
+      "after": "앱에서 랏과 장비 이력, 인라인 데이터를 조회하고 추출합니다."
+    },
+    {
+      "id": "task3_cut3",
+      "before": "로트 간 공정 수순과 장비, 레시피 차이를 비교합니다.",
+      "after": "랏 간 공정 수순과 장비, 레시피 차이를 비교합니다."
+    },
+    {
+      "id": "task3_cut4",
+      "before": "로트 한 건 분석 시간을 약 두 시간 사십 분에서 이십 분 이내로 줄입니다.",
+      "after": "랏 한 건 분석 시간을 약 두 시간 사십 분에서 이십 분 이내로 줄입니다."
+    },
+    {
+      "id": "task14_cut1",
+      "before": "여러 시스템에서 로트, 장비, 템과 보고 정보를 따로 확인했습니다.",
+      "after": "여러 시스템에서 랏, 장비, 템과 보고 정보를 따로 확인했습니다."
+    },
+    {
+      "id": "task14_cut2",
+      "before": "하나의 앱에서 로트와 장비 상태, 템 쿼터와 의뢰 현황을 통합 조회합니다.",
+      "after": "하나의 앱에서 랏과 장비 상태, 템 쿼터와 의뢰 현황을 통합 조회합니다."
+    }
+  ],
+  "voice": "Kyung - Warm, Calm and Clear",
+  "tone_reference": "Existing ending at about04:55 preferred by user; unify full narration to that character.",
+  "new_remote_generation_started": false,
+  "new_paid_generation_count": 0,
+  "production_complete": false
+}

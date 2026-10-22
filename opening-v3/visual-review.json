@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "final_file": "rd-ai-fast-track-opening-v3.mp4",
+  "final_sha256": "f81deadaf806c4e32bc2294fb6cf0e6e4206d8c6ab0e524c0cb1c11a1b369441",
+  "reviewer": "Primary visual review plus independent non-camera motion review",
+  "visual_method": "Primary review of all nine full-size source midpoint stills and all nine encoded-MP4 playback frames assembled as the native playback contact sheet. Independent review of start/mid/end frames in CUT04,07,08 and foreground silhouette in CUT06.",
+  "native_contact_sheet_sha256": "9011db99896e0ddf82e546d082afe7248042c08da0da1c6dac2b4663b0b89c6a",
+  "checks": {
+    "nine_cuts_have_visible_local_animation": true,
+    "camera_frozen_effect_check": true,
+    "bottom_to_top_ribbon_cut04_and_cut07": true,
+    "upward_traveling_arrow_cut08": true,
+    "caption_nodes_absent": true,
+    "caption_band_absent": true,
+    "all_approved_titles_readable": true,
+    "twelve_panels_retained": true,
+    "first_sentence_업무": true,
+    "R&D_spoken_input_알앤디": true,
+    "new_take_all_nine_sentences_covered": true,
+    "all_nine_narration_clips_at_original_speed": true,
+    "no_invented_task_values_or_UI": true,
+    "layout_issues": 0,
+    "duration_seconds": 46,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "decoded_frames": 1380,
+    "dropped_frames": 0,
+    "corrupted_frames": 0,
+    "video_stream_copied_unchanged": true
+  },
+  "narration_generation_id": "oMWZdjpos5wtbdkjYn8B",
+  "limitations": [
+    "Visual effects are deterministic code over concept photographs, not actual documentary process motion.",
+    "Whisper verification establishes spoken sentence coverage and edited word; automated playback is not a human listening preference test."
+  ],
+  "unresolved_visual_defects": []
+}

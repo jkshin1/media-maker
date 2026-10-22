@@ -1,0 +1,98 @@
+{
+  "title": "Mountains",
+  "artist": "Andrew Ev",
+  "track_id": 187,
+  "file": "narration/bgm/music.mp3",
+  "path": "narration/bgm/music.mp3",
+  "source_url": "https://mixkit.co/free-stock-music/tag/corporate/?page=2",
+  "download_url": "https://assets.mixkit.co/music/187/187.mp3",
+  "license_url": "https://mixkit.co/license/modal/musicFree/",
+  "terms_url": "https://mixkit.co/terms/",
+  "retrieved_at": "2026-10-13T09:49:26.536447+00:00",
+  "sha256": "a096933b71ff9264dd3b20dcad5c01ef237658e30954f5c5cc8741266098f639",
+  "size_bytes": 8875825,
+  "duration_seconds": 277.315578,
+  "sample_rate": 44100,
+  "channels": 2,
+  "codec": "mp3",
+  "bit_rate": 256000,
+  "catalog_record": {
+    "@id": "Mountains",
+    "@type": "MusicRecording",
+    "name": "Mountains",
+    "genre": "Electronica",
+    "byArtist": "Andrew Ev",
+    "duration": "PT4M37S",
+    "url": "https://assets.mixkit.co/music/187/187.mp3",
+    "waveformUrl": "https://assets.mixkit.co/music/187/187-waveform.json",
+    "copyrightNotice": "Mixkit Stock Music Free License",
+    "encodingFormat": "audio/mpeg",
+    "isAccessibleForFree": true,
+    "license": "https://mixkit.co/license/#musicFree",
+    "publisher": {
+      "@id": "https://mixkit.co/#organization"
+    },
+    "datePublished": "2020-01-28"
+  },
+  "catalog_tags": [
+    "Electronica",
+    "Uplifting",
+    "Hopeful",
+    "Bass",
+    "Drums",
+    "Relaxation"
+  ],
+  "license": {
+    "name": "Mixkit Stock Music Free License",
+    "commercial_and_noncommercial_video_use": "permitted",
+    "verified_for_this_project": "Free commercial and noncommercial video/educational use in a combined narrated project.",
+    "allowed_examples": [
+      "Educational purposes",
+      "YouTube videos",
+      "Social media video posts",
+      "Online marketing ads",
+      "Podcasts"
+    ],
+    "excluded_media": [
+      "CDs/DVDs",
+      "TV/radio broadcasts",
+      "Video games"
+    ],
+    "other_limits": [
+      "Do not redistribute as a standalone music-only track",
+      "Do not claim ownership or register in a rights management service"
+    ],
+    "proof_file": "narration/bgm/license.html",
+    "proof_sha256": "723e4bd4673eeb125480d8d44c11eb591a0391332838485783c9e9928d487177"
+  },
+  "validation": {
+    "full_ffmpeg_decode": "PASS",
+    "duration_covers_241_second_video": true,
+    "source_loudness_lufs": -10.57,
+    "source_true_peak_dbtp": 0.35,
+    "source_loudness_range_lu": 10.4,
+    "reference_method": "ffprobe metadata and full-track ffmpeg loudnorm analysis; no human listening claim",
+    "tempo_bpm": "not confidently established"
+  },
+  "recommended_mix": {
+    "start_seconds": 0,
+    "gain": 0.18,
+    "ending_gain": 0.3,
+    "loop_required": false,
+    "fade_in_seconds": 0.7,
+    "fade_out_seconds": 3.0,
+    "retain_narration_sidechain_ducking": true
+  },
+  "selection_reason": "Hopeful electronic build fits the Before/After progression and a professional R&D introduction. Its 277.32-second length covers the revised 241-second film without repeating the cue; its introduction is restrained and its body grows gradually.",
+  "original_project_file": "assets/bgm/mixkit-mountains-187.mp3",
+  "opening_use": {
+    "time_range_seconds": [
+      0,
+      46
+    ],
+    "gain": 0.12,
+    "fade_in_seconds": 0.8,
+    "fade_out_seconds": 1.2,
+    "narration_sidechain_ducking": true
+  }
+}

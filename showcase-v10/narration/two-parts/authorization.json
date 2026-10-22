@@ -1,0 +1,19 @@
+{
+  "revision": 10,
+  "authorization_source": "direct_user_reply_in_current_chat",
+  "authorized_at": "2026-10-19T11:25:45.621Z",
+  "user_answer": "이번에 두 부분 생성 예외 허용 (권장)",
+  "authorized_scope": "One new take per each of the two prepared contiguous parts (33+35=68 approved sentences), same Kyung voice, Korean, natural speed, slightly higher consistent tone referenced to the preferred Revision9 ending.",
+  "generation_mode": "two_part_with_user_authorization",
+  "speech_speed_ratio": 1,
+  "prepared_flow_id": "pT0QbjTslTFe8z8e9mnn",
+  "prepared_node_ids": [
+    "1HvrxaWusuDKXznEPHfz",
+    "a2y4LLFSkGETL5OcTZrT"
+  ],
+  "estimated_total_credits": 2641,
+  "estimated_total_usd": 0.5282,
+  "automatic_additional_regeneration_authorized": false,
+  "original_failed_take_preserved": true,
+  "video_timing_preserved_seconds": 314.5
+}

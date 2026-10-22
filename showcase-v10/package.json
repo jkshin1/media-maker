@@ -1,0 +1,12 @@
+{
+  "name": "rd-ai-fast-track-showcase-revision10",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "stills": "node render.mjs --stills",
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}

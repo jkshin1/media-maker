@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "reviewer": "opening_spec_qa independent review",
+  "reviewed_at": "2026-10-14T10:24:28.903540+09:00",
+  "scope": "Source-approved wording, nine native encoded-video playback frames, and one additional final-video transition frame. This report does not claim subjective audio listening or per-frame human viewing.",
+  "final_file": "out/opening/rd-ai-fast-track-opening.mp4",
+  "final_sha256": "5c96a95c0f6201d07ca42da8c9b2ca98ca336162997fbd0c859895155c6cbedd",
+  "cut_count": 9,
+  "sampled_encoded_frames": [
+    {
+      "cut": "01",
+      "file": "out/opening/playback/cut01_1.50s.png",
+      "sha256": "a50b7a3bc300f3f1b188b84fa3de8e282d802e94895e70ae5f64c7ae7dfb3377",
+      "status": "PASS",
+      "observation": "Approved screen uses 업무 while caption uses 현업; exact wording, rounded surface and restrained gold illumination."
+    },
+    {
+      "cut": "02",
+      "file": "out/opening/playback/cut02_4.70s.png",
+      "sha256": "1d4c1e61ca2851facfcaee4ca04ff82d96a6a531480b7ea0431b0c6b5ee52cc4",
+      "status": "PASS",
+      "observation": "Wafer/equipment close-up and exact approved three-line heading; caption fully readable."
+    },
+    {
+      "cut": "03",
+      "file": "out/opening/playback/cut03_9.50s.png",
+      "sha256": "c9f17804ba98de2a66f3e79f262611b346982232b75b56906155e5e4acceb0b7",
+      "status": "PASS",
+      "observation": "Cleanroom researcher inspecting equipment; no fictional monitor UI, values or task screens."
+    },
+    {
+      "cut": "04",
+      "file": "out/opening/playback/cut04_14.50s.png",
+      "sha256": "b4554f1d91629e6ddbf6444000be62457d085fe0f7aef390532450d40bbde95b",
+      "status": "PASS",
+      "observation": "Three conceptual R&D frames around a wafer; no detailed task functionality or unsupported claims."
+    },
+    {
+      "cut": "05",
+      "file": "out/opening/playback/cut05_19.50s.png",
+      "sha256": "eb6e688199b5beb41df6026d9fb546f267bade629c97e72a74b607b503329638",
+      "status": "PASS",
+      "observation": "Exact main title and secondary line, readable serif English title and black/gold particle/line treatment."
+    },
+    {
+      "cut": "06",
+      "file": "out/opening/playback/cut06_25.00s.png",
+      "sha256": "57267270fef24b3ac576a6aa86e3378d8aa68e88224a85b95fa7289057f37768",
+      "status": "PASS",
+      "observation": "Twelve abstract panels visibly countable in a four-by-three grid; no fictional task dashboards or numbers."
+    },
+    {
+      "cut": "07",
+      "file": "out/opening/playback/cut07_31.50s.png",
+      "sha256": "96bc0a768c8e547e1c006ea5f66ef6e9cd67f6e4ec4f5f88a5909256adbbfc16",
+      "status": "PASS",
+      "observation": "Distinct sparse three-frame composition; exact Markdown-approved preview wording, no actual task detail."
+    },
+    {
+      "cut": "08",
+      "file": "out/opening/playback/cut08_38.50s.png",
+      "sha256": "f2547cc35ba649b0ae9575091a16878b433484a1fca76fef9ef4c179487b5172",
+      "status": "PASS",
+      "observation": "Four exact approved items, including 새로운 분석 관점; unlabelled abstract rising line/bars with no measured values, units or performance percentages."
+    },
+    {
+      "cut": "09",
+      "file": "out/opening/playback/cut09_44.00s.png",
+      "sha256": "984ba141c6d8c7cdec2c10bef232e2c9b24ea3451fc1b312c61a4272d5b4ff39",
+      "status": "PASS",
+      "observation": "Exact stable title and secondary line over a golden wafer; no outstanding-project, presenter or ending content."
+    }
+  ],
+  "additional_transition": {
+    "time_seconds": 17.1,
+    "file": "out/opening/review/transition_17.10.png",
+    "sha256": "38c32754276718fad50846fc278c427fb8926ec25a6c463e018c7b88e6973101",
+    "status": "PASS",
+    "observation": "Expected brief cross-dissolve of outgoing heading and incoming main title. A single narration caption is present, with no doubled caption or clipping. Both headings briefly coexist during the 0.32-second dissolve; stable scene compositions remain unobstructed."
+  },
+  "gates": {
+    "exact_approved_visible_text": "PASS",
+    "accurate_narration_captions": "PASS",
+    "all_nine_scene_order_and_composition": "PASS",
+    "black_gold_amber_tone": "PASS",
+    "readable_korean_and_english_no_clipping": "PASS",
+    "no_invented_task_ui_features_values_results": "PASS",
+    "twelve_abstract_panels_in_cut06": "PASS",
+    "cut07_distinct_abstract_composition": "PASS",
+    "cut08_program_direction_without_measured_claims": "PASS",
+    "no_task_film_or_separate_ending_content": "PASS",
+    "full_hd_encoded_frame_quality": "PASS"
+  },
+  "corroborating_reports": {
+    "final-validation.json": "PASS; 1920x1080,30fps,46seconds,1380frames,H.264/AAC,full decode,unchanged video packet hash,no black-frame events.",
+    "playback-validation.json": "PASS; full real-time playback reached ended at46seconds with no mid-play seeks/pauses or media errors; three dropped playback frames were recorded during screenshot capture and zero corrupted frames.",
+    "layout-validation.json": "PASS;21source-time samples and0text safe-margin issues."
+  },
+  "timing_adjustment": "CUT01 through CUT08 preserve source timings. CUT09 extends42–45 to42–46 to preserve the final approved sentence at1.0x speed within the approximately45-second requirement.",
+  "actionable_defects": []
+}

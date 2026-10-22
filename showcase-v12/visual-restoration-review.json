@@ -1,0 +1,24 @@
+{
+  "revision": 12,
+  "status": "VISUAL_PREVIEW_READY_AUDIO_INCOMPLETE",
+  "final_production_complete": false,
+  "preview_only": true,
+  "checks": {
+    "only_stage_and_renderer_changed": true,
+    "source_spec_unchanged": true,
+    "12_titles_2s": true,
+    "all81_stills": true,
+    "36_first_photo_probes_without_overlay": true,
+    "no_duplicate_narration_captions": true,
+    "current_revision11_video_preserved": true
+  },
+  "copied_visual_inputs": 118,
+  "changed_visual_source_files": [
+    "stage.mjs",
+    "render.mjs"
+  ],
+  "timeline": "timeline-title-preview.json",
+  "final_audio_ready": false,
+  "final_video_rendered": false,
+  "title_contact_sheet": "out/showcase-v12/task-title-restoration-contact-sheet.jpg"
+}

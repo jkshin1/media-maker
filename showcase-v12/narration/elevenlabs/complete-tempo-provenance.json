@@ -1,0 +1,23 @@
+{
+  "speech_tempo_requested": 1.15,
+  "filter": "atempo=1.15",
+  "continuous_master_processing": true,
+  "pitch_cents": 0,
+  "sample_rate": 48000,
+  "channels": 1,
+  "source": "narration/elevenlabs/complete-original.wav",
+  "source_sha256": "690d6bd18a7310c269484e09ba2aa1861282a2ec3bb97d67aad706ffdcca5f5c",
+  "source_pcm_sha256": "91e7f7eed3bef5e004b0bb059e65018ff51da439ffb09d4e11e106a60a914a69",
+  "source_samples": 16250880,
+  "output": "narration/elevenlabs/complete-tempo1.15.wav",
+  "output_sha256": "258985ff5233f26f96b3fb2a98395e71e47a11e92669006c4842ed7f699cba89",
+  "output_pcm_sha256": "bc6c7c8c6c255b037c761fa55c0d8de0aefba52118e5e596fef36ac93ab8866d",
+  "output_samples": 14131046,
+  "duration_ratio_measured": 1.150012532688663,
+  "raw_concat_exact": true,
+  "source_sample_rate_unchanged": true,
+  "only_time_processor": "atempo",
+  "pitch_or_asetrate_filter": false,
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "scope": "Two independently generated raw takes are concatenated as exact PCM. A single tempo-only pass transforms that continuous composite. PCM identity to the raw originals after tempo processing is not claimed."
+}

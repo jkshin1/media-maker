@@ -1,0 +1,2014 @@
+{
+  "revision": 12,
+  "preview_only": false,
+  "fps": 30,
+  "frames": 9724,
+  "duration": 324.1333333333333,
+  "duration_seconds": 324.1333333333333,
+  "max_seconds": 330,
+  "allow_over_five_minutes": true,
+  "speech_tempo": 1.15,
+  "tempo": 1.15,
+  "additional_tempo": 1,
+  "pitch_cents": 0,
+  "generation_mode": "two_part_with_user_authorization",
+  "two_part_exception_authorized": true,
+  "source_identity_sha256": "9c7a0d8acfd1e1a88ead58c7146ead57147d2e5963f53f19173833e6927c4b9c",
+  "source_voice_seconds": 294.3967916666667,
+  "source_voice_samples": 14131046,
+  "source_voice_clock": "Complete globally atempo1.15-processed master; source clocks never use old single-take or raw/1.15 approximations.",
+  "final_card_seconds": 4,
+  "task_title_seconds": 2,
+  "task_title_count": 12,
+  "entries": [
+    {
+      "section_id": "opening",
+      "kind": "cut",
+      "cut_id": "opening_cut1",
+      "cut_index": 0,
+      "start_frame": 0,
+      "end_frame": 69,
+      "start": 0.0,
+      "end": 2.3,
+      "caption": "R&D 업무에 AI를 더합니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "cut",
+      "cut_id": "opening_cut2",
+      "cut_index": 1,
+      "start_frame": 69,
+      "end_frame": 177,
+      "start": 2.3,
+      "end": 5.9,
+      "caption": "더 나은 R&D 공정을 위한 변화가 시작됩니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "cut",
+      "cut_id": "opening_cut3",
+      "cut_index": 2,
+      "start_frame": 177,
+      "end_frame": 326,
+      "start": 5.9,
+      "end": 10.866666666666667,
+      "caption": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "cut",
+      "cut_id": "opening_cut4",
+      "cut_index": 3,
+      "start_frame": 326,
+      "end_frame": 430,
+      "start": 10.866666666666667,
+      "end": 14.333333333333334,
+      "caption": "현업의 다양한 과제를 해결하기 위한 도전입니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "cut",
+      "cut_id": "opening_cut5",
+      "cut_index": 4,
+      "start_frame": 430,
+      "end_frame": 580,
+      "start": 14.333333333333334,
+      "end": 19.333333333333332,
+      "caption": "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track."
+    },
+    {
+      "section_id": "opening",
+      "kind": "cut",
+      "cut_id": "opening_cut6",
+      "cut_index": 5,
+      "start_frame": 580,
+      "end_frame": 740,
+      "start": 19.333333333333332,
+      "end": 24.666666666666668,
+      "caption": "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "cut",
+      "cut_id": "opening_cut7",
+      "cut_index": 6,
+      "start_frame": 740,
+      "end_frame": 895,
+      "start": 24.666666666666668,
+      "end": 29.833333333333332,
+      "caption": "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "cut",
+      "cut_id": "opening_cut8",
+      "cut_index": 7,
+      "start_frame": 895,
+      "end_frame": 1063,
+      "start": 29.833333333333332,
+      "end": 35.43333333333333,
+      "caption": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "cut",
+      "cut_id": "opening_cut9",
+      "cut_index": 8,
+      "start_frame": 1063,
+      "end_frame": 1191,
+      "start": 35.43333333333333,
+      "end": 39.7,
+      "caption": "지금부터 12개의 AI Agent 과제를 소개합니다."
+    },
+    {
+      "section_id": "task11",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 1191,
+      "end_frame": 1251,
+      "start": 39.7,
+      "end": 41.7,
+      "caption": ""
+    },
+    {
+      "section_id": "task11",
+      "kind": "cut",
+      "cut_id": "task11_cut1",
+      "cut_index": 0,
+      "start_frame": 1251,
+      "end_frame": 1387,
+      "start": 41.7,
+      "end": 46.233333333333334,
+      "caption": "여러 도구를 오가며 경험에 의존해 열화 원인을 분석했습니다."
+    },
+    {
+      "section_id": "task11",
+      "kind": "cut",
+      "cut_id": "task11_cut2",
+      "cut_index": 1,
+      "start_frame": 1387,
+      "end_frame": 1543,
+      "start": 46.233333333333334,
+      "end": 51.43333333333333,
+      "caption": "Lot ID를 입력하면 Map과 Trend, K-param을 함께 조회합니다."
+    },
+    {
+      "section_id": "task11",
+      "kind": "cut",
+      "cut_id": "task11_cut3",
+      "cut_index": 2,
+      "start_frame": 1543,
+      "end_frame": 1689,
+      "start": 51.43333333333333,
+      "end": 56.3,
+      "caption": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다."
+    },
+    {
+      "section_id": "task11",
+      "kind": "cut",
+      "cut_id": "task11_cut4",
+      "cut_index": 3,
+      "start_frame": 1689,
+      "end_frame": 1846,
+      "start": 56.3,
+      "end": 61.53333333333333,
+      "caption": "기존 건당 15분에서 1시간 걸리던 분석 시간을 몇 분 수준으로 줄였습니다."
+    },
+    {
+      "section_id": "task11",
+      "kind": "cut",
+      "cut_id": "task11_cut5",
+      "cut_index": 4,
+      "start_frame": 1846,
+      "end_frame": 1989,
+      "start": 61.53333333333333,
+      "end": 66.3,
+      "caption": "반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다."
+    },
+    {
+      "section_id": "task13",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 1989,
+      "end_frame": 2049,
+      "start": 66.3,
+      "end": 68.3,
+      "caption": ""
+    },
+    {
+      "section_id": "task13",
+      "kind": "cut",
+      "cut_id": "task13_cut1",
+      "cut_index": 0,
+      "start_frame": 2049,
+      "end_frame": 2182,
+      "start": 68.3,
+      "end": 72.73333333333333,
+      "caption": "장비 이슈와 PM 계획을 모아 일일 보고를 반복 작성했습니다."
+    },
+    {
+      "section_id": "task13",
+      "kind": "cut",
+      "cut_id": "task13_cut2",
+      "cut_index": 1,
+      "start_frame": 2182,
+      "end_frame": 2294,
+      "start": 72.73333333333333,
+      "end": 76.46666666666667,
+      "caption": "Agent가 장비 이력과 PM 계획을 조회합니다."
+    },
+    {
+      "section_id": "task13",
+      "kind": "cut",
+      "cut_id": "task13_cut3",
+      "cut_index": 2,
+      "start_frame": 2294,
+      "end_frame": 2459,
+      "start": 76.46666666666667,
+      "end": 81.96666666666667,
+      "caption": "내용을 요약해 오전 6시에 표준 HTML 보고 메일을 자동 발송합니다."
+    },
+    {
+      "section_id": "task13",
+      "kind": "cut",
+      "cut_id": "task13_cut4",
+      "cut_index": 3,
+      "start_frame": 2459,
+      "end_frame": 2653,
+      "start": 81.96666666666667,
+      "end": 88.43333333333334,
+      "caption": "일일 보고 작성 시간을 20분에서 0분으로 줄이고, 연간 약 122시간을 절감합니다."
+    },
+    {
+      "section_id": "task13",
+      "kind": "cut",
+      "cut_id": "task13_cut5",
+      "cut_index": 4,
+      "start_frame": 2653,
+      "end_frame": 2782,
+      "start": 88.43333333333334,
+      "end": 92.73333333333333,
+      "caption": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다."
+    },
+    {
+      "section_id": "task7",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 2782,
+      "end_frame": 2842,
+      "start": 92.73333333333333,
+      "end": 94.73333333333333,
+      "caption": ""
+    },
+    {
+      "section_id": "task7",
+      "kind": "cut",
+      "cut_id": "task7_cut1",
+      "cut_index": 0,
+      "start_frame": 2842,
+      "end_frame": 2948,
+      "start": 94.73333333333333,
+      "end": 98.26666666666667,
+      "caption": "과거 자료 탐색과 전문가 문의에 의존했습니다."
+    },
+    {
+      "section_id": "task7",
+      "kind": "cut",
+      "cut_id": "task7_cut2",
+      "cut_index": 1,
+      "start_frame": 2948,
+      "end_frame": 3068,
+      "start": 98.26666666666667,
+      "end": 102.26666666666667,
+      "caption": "평가 목적을 입력하면 내부 지식 아카이브를 검색합니다."
+    },
+    {
+      "section_id": "task7",
+      "kind": "cut",
+      "cut_id": "task7_cut3",
+      "cut_index": 2,
+      "start_frame": 3068,
+      "end_frame": 3169,
+      "start": 102.26666666666667,
+      "end": 105.63333333333334,
+      "caption": "관련 Recipe와 근거 자료를 함께 제안합니다."
+    },
+    {
+      "section_id": "task7",
+      "kind": "cut",
+      "cut_id": "task7_cut4",
+      "cut_index": 3,
+      "start_frame": 3169,
+      "end_frame": 3309,
+      "start": 105.63333333333334,
+      "end": 110.3,
+      "caption": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다."
+    },
+    {
+      "section_id": "task7",
+      "kind": "cut",
+      "cut_id": "task7_cut5",
+      "cut_index": 4,
+      "start_frame": 3309,
+      "end_frame": 3466,
+      "start": 110.3,
+      "end": 115.53333333333333,
+      "caption": "전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다."
+    },
+    {
+      "section_id": "task17",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 3466,
+      "end_frame": 3526,
+      "start": 115.53333333333333,
+      "end": 117.53333333333333,
+      "caption": ""
+    },
+    {
+      "section_id": "task17",
+      "kind": "cut",
+      "cut_id": "task17_cut1",
+      "cut_index": 0,
+      "start_frame": 3526,
+      "end_frame": 3653,
+      "start": 117.53333333333333,
+      "end": 121.76666666666667,
+      "caption": "TEM 이미지 측정과 기록을 수작업으로 진행해 편차가 생겼습니다."
+    },
+    {
+      "section_id": "task17",
+      "kind": "cut",
+      "cut_id": "task17_cut2",
+      "cut_index": 1,
+      "start_frame": 3653,
+      "end_frame": 3750,
+      "start": 121.76666666666667,
+      "end": 125.0,
+      "caption": "이미지 기울기와 측정 위치를 분석합니다."
+    },
+    {
+      "section_id": "task17",
+      "kind": "cut",
+      "cut_id": "task17_cut3",
+      "cut_index": 2,
+      "start_frame": 3750,
+      "end_frame": 3928,
+      "start": 125.0,
+      "end": 130.93333333333334,
+      "caption": "측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다."
+    },
+    {
+      "section_id": "task17",
+      "kind": "cut",
+      "cut_id": "task17_cut4",
+      "cut_index": 3,
+      "start_frame": 3928,
+      "end_frame": 4040,
+      "start": 130.93333333333334,
+      "end": 134.66666666666666,
+      "caption": "이미지당 측정 시간을 5분에서 6초로 줄입니다."
+    },
+    {
+      "section_id": "task5",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 4040,
+      "end_frame": 4100,
+      "start": 134.66666666666666,
+      "end": 136.66666666666666,
+      "caption": ""
+    },
+    {
+      "section_id": "task5",
+      "kind": "cut",
+      "cut_id": "task5_cut1",
+      "cut_index": 0,
+      "start_frame": 4100,
+      "end_frame": 4217,
+      "start": 136.66666666666666,
+      "end": 140.56666666666666,
+      "caption": "여러 파일과 표를 오가며 자료를 비교·취합했습니다."
+    },
+    {
+      "section_id": "task5",
+      "kind": "cut",
+      "cut_id": "task5_cut2",
+      "cut_index": 1,
+      "start_frame": 4217,
+      "end_frame": 4293,
+      "start": 140.56666666666666,
+      "end": 143.1,
+      "caption": "데이터를 Working Board에 등록합니다."
+    },
+    {
+      "section_id": "task5",
+      "kind": "cut",
+      "cut_id": "task5_cut3",
+      "cut_index": 2,
+      "start_frame": 4293,
+      "end_frame": 4446,
+      "start": 143.1,
+      "end": 148.2,
+      "caption": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다."
+    },
+    {
+      "section_id": "task5",
+      "kind": "cut",
+      "cut_id": "task5_cut4",
+      "cut_index": 3,
+      "start_frame": 4446,
+      "end_frame": 4582,
+      "start": 148.2,
+      "end": 152.73333333333332,
+      "caption": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다."
+    },
+    {
+      "section_id": "task5",
+      "kind": "cut",
+      "cut_id": "task5_cut5",
+      "cut_index": 4,
+      "start_frame": 4582,
+      "end_frame": 4719,
+      "start": 152.73333333333332,
+      "end": 157.3,
+      "caption": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다."
+    },
+    {
+      "section_id": "task9",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 4719,
+      "end_frame": 4779,
+      "start": 157.3,
+      "end": 159.3,
+      "caption": ""
+    },
+    {
+      "section_id": "task9",
+      "kind": "cut",
+      "cut_id": "task9_cut1",
+      "cut_index": 0,
+      "start_frame": 4779,
+      "end_frame": 4907,
+      "start": 159.3,
+      "end": 163.56666666666666,
+      "caption": "Spec out 발생 시 공정 이력을 조사하고 데이터를 가공했습니다."
+    },
+    {
+      "section_id": "task9",
+      "kind": "cut",
+      "cut_id": "task9_cut2",
+      "cut_index": 1,
+      "start_frame": 4907,
+      "end_frame": 5045,
+      "start": 163.56666666666666,
+      "end": 168.16666666666666,
+      "caption": "Lot ID와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다."
+    },
+    {
+      "section_id": "task9",
+      "kind": "cut",
+      "cut_id": "task9_cut3",
+      "cut_index": 2,
+      "start_frame": 5045,
+      "end_frame": 5205,
+      "start": 168.16666666666666,
+      "end": 173.5,
+      "caption": "상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다."
+    },
+    {
+      "section_id": "task9",
+      "kind": "cut",
+      "cut_id": "task9_cut4",
+      "cut_index": 3,
+      "start_frame": 5205,
+      "end_frame": 5293,
+      "start": 173.5,
+      "end": 176.43333333333334,
+      "caption": "분석 시간을 70퍼센트 이상 단축합니다."
+    },
+    {
+      "section_id": "task9",
+      "kind": "cut",
+      "cut_id": "task9_cut5",
+      "cut_index": 4,
+      "start_frame": 5293,
+      "end_frame": 5473,
+      "start": 176.43333333333334,
+      "end": 182.43333333333334,
+      "caption": "분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다."
+    },
+    {
+      "section_id": "task4",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 5473,
+      "end_frame": 5533,
+      "start": 182.43333333333334,
+      "end": 184.43333333333334,
+      "caption": ""
+    },
+    {
+      "section_id": "task4",
+      "kind": "cut",
+      "cut_id": "task4_cut1",
+      "cut_index": 0,
+      "start_frame": 5533,
+      "end_frame": 5696,
+      "start": 184.43333333333334,
+      "end": 189.86666666666667,
+      "caption": "Lot·장비·FDC를 따로 조회하고 DOE 결과를 공유하기 어려웠습니다."
+    },
+    {
+      "section_id": "task4",
+      "kind": "cut",
+      "cut_id": "task4_cut2",
+      "cut_index": 1,
+      "start_frame": 5696,
+      "end_frame": 5813,
+      "start": 189.86666666666667,
+      "end": 193.76666666666668,
+      "caption": "웹 플랫폼에서 현황과 모니터링 Trend를 통합 조회합니다."
+    },
+    {
+      "section_id": "task4",
+      "kind": "cut",
+      "cut_id": "task4_cut3",
+      "cut_index": 2,
+      "start_frame": 5813,
+      "end_frame": 5909,
+      "start": 193.76666666666668,
+      "end": 196.96666666666667,
+      "caption": "구성원이 DOE 평가 결과를 함께 확인합니다."
+    },
+    {
+      "section_id": "task4",
+      "kind": "cut",
+      "cut_id": "task4_cut4",
+      "cut_index": 3,
+      "start_frame": 5909,
+      "end_frame": 5995,
+      "start": 196.96666666666667,
+      "end": 199.83333333333334,
+      "caption": "시스템 이동과 데이터 가공 부담을 줄입니다."
+    },
+    {
+      "section_id": "task4",
+      "kind": "cut",
+      "cut_id": "task4_cut5",
+      "cut_index": 4,
+      "start_frame": 5995,
+      "end_frame": 6112,
+      "start": 199.83333333333334,
+      "end": 203.73333333333332,
+      "caption": "개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다."
+    },
+    {
+      "section_id": "task12",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 6112,
+      "end_frame": 6172,
+      "start": 203.73333333333332,
+      "end": 205.73333333333332,
+      "caption": ""
+    },
+    {
+      "section_id": "task12",
+      "kind": "cut",
+      "cut_id": "task12_cut1",
+      "cut_index": 0,
+      "start_frame": 6172,
+      "end_frame": 6286,
+      "start": 205.73333333333332,
+      "end": 209.53333333333333,
+      "caption": "경비를 엑셀로 집계하고 장비 이력을 따로 확인했습니다."
+    },
+    {
+      "section_id": "task12",
+      "kind": "cut",
+      "cut_id": "task12_cut2",
+      "cut_index": 1,
+      "start_frame": 6286,
+      "end_frame": 6417,
+      "start": 209.53333333333333,
+      "end": 213.9,
+      "caption": "경비와 장비 이력을 연결하고 22개 판단 지표를 추가했습니다."
+    },
+    {
+      "section_id": "task12",
+      "kind": "cut",
+      "cut_id": "task12_cut3",
+      "cut_index": 2,
+      "start_frame": 6417,
+      "end_frame": 6579,
+      "start": 213.9,
+      "end": 219.3,
+      "caption": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다."
+    },
+    {
+      "section_id": "task3",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 6579,
+      "end_frame": 6639,
+      "start": 219.3,
+      "end": 221.3,
+      "caption": ""
+    },
+    {
+      "section_id": "task3",
+      "kind": "cut",
+      "cut_id": "task3_cut1",
+      "cut_index": 0,
+      "start_frame": 6639,
+      "end_frame": 6788,
+      "start": 221.3,
+      "end": 226.26666666666668,
+      "caption": "Lot 분석을 위해 공정·장비·Inline 정보를 따로 조사했습니다."
+    },
+    {
+      "section_id": "task3",
+      "kind": "cut",
+      "cut_id": "task3_cut2",
+      "cut_index": 1,
+      "start_frame": 6788,
+      "end_frame": 6917,
+      "start": 226.26666666666668,
+      "end": 230.56666666666666,
+      "caption": "앱에서 Lot과 장비 이력, Inline 데이터를 조회하고 추출합니다."
+    },
+    {
+      "section_id": "task3",
+      "kind": "cut",
+      "cut_id": "task3_cut3",
+      "cut_index": 2,
+      "start_frame": 6917,
+      "end_frame": 7037,
+      "start": 230.56666666666666,
+      "end": 234.56666666666666,
+      "caption": "Lot 간 공정 수순과 장비, Recipe 차이를 비교합니다."
+    },
+    {
+      "section_id": "task3",
+      "kind": "cut",
+      "cut_id": "task3_cut4",
+      "cut_index": 3,
+      "start_frame": 7037,
+      "end_frame": 7185,
+      "start": 234.56666666666666,
+      "end": 239.5,
+      "caption": "Lot 한 건 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다."
+    },
+    {
+      "section_id": "task8",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 7185,
+      "end_frame": 7245,
+      "start": 239.5,
+      "end": 241.5,
+      "caption": ""
+    },
+    {
+      "section_id": "task8",
+      "kind": "cut",
+      "cut_id": "task8_cut1",
+      "cut_index": 0,
+      "start_frame": 7245,
+      "end_frame": 7358,
+      "start": 241.5,
+      "end": 245.26666666666668,
+      "caption": "공정 데이터를 조회하고 엑셀로 가공·시각화했습니다."
+    },
+    {
+      "section_id": "task8",
+      "kind": "cut",
+      "cut_id": "task8_cut2",
+      "cut_index": 1,
+      "start_frame": 7358,
+      "end_frame": 7443,
+      "start": 245.26666666666668,
+      "end": 248.1,
+      "caption": "필요한 공정 데이터를 자연어로 조회합니다."
+    },
+    {
+      "section_id": "task8",
+      "kind": "cut",
+      "cut_id": "task8_cut3",
+      "cut_index": 2,
+      "start_frame": 7443,
+      "end_frame": 7556,
+      "start": 248.1,
+      "end": 251.86666666666667,
+      "caption": "Wafer Map과 그래프로 시각화해 수동 가공을 간소화합니다."
+    },
+    {
+      "section_id": "task8",
+      "kind": "cut",
+      "cut_id": "task8_cut4",
+      "cut_index": 3,
+      "start_frame": 7556,
+      "end_frame": 7688,
+      "start": 251.86666666666667,
+      "end": 256.26666666666665,
+      "caption": "공정 데이터 조회와 시각화 업무 시간을 40퍼센트 이상 단축합니다."
+    },
+    {
+      "section_id": "task14",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 7688,
+      "end_frame": 7748,
+      "start": 256.26666666666665,
+      "end": 258.26666666666665,
+      "caption": ""
+    },
+    {
+      "section_id": "task14",
+      "kind": "cut",
+      "cut_id": "task14_cut1",
+      "cut_index": 0,
+      "start_frame": 7748,
+      "end_frame": 7890,
+      "start": 258.26666666666665,
+      "end": 263.0,
+      "caption": "여러 시스템에서 Lot·장비·TEM과 보고 정보를 따로 확인했습니다."
+    },
+    {
+      "section_id": "task14",
+      "kind": "cut",
+      "cut_id": "task14_cut2",
+      "cut_index": 1,
+      "start_frame": 7890,
+      "end_frame": 8049,
+      "start": 263.0,
+      "end": 268.3,
+      "caption": "하나의 앱에서 Lot과 장비 상태, TEM 쿼터와 의뢰 현황을 통합 조회합니다."
+    },
+    {
+      "section_id": "task14",
+      "kind": "cut",
+      "cut_id": "task14_cut3",
+      "cut_index": 2,
+      "start_frame": 8049,
+      "end_frame": 8164,
+      "start": 268.3,
+      "end": 272.1333333333333,
+      "caption": "Daily와 Weekly Report, 주말 근무자 안내를 자동화합니다."
+    },
+    {
+      "section_id": "task14",
+      "kind": "cut",
+      "cut_id": "task14_cut4",
+      "cut_index": 3,
+      "start_frame": 8164,
+      "end_frame": 8270,
+      "start": 272.1333333333333,
+      "end": 275.6666666666667,
+      "caption": "보고와 취합 업무 시간을 90퍼센트 이상 단축합니다."
+    },
+    {
+      "section_id": "task14",
+      "kind": "cut",
+      "cut_id": "task14_cut5",
+      "cut_index": 4,
+      "start_frame": 8270,
+      "end_frame": 8426,
+      "start": 275.6666666666667,
+      "end": 280.8666666666667,
+      "caption": "반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다."
+    },
+    {
+      "section_id": "task16",
+      "kind": "title",
+      "cut_id": null,
+      "cut_index": null,
+      "start_frame": 8426,
+      "end_frame": 8486,
+      "start": 280.8666666666667,
+      "end": 282.8666666666667,
+      "caption": ""
+    },
+    {
+      "section_id": "task16",
+      "kind": "cut",
+      "cut_id": "task16_cut1",
+      "cut_index": 0,
+      "start_frame": 8486,
+      "end_frame": 8601,
+      "start": 282.8666666666667,
+      "end": 286.7,
+      "caption": "대량 데이터를 가공하고 오계측을 육안으로 검토했습니다."
+    },
+    {
+      "section_id": "task16",
+      "kind": "cut",
+      "cut_id": "task16_cut2",
+      "cut_index": 1,
+      "start_frame": 8601,
+      "end_frame": 8710,
+      "start": 286.7,
+      "end": 290.3333333333333,
+      "caption": "계측 데이터의 수집과 전처리, 적재를 자동화합니다."
+    },
+    {
+      "section_id": "task16",
+      "kind": "cut",
+      "cut_id": "task16_cut3",
+      "cut_index": 2,
+      "start_frame": 8710,
+      "end_frame": 8843,
+      "start": 290.3333333333333,
+      "end": 294.76666666666665,
+      "caption": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다."
+    },
+    {
+      "section_id": "task16",
+      "kind": "cut",
+      "cut_id": "task16_cut4",
+      "cut_index": 3,
+      "start_frame": 8843,
+      "end_frame": 9079,
+      "start": 294.76666666666665,
+      "end": 302.6333333333333,
+      "caption": "수집 시간을 1200초에서 75초로 줄이고, 단일 층 검증의 리뷰 대상은 317건에서 19건으로 줄입니다."
+    },
+    {
+      "section_id": "task16",
+      "kind": "cut",
+      "cut_id": "task16_cut5",
+      "cut_index": 4,
+      "start_frame": 9079,
+      "end_frame": 9156,
+      "start": 302.6333333333333,
+      "end": 305.2,
+      "caption": "담당자의 검토 범위를 줄입니다."
+    },
+    {
+      "section_id": "ending",
+      "kind": "cut",
+      "cut_id": "ending_cut1",
+      "cut_index": 0,
+      "start_frame": 9156,
+      "end_frame": 9222,
+      "start": 305.2,
+      "end": 307.4,
+      "caption": "서로 다른 현장의 과제들이,"
+    },
+    {
+      "section_id": "ending",
+      "kind": "cut",
+      "cut_id": "ending_cut2",
+      "cut_index": 1,
+      "start_frame": 9222,
+      "end_frame": 9311,
+      "start": 307.4,
+      "end": 310.3666666666667,
+      "caption": "AI와 함께 새로운 변화를 만들어갑니다."
+    },
+    {
+      "section_id": "ending",
+      "kind": "cut",
+      "cut_id": "ending_cut3",
+      "cut_index": 2,
+      "start_frame": 9311,
+      "end_frame": 9434,
+      "start": 310.3666666666667,
+      "end": 314.46666666666664,
+      "caption": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지."
+    },
+    {
+      "section_id": "ending",
+      "kind": "cut",
+      "cut_id": "ending_cut5",
+      "cut_index": 4,
+      "start_frame": 9434,
+      "end_frame": 9604,
+      "start": 314.46666666666664,
+      "end": 320.1333333333333,
+      "caption": "12개의 AI Agent가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다."
+    },
+    {
+      "section_id": "ending",
+      "kind": "silent",
+      "cut_id": "ending_cut6",
+      "cut_index": 5,
+      "start_frame": 9604,
+      "end_frame": 9724,
+      "start": 320.1333333333333,
+      "end": 324.1333333333333,
+      "caption": ""
+    }
+  ],
+  "sections": [
+    {
+      "id": "opening",
+      "section_id": "opening",
+      "type": "opening",
+      "start_frame": 0,
+      "start": 0.0,
+      "end_frame": 1191,
+      "end": 39.7
+    },
+    {
+      "id": "task11",
+      "section_id": "task11",
+      "type": "task",
+      "start_frame": 1191,
+      "start": 39.7,
+      "end_frame": 1989,
+      "end": 66.3
+    },
+    {
+      "id": "task13",
+      "section_id": "task13",
+      "type": "task",
+      "start_frame": 1989,
+      "start": 66.3,
+      "end_frame": 2782,
+      "end": 92.73333333333333
+    },
+    {
+      "id": "task7",
+      "section_id": "task7",
+      "type": "task",
+      "start_frame": 2782,
+      "start": 92.73333333333333,
+      "end_frame": 3466,
+      "end": 115.53333333333333
+    },
+    {
+      "id": "task17",
+      "section_id": "task17",
+      "type": "task",
+      "start_frame": 3466,
+      "start": 115.53333333333333,
+      "end_frame": 4040,
+      "end": 134.66666666666666
+    },
+    {
+      "id": "task5",
+      "section_id": "task5",
+      "type": "task",
+      "start_frame": 4040,
+      "start": 134.66666666666666,
+      "end_frame": 4719,
+      "end": 157.3
+    },
+    {
+      "id": "task9",
+      "section_id": "task9",
+      "type": "task",
+      "start_frame": 4719,
+      "start": 157.3,
+      "end_frame": 5473,
+      "end": 182.43333333333334
+    },
+    {
+      "id": "task4",
+      "section_id": "task4",
+      "type": "task",
+      "start_frame": 5473,
+      "start": 182.43333333333334,
+      "end_frame": 6112,
+      "end": 203.73333333333332
+    },
+    {
+      "id": "task12",
+      "section_id": "task12",
+      "type": "task",
+      "start_frame": 6112,
+      "start": 203.73333333333332,
+      "end_frame": 6579,
+      "end": 219.3
+    },
+    {
+      "id": "task3",
+      "section_id": "task3",
+      "type": "task",
+      "start_frame": 6579,
+      "start": 219.3,
+      "end_frame": 7185,
+      "end": 239.5
+    },
+    {
+      "id": "task8",
+      "section_id": "task8",
+      "type": "task",
+      "start_frame": 7185,
+      "start": 239.5,
+      "end_frame": 7688,
+      "end": 256.26666666666665
+    },
+    {
+      "id": "task14",
+      "section_id": "task14",
+      "type": "task",
+      "start_frame": 7688,
+      "start": 256.26666666666665,
+      "end_frame": 8426,
+      "end": 280.8666666666667
+    },
+    {
+      "id": "task16",
+      "section_id": "task16",
+      "type": "task",
+      "start_frame": 8426,
+      "start": 280.8666666666667,
+      "end_frame": 9156,
+      "end": 305.2
+    },
+    {
+      "id": "ending",
+      "section_id": "ending",
+      "type": "ending",
+      "start_frame": 9156,
+      "start": 305.2,
+      "end_frame": 9724,
+      "end": 324.1333333333333
+    }
+  ],
+  "audio_segments": [
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 0,
+      "source_end_sample": 107200,
+      "source_start": 0.0,
+      "source_end": 2.2333333333333334,
+      "timeline_start_sample": 0,
+      "timeline_end_sample": 107200,
+      "timeline_start": 0.0,
+      "timeline_end": 2.2333333333333334,
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut1"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "01bee5d7248363d2ed4e232761423ac9534fde5a7b72823cb6f1e2182930a025"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 107200,
+      "source_end_sample": 278400,
+      "source_start": 2.2333333333333334,
+      "source_end": 5.8,
+      "timeline_start_sample": 110400,
+      "timeline_end_sample": 281600,
+      "timeline_start": 2.3,
+      "timeline_end": 5.866666666666666,
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut2"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "d681854316cfd45aa69a6d04c9e068ab658ba5f1c7345b9a6574ba0bda38b8cb"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 278400,
+      "source_end_sample": 494400,
+      "source_start": 5.8,
+      "source_end": 10.3,
+      "timeline_start_sample": 283200,
+      "timeline_end_sample": 499200,
+      "timeline_start": 5.9,
+      "timeline_end": 10.4,
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut3"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "2c2858d332b9642f6a9e94a84f59953fdf8c33907c3c873d482ac9b9bb121c5c"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 494400,
+      "source_end_sample": 660800,
+      "source_start": 10.3,
+      "source_end": 13.766666666666667,
+      "timeline_start_sample": 521600,
+      "timeline_end_sample": 688000,
+      "timeline_start": 10.866666666666667,
+      "timeline_end": 14.333333333333334,
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut4"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "68b5030b41fd9fded7693e60210cc45b3e88546501b15af57cf473f70117bb65"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 660800,
+      "source_end_sample": 900800,
+      "source_start": 13.766666666666667,
+      "source_end": 18.766666666666666,
+      "timeline_start_sample": 688000,
+      "timeline_end_sample": 928000,
+      "timeline_start": 14.333333333333334,
+      "timeline_end": 19.333333333333332,
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut5"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "cff02725d7438e1662831fed8639ad8d69fb35945c343e831c05ea00cc4385b2"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 900800,
+      "source_end_sample": 1156800,
+      "source_start": 18.766666666666666,
+      "source_end": 24.1,
+      "timeline_start_sample": 928000,
+      "timeline_end_sample": 1184000,
+      "timeline_start": 19.333333333333332,
+      "timeline_end": 24.666666666666668,
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut6"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "ce678531f4b0de0c6146caa8283e19571a5f5f69c15e381a4c17b1a0d0a8666d"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 1156800,
+      "source_end_sample": 1385600,
+      "source_start": 24.1,
+      "source_end": 28.866666666666667,
+      "timeline_start_sample": 1184000,
+      "timeline_end_sample": 1412800,
+      "timeline_start": 24.666666666666668,
+      "timeline_end": 29.433333333333334,
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut7"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "c21f28451896494cc8c808147605bfc33fe544f4ae7c06c77447bff7408a3339"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 1385600,
+      "source_end_sample": 1640000,
+      "source_start": 28.866666666666667,
+      "source_end": 34.166666666666664,
+      "timeline_start_sample": 1432000,
+      "timeline_end_sample": 1686400,
+      "timeline_start": 29.833333333333332,
+      "timeline_end": 35.13333333333333,
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut8"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "40e6a2aa322731bef06e814c8eb453621e95a769cd95ec727673f56145d5b717"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 1640000,
+      "source_end_sample": 1828800,
+      "source_start": 34.166666666666664,
+      "source_end": 38.1,
+      "timeline_start_sample": 1700800,
+      "timeline_end_sample": 1889600,
+      "timeline_start": 35.43333333333333,
+      "timeline_end": 39.36666666666667,
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut9"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "d969849e1d498bd2665f7018556e4073c04e5f42e5951297959b2d3e80a6a818"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 1828800,
+      "source_end_sample": 3009600,
+      "source_start": 38.1,
+      "source_end": 62.7,
+      "timeline_start_sample": 2001600,
+      "timeline_end_sample": 3182400,
+      "timeline_start": 41.7,
+      "timeline_end": 66.3,
+      "section_id": "task11",
+      "cut_ids": [
+        "task11_cut1",
+        "task11_cut2",
+        "task11_cut3",
+        "task11_cut4",
+        "task11_cut5"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "ca2d8c9c0b116a5605b5e690cb2bf738c9e380d102acdde15de9534a61930095"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 3009600,
+      "source_end_sample": 4182400,
+      "source_start": 62.7,
+      "source_end": 87.13333333333334,
+      "timeline_start_sample": 3278400,
+      "timeline_end_sample": 4451200,
+      "timeline_start": 68.3,
+      "timeline_end": 92.73333333333333,
+      "section_id": "task13",
+      "cut_ids": [
+        "task13_cut1",
+        "task13_cut2",
+        "task13_cut3",
+        "task13_cut4",
+        "task13_cut5"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "bf9fa6b22e6c99447d2ba3754dda395e5352facd0262b661c33b943efcfb30cd"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 4182400,
+      "source_end_sample": 5180800,
+      "source_start": 87.13333333333334,
+      "source_end": 107.93333333333334,
+      "timeline_start_sample": 4547200,
+      "timeline_end_sample": 5545600,
+      "timeline_start": 94.73333333333333,
+      "timeline_end": 115.53333333333333,
+      "section_id": "task7",
+      "cut_ids": [
+        "task7_cut1",
+        "task7_cut2",
+        "task7_cut3",
+        "task7_cut4",
+        "task7_cut5"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "ce549ca32ac5cf405f014682d78e2f0dba2f764a8cc6e4c8261b6e822f5bbe74"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 5180800,
+      "source_end_sample": 6003200,
+      "source_start": 107.93333333333334,
+      "source_end": 125.06666666666666,
+      "timeline_start_sample": 5641600,
+      "timeline_end_sample": 6464000,
+      "timeline_start": 117.53333333333333,
+      "timeline_end": 134.66666666666666,
+      "section_id": "task17",
+      "cut_ids": [
+        "task17_cut1",
+        "task17_cut2",
+        "task17_cut3",
+        "task17_cut4"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "258c5507ac72cee5d665c76cff9f6f4556d1bf102775762402274b03e10278a4"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 6003200,
+      "source_end_sample": 6993600,
+      "source_start": 125.06666666666666,
+      "source_end": 145.7,
+      "timeline_start_sample": 6560000,
+      "timeline_end_sample": 7550400,
+      "timeline_start": 136.66666666666666,
+      "timeline_end": 157.3,
+      "section_id": "task5",
+      "cut_ids": [
+        "task5_cut1",
+        "task5_cut2",
+        "task5_cut3",
+        "task5_cut4",
+        "task5_cut5"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "826f1a45d9c44d9a5985b940f2132fb01d131508d22b2a0740fce002b587373b"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 6993600,
+      "source_end_sample": 8104000,
+      "source_start": 145.7,
+      "source_end": 168.83333333333334,
+      "timeline_start_sample": 7646400,
+      "timeline_end_sample": 8756800,
+      "timeline_start": 159.3,
+      "timeline_end": 182.43333333333334,
+      "section_id": "task9",
+      "cut_ids": [
+        "task9_cut1",
+        "task9_cut2",
+        "task9_cut3",
+        "task9_cut4",
+        "task9_cut5"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "d43043cc2c5d90b0c583fc58caf8eabcdfaec7082a41c39d1ffc5d4a243c2521"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 8104000,
+      "source_end_sample": 9030400,
+      "source_start": 168.83333333333334,
+      "source_end": 188.13333333333333,
+      "timeline_start_sample": 8852800,
+      "timeline_end_sample": 9779200,
+      "timeline_start": 184.43333333333334,
+      "timeline_end": 203.73333333333332,
+      "section_id": "task4",
+      "cut_ids": [
+        "task4_cut1",
+        "task4_cut2",
+        "task4_cut3",
+        "task4_cut4",
+        "task4_cut5"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "eab7ced59aba0542b7638c611c7f50c3a340634a5299eb3adf7d4ba8191992cd"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 9030400,
+      "source_end_sample": 9681600,
+      "source_start": 188.13333333333333,
+      "source_end": 201.7,
+      "timeline_start_sample": 9875200,
+      "timeline_end_sample": 10526400,
+      "timeline_start": 205.73333333333332,
+      "timeline_end": 219.3,
+      "section_id": "task12",
+      "cut_ids": [
+        "task12_cut1",
+        "task12_cut2",
+        "task12_cut3"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "faa08ad98a2403cf8e29f93954d6a53292b77c50829c8349363efc79e065c1fa"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 9681600,
+      "source_end_sample": 10555200,
+      "source_start": 201.7,
+      "source_end": 219.9,
+      "timeline_start_sample": 10622400,
+      "timeline_end_sample": 11496000,
+      "timeline_start": 221.3,
+      "timeline_end": 239.5,
+      "section_id": "task3",
+      "cut_ids": [
+        "task3_cut1",
+        "task3_cut2",
+        "task3_cut3",
+        "task3_cut4"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "373a16be6c8c66e5d9d29df02be32099fe8595c8bcf853d85789178af9d52397"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 10555200,
+      "source_end_sample": 11264000,
+      "source_start": 219.9,
+      "source_end": 234.66666666666666,
+      "timeline_start_sample": 11592000,
+      "timeline_end_sample": 12300800,
+      "timeline_start": 241.5,
+      "timeline_end": 256.26666666666665,
+      "section_id": "task8",
+      "cut_ids": [
+        "task8_cut1",
+        "task8_cut2",
+        "task8_cut3",
+        "task8_cut4"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "18b1641e42e20e6b332bc96b6a964a576dc60beb36568d2c68e66032d6f94920"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 11264000,
+      "source_end_sample": 12348800,
+      "source_start": 234.66666666666666,
+      "source_end": 257.26666666666665,
+      "timeline_start_sample": 12396800,
+      "timeline_end_sample": 13481600,
+      "timeline_start": 258.26666666666665,
+      "timeline_end": 280.8666666666667,
+      "section_id": "task14",
+      "cut_ids": [
+        "task14_cut1",
+        "task14_cut2",
+        "task14_cut3",
+        "task14_cut4",
+        "task14_cut5"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "9eff8c69c0632865607b5f3506318414dc5420258b389e97d953e6cf2d387830"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 12348800,
+      "source_end_sample": 13420800,
+      "source_start": 257.26666666666665,
+      "source_end": 279.6,
+      "timeline_start_sample": 13577600,
+      "timeline_end_sample": 14649600,
+      "timeline_start": 282.8666666666667,
+      "timeline_end": 305.2,
+      "section_id": "task16",
+      "cut_ids": [
+        "task16_cut1",
+        "task16_cut2",
+        "task16_cut3",
+        "task16_cut4",
+        "task16_cut5"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "bd5236afab59b2b70b89c90281dbfce055c55e40f4cffccbff679680f6c71cb7"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 13420800,
+      "source_end_sample": 13521600,
+      "source_start": 279.6,
+      "source_end": 281.7,
+      "timeline_start_sample": 14649600,
+      "timeline_end_sample": 14750400,
+      "timeline_start": 305.2,
+      "timeline_end": 307.3,
+      "section_id": "ending",
+      "cut_ids": [
+        "ending_cut1"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "5d6d6da26e021509fd685addf393fb4f1d8bd0586b927aaa6ca17fcccc3c6aac"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 13521600,
+      "source_end_sample": 13664000,
+      "source_start": 281.7,
+      "source_end": 284.6666666666667,
+      "timeline_start_sample": 14755200,
+      "timeline_end_sample": 14897600,
+      "timeline_start": 307.4,
+      "timeline_end": 310.3666666666667,
+      "section_id": "ending",
+      "cut_ids": [
+        "ending_cut2"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "18b700bfbae58a4eee07dd618c603b27590b1d0fec723dc98b60b5877ce4a59c"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 13664000,
+      "source_end_sample": 13859200,
+      "source_start": 284.6666666666667,
+      "source_end": 288.73333333333335,
+      "timeline_start_sample": 14897600,
+      "timeline_end_sample": 15092800,
+      "timeline_start": 310.3666666666667,
+      "timeline_end": 314.43333333333334,
+      "section_id": "ending",
+      "cut_ids": [
+        "ending_cut3"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "b5eaffbf5bf0ad6650920de8d1a6c1f7cd56b518eb17632838e829f231acbf20"
+    },
+    {
+      "file": "narration/elevenlabs/complete-tempo1.15.wav",
+      "source_start_sample": 13859200,
+      "source_end_sample": 14131046,
+      "source_start": 288.73333333333335,
+      "source_end": 294.3967916666667,
+      "timeline_start_sample": 15094400,
+      "timeline_end_sample": 15366246,
+      "timeline_start": 314.46666666666664,
+      "timeline_end": 320.130125,
+      "section_id": "ending",
+      "cut_ids": [
+        "ending_cut5"
+      ],
+      "tempo_already_applied_to_master": 1.15,
+      "additional_tempo": 1,
+      "pcm_sha256": "1636530cb3a96b071388e4712e5e2f57e413d9d5ae69f9f438146f9255bff037"
+    }
+  ],
+  "alignment": "narration/alignment.json",
+  "alignment_sha256": "35d6e6ea96727858adf0b58d75439a22f55760da1fdad36ecd76b65792cb3b77",
+  "completeness_review": {
+    "path": "narration/completeness-review.json",
+    "sha256": "d98f78f96b78086230de98c42319395c8951262b1b67366b28e87ec17b137caa",
+    "status": "PASS_WITH_ASR_VARIANTS",
+    "source_identity_sha256": "9c7a0d8acfd1e1a88ead58c7146ead57147d2e5963f53f19173833e6927c4b9c",
+    "sentences_complete": 68
+  },
+  "placement_manifest": "narration/placement-manifest.json",
+  "timing_policy": {
+    "status": "PASS",
+    "source_seconds": 294.3967916666667,
+    "source_samples": 14131046,
+    "base_frames_including_restored_titles_and_card": 9672,
+    "base_seconds": 322.4,
+    "readability_budget_frames": 228,
+    "baseline_outer_deficit_requested_frames": 52,
+    "allocated_outer_readability_frames": 52,
+    "baseline_outer_minima_all_met": true,
+    "duration_seconds": 324.1333333333333,
+    "frames": 9724,
+    "maximum_seconds": 330,
+    "quiet_removed_samples": 0,
+    "all_fast_master_PCM_once": true,
+    "added_padding_samples": 1427354,
+    "restored_title_frames": 720,
+    "final_card_frames": 120,
+    "outer_allocation_policy": "Meet each baseline11 opening/ending spoken-cut minimum when possible; otherwise allocate available frames proportionally to those deficits. Never shorten source speech, remove quiet or alter1.15 tempo.",
+    "units": [
+      {
+        "section_id": "opening",
+        "cut_ids": [
+          "opening_cut1"
+        ],
+        "source_start_sample": 0,
+        "source_end_sample": 107200,
+        "audio_destination_start_sample": 0,
+        "audio_destination_end_sample": 107200,
+        "visual_start_frame": 0,
+        "visual_end_frame": 69,
+        "minimum_frames": 67,
+        "baseline_minimum_frames": 69,
+        "readability_hold_frames": 2,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "opening",
+        "cut_ids": [
+          "opening_cut2"
+        ],
+        "source_start_sample": 107200,
+        "source_end_sample": 278400,
+        "audio_destination_start_sample": 110400,
+        "audio_destination_end_sample": 281600,
+        "visual_start_frame": 69,
+        "visual_end_frame": 177,
+        "minimum_frames": 107,
+        "baseline_minimum_frames": 108,
+        "readability_hold_frames": 1,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "opening",
+        "cut_ids": [
+          "opening_cut3"
+        ],
+        "source_start_sample": 278400,
+        "source_end_sample": 494400,
+        "audio_destination_start_sample": 283200,
+        "audio_destination_end_sample": 499200,
+        "visual_start_frame": 177,
+        "visual_end_frame": 326,
+        "minimum_frames": 135,
+        "baseline_minimum_frames": 149,
+        "readability_hold_frames": 14,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "opening",
+        "cut_ids": [
+          "opening_cut4"
+        ],
+        "source_start_sample": 494400,
+        "source_end_sample": 660800,
+        "audio_destination_start_sample": 521600,
+        "audio_destination_end_sample": 688000,
+        "visual_start_frame": 326,
+        "visual_end_frame": 430,
+        "minimum_frames": 104,
+        "baseline_minimum_frames": 97,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "opening",
+        "cut_ids": [
+          "opening_cut5"
+        ],
+        "source_start_sample": 660800,
+        "source_end_sample": 900800,
+        "audio_destination_start_sample": 688000,
+        "audio_destination_end_sample": 928000,
+        "visual_start_frame": 430,
+        "visual_end_frame": 580,
+        "minimum_frames": 150,
+        "baseline_minimum_frames": 144,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "opening",
+        "cut_ids": [
+          "opening_cut6"
+        ],
+        "source_start_sample": 900800,
+        "source_end_sample": 1156800,
+        "audio_destination_start_sample": 928000,
+        "audio_destination_end_sample": 1184000,
+        "visual_start_frame": 580,
+        "visual_end_frame": 740,
+        "minimum_frames": 160,
+        "baseline_minimum_frames": 159,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "opening",
+        "cut_ids": [
+          "opening_cut7"
+        ],
+        "source_start_sample": 1156800,
+        "source_end_sample": 1385600,
+        "audio_destination_start_sample": 1184000,
+        "audio_destination_end_sample": 1412800,
+        "visual_start_frame": 740,
+        "visual_end_frame": 895,
+        "minimum_frames": 143,
+        "baseline_minimum_frames": 155,
+        "readability_hold_frames": 12,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "opening",
+        "cut_ids": [
+          "opening_cut8"
+        ],
+        "source_start_sample": 1385600,
+        "source_end_sample": 1640000,
+        "audio_destination_start_sample": 1432000,
+        "audio_destination_end_sample": 1686400,
+        "visual_start_frame": 895,
+        "visual_end_frame": 1063,
+        "minimum_frames": 159,
+        "baseline_minimum_frames": 168,
+        "readability_hold_frames": 9,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "opening",
+        "cut_ids": [
+          "opening_cut9"
+        ],
+        "source_start_sample": 1640000,
+        "source_end_sample": 1828800,
+        "audio_destination_start_sample": 1700800,
+        "audio_destination_end_sample": 1889600,
+        "visual_start_frame": 1063,
+        "visual_end_frame": 1191,
+        "minimum_frames": 118,
+        "baseline_minimum_frames": 128,
+        "readability_hold_frames": 10,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task11",
+        "cut_ids": [
+          "task11_cut1",
+          "task11_cut2",
+          "task11_cut3",
+          "task11_cut4",
+          "task11_cut5"
+        ],
+        "source_start_sample": 1828800,
+        "source_end_sample": 3009600,
+        "audio_destination_start_sample": 2001600,
+        "audio_destination_end_sample": 3182400,
+        "visual_start_frame": 1251,
+        "visual_end_frame": 1989,
+        "minimum_frames": 738,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task13",
+        "cut_ids": [
+          "task13_cut1",
+          "task13_cut2",
+          "task13_cut3",
+          "task13_cut4",
+          "task13_cut5"
+        ],
+        "source_start_sample": 3009600,
+        "source_end_sample": 4182400,
+        "audio_destination_start_sample": 3278400,
+        "audio_destination_end_sample": 4451200,
+        "visual_start_frame": 2049,
+        "visual_end_frame": 2782,
+        "minimum_frames": 733,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task7",
+        "cut_ids": [
+          "task7_cut1",
+          "task7_cut2",
+          "task7_cut3",
+          "task7_cut4",
+          "task7_cut5"
+        ],
+        "source_start_sample": 4182400,
+        "source_end_sample": 5180800,
+        "audio_destination_start_sample": 4547200,
+        "audio_destination_end_sample": 5545600,
+        "visual_start_frame": 2842,
+        "visual_end_frame": 3466,
+        "minimum_frames": 624,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task17",
+        "cut_ids": [
+          "task17_cut1",
+          "task17_cut2",
+          "task17_cut3",
+          "task17_cut4"
+        ],
+        "source_start_sample": 5180800,
+        "source_end_sample": 6003200,
+        "audio_destination_start_sample": 5641600,
+        "audio_destination_end_sample": 6464000,
+        "visual_start_frame": 3526,
+        "visual_end_frame": 4040,
+        "minimum_frames": 514,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task5",
+        "cut_ids": [
+          "task5_cut1",
+          "task5_cut2",
+          "task5_cut3",
+          "task5_cut4",
+          "task5_cut5"
+        ],
+        "source_start_sample": 6003200,
+        "source_end_sample": 6993600,
+        "audio_destination_start_sample": 6560000,
+        "audio_destination_end_sample": 7550400,
+        "visual_start_frame": 4100,
+        "visual_end_frame": 4719,
+        "minimum_frames": 619,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task9",
+        "cut_ids": [
+          "task9_cut1",
+          "task9_cut2",
+          "task9_cut3",
+          "task9_cut4",
+          "task9_cut5"
+        ],
+        "source_start_sample": 6993600,
+        "source_end_sample": 8104000,
+        "audio_destination_start_sample": 7646400,
+        "audio_destination_end_sample": 8756800,
+        "visual_start_frame": 4779,
+        "visual_end_frame": 5473,
+        "minimum_frames": 694,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task4",
+        "cut_ids": [
+          "task4_cut1",
+          "task4_cut2",
+          "task4_cut3",
+          "task4_cut4",
+          "task4_cut5"
+        ],
+        "source_start_sample": 8104000,
+        "source_end_sample": 9030400,
+        "audio_destination_start_sample": 8852800,
+        "audio_destination_end_sample": 9779200,
+        "visual_start_frame": 5533,
+        "visual_end_frame": 6112,
+        "minimum_frames": 579,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task12",
+        "cut_ids": [
+          "task12_cut1",
+          "task12_cut2",
+          "task12_cut3"
+        ],
+        "source_start_sample": 9030400,
+        "source_end_sample": 9681600,
+        "audio_destination_start_sample": 9875200,
+        "audio_destination_end_sample": 10526400,
+        "visual_start_frame": 6172,
+        "visual_end_frame": 6579,
+        "minimum_frames": 407,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task3",
+        "cut_ids": [
+          "task3_cut1",
+          "task3_cut2",
+          "task3_cut3",
+          "task3_cut4"
+        ],
+        "source_start_sample": 9681600,
+        "source_end_sample": 10555200,
+        "audio_destination_start_sample": 10622400,
+        "audio_destination_end_sample": 11496000,
+        "visual_start_frame": 6639,
+        "visual_end_frame": 7185,
+        "minimum_frames": 546,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task8",
+        "cut_ids": [
+          "task8_cut1",
+          "task8_cut2",
+          "task8_cut3",
+          "task8_cut4"
+        ],
+        "source_start_sample": 10555200,
+        "source_end_sample": 11264000,
+        "audio_destination_start_sample": 11592000,
+        "audio_destination_end_sample": 12300800,
+        "visual_start_frame": 7245,
+        "visual_end_frame": 7688,
+        "minimum_frames": 443,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task14",
+        "cut_ids": [
+          "task14_cut1",
+          "task14_cut2",
+          "task14_cut3",
+          "task14_cut4",
+          "task14_cut5"
+        ],
+        "source_start_sample": 11264000,
+        "source_end_sample": 12348800,
+        "audio_destination_start_sample": 12396800,
+        "audio_destination_end_sample": 13481600,
+        "visual_start_frame": 7748,
+        "visual_end_frame": 8426,
+        "minimum_frames": 678,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "task16",
+        "cut_ids": [
+          "task16_cut1",
+          "task16_cut2",
+          "task16_cut3",
+          "task16_cut4",
+          "task16_cut5"
+        ],
+        "source_start_sample": 12348800,
+        "source_end_sample": 13420800,
+        "audio_destination_start_sample": 13577600,
+        "audio_destination_end_sample": 14649600,
+        "visual_start_frame": 8486,
+        "visual_end_frame": 9156,
+        "minimum_frames": 670,
+        "baseline_minimum_frames": 0,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "ending",
+        "cut_ids": [
+          "ending_cut1"
+        ],
+        "source_start_sample": 13420800,
+        "source_end_sample": 13521600,
+        "audio_destination_start_sample": 14649600,
+        "audio_destination_end_sample": 14750400,
+        "visual_start_frame": 9156,
+        "visual_end_frame": 9222,
+        "minimum_frames": 63,
+        "baseline_minimum_frames": 66,
+        "readability_hold_frames": 3,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "ending",
+        "cut_ids": [
+          "ending_cut2"
+        ],
+        "source_start_sample": 13521600,
+        "source_end_sample": 13664000,
+        "audio_destination_start_sample": 14755200,
+        "audio_destination_end_sample": 14897600,
+        "visual_start_frame": 9222,
+        "visual_end_frame": 9311,
+        "minimum_frames": 89,
+        "baseline_minimum_frames": 89,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "ending",
+        "cut_ids": [
+          "ending_cut3"
+        ],
+        "source_start_sample": 13664000,
+        "source_end_sample": 13859200,
+        "audio_destination_start_sample": 14897600,
+        "audio_destination_end_sample": 15092800,
+        "visual_start_frame": 9311,
+        "visual_end_frame": 9434,
+        "minimum_frames": 122,
+        "baseline_minimum_frames": 123,
+        "readability_hold_frames": 1,
+        "frame_padding_samples": 0
+      },
+      {
+        "section_id": "ending",
+        "cut_ids": [
+          "ending_cut5"
+        ],
+        "source_start_sample": 13859200,
+        "source_end_sample": 14131046,
+        "audio_destination_start_sample": 15094400,
+        "audio_destination_end_sample": 15366246,
+        "visual_start_frame": 9434,
+        "visual_end_frame": 9604,
+        "minimum_frames": 170,
+        "baseline_minimum_frames": 162,
+        "readability_hold_frames": 0,
+        "frame_padding_samples": 154
+      }
+    ]
+  }
+}

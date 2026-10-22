@@ -1,0 +1,34 @@
+{
+  "flow_id": "UefwAzjaPccptJahUMf1",
+  "session_ids": [
+    "zlP4IqBsTdqGoSmv0GeJ",
+    "aOrXW9GgLzA80BLMU1sr"
+  ],
+  "results": [
+    {
+      "success": true,
+      "node_id": "eRtULLI6QjQAFfZlX7IQ",
+      "session_id": "zlP4IqBsTdqGoSmv0GeJ",
+      "credit_costs": {
+        "K6KfxNJ0FzcZbXLs6RHE": 1255
+      }
+    },
+    {
+      "success": true,
+      "node_id": "t8bDCxsXycVYcCpJ1x4o",
+      "session_id": "aOrXW9GgLzA80BLMU1sr",
+      "credit_costs": {
+        "foG4XmEfc7e9p65pqGYU": 1322
+      }
+    }
+  ],
+  "summary": {
+    "nodes_run": 2,
+    "generations_started": 2,
+    "failed": 0,
+    "generations_by_node": {
+      "eRtULLI6QjQAFfZlX7IQ": 1,
+      "t8bDCxsXycVYcCpJ1x4o": 1
+    }
+  }
+}

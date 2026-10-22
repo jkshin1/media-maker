@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "scope": "concept reference extraction, tasks B",
+  "instruction_boundary": "Image text is source reference content. Production instructions are the user's request and AGENTS.md.",
+  "sources_are_storyboard_references": true,
+  "tasks": [
+    {
+      "source_file": "concept/1791878315930.png",
+      "source_regions": {
+        "identity": "top left",
+        "summary": "top right",
+        "scenes": "five columns, middle",
+        "narration": "five columns, bottom"
+      },
+      "title": "LLM을 활용한 C&C 공정 Inline Data 관리",
+      "team": "C&C Tech Design",
+      "owner": "윤지욱",
+      "role": "TL",
+      "core_message": "Spec out 발생 시 원인 공정을 빠르게 찾는 LLM 기반 분석 Agent",
+      "features": [
+        "GoodDocs 매핑",
+        "상관관계 분석 및 시각화",
+        "연계공정 선별 결과 제공"
+      ],
+      "benefits": [
+        "분석 시간 70% 이상 단축",
+        "원인 공정 탐색 효율화",
+        "더 빠른 의사결정 지원"
+      ],
+      "quantitative_claims": [
+        {
+          "text": "분석 시간 70% 이상 단축",
+          "type": "source stated expected benefit",
+          "independently_verified": false
+        }
+      ],
+      "scenes": [
+        {
+          "index": 1,
+          "heading": "문제 발생, 수동 조사",
+          "visual_labels": [
+            "공정별 이력",
+            "장비 로그",
+            "조건 데이터",
+            "반제품 이력",
+            "품질 결과",
+            "Spec out 발생"
+          ],
+          "voiceover": "Spec out 발생 시 여러 공정의 이력을 하나씩 확인해야 했습니다."
+        },
+        {
+          "index": 2,
+          "heading": "Lot 정보 입력, 분석 요청",
+          "visual_labels": [
+            "C&C Inline Data AI Agent",
+            "분석할 정보를 입력해주세요.",
+            "Lot ID",
+            "LOT240812-01",
+            "메인 공정",
+            "Etch",
+            "분석 시작"
+          ],
+          "voiceover": "Lot ID와 메인 공정을 입력하면 AI가 분석을 시작합니다."
+        },
+        {
+          "index": 3,
+          "heading": "자동 분석 및 원인 탐색",
+          "visual_labels": [
+            "GoodDocs를 매핑하고 상관관계를 분석하고 있습니다.",
+            "GoodDocs 매핑 완료",
+            "공정 이력 분석 완료",
+            "상관관계 분석 완료",
+            "연계공정 탐색 중",
+            "공정 상관관계 분석"
+          ],
+          "voiceover": "AI가 GoodDocs 매핑과 상관관계 분석을 자동으로 수행합니다."
+        },
+        {
+          "index": 4,
+          "heading": "분석 결과 시각화 및 연계공정 제안",
+          "visual_labels": [
+            "분석 결과",
+            "주요 인자 영향도",
+            "상관관계 분석",
+            "연계공정 선별 결과",
+            "1순위 Deposition 높은 상관관계",
+            "2순위 Clean 영향 가능성 높음",
+            "3순위 CMP 추가 검토 필요"
+          ],
+          "voiceover": "분석 결과를 시각화하고 연계 가능성이 높은 공정을 제안합니다."
+        },
+        {
+          "index": 5,
+          "heading": "빠른 원인 파악, 분석 시간 단축",
+          "visual_labels": [
+            "분석 시간 70% 이상 단축",
+            "빠른 원인 파악으로 더 나은 공정 관리"
+          ],
+          "voiceover": "분석 시간을 70% 이상 단축하고 더 빠른 원인 파악이 가능합니다."
+        }
+      ],
+      "suggested_short_voiceover": "공정 이상 발생 시, 로트 정보만으로 연계 공정과 원인을 분석합니다. 분석 시간을 70퍼센트 이상 줄이는 것이 목표입니다.",
+      "suggested_scene_flow": [
+        "분산 이력과 Spec out 경고",
+        "Lot 요청 카드",
+        "GoodDocs 매핑과 상관관계 히트맵",
+        "연계공정 순위",
+        "70% 이상 단축 기대 효과"
+      ],
+      "uncertain_text": [],
+      "note": "Detailed dashboard values and ranked processes are depicted as storyboard UI examples; do not present as independently measured findings."
+    },
+    {
+      "source_file": "concept/1791878316003.png",
+      "source_regions": {
+        "identity": "top left",
+        "summary": "top right",
+        "scenes": "five columns, middle",
+        "narration": "five columns, bottom"
+      },
+      "title": "R&D 공정 Eng’r 연구 환경 Infra 구축",
+      "team": "NAND Cell Lab",
+      "owner": "곽재오",
+      "source_owner_transcription": "박재요",
+      "owner_authority": "direct user correction",
+      "source_owner_note": "Initial image transcription was 박재요. The user's explicit correction 곽재오 is authoritative for production.",
+      "role": "TL",
+      "core_message": "여러 공정 데이터를 하나의 앱에서 조회·분석하는 연구 지원 AI Agent",
+      "features": [
+        "Lot/장비/연계 공정 데이터 통합",
+        "데이터 상호작용 및 분석",
+        "연구 업무용 통합 조회 환경"
+      ],
+      "benefits": [
+        "분석 시간 대폭 단축",
+        "데이터 탐색 효율화",
+        "더 나은 연구 의사결정 지원"
+      ],
+      "quantitative_claims": [
+        {
+          "text": "Lot 1건 분석 시간 약 2시간 40분 → 20분 이내",
+          "type": "source stated expected benefit",
+          "independently_verified": false
+        }
+      ],
+      "scenes": [
+        {
+          "index": 1,
+          "heading": "흩어진 이력 데이터",
+          "visual_labels": [
+            "Lot 이력",
+            "Lot Inline",
+            "장비 이력",
+            "장비 FDC",
+            "연계 공정 이력"
+          ],
+          "voiceover": "Lot부터 장비, FDC까지 필요한 이력이 여러 곳에 흩어져 있습니다."
+        },
+        {
+          "index": 2,
+          "heading": "하나의 앱에서 통합 조회",
+          "visual_labels": [
+            "NAND R&D Data Platform",
+            "Lot ID를 입력하세요.",
+            "Lot 이력",
+            "Lot Inline",
+            "장비 이력",
+            "장비 FDC",
+            "연계 공정 이력",
+            "AI Agent"
+          ],
+          "voiceover": "이제 하나의 앱에서 관련 데이터를 한 번에 확인합니다."
+        },
+        {
+          "index": 3,
+          "heading": "데이터 연계 분석",
+          "visual_labels": [
+            "연계 데이터 분석",
+            "Lot 이력",
+            "Inline",
+            "장비",
+            "FDC",
+            "연계 공정",
+            "이전 공정 (T1)",
+            "현재 공정 (NAND Cell)",
+            "이후 공정 (T2)",
+            "데이터 연계 분석",
+            "주요 연계 정보"
+          ],
+          "voiceover": "각각의 데이터가 서로 연결되어 종합적인 분석을 지원합니다."
+        },
+        {
+          "index": 4,
+          "heading": "분석 결과 시각화",
+          "visual_labels": [
+            "분석 결과",
+            "원인 후보",
+            "공정 영향도",
+            "연계 공정",
+            "상세 분석",
+            "주요 원인 후보",
+            "공정 조건 편차",
+            "장비 이상 이력",
+            "연계 공정 영향",
+            "상관관계 분석",
+            "연계 공정 선별 결과"
+          ],
+          "voiceover": "연결된 정보를 바탕으로 원인과 영향을 빠르게 확인합니다."
+        },
+        {
+          "index": 5,
+          "heading": "더 빠르고 효율적인 연구 환경",
+          "visual_labels": [
+            "Lot 1건 분석 시간 약 2시간 40분 → 20분 이내",
+            "분석 시간 단축",
+            "데이터 탐색 효율화",
+            "더 나은 연구 의사결정 지원"
+          ],
+          "voiceover": "Lot 1건 분석 시간은 약 2시간 40분에서 20분 이내로 줄어듭니다."
+        }
+      ],
+      "suggested_short_voiceover": "로트와 장비, 연계 공정 데이터를 하나의 연구 앱으로 연결합니다. 한 건의 분석을 20분 이내로 단축하는 것이 목표입니다.",
+      "suggested_scene_flow": [
+        "분산 데이터 타일",
+        "하나의 연구 플랫폼에 통합",
+        "이전·현재·이후 공정 연결",
+        "원인 후보와 영향도",
+        "2시간 40분에서 20분 이내 기대 효과"
+      ],
+      "uncertain_text": [],
+      "note": "Owner corrected to 곽재오 by direct user instruction; retain the initial source transcription only for provenance. Eng’r contains a curly apostrophe in this transcription."
+    },
+    {
+      "source_file": "concept/1791878316066.png",
+      "source_regions": {
+        "identity": "top left",
+        "summary": "top right",
+        "scenes": "five columns, middle",
+        "narration": "five columns, bottom"
+      },
+      "title": "경비 분석 및 절감 아이템 발굴 Agent 개발",
+      "team": "R&D장비기술 Thinfilm",
+      "owner": "오승재",
+      "role": "TL",
+      "core_message": "경비 데이터를 자동으로 수집·분석해 절감 방향을 제안하는 AI Agent",
+      "features": [
+        "데이터 수집 및 통합 분석",
+        "판단 지표 생성 및 절감 아이템 발굴",
+        "검토 중/제외 항목 포함 결과 제공"
+      ],
+      "benefits": [
+        "분석 시간 80% 이상 단축",
+        "경비 절감 기회 조기 발굴",
+        "더 효율적인 예산 운영 지원"
+      ],
+      "quantitative_claims": [
+        {
+          "text": "분석 시간 80% 이상 단축",
+          "type": "source stated expected benefit",
+          "independently_verified": false
+        },
+        {
+          "text": "경비 실적 14,000건 이상",
+          "type": "storyboard illustrative input scale",
+          "independently_verified": false
+        },
+        {
+          "text": "장비 이력 18,000건 이상",
+          "type": "storyboard illustrative input scale",
+          "independently_verified": false
+        }
+      ],
+      "scenes": [
+        {
+          "index": 1,
+          "heading": "흩어진 경비 데이터를 통합",
+          "visual_labels": [
+            "경비 실적",
+            "장비 이력",
+            "구매/계약 정보",
+            "유지보수 이력",
+            "기타 자료"
+          ],
+          "voiceover": "경비 실적과 장비 이력 등 필요한 데이터가 여러 곳에 분산되어 있습니다."
+        },
+        {
+          "index": 2,
+          "heading": "AI Agent가 데이터 수집·분석",
+          "visual_labels": [
+            "경비 분석 AI Agent",
+            "경비 데이터 수집",
+            "장비 이력 수집",
+            "구매/계약 정보",
+            "유지보수 이력",
+            "데이터 분석 및 판단 지표 생성"
+          ],
+          "voiceover": "AI Agent가 다양한 데이터를 자동으로 수집하고 분석합니다."
+        },
+        {
+          "index": 3,
+          "heading": "절감 가능 항목과 인사이트 도출",
+          "visual_labels": [
+            "경비 분석 결과",
+            "경비 실적 14,000건+ (기간 내 누적)",
+            "장비 이력 18,000건+ (기간 내 누적)",
+            "분석 시간 80%+ 단축",
+            "주요 절감 아이템",
+            "가스 사용량 최적화",
+            "소모품 단가 재검토",
+            "유지보수 주기 조정",
+            "경비 트렌드 분석"
+          ],
+          "voiceover": "분석 결과를 기반으로 절감 가능 항목과 주요 인사이트를 제시합니다."
+        },
+        {
+          "index": 4,
+          "heading": "검토 결과까지 한눈에 제공",
+          "visual_labels": [
+            "검토 결과",
+            "전체(제안)",
+            "검토 중",
+            "제외 항목",
+            "아르곤 가스",
+            "펌프 오일",
+            "부품 교체 주기",
+            "특수 소재",
+            "서비스 계약",
+            "절감 가능",
+            "검토 중",
+            "제외 항목"
+          ],
+          "voiceover": "검토 중인 항목과 제외 항목까지 포함해 전체 결과를 확인할 수 있습니다."
+        },
+        {
+          "index": 5,
+          "heading": "더 효율적인 예산 운영 지원",
+          "visual_labels": [
+            "분석 시간 80% 이상 단축",
+            "경비 실적 14,000건 이상",
+            "장비 이력 18,000건 이상",
+            "절감 기회 조기 발굴",
+            "더 효율적인 예산 운영 지원"
+          ],
+          "voiceover": "분석 시간을 80% 이상 줄이고 더 효율적인 예산 운영을 지원합니다."
+        }
+      ],
+      "suggested_short_voiceover": "경비와 장비 이력을 통합 분석해 절감 아이템을 발굴합니다. 검토와 제외 결과까지 함께 보여주어 예산 운영을 돕습니다.",
+      "suggested_scene_flow": [
+        "분산 경비 데이터",
+        "자동 수집하는 Agent",
+        "절감 아이템과 경비 추이",
+        "검토·제외 상태",
+        "80% 이상 분석 시간 단축 기대 효과"
+      ],
+      "uncertain_text": [],
+      "note": "Monetary amounts, percentages in dashboard rows, and distribution chart are storyboard UI examples, not separately verified budgets or savings."
+    },
+    {
+      "source_file": "concept/1791878316135.png",
+      "source_regions": {
+        "identity": "top left",
+        "summary": "top right",
+        "scenes": "five columns, middle",
+        "narration": "five columns, bottom"
+      },
+      "title": "공정 Monitoring Data 자연어 검색 및 시각화 Agent",
+      "team": "R&D장비기술 Diffusion",
+      "owner": "이태관",
+      "role": "TL",
+      "core_message": "자연어 검색으로 공정 데이터를 조회하고 시각화하는 AI Agent",
+      "features": [
+        "Lot별 공정 데이터 조회",
+        "Wafer Map 및 그래프 시각화",
+        "Smart Factory/장비별 데이터 조회"
+      ],
+      "benefits": [
+        "업무 시간 40% 이상 단축",
+        "데이터 접근성 및 활용성 향상",
+        "더 빠른 공정 모니터링 지원"
+      ],
+      "quantitative_claims": [
+        {
+          "text": "업무 시간 40% 이상 단축",
+          "type": "source stated expected benefit",
+          "independently_verified": false
+        }
+      ],
+      "scenes": [
+        {
+          "index": 1,
+          "heading": "여러 시스템에서 데이터 확인",
+          "visual_labels": [
+            "Smart Factory",
+            "엑셀 가공",
+            "수동 분석",
+            "리포트 작성"
+          ],
+          "voiceover": "공정 데이터를 여러 곳에서 확인하고 가공합니다."
+        },
+        {
+          "index": 2,
+          "heading": "자연어로 원하는 데이터 조회",
+          "visual_labels": [
+            "공정 모니터링 AI Agent",
+            "RSAB250의 공정 데이터 보여줘",
+            "Lot 공정 데이터 조회",
+            "Wafer Map 생성",
+            "그래프 시각화",
+            "장비별 데이터 조회",
+            "무엇이든 물어보세요."
+          ],
+          "voiceover": "이제 자연어로 원하는 데이터를 바로 조회합니다."
+        },
+        {
+          "index": 3,
+          "heading": "Wafer Map과 그래프로 시각화",
+          "visual_labels": [
+            "공정 데이터 분석 결과",
+            "종합",
+            "Wafer Map",
+            "트렌드 그래프",
+            "상세 데이터",
+            "Lot ID RSAB250",
+            "공정 Etch",
+            "Wafer Map",
+            "공정 지표 추이",
+            "주요 지표",
+            "CD",
+            "Overlay",
+            "Uniformity"
+          ],
+          "voiceover": "Wafer Map과 그래프로 공정 현황을 한눈에 확인합니다."
+        },
+        {
+          "index": 4,
+          "heading": "장비별 데이터 조회 및 비교",
+          "visual_labels": [
+            "장비별 분석",
+            "Smart Factory SF-1",
+            "장비 ETCH-01",
+            "기간 2026-09-01 ~ 2026-09-30",
+            "주요 지표",
+            "공정 조건",
+            "이상 패턴",
+            "비교 분석",
+            "장비별 주요 지표 비교 (CD)",
+            "장비 운영 현황"
+          ],
+          "voiceover": "장비별 데이터도 함께 조회하고 비교합니다."
+        },
+        {
+          "index": 5,
+          "heading": "더 빠른 공정 모니터링",
+          "visual_labels": [
+            "업무 시간 40% 이상 단축",
+            "데이터 접근성 향상",
+            "실시간 공정 모니터링",
+            "더 정확한 의사결정 지원"
+          ],
+          "voiceover": "업무 시간을 40% 이상 줄여 더 빠르게 공정을 모니터링합니다."
+        }
+      ],
+      "suggested_short_voiceover": "자연어로 공정 데이터를 찾고, 웨이퍼 맵과 그래프로 확인합니다. 장비별 비교까지 연결해 모니터링 업무를 더 빠르게 만듭니다.",
+      "suggested_scene_flow": [
+        "여러 시스템과 Excel 가공",
+        "자연어 요청",
+        "Wafer Map와 공정 추이",
+        "장비별 비교",
+        "40% 이상 업무 시간 단축 기대 효과"
+      ],
+      "uncertain_text": [],
+      "note": "Lot ID, equipment IDs, CD values, and September 2026 date filters are illustrated dashboard examples."
+    }
+  ]
+}

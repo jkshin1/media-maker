@@ -1,0 +1,17 @@
+{
+  "name": "rd-ai-fast-track-showcase-revision12",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "stills": "node render.mjs --stills",
+    "render": "node render.mjs",
+    "prepare-audio": "python3 prepare-narration.py",
+    "align": "python3 align.py",
+    "timeline": "python3 make-timeline.py",
+    "audio": "python3 audio.py",
+    "finish": "python3 finish.py"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}

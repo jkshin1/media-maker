@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R&amp;D 공정 — AI FAST TRACK</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000}
+:root{--gold:#d9a452;--pale:#f7dba1;--cream:#f4eee3;--muted:#a69b89;--cyan:#68c6cc;--sans:"Apple SD Gothic Neo","Noto Sans CJK KR","Helvetica Neue",sans-serif;--serif:"Bodoni 72","Didot","Times New Roman",serif}
+#stage{position:absolute;width:1920px;height:1080px;transform-origin:0 0;background:#080807;color:var(--cream);font-family:var(--sans);overflow:hidden;-webkit-font-smoothing:antialiased}
+#ambient{position:absolute;inset:-60px;background:radial-gradient(ellipse at 73% 36%,#3c281255,transparent 61%),radial-gradient(ellipse at 10% 88%,#51331344,transparent 56%),#070706}
+.grid{position:absolute;inset:0;background-image:linear-gradient(#d6a75708 1px,transparent 1px),linear-gradient(90deg,#d6a75708 1px,transparent 1px);background-size:80px 80px;mask-image:radial-gradient(ellipse at 50% 55%,#000,transparent 80%)}
+#field{position:absolute;inset:0;width:1920px;height:1080px;opacity:.35}
+.light{position:absolute;left:520px;top:760px;width:1300px;height:500px;transform:rotate(-13deg);background:linear-gradient(transparent,rgba(217,164,82,.12),transparent);filter:blur(32px)}
+.vignette{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 42%,transparent 35%,#0008 100%)}
+.scene{position:absolute;inset:0;display:none}
+.gold{color:var(--pale)}.serif{font-family:var(--serif)}
+.eyebrow{font-size:24px;letter-spacing:.24em;color:var(--pale)}
+#opening .image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.76}
+.imageShade{position:absolute;inset:0;background:linear-gradient(90deg,#000c 0%,#0008 42%,transparent 76%),linear-gradient(0deg,#000c,transparent 45%)}
+#door{position:absolute;left:990px;top:-70px;width:510px;height:1040px;background:linear-gradient(90deg,#211c13 0%,#8a622933 16%,#ffefcda8 48%,#fff9e7 54%,#8a622955 80%,#16130e 100%);transform:perspective(1300px) rotateY(-14deg);border:1px solid #b08d5444;box-shadow:0 0 95px #e7b25844}
+#door:before{content:"";position:absolute;left:75px;top:0;width:6px;height:100%;background:#ffe2a277;box-shadow:220px 0 0 #ffe2a277,340px 0 0 #ffe2a244}
+#person{position:absolute;left:1260px;top:716px;width:40px;height:122px;border-radius:50% 50% 16% 16%;background:#050505;box-shadow:0 40px 8px #0008}
+#person:before{content:"";position:absolute;left:9px;top:-28px;width:23px;height:29px;border-radius:50%;background:#080808}
+#person:after{content:"";position:absolute;left:4px;top:100px;width:11px;height:75px;background:#050505;box-shadow:21px 0 0 #050505}
+.openContent{position:absolute;left:126px;top:308px;width:1160px}
+#openKicker{margin-bottom:40px}
+#openTitle{margin:0;font-weight:400;font-size:88px;line-height:1.26;letter-spacing:-.03em;white-space:pre-line;text-shadow:0 3px 25px #0009}
+#openSub{margin-top:38px;font-size:31px;line-height:1.6;font-weight:300;color:#e3d7c4}
+.openLine{height:1px;width:420px;margin-top:40px;background:linear-gradient(90deg,var(--gold),transparent);transform-origin:left}
+#openCount{display:none;position:absolute;left:124px;top:230px}
+#openCount .n{font-family:var(--serif);font-size:294px;line-height:1;color:var(--pale);letter-spacing:-.06em;text-shadow:0 0 70px #dda84833}
+#openCount .label{font-family:var(--serif);font-size:61px;line-height:1.25;margin-top:12px}
+#openCount .desc{font-size:33px;line-height:1.4;margin-top:22px;color:#d9cfbf}
+#openWafer{position:absolute;left:875px;top:160px;width:930px;height:850px;display:none;filter:drop-shadow(0 0 50px #ba7e2930)}
+#openWafer svg{width:100%;height:100%}
+.topbrand{position:absolute;top:59px;left:94px;font-family:var(--sans);font-size:28px;font-weight:400;letter-spacing:.03em;line-height:1.4;color:#ead0a0}
+.topright{position:absolute;top:63px;right:94px;color:#b6aa95;font-size:20px;letter-spacing:.22em}
+#taskIntro{position:absolute;left:0;top:0;width:1920px;height:1010px}
+#introTexture{position:absolute;right:0;top:0;width:1050px;height:1010px;background-size:5250px auto;background-position:0 -705px;opacity:.17;filter:blur(3px);mask-image:linear-gradient(90deg,transparent,#000)}
+.introline{position:absolute;left:102px;top:259px;width:2px;height:520px;background:linear-gradient(transparent,var(--gold),transparent)}
+.introNumber{position:absolute;left:140px;top:280px;width:300px;font-family:var(--serif);font-size:200px;color:var(--pale);line-height:1}
+.introNumber:after{content:"AI AGENT";display:block;font-family:var(--sans);font-size:22px;letter-spacing:.27em;margin-top:30px;color:#b8a383}
+.introTitle{position:absolute;left:486px;top:286px;width:1280px;font-size:84px;line-height:1.22;font-weight:400;letter-spacing:-.025em;margin:0}
+.introTeam{position:absolute;left:492px;top:654px;width:1250px;font-size:46px;color:#d0b783;line-height:1.35}
+.introCore{position:absolute;left:492px;top:756px;width:1250px;font-size:31px;color:#c0b6a5;font-weight:300;line-height:1.5}
+#taskBody{position:absolute;inset:0;z-index:2}
+#taskIntro{z-index:3}
+#previousBody{position:absolute;inset:0;z-index:1;display:none;pointer-events:none}
+.taskHeader{position:absolute;left:96px;top:150px;right:96px;display:flex;align-items:center;gap:30px}
+.taskNo{font-family:var(--serif);font-size:70px;line-height:1;color:var(--pale);border-right:1px solid #d7ad694d;padding-right:32px}
+.taskTitle{font-size:46px;letter-spacing:-.025em;font-weight:400;line-height:1.24;flex:1;margin:0}
+.taskOwner{font-size:24px;line-height:1.4;color:#b8a991;text-align:right;max-width:355px}
+.visual{position:absolute;left:96px;top:285px;width:1020px;height:556px;border-radius:23px;border:1px solid #d7ac6933;background:linear-gradient(150deg,#211b13ed,#0d1110f5 75%);box-shadow:0 40px 80px #0008,0 0 60px #d7a54b0b;overflow:hidden}
+.visual:after{content:"";position:absolute;inset:0;border:1px solid #fff5;border-radius:inherit;opacity:.045;pointer-events:none}
+.visualbar{height:56px;padding:0 27px;display:flex;align-items:center;gap:9px;border-bottom:1px solid #d5a85822}
+.visualbar i{width:8px;height:8px;border-radius:50%;background:#c19b5d60}
+.visualbar span{margin-left:auto;color:#bbab91;font-size:20px;letter-spacing:.1em}
+.art{position:absolute;left:0;top:56px;width:1020px;height:500px}
+.art svg{width:100%;height:100%;overflow:visible}
+.features{position:absolute;left:1190px;top:286px;width:627px}
+.benefitLabel{font-size:22px;color:#ae9d83;letter-spacing:.12em;margin-bottom:24px}
+.benefit{font-size:45px;line-height:1.31;font-weight:400;letter-spacing:-.025em;color:var(--pale);min-height:126px}
+.feature{display:flex;gap:19px;align-items:center;padding:23px 0;border-bottom:1px solid #c1995e24;font-size:30px;line-height:1.35}
+.featureIcon{width:48px;height:48px;flex:none;border:1px solid #cfaa6455;background:#d3a64e10;border-radius:13px;display:grid;place-items:center;color:var(--pale)}
+.featureIcon svg{width:26px;height:26px}
+.taskCaption{position:absolute;left:120px;right:120px;top:902px;font-size:33px;line-height:1.4;font-weight:300;padding-left:28px;color:#e2d7c6}
+.taskCaption:before{content:"";position:absolute;left:0;top:5px;bottom:5px;width:2px;background:var(--gold)}
+#ending .image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.8}
+#ending .imageShade{background:linear-gradient(0deg,#000a,transparent 65%),radial-gradient(ellipse at 50% 28%,#0008,transparent)}
+#endingText{position:absolute;left:170px;top:215px;right:170px;text-align:center}
+#endingTitle{font-family:var(--serif);font-size:80px;line-height:1.4;letter-spacing:-.02em;font-weight:400;white-space:pre-line;margin:0;color:#f3e6d0;text-shadow:0 4px 30px #000}
+#endingSub{font-size:34px;color:var(--pale);line-height:1.5;margin-top:45px;font-weight:300}
+#endingLock{position:absolute;left:120px;right:120px;top:876px;text-align:center}
+#endingLock .lockTitle{font-family:var(--serif);font-size:52px;color:var(--pale);letter-spacing:.06em}
+#endingLock .lockSub{margin-top:17px;font-size:27px;color:#ccbd9f}
+#footer{position:absolute;left:96px;right:96px;bottom:33px;display:flex;align-items:center;height:20px;z-index:30}
+#footerName{font-size:17px;letter-spacing:.18em;color:#ac9b7e}
+#footerPhase{margin-left:auto;font-size:17px;color:#c4af88;letter-spacing:.1em}
+#dots{display:flex;gap:7px;margin-left:32px}
+#dots i{width:31px;height:3px;background:#d4af6840;position:relative}
+#dots i b{position:absolute;inset:0;background:var(--pale);transform-origin:left;transform:scaleX(0)}
+#timeline{position:absolute;bottom:0;left:0;width:1920px;height:2px;background:#6b553533;z-index:31}
+#timelineFill{height:100%;width:100%;transform-origin:left;background:linear-gradient(90deg,#9a7136,#f5dca4);transform:scaleX(0)}
+#black{position:absolute;inset:0;background:#000;z-index:60;pointer-events:none}
+.svgTxt{font-family:var(--sans);fill:#ddd3c3;font-size:27px}
+.svgMute{fill:#af9e84;font-size:21px;font-family:var(--sans)}
+.svgGold{fill:#f1ce8d;font-family:var(--sans)}
+.glowline{stroke:#eccb8b;stroke-width:2;fill:none;filter:drop-shadow(0 0 5px #eccb8b66)}
+.drawline{stroke-dasharray:1;stroke-dashoffset:1}
+.phaseRoot{position:absolute;left:96px;top:272px;width:1728px;height:614px}
+.cutLayer{position:absolute;inset:0;pointer-events:none}
+.phaseMeta{display:flex;align-items:center;gap:24px;height:75px}
+.phasePill{display:inline-flex;align-items:center;justify-content:center;min-width:144px;height:46px;padding:0 20px;border:1px solid #d8b37570;border-radius:8px;color:#f3d89f;background:#c9a05019;font-size:21px;font-weight:500;letter-spacing:.07em;white-space:nowrap}
+.phasePill.before{color:#dda393;background:#a75d4820;border-color:#b5746255}
+.phasePill.after{color:#a4d7d5;background:#6aaebc17;border-color:#71bcc253}
+.phaseHeading{margin:0;font-size:43px;line-height:1.24;font-weight:400;letter-spacing:-.025em}
+.cutContent{position:absolute;left:0;right:0;top:91px;height:500px}
+.photoFrame{position:absolute;overflow:hidden;border-radius:18px;border:1px solid #d7ac6948;background:#101310;box-shadow:0 20px 60px #0007}
+.photoFrame img{position:absolute;max-width:none}
+.beforePhoto{left:0;top:0}
+.photoFrame:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#080a0966,transparent 45%);pointer-events:none}
+.photoTag{position:absolute;bottom:20px;left:23px;right:23px;color:#f4e5c8;font-size:24px;line-height:1.4;z-index:2;text-shadow:0 2px 12px #000}
+.chaosField{position:absolute;left:548px;right:0;top:0;bottom:0;border:1px solid #b27d5d27;border-radius:20px;background:radial-gradient(ellipse at 47% 55%,#50322719,transparent 70%)}
+.chaosCard{position:absolute;width:320px;height:155px;border:1px solid #c5957944;border-radius:13px;background:linear-gradient(135deg,#27211bee,#121413ed);padding:20px 24px;box-shadow:0 16px 32px #0007}
+.chaosCard .source{color:#ba9080;font-size:18px;letter-spacing:.09em;margin-bottom:16px}
+.chaosCard .name{font-size:27px;color:#e1cdb9;line-height:1.35}
+.chaosCard .bars{display:flex;gap:8px;margin-top:18px;align-items:flex-end;height:19px}
+.chaosCard .bars b{width:38px;height:4px;background:#bc9d7840}
+.chaosLink{position:absolute;width:100%;height:100%;inset:0;opacity:.38;pointer-events:none}
+.chaosMessage{position:absolute;left:60px;bottom:30px;color:#c6a595;font-size:25px;letter-spacing:-.01em}
+.uiFrame{position:absolute;border:1px solid #d7ac6944;border-radius:19px;background:linear-gradient(150deg,#1d211bdd,#0d1412f5);box-shadow:0 24px 65px #0008;overflow:hidden}
+.uiTop{height:55px;display:flex;align-items:center;padding:0 24px;border-bottom:1px solid #d7ac692d;gap:9px}
+.uiTop i{width:7px;height:7px;border-radius:50%;background:#c7aa7166}
+.uiTop span{margin-left:14px;color:#d3bea0;font-size:21px;letter-spacing:.025em}
+.uiTop small{margin-left:auto;color:#897f6c;font-size:16px}
+.actionPanel{left:0;top:0;width:1156px;height:500px}
+.actionWorkspace{padding:25px 29px;position:relative;height:445px}
+.commandPrompt{border:1px solid #80bfc34a;border-radius:14px;background:#0b1615;padding:24px 27px;display:flex;align-items:center;gap:23px;height:95px;font-size:31px;line-height:1.3;color:#f0dfbe}
+.commandPrompt svg{width:31px;height:31px;color:#a7d0d1;flex:none}
+.commandPrompt .send{margin-left:auto;flex:none;background:#d9b36c;color:#242318;display:grid;place-items:center;width:45px;height:45px;border-radius:9px;font-size:26px}
+.formFields{display:flex;gap:18px;margin-bottom:25px}
+.formField{flex:1;border:1px solid #6fb6bd49;border-radius:13px;background:#0a1514;padding:18px 22px;min-height:91px}
+.formField label{display:block;color:#8eaaa4;font-size:18px;margin-bottom:13px}.formField span{font-size:28px;color:#ecd8b2}
+.actionTiles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:23px}
+.actionTile{min-height:90px;padding:20px;border-radius:12px;border:1px solid #cab2783c;background:#27291e99;color:#dfd1b4;font-size:24px;line-height:1.32;display:flex;gap:14px;align-items:center}
+.actionTile svg{width:28px;height:28px;flex:none;color:#dec286}
+.actionTiles.four{grid-template-columns:repeat(2,1fr)}
+.actionHint{color:#b29f81;font-size:24px;line-height:1.45;margin:24px 0 0 3px}
+.sourceFlow{display:flex;align-items:center;gap:28px;height:334px}
+.sourceNodes{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;flex:1}
+.sourceNode{padding:20px 21px;border:1px solid #ad9c6b44;border-radius:12px;background:#131d18;font-size:25px;line-height:1.4;color:#ddcfb3;min-height:78px}
+.flowArrow{font-size:48px;color:#d8b97b}.agentCore{height:205px;width:265px;flex:none;border:1px solid #e0bb7977;background:radial-gradient(ellipse,#67462340,#181d16 76%);border-radius:22px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:23px;color:#ecd8ae;font-size:29px}
+.agentCore svg{width:46px;height:46px;color:#e7ca8d}
+.actionPhoto{right:0;top:0;width:536px;height:500px}
+.analysisCanvas{left:0;top:0;width:1290px;height:500px}.analysisArt{position:absolute;left:0;top:55px;width:1290px;height:445px}
+.analysisArt svg{width:100%;height:100%}.analysisNotes{position:absolute;right:0;top:0;width:412px;height:500px;display:flex;flex-direction:column;gap:16px}
+.analysisNote{flex:1;border:1px solid #d8b36d3c;border-radius:15px;background:#181d15cb;padding:22px 25px;display:flex;align-items:center;gap:20px;color:#e1d1ae;font-size:27px;line-height:1.35}
+.analysisNote svg{color:#dbc182;width:34px;height:34px;flex:none}
+.analysisNote.final{border-color:#6fb6bd55;color:#afd7d5;background:#11201cbb}
+.compareColumns{display:flex;gap:48px;height:500px}
+.compareColumn{width:840px;height:500px;border:1px solid #b5786250;border-radius:20px;background:linear-gradient(150deg,#28201bd9,#0e1110);padding:29px 34px;position:relative;overflow:hidden}
+.compareColumn.after{border-color:#d9b3727a;background:linear-gradient(150deg,#282a1c,#0d1714)}
+.compareLabel{font-family:var(--serif);font-size:30px;color:#b78b7b;letter-spacing:.07em;margin-bottom:17px}.compareColumn.after .compareLabel{color:#e9c988}
+.compareTitle{font-size:44px;line-height:1.25;letter-spacing:-.025em;white-space:nowrap;color:#d5b8a6}.compareColumn.after .compareTitle{color:#f4d99f}
+.compareSteps{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.compareStep{border:1px solid #a77d6140;padding:14px 17px;border-radius:10px;color:#c5b09c;background:#30261b70;font-size:25px;line-height:1.25}.after .compareStep{color:#d5cfb5;border-color:#80b4b844;background:#18302a99}
+.compareSymbol{position:absolute;left:55px;right:55px;bottom:26px;height:178px;color:#a87560}.compareColumn.after .compareSymbol{color:#d6b370}
+.compareSymbol svg{width:100%;height:100%}.compareArrow{position:absolute;left:817px;top:219px;width:96px;height:66px;border-radius:14px;border:1px solid #dbc18066;background:#171a12;display:grid;place-items:center;font-size:48px;color:#e4c782;z-index:3}
+.phaseProgress{position:absolute;left:124px;right:124px;top:977px;display:flex;gap:23px;color:#8f836e;font-size:17px;letter-spacing:.045em}
+.phaseProgress span{flex:1;display:flex;align-items:center;gap:12px;white-space:nowrap}.phaseProgress span:after{content:"";height:2px;flex:1;background:#c8a16123}.phaseProgress span.active{color:#f0d69e}.phaseProgress span.done{color:#b5a486}.phaseProgress span.active:after{background:#dfbf7780}
+.taskCaption{top:916px;font-size:32px;line-height:1.3}
+.introTitle{white-space:pre-line;word-break:keep-all}.introCore,.phaseHeading,.taskTitle{word-break:keep-all}
+
+/* Film layout: photographed workspaces lead, live interfaces sit in the scene. */
+#taskBody{isolation:isolate}.topbrand,.topright{z-index:25;top:48px}.topbrand{font-size:24px}.topright{font-size:16px;top:52px}
+#taskBody:before{content:"";position:absolute;inset:0;z-index:4;pointer-events:none;background:linear-gradient(180deg,#020504ed 0,#0407069c 130px,transparent 300px,transparent 780px,#040706ed 925px,#040706 1080px)}
+.taskHeader{top:106px;z-index:7;align-items:flex-start;gap:24px;pointer-events:none}.taskNo{font-size:51px;padding-right:25px}.taskTitle{font-size:36px!important;line-height:1.27;max-width:1100px;color:#f0dfbc;text-shadow:0 3px 20px #000}.taskOwner{font-size:22px;max-width:400px;margin-left:auto;color:#cfb98e}
+.phaseRoot{inset:0;width:1920px;height:1080px}.cutLayer{overflow:hidden}.phaseMeta{position:absolute;left:1090px;right:94px;top:210px;height:auto;z-index:10;display:block}.phasePill{font-size:17px;height:34px;min-width:114px;border-radius:3px;margin-bottom:18px;background:#0c1611b3;box-shadow:0 4px 24px #0007}.phaseHeading{font-size:38px;line-height:1.3;color:#fae5b8;text-shadow:0 3px 20px #000;max-width:735px}.cutContent{position:absolute;inset:0;height:1080px}
+.photoScene{position:absolute;inset:0;overflow:hidden;background:#060b08}.photoScene img{position:absolute;max-width:none;will-change:transform}.photoBackdrop{position:absolute;inset:-50px;filter:blur(14px);opacity:.33;background-size:cover;background-position:center;transform:scale(1.08)}.photoShade{position:absolute;inset:0;background:linear-gradient(90deg,transparent 16%,#04080616 38%,#050b08bd 58%,#050b08f5 80%),linear-gradient(0deg,#040706 0,transparent 34%,transparent 80%,#040706aa 100%)}
+.actualBefore{position:absolute;left:0;top:0;width:1190px;height:1080px;overflow:hidden}.actualBefore img{width:100%;height:100%;object-fit:cover;object-position:50% 27%;filter:saturate(.83) contrast(1.04)}.scenePortrait{position:absolute;left:0;top:110px;width:1120px;height:790px;overflow:hidden;mask-image:linear-gradient(90deg,#000 62%,transparent 100%)}.scenePortrait img{filter:blur(4px) saturate(.84) brightness(.76)}
+.cinemaUI{position:absolute;left:826px;top:380px;width:996px;height:451px;border:1px solid #c9b0779c;border-radius:11px;background:linear-gradient(145deg,#0a1519f5,#071112fa);box-shadow:-24px 28px 70px #000c,0 0 2px #f5db96,0 0 26px #d4a64b25;transform-origin:75% 55%;overflow:hidden;z-index:6}.cinemaUI:before{content:"";position:absolute;inset:4px;border:1px solid #d6c5991d;border-radius:8px;pointer-events:none;z-index:9}.cinemaUI:after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,#e8f7f307,transparent 35%,transparent 60%,#fff4 140%);pointer-events:none}.cinemaUI .uiTop{height:48px;border-color:#93bfc727;color:#d8d5bd}.cinemaUI .uiTop span{font-size:20px;color:#e7d4aa}.cinemaUI .uiTop small{font-size:16px;color:#80c1c5}.cinemaUI .actionWorkspace{height:403px;padding:21px 25px}.cinemaUI .commandPrompt{height:79px;font-size:27px;padding:18px 20px;background:#071a1d;border-color:#76b5bd63}.cinemaUI .commandPrompt .send{width:41px;height:41px}.cinemaUI .formField{min-height:77px;padding:12px 18px}.cinemaUI .formField label{font-size:16px;margin-bottom:8px}.cinemaUI .formField span{font-size:25px}.cinemaUI .formFields{margin-bottom:15px}.cinemaUI .actionTiles{gap:11px;margin-top:16px}.cinemaUI .actionTile{min-height:79px;padding:15px 16px;font-size:23px;border-color:#7caba64d;background:#112329d9}.cinemaUI .actionHint{font-size:22px;color:#adbbb0;margin-top:17px}.cinemaUI .sourceFlow{height:280px;gap:20px}.cinemaUI .sourceNode{font-size:24px;min-height:79px;background:#0b2024}.cinemaUI .agentCore{width:280px;height:220px;background:radial-gradient(ellipse,#3f482a44,#0c1d1d);border-color:#b9d6a86b}.cinemaUI .analysisArt{inset:48px 0 auto;width:996px;height:342px}.analysisChips{position:absolute;left:25px;right:25px;bottom:15px;display:flex;gap:10px}.analysisChip{flex:1;font-size:19px;color:#b9dacd;padding:10px 13px;border:1px solid #8cb8b83b;border-radius:5px;background:#102324db;white-space:nowrap;display:flex;align-items:center;gap:8px}.analysisChip svg{width:20px;height:20px;flex:none}
+.beforePanel{position:absolute;left:1130px;top:376px;width:650px;height:447px;z-index:6}.floatingSource{position:absolute;left:0;top:0;width:292px;min-height:128px;padding:23px 24px;border:1px solid #c5aa7766;border-radius:5px;background:linear-gradient(140deg,#131d18ed,#0c1412f2);box-shadow:-10px 17px 35px #0009;color:#e9d2a6;transform-origin:center;will-change:transform}.floatingSource .sourceIcon{color:#caad76;width:27px;height:27px;margin-bottom:13px}.floatingSource .sourceIcon svg{width:100%;height:100%}.floatingSource .name{font-size:25px;line-height:1.3}.floatingSource .sourceTicks{margin-top:17px;display:flex;gap:7px}.sourceTicks i{height:3px;width:47px;background:#b7a37840}.sourceTicks i:nth-child(2){width:67px}.sourceConnector{position:absolute;inset:0;width:650px;height:447px;opacity:.65}.sourceConnector path{stroke:#bd937265;fill:none;stroke-width:1.7;stroke-dasharray:5 10}.sourceConnector circle{fill:#eac585;filter:drop-shadow(0 0 6px #d7aa61)}.sourceCross{position:absolute;width:30px;height:30px;font-size:31px;color:#bb8c74;left:309px;top:190px;opacity:.65}.photoMotionEdge{position:absolute;left:0;top:0;height:100%;width:3px;background:linear-gradient(transparent,#efd19350,transparent);opacity:.3;z-index:2}
+.typeCursor{display:inline-block;width:2px;height:25px;background:#e5cf9e;vertical-align:-3px;margin-left:4px}.commandText{min-height:32px}.motionNode{transform-origin:50% 50%;will-change:transform}.nodeSelected{border-color:#cbe2b0!important;box-shadow:0 0 22px #97d6c523!important;color:#e7ebc8!important}.liveStatus{position:absolute;left:26px;right:26px;bottom:17px;height:5px;background:#8eac9e16;overflow:hidden}.liveStatus b{display:block;width:100%;height:100%;background:linear-gradient(90deg,#538d87,#d5c48a);transform-origin:left}.signalTracks{position:absolute;inset:48px 0 0;pointer-events:none;z-index:4}.signalTracks svg{width:100%;height:100%}.signalTracks path{fill:none;stroke:#80c4ca30;stroke-width:1.5}.signalTracks circle{fill:#b7efdc;filter:drop-shadow(0 0 6px #a4dec4)}.analysisScanner{position:absolute;left:27px;top:72px;width:440px;height:297px;z-index:5;pointer-events:none;overflow:hidden;border-radius:6px}.scanBeam{position:absolute;top:0;left:0;width:55px;height:100%;background:linear-gradient(90deg,transparent,#83e5d52e,transparent);border-right:1px solid #c7f0d4a1;opacity:.7}.scanLine{position:absolute;top:0;left:0;right:0;height:1px;background:#d8efba;box-shadow:0 0 12px #c1e4b5;opacity:.6}.roi{position:absolute;left:200px;top:110px;width:62px;height:64px;border:2px solid #e6c77d;box-shadow:0 0 0 6px #e7c87a08;opacity:0}.roi:before,.roi:after{content:"";position:absolute;background:#eed29a}.roi:before{left:-6px;right:-6px;top:50%;height:1px}.roi:after{top:-6px;bottom:-6px;left:50%;width:1px}.measurementOverlay{position:absolute;left:89px;top:113px;width:290px;height:190px;z-index:5;pointer-events:none}.measurementOverlay svg{width:100%;height:100%}.measureLine{stroke-dasharray:1;stroke-dashoffset:1;fill:none;stroke-width:2.2}.measurementValue{fill:#bce8e6;font-size:18px;font-family:var(--sans)}.parameterSweep{position:absolute;left:520px;top:125px;width:431px;height:205px;pointer-events:none;z-index:5;overflow:hidden}.parameterSweep div{position:absolute;left:0;top:0;width:35px;height:100%;border-right:1px solid #e4c48b;background:linear-gradient(90deg,transparent,#e1c37c1b)}
+.taskCaption{left:106px;right:106px;top:923px;z-index:20;font-size:36px;line-height:1.4;color:#f0e8d7;font-weight:400;text-shadow:0 2px 12px #000;background:#04070691;padding:14px 22px 14px 27px}.taskCaption:before{top:18px;bottom:18px;left:0;background:#e1bf7f}.phaseProgress{top:1004px;z-index:20;left:108px;right:108px;font-size:14px;letter-spacing:.08em;opacity:.76}.phaseProgress span:after{height:1px}.phaseProgress span.active{color:#f6d791}.phaseProgress span.active:after{background:#dfbf77ad}
+.compareScene{position:absolute;inset:0;overflow:hidden}.compareScene .compareHalf{position:absolute;top:170px;height:544px;overflow:hidden}.compareScene .compareHalf.beforeHalf{left:0;width:960px}.compareScene .compareHalf.afterHalf{left:960px;width:960px}.compareHalf .actualBefore{width:960px;height:544px}.compareHalf .actualBefore img{object-position:center 15%}.compareHalf .scenePortrait{inset:0;width:960px;height:544px;mask-image:none}.compareHalf .scenePortrait img{filter:blur(3px) brightness(.65)}.compareHalf:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#060c09b0,transparent 38%),linear-gradient(90deg,#060c0922,transparent,#060c0922)}.compareScene .compareUI{left:1090px;top:230px;width:700px;height:406px;opacity:.93}.compareUI .analysisArt{width:700px;height:310px}.compareUI .analysisChips{bottom:9px;left:15px;right:15px}.compareUI .analysisChip{font-size:14px;padding:7px 9px}.compareUI .analysisChip svg{width:16px;height:16px}.compareHalfLabel{position:absolute;top:177px;z-index:12;color:#efd69e;font-size:23px;letter-spacing:.14em;background:#08100fe6;padding:13px 26px;border-top:1px solid #c7ab7960}.compareHalfLabel.before{left:91px;color:#c9aa94}.compareHalfLabel.after{left:1010px}.comparisonRail{position:absolute;left:92px;right:92px;top:746px;height:124px;z-index:12;background:linear-gradient(90deg,#151713e8,#0f201aea);border-top:1px solid #b89c6366;border-bottom:1px solid #b89c6333;display:grid;grid-template-columns:1fr 90px 1.2fr;align-items:center;padding:0 28px;gap:20px}.comparisonRail .summaryBefore{font-size:31px;line-height:1.25;color:#c7ad98}.comparisonRail .summaryAfter{font-size:35px;line-height:1.25;color:#f2d493}.comparisonRail .arrow{font-size:50px;color:#e0c08a;text-align:center}.comparisonRail small{font-size:19px;display:block;margin-top:11px;color:#91b5ab;letter-spacing:.01em}.comparisonSweep{position:absolute;top:170px;height:544px;width:2px;background:#f7d99b;box-shadow:0 0 18px #e7b966,0 0 60px #d99d3b;z-index:11}.comparisonGlow{position:absolute;top:170px;left:950px;width:20px;height:544px;background:linear-gradient(90deg,transparent,#ebbc6229,transparent);z-index:11}.comparePhaseMeta{left:96px;top:210px;display:none}
+#taskIntro{height:1080px;background:radial-gradient(ellipse at 73% 60%,#4c35161a,transparent 62%),linear-gradient(90deg,#060a08 15%,#060a08a6 60%,#060a0855)}#introTexture{right:0;top:0;width:1200px;height:1080px;opacity:.22;filter:blur(5px) brightness(.65);background-size:cover;background-position:center 42%;mask-image:linear-gradient(90deg,transparent,#000 42%)}.introline{left:102px;top:240px;height:540px;box-shadow:0 0 22px #d5b07830}.introNumber{left:140px;top:275px;font-size:205px;text-shadow:0 0 55px #cc9e5b22}.introTitle{top:278px;font-size:84px}.introTeam{top:654px;font-size:46px}.introCore{top:756px}.introStageRoute{position:absolute;left:80px;right:90px;bottom:156px;height:4px;background:linear-gradient(90deg,#f6d996a1,#dcb36444,transparent);box-shadow:0 0 25px #f0c97a55;transform-origin:left}.introLightSweep{position:absolute;top:180px;width:120px;height:660px;background:linear-gradient(90deg,transparent,#e8c48709,transparent);transform:skewX(-16deg);pointer-events:none}
+#openWafer{opacity:.84}.goldRoutes{position:absolute;inset:0;width:1920px;height:1080px;pointer-events:none;z-index:1}.goldRoutes path{fill:none;stroke:#ecc879;stroke-width:1.2;opacity:.32}.goldRoutes circle{fill:#ffe2a2;filter:drop-shadow(0 0 9px #e8ba65)}.openContent,#openCount{z-index:5}.openLine{box-shadow:0 0 16px #edca7822}#openCount .n{font-size:324px;text-shadow:0 0 65px #e0b36837}#endingText,#endingLock{z-index:5}#footer{bottom:29px;opacity:.75}
+
+
+/* The foreground display is a physical workstation monitor. */
+.cinemaUI{top:344px;height:489px;border:9px solid #080d0e;border-bottom-width:27px;outline:1px solid #c4ae7466;border-radius:14px;box-shadow:-24px 31px 65px #000d,0 0 3px #d3c49480,0 0 28px #caaa561c}.cinemaUI .uiTop i{display:none}.cinemaUI .uiTop span{margin-left:0}.cinemaUI .analysisArt{width:100%}.cinemaUI .analysisChips{bottom:14px}.monitorSupport{position:absolute;left:1083px;top:812px;width:510px;height:66px;z-index:5;transform-origin:center top}.monitorSupport:before{content:"";position:absolute;left:201px;top:0;width:105px;height:55px;clip-path:polygon(25% 0,75% 0,90% 100%,10% 100%);background:linear-gradient(90deg,#0b100e,#39403b,#101713);border:1px solid #53524477}.monitorSupport:after{content:"";position:absolute;left:26px;bottom:0;width:455px;height:14px;border-radius:50%;background:linear-gradient(180deg,#66614b80,#0c100dbb);box-shadow:0 4px 15px #000;transform:perspective(500px) rotateX(27deg)}.deskLight{position:absolute;left:769px;top:854px;width:1050px;height:3px;background:linear-gradient(90deg,transparent,#deb97648,#b8d8c044,transparent);filter:blur(6px);box-shadow:0 0 29px #d8b16b30;z-index:5}.compareScene .compareUI{top:230px;height:406px;border-width:7px;border-bottom-width:21px}.compareUI .analysisArt{width:100%;height:290px}.compareUI .analysisChips{bottom:6px}
+
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="ambient"></div><div class="grid"></div><svg id="field" viewBox="0 0 1920 1080"></svg><div class="light"></div>
+  <section id="opening" class="scene">
+    <div id="door"></div><div id="person"></div>
+    <img class="image" id="hero" src="../assets/hero.png" alt="">
+    <div class="imageShade"></div>
+    <div id="openWafer"></div><svg class="goldRoutes" id="openRoutes" viewBox="0 0 1920 1080"></svg>
+    <div class="openContent" id="openContent"><div class="eyebrow" id="openKicker"></div><h1 id="openTitle"></h1><div id="openSub"></div><div class="openLine" id="openLine"></div></div>
+    <div id="openCount"><div class="n">12</div><div class="label gold">AI AGENTS</div><div class="desc">R&amp;D 공정을 바꾸는 12가지 혁신</div></div>
+  </section>
+  <section id="task" class="scene">
+    <div class="topbrand">R&amp;D 공정 <span style="font-family:var(--sans);font-size:21px;letter-spacing:.19em;margin-left:22px">AI FAST TRACK</span></div><div class="topright">TWELVE AGENTS · ONE NEW CHAPTER</div>
+    <div id="taskIntro"><div id="introTexture"></div><div class="introStageRoute" id="introStageRoute"></div><div class="introLightSweep" id="introLightSweep"></div><div class="introline"></div><div class="introNumber" id="introNumber"></div><h2 class="introTitle" id="introTitle"></h2><div class="introTeam" id="introTeam"></div><div class="introCore" id="introCore"></div></div>
+    <div id="taskBody"><div class="taskHeader"><span class="taskNo" id="taskNo"></span><h2 class="taskTitle" id="taskTitle"></h2><div class="taskOwner" id="taskOwner"></div></div>
+      <div id="phaseRoot" class="phaseRoot"></div>
+      <div id="taskCaption" class="taskCaption"></div>
+      <div id="phaseProgress" class="phaseProgress"></div>
+    </div>
+    <div id="previousBody"></div>
+  </section>
+  <section id="ending" class="scene"><img class="image" id="endImage" src="../assets/ending.png" alt=""><div class="imageShade"></div><div id="endFallback"></div><svg class="goldRoutes" id="endRoutes" viewBox="0 0 1920 1080"></svg><div id="endingText"><h2 id="endingTitle">지금,<br>그 주인공을 만나보겠습니다.</h2><div id="endingSub">사람의 경험에 AI의 가능성을 더해</div></div><div id="endingLock"><div class="lockTitle">R&amp;D 공정</div><div class="lockSub">더 나은 내일을 향해</div></div></section>
+  <div class="vignette"></div><div id="footer"><span id="footerName">R&amp;D PROCESS · AI FAST TRACK</span><span id="footerPhase">A NEW CHAPTER</span><div id="dots"></div></div><div id="timeline"><div id="timelineFill"></div></div><div id="black"></div>
+</div>
+<script>
+"use strict";
+const $=id=>document.getElementById(id), clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v)), ease=v=>1-Math.pow(1-clamp(v),3), esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let story=null,motionReference=null,currentTask=-1,currentOpening=-1;
+const iconPaths={target:'<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>',link:'<path d="M9 15l6-6M9 6l2-2a4 4 0 0 1 6 6l-2 2M15 18l-2 2a4 4 0 0 1-6-6l2-2"/>',check:'<path d="M5 12l4 4L19 6"/><rect x="3" y="3" width="18" height="18" rx="4"/>',chart:'<path d="M3 3v18h18M7 16l4-6 4 3 5-8"/>',data:'<ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v13c0 4 16 4 16 0V5M4 11c0 4 16 4 16 0"/>',search:'<circle cx="10" cy="10" r="6"/><path d="M15 15l6 6"/>'};
+const icon=(kind='check')=>'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'+(iconPaths[kind]||iconPaths.check)+'</svg>';
+const text=(x,y,s,size=27,color='#ddd3c3',anchor='start')=>'<text x="'+x+'" y="'+y+'" fill="'+color+'" font-size="'+size+'" font-family="Apple SD Gothic Neo, sans-serif" text-anchor="'+anchor+'">'+esc(s)+'</text>';
+const rect=(x,y,w,h,r=12,fill='#141816',stroke='#dab27040')=>'<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="'+r+'" fill="'+fill+'" stroke="'+stroke+'"/>';
+const line=(d,color='#eccb8b',width=2)=>'<path d="'+d+'" fill="none" stroke="'+color+'" stroke-width="'+width+'" pathLength="1" class="drawline"/>';
+const step=(i,inner)=>'<g class="step" data-step="'+i+'">'+inner+'</g>';
+function seeded(n){let x=n;return()=>{x=(1664525*x+1013904223)>>>0;return x/4294967296}}
+function wafer(cx,cy,r,seed=1){
+ const random=seeded(seed);let s='<circle cx="'+cx+'" cy="'+cy+'" r="'+(r+8)+'" fill="#080f0e" stroke="#f0d09788" stroke-width="2"/><circle cx="'+cx+'" cy="'+cy+'" r="'+(r+19)+'" fill="none" stroke="#d9ad5930"/>';
+ const pitch=r/8;
+ for(let y=-r;y<r;y+=pitch)for(let x=-r;x<r;x+=pitch){const d=Math.hypot(x+pitch/2,y+pitch/2);if(d>r-3)continue;let hot=(x>r*.12&&y>-r*.2&&y<r*.58),v=random();let color=hot&&v>.18?'#eab967':v>.7?'#65acb2':'#35686a';s+='<rect x="'+(cx+x+1.5)+'" y="'+(cy+y+1.5)+'" width="'+(pitch-3)+'" height="'+(pitch-3)+'" rx="1.3" fill="'+color+'" opacity="'+(.4+v*.45)+'"/>'}
+ return s+'<path d="M'+(cx-10)+' '+(cy+r+8)+'L'+cx+' '+(cy+r-4)+'L'+(cx+10)+' '+(cy+r+8)+'" fill="#080f0e" stroke="#f0d09788"/>';
+}
+function graph(x,y,w,h,seed=2){
+ const random=seeded(seed),pts=[];let val=.5;
+ for(let i=0;i<18;i++){val=clamp(val+(random()-.42)*.32,.15,.84);pts.push([x+i*w/17,y+h*(1-val)])}
+ let s=[.2,.4,.6,.8].map(v=>'<line x1="'+x+'" y1="'+(y+h*v)+'" x2="'+(x+w)+'" y2="'+(y+h*v)+'" stroke="#bea47715"/>').join('');
+ s+='<polygon points="'+x+','+(y+h)+' '+pts.map(p=>p.join(',')).join(' ')+' '+(x+w)+','+(y+h)+'" fill="url(#chartfill)"/>'+line('M'+pts.map(p=>p.join(' ')).join('L'),'#f0d097',2.5);
+ s+=pts.filter((_,i)=>i%3===0).map(p=>'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="4" fill="#f0d097"/>').join('');
+ return s;
+}
+function node(x,y,w,label,kind='data',color='#edcc8b'){
+ return rect(x,y,w,68,12,'#151a17','#d7aa6150')+'<g transform="translate('+(x+18)+' '+(y+22)+')" stroke="'+color+'" fill="none" stroke-width="1.4">'+(iconPaths[kind]||iconPaths.data)+'</g>'+text(x+58,y+42,label,24);
+}
+function featureLabels(task){return (task.features||[]).map(s=>s.length>19?s.slice(0,18)+'…':s)}
+function infer(task){
+ const key=(task.visual_kind||'').toLowerCase(),title=task.title||'';
+ if(['report','thinfilm','board','labeling','portal','overlay','plug'].includes(key))return key;
+ if(/prediction|wafer|defect|yield/.test(key)||/불량|수율/.test(title))return'wafer';
+ if(/monitor/.test(key)||/Monitoring|모니터링/.test(title))return'monitor';
+ if(/expense|cost|budget/.test(key)||/경비|절감/.test(title))return'expense';
+ if(/inline|correlation/.test(key)||/Inline Data/.test(title))return'inline';
+ if(/research|infra|platform/.test(key)||/Infra/.test(title))return'research';
+ if(/architecture|recipe|plan/.test(key)||/Architecture|Recipe|레시피/.test(title))return'recipe';
+ if(/equip|fdc|maintenance/.test(key)||/장비|이상/.test(title))return'equipment';
+ if(/knowledge|document|search|rag/.test(key)||/문서|검색|지식/.test(title))return'knowledge';
+ if(/simulation|twin|optimi/.test(key)||/최적|시뮬/.test(title))return'optimize';
+ return'workflow';
+}
+function artFor(task){
+ const labels=featureLabels(task),kind=infer(task),a=labels[0]||'데이터 통합',b=labels[1]||'AI 분석',c=labels[2]||'의사결정 지원';
+ let body='';
+ if(kind==='report'){
+   body=step(0,node(59,70,294,'장비 데이터','data')+node(59,178,294,'자동 수집','link')+node(59,286,294,'일일 요약','chart'));
+   body+=line('M355 211C407 211 410 211 461 211');
+   body+=step(1,rect(468,46,323,391,15,'#18201a','#cfaa6655')+text(494,91,'DAILY REPORT',24,'#ead0a0')+graph(494,126,267,106,task.id)+'<path d="M494 275h240m-240 32h210m-210 32h230" stroke="#cfb58a44" stroke-width="5"/>'+rect(494,367,166,36,9,'#d8b57526','#cfaa6644')+text(577,392,'HTML 보고서',19,'#e7c98e','middle'));
+   body+=step(2,rect(835,171,126,93,13,'#40311c','#edc68188')+'<path d="M859 193h78v48h-78zM859 195l39 25 39-25" stroke="#efd296" fill="none" stroke-width="2"/>'+text(898,303,'메일 전달',24,'#e5cea0','middle'))+line('M793 211H829');
+ }else if(kind==='thinfilm'){
+   body=step(0,text(57,59,'Lot · 장비 · FDC',27,'#e8cf9b')+rect(55,88,340,327,14,'#0b1513'));
+   ['Lot 이력','장비 상태','FDC 조건'].forEach((s,i)=>body+=step(.2+i*.25,node(73,112+i*90,302,s,['data','target','chart'][i])));
+   body+=step(1,rect(447,42,519,243,14,'#0d1513')+text(474,84,'Summary Chart',26,'#ead0a0')+graph(474,112,466,140,task.id));
+   body+=step(2,rect(447,320,519,113,14,'#1d241b','#cda96455')+text(475,362,'DOE 결과 공유',27,'#f0d298')+text(475,407,'실험 조건 → 비교 → 최적 조건 탐색',23,'#bdaa87'))+line('M398 253H443');
+ }else if(kind==='board'){
+   body=step(0,rect(56,44,907,79,15,'#15201a','#cba76566')+'<g transform="translate(79 71)" stroke="#efd09a" fill="none" stroke-width="1.5">'+iconPaths.search+'</g>'+text(129,94,'공정과 장비를 자연어로 조회',28,'#ecd3a5'));
+   const cols=[['데이터 통합',['Lot 정보','장비 · 공정']],['복합 분석',['조건 비교','연계 데이터']],['결과 재활용',['분석 저장','Working Board']]];
+   cols.forEach((col,i)=>{body+=step(.5+i*.6,rect(57+i*310,159,287,285,15,'#111a16')+text(79+i*310,205,col[0],27,'#e6c991'));col[1].forEach((s,j)=>body+=step(1+i*.4+j*.2,rect(77+i*310,233+j*92,247,68,10,'#25291d','#af995e40')+text(96+i*310,275+j*92,s,23,'#dcd2bf')))});
+ }else if(kind==='labeling'){
+   body=step(0,rect(48,48,458,395,15,'#171915','#ab9c7066')+text(75,89,'TEM 이미지 · 정렬과 측정',26,'#ead1a0'));
+   let profile='';for(let i=0;i<7;i++){const x=78+i*60;profile+='<path d="M'+x+' 137v67q0 12 12 12h12q12 0 12-12v-67M'+x+' 352v-64q0-12 12-12h12q12 0 12 12v64" fill="none" stroke="#bfc6b29c" stroke-width="6"/>'}
+   body+=step(.5,profile+'<path d="M152 200v87M141 200h22M141 287h22M332 174h94M332 165v18M426 165v18" fill="none" stroke="#ecd185" stroke-width="2"/>'+text(278,404,'측정 항목별 자동 계측',23,'#baa881','middle'));
+   body+=step(1,node(579,86,373,'이미지 회전 · 정렬','target')+node(579,204,373,'항목별 자동 측정','chart')+node(579,322,373,'Raw data 정리 · 분석','data'))+line('M510 244H574');
+ }else if(kind==='portal'){
+   body=step(0,text(58,58,'Cubic공정Lab · 통합 업무 포털',28,'#e6c894'));
+   const cards=[['Lot 조회','data'],['장비 조회','target'],['TEM 예약','check'],['리포트 생성','chart']];
+   cards.forEach((r,i)=>{const x=68+(i%2)*268,y=105+Math.floor(i/2)*164;body+=step(.3+i*.35,rect(x,y,236,139,14,'#172019','#bd9f6555')+'<g transform="translate('+(x+26)+' '+(y+28)+')" stroke="#e5c88f" fill="none" stroke-width="1.5">'+iconPaths[r[1]]+'</g>'+text(x+28,y+105,r[0],27,'#e4d7c2'))});
+   body+=step(2,rect(657,116,302,279,20,'#26271b','#d5b17177')+'<circle cx="808" cy="201" r="46" fill="#373220" stroke="#e6c48988"/>'+text(808,214,'AI',36,'#f3d79d','middle')+text(808,293,'하나의 앱',30,'#ead2a0','middle')+text(808,345,'조회 · 예약 · 보고',22,'#b9a686','middle'))+line('M567 251H651');
+ }else if(kind==='overlay'){
+   body=step(0,text(57,54,'Overlay · Vector & Scatter Map',26,'#e3c690')+rect(50,77,445,355,14,'#0c1513'));
+   let vectors='';for(let row=0;row<7;row++)for(let col=0;col<9;col++){const x=82+col*46,y=113+row*43,dx=8+Math.sin(col*.7+row)*6,dy=Math.cos(row*.6+col)*8;vectors+='<path d="M'+x+' '+y+'l'+dx+' '+dy+'" stroke="'+(col>5&&row>2?'#e5b967':'#66b3b4')+'" stroke-width="1.7"/><circle cx="'+x+'" cy="'+y+'" r="1.6" fill="#abaaa0"/>'}
+   body+=step(.7,vectors+text(272,412,'벡터 방향과 편차 비교',23,'#b5a282','middle'));
+   body+=step(1,rect(539,77,426,192,13,'#0e1613')+text(567,119,'Parameter Trend',26,'#e5cb99')+graph(567,146,372,94,task.id));
+   body+=step(2,node(539,294,426,'K-parameter 원인 추정','target')+node(539,386,426,'해결 방안 제안','check'))+line('M500 243H534');
+ }else if(kind==='plug'){
+   body=step(0,rect(50,49,458,399,15,'#111814','#bc9e6455')+text(77,90,'대면적 Plug 이미지 · 자동 인식',25,'#e9ce96'));
+   let plugs='';for(let row=0;row<6;row++)for(let col=0;col<9;col++){const x=85+col*46,y=135+row*47,suspicious=row===3&&col===5;plugs+='<circle cx="'+x+'" cy="'+y+'" r="13" fill="'+(suspicious?'#e7ba6850':'#518f8a33')+'" stroke="'+(suspicious?'#f4cb7c':'#76aaa366')+'" stroke-width="1.8"/>';if(suspicious)plugs+='<rect x="'+(x-22)+'" y="'+(y-22)+'" width="44" height="44" fill="none" stroke="#f4cb7c" stroke-width="2"/>'}
+   body+=step(.6,plugs+text(279,429,'오계측 의심 대상 선별',23,'#c3ae88','middle'));
+   body+=step(1,node(577,83,374,'CV 기반 자동 인식','search')+node(577,205,374,'담당자 최종 판정','check')+node(577,327,374,'Profile · 챗봇 활용','chart'))+line('M512 244H571');
+ }else if(kind==='wafer'||kind==='monitor'){
+   body=step(0,wafer(260,236,163,task.id))+step(1,text(80,447,kind==='monitor'?'Wafer Map · 공정 현황':'Wafer Map · 패턴 분석',23,'#bda77c'));
+   body+=step(1,rect(493,40,482,214,14,'#0d1412')+text(519,80,kind==='monitor'?'공정 지표 추이':'패턴과 경향',25,'#ead1a5')+graph(519,112,426,113,task.id*3));
+   body+=step(2,node(493,277,482,a,'target')+node(493,366,482,b,'chart'));
+   body+=line('M440 232C460 232 454 313 490 313','#eccb8b',1.5);
+ }else if(kind==='inline'){
+   body=step(0,text(60,55,'공정 연계 · 상관관계',27,'#efd49e'));
+   let matrix='';const random=seeded(task.id*7);
+   for(let row=0;row<6;row++)for(let col=0;col<6;col++){const v=row===col?.9:random()*.7;matrix+=rect(70+col*47,95+row*47,42,42,4,'rgba(229,176,79,'+(.12+v*.75)+')','#dfb87220')}
+   body+=step(0,matrix+text(70,415,'GoodDocs 매핑',23,'#bfa879'));
+   body+=step(1,rect(442,55,509,114,13)+text(470,95,'Lot · 메인 공정',24,'#b7a17c')+text(470,139,'분석 요청 → 자동 매핑',29,'#f1d59c'));
+   body+=step(2,node(442,205,509,a,'data')+node(442,296,509,b,'chart')+node(442,387,509,c,'link'));
+   body+=line('M365 237C405 237 395 239 435 239');
+ }else if(kind==='research'){
+   body=step(0,text(57,52,'연구 데이터를 하나의 환경으로',28,'#edcf93'));
+   const inputs=['Lot 이력','Lot Inline','장비 이력','장비 FDC','연계 공정'];
+   inputs.forEach((s,i)=>{body+=step(i*.18,node(60,78+i*76,240,s,'data'));body+=line('M300 '+(112+i*76)+'C400 '+(112+i*76)+' 382 240 489 240','#cf9c536b')});
+   body+=step(1,'<circle cx="547" cy="240" r="60" fill="#39291b" stroke="#edd19888" stroke-width="2"/><circle cx="547" cy="240" r="76" fill="none" stroke="#cf9c5333"/>'+text(547,254,'AI',39,'#f7dba1','middle'));
+   body+=step(2,node(690,107,270,'통합 조회','search')+node(690,221,270,'연계 분석','link')+node(690,335,270,'연구 의사결정','target'));
+   body+=line('M607 240C641 240 641 141 687 141')+line('M607 240L687 255')+line('M607 240C641 240 641 369 687 369');
+ }else if(kind==='expense'){
+   body=step(0,rect(47,37,467,417,15,'#0d1412')+text(76,86,'경비 실적 · 장비 이력',28,'#f0d097')+graph(76,120,407,130,task.id));
+   [['가스 사용량','조건 최적화'],['소모품','단가 재검토'],['유지보수','주기 검토']].forEach((r,i)=>body+=step(1+i*.15,text(76,303+i*50,r[0],25)+text(483,303+i*50,r[1],23,'#f0d097','end')));
+   body+=step(1,text(568,83,'절감 아이템 검토',28,'#f0d097'));
+   [['절감 가능','#73b69d'],['검토 중','#ebc16d'],['제외 항목','#bc8170']].forEach((r,i)=>body+=step(2+i*.15,rect(569,119+i*102,386,84,13,'#111916','#bea26633')+'<circle cx="603" cy="'+(161+i*102)+'" r="7" fill="'+r[1]+'"/>'+text(629,171+i*102,r[0],28,r[1])));
+ }else if(kind==='recipe'){
+   body=step(0,node(65,69,287,'평가 목적','target')+node(65,183,287,'공정 지식','data')+node(65,297,287,'실패 사례','link'));
+   body+=line('M352 104C436 104 383 236 469 236')+line('M352 218L469 236')+line('M352 332C436 332 383 236 469 236');
+   body+=step(1,'<circle cx="528" cy="236" r="58" fill="#382819" stroke="#edd19888"/>'+text(528,250,'AI',38,'#f0d097','middle'));
+   body+=line('M586 236C618 236 624 116 668 116')+line('M586 236L668 248')+line('M586 236C618 236 624 380 668 380');
+   ['목적 구체화','Plan · Recipe','근거 · 실패 사례'].forEach((s,i)=>body+=step(2+i*.14,rect(672,70+i*132,288,94,13,'#111916')+text(696,108+i*132,['GOAL','RECOMMENDATION','EVIDENCE'][i],18,'#bda57c')+text(696,144+i*132,s,24,'#efd6a5')));
+ }else if(kind==='equipment'){
+   body=step(0,text(62,62,'장비 상태와 공정 데이터의 연결',27,'#e8c78c'));
+   body+=step(0,'<g transform="translate(88 112)">'+rect(0,0,291,242,18,'#151c18','#b49a694d')+rect(39,35,211,96,9,'#0a1211','#79a8a04d')+graph(51,53,188,57,task.id)+'<circle cx="145" cy="187" r="41" fill="#171b15" stroke="#ddba78aa"/><circle cx="145" cy="187" r="27" fill="#b4823329" stroke="#ddba7855"/><path d="M55 242V273M240 242V273" stroke="#b19a70" stroke-width="8"/></g>');
+   body+=step(1,rect(480,84,476,161,13,'#0d1412')+text(508,124,a,26,'#ead3a5')+graph(508,154,420,66,task.id+6));
+   body+=step(2,node(480,273,476,b,'target')+node(480,365,476,c,'check'));
+   body+=line('M388 243C431 243 425 165 472 165');
+ }else if(kind==='knowledge'){
+   body=step(0,rect(52,46,911,84,16,'#151b18','#dab67466')+'<g transform="translate(75 77)" stroke="#eed097" fill="none" stroke-width="1.5">'+iconPaths.search+'</g>'+text(125,99,'질문을 이해하고, 필요한 정보를 연결',29,'#f0d097'));
+   const docs=['공정 지식','기술 문서','현장 데이터'];
+   docs.forEach((s,i)=>body+=step(1+i*.2,rect(67+i*305,171,278,160,14,'#111815')+text(92+i*305,215,s,27,'#e5d3b0')+'<path d="M'+(93+i*305)+' 245h174m-174 25h154m-154 25h126" stroke="#d6b47d40" stroke-width="4"/>'));
+   body+=step(2,rect(67,374,888,81,14,'#24231a','#dab67466')+text(511,425,'근거와 함께 제안하는 AI Agent',30,'#f4d897','middle'));
+   body+=line('M511 332V372');
+ }else if(kind==='optimize'){
+   body=step(0,text(64,67,'공정 조건 · 목표 · 최적화',28,'#e4c58d'));
+   body+=step(0,rect(64,107,424,317,15,'#0d1412')+text(92,150,'조건 탐색 공간',26,'#bfa982'));
+   let surface='';for(let i=0;i<9;i++){surface+=line('M'+(96+i*42)+' 197L'+(136+i*34)+' 335','#5d9a9466',1);surface+=line('M96 '+(197+i*18)+'L432 '+(197+i*12),'#a7894c55',1)}
+   body+=step(1,surface+'<circle cx="309" cy="288" r="13" fill="#f1c979"/><circle cx="309" cy="288" r="28" fill="none" stroke="#f1c97977"/>'+text(309,377,'목표 조건 탐색',25,'#ecd19b','middle'));
+   body+=step(1,node(579,103,375,a,'target')+node(579,220,375,b,'chart')+node(579,337,375,c,'check'));
+   body+=line('M491 271C536 271 529 254 574 254');
+ }else{
+   body=step(0,text(60,70,'현장의 데이터를 실행 가능한 정보로',28,'#edce94'));
+   [a,b,c].forEach((s,i)=>body+=step(i*.8,rect(60+i*315,147,279,225,16,'#111916')+'<circle cx="'+(200+i*315)+'" cy="209" r="31" fill="#392a1a" stroke="#d9b16d77"/>'+text(200+i*315,219,String(i+1).padStart(2,'0'),26,'#f1d69c','middle')+text(200+i*315,288,s,25,'#e8d9bf','middle')+'<path d="M'+(98+i*315)+' 323h204" stroke="#bc9b622c" stroke-width="4"/>'));
+   body+=line('M340 260H372')+line('M655 260H687')+step(2,text(510,444,'수집  →  분석  →  제안',26,'#c9af7f','middle'));
+ }
+ return '<svg viewBox="0 0 1020 500"><defs><linearGradient id="chartfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfa55444"/><stop offset="1" stop-color="#cfa55400"/></linearGradient></defs>'+body+'</svg>';
+}
+const openPhases=[
+ {k:'A NEW CHAPTER BEGINS',t:'R&D 공정',s:'R&D 공정의 새로운 도전이 시작됩니다.'},
+ {k:'HUMAN EXPERIENCE × AI POSSIBILITY',t:'사람의 경험에\nAI의 가능성을 더해',s:'R&D 공정의 혁신이 시작됩니다.'},
+ {k:'THE NEXT CHAPTER OF R&D',t:'R&D 공정',s:'—  AI FAST TRACK  —'},
+ {k:'FROM CHALLENGE TO SOLUTION',t:'현장의 고민이\n실질적인 솔루션으로',s:'12개의 AI Agent가 만드는 변화'},
+ {k:'TWELVE AGENTS',t:'',s:''}
+];
+function routeMotion(id,t){
+ const container=$(id);container.querySelectorAll('path').forEach((p,i)=>{p.style.strokeDasharray='1';p.style.strokeDashoffset=String(1-ease((t-i*.14)/2.8));});
+ container.querySelectorAll('circle').forEach((c,i)=>{const q=(t*.085+i*.137)%1,x=80+q*1760,y=850-(Math.sin(q*Math.PI)*125)+(i%3-1)*54;c.setAttribute('cx',x);c.setAttribute('cy',y);c.style.opacity=String((.3+.6*Math.sin(q*Math.PI))*ease(t/.65));});
+}
+function renderOpening(t){
+ const phase=Math.min(4,Math.floor(t/3)),local=t-phase*3,p=openPhases[phase];
+ if(currentOpening!==phase){currentOpening=phase;$('openKicker').textContent=p.k;$('openTitle').textContent=p.t;$('openSub').textContent=p.s;$('openTitle').style.fontFamily=phase===0||phase===2?'var(--serif)':'var(--sans)';$('openContent').style.display=phase===4?'none':'block';$('openCount').style.display=phase===4?'block':'none';$('openWafer').style.display=phase===1||phase===2||phase===4?'block':'none';$('hero').style.opacity=phase===0?.82:phase===3?.46:.18;$('door').style.opacity=$('hero').naturalWidth?0:(phase===0?.9:.2);$('person').style.opacity=$('hero').naturalWidth?0:(phase===0?1:0)}
+ const entry=ease(local/.75),exit=phase<4?clamp((3-local)/.35):1;
+ $('openContent').style.opacity=entry*exit;$('openContent').style.transform='translateY('+((1-entry)*34)+'px)';
+ $('openCount').style.opacity=entry;$('openCount').style.transform='translateY('+((1-entry)*34)+'px)';
+ $('hero').style.transform='scale('+(1.02+t*.003)+') translateX('+(phase===3?-45:0)+'px)';
+ $('openLine').style.transform='scaleX('+ease(local/1.4)+')';
+ $('openWafer').style.transform='translateY('+(Math.sin(t*.35)*10)+'px) rotate('+(t*.22)+'deg)';
+ $('footerPhase').textContent=phase===4?'12 AI AGENTS':'A NEW CHAPTER';
+ routeMotion('openRoutes',t);window.__motionState={phase:'opening',elapsed:t,motion_kind:'wafer-camera-and-gold-route',progress:local/3};
+}
+const taskVisuals={
+ 1:{before:['평가 자료','공정 지식','Plan · Recipe','과거 실패 사례'],input:'어떤 평가를 진행하시겠습니까?',tiles:['평가 목적 구체화','Plan · Recipe 추천','근거자료 연결'],notes:['추천 Plan · Recipe','근거 · 기술문서','과거 실패 사례'],compare:['목적 구체화','근거 연결','평가 판단 지원']},
+ 2:{before:['장비 데이터 확인','데이터 정리','보고서 작성','메일 발송'],sources:['SmartMES','GMS','IPA','Datalake'],agent:'보고 자동화',notes:['주요 지표 요약','HTML 보고서','담당자 자동 전달'],compare:['데이터 수집','보고서 생성','자동 전달']},
+ 3:{before:['Lot 현황','장비 상태','FDC 조건','DOE 결과'],input:'Thinfilm Agent · 통합 플랫폼',tiles:['Lot 현황','장비 현황','FDC 모니터링','DOE 관리'],notes:['Lot · FDC 추이','장비 상태','DOE 공유'],compare:['통합 조회','시각화','연구 결과 공유']},
+ 4:{before:['공정 데이터','장비 데이터','실험 결과','분석 자료'],input:'공정 조건과 장비 이력을 함께 보여주세요.',tiles:['공정 · 장비','실험 · 검증','보고서 · 참고자료'],notes:['공정 조건 비교','장비 이력 분석','결과 저장 · 재활용'],compare:['자연어 검색','복합 분석','결과 재활용']},
+ 5:{before:['공정 이력','장비 로그','조건 데이터','품질 결과'],fields:['Lot ID','메인 공정'],tiles:['GoodDocs 매핑','공정 이력','상관관계'],notes:['자동 이력 매핑','공정 영향 시각화','연계 공정 후보'],compare:['이력 매핑','상관관계 분석','후보 공정 확인']},
+ 6:{before:['Lot · Inline','장비 이력','장비 FDC','연계 공정'],fields:['Lot ID','조회 범위'],tiles:['Lot · Inline','장비 · FDC','연계 공정'],notes:['전후 공정 연결','장비 이상 이력','원인 후보 검토'],compare:['통합 이력','연계 분석','연구 판단']},
+ 7:{before:['경비 실적','장비 이력','구매 · 계약','유지보수'],sources:['경비','장비','계약','유지보수'],agent:'경비 분석',notes:['절감 아이템','검토 · 제외 상태','경비 추이'],compare:['통합 분석','절감 후보','검토 상태 확인']},
+ 8:{before:['Smart Factory 조회','Excel 가공','수동 분석','리포트 작성'],input:'웨이퍼 맵과 장비별 현황을 비교해주세요.',tiles:['공정 데이터','Wafer Map','장비별 비교'],notes:['웨이퍼 분포','공정 지표 추이','장비 비교'],compare:['자연어 조회','맵 · 그래프','공정 모니터링']},
+ 9:{before:['이미지 회전','항목별 측정','Raw data 정리','수동 분석'],input:'TCAD–TEM Labeling Tool',tiles:['이미지 불러오기','회전 · 정렬','자동 측정','Raw data 정리'],notes:['색상별 측정선','측정 항목 정리','결과 시각화'],compare:['정렬 · 자동 측정','데이터 정리','일관된 분석']},
+ 10:{before:['Excel','Smart Factory','APS','DataHub'],input:'Cubic공정Lab · 전용 포털',tiles:['Lot 조회','장비 Status','TEM 예약','보고서 · 메일'],notes:['Daily · Weekly Report','TEM 예약','근무자 메일'],compare:['조회 · 예약','보고서 생성','메일 기능 연결']},
+ 11:{before:['Overlay 도구','Residual 도구','MA Bias 도구','Dcol Data'],fields:['Lot ID','RSAB SNM Overlay'],tiles:['Overlay · Residual','MA Bias · Trend','K-parameter'],notes:['Vector · Scatter Map','Baseline 대비 추세','원인별 솔루션'],compare:['통합 조회','원인 후보 비교','솔루션 지원']},
+ 12:{before:['대면적 이미지','계측선 확인','계측 표 대조','육안 검증'],input:'CV · 계측선과 Plug 자동 인식',tiles:['영역 분할','계측선 인식','Plug 인식'],notes:['의심 항목 선별','담당자 최종 판정','Profile · 대시보드'],compare:['선별된 검토','담당자 최종 판정','분석 결과 활용']}
+};
+function sourcePhoto(task,panel,className,width,height,label){
+ const columns=task.id===3?4:5,panelWidth=1672/columns,tight=panel===2&&[5,8,11].includes(task.id),cropTop=tight?({5:475,8:470,11:430}[task.id]):245,cropHeight=tight?260:485;
+ const scale=Math.max(width/panelWidth,height/cropHeight),left=-((panel-1)*panelWidth*scale)-(panelWidth*scale-width)/2,top=-cropTop*scale-(cropHeight*scale-height)/2;
+ const src=task.source_image||('../../'+task.source_file);
+ return '<div class="photoFrame '+className+'" style="width:'+width+'px;height:'+height+'px"><img src="'+esc(src)+'" alt="" style="width:'+(1672*scale)+'px;height:'+(941*scale)+'px;left:'+left+'px;top:'+top+'px"><span class="photoTag">'+esc(label)+'</span></div>';
+}
+function beforePhoto(task,width,height){
+ if(!task.before_asset)throw Error('Task BEFORE asset is required: '+task.id);
+ return '<div class="photoFrame beforePhoto" style="width:'+width+'px;height:'+height+'px"><img src="'+esc(task.before_asset)+'" alt="" style="inset:0;width:100%;height:100%;object-fit:cover;object-position:center"></div>';
+}
+const uiTop=label=>'<div class="uiTop"><i></i><i></i><i></i><span>'+esc(label)+'</span><small>구성 예시</small></div>';
+function beforeContent(task,cut){
+ const data=taskVisuals[task.id],positions=[[53,36,-2],[510,17,1],[220,239,1.5],[665,224,-1.2]];
+ const cards=data.before.map((name,i)=>{const [x,y,r]=positions[i];return '<div class="chaosCard" data-step="'+i*.35+'" style="left:'+x+'px;top:'+y+'px;transform:rotate('+r+'deg)"><div class="source">'+['SOURCE · DATA','SOURCE · SYSTEM','SOURCE · DOCUMENT','SOURCE · WORK'][i]+'</div><div class="name">'+esc(name)+'</div><div class="bars"><b></b><b style="width:70px"></b><b style="width:49px"></b></div></div>'}).join('');
+ return beforePhoto(task,494,500)+'<div class="chaosField"><svg class="chaosLink" viewBox="0 0 1180 500"><path d="M368 132L510 93M385 205L375 239M582 325L665 304M714 170L812 224" fill="none" stroke="#b88064" stroke-width="2" stroke-dasharray="7 12"/><circle cx="462" cy="112" r="15" fill="#221914" stroke="#b67e6255"/><path d="M456 106l12 12m0-12-12 12" stroke="#bf907c" stroke-width="2"/></svg>'+cards+'<div class="chaosMessage">'+esc(task.beforepain)+'</div></div>';
+}
+function actionContent(task,cut){
+ const data=taskVisuals[task.id];let workspace='';
+ if(data.sources){workspace='<div class="sourceFlow"><div class="sourceNodes">'+data.sources.map(s=>'<div class="sourceNode">'+esc(s)+'</div>').join('')+'</div><div class="flowArrow">→</div><div class="agentCore">'+icon('data')+'<span>'+esc(data.agent)+'</span></div></div><p class="actionHint">여러 시스템의 데이터를 하나의 분석 흐름으로</p>'}
+ else {
+  if(data.fields)workspace='<div class="formFields">'+data.fields.map((s,i)=>'<div class="formField"><label>'+esc(s)+'</label><span>'+esc(i===0?'분석할 Lot을 입력':s==='조회 범위'?'관련 이력 연결':'연계 분석 대상')+'</span></div>').join('')+'</div>';
+  else workspace='<div class="commandPrompt">'+icon(task.id===9||task.id===12?'target':'search')+'<span>'+esc(data.input)+'</span><span class="send">→</span></div>';
+  workspace+='<div class="actionTiles '+(data.tiles.length===4?'four':'')+'">'+data.tiles.map((s,i)=>'<div class="actionTile">'+icon(['data','link','chart','check'][i])+'<span>'+esc(s)+'</span></div>').join('')+'</div><p class="actionHint">'+esc(task.afteraction)+'</p>';
+ }
+ return '<div class="uiFrame actionPanel">'+uiTop(task.id===9?'IMAGE LABELING WORKSPACE':task.id===12?'COMPUTER VISION WORKSPACE':'AI AGENT · '+task.short_title)+'<div class="actionWorkspace">'+workspace+'</div></div>'+sourcePhoto(task,2,'actionPhoto',536,500,task.id===12?'계측선 · Plug 인식':task.id===9?'정렬 · 측정 도구':'통합된 작업 화면');
+}
+function trendCard(x,y,w,h,label,seed){return rect(x,y,w,h,13,'#0b1512','#c0a06733')+text(x+22,y+36,label,23,'#dcc69c')+graph(x+22,y+60,w-44,h-86,seed)}
+function analysisArt(task){
+ const id=task.id;let body='';
+ if(id===1){
+  ['Plan · Recipe','근거 자료','과거 실패 사례'].forEach((s,i)=>{const x=29+i*330;body+=step(i*.45,rect(x,20,300,309,14,'#111b16','#c3a5704a')+text(x+24,63,s,26,'#efd396')+text(x+24,123,["평가 목적에 맞는 조건","유사 조건 · 기술문서","실패 원인 · 주의사항"][i],22)+rect(x+24,151,252,1,0,'#c3a57033','none')+text(x+24,205,["Plan ↔ Recipe","공정 지식 · 평가 데이터","대체 조건 검토"][i],22,'#bbaa88')+text(x+24,281,['맞춤 제안','근거 연결','판단 지원'][i],27,'#8fc7c6'))});
+ }else if(id===2){
+  body=step(0,rect(28,16,673,317,13,'#121b15','#b9a46955')+text(55,58,'Equipment Daily Report',28,'#edd1a0')+trendCard(55,84,385,198,'장비 가동 현황',2)+text(472,116,'주요 이슈 요약',24,'#e7cb94')+text(472,172,'가동 · 공정 지표',23)+text(472,218,'관찰 항목 정리',23)+text(472,278,'HTML 보고서',23,'#a7c9bb'))+step(.8,rect(745,42,245,116,14,'#2a2b1b','#d9b57566')+text(867,84,'핵심 정보',23,'#e7ca89','middle')+text(867,128,'자동 요약',29,'#efd6a5','middle')+rect(745,204,245,103,14,'#122019','#7cbab655')+text(867,248,'보고서 전달',28,'#c9d5b4','middle')+text(867,285,'지정 담당자',21,'#a0b7a0','middle'))+line('M703 177H744');
+ }else if(id===3){
+  body=step(0,trendCard(27,17,464,150,'Lot Trend',3)+trendCard(517,17,475,150,'FDC Summary',31))+step(.75,rect(27,194,464,138,13,'#101b16')+text(53,232,'Equipment Status',24,'#efd398')+text(53,290,'장비 현황 · 조건 비교',25)+rect(517,194,475,138,13,'#20291c','#c7b17b66')+text(544,232,'DOE Result',24,'#efd398')+text(544,290,'실험 결과 업데이트 · 공유',25,'#ced4b1'));
+ }else if(id===4){
+  body=step(0,trendCard(29,20,469,215,'공정 조건 · 트렌드',4)+trendCard(523,20,470,215,'장비 이상 이력',44))+step(.85,rect(29,260,964,72,14,'#20261a','#d7b47377')+text(510,306,'조건 비교  →  이상 패턴 분석  →  Working Board 저장',28,'#edcf8f','middle'));
+ }else if(id===5){
+  const random=seeded(55);let matrix='';for(let r=0;r<5;r++)for(let c=0;c<5;c++){const v=r===c?.85:random()*.65;matrix+=rect(63+c*47,83+r*47,42,42,4,'rgba(229,176,79,'+(.13+v*.7)+')','#ddbc7325')}
+  body=step(0,rect(28,17,316,315,14,'#111914')+text(56,60,'상관관계 시각화',25,'#ecd196')+matrix)+step(.6,rect(373,17,621,89,14,'#18221a','#82b4ac55')+text(401,56,'GoodDocs · 공정 이력 자동 매핑',27,'#ecd6a6')+text(401,86,'연계 공정의 흐름을 연결합니다',21,'#a0b4a2'));
+  ['공정 조건 편차','장비 이상 이력','연계 영향 후보'].forEach((s,i)=>body+=step(.85+i*.3,rect(373,127+i*70,621,56,11,'#111b16','#bca57333')+text(402,164+i*70,s,25)));
+ }else if(id===6){
+  ['이전 공정 · T1','현재 · NAND Cell','이후 공정 · T2'].forEach((s,i)=>{body+=step(i*.4,rect(31+i*335,35,287,95,14,i===1?'#373221':'#142019','#d4b16c66')+text(174+i*335,91,s,27,i===1?'#f2d798':'#c5d0b3','middle'));if(i<2)body+=line('M'+(320+i*335)+' 83H'+(360+i*335))});
+  ['공정 조건 편차','장비 이상 이력','연계 공정 영향'].forEach((s,i)=>body+=step(.9+i*.3,rect(31+i*335,178,287,141,14,'#101b16')+text(174+i*335,227,s,25,'#d7c19c','middle')+text(174+i*335,282,'원인 후보 검토',24,'#85bcb8','middle')));
+ }else if(id===7){
+  body=step(0,trendCard(28,20,414,309,'경비 추이 · 판단 지표',7)+rect(470,20,524,309,14,'#111a15'))+text(495,62,'절감 아이템',26,'#edd398')+text(929,62,'검토 상태',23,'#c4b187','end');
+  [['가스 사용량','제안','#94c7b2'],['소모품 단가','검토 중','#e4c278'],['유지보수 주기','제외','#b6937f']].forEach((r,i)=>body+=step(.7+i*.35,rect(491,90+i*77,482,60,11,'#20271b','#bfa77433')+text(510,128+i*77,r[0],25)+text(950,128+i*77,r[1],24,r[2],'end')));
+ }else if(id===8){
+  body=step(0,rect(27,18,399,315,14,'#0b1614')+wafer(226,177,124,8)+text(226,316,'Wafer Map',22,'#c7b18b','middle'))+step(.65,trendCard(456,18,537,155,'공정 지표 추이',8)+rect(456,198,537,135,14,'#142019')+text(483,238,'장비별 주요 지표 비교',26,'#e6cd9c'));
+  ['장비 A','장비 B','장비 C'].forEach((s,i)=>body+=step(1+i*.15,text(483+i*166,289,s,23,'#c4cbb3')+rect(483+i*166,305,132,5,2,i===1?'#d8b46f':'#6daba6','none')));
+ }else if(id===9){
+  let profile='';for(let i=0;i<5;i++){const x=68+i*78;profile+='<path d="M'+x+' 86v58q0 15 15 15h15q15 0 15-15V86M'+x+' 257v-58q0-15 15-15h15q15 0 15 15v58" fill="none" stroke="#b3bbb19c" stroke-width="8"/>'}
+  body=step(0,rect(27,18,470,315,14,'#181a15','#a2976c55')+text(54,59,'TEM · 항목별 측정선',25,'#e4ce9f')+profile+'<path d="M174 102v141M162 102h24M162 243h24" fill="none" stroke="#65c2ca" stroke-width="2"/><path d="M253 132h123M253 121v22M376 121v22" fill="none" stroke="#e2ba6c" stroke-width="2"/><path d="M343 202l37 43" fill="none" stroke="#bc79ce" stroke-width="2"/>'+text(262,307,'정렬 → 자동 측정',24,'#dbc292','middle'))+step(.65,rect(527,18,467,315,14,'#101b16')+text(554,58,'Raw data · 측정 항목',26,'#e8ce99'));
+  ['R_NIT · S/W','CD · LS','Etch Depth','Sidewall Angle'].forEach((s,i)=>body+=step(.8+i*.18,rect(552,82+i*55,416,43,8,'#27302066','#94b49b2e')+text(571,111+i*55,s,24,'#c9cfb6')));
+ }else if(id===10){
+  body=step(0,rect(28,18,633,315,14,'#111b16')+text(56,62,'Daily · Weekly Report',28,'#e7ce9b')+trendCard(56,87,352,215,'Lot · 장비 현황',10)+text(438,127,'최근 보고서',24,'#e0c394')+text(438,181,'주요 항목 요약',23)+text(438,232,'보고 기능 연결',23))+step(.7,rect(692,18,302,138,14,'#24291a','#c3ac7377')+text(719,67,'TEM 예약',28,'#ecd7a4')+text(719,118,'쿼터 · 일정 관리',24,'#c4c9ae')+rect(692,195,302,138,14,'#132019','#83bcb255')+text(719,243,'근무자 메일',28,'#d3dbc0')+text(719,294,'보고 · 전달 기능',24,'#abbcaa'));
+ }else if(id===11){
+  let vectors='';for(let row=-3;row<=3;row++)for(let col=-3;col<=3;col++){if(Math.hypot(row,col)>3.4)continue;const x=151+col*22,y=190+row*22;vectors+='<path d="M'+(x-4)+' '+(y+3)+'l8-6m-8 0h8v6" fill="none" stroke="#9fd7d3" stroke-width="1.1"/>'}
+  body=step(0,rect(26,18,478,315,14,'#0e1715')+text(51,60,'Vector · Scatter Map',25,'#e4cf9d')+wafer(151,190,91,11)+vectors+wafer(376,190,91,111)+text(151,316,'Overlay',21,'#bbba9f','middle')+text(376,316,'Residual · MA Bias',21,'#bbba9f','middle'))+step(.65,trendCard(535,18,460,183,'Parameter Trend 비교',11)+graph(557,78,416,97,211).replaceAll('#f0d097','#76c3c8')+text(560,188,'정상 Baseline',17,'#76c3c8')+text(775,188,'입력 Lot',17,'#e5bf78')+rect(535,227,460,106,14,'#25261b','#c3ac6b55')+text(560,267,'K-parameter · 원인 후보',25,'#ebcf95')+text(560,309,'정상 Baseline과 비교',24,'#b6c4aa'));
+ }else if(id===12){
+  body=step(0,rect(27,18,499,315,14,'#101917')+text(53,61,'계측 이미지 · 검토 대상',25,'#e6ce9f'));
+  [150,393].forEach((x,i)=>body+=step(.5+i*.25,'<circle cx="'+x+'" cy="181" r="73" fill="#33514b33" stroke="'+(i?'#67b6b7':'#e2b364')+'" stroke-width="3"/><path d="M'+(x-84)+' '+(i?181:162)+'h168M'+(i?x:x+22)+' 97v168" stroke="'+(i?'#67b6b755':'#e2b36488')+'" stroke-width="2"/>'+rect(x-83,97,166,168,9,'none',i?'#67b6b777':'#e2b364aa')+text(x,306,i?'정상 예시':'의심 예시',25,i?'#a8d1cc':'#ebc98c','middle')));
+  body+=step(.8,rect(555,18,440,315,14,'#18211a','#bda76955')+text(580,61,'검토 대상 선별',27,'#ecd398')+text(580,118,'의심 항목 확인',25)+text(580,176,'계측 이미지 대조',25)+rect(580,227,388,76,12,'#23372d','#85bcae88')+text(774,275,'담당자 최종 판정',30,'#c9dfc6','middle'));
+ }
+ return '<svg viewBox="0 0 1020 350"><defs><linearGradient id="chartfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfa55444"/><stop offset="1" stop-color="#cfa55400"/></linearGradient></defs>'+body+'</svg>';
+}
+function analysisContent(task,cut){
+ const notes=taskVisuals[task.id].notes;
+ return '<div class="uiFrame analysisCanvas">'+uiTop(task.id===9?'TEM MEASUREMENT & RAW DATA':task.id===11?'OVERLAY MAP & PARAMETER TREND':task.id===12?'REVIEW & HUMAN DECISION':task.short_title+' · 분석 화면')+'<div class="analysisArt">'+analysisArt(task)+'</div></div><div class="analysisNotes">'+notes.map((s,i)=>'<div class="analysisNote '+(i===2?'final':'')+'">'+icon(['chart','link','check'][i])+'<span>'+esc(s)+'</span></div>').join('')+'</div>';
+}
+function comparisonSymbol(task,after){
+ let body='';
+ if(!after){for(let i=0;i<4;i++)body+=rect(22+i*180,28+(i%2)*31,148,82,10,'#261d1766','#ad79615a')+text(96+i*180,79+(i%2)*31,'개별 확인',19,'#ad8d7b','middle');body+='<path d="M169 76h26M350 102h26M530 76h26" stroke="#ad796166" stroke-width="2" stroke-dasharray="3 9"/>'}
+ else if([8,11].includes(task.id)){body=wafer(105,80,60,task.id)+graph(230,26,268,116,task.id)+rect(550,24,183,114,12,'#14271f','#93c1ae77')+text(641,88,'비교 · 판단',23,'#dce0bd','middle')}
+ else if(task.id===12){for(let i=0;i<5;i++)body+='<circle cx="'+(64+i*58)+'" cy="80" r="20" fill="#547c6b33" stroke="'+(i===2?'#e0b26c':'#91c2b977')+'" stroke-width="2"/>';body+=line('M337 80H400')+rect(420,24,318,114,12,'#1b3328','#9bc4ac77')+text(578,70,'담당자 최종 판정',25,'#d4e0bf','middle')+text(578,108,'Profile · 분석 활용',22,'#9fc7b8','middle')}
+ else{for(let i=0;i<3;i++)body+=rect(32+i*248,28,215,112,12,'#183025aa','#a7bc8077')+text(139+i*248,74,['연결','분석','활용'][i],27,'#e3d0a5','middle')+text(139+i*248,112,taskVisuals[task.id].compare[i],19,'#9fc4b0','middle');body+=line('M247 82H279')+line('M495 82H527')}
+ return '<svg viewBox="0 0 768 168">'+body+'</svg>';
+}
+function comparisonContent(task,cut){
+ const data=taskVisuals[task.id],before=cut.before_caption||task.comparison.before,after=cut.after_caption||task.comparison.after;
+ const column=(isAfter,title,labels)=>'<div class="compareColumn '+(isAfter?'after':'')+'"><div class="compareLabel">'+(isAfter?'AFTER':'BEFORE')+'</div><div class="compareTitle" style="font-size:'+(title.length>13?38:44)+'px">'+esc(title)+'</div><div class="compareSteps">'+labels.map(s=>'<span class="compareStep">'+esc(s)+'</span>').join('')+'</div><div class="compareSymbol">'+comparisonSymbol(task,isAfter)+'</div></div>';
+ return '<div class="compareColumns">'+column(false,before,data.before.slice(0,3))+column(true,after,data.compare)+'</div><div class="compareArrow">→</div>';
+}
+
+const conceptPhotoBounds={1:[224,760],2:[320,774],3:[267,793],4:[245,783],5:[217,759],6:[226,757],7:[233,783],8:[228,782],9:[223,760],10:[225,780],11:[233,779],12:[245,759]};
+function photoPlate(task,panel,width=1120,height=790){
+ const ref=motionReference.tasks.find(t=>t.task_id===task.id),asset=ref.photo_assets[panel===2?'action':panel===3?'analysis':'detail'];
+ const [, ,pw,ph]=asset.source_box_xywh,scale=(height/ph)*1.16,imageWidth=pw*scale,imageHeight=ph*scale;
+ const left=width===960?92:76,top=-(imageHeight-height)/2;
+ return '<div class="scenePortrait"><img class="cameraPhoto" src="'+esc(asset.html_src)+'" alt="" style="width:'+imageWidth+'px;height:'+imageHeight+'px;left:'+left+'px;top:'+top+'px" data-base-left="'+left+'" data-base-top="'+top+'"></div>';
+}
+function photoScene(task,panel,before=false){
+ return '<div class="photoScene"><div class="photoBackdrop" style="background-image:url(&quot;'+esc(before?task.before_asset:motionReference.tasks.find(t=>t.task_id===task.id).photo_assets.action.html_src)+'&quot;)"></div>'+(before?'<div class="actualBefore"><img class="cameraPhoto" src="'+esc(task.before_asset)+'" alt=""></div>':photoPlate(task,panel))+'<div class="photoShade"></div></div>';
+}
+function liveTop(label,kind){return '<div class="uiTop"><i></i><i></i><i></i><span>'+esc(label)+'</span><small class="statusText" data-status="'+esc(kind)+'">'+esc(kind)+'</small></div>'}
+function liveSourceCards(task){
+ const data=taskVisuals[task.id],positions=[[0,0,-3],[332,27,2],[27,227,2],[350,244,-2]];
+ const cards=data.before.map((name,i)=>{const [x,y,r]=positions[i];return '<div class="floatingSource motionNode" data-node="'+i+'" data-x="'+x+'" data-y="'+y+'" data-rotation="'+r+'" style="left:'+x+'px;top:'+y+'px"><div class="sourceIcon">'+icon(['data','search','chart','link'][i])+'</div><div class="name">'+esc(name)+'</div><div class="sourceTicks"><i></i><i></i><i></i></div></div>'}).join('');
+ return '<div class="beforePanel"><svg class="sourceConnector" viewBox="0 0 650 447"><path d="M292 90L332 110M190 129L180 227M450 158L468 244M319 310L350 321"/><circle class="sourceSignal" data-signal="0" r="4"/><circle class="sourceSignal" data-signal="1" r="4"/><circle class="sourceSignal" data-signal="2" r="4"/></svg>'+cards+'<div class="sourceCross">×</div></div>';
+}
+function liveAction(task){
+ const d=taskVisuals[task.id];let body='';
+ if(d.sources){
+  body='<div class="sourceFlow"><div class="sourceNodes">'+d.sources.map((a,i)=>'<div class="sourceNode motionNode" data-node="'+i+'">'+esc(a)+'</div>').join('')+'</div><div class="flowArrow">→</div><div class="agentCore motionNode" data-node="4">'+icon('data')+'<span>'+esc(d.agent)+'</span></div></div>';
+ }else {
+  if(d.fields)body='<div class="formFields">'+d.fields.map((a,i)=>'<div class="formField motionNode" data-node="'+i+'"><label>'+esc(a)+'</label><span class="commandText" data-type-text="'+esc(i===0?'Lot을 입력해 통합 조회':a==='조회 범위'?'관련 공정 · 장비 이력':'분석 대상 선택')+'"></span></div>').join('')+'</div>';
+  else body='<div class="commandPrompt">'+icon(task.id===9||task.id===12?'target':'search')+'<span class="commandText" data-type-text="'+esc(d.input)+'"></span><span class="send">→</span></div>';
+  body+='<div class="actionTiles '+(d.tiles.length===4?'four':'')+'">'+d.tiles.map((a,i)=>'<div class="actionTile motionNode" data-node="'+i+'">'+icon(['data','link','chart','check'][i])+'<span>'+esc(a)+'</span></div>').join('')+'</div>';
+ }
+ body+='<p class="actionHint motionNode" data-node="5">'+esc(task.afteraction)+'</p><div class="liveStatus"><b></b></div>';
+ return '<div class="monitorSupport"></div><div class="deskLight"></div><div class="cinemaUI actionCinema">'+liveTop(task.id===9?'TCAD–TEM LABELING TOOL':task.id===12?'PLUG · COMPUTER VISION':task.short_title,'입력 → 연결')+'<div class="actionWorkspace">'+body+'</div><div class="signalTracks"><svg viewBox="0 0 996 403"><path d="M58 315C275 365 552 365 922 315"/><circle class="flowSignal" data-signal="0" r="4"/><circle class="flowSignal" data-signal="1" r="3"/><circle class="flowSignal" data-signal="2" r="3"/></svg></div></div>';
+}
+function specialAnalysisOverlay(task){
+ let result='<div class="analysisScanner"><div class="scanBeam"></div><div class="scanLine"></div>'+(task.id===12?'<div class="roi"></div>':'')+'</div>';
+ if(task.id===9)result+='<div class="measurementOverlay"><svg viewBox="0 0 290 190"><path class="measureLine" pathLength="1" d="M55 20V165M44 20H66M44 165H66" stroke="#7ce3dd"/><path class="measureLine" pathLength="1" d="M110 55H245M110 43V67M245 43V67" stroke="#f1ca76"/><path class="measureLine" pathLength="1" d="M175 120L218 164" stroke="#cf9be2"/><text class="measurementValue" x="71" y="112">측정선 정렬</text></svg></div>';
+ if(task.id===11)result+='<div class="parameterSweep"><div></div></div>';
+ return result;
+}
+function liveAnalysis(task,comparison=false){
+ const title=task.id===9?'TEM · 측정 항목과 Raw data':task.id===11?'OVERLAY · MAP & PARAMETER':task.id===12?'의심 항목 선별 · 담당자 판정':task.short_title+' · 분석';
+ return (comparison?'':'<div class="monitorSupport"></div><div class="deskLight"></div>')+'<div class="cinemaUI analysisCinema '+(comparison?'compareUI':'')+'">'+liveTop(title,'분석 중')+'<div class="analysisArt">'+analysisArt(task)+'</div><div class="analysisChips">'+taskVisuals[task.id].notes.map((a,i)=>'<span class="analysisChip motionNode" data-node="'+i+'">'+icon(['chart','link','check'][i])+'<span>'+esc(a)+'</span></span>').join('')+'</div>'+(comparison?'':specialAnalysisOverlay(task))+'</div>';
+}
+function cinematicComparison(task,cut){
+ const d=taskVisuals[task.id],panel=task.id===3?4:5;
+ return '<div class="compareScene"><div class="compareHalf beforeHalf"><div class="actualBefore"><img class="cameraPhoto" src="'+esc(task.before_asset)+'" alt=""></div></div><div class="compareHalf afterHalf">'+photoPlate(task,panel,960,544)+'</div><div class="compareHalfLabel before">BEFORE</div><div class="compareHalfLabel after">AFTER</div>'+liveAnalysis(task,true)+'<div class="comparisonSweep"></div><div class="comparisonGlow"></div><div class="comparisonRail"><div class="summaryBefore">'+esc(cut.before_caption||task.comparison.before)+'</div><div class="arrow">→</div><div class="summaryAfter">'+esc(cut.after_caption||task.comparison.after)+'<small>'+d.compare.map(esc).join('  ·  ')+'</small></div></div></div>';
+}
+function phaseMarkup(task,cut){
+ const before=cut.phase==='before',comparison=cut.phase==='before_after_comparison',panel=cut.phase==='after_analysis'?(task.id===3?3:4):2;
+ const content=comparison?cinematicComparison(task,cut):photoScene(task,panel,before)+(before?liveSourceCards(task):cut.phase==='after_action'?liveAction(task):liveAnalysis(task));
+ return '<div class="cutContent">'+content+'</div><div class="phaseMeta '+(comparison?'comparePhaseMeta':'')+'"><span class="phasePill '+(before?'before':'after')+'">'+esc(cut.cutlabel)+'</span><h3 class="phaseHeading">'+esc(cut.caption)+'</h3></div>';
+}
+function animateLayer(layer,task,cut,elapsed){
+ const p=clamp(elapsed/4),entry=ease(elapsed/.52),phase=cut.phase,kind=infer(task);
+ layer.querySelectorAll('.cameraPhoto').forEach((img,i)=>{
+  const side=(task.id%2?1:-1),zoom=phase==='before'?1.015+.025*p:1.01+.065*p;
+  img.style.transform='translate('+((p-.5)*side*(phase==='before'?16:34))+'px,'+((p-.5)*(task.id%3-1)*15)+'px) scale('+zoom+')';
+ });
+ layer.querySelectorAll('.photoBackdrop').forEach(el=>el.style.transform='translateX('+((p-.5)*-22)+'px) scale(1.12)');
+ layer.querySelectorAll('.cinemaUI').forEach(el=>{
+  const comparison=el.classList.contains('compareUI'),yaw=comparison?-3.5:-8+(task.id%3)*1.5;
+  el.style.transform='perspective(2000px) rotateY('+(yaw+p*2.3)+'deg) rotateX('+(1.8-p*1.5)+'deg) rotateZ(-.65deg) translate3d('+((1-entry)*75-p*7)+'px,'+((1-entry)*20-p*5)+'px,0)';
+  el.style.opacity=comparison?.92:entry;
+ });
+ layer.querySelectorAll('.monitorSupport').forEach(el=>{el.style.transform='perspective(1800px) rotateY('+(-6+p*2)+'deg) translateY('+((1-entry)*20)+'px)';el.style.opacity=entry;});
+ layer.querySelectorAll('[data-type-text]').forEach((el,i)=>{
+  const full=el.dataset.typeText,n=Math.floor(clamp((elapsed-.18-i*.16)/1.18)*full.length);
+  el.textContent=full.slice(0,n);const cursor=document.createElement('i');cursor.className='typeCursor';cursor.style.opacity=elapsed<1.6?String(.35+.65*(.5+.5*Math.cos(elapsed*14))):'0';el.appendChild(cursor);
+ });
+ layer.querySelectorAll('.motionNode').forEach((el,i)=>{
+  const n=Number(el.dataset.node||0),v=ease((elapsed-(phase==='before'?.13:phase==='after_action'?1.0:.35)-n*.2)/.64);
+  if(el.classList.contains('floatingSource')){
+   const r=Number(el.dataset.rotation),dx=Math.sin(elapsed*1.18+n*1.8)*(9+n*2),dy=Math.cos(elapsed*.92+n*2)*8;
+   el.style.transform='translate('+((1-v)*38+dx)+'px,'+((1-v)*24+dy)+'px) rotate('+(r+Math.sin(elapsed*.7+n)*.8)+'deg)';
+  }else el.style.transform='translateY('+((1-v)*19)+'px) scale('+(1-(1-v)*.025)+')';
+  el.style.opacity=phase==='before'?.48+.52*v:v;
+  const selected=phase==='after_action'?elapsed>1.3+n*.21&&elapsed<2.6+n*.19:elapsed>2.45+n*.2;
+  el.classList.toggle('nodeSelected',selected);
+ });
+ layer.querySelectorAll('.drawline').forEach((path,i)=>{
+  path.style.strokeDashoffset=1-ease((elapsed-.45-(i%4)*.17)/2.65);
+ });
+ layer.querySelectorAll('.step').forEach(el=>{
+  const n=Number(el.dataset.step||0),v=ease((elapsed-.15-n*.36)/.72);el.style.opacity=v;el.style.transform='translateY('+((1-v)*12)+'px)';
+ });
+ layer.querySelectorAll('.liveStatus b').forEach(el=>el.style.transform='scaleX('+clamp((elapsed-.25)/3.5)+')');
+ layer.querySelectorAll('.flowSignal').forEach((el,i)=>{
+  const q=(elapsed*.32+i*.33)%1,x=58+864*q,y=315+Math.sin(q*Math.PI)*41;el.setAttribute('cx',x);el.setAttribute('cy',y);el.style.opacity=elapsed>1.05?'1':'0';
+ });
+ layer.querySelectorAll('.sourceSignal').forEach((el,i)=>{const q=(elapsed*.34+i*.31)%1;el.setAttribute('cx',190+300*q);el.setAttribute('cy',122+225*q);el.style.opacity=.4+.45*Math.sin(q*Math.PI)});
+ layer.querySelectorAll('.scanBeam').forEach(el=>el.style.transform='translateX('+(-45+470*clamp((elapsed-.25)/3.65))+'px)');
+ layer.querySelectorAll('.scanLine').forEach(el=>el.style.transform='translateY('+(12+263*clamp((elapsed-.4)/3.4))+'px)');
+ layer.querySelectorAll('.roi').forEach(el=>{const v=ease((elapsed-1.8)/.7);el.style.opacity=v;el.style.transform='scale('+(1.35-.35*v)+')';});
+ layer.querySelectorAll('.measureLine').forEach((el,i)=>el.style.strokeDashoffset=1-ease((elapsed-.6-i*.65)/1.15));
+ layer.querySelectorAll('.measurementValue').forEach(el=>el.style.opacity=ease((elapsed-2.35)/.5));
+ layer.querySelectorAll('.parameterSweep div').forEach(el=>el.style.transform='translateX('+(clamp((elapsed-.75)/3.1)*430-25)+'px)');
+ layer.querySelectorAll('.comparisonSweep').forEach(el=>{el.style.left=(960+Math.sin(p*Math.PI)*140)+'px';el.style.opacity=.4+.6*Math.sin(p*Math.PI)});
+ layer.querySelectorAll('.afterHalf').forEach(el=>el.style.clipPath='inset(0 0 0 '+((1-ease(elapsed/3.6))*180)+'px)');
+ layer.querySelectorAll('.compareUI .analysisArt').forEach(el=>el.style.clipPath='none');
+ layer.querySelectorAll('.statusText').forEach(el=>el.textContent=phase==='after_action'?(elapsed<1.4?'질문 입력':elapsed<2.7?'정보 연결':'연결 완료'):task.id===12?(elapsed<2.6?'검토 대상 선별':'담당자 최종 판정'):(elapsed<2.55?'데이터 분석':'결과 확인'));
+ window.__motionState={task_id:task.id,phase,elapsed:Number(elapsed.toFixed(4)),motion_kind:phase==='before'?'task-work-and-fragmented-sources':phase==='after_action'?(taskVisuals[task.id].sources?'source-integration-flow':'typed-query-and-selection'):phase==='after_analysis'?(task.id===9?'tem-alignment-and-measurement':task.id===11?'overlay-vector-and-parameter-sweep':task.id===12?'plug-scan-roi-human-review':'scan-and-chart-draw'):'photographic-before-after-wipe',progress:p,typing:clamp((elapsed-.18)/1.18),data_flow:(elapsed*.32)%1,chart_draw:ease((elapsed-.45)/2.65),scan:clamp((elapsed-.25)/3.65),ui_camera_yaw:-8+p*2.3,typed_chars:[...layer.querySelectorAll('[data-type-text]')].reduce((sum,el)=>sum+(el.childNodes[0]?.textContent.length||0),0),connected_nodes:Math.min(5,Math.floor(clamp((elapsed-1)/2.7)*5)),scanned_rows:Math.floor(clamp((elapsed-.25)/3.65)*6),comparison_reveal:clamp((elapsed-.1)/3.55),human_final_review:task.id===12&&elapsed>=2.6};
+}
+function progressMarkup(active=3){return ['01 · BEFORE','02 · AFTER 연결','03 · AFTER 분석','04 · BEFORE / AFTER'].map((s,i)=>'<span class="'+(i===active?'active':i<active?'done':'')+'">'+s+'</span>').join('')}
+function previousMarkup(task){
+ const cut=task.cuts.at(-1);return '<div class="taskHeader"><span class="taskNo">'+String(task.id).padStart(2,'0')+'</span><h2 class="taskTitle">'+esc(task.short_title)+'</h2><div class="taskOwner">'+esc(task.team)+'<br>'+esc(task.owner)+' TL</div></div><div class="phaseRoot">'+phaseMarkup(task,cut)+'</div><div class="taskCaption">'+esc(cut.narration)+'</div><div class="phaseProgress">'+progressMarkup()+'</div>';
+}
+function loadTask(task,index){
+ currentTask=index;const no=String(task.id).padStart(2,'0');
+ const balancedTitles={1:'Smart Process Architecture\nAI Agent',2:'장비 Daily Report\nAuto Mail System',3:'Thinfilm Agent -\nBEOL Thinfilm',4:'C&C Working Board 내\nAI Agent 구축',5:'LLM을 활용한 C&C 공정\nInline Data 관리',6:'R&D 공정 Eng’r 연구 환경\nInfra 구축',7:'경비 분석 및 절감 아이템 발굴\nAgent 개발',8:'공정 Monitoring Data 자연어 검색\n및 시각화 Agent',9:'TCAD-TEM 이미지 연계를 통한\n이미지 Labeling Tool 개발',10:'Cubic공정Lab 전용\nApp&Agent',11:'RSAB SNM Overlay\n열화 원인 분석 및\n솔루션 제시 Agent',12:'AI Agent 기반 Plug\n대면적 데이터 분석 자동화 및\n인사이트 도출'};
+ $('introNumber').textContent=no;$('introTitle').textContent=balancedTitles[task.id]||task.title;
+ $('introTeam').textContent=task.team+'  ·  '+task.owner+' TL';$('introCore').textContent=task.core_message;
+ $('introTexture').style.backgroundImage='url("'+task.before_asset+'")';
+ $('taskNo').textContent=no;$('taskTitle').textContent=task.short_title||task.title;$('taskTitle').style.fontSize=(task.short_title||task.title).length>32?'39px':'46px';
+ $('taskOwner').innerHTML=esc(task.team)+'<br>'+esc(task.owner)+' TL';
+ $('phaseRoot').innerHTML=task.cuts.map((cut,i)=>'<div class="cutLayer" data-cut="'+i+'">'+phaseMarkup(task,cut)+'</div>').join('');
+ $('previousBody').innerHTML=index>0?previousMarkup(story.tasks[index-1]):'';
+ if(index>0){const previous=story.tasks[index-1];animateLayer($('previousBody'),previous,previous.cuts.at(-1),4);}
+}
+function renderTask(task,index,t){
+ if(currentTask!==index)loadTask(task,index);
+ const local=t-task.start,titleSeconds=Number(task.title_seconds??2),intro=ease(local/.28)*(1-ease((local-titleSeconds)/.25)),body=ease((local-titleSeconds)/.25);
+ const underlayOpacity=index>0?1-ease(local/.28):0;$('previousBody').style.display=underlayOpacity>0?'block':'none';$('previousBody').style.opacity=underlayOpacity;
+ $('taskIntro').style.opacity=intro;$('taskIntro').style.display=intro>0?'block':'none';$('taskIntro').style.transform='translateX('+((1-ease(local/.55))*42)+'px)';
+ $('introStageRoute').style.transform='scaleX('+ease(local/1.7)+')';$('introLightSweep').style.left=(120+1500*clamp(local/2))+'px';
+ $('introTexture').style.transform='perspective(1600px) rotateY('+(-7+local*2)+'deg) scale('+(1.03+local*.015)+')';
+ $('taskBody').style.opacity=body;$('taskBody').style.display=body>0?'block':'none';$('taskBody').style.transform='none';
+ let active=Math.max(0,task.cuts.findLastIndex(cut=>t>=cut.start));
+ $('phaseRoot').querySelectorAll('.cutLayer').forEach((layer,i)=>{
+  const cut=task.cuts[i],elapsed=t-cut.start,entry=ease(elapsed/.32),exit=i===task.cuts.length-1?1:1-ease((t-cut.end)/.25),opacity=entry*exit;
+  layer.style.display=opacity>0?'block':'none';layer.style.opacity=opacity;layer.style.transform='none';
+  if(opacity>0)animateLayer(layer,task,cut,elapsed);
+ });
+ if(body===0)window.__motionState={task_id:task.id,phase:'title',elapsed:local,motion_kind:'gold-route-and-title-camera',progress:clamp(local/2)};
+ $('taskCaption').textContent=task.cuts[active].narration;$('phaseProgress').innerHTML=progressMarkup(active);
+ $('footerPhase').textContent=String(task.id).padStart(2,'0')+' / '+story.tasks.length+'  ·  '+task.owner;
+}
+function renderEnding(t){
+ const local=t-story.ending.start,entry=ease(local/1.2);$('endingText').style.opacity=entry;$('endingText').style.transform='translateY('+((1-entry)*35)+'px)';$('endImage').style.transform='scale('+(1.04+local*.003)+')';
+ routeMotion('endRoutes',local);window.__motionState={phase:'ending',elapsed:local,motion_kind:'horizon-camera-and-gold-route',progress:local/10};
+ $('endingLock').style.opacity=ease((local-3.6)/1.4);$('endingLock').style.transform='translateY('+((1-ease((local-3.6)/1.4))*20)+'px)';$('footerPhase').textContent='TOWARD A BETTER TOMORROW';
+}
+function update(t){
+ t=clamp(t,0,story.duration_seconds);const inOpen=t<story.opening.end,inEnd=t>=story.ending.start;
+ $('opening').style.display=inOpen?'block':'none';$('task').style.display=!inOpen&&!inEnd?'block':'none';$('ending').style.display=inEnd?'block':'none';
+ if(inOpen)renderOpening(t);else if(inEnd)renderEnding(t);else {const index=story.tasks.findIndex(task=>t>=task.start&&t<task.end);if(index>=0)renderTask(story.tasks[index],index,t)}
+ $('ambient').style.transform='translateX('+Math.sin(t*.05)*25+'px) scale('+(1+t*.00015)+')';
+ $('field').style.transform='translateY('+Math.sin(t*.12)*8+'px)';
+ $('timelineFill').style.transform='scaleX('+t/story.duration_seconds+')';
+ $('dots').querySelectorAll('b').forEach((b,i)=>{const task=story.tasks[i];b.style.transform='scaleX('+clamp((t-task.start)/(task.end-task.start))+')';b.parentElement.style.opacity=t>=task.start&&t<task.end?'1':'.65'});
+ $('black').style.opacity=Math.max(1-ease(t/.7),ease((t-(story.duration_seconds-.65))/.65));
+}
+function initField(){
+ const random=seeded(20261013);let s='';
+ for(let i=0;i<46;i++){const x=random()*1920,y=random()*1080,r=1+random()*2;s+='<circle cx="'+x+'" cy="'+y+'" r="'+r+'" fill="#e7c78b" opacity="'+(.08+random()*.27)+'"/>';if(i%4===0)s+='<path d="M'+x+' '+y+'h'+(70+random()*190)+'" stroke="#e8c58418"/>'}
+ $('field').innerHTML=s;
+ const routeMarkup=Array.from({length:5},(_,i)=>'<path pathLength="1" d="M-60 '+(942+i*29)+'Q960 '+(420+i*50)+' 1980 '+(942+i*29)+'"/>').join('')+Array.from({length:8},(_,i)=>'<circle r="'+(i%3?2.5:3.5)+'"/>').join('');$('openRoutes').innerHTML=routeMarkup;$('endRoutes').innerHTML=routeMarkup;
+ $('openWafer').innerHTML='<svg viewBox="0 0 930 850"><g transform="translate(0 90) rotate(-12 460 330)"><ellipse cx="465" cy="363" rx="391" ry="209" fill="#c1883022" stroke="#efcc8977"/><g transform="translate(45 -20) scale(1 .62)">'+wafer(420,580,375,42)+'</g><path d="M70 412C279 306 682 269 863 397" fill="none" stroke="#f3d79755" stroke-width="2"/></g></svg>';
+ $('endFallback').innerHTML='<svg viewBox="0 0 1920 1080" style="position:absolute;inset:0;width:100%;height:100%;opacity:.55"><defs><radialGradient id="earthglow"><stop stop-color="#b9853633"/><stop offset="1" stop-color="#07070600"/></radialGradient></defs><ellipse cx="960" cy="950" rx="1100" ry="420" fill="url(#earthglow)"/><path d="M-180 1090C160 465 1700 465 2100 1090" fill="none" stroke="#f2d49388" stroke-width="3"/><path d="M-170 1110C165 510 1710 510 2090 1110" fill="none" stroke="#ae823555"/>'+Array.from({length:40},(_,i)=>{const x=170+i*40,h=20+(i*71%170);return '<rect x="'+x+'" y="'+(930-h)+'" width="6" height="'+h+'" fill="#d3ac6866"/>'}).join('')+'</svg>';
+}
+const preloadedTaskImages=[],decodedSeekImages=new WeakMap();
+const loadImage=img=>new Promise(resolve=>{if(img.complete)return resolve();img.onload=()=>resolve();img.onerror=()=>{img.style.display='none';resolve()}});
+window.__ready=(async()=>{
+ const response=await fetch('../storyboard.json');if(!response.ok)throw Error('storyboard.json could not be loaded');story=await response.json();
+ const motionResponse=await fetch('../concept/motion-reference-20261014.json');if(!motionResponse.ok)throw Error('Motion reference could not be loaded');motionReference=await motionResponse.json();
+ if(story.tasks.length!==12)throw Error('Expected 12 tasks');
+ $('dots').innerHTML=story.tasks.map(()=>'<i><b></b></i>').join('');initField();
+ const assetPaths=[...new Set(story.tasks.flatMap(task=>{
+  if(!task.before_asset)throw Error('Task BEFORE asset is required: '+task.id);
+  return [task.source_image||('../../'+task.source_file),task.before_asset,...Object.values(motionReference.tasks.find(t=>t.task_id===task.id).photo_assets).map(a=>a.html_src)];
+ }))];
+ const assetLoads=assetPaths.map(src=>{
+  const img=new Image();preloadedTaskImages.push(img);
+  return new Promise((resolve,reject)=>{img.onload=async()=>{try{await img.decode();resolve()}catch(error){reject(Error('Task image could not be decoded: '+src))}};img.onerror=()=>reject(Error('Task image failed to load: '+src));img.src=src});
+ });
+ await Promise.all([document.fonts.ready,loadImage($('hero')),loadImage($('endImage')),...assetLoads]);if($('endImage').naturalWidth)$('endFallback').style.display='none';update(0);
+ window.__assetStatus={status:'PASS',loaded:assetPaths.length,paths:assetPaths};
+})();
+window.__seek=async t=>{
+ await window.__ready;update(t);
+ await Promise.all([...document.images].filter(img=>decodedSeekImages.get(img)!==(img.currentSrc||img.src)).map(async img=>{
+  if(img.style.display==='none')return;
+  try{await img.decode()}catch(error){throw Error('Frame image could not be decoded: '+img.src)}
+  if(!img.naturalWidth)throw Error('Frame image is empty: '+img.src);decodedSeekImages.set(img,img.currentSrc||img.src);
+ }));
+ await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));
+};
+const RENDER=new URLSearchParams(location.search).has('render');
+if(!RENDER){const fit=()=>{const scale=Math.min(innerWidth/1920,innerHeight/1080);$('stage').style.transform='translate('+((innerWidth-1920*scale)/2)+'px,'+((innerHeight-1080*scale)/2)+'px) scale('+scale+')'};fit();addEventListener('resize',fit);window.__ready.then(()=>{const begin=performance.now();const loop=()=>{update(((performance.now()-begin)/1000)%story.duration_seconds);requestAnimationFrame(loop)};loop()})}
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "provider": "ElevenLabs Creative Studio",
+  "flow_id": "ot6VJux5hCHb4Wbglrad",
+  "node_id": "sUWNaVr9hzeGnOUD20Z5",
+  "session_id": "wiI78r5D7nDNMWgGgIux",
+  "generation_id": "kJnbaRK4s7QWPI5t1ZBq",
+  "model_id": "eleven_v4",
+  "voice_id": "mYk0rAapHek2oTw18z8x",
+  "voice_name": "Salang - Calm, Clear and Warm",
+  "generated_prompt": "[bright, confident voice, slightly higher pitch, projecting to an audience]\n\n알앤디 업무에 AI를 더합니다.\n\n더 나은 알앤디 공정을 위한 변화가 시작됩니다.\n\n현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.\n\n현업의 다양한 과제를 해결하기 위한 도전입니다.\n\n현업의 문제를 AI로 해결하는 알앤디 공정 AI Fast Track.\n\n서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.\n\n현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.\n\n업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.\n\n지금부터 12개의 AI Agent 과제를 소개합니다.",
+  "approved_display_script": [
+    "R&D 업무에 AI를 더합니다.",
+    "더 나은 R&D 공정을 위한 변화가 시작됩니다.",
+    "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+    "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+    "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track.",
+    "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+    "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+    "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+    "지금부터 12개의 AI Agent 과제를 소개합니다."
+  ],
+  "spoken_script": [
+    "알앤디 업무에 AI를 더합니다.",
+    "더 나은 알앤디 공정을 위한 변화가 시작됩니다.",
+    "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+    "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+    "현업의 문제를 AI로 해결하는 알앤디 공정 AI Fast Track.",
+    "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+    "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+    "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+    "지금부터 12개의 AI Agent 과제를 소개합니다."
+  ],
+  "pronunciation_map": {
+    "R&D": "알앤디"
+  },
+  "requested_voice_settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75
+  },
+  "actual_exposed_parameters": {
+    "voice": "mYk0rAapHek2oTw18z8x",
+    "voice_id": "mYk0rAapHek2oTw18z8x",
+    "language_code": "ko",
+    "output_format": "mp3_44100_128",
+    "pronunciation_dictionary_locators": []
+  },
+  "settings_limitation": "Creative Studio eleven_v4 does not expose stability or similarity_boost. Generation uses connector defaults for those controls; exact values cannot be verified.",
+  "credits": 382,
+  "source_asset": "https://storage.googleapis.com/xi-backend/database/workspace/459e5d871de446f781a7506024bb8817/content_generation/wiI78r5D7nDNMWgGgIux/kJnbaRK4s7QWPI5t1ZBq/content.mp3",
+  "generation_status": "completed",
+  "reported_duration_seconds": 41.6,
+  "revision": "v3 first spoken sentence changed from 현업 to 업무; other eight spoken sentences unchanged; R&D remains Korean 알앤디"
+}

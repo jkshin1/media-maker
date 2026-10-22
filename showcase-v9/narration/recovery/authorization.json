@@ -1,0 +1,19 @@
+{
+  "revision": 9,
+  "created_at_utc": "2026-10-19T08:47:22.939120+00:00",
+  "authorization_source": "direct_user_reply_in_current_chat",
+  "user_answer_verbatim": "기존의 동일 문구·Kyung 엔딩 원음을 원래 속도로 재사용 (권장, 추가 생성 비용 없음)",
+  "scope": "Reuse the identical four-line original-speed Kyung ending from Revision8 after the new Revision9 body; explicit one-revision exception to fresh full single_take assembly.",
+  "fresh_full_generation_completed_count": 1,
+  "additional_paid_generation_authorized": false,
+  "ending_source": "/Users/jk/projects/media-maker/out/showcase-v9/recovery-review/revision8-ending-original-speed.wav",
+  "ending_source_sha256": "7a6e5d372d4c1b178ca38ae54058e27d120e78d19dfb49d87309a9783598b615",
+  "ending_review": "/Users/jk/projects/media-maker/out/showcase-v9/recovery-review/ending-reuse-review.json",
+  "ending_review_sha256": "287db6fda714e82831b8468214f538033166155cfac95af2f0bd42b92f73ba6b",
+  "voice_speed_ratio": 1,
+  "word_deletion_or_shortening_allowed": false,
+  "pause_edit_scope": "Only verified word-and-waveform-safe excess inter-sentence silence. Do not delete spoken samples or change speech tempo. Preserve both original masters and a sample mapping.",
+  "max_video_seconds": 315,
+  "new_tts_allowed": false,
+  "original_incomplete_master_must_be_preserved": true
+}

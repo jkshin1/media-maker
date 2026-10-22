@@ -1,0 +1,8 @@
+{
+  "revision": 11,
+  "status": "PASS",
+  "verified_at_utc": "2026-10-20T00:07:05.648465+00:00",
+  "workspace_video": "out/showcase-v11/RD_Process_AI_Fast_Track_Showcase_Revision11.mp4",
+  "sha256": "1988894783d674f4c8cd11d2b2d393821e4ddff9d506b5d284bb0fc7715edf1b",
+  "scope": "Read-only SHA256 of the preserved prior final video in the original workspace; the prior video is not part of the Revision12 source archive."
+}

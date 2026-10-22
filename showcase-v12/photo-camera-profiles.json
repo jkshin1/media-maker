@@ -1,0 +1,99 @@
+{
+  "revision": 8,
+  "baseline_revision": 6,
+  "source": "Approved original before photographs and reference/user-revision8-brief.json",
+  "coordinate_convention": "fx/fy select the remaining source crop margins, matching cover(); zoom is relative to the aspect-filled original photograph.",
+  "max_zoom": 1.12,
+  "tasks": {
+    "task3": {
+      "purpose_ko": "서류와 태블릿을 따로 확인하는 연구원에서 여러 조사 작업이 병행되는 연구 공간으로 천천히 시야를 넓힙니다.",
+      "single": {"label_ko": "서류·태블릿과 주변 조사 공간", "start": {"zoom": 1.11, "fx": 0.66, "fy": 0.36}, "end": {"zoom": 1.02, "fx": 0.42, "fy": 0.30}}
+    },
+    "task4": {
+      "purpose_ko": "여러 모니터의 데이터와 이를 짚는 손을 따라 한 번의 느린 수평 이동을 보여줍니다.",
+      "single": {"label_ko": "여러 모니터를 따라가는 수평 트래킹", "start": {"zoom": 1.10, "fx": 0.03, "fy": 0.35}, "end": {"zoom": 1.10, "fx": 0.82, "fy": 0.37}}
+    },
+    "task5": {
+      "purpose_ko": "흩어진 인쇄 이미지와 표의 전체 관계를 먼저 보고, 손으로 비교하는 표 쪽 구도로 연결합니다.",
+      "two_view_min_seconds": 6.0,
+      "split_at": 0.53,
+      "dissolve_seconds": 0.28,
+      "single": {"label_ko": "흩어진 자료에서 비교하는 표로", "start": {"zoom": 1.025, "fx": 0.24, "fy": 0.39}, "end": {"zoom": 1.11, "fx": 0.94, "fy": 0.54}},
+      "views": [
+        {"label_ko": "여러 인쇄 이미지와 자료의 넓은 구도", "start": {"zoom": 1.01, "fx": 0.25, "fy": 0.34}, "end": {"zoom": 1.045, "fx": 0.40, "fy": 0.39}},
+        {"label_ko": "손으로 짚으며 비교하는 표", "start": {"zoom": 1.075, "fx": 0.78, "fy": 0.46}, "end": {"zoom": 1.12, "fx": 1.0, "fy": 0.54}}
+      ]
+    },
+    "task7": {
+      "purpose_ko": "자료를 찾는 책장과 손을 먼저 보고, 펼친 바인더와 근거 자료를 확인하는 구도로 이어갑니다.",
+      "two_view_min_seconds": 6.2,
+      "split_at": 0.49,
+      "dissolve_seconds": 0.28,
+      "single": {"label_ko": "책장에서 펼친 바인더로", "start": {"zoom": 1.025, "fx": 0.12, "fy": 0.18}, "end": {"zoom": 1.095, "fx": 0.70, "fy": 0.53}},
+      "views": [
+        {"label_ko": "책장과 과거 자료를 찾는 손", "start": {"zoom": 1.025, "fx": 0.08, "fy": 0.02}, "end": {"zoom": 1.06, "fx": 0.25, "fy": 0.10}},
+        {"label_ko": "펼쳐 둔 바인더와 자료", "start": {"zoom": 1.065, "fx": 0.55, "fy": 0.55}, "end": {"zoom": 1.12, "fx": 0.70, "fy": 0.64}}
+      ]
+    },
+    "task8": {
+      "purpose_ko": "엑셀 표와 수작업 확인 공간을 수평으로 따라간 뒤, 기존 웨이퍼 맵 모니터를 확인하는 구도로 이어갑니다.",
+      "two_view_min_seconds": 6.2,
+      "split_at": 0.52,
+      "dissolve_seconds": 0.28,
+      "single": {"label_ko": "여러 데이터 화면을 따라가는 수평 트래킹", "start": {"zoom": 1.09, "fx": 0.05, "fy": 0.32}, "end": {"zoom": 1.09, "fx": 0.95, "fy": 0.32}},
+      "views": [
+        {"label_ko": "엑셀 표와 수작업 확인 공간", "start": {"zoom": 1.08, "fx": 0.06, "fy": 0.52}, "end": {"zoom": 1.10, "fx": 0.94, "fy": 0.52}},
+        {"label_ko": "기존 웨이퍼 맵 모니터", "start": {"zoom": 1.075, "fx": 0.60, "fy": 0.10}, "end": {"zoom": 1.12, "fx": 0.96, "fy": 0.16}}
+      ]
+    },
+    "task9": {
+      "purpose_ko": "노트북의 공정 관계 데이터에서 유리판의 연결 관계를 검토하는 손 쪽으로 느리게 시선을 옮깁니다.",
+      "single": {"label_ko": "공정 관계 데이터에서 연결 관계 검토로", "start": {"zoom": 1.02, "fx": 0.06, "fy": 0.46}, "end": {"zoom": 1.11, "fx": 0.90, "fy": 0.25}}
+    },
+    "task11": {
+      "purpose_ko": "여러 화면과 인쇄물을 대조하는 두 연구원의 넓은 구도에서, 함께 짚는 인쇄 웨이퍼 맵으로 연결합니다.",
+      "two_view_min_seconds": 6.0,
+      "split_at": 0.52,
+      "dissolve_seconds": 0.28,
+      "single": {"label_ko": "분산된 비교 작업에서 인쇄 맵으로", "start": {"zoom": 1.015, "fx": 0.43, "fy": 0.32}, "end": {"zoom": 1.105, "fx": 0.54, "fy": 0.55}},
+      "views": [
+        {"label_ko": "두 연구원과 여러 분석 화면", "start": {"zoom": 1.01, "fx": 0.40, "fy": 0.20}, "end": {"zoom": 1.055, "fx": 0.50, "fy": 0.26}},
+        {"label_ko": "함께 짚어 보는 인쇄 웨이퍼 맵", "start": {"zoom": 1.07, "fx": 0.48, "fy": 0.61}, "end": {"zoom": 1.12, "fx": 0.54, "fy": 0.67}}
+      ]
+    },
+    "task12": {
+      "purpose_ko": "여러 장부의 항목을 확인하는 구도에서 계산기와 대조하는 두 손 쪽으로 연결합니다.",
+      "two_view_min_seconds": 5.8,
+      "split_at": 0.51,
+      "dissolve_seconds": 0.28,
+      "single": {"label_ko": "장부 항목에서 계산기 대조로", "start": {"zoom": 1.015, "fx": 0.30, "fy": 0.59}, "end": {"zoom": 1.105, "fx": 0.83, "fy": 0.30}},
+      "views": [
+        {"label_ko": "장부와 흩어진 경비 자료", "start": {"zoom": 1.01, "fx": 0.30, "fy": 0.61}, "end": {"zoom": 1.045, "fx": 0.45, "fy": 0.70}},
+        {"label_ko": "계산기와 대조하는 두 손", "start": {"zoom": 1.075, "fx": 0.72, "fy": 0.14}, "end": {"zoom": 1.12, "fx": 0.92, "fy": 0.23}}
+      ]
+    },
+    "task13": {
+      "purpose_ko": "여러 장비 화면과 노트북을 오가는 업무 공간을 먼저 보고, 매일 손으로 작성하는 보고서 쪽으로 이어갑니다.",
+      "two_view_min_seconds": 6.0,
+      "split_at": 0.54,
+      "dissolve_seconds": 0.28,
+      "single": {"label_ko": "여러 장비 화면에서 수기 보고서로", "start": {"zoom": 1.015, "fx": 0.62, "fy": 0.35}, "end": {"zoom": 1.105, "fx": 0.28, "fy": 0.65}},
+      "views": [
+        {"label_ko": "장비 화면과 노트북이 함께 있는 업무 공간", "start": {"zoom": 1.01, "fx": 0.62, "fy": 0.23}, "end": {"zoom": 1.045, "fx": 0.54, "fy": 0.28}},
+        {"label_ko": "매일 정리하는 인쇄 보고서와 손", "start": {"zoom": 1.06, "fx": 0.38, "fy": 0.69}, "end": {"zoom": 1.11, "fx": 0.28, "fy": 0.75}}
+      ]
+    },
+    "task14": {
+      "purpose_ko": "짧은 컷은 나누지 않고, 여러 시스템 화면에서 별도로 취합하는 종이 자료로 한 번만 천천히 이동합니다.",
+      "single": {"label_ko": "여러 시스템에서 별도 취합 자료로", "start": {"zoom": 1.035, "fx": 0.88, "fy": 0.28}, "end": {"zoom": 1.10, "fx": 0.35, "fy": 0.46}}
+    },
+    "task17": {
+      "purpose_ko": "수작업으로 조작하는 책상과 손을 포함한 구도에서 원본 TEM 이미지의 측정선 쪽으로 느리게 다가갑니다.",
+      "single": {"label_ko": "수동 조작 공간에서 TEM 측정 이미지로", "start": {"zoom": 1.03, "fx": 0.66, "fy": 0.53}, "end": {"zoom": 1.11, "fx": 0.16, "fy": 0.24}}
+    },
+    "task16": {
+      "purpose_ko": "여러 계측 이미지의 배열에서 육안으로 대조하는 돋보기와 검증지 쪽으로 천천히 시선을 옮깁니다.",
+      "single": {"label_ko": "많은 계측 이미지에서 육안 검증으로", "start": {"zoom": 1.035, "fx": 0.78, "fy": 0.12}, "end": {"zoom": 1.105, "fx": 0.26, "fy": 0.43}}
+    }
+  }
+}

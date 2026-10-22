@@ -1,0 +1,169 @@
+{
+  "source": {
+    "common_rules": "2-RD_AI_Fast_Track_공통_제작_규칙.md",
+    "opening_spec": "3-RD_공정_AI_Fast_Track_오프닝.md",
+    "precedence": "Approved Markdown text overrides embedded text in reference JPG."
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "requested_approximate_duration": 45,
+    "duration": 46,
+    "frames": 1380,
+    "format": "mp4",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "timing_adjustment": "CUT09 extended by one second to preserve the complete 3.61-second final narration sentence at natural pacing. CUT01 through CUT08 retain the requested timings."
+  },
+  "palette": {
+    "deep_black": "#080808",
+    "dark_charcoal": "#1A1A1F",
+    "gold": "#D4AF7C",
+    "warm_gold": "#F5D6A6",
+    "amber": "#FFB347",
+    "warm_white": "#F2EEE7"
+  },
+  "cuts": [
+    {
+      "id": "01",
+      "start": 0,
+      "end": 3,
+      "screen": [
+        "R&D 업무에 AI를 더합니다"
+      ],
+      "narration": "R&D 현업에 AI를 더합니다.",
+      "visual": "Earth horizon, gold network light and amber sunrise matching source panel01.",
+      "background_asset": "assets/cut01.png"
+    },
+    {
+      "id": "02",
+      "start": 3,
+      "end": 7,
+      "screen": [
+        "더 나은 R&D 공정의 내일을 만듭니다"
+      ],
+      "narration": "더 나은 R&D 공정을 위한 변화가 시작됩니다.",
+      "visual": "Semiconductor wafer and precision equipment close-up, with visible precise equipment movement.",
+      "background_asset": "assets/cut02.png"
+    },
+    {
+      "id": "03",
+      "start": 7,
+      "end": 12,
+      "screen": [
+        "사람의 경험과 AI의 가능성을 연결합니다"
+      ],
+      "narration": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+      "visual": "Cleanroom researcher inspecting a monitor or equipment; no invented UI or values.",
+      "background_asset": "assets/cut03.png"
+    },
+    {
+      "id": "04",
+      "start": 12,
+      "end": 17,
+      "screen": [
+        "연구와 업무의 새로운 가능성을 열어갑니다"
+      ],
+      "narration": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "visual": "Sequential abstract R&D frames around a wafer; no detailed task screens.",
+      "background_asset": "assets/cut04.png"
+    },
+    {
+      "id": "05",
+      "start": 17,
+      "end": 22,
+      "screen": [
+        "R&D 공정",
+        "AI Fast Track"
+      ],
+      "secondary": [
+        "AI로 더 스마트한 R&D 공정"
+      ],
+      "narration": "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track.",
+      "visual": "Centered title with restrained gold particles and precise lines on black.",
+      "background_asset": "assets/cut05.png"
+    },
+    {
+      "id": "06",
+      "start": 22,
+      "end": 28,
+      "screen": [
+        "12개 AI Agent가 만드는 변화"
+      ],
+      "narration": "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+      "visual": "Twelve abstract frames or simple geometric icons, without fictional charts, dashboards or numbers.",
+      "background_asset": "assets/cut06.png"
+    },
+    {
+      "id": "07",
+      "start": 28,
+      "end": 35,
+      "screen": [
+        "현장의 문제를 AI로 해결하는 12개 과제"
+      ],
+      "narration": "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+      "visual": "Wafer-centered gold lines and sparse abstract frames in a distinctly different arrangement from CUT06.",
+      "background_asset": "assets/cut07.png"
+    },
+    {
+      "id": "08",
+      "start": 35,
+      "end": 42,
+      "screen": [
+        "업무 효율화",
+        "데이터 기반 의사결정",
+        "새로운 분석 관점",
+        "더 스마트한 연구 환경"
+      ],
+      "narration": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+      "visual": "Abstract rising gold line and calm bars with right-side icons; express program direction, not proven shared task results.",
+      "background_asset": "assets/cut08.png"
+    },
+    {
+      "id": "09",
+      "start": 42,
+      "end": 46,
+      "requested_timing": [
+        42,
+        45
+      ],
+      "timing_adjustment": "One-second extension preserves the complete 3.61-second final narration sentence at natural pacing within the approximately 45-second specification.",
+      "screen": [
+        "R&D 공정",
+        "AI Fast Track"
+      ],
+      "secondary": [
+        "AI로 만들어가는 R&D의 새로운 변화"
+      ],
+      "narration": "지금부터 12개의 AI Agent 과제를 소개합니다.",
+      "visual": "Golden wafer close-up with stable centered title and simple final composition.",
+      "background_asset": "assets/cut09.png"
+    }
+  ],
+  "review_gates": [
+    "Every approved screen phrase and narration sentence retained verbatim; line breaks allowed.",
+    "All Hangul text rendered by source code, never synthesized into image assets.",
+    "No invented actual task functionality, UI, charts, values, savings or results.",
+    "Twelve tasks are represented abstractly in CUT06; CUT07 does not clone the array.",
+    "CUT08 has no values, percentages or invented measurement axes and does not claim verified results across all tasks.",
+    "No outstanding-project, presenter, credits or separate ending content.",
+    "Every narration sentence is fully spoken, verified by local transcription and waveform boundaries.",
+    "No words cut between scene clips; preserve original master and sample-exact unmodified cuts if split.",
+    "All nine scenes visually reviewed in final MP4; no clipping, black frame, typo or sync defect.",
+    "Original production and approved sample remain unchanged."
+  ],
+  "revision": {
+    "id": "v2",
+    "requests": [
+      "Pronounce every spoken R&D as Korean 알앤디.",
+      "Match all nine backgrounds to the supplied original storyboard image."
+    ],
+    "reference": "inputs/revision-reference.png",
+    "display_text_preserved": true,
+    "pronunciation_map": {
+      "R&D": "알앤디"
+    },
+    "duration_preserved_seconds": 46
+  }
+}

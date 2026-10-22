@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "method": "New visual stream plus exact approved Revision5 AAC; both streams copied.",
+  "duration_seconds": 307.1333333333333,
+  "frames": 9214,
+  "silent_video_sha256": "af16b0da26753cf68120b176f2fb4f05cb7f996218d140f3d52c4408b9205bbb",
+  "final_sha256": "fda536f61d1fba62a920b4cbbd64e5fb1b9739868e52282a317a5e4d9a4e2e3c",
+  "audio_stream_copied": true,
+  "video_stream_copied": true,
+  "audio_reencoded": false,
+  "new_tts": false,
+  "aac_packet_payload_identical_to_revision5": true,
+  "decoded_audio_pcm_identical_to_revision5": true,
+  "aac_packet_payload_hash": "SHA256=4324c63f2b3d526671b8368b4e1f30fb565f8130756bfde0b28a8d3840340e58",
+  "decoded_48000_stereo_s16le_hash": "SHA256=8f132436c55749c73d023e647175f071bd6461fd8ec05f8ed64d1764e6de1c0e"
+}

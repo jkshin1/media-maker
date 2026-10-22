@@ -1,0 +1,38 @@
+{
+  "flow_id": "uCC3JgpeKvil6R6bXI26",
+  "flow_created": true,
+  "node_id": "gIjSwSNzU4Tejog7rsHv",
+  "url": "https://elevenlabs.io/app/flows/uCC3JgpeKvil6R6bXI26?vs=viewstate_01m4ze2cskfgts7mrszkc9f4b4&mode=switchWorkspace&oobCode=788635b1d9844b43a662b558fbd3ff92",
+  "results": [
+    {
+      "success": true,
+      "node_id": "gIjSwSNzU4Tejog7rsHv",
+      "session_id": "BHqu2W2qUKlNOc9vsY5R",
+      "credit_costs": {
+        "IMxOfLPafcf2tNnvoi9J": 2683
+      }
+    }
+  ],
+  "summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "gIjSwSNzU4Tejog7rsHv": 1
+    }
+  },
+  "session_ids": [
+    "BHqu2W2qUKlNOc9vsY5R"
+  ],
+  "pending": [
+    {
+      "generation_id": "IMxOfLPafcf2tNnvoi9J",
+      "kind": "audio"
+    }
+  ],
+  "poll_after_seconds": 3,
+  "notes": "Not finished yet. The generation view tracks progress and polls by itself, so there is nothing to do here — do not call creative_get_flow_run_status.\nThe result renders as a speech view: it plays the takes, and offers the user a voice switcher and a pager over every take generated so far. Switching voice there starts and charges another generation of this same line, appended as a take, and is published to you as widget context — read that rather than asking what they switched to.",
+  "view_kind": "speech_generation",
+  "view_state_id": "viewstate_01m4ze2cskfgts7mrszkc9f4b4",
+  "flow_url": "https://elevenlabs.io/app/flows/uCC3JgpeKvil6R6bXI26?mode=switchWorkspace&oobCode=788635b1d9844b43a662b558fbd3ff92"
+}

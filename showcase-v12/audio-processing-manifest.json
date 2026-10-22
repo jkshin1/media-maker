@@ -1,0 +1,856 @@
+{
+  "revision": 12,
+  "status": "PASS_WITH_BALANCE_CAVEAT",
+  "generation_mode": "two_part_with_user_authorization",
+  "new_actual_raw_parts": 2,
+  "source_identity_sha256": "9c7a0d8acfd1e1a88ead58c7146ead57147d2e5963f53f19173833e6927c4b9c",
+  "source_descriptor_sha256": "9cee76ee4c20df67215712a9bbe7c37102a933bc1028ecbd58d8dcb3a98d35a0",
+  "timeline_sha256": "d1f2a48205965beb1905d6aa00cfe9485f5409e27bac6067f47f35e99fda3296",
+  "placement_manifest_sha256": "865558ea96b24647e6be14becb35fe03740c42f92865c22439ed35737b0fc90a",
+  "completeness_review_sha256": "d98f78f96b78086230de98c42319395c8951262b1b67366b28e87ec17b137caa",
+  "pitch_cents": 0,
+  "speech_tempo": 1.15,
+  "placement_tempo": 1,
+  "duration_seconds": 324.1333333333333,
+  "frames": 9724,
+  "samples": 15558400,
+  "sample_rate": 48000,
+  "constant_voice_gain_db": 5.02,
+  "gain_factor": 1.7823787674480895,
+  "target_voice_integrated_LUFS": -19.5,
+  "original_voice_measurement": {
+    "input_i": -24.52,
+    "input_tp": -5.36,
+    "input_lra": 4.8,
+    "input_thresh": -34.86
+  },
+  "voice_measurement": {
+    "input_i": -19.5,
+    "input_tp": -0.34,
+    "input_lra": 4.8,
+    "input_thresh": -29.91
+  },
+  "mix_measurement": {
+    "input_i": -16.62,
+    "input_tp": -0.34,
+    "input_lra": 4.7,
+    "input_thresh": -27.19
+  },
+  "quantization": "np.rint(placed_fast_master_int16.astype(float64) * 10**(gain_db/20)).astype('<i2')",
+  "tempo_reproduction": {
+    "raw_parts": 2,
+    "generation_ids": [
+      "K6KfxNJ0FzcZbXLs6RHE",
+      "foG4XmEfc7e9p65pqGYU"
+    ],
+    "source_samples": 16250880,
+    "processed_samples": 14131046,
+    "duration_ratio": 1.150012532688663,
+    "ideal_output_sample_difference": -154.00000000186265,
+    "reproduced_global_tempo_PCM_exact": true,
+    "command": [
+      "ffmpeg",
+      "-y",
+      "-v",
+      "error",
+      "-i",
+      "../out/showcase-v12/audio-audit/reproduced-complete-original.wav",
+      "-af",
+      "atempo=1.15",
+      "-ar",
+      "48000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "../out/showcase-v12/audio-audit/reproduced-complete-tempo1.15.wav"
+    ],
+    "extra_pitch_or_sample_rate_shift": false,
+    "note": "atempo uses WSOLA overlap; raw PCM bit identity is not claimed across tempo processing."
+  },
+  "protected_speech": [
+    {
+      "cut_id": "opening_cut1",
+      "source_start_sample": 0,
+      "source_end_sample": 97440,
+      "destination_start_sample": 0,
+      "destination_end_sample": 97440,
+      "pcm_sha256": "c95961f21e01ae79f5df775bff3b17ad026511d6fea5ace0509172617bf114f7"
+    },
+    {
+      "cut_id": "opening_cut2",
+      "source_start_sample": 116160,
+      "source_end_sample": 262560,
+      "destination_start_sample": 119360,
+      "destination_end_sample": 265760,
+      "pcm_sha256": "13ad36f965ad0c0b502c59f4fef2922c696fb6008ea331363b6d50e4e350c34d"
+    },
+    {
+      "cut_id": "opening_cut3",
+      "source_start_sample": 294720,
+      "source_end_sample": 478080,
+      "destination_start_sample": 299520,
+      "destination_end_sample": 482880,
+      "pcm_sha256": "393909b33fb8835d571e11d73b65d4aea945a5d355568187410bc31dbe30f633"
+    },
+    {
+      "cut_id": "opening_cut4",
+      "source_start_sample": 509759,
+      "source_end_sample": 644640,
+      "destination_start_sample": 536959,
+      "destination_end_sample": 671840,
+      "pcm_sha256": "b5ec74cdeabfb6eb4746bad38f2b05ab8a608d2daaa224c42a355f4d062bf3c1"
+    },
+    {
+      "cut_id": "opening_cut5",
+      "source_start_sample": 676800,
+      "source_end_sample": 885600,
+      "destination_start_sample": 704000,
+      "destination_end_sample": 912800,
+      "pcm_sha256": "25457a29497ea50ab9c072d94825c81f4b54c864aed88ee5057c28867b056884"
+    },
+    {
+      "cut_id": "opening_cut6",
+      "source_start_sample": 916800,
+      "source_end_sample": 1140000,
+      "destination_start_sample": 944000,
+      "destination_end_sample": 1167200,
+      "pcm_sha256": "2a98eafe80d236822a2ac8d4b5c4094c3c198a18418df6fd0d7f906977bc8936"
+    },
+    {
+      "cut_id": "opening_cut7",
+      "source_start_sample": 1173120,
+      "source_end_sample": 1375200,
+      "destination_start_sample": 1200320,
+      "destination_end_sample": 1402400,
+      "pcm_sha256": "46b1e8d0d44338c2cd5f3f5e117159240116869031278f6ecb49d8a4a7dfe0ab"
+    },
+    {
+      "cut_id": "opening_cut8",
+      "source_start_sample": 1396320,
+      "source_end_sample": 1626720,
+      "destination_start_sample": 1442720,
+      "destination_end_sample": 1673120,
+      "pcm_sha256": "ac5b9ba34580a97a4a07f4bb0b5081f9bf76d06154d0137bde3c133ab70be8d6"
+    },
+    {
+      "cut_id": "opening_cut9",
+      "source_start_sample": 1652160,
+      "source_end_sample": 1814400,
+      "destination_start_sample": 1712960,
+      "destination_end_sample": 1875200,
+      "pcm_sha256": "a9f6ac6a48df8d4532f28884c5b7ee790307c6790c13cab57c06c24eba01e6b7"
+    },
+    {
+      "cut_id": "task11_cut1",
+      "source_start_sample": 1842240,
+      "source_end_sample": 2029440,
+      "destination_start_sample": 2015040,
+      "destination_end_sample": 2202240,
+      "pcm_sha256": "4dfe81bb1ad4963e26e4f4f7096593d925f9618c5f9c66bef43ecc0348a58e81"
+    },
+    {
+      "cut_id": "task11_cut2",
+      "source_start_sample": 2063039,
+      "source_end_sample": 2280960,
+      "destination_start_sample": 2235839,
+      "destination_end_sample": 2453760,
+      "pcm_sha256": "1db0fa1b38245e74ab8d719e5ca9e83e94ed5e6767008a380aa969bbb1bbc3d2"
+    },
+    {
+      "cut_id": "task11_cut3",
+      "source_start_sample": 2310720,
+      "source_end_sample": 2514720,
+      "destination_start_sample": 2483520,
+      "destination_end_sample": 2687520,
+      "pcm_sha256": "6fd6853f6ca3c93647f2c018eaf3103838864aa15a359c1b38352f684a7f2914"
+    },
+    {
+      "cut_id": "task11_cut4",
+      "source_start_sample": 2544960,
+      "source_end_sample": 2771040,
+      "destination_start_sample": 2717760,
+      "destination_end_sample": 2943840,
+      "pcm_sha256": "f39ce9603dce8576cd20bcd1a58e681dc760b4544c941727973ea8117e3ac53a"
+    },
+    {
+      "cut_id": "task11_cut5",
+      "source_start_sample": 2789280,
+      "source_end_sample": 2995680,
+      "destination_start_sample": 2962080,
+      "destination_end_sample": 3168480,
+      "pcm_sha256": "9dd454c4bf7a361b40fa4e93e3cc05834b856121ba7b69fb864d8333afffcfa6"
+    },
+    {
+      "cut_id": "task13_cut1",
+      "source_start_sample": 3022080,
+      "source_end_sample": 3207360,
+      "destination_start_sample": 3290880,
+      "destination_end_sample": 3476160,
+      "pcm_sha256": "e447140ee9ee11703ff22431e0389899b9b7fb3ab7bfb891401ef759f8b3457a"
+    },
+    {
+      "cut_id": "task13_cut2",
+      "source_start_sample": 3238079,
+      "source_end_sample": 3388320,
+      "destination_start_sample": 3506879,
+      "destination_end_sample": 3657120,
+      "pcm_sha256": "65e204e127247dde1f18efdd63143edb1c2901d305ed9a47e555b41de92d4e4b"
+    },
+    {
+      "cut_id": "task13_cut3",
+      "source_start_sample": 3414720,
+      "source_end_sample": 3652320,
+      "destination_start_sample": 3683520,
+      "destination_end_sample": 3921120,
+      "pcm_sha256": "2dc4caafabea31c46b871e0d31f13f4daeb3833d0e2299a20ec4fe6909acecd3"
+    },
+    {
+      "cut_id": "task13_cut4",
+      "source_start_sample": 3678720,
+      "source_end_sample": 3963840,
+      "destination_start_sample": 3947520,
+      "destination_end_sample": 4232640,
+      "pcm_sha256": "074d8c23e196576fcc90b2857c22c11e3e3f637ba5f3e3b2b2f897eab13aec70"
+    },
+    {
+      "cut_id": "task13_cut5",
+      "source_start_sample": 3986880,
+      "source_end_sample": 4170240,
+      "destination_start_sample": 4255680,
+      "destination_end_sample": 4439040,
+      "pcm_sha256": "30ca119efadea33bca43f24a7188ffdea2f6fd90be4b000319500b1a0689881b"
+    },
+    {
+      "cut_id": "task7_cut1",
+      "source_start_sample": 4194240,
+      "source_end_sample": 4337280,
+      "destination_start_sample": 4559040,
+      "destination_end_sample": 4702080,
+      "pcm_sha256": "a96bf83ddd9a6781a11ed5a3945541db788878ab8dd56040689d5f78a93aca73"
+    },
+    {
+      "cut_id": "task7_cut2",
+      "source_start_sample": 4367040,
+      "source_end_sample": 4528320,
+      "destination_start_sample": 4731840,
+      "destination_end_sample": 4893120,
+      "pcm_sha256": "81793fed5bf02a192758c6d8760594299022744771875e38b827ab505184ccf8"
+    },
+    {
+      "cut_id": "task7_cut3",
+      "source_start_sample": 4558080,
+      "source_end_sample": 4693440,
+      "destination_start_sample": 4922880,
+      "destination_end_sample": 5058240,
+      "pcm_sha256": "e689efe591ad34dd80ae2c6543daf22c6e832ebc7acc9908c2d68e1891260c06"
+    },
+    {
+      "cut_id": "task7_cut4",
+      "source_start_sample": 4718400,
+      "source_end_sample": 4915200,
+      "destination_start_sample": 5083200,
+      "destination_end_sample": 5280000,
+      "pcm_sha256": "c6338249c8e71cfee219f2c046af921df783179e429c2246abd8f0bc6f77b1b4"
+    },
+    {
+      "cut_id": "task7_cut5",
+      "source_start_sample": 4944960,
+      "source_end_sample": 5167200,
+      "destination_start_sample": 5309760,
+      "destination_end_sample": 5532000,
+      "pcm_sha256": "361af472f38279fb69f5595b0c1d68b3d731d95e9ac84ef288430d7406111009"
+    },
+    {
+      "cut_id": "task17_cut1",
+      "source_start_sample": 5193600,
+      "source_end_sample": 5374560,
+      "destination_start_sample": 5654400,
+      "destination_end_sample": 5835360,
+      "pcm_sha256": "d6ba9e7b61b7dd50ea6d9c3fb3f1a017de23e967527492eaa96a6f67d9e864bd"
+    },
+    {
+      "cut_id": "task17_cut2",
+      "source_start_sample": 5394240,
+      "source_end_sample": 5526240,
+      "destination_start_sample": 5855040,
+      "destination_end_sample": 5987040,
+      "pcm_sha256": "2cf2cb957ca8cda29f9dc98dd0b304cfea8d11420de2f0d280390cb0ff91bc78"
+    },
+    {
+      "cut_id": "task17_cut3",
+      "source_start_sample": 5552640,
+      "source_end_sample": 5811360,
+      "destination_start_sample": 6013440,
+      "destination_end_sample": 6272160,
+      "pcm_sha256": "fdd70e3d57e42e7b58f6ea3973f0dfd9d9f9a73aea05633852f2d257207208e5"
+    },
+    {
+      "cut_id": "task17_cut4",
+      "source_start_sample": 5836800,
+      "source_end_sample": 5989920,
+      "destination_start_sample": 6297600,
+      "destination_end_sample": 6450720,
+      "pcm_sha256": "9c64c695b1505ca0328f9b567d1bc486ae5d231ffdc34d8b6cfbfa9ec439bba4"
+    },
+    {
+      "cut_id": "task5_cut1",
+      "source_start_sample": 6017280,
+      "source_end_sample": 6177600,
+      "destination_start_sample": 6574080,
+      "destination_end_sample": 6734400,
+      "pcm_sha256": "659e99ca8803bdbe8dc7625b584cab2c8a8dfd3fbae70c4e4035b0f57a867998"
+    },
+    {
+      "cut_id": "task5_cut2",
+      "source_start_sample": 6203520,
+      "source_end_sample": 6298080,
+      "destination_start_sample": 6760320,
+      "destination_end_sample": 6854880,
+      "pcm_sha256": "cd6804a0a7c02c018d93092342e1f09d79235abee41c52686ef8f3a031e2c45a"
+    },
+    {
+      "cut_id": "task5_cut3",
+      "source_start_sample": 6326400,
+      "source_end_sample": 6542880,
+      "destination_start_sample": 6883200,
+      "destination_end_sample": 7099680,
+      "pcm_sha256": "1a4cf632ac2e973bcbf5a9ff32afa41255a905ef5ead0c175fdbb875fdbfb81f"
+    },
+    {
+      "cut_id": "task5_cut4",
+      "source_start_sample": 6569280,
+      "source_end_sample": 6766080,
+      "destination_start_sample": 7126080,
+      "destination_end_sample": 7322880,
+      "pcm_sha256": "38ee50bd79acf85fdb73c5771826000002b0a6af42ee166a94751af4fd57c4fc"
+    },
+    {
+      "cut_id": "task5_cut5",
+      "source_start_sample": 6783360,
+      "source_end_sample": 6987360,
+      "destination_start_sample": 7340160,
+      "destination_end_sample": 7544160,
+      "pcm_sha256": "cca88befc69b2d9d32de5e8f78b79078594461f0a1733b4c3714d600f538b6a1"
+    },
+    {
+      "cut_id": "task9_cut1",
+      "source_start_sample": 7001280,
+      "source_end_sample": 7186560,
+      "destination_start_sample": 7654080,
+      "destination_end_sample": 7839360,
+      "pcm_sha256": "243a90959f7ccaea59c62d200f2f53958c2ea1b5e7e20f951e0e3357456295f5"
+    },
+    {
+      "cut_id": "task9_cut2",
+      "source_start_sample": 7210560,
+      "source_end_sample": 7408320,
+      "destination_start_sample": 7863360,
+      "destination_end_sample": 8061120,
+      "pcm_sha256": "b37a75da8ef117f70476fc31fc15298ac296905f5d6f300c59b4850810df4dec"
+    },
+    {
+      "cut_id": "task9_cut3",
+      "source_start_sample": 7429440,
+      "source_end_sample": 7666560,
+      "destination_start_sample": 8082240,
+      "destination_end_sample": 8319360,
+      "pcm_sha256": "0aec4f6fb886474f142e7cac86683bb2e77c4091aa979c61ab96c97d37165be9"
+    },
+    {
+      "cut_id": "task9_cut4",
+      "source_start_sample": 7684800,
+      "source_end_sample": 7806720,
+      "destination_start_sample": 8337600,
+      "destination_end_sample": 8459520,
+      "pcm_sha256": "674adee33e66d279a0d525902bcb4abaec0e2445961f9acfdfb132cbae74cd27"
+    },
+    {
+      "cut_id": "task9_cut5",
+      "source_start_sample": 7824000,
+      "source_end_sample": 8096640,
+      "destination_start_sample": 8476800,
+      "destination_end_sample": 8749440,
+      "pcm_sha256": "3ce82a0b4b889d5725870e3fc86691f66c516125ffbd7b9d7b89f159b91243a7"
+    },
+    {
+      "cut_id": "task4_cut1",
+      "source_start_sample": 8111039,
+      "source_end_sample": 8355840,
+      "destination_start_sample": 8859839,
+      "destination_end_sample": 9104640,
+      "pcm_sha256": "c02432fefd54b8d8b751155f6ec19ba2652531b34e79cde850915c78ff3a0cdf"
+    },
+    {
+      "cut_id": "task4_cut2",
+      "source_start_sample": 8372159,
+      "source_end_sample": 8543040,
+      "destination_start_sample": 9120959,
+      "destination_end_sample": 9291840,
+      "pcm_sha256": "789096411dd1b152b32ab29e666f3302772b5526c78316fdaf71622697e55072"
+    },
+    {
+      "cut_id": "task4_cut3",
+      "source_start_sample": 8560320,
+      "source_end_sample": 8696160,
+      "destination_start_sample": 9309120,
+      "destination_end_sample": 9444960,
+      "pcm_sha256": "cb71184b9dfad2221a8b2c9f8c5bb18d5693ba4b71ce0897185edab396e68c7e"
+    },
+    {
+      "cut_id": "task4_cut4",
+      "source_start_sample": 8714880,
+      "source_end_sample": 8834400,
+      "destination_start_sample": 9463680,
+      "destination_end_sample": 9583200,
+      "pcm_sha256": "ba9549dd4f62ffaae9da67e657fc9d44fa418fd82b92e51f290309eec2b71cda"
+    },
+    {
+      "cut_id": "task4_cut5",
+      "source_start_sample": 8853120,
+      "source_end_sample": 9020160,
+      "destination_start_sample": 9601920,
+      "destination_end_sample": 9768960,
+      "pcm_sha256": "313066157b5b75612051e7c503e8554a5cfb1bf28cfbcd1c4d62fde38a8704de"
+    },
+    {
+      "cut_id": "task12_cut1",
+      "source_start_sample": 9039360,
+      "source_end_sample": 9204480,
+      "destination_start_sample": 9884160,
+      "destination_end_sample": 10049280,
+      "pcm_sha256": "5eb2aa7850dcbb57263dc33e5350b2eebed90cc0b1e02ee9eb678e457e03545b"
+    },
+    {
+      "cut_id": "task12_cut2",
+      "source_start_sample": 9221760,
+      "source_end_sample": 9416160,
+      "destination_start_sample": 10066560,
+      "destination_end_sample": 10260960,
+      "pcm_sha256": "7ccf2dd8fdf12c9b1b44a6eab323f160fc382b3039c76b43d1111d14e4988f6f"
+    },
+    {
+      "cut_id": "task12_cut3",
+      "source_start_sample": 9427200,
+      "source_end_sample": 9672000,
+      "destination_start_sample": 10272000,
+      "destination_end_sample": 10516800,
+      "pcm_sha256": "a0f3977772e33cd780777d087d6998f9ede4fd11aa1b484192bac19e555d13e5"
+    },
+    {
+      "cut_id": "task3_cut1",
+      "source_start_sample": 9690240,
+      "source_end_sample": 9910560,
+      "destination_start_sample": 10631040,
+      "destination_end_sample": 10851360,
+      "pcm_sha256": "bde6b1107d0cd0bd68815148c686d05467b47e05a5ffb6ac64d7df9e10b4ff9b"
+    },
+    {
+      "cut_id": "task3_cut2",
+      "source_start_sample": 9928320,
+      "source_end_sample": 10116960,
+      "destination_start_sample": 10869120,
+      "destination_end_sample": 11057760,
+      "pcm_sha256": "c4b5cf39beb5aca086bb9b758713759fc10c8f7db182edf3cdde297a0388f3fa"
+    },
+    {
+      "cut_id": "task3_cut3",
+      "source_start_sample": 10134720,
+      "source_end_sample": 10310400,
+      "destination_start_sample": 11075520,
+      "destination_end_sample": 11251200,
+      "pcm_sha256": "b69fb37e7850f25d05f483baa8e6a18ede5ce7fe0588d83e788c545ca3b7c66c"
+    },
+    {
+      "cut_id": "task3_cut4",
+      "source_start_sample": 10327680,
+      "source_end_sample": 10547040,
+      "destination_start_sample": 11268480,
+      "destination_end_sample": 11487840,
+      "pcm_sha256": "68005359f6c156cb8aeeef49b5e7fa4236b071d77001415b8649bf1a85ca3827"
+    },
+    {
+      "cut_id": "task8_cut1",
+      "source_start_sample": 10564800,
+      "source_end_sample": 10728480,
+      "destination_start_sample": 11601600,
+      "destination_end_sample": 11765280,
+      "pcm_sha256": "4bb7760045884cdd454dc8a034b840f55619bb1998aa322e5c785b65f7bea76c"
+    },
+    {
+      "cut_id": "task8_cut2",
+      "source_start_sample": 10742400,
+      "source_end_sample": 10863360,
+      "destination_start_sample": 11779200,
+      "destination_end_sample": 11900160,
+      "pcm_sha256": "f5f00c0ced422276ba52cd953db74e06afe450f847b0fe0da77ef2a816e9b88f"
+    },
+    {
+      "cut_id": "task8_cut3",
+      "source_start_sample": 10879680,
+      "source_end_sample": 11045760,
+      "destination_start_sample": 11916480,
+      "destination_end_sample": 12082560,
+      "pcm_sha256": "a68c1e45c92f95d79ab6fa0992e5857ab5da4e8300a9f44492613711fe788bb8"
+    },
+    {
+      "cut_id": "task8_cut4",
+      "source_start_sample": 11061120,
+      "source_end_sample": 11255040,
+      "destination_start_sample": 12097920,
+      "destination_end_sample": 12291840,
+      "pcm_sha256": "6e6b3936e48fb876e0d506270d312580e99dbe8b51750fa5126891326ba82379"
+    },
+    {
+      "cut_id": "task14_cut1",
+      "source_start_sample": 11273280,
+      "source_end_sample": 11482080,
+      "destination_start_sample": 12406080,
+      "destination_end_sample": 12614880,
+      "pcm_sha256": "54135bd9ef58df87430cc4c6de696a9d10c3a7525d2c9941afaefeb869d5d0d2"
+    },
+    {
+      "cut_id": "task14_cut2",
+      "source_start_sample": 11499840,
+      "source_end_sample": 11737440,
+      "destination_start_sample": 12632640,
+      "destination_end_sample": 12870240,
+      "pcm_sha256": "2a531d0bbc5c61bc5533019db9fb9da2bff0795083561934149a240ff4406c75"
+    },
+    {
+      "cut_id": "task14_cut3",
+      "source_start_sample": 11755200,
+      "source_end_sample": 11920320,
+      "destination_start_sample": 12888000,
+      "destination_end_sample": 13053120,
+      "pcm_sha256": "afa4e1a49bf1b755a1b5c517ab0f2610c46fd880543fc437c4639777c5dd17be"
+    },
+    {
+      "cut_id": "task14_cut4",
+      "source_start_sample": 11937600,
+      "source_end_sample": 12090720,
+      "destination_start_sample": 13070400,
+      "destination_end_sample": 13223520,
+      "pcm_sha256": "74edd75c7b38ccbdbde830ebd8b7110d2538cd72afd38535e744428e0cc2b5b8"
+    },
+    {
+      "cut_id": "task14_cut5",
+      "source_start_sample": 12106080,
+      "source_end_sample": 12339840,
+      "destination_start_sample": 13238880,
+      "destination_end_sample": 13472640,
+      "pcm_sha256": "2086da36b30ada66639153b21af327c6f3307c22eb87ac7c73e8e61f865dd2bb"
+    },
+    {
+      "cut_id": "task16_cut1",
+      "source_start_sample": 12358079,
+      "source_end_sample": 12523200,
+      "destination_start_sample": 13586879,
+      "destination_end_sample": 13752000,
+      "pcm_sha256": "584f8122964dbd0cd142e38c9a46b16c9a2479840212e5048dd7c0999a387421"
+    },
+    {
+      "cut_id": "task16_cut2",
+      "source_start_sample": 12542400,
+      "source_end_sample": 12697920,
+      "destination_start_sample": 13771200,
+      "destination_end_sample": 13926720,
+      "pcm_sha256": "099e417de865714fc6cbe1baf9ccb4ffb83d882a0196b251b66dc5573de96f8c"
+    },
+    {
+      "cut_id": "task16_cut3",
+      "source_start_sample": 12715199,
+      "source_end_sample": 12911040,
+      "destination_start_sample": 13943999,
+      "destination_end_sample": 14139840,
+      "pcm_sha256": "1494423a258a0bd08bf3d09ac9bcc44b47ba2f0e3d718197097d148293331e58"
+    },
+    {
+      "cut_id": "task16_cut4",
+      "source_start_sample": 12930240,
+      "source_end_sample": 13288800,
+      "destination_start_sample": 14159040,
+      "destination_end_sample": 14517600,
+      "pcm_sha256": "d99d56bddf4e6d298f260cf5c928175f2cfe0ba677c3cf06dd7c1c9d83fa180a"
+    },
+    {
+      "cut_id": "task16_cut5",
+      "source_start_sample": 13306560,
+      "source_end_sample": 13409760,
+      "destination_start_sample": 14535360,
+      "destination_end_sample": 14638560,
+      "pcm_sha256": "476be80302e6c79d787b5c8ad4553d5ef01373eb47a1cafb034cd32cded8684f"
+    },
+    {
+      "cut_id": "ending_cut1",
+      "source_start_sample": 13430400,
+      "source_end_sample": 13518240,
+      "destination_start_sample": 14659200,
+      "destination_end_sample": 14747040,
+      "pcm_sha256": "1d20b7c49734be882b01707205f1b6084a9ee9420cbea88707dbbab15dde08c3"
+    },
+    {
+      "cut_id": "ending_cut2",
+      "source_start_sample": 13525920,
+      "source_end_sample": 13660801,
+      "destination_start_sample": 14759520,
+      "destination_end_sample": 14894401,
+      "pcm_sha256": "23aaed32a0a8b7f199f1e618e908a466db961476659610755140e47b4186b05e"
+    },
+    {
+      "cut_id": "ending_cut3",
+      "source_start_sample": 13668480,
+      "source_end_sample": 13850400,
+      "destination_start_sample": 14902080,
+      "destination_end_sample": 15084000,
+      "pcm_sha256": "585a464350150fb678801b268ab39e7e4280d2c0e2303d704fa10304b3f7c441"
+    },
+    {
+      "cut_id": "ending_cut5",
+      "source_start_sample": 13866720,
+      "source_end_sample": 14131046,
+      "destination_start_sample": 15101920,
+      "destination_end_sample": 15366246,
+      "pcm_sha256": "b3aa5f95b5009bca39fefd8fc9a3b09a737ae5150297395478967bdce904e3d0"
+    }
+  ],
+  "title_silent_sample_windows": [
+    [
+      1905600,
+      2001600
+    ],
+    [
+      3182400,
+      3278400
+    ],
+    [
+      4451200,
+      4547200
+    ],
+    [
+      5545600,
+      5641600
+    ],
+    [
+      6464000,
+      6560000
+    ],
+    [
+      7550400,
+      7646400
+    ],
+    [
+      8756800,
+      8852800
+    ],
+    [
+      9779200,
+      9875200
+    ],
+    [
+      10526400,
+      10622400
+    ],
+    [
+      11496000,
+      11592000
+    ],
+    [
+      12300800,
+      12396800
+    ],
+    [
+      13481600,
+      13577600
+    ]
+  ],
+  "final_card_sample_windows": [
+    [
+      15366400,
+      15558400
+    ]
+  ],
+  "bgm": {
+    "bpm": 113,
+    "intro_seconds": 39,
+    "period_beats": 128,
+    "overlap_beats": 4,
+    "fade_in_seconds": 2,
+    "fade_out_seconds": 4,
+    "base_gain": 0.125,
+    "threshold": 0.018,
+    "ratio": 4,
+    "attack_ms": 45,
+    "release_ms": 650,
+    "wet_mix": 0.6,
+    "dry_floor": 0.4,
+    "loop_source_samples": [
+      1872000,
+      5236248
+    ],
+    "period_samples": 3262301,
+    "overlap_samples": 101947,
+    "crossfades": [
+      {
+        "start_sample": 5134301,
+        "end_sample": 5236248,
+        "start": 106.96460416666666,
+        "end": 109.0885
+      },
+      {
+        "start_sample": 8396602,
+        "end_sample": 8498549,
+        "start": 174.92920833333332,
+        "end": 177.05310416666666
+      },
+      {
+        "start_sample": 11658903,
+        "end_sample": 11760850,
+        "start": 242.8938125,
+        "end": 245.01770833333333
+      },
+      {
+        "start_sample": 14921204,
+        "end_sample": 15023151,
+        "start": 310.85841666666664,
+        "end": 312.9823125
+      }
+    ],
+    "source_speed_changed": false,
+    "final_fade_start_sample": 15366400,
+    "final_fade_end_sample": 15558400,
+    "gain_application": "Floating-point loop and fades, then0.125 total gain, then one signed16 quantization; no intermediate int16 clipping.",
+    "pre_gain_float_peak_in_int16_units": 46308.50434996911,
+    "pre_gain_float_values_outside_int16": 10656,
+    "source": "assets/bgm/1-ES_Comprehension-Frank-Jonsson-1-.mp3",
+    "source_sha256": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2",
+    "minimum_duck_db": -6.964178067669348,
+    "speech_minus_music_db_p05_median_p95": [
+      5.495078223813747,
+      15.706491389219927,
+      29.292914954138567
+    ],
+    "music_rms_dbfs_p05_median_p95": [
+      -46.846370926178395,
+      -34.22857402063191,
+      -28.575097102252073
+    ],
+    "note": "Same song and edit/duck policy; previous fixed-length ducked PCM is not reused."
+  },
+  "duck_filter_graph": "[0:a]apad=pad_len=48000[side];[1:a]apad=pad_len=48000,asplit=2[basepre][music];[basepre]atrim=end_sample=15558400[base];[music][side]sidechaincompress=threshold=0.018:ratio=4:attack=45:release=650:makeup=1:mix=0.60,atrim=end_sample=15558400[duck]",
+  "audio_sha256": "918001d368764056710e7fbccd6db170424b796b71ac1c9a43914cbc2650bfb7",
+  "files": {
+    "narration-raw.wav": {
+      "sha256": "72b33f5cf790b5b1c85da17c63bf9894b7434e0b7cafe63534afc00e0489e673",
+      "pcm_sha256": "1f26bee3b6332aa26a8f974d176847febbf0877e133382cb86c2889e8c78fe3b",
+      "samples": 15558400,
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "narration.wav": {
+      "sha256": "a9224c67f21289a91b12d1d1f2df3b96b858c7c4d18ccb2d6dba034a804f330f",
+      "pcm_sha256": "108f2d1d4a91743fbe120f379b45d0dd7f1116cb90224a675961a00bbdfb64f8",
+      "samples": 15558400,
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "bgm-loop.wav": {
+      "sha256": "7e65a27e6d78fe16d3b310ee82e4f1b6811989404e6642fd2f992ddfbbfa32ae",
+      "pcm_sha256": "7165eafe4686aa275e1d0cdbb51181fccc1e2453480c1de8f261d35ba59a5960",
+      "samples": 15558400,
+      "sample_rate": 48000,
+      "channels": 2
+    },
+    "audio.wav": {
+      "sha256": "918001d368764056710e7fbccd6db170424b796b71ac1c9a43914cbc2650bfb7",
+      "pcm_sha256": "98f0aeaa813214464d0d0fd5adbc08e5cc446a2b1311f2e5944c476a299f5cc0",
+      "samples": 15558400,
+      "sample_rate": 48000,
+      "channels": 2
+    }
+  },
+  "historical_failed_single_take": {
+    "receipt": "narration/incomplete-take-review.json",
+    "sha256": "f13a7d3f1adf1bdda023629ee143fa8cbd7573b9ca032eb32000d0fc83da2c8c",
+    "generation_id": "nI8IsM21KUQk8YGowffr",
+    "original_master_sha256": "c59d79e41a1ca5e1395065900bb5bcaea8e27800a2dda6075c7d3ca51a9a0954",
+    "role": "Historical incomplete single take, excluded from all delivered voice."
+  },
+  "checks": {
+    "two_authorized_raw_parts_and_complete_master_exact": true,
+    "one_global_atempo115_reproduction_PCM_exact": true,
+    "no_additional_voice_pitch_tempo_EQ_compressor": true,
+    "current_completeness_review_PASS": true,
+    "all68_protected_utterances_PCM_exact_from_fast_master": true,
+    "all_retained_pieces_copy_at_tempo1_without_overlap": true,
+    "source_omissions_equal_only_explicit_reviewed_quiet": true,
+    "67_word_waveform_boundary_records_present": true,
+    "twelve_titles_each2s_voice_literal_zero": true,
+    "last4s_card_voice_literal_zero": true,
+    "frame_locked_48k_clock_and_duration_at_most330": true,
+    "voice_exact_one_constant_gain": true,
+    "voice_loudness_matches_baseline11_minus19_5": true,
+    "original_BGM_file_identity": true,
+    "same_BGM_loop_and_duck_policy_new_end_fade": true,
+    "music_buffers_flushed_exact_sample_count": true,
+    "no100ms_music_zero_between_fades": true,
+    "duck_floor_above_minus8_1dB": true,
+    "no_voice_or_mix_sample_clipping": true,
+    "voice_and_mix_true_peak_below0": true
+  },
+  "core_checks": {
+    "two_authorized_raw_parts_and_complete_master_exact": true,
+    "one_global_atempo115_reproduction_PCM_exact": true,
+    "no_additional_voice_pitch_tempo_EQ_compressor": true,
+    "current_completeness_review_PASS": true,
+    "all68_protected_utterances_PCM_exact_from_fast_master": true,
+    "all_retained_pieces_copy_at_tempo1_without_overlap": true,
+    "source_omissions_equal_only_explicit_reviewed_quiet": true,
+    "67_word_waveform_boundary_records_present": true,
+    "twelve_titles_each2s_voice_literal_zero": true,
+    "last4s_card_voice_literal_zero": true,
+    "frame_locked_48k_clock_and_duration_at_most330": true,
+    "voice_exact_one_constant_gain": true,
+    "voice_loudness_matches_baseline11_minus19_5": true,
+    "original_BGM_file_identity": true,
+    "same_BGM_loop_and_duck_policy_new_end_fade": true,
+    "music_buffers_flushed_exact_sample_count": true,
+    "no100ms_music_zero_between_fades": true,
+    "duck_floor_above_minus8_1dB": true,
+    "no_voice_or_mix_sample_clipping": true,
+    "voice_and_mix_true_peak_below0": true
+  },
+  "advisory_balance_checks": {
+    "speech_at_least6dB_above_music_in95pct_active_windows": {
+      "pass": false,
+      "target_db": 6,
+      "actual_db": 5.495078223813747,
+      "shortfall_db": 0.5049217761862526,
+      "method": "P05 voice-minus-music100ms RMS, voice above-32dBFS, outside end fades.",
+      "policy": "Advisory target from the older mix. Preserve the user-requested BGM gain/duck policy and constant voice level; do not alter either to force this target to pass."
+    }
+  },
+  "checks_passed": 20,
+  "checks_total": 20,
+  "input_bindings": {
+    "audio.py": "c9d301c53306d4eba7f8d553cd50a0c28de6b2d92dc21652a9f388048887b836",
+    "authorization.json": "a838248a09f1283b8ca500494e63be3952db0ac990dc23ffa4aea4d2db33506b",
+    "narration/two-part-sources.json": "9cee76ee4c20df67215712a9bbe7c37102a933bc1028ecbd58d8dcb3a98d35a0",
+    "narration/placement-manifest.json": "865558ea96b24647e6be14becb35fe03740c42f92865c22439ed35737b0fc90a",
+    "timeline.json": "d1f2a48205965beb1905d6aa00cfe9485f5409e27bac6067f47f35e99fda3296",
+    "narration/ko.json": "e4b2fb57664731bb32ccefac9cfe95e3f71f0fd00af6cd3cb7cdbc7f956ef681",
+    "narration/completeness-review.json": "d98f78f96b78086230de98c42319395c8951262b1b67366b28e87ec17b137caa",
+    "assets/bgm/1-ES_Comprehension-Frank-Jonsson-1-.mp3": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2",
+    "narration/two-parts/part1/take.wav": "4f0c14dba5a93f749fb30264dded0c71036a7351d329caa4b58a14afbd44604a",
+    "narration/two-parts/part1/prompt.txt": "6c27e3939c6b2257ad3ad8fce85d295732bb14757b8f9d0da93c7ac4e459daa9",
+    "narration/two-parts/part2/take.wav": "6c0ad0007c38a886bfcd83811c600363c914d98f8c25410fd2d24be1d30e064f",
+    "narration/two-parts/part2/prompt.txt": "1c4de32095b55e1fb7d7fbc6ff1341c0ffe969f0e8d2ac524d95f6c4d14e7eb0",
+    "narration/elevenlabs/complete-original.wav": "690d6bd18a7310c269484e09ba2aa1861282a2ec3bb97d67aad706ffdcca5f5c",
+    "narration/elevenlabs/complete-tempo1.15.wav": "258985ff5233f26f96b3fb2a98395e71e47a11e92669006c4842ed7f699cba89",
+    "narration/elevenlabs/complete-tempo-provenance.json": "0f8e9ccd2e642811b92961a60bccc475cf7401719f5222712087290892af586c",
+    "narration/two-parts/authorization.json": "4d1e013a25c906915c0ec0baafac55fb34d39517850efffee5e9338e52dc7d7c",
+    "narration/incomplete-take-review.json": "f13a7d3f1adf1bdda023629ee143fa8cbd7573b9ca032eb32000d0fc83da2c8c"
+  },
+  "scope": "Actual two-part source/tempo reproduction, approved PCM placement, constant voice gain and music-envelope checks. Independent speech review, encoded AAC and continuous playback remain separate.",
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

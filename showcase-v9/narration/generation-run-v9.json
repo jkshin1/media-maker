@@ -1,0 +1,25 @@
+{
+  "flow_id": "C5mly4ET82daAsJR7iGG",
+  "session_ids": [
+    "uGbye51Mp8AR0HfFWhNu"
+  ],
+  "results": [
+    {
+      "success": true,
+      "node_id": "nf5ljEacHsgTteaNlswG",
+      "session_id": "uGbye51Mp8AR0HfFWhNu",
+      "credit_costs": {
+        "y8yyeQSQZudyYLqFmVlg": 2465
+      }
+    }
+  ],
+  "summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "nf5ljEacHsgTteaNlswG": 1
+    }
+  },
+  "poll_after_seconds": 3
+}

@@ -1,0 +1,312 @@
+{
+  "status": "PASS",
+  "module": "hero-scenes.js",
+  "module_sha256": "15233315c092b32fb27074e05ed73c0e8fba1d45c77be71cdb1295a26becd447",
+  "hero_compositions": 19,
+  "tests": [
+    {
+      "id": "opening_cut1",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "R&D 업무에",
+        "AI를 더합니다"
+      ]
+    },
+    {
+      "id": "opening_cut2",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "더 나은 R&D 공정의",
+        "내일을 만듭니다"
+      ]
+    },
+    {
+      "id": "opening_cut3",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "사람의 경험과",
+        "AI의 가능성을",
+        "연결합니다"
+      ]
+    },
+    {
+      "id": "opening_cut4",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "연구와 업무의",
+        "새로운 가능성을",
+        "열어갑니다"
+      ]
+    },
+    {
+      "id": "opening_cut5",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "R&D 공정",
+        "AI Fast Track",
+        "AI로 더 스마트한 R&D 공정"
+      ]
+    },
+    {
+      "id": "opening_cut6",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "12개 AI Agent가",
+        "만드는 변화"
+      ]
+    },
+    {
+      "id": "opening_cut7",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "현장의 문제를",
+        "AI로 해결하는",
+        "12개 과제"
+      ]
+    },
+    {
+      "id": "opening_cut8",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "업무 효율화",
+        "데이터 기반 의사결정",
+        "새로운 분석 관점",
+        "더 스마트한 연구 환경"
+      ]
+    },
+    {
+      "id": "opening_cut9",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "R&D 공정",
+        "AI Fast Track",
+        "AI로 만들어가는 R&D의 새로운 변화"
+      ]
+    },
+    {
+      "id": "summary1_event1",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "흩어진 정보를 연결해",
+        "더 넓은 가능성을 열다",
+        "AI가 다양한 데이터와 지식을 연결해",
+        "더 정확하고 빠른 R&D 인사이트를 만듭니다."
+      ]
+    },
+    {
+      "id": "summary2_event1",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "필요한 지식을 찾아",
+        "업무에 활용하다",
+        "흩어진 정보 속에서 필요한 지식을 찾고,",
+        "관련 데이터와 연결해 더 나은 업무 판단을 지원합니다."
+      ]
+    },
+    {
+      "id": "summary3_event1",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "반복 업무를 줄이고",
+        "분석에 집중하다",
+        "데이터 분석과 반복 업무 자동화로",
+        "더 효율적인 R&D 환경을 만듭니다."
+      ]
+    },
+    {
+      "id": "summary4_event1",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "이미지와 데이터를 분석해",
+        "더 정교한 연구를 실현하다",
+        "이미지 측정과 대규모 데이터 분석을 효율화해",
+        "더 신뢰도 높은 연구 결과를 지원합니다."
+      ]
+    },
+    {
+      "id": "ending_cut1",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "R&D 공정 Eng'r 연구 환경 Infra 구축",
+        "박재오 TL",
+        "Thinfilm Agent - BEOL Thinfilm",
+        "김태민 TL",
+        "C&C Working Board Agent",
+        "서우석 TL",
+        "Smart Process Architecture AI Agent",
+        "권혜선 TL",
+        "Monitoring Data 자연어 검색·시각화 AI Agent",
+        "이태관 TL",
+        "LLM 기반 C&C Inline Data 분석 AI Agent",
+        "윤지욱 TL",
+        "RSAB SNM Overlay 열화 원인 분석 및 솔루션 제시",
+        "Agent",
+        "장민희 TL",
+        "경비 분석 및 절감 아이템 발굴 Agent 개발",
+        "오승재 TL",
+        "장비 Daily Report Auto Mail System",
+        "김도훈 TL",
+        "Cubic공정Lab 전용 App&Agent",
+        "정현준 TL",
+        "TCAD-TEM 이미지 연계를 통한 이미지 Labeling",
+        "Tool 개발",
+        "김성후 TL",
+        "AI Agent 기반 Plug 대면적 데이터 분석 자동화 및",
+        "인사이트 도출",
+        "김지은 TL"
+      ]
+    },
+    {
+      "id": "ending_cut2",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "R&D 공정 Eng'r 연구 환경 Infra 구축",
+        "박재오 TL",
+        "Thinfilm Agent - BEOL Thinfilm",
+        "김태민 TL",
+        "C&C Working Board Agent",
+        "서우석 TL",
+        "Smart Process Architecture AI Agent",
+        "권혜선 TL",
+        "Monitoring Data 자연어 검색·시각화 AI Agent",
+        "이태관 TL",
+        "LLM 기반 C&C Inline Data 분석 AI Agent",
+        "윤지욱 TL",
+        "RSAB SNM Overlay 열화 원인 분석 및 솔루션 제시",
+        "Agent",
+        "장민희 TL",
+        "경비 분석 및 절감 아이템 발굴 Agent 개발",
+        "오승재 TL",
+        "장비 Daily Report Auto Mail System",
+        "김도훈 TL",
+        "Cubic공정Lab 전용 App&Agent",
+        "정현준 TL",
+        "TCAD-TEM 이미지 연계를 통한 이미지 Labeling",
+        "Tool 개발",
+        "김성후 TL",
+        "AI Agent 기반 Plug 대면적 데이터 분석 자동화 및",
+        "인사이트 도출",
+        "김지은 TL"
+      ]
+    },
+    {
+      "id": "ending_cut3",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "12개의 도전,",
+        "새로운 변화의 시작",
+        "업무 효율화부터 데이터 분석,",
+        "더 나은 연구 환경까지"
+      ]
+    },
+    {
+      "id": "ending_cut4",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": []
+    },
+    {
+      "id": "ending_cut5",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "12개의 AI Agent가 만든 변화",
+        "이제 두 개의 우수 과제를",
+        "만나봅니다."
+      ]
+    },
+    {
+      "id": "ending_cut6",
+      "moving": true,
+      "deterministic": true,
+      "caption_area_clear": true,
+      "expected_copy_covered": true,
+      "missing_copy": [],
+      "rendered_text": [
+        "AI Agent 기반 Plug 대면적 데이터 분석",
+        "자동화 및 인사이트 도출",
+        "김지은 TL",
+        "RSAB SNM Overlay 열화 원인 분석 및",
+        "솔루션 제시 Agent",
+        "장민희 TL"
+      ]
+    }
+  ],
+  "notes": [
+    "All draws use explicit local seconds. Identical inputs produce byte-identical frames.",
+    "Canvas text calls were checked against current spec screen copy, summary messages, and ending task/owner names.",
+    "Caption reservation below y=865 stays untouched by this module.",
+    "These checks do not validate final MP4 audio, full-video playback, human animation, or license provenance.",
+    "Native renderer should provide assets.spec or assets.tasks so ending gallery uses the current full task names."
+  ]
+}

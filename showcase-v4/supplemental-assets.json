@@ -1,0 +1,131 @@
+{
+  "sources_unchanged": true,
+  "assets": [
+    {
+      "file": "assets/opening/cut01.png",
+      "source": "opening-v3/assets/cut01.png",
+      "sha256": "c701647db797c7fffa65e208694d6ee3ec7541a4022088d7e2299e029ea050e1",
+      "role": "Clean photographic plate matching the same nine opening concepts; editable text is drawn separately."
+    },
+    {
+      "file": "assets/opening/cut02.png",
+      "source": "opening-v3/assets/cut02.png",
+      "sha256": "b96a99b65fe48f00451201282e76a35a35811b2a860d235a1a4f5cc26cb93ea5",
+      "role": "Clean photographic plate matching the same nine opening concepts; editable text is drawn separately."
+    },
+    {
+      "file": "assets/opening/cut03.png",
+      "source": "opening-v3/assets/cut03.png",
+      "sha256": "7b2498c648f61d68ee0a539891130ad122f65b394aa45bae7edf2f46450286d8",
+      "role": "Clean photographic plate matching the same nine opening concepts; editable text is drawn separately."
+    },
+    {
+      "file": "assets/opening/cut04.png",
+      "source": "opening-v3/assets/cut04-clean.png",
+      "sha256": "345300c81839e7c3b1e24f3bd487e7efbd1d6ed3f33aed9ad5c1c041895e2073",
+      "role": "Clean photographic plate matching the same nine opening concepts; editable text is drawn separately."
+    },
+    {
+      "file": "assets/opening/cut05.png",
+      "source": "opening-v3/assets/cut05.png",
+      "sha256": "b2c2b5962a3e544d86d2955093915a7f106b00abd6b1c87c55b19963b1e40bf1",
+      "role": "Clean photographic plate matching the same nine opening concepts; editable text is drawn separately."
+    },
+    {
+      "file": "assets/opening/cut06.png",
+      "source": "opening-v3/assets/cut06.png",
+      "sha256": "e9067f744f46f6acdbf9ad1bc1ad66b12e7455e71151890a41cc22294f7d227c",
+      "role": "Clean photographic plate matching the same nine opening concepts; editable text is drawn separately."
+    },
+    {
+      "file": "assets/opening/cut07.png",
+      "source": "opening-v3/assets/cut07-clean.png",
+      "sha256": "382e8002fcfd88c48bb1b5643e77269e28c3b6be0659d528620c9e7b477d9a31",
+      "role": "Clean photographic plate matching the same nine opening concepts; editable text is drawn separately."
+    },
+    {
+      "file": "assets/opening/cut08.png",
+      "source": "opening-v3/assets/cut08-clean.png",
+      "sha256": "9fce70f839baf1fc3151b7a7020ee84114d5976bf58f2cc490d6b6ba9cf34921",
+      "role": "Clean photographic plate matching the same nine opening concepts; editable text is drawn separately."
+    },
+    {
+      "file": "assets/opening/cut09.png",
+      "source": "opening-v3/assets/cut09.png",
+      "sha256": "b2288478ad3abb0490c9ce4728cad8efe5187697ec8d16f2056e736a14fbf85b",
+      "role": "Clean photographic plate matching the same nine opening concepts; editable text is drawn separately."
+    },
+    {
+      "file": "assets/before/task3.png",
+      "source": "production/assets/before/task-06.png",
+      "sha256": "fd307791a9a37713f6ab7be1f8babd33eab4a3177ae1c32a7395a15451b272a6",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task4.png",
+      "source": "production/assets/before/task-03.png",
+      "sha256": "873a398e944d3b8948c7173b5642017f4360b2cc267943ba4345fa3fefc02092",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task5.png",
+      "source": "production/assets/before/task-04.png",
+      "sha256": "ab842a5460d7b1fa79efb405e00c990cd88badc41f291af0e1de5dcd1cfd8717",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task7.png",
+      "source": "production/assets/before/task-01.png",
+      "sha256": "ac2faf68a9cb50ef01307a3722f604ad4f50e9139baa5db6c3891a45314850d3",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task8.png",
+      "source": "production/assets/before/task-08.png",
+      "sha256": "2dcf75c9ca9abf5261c5738a7f13ecd02287c86b64df83179ff6cbb18d0bb8e5",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task9.png",
+      "source": "production/assets/before/task-05.png",
+      "sha256": "f5ac995c878651fc1c2439af7ba3b48a39780a7121081e87f42fa41140d532f9",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task11.png",
+      "source": "production/assets/before/task-11.png",
+      "sha256": "9044fbfce6f4da457cb7a6d06470eb807ae28c3cd3c9607d743f99fabefc8ea8",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task12.png",
+      "source": "production/assets/before/task-07.png",
+      "sha256": "8971b195f38c4301a2a62aa984eed6de92e006b184e5292806bd8ca1359cd8ff",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task13.png",
+      "source": "production/assets/before/task-02.png",
+      "sha256": "6b3c16c40e38da72bc398bd7996180d9791dbe75cdbf09057d8af659e6926cb5",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task14.png",
+      "source": "production/assets/before/task-10.png",
+      "sha256": "5987e75d8f4e5cd5304268f14fc0ca3f8f67b1bed04a15bed20b4bcb7efde001",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task17.png",
+      "source": "production/assets/before/task-09.png",
+      "sha256": "a62719057fb9bb217fffe1550dc0806734dc26747526e62e4a76338f53e48891",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    },
+    {
+      "file": "assets/before/task16.png",
+      "source": "production/assets/before/task-12.png",
+      "sha256": "6599de6d8deb7cd7c7914f416bcff6ac90a4a2907d69f7640eb8888fe670e9e8",
+      "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+    }
+  ]
+}

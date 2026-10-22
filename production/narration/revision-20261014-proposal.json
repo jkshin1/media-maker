@@ -1,0 +1,654 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "purpose": "Diversify task-specific BEFORE delivery and complete all task narration sentences with a natural n다-form ending.",
+  "source_config": "production/narration/ko.json",
+  "source_config_sha256": "93ef8aaa9e98330fb3385ff800ca16a9ccee82670789fcdfdf9a6384049cd1c7",
+  "references": [
+    "production/storyboard.json",
+    "production/concept/tasks-a.json",
+    "production/concept/tasks-b.json",
+    "production/concept/tasks-c.json"
+  ],
+  "changes": [
+    {
+      "id": 2,
+      "task_id": 1,
+      "phase": "before",
+      "before": "흩어진 공정 자료를 하나씩 찾던 시간.",
+      "after": "공정 자료가 흩어져 탐색이 길어집니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 21
+    },
+    {
+      "id": 6,
+      "task_id": 2,
+      "phase": "before",
+      "before": "보고서를 만들고 보내는 일이 반복됐습니다.",
+      "after": "보고서 작성과 발송에 매일 손이 갑니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 22
+    },
+    {
+      "id": 10,
+      "task_id": 3,
+      "phase": "before",
+      "before": "로트와 장비를 여러 화면에서 찾았습니다.",
+      "after": "로트와 장비 확인에 여러 화면이 필요합니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 24
+    },
+    {
+      "id": 13,
+      "task_id": 3,
+      "phase": "before_after_comparison",
+      "before": "개별 확인에서, 함께 쓰는 연구 자산으로.",
+      "after": "정보를 공유해, 연구 자산으로 활용합니다.",
+      "reason": "명사형이나 부사형으로 끊긴 마무리를 니다 종결의 완전문장으로 바꿉니다.",
+      "char_count": 23
+    },
+    {
+      "id": 14,
+      "task_id": 4,
+      "phase": "before",
+      "before": "여러 파일에 흩어진 공정과 장비 데이터.",
+      "after": "공정과 장비 정보가 파일마다 나뉩니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 21
+    },
+    {
+      "id": 18,
+      "task_id": 5,
+      "phase": "before",
+      "before": "공정 이상마다 이력을 하나씩 조사했습니다.",
+      "after": "이상이 생기면 공정 이력을 찾아야 합니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 23
+    },
+    {
+      "id": 21,
+      "task_id": 5,
+      "phase": "before_after_comparison",
+      "before": "수동 조사에서, 연계 공정 후보를 한눈에.",
+      "after": "연계 공정 후보를 한눈에 확인합니다.",
+      "reason": "명사형이나 부사형으로 끊긴 마무리를 니다 종결의 완전문장으로 바꿉니다.",
+      "char_count": 20
+    },
+    {
+      "id": 22,
+      "task_id": 6,
+      "phase": "before",
+      "before": "로트와 장비 이력을 따로 찾아야 했습니다.",
+      "after": "로트와 장비 이력을 따로 조회해야 합니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 23
+    },
+    {
+      "id": 26,
+      "task_id": 7,
+      "phase": "before",
+      "before": "흩어진 경비와 장비 이력을 따로 살폈습니다.",
+      "after": "경비와 장비 이력을 일일이 대조합니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 21
+    },
+    {
+      "id": 29,
+      "task_id": 7,
+      "phase": "before_after_comparison",
+      "before": "수작업 분석에서, 빠른 절감 기회 발굴로.",
+      "after": "절감 기회를 빠르게 찾아 제안합니다.",
+      "reason": "명사형이나 부사형으로 끊긴 마무리를 니다 종결의 완전문장으로 바꿉니다.",
+      "char_count": 20
+    },
+    {
+      "id": 30,
+      "task_id": 8,
+      "phase": "before",
+      "before": "데이터를 찾고 엑셀로 가공하던 모니터링.",
+      "after": "모니터링 데이터를 엑셀로 가공합니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 20
+    },
+    {
+      "id": 33,
+      "task_id": 8,
+      "phase": "before_after_comparison",
+      "before": "수동 가공을 줄이고, 공정 변화를 한눈에.",
+      "after": "수작업을 줄여 공정 변화를 파악합니다.",
+      "reason": "명사형이나 부사형으로 끊긴 마무리를 니다 종결의 완전문장으로 바꿉니다.",
+      "char_count": 21
+    },
+    {
+      "id": 34,
+      "task_id": 9,
+      "phase": "before",
+      "before": "템 이미지의 정렬과 측정을 반복했습니다.",
+      "after": "템 이미지를 맞추고 하나씩 측정합니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 21
+    },
+    {
+      "id": 36,
+      "task_id": 9,
+      "phase": "after_analysis",
+      "before": "측정 데이터 정리부터 결과 시각화까지.",
+      "after": "측정 데이터를 정리하고 시각화합니다.",
+      "reason": "까지로 끝나는 문장 조각을 결과 정리와 시각화 동작이 분명한 완전문장으로 바꿉니다.",
+      "char_count": 20
+    },
+    {
+      "id": 38,
+      "task_id": 10,
+      "phase": "before",
+      "before": "조회와 예약마다 여러 시스템을 오갔습니다.",
+      "after": "조회와 예약에 시스템을 옮겨 다닙니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 21
+    },
+    {
+      "id": 41,
+      "task_id": 10,
+      "phase": "before_after_comparison",
+      "before": "시스템 이동에서, 한곳에서 끝내는 업무로.",
+      "after": "조회와 예약을 한곳에서 처리합니다.",
+      "reason": "명사형이나 부사형으로 끊긴 마무리를 니다 종결의 완전문장으로 바꿉니다.",
+      "char_count": 19
+    },
+    {
+      "id": 42,
+      "task_id": 11,
+      "phase": "before",
+      "before": "도구별 조회와 경험에 기대던 열화 분석.",
+      "after": "열화 원인 분석이 경험에 의존합니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 20
+    },
+    {
+      "id": 46,
+      "task_id": 12,
+      "phase": "before",
+      "before": "대면적 플러그 이미지를 눈으로 검증했습니다.",
+      "after": "대면적 플러그는 육안 검증이 필요합니다.",
+      "reason": "과제 고유의 수작업 상황을 현재형 완전문장으로 설명하고, 동일한 과거형 회상을 피합니다.",
+      "char_count": 22
+    }
+  ],
+  "proposed_clips": [
+    {
+      "id": 1,
+      "start_ms": 350,
+      "end_ms": 14750,
+      "text": "알앤디 공정의 새로운 도전. 사람의 경험에 에이아이의 가능성을 더해, 현장의 고민을 실질적인 솔루션으로 바꿉니다. 열두 개 에이전트가 만드는 변화, 지금 시작합니다."
+    },
+    {
+      "id": 2,
+      "task_id": 1,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 17060,
+      "end_ms": 20940,
+      "text": "공정 자료가 흩어져 탐색이 길어집니다."
+    },
+    {
+      "id": 3,
+      "task_id": 1,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 21060,
+      "end_ms": 24940,
+      "text": "이제 대화로 평가 목적을 구체화합니다."
+    },
+    {
+      "id": 4,
+      "task_id": 1,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 25060,
+      "end_ms": 28940,
+      "text": "플랜과 레시피, 실패 사례까지 연결합니다."
+    },
+    {
+      "id": 5,
+      "task_id": 1,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 29060,
+      "end_ms": 32940,
+      "text": "반복 탐색은 줄이고, 평가 판단을 돕습니다."
+    },
+    {
+      "id": 6,
+      "task_id": 2,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 35060,
+      "end_ms": 38940,
+      "text": "보고서 작성과 발송에 매일 손이 갑니다."
+    },
+    {
+      "id": 7,
+      "task_id": 2,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 39060,
+      "end_ms": 42940,
+      "text": "장비 데이터를 여러 시스템에서 모읍니다."
+    },
+    {
+      "id": 8,
+      "task_id": 2,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 43060,
+      "end_ms": 46940,
+      "text": "핵심 지표를 담은 보고서를 자동 생성합니다."
+    },
+    {
+      "id": 9,
+      "task_id": 2,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 47060,
+      "end_ms": 50940,
+      "text": "자동 전달로, 중요한 판단에 집중합니다."
+    },
+    {
+      "id": 10,
+      "task_id": 3,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 53060,
+      "end_ms": 56940,
+      "text": "로트와 장비 확인에 여러 화면이 필요합니다."
+    },
+    {
+      "id": 11,
+      "task_id": 3,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 57060,
+      "end_ms": 60940,
+      "text": "하나의 플랫폼에서 실시간으로 조회합니다."
+    },
+    {
+      "id": 12,
+      "task_id": 3,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 61060,
+      "end_ms": 64940,
+      "text": "공정 차트와 실험 결과를 함께 공유합니다."
+    },
+    {
+      "id": 13,
+      "task_id": 3,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 65060,
+      "end_ms": 68940,
+      "text": "정보를 공유해, 연구 자산으로 활용합니다."
+    },
+    {
+      "id": 14,
+      "task_id": 4,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 71060,
+      "end_ms": 74940,
+      "text": "공정과 장비 정보가 파일마다 나뉩니다."
+    },
+    {
+      "id": 15,
+      "task_id": 4,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 75060,
+      "end_ms": 78940,
+      "text": "워킹 보드에 모아, 자연어로 검색합니다."
+    },
+    {
+      "id": 16,
+      "task_id": 4,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 79060,
+      "end_ms": 82940,
+      "text": "공정과 장비를 함께 분석해 보여줍니다."
+    },
+    {
+      "id": 17,
+      "task_id": 4,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 83060,
+      "end_ms": 86940,
+      "text": "분석을 저장해, 다음 업무에서도 활용합니다."
+    },
+    {
+      "id": 18,
+      "task_id": 5,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 89060,
+      "end_ms": 92940,
+      "text": "이상이 생기면 공정 이력을 찾아야 합니다."
+    },
+    {
+      "id": 19,
+      "task_id": 5,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 93060,
+      "end_ms": 96940,
+      "text": "로트 정보로 연계 공정 분석을 시작합니다."
+    },
+    {
+      "id": 20,
+      "task_id": 5,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 97060,
+      "end_ms": 100940,
+      "text": "이력 매핑과 상관관계 분석을 자동화합니다."
+    },
+    {
+      "id": 21,
+      "task_id": 5,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 101060,
+      "end_ms": 104940,
+      "text": "연계 공정 후보를 한눈에 확인합니다."
+    },
+    {
+      "id": 22,
+      "task_id": 6,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 107060,
+      "end_ms": 110940,
+      "text": "로트와 장비 이력을 따로 조회해야 합니다."
+    },
+    {
+      "id": 23,
+      "task_id": 6,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 111060,
+      "end_ms": 114940,
+      "text": "하나의 앱에서 관련 이력을 통합 조회합니다."
+    },
+    {
+      "id": 24,
+      "task_id": 6,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 115060,
+      "end_ms": 118940,
+      "text": "전후 공정을 연결해, 원인 후보를 살핍니다."
+    },
+    {
+      "id": 25,
+      "task_id": 6,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 119060,
+      "end_ms": 122940,
+      "text": "탐색 시간을 줄여, 연구 판단에 집중합니다."
+    },
+    {
+      "id": 26,
+      "task_id": 7,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 125060,
+      "end_ms": 128940,
+      "text": "경비와 장비 이력을 일일이 대조합니다."
+    },
+    {
+      "id": 27,
+      "task_id": 7,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 129060,
+      "end_ms": 132940,
+      "text": "데이터를 모아, 절감 판단 지표를 만듭니다."
+    },
+    {
+      "id": 28,
+      "task_id": 7,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 133060,
+      "end_ms": 136940,
+      "text": "절감 아이템의 검토와 제외 항목을 봅니다."
+    },
+    {
+      "id": 29,
+      "task_id": 7,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 137060,
+      "end_ms": 140940,
+      "text": "절감 기회를 빠르게 찾아 제안합니다."
+    },
+    {
+      "id": 30,
+      "task_id": 8,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 143060,
+      "end_ms": 146940,
+      "text": "모니터링 데이터를 엑셀로 가공합니다."
+    },
+    {
+      "id": 31,
+      "task_id": 8,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 147060,
+      "end_ms": 150940,
+      "text": "자연어로 원하는 공정 데이터를 찾습니다."
+    },
+    {
+      "id": 32,
+      "task_id": 8,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 151060,
+      "end_ms": 154940,
+      "text": "웨이퍼 맵과 그래프로 장비를 비교합니다."
+    },
+    {
+      "id": 33,
+      "task_id": 8,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 155060,
+      "end_ms": 158940,
+      "text": "수작업을 줄여 공정 변화를 파악합니다."
+    },
+    {
+      "id": 34,
+      "task_id": 9,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 161060,
+      "end_ms": 164940,
+      "text": "템 이미지를 맞추고 하나씩 측정합니다."
+    },
+    {
+      "id": 35,
+      "task_id": 9,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 165060,
+      "end_ms": 168940,
+      "text": "한 도구에서 정렬과 측정을 자동화합니다."
+    },
+    {
+      "id": 36,
+      "task_id": 9,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 169060,
+      "end_ms": 172940,
+      "text": "측정 데이터를 정리하고 시각화합니다."
+    },
+    {
+      "id": 37,
+      "task_id": 9,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 173060,
+      "end_ms": 176940,
+      "text": "반복 측정은 줄이고, 분석 편차를 낮춥니다."
+    },
+    {
+      "id": 38,
+      "task_id": 10,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 179060,
+      "end_ms": 182940,
+      "text": "조회와 예약에 시스템을 옮겨 다닙니다."
+    },
+    {
+      "id": 39,
+      "task_id": 10,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 183060,
+      "end_ms": 186940,
+      "text": "로트와 장비, 예약을 한 포털에 모읍니다."
+    },
+    {
+      "id": 40,
+      "task_id": 10,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 187060,
+      "end_ms": 190940,
+      "text": "일일 보고서와 메일 기능도 연결합니다."
+    },
+    {
+      "id": 41,
+      "task_id": 10,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 191060,
+      "end_ms": 194940,
+      "text": "조회와 예약을 한곳에서 처리합니다."
+    },
+    {
+      "id": 42,
+      "task_id": 11,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 197060,
+      "end_ms": 200940,
+      "text": "열화 원인 분석이 경험에 의존합니다."
+    },
+    {
+      "id": 43,
+      "task_id": 11,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 201060,
+      "end_ms": 204940,
+      "text": "로트 아이디로 오버레이 정보를 모읍니다."
+    },
+    {
+      "id": 44,
+      "task_id": 11,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 205060,
+      "end_ms": 208940,
+      "text": "맵과 추세를 비교해, 의심 원인을 좁힙니다."
+    },
+    {
+      "id": 45,
+      "task_id": 11,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 209060,
+      "end_ms": 212940,
+      "text": "케이 파라미터로 해결 방안을 제안합니다."
+    },
+    {
+      "id": 46,
+      "task_id": 12,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 215060,
+      "end_ms": 218940,
+      "text": "대면적 플러그는 육안 검증이 필요합니다."
+    },
+    {
+      "id": 47,
+      "task_id": 12,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 219060,
+      "end_ms": 222940,
+      "text": "계측선과 플러그를 자동으로 인식합니다."
+    },
+    {
+      "id": 48,
+      "task_id": 12,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 223060,
+      "end_ms": 226940,
+      "text": "자동 선별 후, 담당자가 최종 판정합니다."
+    },
+    {
+      "id": 49,
+      "task_id": 12,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 227060,
+      "end_ms": 230940,
+      "text": "검증 부담을 줄여, 분석 결과를 활용합니다."
+    },
+    {
+      "id": 50,
+      "phase": "ending",
+      "start_ms": 231600,
+      "end_ms": 239500,
+      "text": "사람의 경험과 에이아이가 함께 만드는 변화. 지금, 그 주인공을 만나보겠습니다."
+    }
+  ],
+  "full_narration_text": "알앤디 공정의 새로운 도전. 사람의 경험에 에이아이의 가능성을 더해, 현장의 고민을 실질적인 솔루션으로 바꿉니다. 열두 개 에이전트가 만드는 변화, 지금 시작합니다.\n공정 자료가 흩어져 탐색이 길어집니다.\n이제 대화로 평가 목적을 구체화합니다.\n플랜과 레시피, 실패 사례까지 연결합니다.\n반복 탐색은 줄이고, 평가 판단을 돕습니다.\n보고서 작성과 발송에 매일 손이 갑니다.\n장비 데이터를 여러 시스템에서 모읍니다.\n핵심 지표를 담은 보고서를 자동 생성합니다.\n자동 전달로, 중요한 판단에 집중합니다.\n로트와 장비 확인에 여러 화면이 필요합니다.\n하나의 플랫폼에서 실시간으로 조회합니다.\n공정 차트와 실험 결과를 함께 공유합니다.\n정보를 공유해, 연구 자산으로 활용합니다.\n공정과 장비 정보가 파일마다 나뉩니다.\n워킹 보드에 모아, 자연어로 검색합니다.\n공정과 장비를 함께 분석해 보여줍니다.\n분석을 저장해, 다음 업무에서도 활용합니다.\n이상이 생기면 공정 이력을 찾아야 합니다.\n로트 정보로 연계 공정 분석을 시작합니다.\n이력 매핑과 상관관계 분석을 자동화합니다.\n연계 공정 후보를 한눈에 확인합니다.\n로트와 장비 이력을 따로 조회해야 합니다.\n하나의 앱에서 관련 이력을 통합 조회합니다.\n전후 공정을 연결해, 원인 후보를 살핍니다.\n탐색 시간을 줄여, 연구 판단에 집중합니다.\n경비와 장비 이력을 일일이 대조합니다.\n데이터를 모아, 절감 판단 지표를 만듭니다.\n절감 아이템의 검토와 제외 항목을 봅니다.\n절감 기회를 빠르게 찾아 제안합니다.\n모니터링 데이터를 엑셀로 가공합니다.\n자연어로 원하는 공정 데이터를 찾습니다.\n웨이퍼 맵과 그래프로 장비를 비교합니다.\n수작업을 줄여 공정 변화를 파악합니다.\n템 이미지를 맞추고 하나씩 측정합니다.\n한 도구에서 정렬과 측정을 자동화합니다.\n측정 데이터를 정리하고 시각화합니다.\n반복 측정은 줄이고, 분석 편차를 낮춥니다.\n조회와 예약에 시스템을 옮겨 다닙니다.\n로트와 장비, 예약을 한 포털에 모읍니다.\n일일 보고서와 메일 기능도 연결합니다.\n조회와 예약을 한곳에서 처리합니다.\n열화 원인 분석이 경험에 의존합니다.\n로트 아이디로 오버레이 정보를 모읍니다.\n맵과 추세를 비교해, 의심 원인을 좁힙니다.\n케이 파라미터로 해결 방안을 제안합니다.\n대면적 플러그는 육안 검증이 필요합니다.\n계측선과 플러그를 자동으로 인식합니다.\n자동 선별 후, 담당자가 최종 판정합니다.\n검증 부담을 줄여, 분석 결과를 활용합니다.\n사람의 경험과 에이아이가 함께 만드는 변화. 지금, 그 주인공을 만나보겠습니다.",
+  "generated_prompt": "[bright, confident voice, slightly higher pitch, projecting to an audience]\n알앤디 공정의 새로운 도전. 사람의 경험에 에이아이의 가능성을 더해, 현장의 고민을 실질적인 솔루션으로 바꿉니다. 열두 개 에이전트가 만드는 변화, 지금 시작합니다.\n공정 자료가 흩어져 탐색이 길어집니다.\n이제 대화로 평가 목적을 구체화합니다.\n플랜과 레시피, 실패 사례까지 연결합니다.\n반복 탐색은 줄이고, 평가 판단을 돕습니다.\n보고서 작성과 발송에 매일 손이 갑니다.\n장비 데이터를 여러 시스템에서 모읍니다.\n핵심 지표를 담은 보고서를 자동 생성합니다.\n자동 전달로, 중요한 판단에 집중합니다.\n로트와 장비 확인에 여러 화면이 필요합니다.\n하나의 플랫폼에서 실시간으로 조회합니다.\n공정 차트와 실험 결과를 함께 공유합니다.\n정보를 공유해, 연구 자산으로 활용합니다.\n공정과 장비 정보가 파일마다 나뉩니다.\n워킹 보드에 모아, 자연어로 검색합니다.\n공정과 장비를 함께 분석해 보여줍니다.\n분석을 저장해, 다음 업무에서도 활용합니다.\n이상이 생기면 공정 이력을 찾아야 합니다.\n로트 정보로 연계 공정 분석을 시작합니다.\n이력 매핑과 상관관계 분석을 자동화합니다.\n연계 공정 후보를 한눈에 확인합니다.\n로트와 장비 이력을 따로 조회해야 합니다.\n하나의 앱에서 관련 이력을 통합 조회합니다.\n전후 공정을 연결해, 원인 후보를 살핍니다.\n탐색 시간을 줄여, 연구 판단에 집중합니다.\n경비와 장비 이력을 일일이 대조합니다.\n데이터를 모아, 절감 판단 지표를 만듭니다.\n절감 아이템의 검토와 제외 항목을 봅니다.\n절감 기회를 빠르게 찾아 제안합니다.\n모니터링 데이터를 엑셀로 가공합니다.\n자연어로 원하는 공정 데이터를 찾습니다.\n웨이퍼 맵과 그래프로 장비를 비교합니다.\n수작업을 줄여 공정 변화를 파악합니다.\n템 이미지를 맞추고 하나씩 측정합니다.\n한 도구에서 정렬과 측정을 자동화합니다.\n측정 데이터를 정리하고 시각화합니다.\n반복 측정은 줄이고, 분석 편차를 낮춥니다.\n조회와 예약에 시스템을 옮겨 다닙니다.\n로트와 장비, 예약을 한 포털에 모읍니다.\n일일 보고서와 메일 기능도 연결합니다.\n조회와 예약을 한곳에서 처리합니다.\n열화 원인 분석이 경험에 의존합니다.\n로트 아이디로 오버레이 정보를 모읍니다.\n맵과 추세를 비교해, 의심 원인을 좁힙니다.\n케이 파라미터로 해결 방안을 제안합니다.\n대면적 플러그는 육안 검증이 필요합니다.\n계측선과 플러그를 자동으로 인식합니다.\n자동 선별 후, 담당자가 최종 판정합니다.\n검증 부담을 줄여, 분석 결과를 활용합니다.\n사람의 경험과 에이아이가 함께 만드는 변화. 지금, 그 주인공을 만나보겠습니다.",
+  "prompt_length": 1326,
+  "narration_text_length": 1250,
+  "validation": {
+    "changed_clips": 18,
+    "before_clips_changed": 12,
+    "comparison_clips_changed": 5,
+    "other_body_clips_changed": 1,
+    "clip_count": 50,
+    "body_clip_count": 48,
+    "max_body_characters": 24,
+    "all_body_clips_at_most_24_characters": true,
+    "all_body_clips_end_with_nida": true,
+    "unchanged_timing": true,
+    "single_take_and_saved_voice_settings_unchanged": true,
+    "opening_and_ending_unchanged": true,
+    "kept_k_parameter": true,
+    "kept_human_final_judgment": true,
+    "task_order_and_owners_unchanged": true
+  },
+  "editorial_notes": [
+    "BEFORE sentences vary between dispersed information, manual effort, need for multiple screens, record investigation, manual comparison, spreadsheet work, and visual inspection.",
+    "The repeated historical ending 했습니다 is removed from every task BEFORE cut.",
+    "Only narration sentences change. All scene timing, captions and visual design remain subject to root application.",
+    "Opening and separate film ending are unchanged; the incomplete 로/한눈에 task endings are the target of the user request."
+  ],
+  "final_video": "out/production/rd-process-ai-fast-track.mp4",
+  "final_sha256": "4db96d1b366a31853bab9e93546c36f18f8a36f78fb76e22fa4891ac9cd6f818",
+  "final_receipt": "out/production/receipt.json"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "revision": 6,
+  "checks": {
+    "approved_aac_file_hash_matches": true,
+    "exact_approved_aac_packets": true,
+    "exact_approved_decoded_pcm": true,
+    "aac_48000_stereo": true,
+    "locked_audio_duration": true
+  },
+  "method": "Copy the complete approved Revision5 AAC without re-encoding.",
+  "new_tts": false,
+  "mix_changed": false,
+  "voice_speed_changed": false,
+  "narration_changed": false,
+  "bgm_changed": false,
+  "duration": 307.1333333333333,
+  "source_audio_file": "narration/revision5-approved-audio.m4a",
+  "approved_aac_file_sha256": "08a7da25916af4742491b4c0a650c3dc2934e18c389b29491724767e3b7fedfb",
+  "aac_packet_payload_hash": "SHA256=4324c63f2b3d526671b8368b4e1f30fb565f8130756bfde0b28a8d3840340e58",
+  "decoded_48000_stereo_s16le_hash": "SHA256=8f132436c55749c73d023e647175f071bd6461fd8ec05f8ed64d1764e6de1c0e",
+  "baseline_audio_validation": "validation/baseline-v5/audio-validation.json",
+  "baseline_speech_validation": "validation/baseline-v5/final-speech-review.json"
+}

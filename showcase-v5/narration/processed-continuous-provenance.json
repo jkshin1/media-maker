@@ -1,0 +1,13 @@
+{
+  "source_master": "/Users/jk/projects/media-maker/showcase-v2/narration/take.wav",
+  "source_master_sha256": "765a118636ccf1a0ee125d5c8554c34424ba07511b27df8b665b42da8ca8664f",
+  "source_pcm_sha256": "40220a7e29f5b5c5cafcd177facbf70fd5d57157a6ff84eddfdb753b72d5fa47",
+  "tempo_ratio": 1.2446782514254684,
+  "effective_ffmpeg_tempo": 1.244678251425,
+  "atempo_filter": "atempo=1.244678251425",
+  "same_effective_filter_as_legacy_audio_py": true,
+  "processed": "/Users/jk/projects/media-maker/showcase-v2/narration/processed-continuous.wav",
+  "processed_sha256": "72ee680982f1f10bc6c07958c27f30d84c2af423d3d102f74335c30f7508bcb5",
+  "processing": "one whole continuous take, no section clipping or local tempo changes",
+  "new_tts": false
+}

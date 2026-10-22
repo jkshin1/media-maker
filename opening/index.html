@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>R&amp;D 공정 AI Fast Track — 오프닝</title>
+<style>
+@font-face{font-family:Noto;src:url('fonts/NotoSansCJKkr-Regular.otf');font-weight:400;font-display:block}
+@font-face{font-family:Noto;src:url('fonts/NotoSansCJKkr-Bold.otf');font-weight:700;font-display:block}
+@font-face{font-family:SourceSerif;src:url('fonts/SourceSerif4-Regular.woff2');font-weight:400;font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#080808;overflow:hidden}
+:root{--black:#080808;--charcoal:#1A1A1F;--gold:#D4AF7C;--warmgold:#F5D6A6;--amber:#FFB347;--white:#F2EEE7}
+#stage{width:1920px;height:1080px;position:absolute;transform-origin:0 0;overflow:hidden;background:var(--black);font-family:Noto,sans-serif;color:var(--white);-webkit-font-smoothing:antialiased}
+canvas{position:absolute;inset:0;width:1920px;height:1080px}
+.scene{position:absolute;inset:0;display:none;pointer-events:none}
+.headline{position:absolute;margin:0;font-size:70px;font-weight:400;line-height:1.36;letter-spacing:-.045em;text-shadow:0 3px 24px #000a}
+.accent{color:var(--warmgold)}
+.title{position:absolute;left:150px;right:150px;top:285px;text-align:center}
+.title .ko{font-size:79px;letter-spacing:-.035em;margin:0;line-height:1.4;font-weight:400}
+.title .en{font-family:SourceSerif,serif;font-size:142px;line-height:1.2;letter-spacing:-.03em;color:var(--warmgold);margin-top:8px;text-shadow:0 4px 30px #000b;font-weight:400}
+.subtitle{font-size:33px;letter-spacing:.025em;color:var(--white);margin-top:37px;font-weight:400}
+.titleRule{width:380px;height:1px;margin:34px auto 0;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+#s1 .headline{left:125px;top:286px;font-size:87px;line-height:1.31}
+#s2 .headline{left:1165px;top:287px;font-size:66px}
+#s3 .headline{left:1110px;top:305px;font-size:67px}
+#s4 .headline{left:1170px;top:310px;font-size:67px}
+#s6 .headline{left:1160px;top:306px;font-size:71px}
+#s6 .count{font-family:SourceSerif,serif;font-size:131px;letter-spacing:-.06em;line-height:1.03}
+#s7 .headline{left:1160px;top:305px;font-size:66px}
+#s8 .benefits{position:absolute;left:1210px;top:270px;right:80px;display:flex;flex-direction:column;gap:50px}
+.benefit{position:relative;font-size:39px;line-height:1.4;letter-spacing:-.04em;padding-left:78px;white-space:nowrap}
+.benefit svg{position:absolute;width:51px;height:51px;left:0;top:2px;stroke:var(--warmgold);fill:none;stroke-width:1.65}
+#s9 .title{top:275px}.caption{position:absolute;left:100px;right:100px;bottom:81px;font-size:29px;line-height:1.5;text-align:center;letter-spacing:-.025em;white-space:nowrap;color:var(--white);text-shadow:0 2px 12px #000}
+.scene .caption{display:none}
+#captionBand{position:absolute;left:0;right:0;bottom:0;height:164px;background:linear-gradient(transparent,#080808d9 33%,#080808ef);pointer-events:none}
+#captionLine{position:absolute;left:125px;right:125px;bottom:132px;height:1px;background:linear-gradient(90deg,transparent,#D4AF7C42,transparent)}
+#controls{position:fixed;left:18px;bottom:14px;display:flex;gap:12px;align-items:center;z-index:99;background:#1a1a1fec;padding:9px 15px;border:1px solid #D4AF7C66;color:#F2EEE7;font:14px sans-serif}
+#controls button{color:#F5D6A6;background:#080808;border:1px solid #D4AF7C;padding:7px 14px;cursor:pointer}#controls input{width:280px;accent-color:#D4AF7C}
+</style>
+</head>
+<body>
+<div id="stage">
+<canvas id="visual" width="1920" height="1080"></canvas>
+<div id="captionBand"></div><div id="captionLine"></div>
+<section id="s1" class="scene"><h1 class="headline">R&amp;D 업무에<br><span class="accent">AI를 더합니다</span></h1><div class="caption"></div></section>
+<section id="s2" class="scene"><h1 class="headline">더 나은<br>R&amp;D 공정의<br><span class="accent">내일을 만듭니다</span></h1><div class="caption"></div></section>
+<section id="s3" class="scene"><h1 class="headline">사람의 경험과<br>AI의 가능성을<br><span class="accent">연결합니다</span></h1><div class="caption"></div></section>
+<section id="s4" class="scene"><h1 class="headline">연구와 업무의<br>새로운 가능성을<br><span class="accent">열어갑니다</span></h1><div class="caption"></div></section>
+<section id="s5" class="scene"><div class="title"><h1 class="ko">R&amp;D 공정</h1><div class="en">AI Fast Track</div><div class="titleRule"></div><div class="subtitle">AI로 더 스마트한 R&amp;D 공정</div></div><div class="caption"></div></section>
+<section id="s6" class="scene"><h1 class="headline"><span class="count accent">12개</span><br>AI Agent가<br><span class="accent">만드는 변화</span></h1><div class="caption"></div></section>
+<section id="s7" class="scene"><h1 class="headline">현장의 문제를<br>AI로 해결하는<br><span class="accent">12개 과제</span></h1><div class="caption"></div></section>
+<section id="s8" class="scene"><div class="benefits">
+<div class="benefit"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="19"/><path d="M13 26l7 7 16-20"/></svg>업무 효율화</div>
+<div class="benefit"><svg viewBox="0 0 48 48"><path d="M8 32l9-17 13 7 11-12M8 40h32"/><circle cx="8" cy="32" r="3"/><circle cx="17" cy="15" r="3"/><circle cx="30" cy="22" r="3"/><circle cx="41" cy="10" r="3"/></svg>데이터 기반 의사결정</div>
+<div class="benefit"><svg viewBox="0 0 48 48"><circle cx="21" cy="20" r="13"/><path d="M30 30l12 12M15 20h12M21 14v12"/></svg>새로운 분석 관점</div>
+<div class="benefit"><svg viewBox="0 0 48 48"><path d="M14 5h20M18 5v14L6 39q-2 4 4 4h28q6 0 4-4L30 19V5M13 31h22"/><circle cx="23" cy="34" r="2"/></svg>더 스마트한 연구 환경</div>
+</div><div class="caption"></div></section>
+<section id="s9" class="scene"><div class="title"><h1 class="ko">R&amp;D 공정</h1><div class="en">AI Fast Track</div><div class="titleRule"></div><div class="subtitle">AI로 만들어가는 R&amp;D의 새로운 변화</div></div><div class="caption"></div></section>
+<div id="caption" class="caption"></div>
+</div>
+<div id="controls"><button id="play">재생</button><input id="scrub" type="range" min="0" max="46" step="0.033333" value="0"><span id="time">0.0 / 46.0</span></div>
+<script src="scenes.js"></script>
+</body>
+</html>

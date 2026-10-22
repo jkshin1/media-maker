@@ -1,0 +1,10 @@
+{
+  "master": "showcase-v9/narration/recovery/composite-original.wav",
+  "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+  "source_start_seconds": 286,
+  "source_start_sample": 13728000,
+  "source_end_sample": 14160000,
+  "pcm_sha256": "d33e0ee08201227612249738bb924076a37417e54932dc7491c64f1da8323b90",
+  "region_sha256": "6df722a1f7fe11a75b20b460c5d6ac8a93149a553151f879ac440f3ae029d991",
+  "scope": "Exact PCM review extraction only. No original or working master changed."
+}

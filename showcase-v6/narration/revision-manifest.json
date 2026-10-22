@@ -1,0 +1,1163 @@
+{
+  "generation_mode": "single_take",
+  "source_master": {
+    "path": "/Users/jk/projects/media-maker/showcase/narration/take.wav",
+    "sha256": "765a118636ccf1a0ee125d5c8554c34424ba07511b27df8b665b42da8ca8664f",
+    "sample_rate": 48000,
+    "channels": 1,
+    "sample_width": 2,
+    "sample_count": 14810880,
+    "duration": 308.56
+  },
+  "processed_master": {
+    "path": "narration/processed-continuous.wav",
+    "sha256": "72ee680982f1f10bc6c07958c27f30d84c2af423d3d102f74335c30f7508bcb5",
+    "pcm_sha256": "52343bd3ecde410df00a13a055fd0ee5a93ad67c69bcd2c49a8ae653a413240a",
+    "sample_count": 11899022,
+    "duration_seconds": 247.89629166666666,
+    "continuous_processing_passes": 1
+  },
+  "tempo_ratio": 1.2446782514254684,
+  "sample_rate": 48000,
+  "placements": [
+    {
+      "section_id": "opening",
+      "cut_id": "opening_cut1",
+      "source_start_sample": 0,
+      "source_end_sample": 95808,
+      "timeline_start_sample": 0,
+      "sample_count": 95808
+    },
+    {
+      "section_id": "opening",
+      "cut_id": "opening_cut2",
+      "source_start_sample": 95808,
+      "source_end_sample": 238896,
+      "timeline_start_sample": 121600,
+      "sample_count": 143088
+    },
+    {
+      "section_id": "opening",
+      "cut_id": "opening_cut3",
+      "source_start_sample": 238896,
+      "source_end_sample": 419472,
+      "timeline_start_sample": 289600,
+      "sample_count": 180576
+    },
+    {
+      "section_id": "opening",
+      "cut_id": "opening_cut4",
+      "source_start_sample": 419472,
+      "source_end_sample": 556176,
+      "timeline_start_sample": 484800,
+      "sample_count": 136704
+    },
+    {
+      "section_id": "opening",
+      "cut_id": "opening_cut5",
+      "source_start_sample": 556176,
+      "source_end_sample": 752064,
+      "timeline_start_sample": 636800,
+      "sample_count": 195888
+    },
+    {
+      "section_id": "opening",
+      "cut_id": "opening_cut6",
+      "source_start_sample": 752064,
+      "source_end_sample": 963600,
+      "timeline_start_sample": 864000,
+      "sample_count": 211536
+    },
+    {
+      "section_id": "opening",
+      "cut_id": "opening_cut7",
+      "source_start_sample": 963600,
+      "source_end_sample": 1158336,
+      "timeline_start_sample": 1104000,
+      "sample_count": 194736
+    },
+    {
+      "section_id": "opening",
+      "cut_id": "opening_cut8",
+      "source_start_sample": 1158336,
+      "source_end_sample": 1366560,
+      "timeline_start_sample": 1321600,
+      "sample_count": 208224
+    },
+    {
+      "section_id": "opening",
+      "cut_id": "opening_cut9",
+      "source_start_sample": 1366560,
+      "source_end_sample": 1522176,
+      "timeline_start_sample": 1552000,
+      "sample_count": 155616
+    },
+    {
+      "section_id": "task3",
+      "cut_id": null,
+      "source_start_sample": 1522176,
+      "source_end_sample": 2212704,
+      "timeline_start_sample": 2123200,
+      "sample_count": 690528
+    },
+    {
+      "section_id": "task4",
+      "cut_id": null,
+      "source_start_sample": 2212704,
+      "source_end_sample": 2974560,
+      "timeline_start_sample": 2916800,
+      "sample_count": 761856
+    },
+    {
+      "section_id": "task5",
+      "cut_id": null,
+      "source_start_sample": 2974560,
+      "source_end_sample": 3694128,
+      "timeline_start_sample": 3780800,
+      "sample_count": 719568
+    },
+    {
+      "section_id": "task7",
+      "cut_id": null,
+      "source_start_sample": 3694128,
+      "source_end_sample": 4610112,
+      "timeline_start_sample": 4891200,
+      "sample_count": 915984
+    },
+    {
+      "section_id": "task8",
+      "cut_id": null,
+      "source_start_sample": 4610112,
+      "source_end_sample": 5332128,
+      "timeline_start_sample": 5910400,
+      "sample_count": 722016
+    },
+    {
+      "section_id": "task9",
+      "cut_id": null,
+      "source_start_sample": 5332128,
+      "source_end_sample": 6084816,
+      "timeline_start_sample": 6734400,
+      "sample_count": 752688
+    },
+    {
+      "section_id": "task11",
+      "cut_id": null,
+      "source_start_sample": 6084816,
+      "source_end_sample": 7235328,
+      "timeline_start_sample": 7878400,
+      "sample_count": 1150512
+    },
+    {
+      "section_id": "task12",
+      "cut_id": null,
+      "source_start_sample": 7235328,
+      "source_end_sample": 8160816,
+      "timeline_start_sample": 9131200,
+      "sample_count": 925488
+    },
+    {
+      "section_id": "task13",
+      "cut_id": null,
+      "source_start_sample": 8160816,
+      "source_end_sample": 9052224,
+      "timeline_start_sample": 10160000,
+      "sample_count": 891408
+    },
+    {
+      "section_id": "task14",
+      "cut_id": null,
+      "source_start_sample": 9052224,
+      "source_end_sample": 9536736,
+      "timeline_start_sample": 11153600,
+      "sample_count": 484512
+    },
+    {
+      "section_id": "task17",
+      "cut_id": null,
+      "source_start_sample": 9536736,
+      "source_end_sample": 10487184,
+      "timeline_start_sample": 12028800,
+      "sample_count": 950448
+    },
+    {
+      "section_id": "task16",
+      "cut_id": null,
+      "source_start_sample": 10487184,
+      "source_end_sample": 11288256,
+      "timeline_start_sample": 13081600,
+      "sample_count": 801072
+    },
+    {
+      "section_id": "ending",
+      "cut_id": null,
+      "source_start_sample": 11288256,
+      "source_end_sample": 11667024,
+      "timeline_start_sample": 13889600,
+      "sample_count": 378768
+    },
+    {
+      "section_id": "ending",
+      "cut_id": null,
+      "source_start_sample": 11667024,
+      "source_end_sample": 11899022,
+      "timeline_start_sample": 14316800,
+      "sample_count": 231998
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "opening",
+      "source_start_sample": 0,
+      "source_end_sample": 1522176,
+      "timeline_start_sample": 0,
+      "timeline_end_sample": 1739200,
+      "visual_section_start_frame": 0,
+      "visual_section_end_frame": 1087,
+      "last_speech_end_sample": 1703776
+    },
+    {
+      "section_id": "task3",
+      "source_start_sample": 1522176,
+      "source_end_sample": 2212704,
+      "timeline_start_sample": 2123200,
+      "timeline_end_sample": 2820800,
+      "visual_section_start_frame": 1267,
+      "visual_section_end_frame": 1763,
+      "last_speech_end_sample": 2809888
+    },
+    {
+      "section_id": "task4",
+      "source_start_sample": 2212704,
+      "source_end_sample": 2974560,
+      "timeline_start_sample": 2916800,
+      "timeline_end_sample": 3684800,
+      "visual_section_start_frame": 1763,
+      "visual_section_end_frame": 2303,
+      "last_speech_end_sample": 3674816
+    },
+    {
+      "section_id": "task5",
+      "source_start_sample": 2974560,
+      "source_end_sample": 3694128,
+      "timeline_start_sample": 3780800,
+      "timeline_end_sample": 4507200,
+      "visual_section_start_frame": 2303,
+      "visual_section_end_frame": 2817,
+      "last_speech_end_sample": 4496528
+    },
+    {
+      "section_id": "task7",
+      "source_start_sample": 3694128,
+      "source_end_sample": 4610112,
+      "timeline_start_sample": 4891200,
+      "timeline_end_sample": 5814400,
+      "visual_section_start_frame": 2997,
+      "visual_section_end_frame": 3634,
+      "last_speech_end_sample": 5803344
+    },
+    {
+      "section_id": "task8",
+      "source_start_sample": 4610112,
+      "source_end_sample": 5332128,
+      "timeline_start_sample": 5910400,
+      "timeline_end_sample": 6638400,
+      "visual_section_start_frame": 3634,
+      "visual_section_end_frame": 4149,
+      "last_speech_end_sample": 6628576
+    },
+    {
+      "section_id": "task9",
+      "source_start_sample": 5332128,
+      "source_end_sample": 6084816,
+      "timeline_start_sample": 6734400,
+      "timeline_end_sample": 7494400,
+      "visual_section_start_frame": 4149,
+      "visual_section_end_frame": 4684,
+      "last_speech_end_sample": 7483248
+    },
+    {
+      "section_id": "task11",
+      "source_start_sample": 6084816,
+      "source_end_sample": 7235328,
+      "timeline_start_sample": 7878400,
+      "timeline_end_sample": 9035200,
+      "visual_section_start_frame": 4864,
+      "visual_section_end_frame": 5647,
+      "last_speech_end_sample": 9025072
+    },
+    {
+      "section_id": "task12",
+      "source_start_sample": 7235328,
+      "source_end_sample": 8160816,
+      "timeline_start_sample": 9131200,
+      "timeline_end_sample": 10064000,
+      "visual_section_start_frame": 5647,
+      "visual_section_end_frame": 6290,
+      "last_speech_end_sample": 10052848
+    },
+    {
+      "section_id": "task13",
+      "source_start_sample": 8160816,
+      "source_end_sample": 9052224,
+      "timeline_start_sample": 10160000,
+      "timeline_end_sample": 11057600,
+      "visual_section_start_frame": 6290,
+      "visual_section_end_frame": 6911,
+      "last_speech_end_sample": 11047568
+    },
+    {
+      "section_id": "task14",
+      "source_start_sample": 9052224,
+      "source_end_sample": 9536736,
+      "timeline_start_sample": 11153600,
+      "timeline_end_sample": 11644800,
+      "visual_section_start_frame": 6911,
+      "visual_section_end_frame": 7278,
+      "last_speech_end_sample": 11634272
+    },
+    {
+      "section_id": "task17",
+      "source_start_sample": 9536736,
+      "source_end_sample": 10487184,
+      "timeline_start_sample": 12028800,
+      "timeline_end_sample": 12985600,
+      "visual_section_start_frame": 7458,
+      "visual_section_end_frame": 8116,
+      "last_speech_end_sample": 12975408
+    },
+    {
+      "section_id": "task16",
+      "source_start_sample": 10487184,
+      "source_end_sample": 11288256,
+      "timeline_start_sample": 13081600,
+      "timeline_end_sample": 13889600,
+      "visual_section_start_frame": 8116,
+      "visual_section_end_frame": 8681,
+      "last_speech_end_sample": 13878832
+    },
+    {
+      "section_id": "ending",
+      "source_start_sample": 11288256,
+      "source_end_sample": 11899022,
+      "timeline_start_sample": 13889600,
+      "timeline_end_sample": 14742400,
+      "visual_section_start_frame": 8681,
+      "visual_section_end_frame": 9214,
+      "last_speech_end_sample": 14540048
+    }
+  ],
+  "per_cut_timing": [
+    {
+      "cut_id": "opening_cut1",
+      "section_id": "opening",
+      "actual_speech_start_sample": 0,
+      "actual_speech_end_sample": 91968,
+      "visual_start_seconds": 0.0,
+      "visual_end_seconds": 2.533333333333333,
+      "tail_margin_seconds": 0.6173333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "opening_cut2",
+      "section_id": "opening",
+      "actual_speech_start_sample": 136960,
+      "actual_speech_end_sample": 260848,
+      "visual_start_seconds": 2.533333333333333,
+      "visual_end_seconds": 6.033333333333333,
+      "tail_margin_seconds": 0.599,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "opening_cut3",
+      "section_id": "opening",
+      "actual_speech_start_sample": 306976,
+      "actual_speech_end_sample": 466336,
+      "visual_start_seconds": 6.033333333333333,
+      "visual_end_seconds": 10.1,
+      "tail_margin_seconds": 0.38466666666666666,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "opening_cut4",
+      "section_id": "opening",
+      "actual_speech_start_sample": 500688,
+      "actual_speech_end_sample": 617664,
+      "visual_start_seconds": 10.1,
+      "visual_end_seconds": 13.266666666666667,
+      "tail_margin_seconds": 0.39866666666666667,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "opening_cut5",
+      "section_id": "opening",
+      "actual_speech_start_sample": 654608,
+      "actual_speech_end_sample": 830096,
+      "visual_start_seconds": 13.266666666666667,
+      "visual_end_seconds": 18.0,
+      "tail_margin_seconds": 0.7063333333333334,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "opening_cut6",
+      "section_id": "opening",
+      "actual_speech_start_sample": 866592,
+      "actual_speech_end_sample": 1071696,
+      "visual_start_seconds": 18.0,
+      "visual_end_seconds": 23.0,
+      "tail_margin_seconds": 0.673,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "opening_cut7",
+      "section_id": "opening",
+      "actual_speech_start_sample": 1116864,
+      "actual_speech_end_sample": 1294896,
+      "visual_start_seconds": 23.0,
+      "visual_end_seconds": 27.533333333333335,
+      "tail_margin_seconds": 0.5563333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "opening_cut8",
+      "section_id": "opening",
+      "actual_speech_start_sample": 1332112,
+      "actual_speech_end_sample": 1525984,
+      "visual_start_seconds": 27.533333333333335,
+      "visual_end_seconds": 32.333333333333336,
+      "tail_margin_seconds": 0.542,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "opening_cut9",
+      "section_id": "opening",
+      "actual_speech_start_sample": 1564624,
+      "actual_speech_end_sample": 1703776,
+      "visual_start_seconds": 32.333333333333336,
+      "visual_end_seconds": 36.233333333333334,
+      "tail_margin_seconds": 0.738,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task3_cut1",
+      "section_id": "task3",
+      "actual_speech_start_sample": 2142736,
+      "actual_speech_end_sample": 2259232,
+      "visual_start_seconds": 44.233333333333334,
+      "visual_end_seconds": 47.1,
+      "tail_margin_seconds": 0.03266666666666666,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "REVIEWED_CONTINUOUS_SPEECH_VISUAL_ONLY"
+    },
+    {
+      "cut_id": "task3_cut2",
+      "section_id": "task3",
+      "actual_speech_start_sample": 2256064,
+      "actual_speech_end_sample": 2340448,
+      "visual_start_seconds": 47.1,
+      "visual_end_seconds": 48.86666666666667,
+      "tail_margin_seconds": 0.10733333333333334,
+      "speech_start_before_visual_seconds": 0.09866666666666667,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task3_cut3",
+      "section_id": "task3",
+      "actual_speech_start_sample": 2354992,
+      "actual_speech_end_sample": 2464000,
+      "visual_start_seconds": 48.86666666666667,
+      "visual_end_seconds": 51.43333333333333,
+      "tail_margin_seconds": 0.1,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task3_cut4",
+      "section_id": "task3",
+      "actual_speech_start_sample": 2480512,
+      "actual_speech_end_sample": 2603968,
+      "visual_start_seconds": 51.43333333333333,
+      "visual_end_seconds": 54.333333333333336,
+      "tail_margin_seconds": 0.084,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task3_cut5",
+      "section_id": "task3",
+      "actual_speech_start_sample": 2615920,
+      "actual_speech_end_sample": 2809888,
+      "visual_start_seconds": 54.333333333333336,
+      "visual_end_seconds": 58.766666666666666,
+      "tail_margin_seconds": 0.22733333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task4_cut1",
+      "section_id": "task4",
+      "actual_speech_start_sample": 2929280,
+      "actual_speech_end_sample": 3097664,
+      "visual_start_seconds": 60.766666666666666,
+      "visual_end_seconds": 64.6,
+      "tail_margin_seconds": 0.06533333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "REVIEWED_CONTINUOUS_SPEECH_VISUAL_ONLY"
+    },
+    {
+      "cut_id": "task4_cut2",
+      "section_id": "task4",
+      "actual_speech_start_sample": 3093536,
+      "actual_speech_end_sample": 3165584,
+      "visual_start_seconds": 64.6,
+      "visual_end_seconds": 66.03333333333333,
+      "tail_margin_seconds": 0.08366666666666667,
+      "speech_start_before_visual_seconds": 0.15133333333333332,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task4_cut3",
+      "section_id": "task4",
+      "actual_speech_start_sample": 3178352,
+      "actual_speech_end_sample": 3339056,
+      "visual_start_seconds": 66.03333333333333,
+      "visual_end_seconds": 69.66666666666667,
+      "tail_margin_seconds": 0.103,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task4_cut4",
+      "section_id": "task4",
+      "actual_speech_start_sample": 3354992,
+      "actual_speech_end_sample": 3489344,
+      "visual_start_seconds": 69.66666666666667,
+      "visual_end_seconds": 72.8,
+      "tail_margin_seconds": 0.10533333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task4_cut5",
+      "section_id": "task4",
+      "actual_speech_start_sample": 3500192,
+      "actual_speech_end_sample": 3674816,
+      "visual_start_seconds": 72.8,
+      "visual_end_seconds": 76.76666666666667,
+      "tail_margin_seconds": 0.208,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task5_cut1",
+      "section_id": "task5",
+      "actual_speech_start_sample": 3792800,
+      "actual_speech_end_sample": 3935120,
+      "visual_start_seconds": 78.76666666666667,
+      "visual_end_seconds": 82.06666666666666,
+      "tail_margin_seconds": 0.085,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task5_cut2",
+      "section_id": "task5",
+      "actual_speech_start_sample": 3943520,
+      "actual_speech_end_sample": 4213520,
+      "visual_start_seconds": 82.06666666666666,
+      "visual_end_seconds": 87.86666666666666,
+      "tail_margin_seconds": 0.085,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task5_cut3",
+      "section_id": "task5",
+      "actual_speech_start_sample": 4224992,
+      "actual_speech_end_sample": 4320704,
+      "visual_start_seconds": 87.86666666666666,
+      "visual_end_seconds": 90.1,
+      "tail_margin_seconds": 0.08533333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task5_cut4",
+      "section_id": "task5",
+      "actual_speech_start_sample": 4334816,
+      "actual_speech_end_sample": 4405424,
+      "visual_start_seconds": 90.1,
+      "visual_end_seconds": 91.86666666666666,
+      "tail_margin_seconds": 0.087,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task5_cut5",
+      "section_id": "task5",
+      "actual_speech_start_sample": 4412240,
+      "actual_speech_end_sample": 4496528,
+      "visual_start_seconds": 91.86666666666666,
+      "visual_end_seconds": 93.9,
+      "tail_margin_seconds": 0.22233333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task7_cut1",
+      "section_id": "task7",
+      "actual_speech_start_sample": 4902576,
+      "actual_speech_end_sample": 5103744,
+      "visual_start_seconds": 101.9,
+      "visual_end_seconds": 106.43333333333334,
+      "tail_margin_seconds": 0.10533333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task7_cut2",
+      "section_id": "task7",
+      "actual_speech_start_sample": 5117616,
+      "actual_speech_end_sample": 5265360,
+      "visual_start_seconds": 106.43333333333334,
+      "visual_end_seconds": 109.8,
+      "tail_margin_seconds": 0.105,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task7_cut3",
+      "section_id": "task7",
+      "actual_speech_start_sample": 5278608,
+      "actual_speech_end_sample": 5433360,
+      "visual_start_seconds": 109.8,
+      "visual_end_seconds": 113.3,
+      "tail_margin_seconds": 0.105,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task7_cut4",
+      "section_id": "task7",
+      "actual_speech_start_sample": 5448336,
+      "actual_speech_end_sample": 5610768,
+      "visual_start_seconds": 113.3,
+      "visual_end_seconds": 117.0,
+      "tail_margin_seconds": 0.109,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task7_cut5",
+      "section_id": "task7",
+      "actual_speech_start_sample": 5626272,
+      "actual_speech_end_sample": 5803344,
+      "visual_start_seconds": 117.0,
+      "visual_end_seconds": 121.13333333333334,
+      "tail_margin_seconds": 0.23033333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task8_cut1",
+      "section_id": "task8",
+      "actual_speech_start_sample": 5920144,
+      "actual_speech_end_sample": 6070672,
+      "visual_start_seconds": 123.13333333333334,
+      "visual_end_seconds": 126.56666666666666,
+      "tail_margin_seconds": 0.09433333333333334,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task8_cut2",
+      "section_id": "task8",
+      "actual_speech_start_sample": 6080512,
+      "actual_speech_end_sample": 6170176,
+      "visual_start_seconds": 126.56666666666666,
+      "visual_end_seconds": 128.63333333333333,
+      "tail_margin_seconds": 0.088,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task8_cut3",
+      "section_id": "task8",
+      "actual_speech_start_sample": 6180592,
+      "actual_speech_end_sample": 6331264,
+      "visual_start_seconds": 128.63333333333333,
+      "visual_end_seconds": 132.0,
+      "tail_margin_seconds": 0.09866666666666667,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task8_cut4",
+      "section_id": "task8",
+      "actual_speech_start_sample": 6343936,
+      "actual_speech_end_sample": 6467392,
+      "visual_start_seconds": 132.0,
+      "visual_end_seconds": 134.83333333333334,
+      "tail_margin_seconds": 0.096,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task8_cut5",
+      "section_id": "task8",
+      "actual_speech_start_sample": 6479104,
+      "actual_speech_end_sample": 6628576,
+      "visual_start_seconds": 134.83333333333334,
+      "visual_end_seconds": 138.3,
+      "tail_margin_seconds": 0.20466666666666666,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task9_cut1",
+      "section_id": "task9",
+      "actual_speech_start_sample": 6745200,
+      "actual_speech_end_sample": 6924816,
+      "visual_start_seconds": 140.3,
+      "visual_end_seconds": 144.36666666666667,
+      "tail_margin_seconds": 0.09966666666666667,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task9_cut2",
+      "section_id": "task9",
+      "actual_speech_start_sample": 6933600,
+      "actual_speech_end_sample": 7027008,
+      "visual_start_seconds": 144.36666666666667,
+      "visual_end_seconds": 146.5,
+      "tail_margin_seconds": 0.104,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task9_cut3",
+      "section_id": "task9",
+      "actual_speech_start_sample": 7036992,
+      "actual_speech_end_sample": 7192752,
+      "visual_start_seconds": 146.5,
+      "visual_end_seconds": 149.93333333333334,
+      "tail_margin_seconds": 0.08433333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task9_cut4",
+      "section_id": "task9",
+      "actual_speech_start_sample": 7204224,
+      "actual_speech_end_sample": 7331376,
+      "visual_start_seconds": 149.93333333333334,
+      "visual_end_seconds": 152.8,
+      "tail_margin_seconds": 0.063,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "REVIEWED_CONTINUOUS_SPEECH_VISUAL_ONLY"
+    },
+    {
+      "cut_id": "task9_cut5",
+      "section_id": "task9",
+      "actual_speech_start_sample": 7330272,
+      "actual_speech_end_sample": 7483248,
+      "visual_start_seconds": 152.8,
+      "visual_end_seconds": 156.13333333333333,
+      "tail_margin_seconds": 0.23233333333333334,
+      "speech_start_before_visual_seconds": 0.086,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task11_cut1",
+      "section_id": "task11",
+      "actual_speech_start_sample": 7887904,
+      "actual_speech_end_sample": 8140960,
+      "visual_start_seconds": 164.13333333333333,
+      "visual_end_seconds": 169.7,
+      "tail_margin_seconds": 0.09666666666666666,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task11_cut2",
+      "section_id": "task11",
+      "actual_speech_start_sample": 8151328,
+      "actual_speech_end_sample": 8280592,
+      "visual_start_seconds": 169.7,
+      "visual_end_seconds": 172.6,
+      "tail_margin_seconds": 0.08766666666666667,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task11_cut3",
+      "section_id": "task11",
+      "actual_speech_start_sample": 8293648,
+      "actual_speech_end_sample": 8487040,
+      "visual_start_seconds": 172.6,
+      "visual_end_seconds": 176.9,
+      "tail_margin_seconds": 0.08666666666666667,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task11_cut4",
+      "section_id": "task11",
+      "actual_speech_start_sample": 8500960,
+      "actual_speech_end_sample": 8702752,
+      "visual_start_seconds": 176.9,
+      "visual_end_seconds": 181.4,
+      "tail_margin_seconds": 0.09266666666666666,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task11_cut5",
+      "section_id": "task11",
+      "actual_speech_start_sample": 8716720,
+      "actual_speech_end_sample": 9025072,
+      "visual_start_seconds": 181.4,
+      "visual_end_seconds": 188.23333333333332,
+      "tail_margin_seconds": 0.211,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task12_cut1",
+      "section_id": "task12",
+      "actual_speech_start_sample": 9142384,
+      "actual_speech_end_sample": 9328240,
+      "visual_start_seconds": 190.23333333333332,
+      "visual_end_seconds": 194.43333333333334,
+      "tail_margin_seconds": 0.095,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task12_cut2",
+      "section_id": "task12",
+      "actual_speech_start_sample": 9342256,
+      "actual_speech_end_sample": 9509776,
+      "visual_start_seconds": 194.43333333333334,
+      "visual_end_seconds": 198.23333333333332,
+      "tail_margin_seconds": 0.113,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task12_cut3",
+      "section_id": "task12",
+      "actual_speech_start_sample": 9524464,
+      "actual_speech_end_sample": 9704752,
+      "visual_start_seconds": 198.23333333333332,
+      "visual_end_seconds": 202.26666666666668,
+      "tail_margin_seconds": 0.08433333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task12_cut4",
+      "section_id": "task12",
+      "actual_speech_start_sample": 9718864,
+      "actual_speech_end_sample": 9895792,
+      "visual_start_seconds": 202.26666666666668,
+      "visual_end_seconds": 206.26666666666668,
+      "tail_margin_seconds": 0.10433333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task12_cut5",
+      "section_id": "task12",
+      "actual_speech_start_sample": 9910384,
+      "actual_speech_end_sample": 10052848,
+      "visual_start_seconds": 206.26666666666668,
+      "visual_end_seconds": 209.66666666666666,
+      "tail_margin_seconds": 0.23233333333333334,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task13_cut1",
+      "section_id": "task13",
+      "actual_speech_start_sample": 10168736,
+      "actual_speech_end_sample": 10344176,
+      "visual_start_seconds": 211.66666666666666,
+      "visual_end_seconds": 215.6,
+      "tail_margin_seconds": 0.09633333333333334,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task13_cut2",
+      "section_id": "task13",
+      "actual_speech_start_sample": 10357808,
+      "actual_speech_end_sample": 10526672,
+      "visual_start_seconds": 215.6,
+      "visual_end_seconds": 219.4,
+      "tail_margin_seconds": 0.09433333333333334,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task13_cut3",
+      "section_id": "task13",
+      "actual_speech_start_sample": 10541120,
+      "actual_speech_end_sample": 10719344,
+      "visual_start_seconds": 219.4,
+      "visual_end_seconds": 223.4,
+      "tail_margin_seconds": 0.08033333333333334,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task13_cut4",
+      "section_id": "task13",
+      "actual_speech_start_sample": 10733456,
+      "actual_speech_end_sample": 10896752,
+      "visual_start_seconds": 223.4,
+      "visual_end_seconds": 227.1,
+      "tail_margin_seconds": 0.08433333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task13_cut5",
+      "section_id": "task13",
+      "actual_speech_start_sample": 10910768,
+      "actual_speech_end_sample": 11047568,
+      "visual_start_seconds": 227.1,
+      "visual_end_seconds": 230.36666666666667,
+      "tail_margin_seconds": 0.209,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task14_cut1",
+      "section_id": "task14",
+      "actual_speech_start_sample": 11164544,
+      "actual_speech_end_sample": 11249360,
+      "visual_start_seconds": 232.36666666666667,
+      "visual_end_seconds": 234.46666666666667,
+      "tail_margin_seconds": 0.105,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task14_cut2",
+      "section_id": "task14",
+      "actual_speech_start_sample": 11262800,
+      "actual_speech_end_sample": 11345792,
+      "visual_start_seconds": 234.46666666666667,
+      "visual_end_seconds": 236.46666666666667,
+      "tail_margin_seconds": 0.096,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task14_cut3",
+      "section_id": "task14",
+      "actual_speech_start_sample": 11361968,
+      "actual_speech_end_sample": 11460272,
+      "visual_start_seconds": 236.46666666666667,
+      "visual_end_seconds": 238.86666666666667,
+      "tail_margin_seconds": 0.111,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task14_cut4",
+      "section_id": "task14",
+      "actual_speech_start_sample": 11472656,
+      "actual_speech_end_sample": 11560784,
+      "visual_start_seconds": 238.86666666666667,
+      "visual_end_seconds": 240.93333333333334,
+      "tail_margin_seconds": 0.08366666666666667,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task14_cut5",
+      "section_id": "task14",
+      "actual_speech_start_sample": 11574848,
+      "actual_speech_end_sample": 11634272,
+      "visual_start_seconds": 240.93333333333334,
+      "visual_end_seconds": 242.6,
+      "tail_margin_seconds": 0.21933333333333332,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task17_cut1",
+      "section_id": "task17",
+      "actual_speech_start_sample": 12038496,
+      "actual_speech_end_sample": 12153840,
+      "visual_start_seconds": 250.6,
+      "visual_end_seconds": 253.3,
+      "tail_margin_seconds": 0.095,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task17_cut2",
+      "section_id": "task17",
+      "actual_speech_start_sample": 12169824,
+      "actual_speech_end_sample": 12352704,
+      "visual_start_seconds": 253.3,
+      "visual_end_seconds": 257.43333333333334,
+      "tail_margin_seconds": 0.08533333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task17_cut3",
+      "section_id": "task17",
+      "actual_speech_start_sample": 12366240,
+      "actual_speech_end_sample": 12553920,
+      "visual_start_seconds": 257.43333333333334,
+      "visual_end_seconds": 261.6333333333333,
+      "tail_margin_seconds": 0.09333333333333334,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task17_cut4",
+      "section_id": "task17",
+      "actual_speech_start_sample": 12567984,
+      "actual_speech_end_sample": 12770640,
+      "visual_start_seconds": 261.6333333333333,
+      "visual_end_seconds": 266.1666666666667,
+      "tail_margin_seconds": 0.11166666666666666,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task17_cut5",
+      "section_id": "task17",
+      "actual_speech_start_sample": 12784992,
+      "actual_speech_end_sample": 12975408,
+      "visual_start_seconds": 266.1666666666667,
+      "visual_end_seconds": 270.53333333333336,
+      "tail_margin_seconds": 0.21233333333333335,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "task16_cut1",
+      "section_id": "task16",
+      "actual_speech_start_sample": 13092400,
+      "actual_speech_end_sample": 13185808,
+      "visual_start_seconds": 272.53333333333336,
+      "visual_end_seconds": 274.8,
+      "tail_margin_seconds": 0.09566666666666666,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task16_cut2",
+      "section_id": "task16",
+      "actual_speech_start_sample": 13194352,
+      "actual_speech_end_sample": 13352512,
+      "visual_start_seconds": 274.8,
+      "visual_end_seconds": 278.26666666666665,
+      "tail_margin_seconds": 0.08933333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task16_cut3",
+      "section_id": "task16",
+      "actual_speech_start_sample": 13366624,
+      "actual_speech_end_sample": 13545328,
+      "visual_start_seconds": 278.26666666666665,
+      "visual_end_seconds": 282.3,
+      "tail_margin_seconds": 0.10566666666666667,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task16_cut4",
+      "section_id": "task16",
+      "actual_speech_start_sample": 13559968,
+      "actual_speech_end_sample": 13723648,
+      "visual_start_seconds": 282.3,
+      "visual_end_seconds": 286.0,
+      "tail_margin_seconds": 0.09066666666666667,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "task16_cut5",
+      "section_id": "task16",
+      "actual_speech_start_sample": 13737232,
+      "actual_speech_end_sample": 13878832,
+      "visual_start_seconds": 286.0,
+      "visual_end_seconds": 289.3666666666667,
+      "tail_margin_seconds": 0.22433333333333333,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PARAGRAPH_PAUSE"
+    },
+    {
+      "cut_id": "ending_cut1",
+      "section_id": "ending",
+      "actual_speech_start_sample": 13901504,
+      "actual_speech_end_sample": 13973120,
+      "visual_start_seconds": 289.3666666666667,
+      "visual_end_seconds": 291.1666666666667,
+      "tail_margin_seconds": 0.06,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "ending_cut2",
+      "section_id": "ending",
+      "actual_speech_start_sample": 13978064,
+      "actual_speech_end_sample": 14093792,
+      "visual_start_seconds": 291.1666666666667,
+      "visual_end_seconds": 293.73333333333335,
+      "tail_margin_seconds": 0.11266666666666666,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "ending_cut3",
+      "section_id": "ending",
+      "actual_speech_start_sample": 14108672,
+      "actual_speech_end_sample": 14264528,
+      "visual_start_seconds": 293.73333333333335,
+      "visual_end_seconds": 297.26666666666665,
+      "tail_margin_seconds": 0.089,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "GENUINE_PHRASE_PAUSE"
+    },
+    {
+      "cut_id": "ending_cut5",
+      "section_id": "ending",
+      "actual_speech_start_sample": 14328176,
+      "actual_speech_end_sample": 14540048,
+      "visual_start_seconds": 298.26666666666665,
+      "visual_end_seconds": 303.1333333333333,
+      "tail_margin_seconds": 0.21566666666666667,
+      "speech_start_before_visual_seconds": 0,
+      "boundary_confidence": "FINAL_TAKE_TAIL"
+    }
+  ],
+  "speech_edit_map_sha256": "111aed3972aade22eaa84359082db2b9cb598049d52470448d4528ddea580c58",
+  "frames": 9214,
+  "duration": 307.1333333333333,
+  "notes": [
+    "Speech PCM is placed directly from the continuous processed take. No new TTS or additional speed change is applied.",
+    "Opening exposure is exactly 4.5 seconds longer; silence is inserted between complete existing sentences.",
+    "Task titles and summaries retain their original durations and all chapter boundaries follow complete phonemes."
+  ]
+}

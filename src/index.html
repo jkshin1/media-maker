@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Smart Process Architecture AI Agent</title>
+<style>
+*{box-sizing:border-box}
+:root{
+  --gold:#e2ad52;--gold2:#f6d79a;--cream:#f5eee2;--mute:#a99c8b;--orange:#ff8a55;
+  --serif:"Didot","Bodoni 72","Times New Roman",serif;
+  --sans:"Helvetica Neue","Apple SD Gothic Neo","Noto Sans CJK KR",sans-serif;
+  --ease:cubic-bezier(.16,.84,.24,1);
+}
+html,body{margin:0;height:100%;background:#000;overflow:hidden}
+#stage{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;background:#060504;
+  font-family:var(--sans);color:var(--cream);transform-origin:0 0;-webkit-font-smoothing:antialiased}
+
+/* ───────── background ───────── */
+.bg{position:absolute;inset:-60px;animation:push 18s linear both;background:
+  radial-gradient(1100px 700px at 72% 38%,rgba(150,96,34,.30),transparent 65%),
+  radial-gradient(900px 620px at 12% 88%,rgba(110,70,26,.24),transparent 65%),
+  radial-gradient(700px 500px at 30% 10%,rgba(80,52,22,.20),transparent 70%),#060504}
+@keyframes push{from{transform:scale(1)}to{transform:scale(1.1)}}
+.grid{position:absolute;inset:0;
+  background-image:linear-gradient(rgba(226,173,82,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(226,173,82,.055) 1px,transparent 1px);
+  background-size:96px 96px;-webkit-mask-image:radial-gradient(ellipse at 50% 50%,#000 15%,transparent 72%)}
+.bk{position:absolute;border-radius:50%;
+  background:radial-gradient(circle,rgba(246,205,130,.9),rgba(226,150,60,.35) 45%,transparent 70%);
+  filter:blur(var(--b));opacity:var(--o);animation:drift var(--fd) ease-in-out var(--dl) infinite alternate}
+@keyframes drift{from{transform:translate(0,0) scale(1)}to{transform:translate(var(--dx),var(--dy)) scale(1.25)}}
+.vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,transparent 52%,rgba(0,0,0,.74) 100%);pointer-events:none}
+.grain{position:absolute;inset:0;opacity:.05;pointer-events:none;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .6 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.fade{position:absolute;inset:0;background:#000;pointer-events:none;animation:fadeOut .7s 0s both,fadeIn .5s 17.4s forwards}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes fadeOut{from{opacity:1}to{opacity:0}}
+
+/* ───────── shared ───────── */
+.scene{position:absolute;inset:0;opacity:0;
+  animation:fadeIn .5s var(--s) both var(--ease),scOut .4s var(--e,99s) forwards cubic-bezier(.6,0,.9,.4)}
+@keyframes scOut{to{opacity:0}}
+.a{animation:var(--an,up) var(--du,.7s) calc(var(--s) + var(--d,0s)) both var(--ease)}
+@keyframes up{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes left{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:scale(.84)}to{opacity:1;transform:none}}
+@keyframes rise{from{opacity:0;transform:translateY(44px) scale(.97)}to{opacity:1;transform:none}}
+@keyframes grow{from{opacity:0;transform:scale(.45)}to{opacity:1;transform:none}}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes vanish{to{opacity:0}}
+
+.gt{font-family:var(--serif);background:linear-gradient(100deg,#fbe9c0,#e2ad52 55%,#b98232);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hd{position:absolute;left:96px;top:60px;display:flex;align-items:center;gap:28px}
+.hd .no{font-family:var(--serif);font-size:78px;line-height:1;color:var(--gold2)}
+.hd .bar{width:1px;height:66px;background:linear-gradient(transparent,var(--gold),transparent)}
+.hd .tt{font-size:42px;font-weight:500;letter-spacing:-.01em}
+.cap{position:absolute;left:96px;bottom:80px;padding-left:28px;font-size:42px;line-height:1.42;font-weight:300}
+.cap::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:2px;background:linear-gradient(var(--gold2),var(--gold))}
+.cap p{margin:0}.cap b{font-weight:500;color:var(--gold2)}
+.brand{position:absolute;right:96px;top:66px;font-family:var(--serif);font-size:24px;color:var(--gold2);opacity:.85;letter-spacing:.02em;
+  animation:fadeInBrand .8s .3s both}
+@keyframes fadeInBrand{from{opacity:0}to{opacity:.85}}
+.prog{position:absolute;right:96px;top:114px;display:flex;gap:8px}
+.prog i{width:64px;height:3px;background:rgba(226,173,82,.18);position:relative;overflow:hidden;border-radius:2px}
+.prog i::after{content:"";position:absolute;inset:0;background:var(--gold2);transform-origin:0 50%;animation:fill var(--len) var(--s) linear both}
+@keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.panel{position:absolute;border:1px solid rgba(226,173,82,.32);border-radius:18px;
+  background:linear-gradient(165deg,rgba(40,31,22,.9),rgba(13,11,9,.92));
+  box-shadow:0 40px 120px rgba(0,0,0,.7),0 0 0 1px rgba(255,255,255,.03) inset,0 0 90px rgba(226,173,82,.10)}
+.ico{flex:none;width:54px;height:54px;border-radius:12px;border:1px solid rgba(226,173,82,.45);display:grid;place-items:center;
+  background:rgba(226,173,82,.08);color:var(--gold2)}
+.ico svg{width:30px;height:30px}
+svg.i{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+
+/* ───────── scene 1 ───────── */
+.win{position:absolute;border:1px solid rgba(226,173,82,.28);border-radius:10px;rotate:var(--r);
+  background:linear-gradient(160deg,rgba(44,35,25,.92),rgba(16,13,10,.92));
+  box-shadow:0 24px 60px rgba(0,0,0,.65),0 0 40px rgba(226,173,82,.05) inset;
+  animation:winIn .8s calc(var(--s) + var(--d)) both var(--ease),float var(--fd) ease-in-out infinite alternate,
+    winOut .5s calc(var(--e) - .15s) forwards cubic-bezier(.6,0,.8,.3)}
+@keyframes winIn{from{opacity:0;scale:.7;translate:var(--ix) var(--iy)}to{opacity:1;scale:1;translate:0 0}}
+@keyframes float{from{transform:translate3d(0,-9px,0)}to{transform:translate3d(var(--fx),11px,0)}}
+@keyframes winOut{to{opacity:0;scale:.12;translate:var(--tx) var(--ty)}}
+.winbar{height:24px;border-bottom:1px solid rgba(226,173,82,.16);display:flex;align-items:center;gap:6px;padding:0 10px}
+.winbar i{width:6px;height:6px;border-radius:50%;background:rgba(226,173,82,.5)}
+.winbody{position:absolute;inset:24px 0 0 0;padding:14px;display:flex;flex-direction:column;gap:9px}
+.ln{flex:none;height:6px;border-radius:3px;background:rgba(245,238,226,.16)}
+.ln.g{background:rgba(226,173,82,.55)}
+.winbody .fillbox{flex:1;min-height:0;display:flex;align-items:flex-end;gap:6px}
+.fillbox b{flex:1;background:linear-gradient(rgba(246,215,154,.75),rgba(226,173,82,.15));border-radius:2px 2px 0 0}
+.trow{display:flex;gap:8px}.trow .ln{flex:1}
+.tag{position:absolute;padding:10px 24px;border:1px solid rgba(246,215,154,.75);background:rgba(12,10,8,.86);
+  font-size:31px;border-radius:4px;white-space:nowrap;box-shadow:0 0 34px rgba(226,173,82,.22),0 12px 30px rgba(0,0,0,.6);
+  animation:winIn .7s calc(var(--s) + var(--d)) both var(--ease),float var(--fd) ease-in-out infinite alternate,
+    winOut .45s calc(var(--e) - .15s) forwards cubic-bezier(.6,0,.8,.3)}
+.trail{position:absolute;inset:0;width:1920px;height:1080px;animation:vanish .3s calc(var(--e) - .25s) forwards}
+.trail path{fill:none;stroke:rgba(246,215,154,.55);stroke-width:1.5;stroke-dasharray:100 100;stroke-dashoffset:100}
+.mag{position:absolute;left:0;top:0;width:96px;height:96px;margin:-40px 0 0 -40px;offset-rotate:0deg;color:var(--gold2);
+  filter:drop-shadow(0 0 16px rgba(246,215,154,.9));animation:fadeIn .3s calc(var(--s) + .35s) both,vanish .3s calc(var(--e) - .25s) forwards}
+.mag svg{width:96px;height:96px;stroke-width:1.3}
+.burst{position:absolute;left:960px;top:500px;width:900px;height:900px;margin:-450px 0 0 -450px;border-radius:50%;opacity:0;
+  background:radial-gradient(circle,rgba(255,236,190,.95),rgba(226,173,82,.5) 22%,transparent 62%);
+  animation:burst .75s 2.72s both ease-out}
+@keyframes burst{0%{opacity:0;transform:scale(.05)}35%{opacity:.95}100%{opacity:0;transform:scale(1.5)}}
+
+/* ───────── scene 2 ───────── */
+#s2 .panel{left:420px;top:214px;width:1080px;height:548px}
+.pbar{height:46px;border-bottom:1px solid rgba(226,173,82,.16);display:flex;align-items:center;gap:8px;padding:0 20px}
+.pbar i{width:9px;height:9px;border-radius:50%;background:rgba(226,173,82,.5)}
+.pbar span{margin-left:auto;font-size:17px;letter-spacing:.18em;color:var(--mute)}
+#s2 .ptitle{margin:40px 0 0;text-align:center;font-size:54px;line-height:1.2}
+.ask{margin:36px 70px 0;height:94px;border:1px solid rgba(246,215,154,.5);border-radius:14px;background:rgba(0,0,0,.35);
+  display:flex;align-items:center;gap:20px;padding:0 18px 0 22px;font-size:33px;box-shadow:0 0 40px rgba(226,173,82,.10) inset}
+.ask .av{flex:none;width:52px;height:52px;border-radius:50%;border:1px solid rgba(226,173,82,.6);display:grid;place-items:center;color:var(--gold2)}
+.ask .av svg{width:30px;height:30px}
+.ask .q{flex:1;white-space:nowrap}
+.caret{display:inline-block;width:2px;height:36px;background:var(--gold2);vertical-align:-6px;margin-left:4px;animation:blink .7s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.send{flex:none;width:60px;height:60px;border-radius:10px;background:linear-gradient(140deg,#f6d79a,#d99a3a);display:grid;place-items:center;color:#1b1309;
+  animation:sendPulse .9s calc(var(--s) + 2.1s) both}
+.send svg{width:30px;height:30px;stroke-width:2}
+@keyframes sendPulse{0%{box-shadow:0 0 0 0 rgba(246,215,154,.8)}100%{box-shadow:0 0 0 26px rgba(246,215,154,0)}}
+.btns{margin:26px 70px 0;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.btn{position:relative;height:88px;border:1px solid rgba(226,173,82,.3);border-radius:12px;background:rgba(255,255,255,.03);
+  display:flex;align-items:center;gap:18px;padding:0 20px;font-size:30px;overflow:hidden}
+.btn .ico{width:50px;height:50px}
+.hl{position:absolute;inset:0;border-radius:inherit;border:1px solid var(--gold2);background:rgba(226,173,82,.16);
+  box-shadow:0 0 40px rgba(226,173,82,.35) inset;opacity:0;animation:fadeIn .45s calc(var(--s) + var(--d)) both}
+
+/* ───────── scene 3 ───────── */
+.orb{position:absolute;left:960px;top:250px;width:0;height:0}
+.orb .core{position:absolute;left:-58px;top:-58px;width:116px;height:116px;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,#fdeec9,#e2ad52 42%,#7a521c 100%);
+  box-shadow:0 0 60px rgba(226,173,82,.75),0 0 150px rgba(226,173,82,.4);
+  display:grid;place-items:center;font-family:var(--serif);font-size:42px;color:#1a1208}
+.ring{position:absolute;left:-80px;top:-80px;width:160px;height:160px;border-radius:50%;
+  border:1px solid rgba(246,215,154,.6);border-left-color:transparent;border-right-color:transparent;animation:spin 6s linear infinite}
+.ring.r2{left:-98px;top:-98px;width:196px;height:196px;border-style:dashed;opacity:.45;animation-duration:11s;animation-direction:reverse}
+.pulse{position:absolute;left:-58px;top:-58px;width:116px;height:116px;border-radius:50%;border:1px solid var(--gold2);
+  animation:pulse 1.6s ease-out infinite}
+@keyframes pulse{from{transform:scale(1);opacity:.8}to{transform:scale(2.3);opacity:0}}
+.reco{position:absolute;left:1094px;top:220px;font-size:46px;line-height:1.3;white-space:nowrap}
+.wires{position:absolute;inset:0;width:1920px;height:1080px;overflow:visible}
+.wires path{fill:none;stroke:url(#wg);stroke-width:2;stroke-dasharray:1;stroke-dashoffset:1;
+  filter:drop-shadow(0 0 6px rgba(246,215,154,.8));animation:draw .7s calc(var(--s) + var(--d)) both var(--ease)}
+.dot{position:absolute;left:0;top:0;width:8px;height:8px;margin:-4px 0 0 -4px;border-radius:50%;background:#fff3d1;
+  box-shadow:0 0 12px 3px rgba(246,215,154,.9);offset-rotate:0deg;animation:flow 1.5s var(--dl) linear infinite}
+@keyframes flow{0%{offset-distance:0%;opacity:0}12%{opacity:1}88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.cards{position:absolute;left:96px;top:410px;width:1728px;display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.card{height:400px;padding:30px 32px;border:1px solid rgba(226,173,82,.3);border-radius:16px;
+  background:linear-gradient(170deg,rgba(42,33,23,.9),rgba(14,12,10,.92));
+  box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 60px rgba(226,173,82,.07)}
+.card h3{margin:0;display:flex;align-items:center;gap:16px;font-size:28px;font-weight:500;color:var(--gold2);white-space:nowrap}
+.rule{height:1px;background:linear-gradient(90deg,rgba(226,173,82,.55),transparent);margin:22px 0 18px}
+.card ul{margin:0;padding:0}
+.card li{list-style:none;font-size:27px;font-weight:300;padding:14px 0 14px 26px;position:relative;white-space:nowrap}
+.card li::before{content:"";position:absolute;left:2px;top:28px;width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.pr{display:flex;justify-content:space-between;align-items:center;font-size:26px;padding:15px 16px;margin-bottom:13px;
+  border:1px solid rgba(226,173,82,.2);border-radius:10px;background:rgba(0,0,0,.28)}
+.pr span:last-child{color:var(--gold2)}
+.goal{font-size:32px;font-weight:400;white-space:nowrap}
+.trench{display:block;margin-top:30px;width:100%;height:160px}
+.trench path{fill:none;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.1s calc(var(--s) + var(--d)) both ease-in-out}
+
+/* ───────── scene 4 ───────── */
+.dash{left:96px;top:196px;width:1728px;height:612px;padding:28px 40px 0}
+.dh{font-size:42px;line-height:1.25}
+.dg{display:grid;grid-template-columns:410px 1fr 420px;gap:40px;margin-top:22px}
+.wmap{position:relative;width:400px;height:400px;margin:0 auto}
+.wmap svg{width:400px;height:400px}
+.wmap rect{animation:fadeIn .45s calc(var(--s) + var(--d)) both}
+.sweep{position:absolute;inset:8px;border-radius:50%;
+  background:conic-gradient(from 0deg,transparent 0deg,transparent 290deg,rgba(246,215,154,.5) 360deg);
+  animation:spin 1.3s calc(var(--s) + .3s) linear both,vanish .35s calc(var(--s) + 1.45s) forwards}
+.lg{display:flex;justify-content:center;gap:34px;margin-top:20px;font-size:22px;color:var(--mute)}
+.lg i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:10px;vertical-align:-1px;background:#d9a54b}
+.lg i.r{background:var(--orange)}
+.chart{height:215px;border:1px solid rgba(226,173,82,.18);border-radius:12px;background:rgba(0,0,0,.28);overflow:hidden}
+.chart svg{width:100%;height:100%}
+.chart .ln1{fill:none;stroke:#f6d79a;stroke-width:3;stroke-dasharray:1;stroke-dashoffset:1;filter:drop-shadow(0 0 8px rgba(246,215,154,.7));
+  animation:draw 1.3s calc(var(--s) + .55s) both ease-in-out}
+.chart .ln2{fill:none;stroke:rgba(245,238,226,.4);stroke-width:1.5;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.3s calc(var(--s) + .7s) both ease-in-out}
+.chart .ar{fill:url(#ag);animation:fadeIn .9s calc(var(--s) + 1.3s) both}
+.chart circle{animation:fadeIn .3s calc(var(--s) + var(--d)) both}
+.tbl{margin-top:22px}
+.tr{position:relative;display:grid;grid-template-columns:1.3fr 1fr 1fr;align-items:center;height:56px;padding:0 24px;font-size:26px;
+  border-bottom:1px solid rgba(226,173,82,.14)}
+.tr.th{height:44px;font-size:21px;color:var(--mute);letter-spacing:.08em;border-bottom-color:rgba(226,173,82,.4)}
+.tr span{position:relative}
+.good{color:var(--gold2)}.rev{color:var(--orange)}
+.tr .glow{position:absolute;inset:0;border-radius:8px;border:1px solid rgba(246,215,154,.8);background:rgba(226,173,82,.14);
+  box-shadow:0 0 36px rgba(226,173,82,.3);opacity:0;animation:fadeIn .5s calc(var(--s) + 2.25s) both}
+.badge{display:inline-block;padding:3px 16px;border-radius:20px;font-weight:600;font-size:23px;color:#1b1309;
+  background:linear-gradient(140deg,#f6d79a,#d99a3a);animation:badge .6s calc(var(--s) + 2.3s) both var(--ease)}
+@keyframes badge{0%{transform:scale(.5);opacity:0}60%{transform:scale(1.18);opacity:1}100%{transform:none;opacity:1}}
+.icol{border:1px solid rgba(226,173,82,.22);border-radius:14px;background:rgba(0,0,0,.28);padding:26px 28px;height:470px}
+.icol h4{margin:0 0 8px;font-size:34px;font-weight:400;line-height:1.3}
+.ins{display:flex;gap:18px;align-items:flex-start;padding:44px 0 0}
+.ins .ck{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--gold2);display:grid;place-items:center;color:var(--gold2);
+  background:rgba(226,173,82,.12)}
+.ins .ck svg{width:24px;height:24px;stroke-width:2.2}
+.ins .ck path{stroke-dasharray:1;stroke-dashoffset:1;animation:draw .4s calc(var(--s) + var(--d) + .25s) both ease-out}
+.ins div{flex:1;font-size:29px;line-height:40px}
+.ins u{display:block;height:5px;border-radius:3px;margin-top:16px;background:rgba(226,173,82,.16);position:relative;overflow:hidden}
+.ins u::after{content:"";position:absolute;inset:0;width:var(--w);border-radius:3px;background:linear-gradient(90deg,#b98232,#f6d79a);
+  transform-origin:0 50%;animation:fill .9s calc(var(--s) + var(--d) + .2s) both var(--ease)}
+
+/* ───────── scene 5 ───────── */
+.w3d{position:absolute;left:780px;top:220px;width:920px;height:920px;transform:perspective(2000px) rotateX(67deg)}
+.rim{position:absolute;inset:-6px;border-radius:50%;background:#2a1d0d;transform:translateZ(-16px);
+  box-shadow:0 0 0 3px rgba(226,173,82,.55),0 0 160px 30px rgba(226,150,60,.45)}
+.disc{position:absolute;inset:0;border-radius:50%;overflow:hidden;
+  background:radial-gradient(circle,rgba(255,226,160,.55),rgba(170,112,42,.30) 32%,rgba(32,23,14,.96) 78%);
+  box-shadow:0 0 0 2px rgba(246,215,154,.7)}
+.disc svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 90s linear infinite}
+.disc rect.tw{animation:tw var(--fd) ease-in-out var(--dl) infinite alternate}
+@keyframes tw{from{fill-opacity:.08}to{fill-opacity:.85}}
+.scan{position:absolute;inset:0;background:linear-gradient(100deg,transparent 40%,rgba(255,240,205,.5) 50%,transparent 60%);
+  animation:scan 3.2s calc(var(--s) + .4s) ease-in-out both}
+@keyframes scan{from{transform:translateX(-70%)}to{transform:translateX(70%)}}
+.tool{position:absolute;left:1240px;top:0;width:0;height:0;filter:brightness(.8)}
+.tool div{position:absolute;border-radius:0 0 6px 6px;
+  background:repeating-linear-gradient(180deg,transparent 0 22px,rgba(0,0,0,.35) 22px 24px),
+    linear-gradient(90deg,#0c0a08 0%,#2a2118 12%,#8a6a3c 30%,#f1d59b 46%,#b98c4b 54%,#3a2d1e 74%,#0c0a08 100%);
+  box-shadow:0 10px 30px rgba(0,0,0,.7)}
+.t1{left:-150px;top:-10px;width:300px;height:176px}
+.t2{left:-104px;top:166px;width:208px;height:44px}
+.t3{left:-58px;top:210px;width:116px;height:66px}
+.t4{left:-28px;top:276px;width:56px;height:40px}
+.beam{position:absolute;left:1240px;top:316px;width:22px;height:372px;margin-left:-11px;border-radius:11px;
+  background:linear-gradient(#fff6dc,rgba(255,226,160,.85));filter:blur(5px);transform-origin:50% 0;
+  animation:beamIn .5s calc(var(--s) + .35s) both ease-out,flick .13s steps(2) infinite alternate}
+.beam.soft{width:170px;margin-left:-85px;filter:blur(38px);opacity:.4;background:linear-gradient(rgba(255,226,160,.5),rgba(255,200,110,.9))}
+@keyframes beamIn{from{scale:1 0}to{scale:1 1}}
+@keyframes flick{from{opacity:.82}to{opacity:1}}
+.beam.soft{animation:beamIn .5s calc(var(--s) + .35s) both ease-out}
+.impact{position:absolute;left:1240px;top:684px;width:640px;height:230px;margin:-115px 0 0 -320px;border-radius:50%;
+  background:radial-gradient(ellipse,rgba(255,244,214,.95),rgba(246,190,100,.5) 30%,transparent 68%);filter:blur(14px);
+  animation:grow .6s calc(var(--s) + .7s) both ease-out,glow 1.1s ease-in-out infinite alternate}
+@keyframes glow{from{opacity:.75}to{opacity:1}}
+.sparks{position:absolute;left:1240px;top:676px;width:0;height:0;animation:fadeIn .5s calc(var(--s) + .8s) both}
+.sp{position:absolute;width:var(--z);height:var(--z);border-radius:50%;background:#ffe9b8;box-shadow:0 0 10px 2px rgba(246,205,130,.9);
+  animation:spark var(--fd) var(--dl) ease-out infinite}
+@keyframes spark{0%{opacity:0;transform:translate(var(--x0),0)}12%{opacity:1}100%{opacity:0;transform:translate(var(--x1),var(--y1))}}
+.final{position:absolute;left:96px;top:392px;font-size:54px;font-weight:300;line-height:1.5;white-space:nowrap}
+.final p{margin:0}.final b{font-weight:500;color:var(--gold2)}
+.lock{position:absolute;left:96px;top:712px}
+.lock .l{width:96px;height:2px;background:linear-gradient(90deg,var(--gold2),transparent);transform-origin:0 50%}
+.lock .t{margin-top:26px;font-size:38px;white-space:nowrap}
+.lock .c{margin-top:12px;font-size:25px;color:var(--mute);letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="bg"><div class="grid"></div><div id="bokeh"></div></div>
+  <div class="vig"></div>
+
+  <!-- 1 ─ 흩어진 정보, 반복되는 탐색 -->
+  <section class="scene" id="s1" style="--s:0s;--e:2.7s">
+    <div class="hd a" style="--an:left;--d:.15s"><span class="no">01</span><span class="bar"></span><span class="tt">흩어진 정보, 반복되는 탐색</span></div>
+    <div id="field"></div>
+    <svg class="trail" viewBox="0 0 1920 1080"><path id="trail" pathLength="100"/></svg>
+    <div class="mag" id="mag"><svg class="i" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="M15.2 15.2 21 21"/></svg></div>
+    <div class="cap a" style="--an:fadeIn;--d:.3s"><p class="a" style="--d:.35s">여러 시스템과 문서에 흩어진</p><p class="a" style="--d:.5s"><b>공정 지식</b>과 <b>평가 자료</b></p></div>
+  </section>
+  <div class="burst"></div>
+
+  <!-- 2 ─ AI Agent와의 대화로 시작 -->
+  <section class="scene" id="s2" style="--s:2.95s;--e:5.7s">
+    <div class="hd a" style="--an:left;--d:.15s"><span class="no">02</span><span class="bar"></span><span class="tt">AI Agent와의 대화로 시작</span></div>
+    <div class="panel a" style="--an:grow;--d:0s;--du:.75s">
+      <div class="pbar"><i></i><i></i><i></i><span>AI AGENT</span></div>
+      <h2 class="ptitle gt a" style="--d:.3s">Smart Process Architecture AI Agent</h2>
+      <div class="ask a" style="--d:.42s">
+        <span class="av"><svg class="i" data-i="user"></svg></span>
+        <span class="q"><span id="ask"></span><span class="caret"></span></span>
+        <span class="send"><svg class="i" data-i="arrow"></svg></span>
+      </div>
+      <div class="btns">
+        <div class="btn a" style="--an:pop;--d:1.25s;--du:.5s"><i class="hl" style="--d:2.15s"></i><span class="ico"><svg class="i" data-i="target"></svg></span>평가 목적 구체화</div>
+        <div class="btn a" style="--an:pop;--d:1.37s;--du:.5s"><span class="ico"><svg class="i" data-i="plan"></svg></span>Plan / Recipe 추천</div>
+        <div class="btn a" style="--an:pop;--d:1.49s;--du:.5s"><span class="ico"><svg class="i" data-i="link"></svg></span>근거자료 연결</div>
+        <div class="btn a" style="--an:pop;--d:1.61s;--du:.5s"><span class="ico"><svg class="i" data-i="warn"></svg></span>과거 실패 사례 분석</div>
+      </div>
+    </div>
+    <div class="cap a" style="--an:fadeIn;--d:.3s"><p class="a" style="--d:.35s">AI Agent와의 <b>자연어 대화</b>로</p><p class="a" style="--d:.5s">평가 목적을 구체화</p></div>
+  </section>
+
+  <!-- 3 ─ 맞춤형 정보 제안 -->
+  <section class="scene" id="s3" style="--s:5.95s;--e:9.7s">
+    <div class="hd a" style="--an:left;--d:.15s"><span class="no">03</span><span class="bar"></span><span class="tt">맞춤형 정보 제안</span></div>
+    <svg class="wires" viewBox="0 0 1920 1080" id="wires">
+      <defs><linearGradient id="wg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3d1"/><stop offset="1" stop-color="#e2ad52"/></linearGradient></defs>
+    </svg>
+    <div id="dots"></div>
+    <div class="orb a" style="--an:grow;--d:.1s">
+      <div class="ring"></div><div class="ring r2"></div><div class="pulse"></div><div class="core">AI</div>
+    </div>
+    <div class="reco gt a" style="--an:left;--d:.3s">AI Recommendation</div>
+    <div class="cards">
+      <div class="card a" style="--an:rise;--d:.75s">
+        <h3><span class="ico"><svg class="i" data-i="target"></svg></span>평가 목적</h3><div class="rule"></div>
+        <div class="goal a" style="--d:1s">Etch Profile 최적화</div>
+        <svg class="trench" viewBox="0 0 347 150">
+          <path pathLength="1" style="--d:1.15s" stroke="rgba(245,238,226,.35)" stroke-width="1.5" stroke-dasharray="1" d="M4 34H86V132H136V34H210V132H260V34H343"/>
+          <path pathLength="1" style="--d:1.45s" stroke="#f6d79a" stroke-width="3" d="M4 34H80C90 34 88 60 92 132H130C134 60 132 34 142 34H204C214 34 212 60 216 132H254C258 60 256 34 266 34H343"/>
+        </svg>
+      </div>
+      <div class="card a" style="--an:rise;--d:1.15s">
+        <h3><span class="ico"><svg class="i" data-i="plan"></svg></span>추천 Plan / Recipe</h3><div class="rule"></div>
+        <div class="pr a" style="--an:left;--d:1.4s"><span>Plan A</span><span>Recipe_001</span></div>
+        <div class="pr a" style="--an:left;--d:1.55s"><span>Plan B</span><span>Recipe_017</span></div>
+        <div class="pr a" style="--an:left;--d:1.7s"><span>Plan C</span><span>Recipe_023</span></div>
+      </div>
+      <div class="card a" style="--an:rise;--d:1.55s">
+        <h3><span class="ico"><svg class="i" data-i="folder"></svg></span>근거자료</h3><div class="rule"></div>
+        <ul><li class="a" style="--an:left;--d:1.8s">유사 공정 조건</li><li class="a" style="--an:left;--d:1.95s">평가 결과 데이터</li><li class="a" style="--an:left;--d:2.1s">관련 논문 및 기술문서</li></ul>
+      </div>
+      <div class="card a" style="--an:rise;--d:1.95s">
+        <h3><span class="ico"><svg class="i" data-i="warn"></svg></span>과거 실패 사례</h3><div class="rule"></div>
+        <ul><li class="a" style="--an:left;--d:2.2s">실패 원인 분석</li><li class="a" style="--an:left;--d:2.35s">주의사항</li><li class="a" style="--an:left;--d:2.5s">대체 조건 제안</li></ul>
+      </div>
+    </div>
+    <div class="cap a" style="--an:fadeIn;--d:.3s"><p class="a" style="--d:.35s"><b>Plan, Recipe, 근거자료</b>와</p><p class="a" style="--d:.5s"><b>과거 실패 사례</b>까지 통합 제안</p></div>
+  </section>
+
+  <!-- 4 ─ 평가 의사결정 지원 -->
+  <section class="scene" id="s4" style="--s:9.95s;--e:13.7s">
+    <div class="hd a" style="--an:left;--d:.15s"><span class="no">04</span><span class="bar"></span><span class="tt">평가 의사결정 지원</span></div>
+    <div class="panel dash a" style="--an:rise;--d:.05s">
+      <div class="dh gt">Evaluation Result</div>
+      <div class="dg">
+        <div>
+          <div class="wmap"><svg id="wmap" viewBox="0 0 400 400"></svg><div class="sweep"></div></div>
+          <div class="lg a" style="--an:fadeIn;--d:1.2s"><span><i></i>Good</span><span><i class="r"></i>Review</span></div>
+        </div>
+        <div>
+          <div class="chart"><svg id="chart" viewBox="0 0 738 215" preserveAspectRatio="none"></svg></div>
+          <div class="tbl">
+            <div class="tr th a" style="--an:fadeIn;--d:.85s"><span>조건</span><span>결과</span><span>비고</span></div>
+            <div class="tr a" style="--d:1.05s"><span>Recipe_001</span><span class="good">Good</span><span>–</span></div>
+            <div class="tr a" style="--d:1.25s"><i class="glow"></i><span>Recipe_017</span><span class="good">Good</span><span><b class="badge">추천</b></span></div>
+            <div class="tr a" style="--d:1.45s"><span>Recipe_023</span><span class="rev">Review</span><span>추가 검토</span></div>
+          </div>
+        </div>
+        <div class="icol a" style="--an:left;--d:.6s">
+          <h4 class="gt">Process Insight</h4>
+          <div class="ins a" style="--d:1.5s"><span class="ck"><svg class="i" viewBox="0 0 24 24"><path pathLength="1" style="--d:1.5s" d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><div>주요 인사이트<u style="--w:86%;--d:1.5s"></u></div></div>
+          <div class="ins a" style="--d:1.95s"><span class="ck"><svg class="i" viewBox="0 0 24 24"><path pathLength="1" style="--d:1.95s" d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><div>최적 조건 탐색<u style="--w:68%;--d:1.95s"></u></div></div>
+          <div class="ins a" style="--d:2.4s"><span class="ck"><svg class="i" viewBox="0 0 24 24"><path pathLength="1" style="--d:2.4s" d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><div>추가 평가 제안<u style="--w:52%;--d:2.4s"></u></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="cap a" style="--an:fadeIn;--d:.3s"><p class="a" style="--d:.35s">분석 결과를 바탕으로</p><p class="a" style="--d:.5s"><b>더 빠르고 정확한 의사결정</b></p></div>
+  </section>
+
+  <!-- 5 ─ 더 효율적인 공정 평가 -->
+  <section class="scene" id="s5" style="--s:13.95s">
+    <div class="w3d a" style="--an:fadeIn;--du:1.1s;--d:.05s"><div class="rim"></div><div class="disc"><svg id="hero" viewBox="0 0 920 920"></svg><div class="scan"></div></div></div>
+    <div class="beam soft"></div><div class="impact"></div><div class="beam"></div>
+    <div class="sparks" id="sparks"></div>
+    <div class="tool a" style="--an:fadeIn;--du:.9s;--d:.1s"><div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div></div>
+    <div class="hd a" style="--an:left;--d:.15s"><span class="no">05</span><span class="bar"></span><span class="tt">더 효율적인 공정 평가</span></div>
+    <div class="final">
+      <p class="a" style="--d:.55s">AI와 연결된 공정 지식으로</p>
+      <p class="a" style="--d:.85s"><b>더 나은 공정 평가</b>를</p>
+      <p class="a" style="--d:1.15s">실현합니다.</p>
+    </div>
+    <div class="lock">
+      <div class="l a" style="--an:fill;--d:2.2s"></div>
+      <div class="t gt a" style="--d:2.3s">Smart Process Architecture AI Agent</div>
+      <div class="c a" style="--d:2.5s">Plug Etch&nbsp;&nbsp;·&nbsp;&nbsp;권혜선 TL</div>
+    </div>
+  </section>
+
+  <div class="brand">Smart Process Architecture AI Agent</div>
+  <div class="prog">
+    <i style="--s:0s;--len:3s"></i><i style="--s:3s;--len:3s"></i><i style="--s:6s;--len:4s"></i><i style="--s:10s;--len:4s"></i><i style="--s:14s;--len:3.6s"></i>
+  </div>
+
+  <div class="grain"></div><div class="fade"></div>
+</div>
+
+<script>
+const $=(s,r=document)=>r.querySelector(s);
+const NS='http://www.w3.org/2000/svg';
+const el=(tag,cls,css)=>{const d=document.createElement(tag);if(cls)d.className=cls;if(css)d.style.cssText=css;return d};
+const sv=(tag,attrs)=>{const n=document.createElementNS(NS,tag);for(const k in attrs)n.setAttribute(k,attrs[k]);return n};
+// seeded PRNG so every render is identical
+let seed=20261013;
+const R=()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296};
+const rnd=(a,b)=>a+(b-a)*R();
+
+/* icons */
+const ICON={
+  target:'<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>',
+  plan:'<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/>',
+  folder:'<path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>',
+  warn:'<path d="M12 3 2.5 20h19z"/><path d="M12 10v5"/><circle cx="12" cy="17.4" r=".6" fill="currentColor"/>',
+  user:'<circle cx="12" cy="8.5" r="3.5"/><path d="M4.5 20c1.2-4 4-5.5 7.5-5.5s6.3 1.5 7.5 5.5"/>',
+  arrow:'<path d="M5 12h14M13 6l6 6-6 6"/>',
+  link:'<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>'
+};
+document.querySelectorAll('svg[data-i]').forEach(s=>{s.setAttribute('viewBox','0 0 24 24');s.innerHTML=ICON[s.dataset.i]});
+
+/* background bokeh */
+for(let i=0;i<18;i++){const z=rnd(90,340);
+  $('#bokeh').appendChild(el('div','bk',`left:${rnd(-100,1900)}px;top:${rnd(-100,1000)}px;width:${z}px;height:${z}px;--b:${rnd(18,46)}px;--o:${rnd(.04,.16)};--fd:${rnd(7,15)}s;--dl:${-rnd(0,10)}s;--dx:${rnd(-140,140)}px;--dy:${rnd(-90,90)}px`))}
+
+/* scene 1: scattered windows */
+const spark=()=>{let v=25,p=[];for(let i=0;i<14;i++){v=Math.max(8,Math.min(44,v+rnd(-12,12)));p.push(`${(i/13*100).toFixed(1)},${v.toFixed(1)}`)}
+  return `<div class="fillbox"><svg viewBox="0 0 100 50" preserveAspectRatio="none" style="width:100%;height:100%"><polygon points="0,50 ${p.join(' ')} 100,50" fill="rgba(226,173,82,.14)"/><polyline points="${p.join(' ')}" fill="none" stroke="#f0c777" stroke-width="2" vector-effect="non-scaling-stroke"/></svg></div>`};
+const bars=()=>`<div class="fillbox">${Array.from({length:9},()=>`<b style="height:${rnd(20,100)|0}%"></b>`).join('')}</div>`;
+const table=n=>Array.from({length:n},(_,i)=>`<div class="trow"><div class="ln${i?'':' g'}"></div><div class="ln${i?'':' g'}"></div><div class="ln${i?'':' g'}" style="flex:.6"></div></div>`).join('');
+const doc=n=>Array.from({length:n},()=>`<div class="ln" style="width:${rnd(45,100)|0}%"></div>`).join('');
+const WINS=[[250,210,300,190,-5,'spark'],[600,170,260,170,3,'table'],[930,205,330,215,-2,'doc'],[1330,180,300,190,5,'bars'],
+  [380,470,280,180,4,'doc'],[760,440,360,230,-3,'spark'],[1210,470,300,200,2,'table'],[1540,415,260,170,-6,'doc'],
+  [600,680,260,150,-4,'bars'],[1010,700,280,140,5,'table']];
+const field=$('#field');
+const winEls=WINS.map(([x,y,w,h,r,type],i)=>{
+  const d=el('div','win',`left:${x}px;top:${y}px;width:${w}px;height:${h}px;--r:${r}deg;--d:${(.05+i*.06).toFixed(2)}s;--ix:${rnd(-160,160)|0}px;--iy:${rnd(-110,110)|0}px;--fx:${rnd(-14,14)|0}px;--fd:${rnd(1.6,2.8).toFixed(2)}s;--tx:${960-(x+w/2)}px;--ty:${500-(y+h/2)}px`);
+  const rows=Math.max(3,Math.floor((h-70)/15));
+  d.innerHTML=`<div class="winbar"><i></i><i></i><i></i></div><div class="winbody"><div class="ln g" style="width:${rnd(30,55)|0}%"></div>${type==='spark'?spark():type==='bars'?bars():type==='table'?table(rows):doc(rows)}</div>`;
+  field.appendChild(d);return d});
+[['평가 자료',300,176,-3],['공정 지식',1440,150,4],['Plan / Recipe',1262,440,-2],['과거 실패 사례',650,650,3]].forEach(([t,x,y,r],i)=>{
+  const d=el('div','tag',`left:${x}px;top:${y}px;--r:${r}deg;--d:${(.5+i*.12).toFixed(2)}s;--ix:0px;--iy:26px;--fx:${rnd(-10,10)|0}px;--fd:${rnd(1.8,2.6).toFixed(2)}s;--tx:${960-x-90}px;--ty:${500-y-28}px`);
+  d.textContent=t;field.appendChild(d)});
+// the searching lens darts from window to window
+const HOPS=[0,2,1,3,5,4,6,8];
+const V=HOPS.map(i=>{const [x,y,w,h]=WINS[i];return [x+w/2,y+h/2+12]});
+const dPath='M'+V.map(v=>v.join(' ')).join(' L');
+const cum=[0];for(let i=1;i<V.length;i++)cum.push(cum[i-1]+Math.hypot(V[i][0]-V[i-1][0],V[i][1]-V[i-1][1]));
+const pct=cum.map(c=>c/cum.at(-1)*100),HOP_E='cubic-bezier(.7,0,.2,1)',HOP_T={duration:2050,delay:500,fill:'both'};
+$('#trail').setAttribute('d',dPath);$('#mag').style.offsetPath=`path("${dPath}")`;
+$('#mag').animate(pct.map(p=>({offsetDistance:p+'%',easing:HOP_E})),HOP_T);
+$('#trail').animate(pct.map(p=>({strokeDashoffset:100-p,easing:HOP_E})),HOP_T);
+HOPS.forEach((w,i)=>winEls[w].animate([{borderColor:'rgba(226,173,82,.28)'},{borderColor:'#f6d79a',boxShadow:'0 24px 60px rgba(0,0,0,.65),0 0 46px rgba(246,215,154,.55)'},{borderColor:'rgba(226,173,82,.28)'}],
+  {duration:520,delay:HOP_T.delay+HOP_T.duration*i/(HOPS.length-1)-120,fill:'none'}));
+
+/* scene 3: wires from the AI core to each card */
+[301.5,740.5,1179.5,1618.5].forEach((x,i)=>{
+  const d=`M960 312C960 372 ${x} 346 ${x} 408`;
+  const p=sv('path',{d,pathLength:1});p.style.setProperty('--d',(.45+i*.4)+'s');$('#wires').appendChild(p);
+  const grp=el('div','a',`--an:fadeIn;--du:.4s;--d:${(1.05+i*.4).toFixed(2)}s`);$('#dots').appendChild(grp);
+  for(let k=0;k<2;k++)grp.appendChild(el('div','dot',`offset-path:path("${d}");--dl:${(-k*.75-i*.2).toFixed(2)}s`));
+});
+
+/* scene 4: wafer map + trend chart */
+(()=>{const g=$('#wmap'),C=200,RAD=186,P=15.5;
+  g.appendChild(sv('circle',{cx:C,cy:C,r:RAD+6,fill:'rgba(0,0,0,.35)',stroke:'rgba(246,215,154,.55)','stroke-width':1.5}));
+  for(let y=C-RAD;y<C+RAD;y+=P)for(let x=C-RAD;x<C+RAD;x+=P){
+    const cx=x+P/2,cy=y+P/2,r=Math.hypot(cx-C,cy-C)/RAD;if(r>.97)continue;
+    const ang=Math.atan2(cy-C,cx-C),hot=r>.62&&ang>.1&&ang<1.25; // review cluster, lower right
+    const v=R();let fill='#c2913d',op=.42+v*.22;
+    if(hot&&v<.72||r>.86&&v<.3){fill='#ff8a55';op=.9}else if(v>.9-r*.1){fill='#f6d79a';op=.85}
+    const rc=sv('rect',{x:x+1.2,y:y+1.2,width:P-2.4,height:P-2.4,rx:1.5,fill,'fill-opacity':op});
+    rc.style.setProperty('--d',(.3+r*.95).toFixed(2)+'s');g.appendChild(rc)}
+  g.appendChild(sv('path',{d:`M${C-9} ${C+RAD+6}L${C} ${C+RAD-4}L${C+9} ${C+RAD+6}`,fill:'#0b0907',stroke:'rgba(246,215,154,.55)','stroke-width':1.5}));
+})();
+(()=>{const c=$('#chart'),W=738,H=215,f=x=>120-70*x-22*Math.sin(x*7.5)-10*Math.sin(x*17+1),h=x=>150-38*x-14*Math.sin(x*5+2);
+  const pts=fn=>Array.from({length:81},(_,i)=>`${(20+i/80*(W-40)).toFixed(1)},${fn(i/80).toFixed(1)}`).join(' ');
+  c.innerHTML=`<defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="rgba(226,173,82,.38)"/><stop offset="1" stop-color="rgba(226,173,82,0)"/></linearGradient></defs>`+
+    [50,95,140,185].map(y=>`<line x1="20" x2="${W-20}" y1="${y}" y2="${y}" stroke="rgba(226,173,82,.12)"/>`).join('')+
+    `<polygon class="ar" points="20,${H} ${pts(f)} ${W-20},${H}"/><polyline class="ln2" pathLength="1" points="${pts(h)}"/><polyline class="ln1" pathLength="1" points="${pts(f)}"/>`+
+    [[.3,.95],[.62,1.3],[.9,1.6]].map(([x,d],i)=>`<circle style="--d:${d}s" cx="${20+x*(W-40)}" cy="${f(x)}" r="${i==1?9:6}" fill="${i==1?'#fff3d1':'#0b0907'}" stroke="#f6d79a" stroke-width="2.5"/>`).join('');
+})();
+
+/* scene 5: hero wafer + sparks */
+(()=>{const g=$('#hero'),C=460,RAD=452,P=41;
+  for(let y=C-RAD;y<C+RAD;y+=P)for(let x=C-RAD;x<C+RAD;x+=P){
+    if(Math.hypot(x+P/2-C,y+P/2-C)>RAD-8)continue;
+    const tw=R()<.2,rc=sv('rect',{x:x+2,y:y+2,width:P-4,height:P-4,rx:2,fill:'#ffe2a0','fill-opacity':(.05+R()*.2).toFixed(2),stroke:'rgba(255,226,160,.6)','stroke-width':1});
+    if(tw){rc.setAttribute('class','tw');rc.style.cssText=`--fd:${rnd(.5,1.4).toFixed(2)}s;--dl:${-rnd(0,2).toFixed(2)}s`}
+    g.appendChild(rc)}
+  for(let i=0;i<34;i++){const x0=rnd(-150,150),sp=x0*rnd(1.2,2.4)+rnd(-40,40);
+    $('#sparks').appendChild(el('div','sp',`--z:${rnd(2,6).toFixed(1)}px;--x0:${x0|0}px;--x1:${sp|0}px;--y1:${-rnd(70,330)|0}px;--fd:${rnd(1.3,3).toFixed(2)}s;--dl:${-rnd(0,3).toFixed(2)}s`))}
+})();
+
+/* time-driven bits that CSS can't express */
+const ASK='어떤 평가를 진행하시겠습니까?',askEl=$('#ask');
+function tick(t){const n=Math.max(0,Math.min(ASK.length,Math.floor((t-3.5)/.045)));if(askEl.textContent.length!==n)askEl.textContent=ASK.slice(0,n)}
+
+/* render mode: every animation is paused and scrubbed by the frame grabber; otherwise play live, scaled to the window */
+const RENDER=new URLSearchParams(location.search).has('render');
+window.__ready=document.fonts.ready.then(()=>{if(RENDER)document.getAnimations().forEach(a=>a.pause())});
+window.__seek=t=>{document.getAnimations().forEach(a=>{a.currentTime=t*1000});tick(t);
+  return new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)))};
+if(!RENDER){
+  const fit=()=>{const k=Math.min(innerWidth/1920,innerHeight/1080);$('#stage').style.transform=`translate(${(innerWidth-1920*k)/2}px,${(innerHeight-1080*k)/2}px) scale(${k})`};
+  fit();addEventListener('resize',fit);
+  const t0=performance.now();(function loop(){tick((performance.now()-t0)/1000);requestAnimationFrame(loop)})();
+}
+</script>
+</body>
+</html>

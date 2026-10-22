@@ -1,0 +1,187 @@
+{
+  "revision": 12,
+  "status": "REVIEWED_CURRENT_MASTER_ENDPOINT_EVIDENCE",
+  "master_sha256": "258985ff5233f26f96b3fb2a98395e71e47a11e92669006c4842ed7f699cba89",
+  "asr_sha256": "30c831fff7ab687856490e52ac39c5672572822751296d3e01b8a81988d9c44a",
+  "source_identity_sha256": "9c7a0d8acfd1e1a88ead58c7146ead57147d2e5963f53f19173833e6927c4b9c",
+  "scope": "Three currentprocessedmaster ASR leading-pause attribution corrections, using exact PCM regional no-prompt local small Korean transcription and measured quiet. No media edited, no old take exceptions, no human listening or phonetic perfection claim.",
+  "boundaries": [
+    {
+      "after_cut": "task14_cut4",
+      "before_cut": "task14_cut5",
+      "kind": "CURRENT_MASTER_LEADING_PAUSE_ATTRIBUTION_WITH_REGIONAL_COMPLETE_CLAUSES",
+      "source_boundary_sample": 12099200,
+      "actual_previous_speech_end_sample": 12090720,
+      "actual_next_speech_start_sample": 12106080,
+      "endpoint_semantics": "Conservative phrase endpoint bounds include40ms of measured quiet after/before the energy transition; exact human phoneme timing is not claimed. Entire source PCM is retained.",
+      "quiet": {
+        "start_sample": 12088800,
+        "end_sample": 12108000,
+        "start": 251.85,
+        "end": 252.25,
+        "duration": 0.4,
+        "peak_10ms_RMS_dbFS": -53.58771404541627
+      },
+      "quiet_max10ms_RMS_dbFS_independent": -53.58771404541627,
+      "independently_reviewed": false,
+      "evidence": [
+        {
+          "region": "narration/alignment-reviews/daily/region.wav",
+          "region_sha256": "3d864dbeb97493e9138da8d74fdd1117e5da285582c392350b2336fd28f6e096",
+          "transcription": "narration/alignment-reviews/daily/region.json",
+          "transcription_sha256": "e7c50cd802bda7267f51e4a6e596bb26f9d1f7ef7020a82fd0954cff0bd86554",
+          "provenance": "narration/alignment-reviews/daily/region-provenance.json",
+          "provenance_sha256": "91b415be73a8f47db24f86790838af77d1700e55068764cc8b86a6dbe902125f",
+          "source_start_sample": 11856000,
+          "source_end_sample": 12384000,
+          "source_PCM_exact": true,
+          "raw_regional_ASR_text": " 안 내를 자동화합니다. 보고와 취합 업무 시간을 90% 이상 단축합니다. 반복 조회와 취합 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다. 대량 데이터"
+        }
+      ],
+      "global_ASR_boundary": {
+        "word_end": 251.68,
+        "next_word_start": 251.68,
+        "words_overlapping_candidate": [
+          462
+        ]
+      },
+      "word_boundary_reason": "Fresh local no-prompt transcription recognizes the complete adjacent utterances. Ending left/right clips cut at this quiet point separately retain each complete requested clause; Daily local ASR independently moves 반복 to252.24. Whole-ASR next-word onset incorrectly owns the pause. A low-energy interval inside one linguistic word was not accepted.",
+      "speech_or_quiet_samples_deleted": 0,
+      "crossfade_samples": 0
+    },
+    {
+      "after_cut": "ending_cut1",
+      "before_cut": "ending_cut2",
+      "kind": "CURRENT_MASTER_LEADING_PAUSE_ATTRIBUTION_WITH_REGIONAL_COMPLETE_CLAUSES",
+      "source_boundary_sample": 13521600,
+      "actual_previous_speech_end_sample": 13518240,
+      "actual_next_speech_start_sample": 13525920,
+      "endpoint_semantics": "Conservative phrase endpoint bounds include40ms of measured quiet after/before the energy transition; exact human phoneme timing is not claimed. Entire source PCM is retained.",
+      "quiet": {
+        "start_sample": 13516320,
+        "end_sample": 13527840,
+        "start": 281.59,
+        "end": 281.83,
+        "duration": 0.24,
+        "peak_10ms_RMS_dbFS": -58.322147242332335
+      },
+      "quiet_max10ms_RMS_dbFS_independent": -58.322147242332335,
+      "independently_reviewed": false,
+      "evidence": [
+        {
+          "region": "narration/alignment-reviews/ending/region.wav",
+          "region_sha256": "21afe68453006ff0822a1c430859c5d8e0d4e54b81bb383d9470a6f31af03832",
+          "transcription": "narration/alignment-reviews/ending/region.json",
+          "transcription_sha256": "f6e51c2499689653655d35d4ecf3f2ed7f7ce55ca57e64372c9200cf72ff3297",
+          "provenance": "narration/alignment-reviews/ending/region-provenance.json",
+          "provenance_sha256": "f2ff4e4f75dab16e6b265cad794773a6e9997fce28ffd85eb370ed8e25ce39ea",
+          "source_start_sample": 13368000,
+          "source_end_sample": 14131046,
+          "source_PCM_exact": true,
+          "raw_regional_ASR_text": " 줄입니다. 서로 다른 현장의 과제들이 AI와 함께 새로운 변화를 만들어 갑니다. 업무 효율화부터 데이터 분석, 더 나은 연구 환경까지, 12개의 AI 에이전트가 만든 변화, 이제 2개의 우수 과제를 만나봅니다."
+        },
+        {
+          "region": "narration/alignment-reviews/ending1_left/region.wav",
+          "region_sha256": "481fe236f5aa4684496e5704dab30d964dd113ade42924a63021d5b0d5c97e7d",
+          "transcription": "narration/alignment-reviews/ending1_left/region.json",
+          "transcription_sha256": "ac3d6e65a80512e04bcf6702d2b5eaf5c792f06c3ab08cc51d7a5fae8d512b82",
+          "provenance": "narration/alignment-reviews/ending1_left/region-provenance.json",
+          "provenance_sha256": "83c82c8f6ca30829bc37cd72a985b0e1798861337ac593297d1db6f39694cbe6",
+          "source_start_sample": 13406400,
+          "source_end_sample": 13521600,
+          "source_PCM_exact": true,
+          "raw_regional_ASR_text": " 서로 다른 현장의 과제들이"
+        },
+        {
+          "region": "narration/alignment-reviews/ending1_right/region.wav",
+          "region_sha256": "927ebdbc3047cee4ad894cf824869cc36a507ec6d00ae9614e03b58a35fb6756",
+          "transcription": "narration/alignment-reviews/ending1_right/region.json",
+          "transcription_sha256": "383c6cbc456974489f36868db85e6614007060a4ad225b65f6c31048c406f11a",
+          "provenance": "narration/alignment-reviews/ending1_right/region-provenance.json",
+          "provenance_sha256": "13aa5a9de77e7b9c58c372891fa2d477f200ca5f948c7b8cd67752b1c9240a94",
+          "source_start_sample": 13521600,
+          "source_end_sample": 13668000,
+          "source_PCM_exact": true,
+          "raw_regional_ASR_text": " AI와 함께 새로운 변화를 만들어 갑니다."
+        }
+      ],
+      "global_ASR_boundary": {
+        "word_end": 281.48,
+        "next_word_start": 281.48,
+        "words_overlapping_candidate": [
+          517
+        ]
+      },
+      "word_boundary_reason": "Fresh local no-prompt transcription recognizes the complete adjacent utterances. Ending left/right clips cut at this quiet point separately retain each complete requested clause; Daily local ASR independently moves 반복 to252.24. Whole-ASR next-word onset incorrectly owns the pause. A low-energy interval inside one linguistic word was not accepted.",
+      "speech_or_quiet_samples_deleted": 0,
+      "crossfade_samples": 0
+    },
+    {
+      "after_cut": "ending_cut3",
+      "before_cut": "ending_cut5",
+      "kind": "CURRENT_MASTER_LEADING_PAUSE_ATTRIBUTION_WITH_REGIONAL_COMPLETE_CLAUSES",
+      "source_boundary_sample": 13859200,
+      "actual_previous_speech_end_sample": 13850400,
+      "actual_next_speech_start_sample": 13866720,
+      "endpoint_semantics": "Conservative phrase endpoint bounds include40ms of measured quiet after/before the energy transition; exact human phoneme timing is not claimed. Entire source PCM is retained.",
+      "quiet": {
+        "start_sample": 13848480,
+        "end_sample": 13868640,
+        "start": 288.51,
+        "end": 288.93,
+        "duration": 0.42,
+        "peak_10ms_RMS_dbFS": -50.73428869920902
+      },
+      "quiet_max10ms_RMS_dbFS_independent": -50.73428869920902,
+      "independently_reviewed": false,
+      "evidence": [
+        {
+          "region": "narration/alignment-reviews/ending/region.wav",
+          "region_sha256": "21afe68453006ff0822a1c430859c5d8e0d4e54b81bb383d9470a6f31af03832",
+          "transcription": "narration/alignment-reviews/ending/region.json",
+          "transcription_sha256": "f6e51c2499689653655d35d4ecf3f2ed7f7ce55ca57e64372c9200cf72ff3297",
+          "provenance": "narration/alignment-reviews/ending/region-provenance.json",
+          "provenance_sha256": "f2ff4e4f75dab16e6b265cad794773a6e9997fce28ffd85eb370ed8e25ce39ea",
+          "source_start_sample": 13368000,
+          "source_end_sample": 14131046,
+          "source_PCM_exact": true,
+          "raw_regional_ASR_text": " 줄입니다. 서로 다른 현장의 과제들이 AI와 함께 새로운 변화를 만들어 갑니다. 업무 효율화부터 데이터 분석, 더 나은 연구 환경까지, 12개의 AI 에이전트가 만든 변화, 이제 2개의 우수 과제를 만나봅니다."
+        },
+        {
+          "region": "narration/alignment-reviews/ending3_left/region.wav",
+          "region_sha256": "675da39046f69b222bcfe7e4b6595678edabee107b8413fd0701ba46d31841c2",
+          "transcription": "narration/alignment-reviews/ending3_left/region.json",
+          "transcription_sha256": "4dfe53f15b3945ec723b248de554e9e6c42aca28b8eb510b8ce06ec6bddbb028",
+          "provenance": "narration/alignment-reviews/ending3_left/region-provenance.json",
+          "provenance_sha256": "f13ab8ba87820bfdc74052c3f196059e92c278e0cd4ef458d54cdcfe155b8025",
+          "source_start_sample": 13665600,
+          "source_end_sample": 13859200,
+          "source_PCM_exact": true,
+          "raw_regional_ASR_text": " 업무 효율화부터 데이터 분석, 더 나은 연구 환경까지"
+        },
+        {
+          "region": "narration/alignment-reviews/ending3_right/region.wav",
+          "region_sha256": "c0503d5810a2e6dbd2ac9e97703142fe6a1c3b963d4768f3004db4588634f3b4",
+          "transcription": "narration/alignment-reviews/ending3_right/region.json",
+          "transcription_sha256": "065f631c618cbf86564f645be77c42511fc05ee119dbbaab1232f5b3236992be",
+          "provenance": "narration/alignment-reviews/ending3_right/region-provenance.json",
+          "provenance_sha256": "38e4b7c5b3458d569a29fcbb75003e42110f1aaa9b043d33ab686e7d78c9ae5f",
+          "source_start_sample": 13859200,
+          "source_end_sample": 14131046,
+          "source_PCM_exact": true,
+          "raw_regional_ASR_text": " 12개의 AI 에이전트가 만든 변화, 이제 2개의 우수 과제를 만나봅니다."
+        }
+      ],
+      "global_ASR_boundary": {
+        "word_end": 288.44,
+        "next_word_start": 288.44,
+        "words_overlapping_candidate": [
+          530
+        ]
+      },
+      "word_boundary_reason": "Fresh local no-prompt transcription recognizes the complete adjacent utterances. Ending left/right clips cut at this quiet point separately retain each complete requested clause; Daily local ASR independently moves 반복 to252.24. Whole-ASR next-word onset incorrectly owns the pause. A low-energy interval inside one linguistic word was not accepted.",
+      "speech_or_quiet_samples_deleted": 0,
+      "crossfade_samples": 0
+    }
+  ]
+}

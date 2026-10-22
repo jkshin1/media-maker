@@ -1,0 +1,1689 @@
+{
+  "schema_version": 1,
+  "status": "REFERENCE_REVIEWED",
+  "date": "2026-10-14",
+  "scope": "13 concept source images directly viewed; guidance and crop derivatives only, originals intact",
+  "guideline": {
+    "source": "concept/1791878315559.png",
+    "source_dimensions": [
+      1672,
+      941
+    ],
+    "viewed_directly": true,
+    "visual_language": [
+      "black/gold cinematic R&D environment",
+      "strong depth/perspective, angled physical monitors",
+      "large restrained gold serif headings and warm practical light",
+      "thin gold data connections, light sweep and purposeful scan/chart progression"
+    ],
+    "preserved_structure": {
+      "opening_seconds": 15,
+      "task_seconds": 18,
+      "task_title_seconds": 2,
+      "task_body_cuts_seconds": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "task_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ending_seconds": 10,
+      "next_interstitials": false
+    },
+    "reference_opening_flow": [
+      "0–3: golden door and distant person, camera moves toward light",
+      "3–6: wafer closeup and experience+AI message",
+      "6–9: etching head over wafer with R&D title",
+      "9–12: cleanroom engineer and monitors",
+      "12–15: 12 AI Agents count/title reveal"
+    ],
+    "reference_ending": "golden horizon, person centered, R&D closing. Keep current spoken ending and separate10sec ending.",
+    "opening_crop_assets": {
+      "door-detail": {
+        "source_box_xywh": [
+          248,
+          33,
+          166,
+          229
+        ],
+        "asset": "production/assets/concept-crops/guideline-door-detail.png",
+        "html_src": "../assets/concept-crops/guideline-door-detail.png",
+        "sha256": "f95848e2d36d82c6f44ab2c03799975a9b956a7c78cb03cab64ac2f5f75f2beb",
+        "note": "문구가 없는 문/사람/바닥 부분. 기존 high-res hero.png를 주사진으로 유지하고 이 crop는 구도 참고 또는 보조 레이어로 사용합니다.",
+        "dimensions": [
+          166,
+          229
+        ]
+      },
+      "wafer-detail": {
+        "source_box_xywh": [
+          650,
+          34,
+          184,
+          133
+        ],
+        "asset": "production/assets/concept-crops/guideline-wafer-detail.png",
+        "html_src": "../assets/concept-crops/guideline-wafer-detail.png",
+        "sha256": "e6b23f1ce0e8bd128e1cbcddb2f0376fdde7f579c0e56b94d478a076daf12c3f",
+        "note": "두 번째 오프닝 웨이퍼의 순수 질감/황금 조명 부분. 왼쪽/하단 텍스트를 제외한 작은 crop이므로 보조 배경용입니다.",
+        "dimensions": [
+          184,
+          133
+        ]
+      },
+      "etching-wafer": {
+        "source_box_xywh": [
+          841,
+          33,
+          410,
+          136
+        ],
+        "asset": "production/assets/concept-crops/guideline-etching-wafer.png",
+        "html_src": "../assets/concept-crops/guideline-etching-wafer.png",
+        "sha256": "d8a4cad5adc80b5e099c89ba68eaaa51bce8548ec0fe96edce20df01a4885f24",
+        "note": "세 번째 오프닝의 헤드/웨이퍼 상부. 하단 R&D 제목과 위 shot label을 제외했습니다.",
+        "dimensions": [
+          410,
+          136
+        ]
+      },
+      "engineer-detail": {
+        "source_box_xywh": [
+          1547,
+          34,
+          121,
+          229
+        ],
+        "asset": "production/assets/concept-crops/guideline-engineer-detail.png",
+        "html_src": "../assets/concept-crops/guideline-engineer-detail.png",
+        "sha256": "aaabb90a267c4556f79ee2926db1cf2dbd61bd1b23ca9e8cc6739d7e88ab2b15",
+        "note": "네 번째 오프닝의 클린룸 작업자 오른쪽. 중앙 overlay 문구를 배제한 crop입니다.",
+        "dimensions": [
+          121,
+          229
+        ]
+      },
+      "ending-horizon": {
+        "source_box_xywh": [
+          1184,
+          769,
+          484,
+          108
+        ],
+        "asset": "production/assets/concept-crops/guideline-ending-horizon.png",
+        "html_src": "../assets/concept-crops/guideline-ending-horizon.png",
+        "sha256": "aad7a11314d260e3e06ab6ab9bff22a38e93da6730a32f70d90d7884b847b400",
+        "note": "엔딩의 빛나는 지평선/서 있는 인물 부분. 위 제목과 아래 R&D 로고를 제외한 가로 띠이며 high-res ending.png를 대체하는 용도보다 조명/구도 참고용입니다.",
+        "dimensions": [
+          484,
+          108
+        ]
+      }
+    }
+  },
+  "implementation_guidance": {
+    "before": "Keep approved twelve different task-specific photos full-bleed; only separate narration captions, no descriptive overlay labels.",
+    "body_timeline_4s": {
+      "0.00–0.45": "camera settles and principal UI enters in perspective",
+      "0.45–1.45": "input/source/scan first meaningful action",
+      "1.45–2.65": "analysis progression, chart draw or connected result",
+      "2.65–4.00": "completed result held; subtle camera/light/indicator continues"
+    },
+    "motion_variation": [
+      "camera push/pan direction alternates by task",
+      "sequential collection/connect, chart draw, scanline/measurement, selected candidate emphasis, report delivery",
+      "comparison divider can move once to establish before/after then hold readable result",
+      "No shake, flashing, unmotivated bouncing or decorative tiny motion as sole animation"
+    ],
+    "legibility": "Main text must be recreated crisply in foreground. Do not show the full contact sheet or rely on its small warped letters.",
+    "data_integrity": "Original reference screenshots contain illustrative quantities and misspelled owner text. Hide or exclude unverified KPI counts/percentages and retain corrected current names. Live graph shapes should read as schematic examples without unsupported axis claims."
+  },
+  "tasks": [
+    {
+      "task_id": 1,
+      "title": "Smart Process Architecture AI Agent",
+      "owner": "권혜선",
+      "source": "concept/1791878315652.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            227,
+            334,
+            530
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            346,
+            227,
+            325,
+            530
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            679,
+            227,
+            321,
+            530
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1008,
+            227,
+            345,
+            530
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1361,
+            227,
+            307,
+            530
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            346,
+            227,
+            325,
+            530
+          ],
+          "asset": "production/assets/concept-crops/task-01-action.png",
+          "html_src": "../assets/concept-crops/task-01-action.png",
+          "sha256": "be8decfe1242e087318794f6698c0551ea8dcbc82168d58db300ba4033bea3c2",
+          "dimensions": [
+            325,
+            530
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            679,
+            227,
+            321,
+            530
+          ],
+          "asset": "production/assets/concept-crops/task-01-analysis.png",
+          "html_src": "../assets/concept-crops/task-01-analysis.png",
+          "sha256": "e524202e5f64b88456e4332b776c25ab21064bb8fcf6a596fc3d489986ab3a30",
+          "dimensions": [
+            321,
+            530
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1008,
+            227,
+            345,
+            530
+          ],
+          "asset": "production/assets/concept-crops/task-01-detail.png",
+          "html_src": "../assets/concept-crops/task-01-detail.png",
+          "sha256": "4f9a347fcabe106469851c4477a1b95ac5ada6f3c754af4d66f54b6f5e766bc4",
+          "dimensions": [
+            345,
+            530
+          ]
+        }
+      },
+      "reference_story": "작업자와 여러 모니터 → 사선 노트북의 대화 → 검정 추천 카드 → 연구자의 평가 결과 모니터 → 발광 웨이퍼",
+      "meaningful_motion": {
+        "after_action": [
+          "평가 목적 입력란에 짧은 질문이 입력됩니다.",
+          "입력 완료 뒤 Plan·Recipe·근거의 세 연결 경로가 골드 빛으로 모입니다."
+        ],
+        "after_analysis": [
+          "Plan/Recipe 추천 카드 세 장이 0.25초 간격으로 열립니다.",
+          "선택한 추천에서 근거 자료·과거 실패 사례까지 연결선이 이어지고 체크가 완성됩니다."
+        ],
+        "before_after_comparison": [
+          "왼쪽은 흩어진 작은 자료 창을 유지하고, 오른쪽은 하나의 평가 목적과 추천/근거 연결을 완성합니다.",
+          "속도 수치 대신 탐색 → 추천 → 판단 지원의 절차 변화를 보여줍니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 2,
+      "title": "장비 Daily Report Auto Mail System",
+      "owner": "김도훈",
+      "source": "concept/1791878315727.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            323,
+            342,
+            448
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            354,
+            323,
+            321,
+            448
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            683,
+            323,
+            331,
+            448
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1022,
+            323,
+            334,
+            448
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1364,
+            323,
+            304,
+            448
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            354,
+            323,
+            321,
+            448
+          ],
+          "asset": "production/assets/concept-crops/task-02-action.png",
+          "html_src": "../assets/concept-crops/task-02-action.png",
+          "sha256": "6d2433922bb3266f23cf287eb293e77545207df94c9a7a8e0e59d4ee24d82d79",
+          "dimensions": [
+            321,
+            448
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            683,
+            323,
+            331,
+            448
+          ],
+          "asset": "production/assets/concept-crops/task-02-analysis.png",
+          "html_src": "../assets/concept-crops/task-02-analysis.png",
+          "sha256": "df1235d978efbd208622c0fad8460edf59f5ff33be47670dd9d4cc00ec43c02a",
+          "dimensions": [
+            331,
+            448
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1022,
+            323,
+            334,
+            448
+          ],
+          "asset": "production/assets/concept-crops/task-02-detail.png",
+          "html_src": "../assets/concept-crops/task-02-detail.png",
+          "sha256": "a10378145fe806f3992c948c362502036e1ba6809804ebacf72e5ad381e7f4f1",
+          "dimensions": [
+            334,
+            448
+          ]
+        }
+      },
+      "reference_story": "수동 보고의 모니터/서류 → 자동 수집 시스템 → 밝은 HTML 보고서 → 메일 발송 창 → 공정 현장",
+      "meaningful_motion": {
+        "after_action": [
+          "SmartMES·GMS·IPA·Datalake 네 데이터 소스가 차례로 켜집니다.",
+          "소스에서 중앙 Agent로 데이터 점이 이동하고 수집 완료 체크가 쌓입니다."
+        ],
+        "after_analysis": [
+          "HTML 보고서의 제목, 추세 차트, 요약 행을 순서대로 그립니다.",
+          "보고서가 메일 카드에 접혀 들어가고 봉투 아이콘이 수신자 쪽으로 이동하며 발송 완료를 보여줍니다."
+        ],
+        "before_after_comparison": [
+          "수동 단계 확인·정리·작성·발송을 왼쪽 4개 단계로, 오른쪽은 수집·생성·전달을 연결한 자동 경로로 보여줍니다.",
+          "확인되지 않은 단축률은 쓰지 않고 반복 작업 감소만 표현합니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 3,
+      "title": "Thinfilm Agent - BEOL Thinfilm",
+      "owner": "김태민",
+      "source": "concept/1791878315800.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 4,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            270,
+            365,
+            520
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            377,
+            270,
+            406,
+            520
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            791,
+            270,
+            458,
+            520
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1257,
+            270,
+            411,
+            520
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            377,
+            270,
+            406,
+            520
+          ],
+          "asset": "production/assets/concept-crops/task-03-action.png",
+          "html_src": "../assets/concept-crops/task-03-action.png",
+          "sha256": "ab8e895de49d68878cdb1adffb2be7ab4fc11b68fd1e144234d73590022cacb1",
+          "dimensions": [
+            406,
+            520
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            791,
+            270,
+            458,
+            520
+          ],
+          "asset": "production/assets/concept-crops/task-03-analysis.png",
+          "html_src": "../assets/concept-crops/task-03-analysis.png",
+          "sha256": "9c24fcb92df8829db24513b36b5359008a75e8c1ac83a04dd0884ca2ac16aed5",
+          "dimensions": [
+            458,
+            520
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1257,
+            270,
+            411,
+            520
+          ],
+          "asset": "production/assets/concept-crops/task-03-detail.png",
+          "html_src": "../assets/concept-crops/task-03-detail.png",
+          "sha256": "e54e95cb9d6c36ab0ef1bac44c190070d9bf004ac4aa326fd980db5b3aa37274",
+          "dimensions": [
+            411,
+            520
+          ]
+        }
+      },
+      "reference_story": "4패널 시안: 여러 Lot/장비/FDC 창 → 사선 노트북 통합 플랫폼 → 트렌드/상태/DOE 히트맵 → 공유 보고서",
+      "meaningful_motion": {
+        "after_action": [
+          "Lot·장비·FDC·DOE 네 타일이 한 플랫폼으로 들어옵니다.",
+          "선택한 Lot을 중심으로 네 항목이 연결되며 통합 조회를 보여줍니다."
+        ],
+        "after_analysis": [
+          "Lot 추세선과 FDC 막대를 왼쪽부터 그립니다.",
+          "DOE 히트맵 셀이 차례로 채워지고 결과 보고서에 공유 아이콘/체크가 붙습니다."
+        ],
+        "before_after_comparison": [
+          "분리된 조회 창이 같은 프레임 안의 통합 결과와 공유 보고서로 정돈됩니다.",
+          "플랫폼 화면의 공간 배치는 시안처럼 2×2 타일과 2×2 차트를 사용합니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 4,
+      "title": "C&C Working Board 내 AI Agent 구축",
+      "owner": "서우석",
+      "source": "concept/1791878315867.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            248,
+            336,
+            532
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            348,
+            248,
+            328,
+            532
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            684,
+            248,
+            345,
+            532
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1037,
+            248,
+            329,
+            532
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1374,
+            248,
+            294,
+            532
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            348,
+            248,
+            328,
+            532
+          ],
+          "asset": "production/assets/concept-crops/task-04-action.png",
+          "html_src": "../assets/concept-crops/task-04-action.png",
+          "sha256": "69ef1e7c6f8406412ae74ebdff588f871d9369ef8408833d3e3a0758d30f7ea2",
+          "dimensions": [
+            328,
+            532
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            684,
+            248,
+            345,
+            532
+          ],
+          "asset": "production/assets/concept-crops/task-04-analysis.png",
+          "html_src": "../assets/concept-crops/task-04-analysis.png",
+          "sha256": "e85deb238d82e2d0d5eae91bc83b6a4c143841696fc949a621e94f60854f854b",
+          "dimensions": [
+            345,
+            532
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1037,
+            248,
+            329,
+            532
+          ],
+          "asset": "production/assets/concept-crops/task-04-detail.png",
+          "html_src": "../assets/concept-crops/task-04-detail.png",
+          "sha256": "d773deeb878be9d033dca41b733a952c2158ebe7b9438e11716906549560c28f",
+          "dimensions": [
+            329,
+            532
+          ]
+        }
+      },
+      "reference_story": "여러 Excel/파일 → Working Board 폴더 → 자연어 대화·추세 → 저장된 분석 결과 → 공정 현장",
+      "meaningful_motion": {
+        "after_action": [
+          "공정·장비·실험·분석 파일들이 Working Board 폴더로 모입니다.",
+          "검색 입력이 끝나면 해당 폴더와 관련 데이터만 차례로 강조합니다."
+        ],
+        "after_analysis": [
+          "공정 추세와 장비 이력 두 차트를 나란히 그립니다.",
+          "둘 사이의 연결점이 강조되고 결과 카드가 Working Board 저장 폴더 안으로 이동합니다."
+        ],
+        "before_after_comparison": [
+          "흩어진 파일 더미와 재활용 가능한 분석 카드/저장 결과를 좌우로 대응시킵니다.",
+          "작은 그래프만 확대하는 대신 검색 → 복합 분석 → 저장이 보이도록 설계합니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 5,
+      "title": "LLM을 활용한 C&C 공정 Inline Data 관리",
+      "owner": "윤지욱",
+      "source": "concept/1791878315930.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            220,
+            329,
+            536
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            341,
+            220,
+            331,
+            536
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            680,
+            220,
+            334,
+            536
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1022,
+            220,
+            344,
+            536
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1374,
+            220,
+            294,
+            536
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            341,
+            220,
+            331,
+            536
+          ],
+          "asset": "production/assets/concept-crops/task-05-action.png",
+          "html_src": "../assets/concept-crops/task-05-action.png",
+          "sha256": "5a83962bc6c257af71e16e34a2cbce362e383304ac053ed16710ace9030f4309",
+          "dimensions": [
+            331,
+            536
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            680,
+            220,
+            334,
+            536
+          ],
+          "asset": "production/assets/concept-crops/task-05-analysis.png",
+          "html_src": "../assets/concept-crops/task-05-analysis.png",
+          "sha256": "e3189833238e59e0e7df7d2acf94e00a8712689a156f2fbaa876f3805c4c2639",
+          "dimensions": [
+            334,
+            536
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1022,
+            220,
+            344,
+            536
+          ],
+          "asset": "production/assets/concept-crops/task-05-detail.png",
+          "html_src": "../assets/concept-crops/task-05-detail.png",
+          "sha256": "496c177fe8fc26b3c8324fcd976784f7ad8caa6fd9c5d71639036ca43b6efaf7",
+          "dimensions": [
+            344,
+            536
+          ]
+        }
+      },
+      "reference_story": "Spec out 이후 여러 화면 조사 → Lot ID 요청 → GoodDocs 매핑·상관관계 → 원인 후보 순위 → 웨이퍼",
+      "meaningful_motion": {
+        "after_action": [
+          "Lot ID와 메인 공정 Etch 입력을 짧게 보여줍니다.",
+          "분석 시작 버튼 후 공정 이력·장비 로그·품질 결과가 한 Lot 경로에 붙습니다."
+        ],
+        "after_analysis": [
+          "GoodDocs 매핑의 히트맵이 대각선부터 채워지고, 공정 후보별 영향 막대가 늘어납니다.",
+          "상관관계 산점도와 후보 1·2·3 카드가 순차 등장합니다."
+        ],
+        "before_after_comparison": [
+          "분산된 이력 탐색을 왼쪽, 연계 공정 후보를 오른쪽에 정리합니다.",
+          "시안에 있는 70%는 검증 성과인지 확인되지 않으므로 재현하지 않습니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 6,
+      "title": "R&D 공정 Eng’r 연구 환경 Infra 구축",
+      "owner": "곽재오",
+      "source": "concept/1791878316003.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            229,
+            329,
+            525
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            341,
+            229,
+            327,
+            525
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            676,
+            229,
+            337,
+            525
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1021,
+            229,
+            339,
+            525
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1368,
+            229,
+            300,
+            525
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            341,
+            229,
+            327,
+            525
+          ],
+          "asset": "production/assets/concept-crops/task-06-action.png",
+          "html_src": "../assets/concept-crops/task-06-action.png",
+          "sha256": "4269a44d997b6c3c8747b05971734108a7a6ce9c7e74487f4adbec5246db00cc",
+          "dimensions": [
+            327,
+            525
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            676,
+            229,
+            337,
+            525
+          ],
+          "asset": "production/assets/concept-crops/task-06-analysis.png",
+          "html_src": "../assets/concept-crops/task-06-analysis.png",
+          "sha256": "efc3fd230cf44d36591cb1eba8ecd8038fb67ecd2de06afa61fdf3a629c26747",
+          "dimensions": [
+            337,
+            525
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1021,
+            229,
+            339,
+            525
+          ],
+          "asset": "production/assets/concept-crops/task-06-detail.png",
+          "html_src": "../assets/concept-crops/task-06-detail.png",
+          "sha256": "dadb7bff410797e71927509abb4ee92e87eef33cf3f46d1381180baa8025225f",
+          "dimensions": [
+            339,
+            525
+          ]
+        }
+      },
+      "reference_story": "연구 이력 분산 모니터 → NAND 연구 플랫폼 → 전후 공정 연결 → 원인 후보/네트워크 → 공정 현장",
+      "meaningful_motion": {
+        "after_action": [
+          "Lot 이력·Inline·장비 이력·FDC·연계 공정이 중앙 Lot ID에 연결됩니다.",
+          "선택한 Lot 경로만 밝아지고 나머지 정보는 배경으로 물러납니다."
+        ],
+        "after_analysis": [
+          "이전 공정 T1 → 현재 공정 NAND Cell → 이후 공정 T2를 순서대로 연결합니다.",
+          "연계 공정 노드가 펼쳐지고 후보 막대와 추세가 함께 완성됩니다."
+        ],
+        "before_after_comparison": [
+          "여러 곳에서 이력을 찾던 상태와 하나의 연구 앱에서 전후 공정을 보는 상태를 대응합니다.",
+          "소유자 표기는 원본 잘못된 글자 대신 곽재오 TL을 유지합니다. 시안의 2시간40분→20분 수치는 직접 재현하지 않습니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 7,
+      "title": "경비 분석 및 절감 아이템 발굴 Agent 개발",
+      "owner": "오승재",
+      "source": "concept/1791878316066.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            236,
+            320,
+            544
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            332,
+            236,
+            336,
+            544
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            676,
+            236,
+            340,
+            544
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1024,
+            236,
+            343,
+            544
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1375,
+            236,
+            293,
+            544
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            332,
+            236,
+            336,
+            544
+          ],
+          "asset": "production/assets/concept-crops/task-07-action.png",
+          "html_src": "../assets/concept-crops/task-07-action.png",
+          "sha256": "9750a58b4189109e8a451c3a932435e80777d8811c9d4bf842ffcda9e1d2a2b3",
+          "dimensions": [
+            336,
+            544
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            676,
+            236,
+            340,
+            544
+          ],
+          "asset": "production/assets/concept-crops/task-07-analysis.png",
+          "html_src": "../assets/concept-crops/task-07-analysis.png",
+          "sha256": "b61de76f639e725b5ee57ea2f9d861c89b20bc8264798092c9a9b98802ed96a5",
+          "dimensions": [
+            340,
+            544
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1024,
+            236,
+            343,
+            544
+          ],
+          "asset": "production/assets/concept-crops/task-07-detail.png",
+          "html_src": "../assets/concept-crops/task-07-detail.png",
+          "sha256": "30a84c734fbb446a7b95188b8e15b74900b565352be17a8b900fe0d5fcba83f9",
+          "dimensions": [
+            343,
+            544
+          ]
+        }
+      },
+      "reference_story": "경비/장비/계약/유지보수 분산 → 경비 분석 Agent → 절감 아이템·추세 → 검토 상태 → 공정 현장",
+      "meaningful_motion": {
+        "after_action": [
+          "경비 실적·장비 이력·구매/계약·유지보수 네 문서가 들어오고 서로 연결됩니다.",
+          "수집 경로가 완성되면 판단 지표 카드가 열립니다."
+        ],
+        "after_analysis": [
+          "절감 후보 행이 하나씩 나타나고, 후보별 검토 중/가능/제외 상태를 정성적으로 분류합니다.",
+          "작은 도넛과 추세선이 그려지되 성과 비율이나 건수는 실제 데이터처럼 표시하지 않습니다."
+        ],
+        "before_after_comparison": [
+          "수작업 대조를 왼쪽, 근거와 검토 상태가 함께 있는 절감 후보를 오른쪽으로 제시합니다.",
+          "시안의 80%, 14,000건, 18,000건, 절감액 등은 검증되지 않은 예시 숫자이므로 가리거나 제외합니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 8,
+      "title": "공정 Monitoring Data 자연어 검색 및 시각화 Agent",
+      "owner": "이태관",
+      "source": "concept/1791878316135.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            231,
+            329,
+            548
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            341,
+            231,
+            327,
+            548
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            676,
+            231,
+            344,
+            548
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1028,
+            231,
+            341,
+            548
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1377,
+            231,
+            291,
+            548
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            341,
+            231,
+            327,
+            548
+          ],
+          "asset": "production/assets/concept-crops/task-08-action.png",
+          "html_src": "../assets/concept-crops/task-08-action.png",
+          "sha256": "7123830c0a8668acbaea7b4367e577de27ba307d2718443c616937b0d723044a",
+          "dimensions": [
+            327,
+            548
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            676,
+            231,
+            344,
+            548
+          ],
+          "asset": "production/assets/concept-crops/task-08-analysis.png",
+          "html_src": "../assets/concept-crops/task-08-analysis.png",
+          "sha256": "92b05b1cd3854ed3aba0dd06b6691671f8bcef211ade45aded3a0ec56259de1f",
+          "dimensions": [
+            344,
+            548
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1028,
+            231,
+            341,
+            548
+          ],
+          "asset": "production/assets/concept-crops/task-08-detail.png",
+          "html_src": "../assets/concept-crops/task-08-detail.png",
+          "sha256": "3b868eab9e224b9b1953ae180342799501f38476ea9a926ee7ceec9ee8e59d5e",
+          "dimensions": [
+            341,
+            548
+          ]
+        }
+      },
+      "reference_story": "Smart Factory와 Excel 수작업 → 자연어 채팅 → Wafer Map/트렌드 → 장비 비교 → 공정 현장",
+      "meaningful_motion": {
+        "after_action": [
+          "RSAB250 공정 데이터를 보여줘 같은 짧은 자연어 요청이 입력됩니다.",
+          "Lot 조회·Wafer Map·그래프·장비 데이터 체크가 차례로 켜집니다."
+        ],
+        "after_analysis": [
+          "Wafer Map 셀이 스캔하듯 채워지고 서로 다른 장비 색상의 추세선이 왼쪽부터 그려집니다.",
+          "장비 선택이 바뀌면 해당 색상 곡선과 범례만 강조해 비교 행위를 보여줍니다."
+        ],
+        "before_after_comparison": [
+          "조회 뒤 엑셀 가공이 더해지던 상태와 Map·추세·장비 비교가 함께 나타나는 상태를 대응합니다.",
+          "시안의 40% 수치는 재현하지 않고 공정 변화 파악이라는 동작을 강조합니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 9,
+      "title": "TCAD-TEM 이미지 연계를 통한 이미지 Labeling Tool 개발",
+      "owner": "김성후",
+      "source": "concept/1791878316184.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            226,
+            331,
+            531
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            343,
+            226,
+            340,
+            531
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            691,
+            226,
+            325,
+            531
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1024,
+            226,
+            334,
+            531
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1366,
+            226,
+            302,
+            531
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            343,
+            226,
+            340,
+            531
+          ],
+          "asset": "production/assets/concept-crops/task-09-action.png",
+          "html_src": "../assets/concept-crops/task-09-action.png",
+          "sha256": "50edb8580c8c4acf8b8f0dd026f33cb3147e8b5ba0e1839a2de9dc7a6baf92b1",
+          "dimensions": [
+            340,
+            531
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            691,
+            226,
+            325,
+            531
+          ],
+          "asset": "production/assets/concept-crops/task-09-analysis.png",
+          "html_src": "../assets/concept-crops/task-09-analysis.png",
+          "sha256": "d7aa170d04853fe3d2b1fbf1e9e81efcec0d1544fff0324ac4c2952363458e53",
+          "dimensions": [
+            325,
+            531
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1366,
+            226,
+            302,
+            220
+          ],
+          "asset": "production/assets/concept-crops/task-09-detail.png",
+          "html_src": "../assets/concept-crops/task-09-detail.png",
+          "sha256": "0a72cd3a0dc336ac5437388601d597162b28940da4e085ff64dd4691aca0c92f",
+          "dimensions": [
+            302,
+            220
+          ],
+          "note": "원본5번패널 상단 순수 현장사진만 사용합니다. 성과수치 박스의 위쪽 경계 이전(y446)에서 잘라 5분→6초·44%·84% 수치를 사진에서 완전히 제외했습니다."
+        }
+      },
+      "reference_story": "TEM 수작업 모니터 → 사선 Tool·이미지 회전 → 자동 측정선/Raw data → 비교 차트 → 현장",
+      "meaningful_motion": {
+        "after_action": [
+          "TEM 이미지가 아주 작게 회전한 상태에서 수평으로 정렬됩니다.",
+          "경계선이 스캔되고 CD·LS·Etch Depth 등 측정선이 순차적으로 그려집니다."
+        ],
+        "after_analysis": [
+          "측정선 끝점에서 Raw data 표의 해당 행으로 연결됩니다.",
+          "표에서 작은 측정 추세/비교 차트로 데이터가 이어집니다."
+        ],
+        "before_after_comparison": [
+          "수작업 정렬·개별 측정과 도구 내 자동 정렬·측정·정리를 대응합니다.",
+          "시안의 5분→6초, +44%, +84%를 성과로 재현하지 않습니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 10,
+      "title": "Cubic공정Lab 전용 App&Agent",
+      "owner": "정현준",
+      "source": "concept/1791878316342.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            228,
+            321,
+            549
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            333,
+            228,
+            346,
+            549
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            687,
+            228,
+            335,
+            549
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1030,
+            228,
+            367,
+            549
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1405,
+            228,
+            263,
+            549
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            333,
+            228,
+            346,
+            549
+          ],
+          "asset": "production/assets/concept-crops/task-10-action.png",
+          "html_src": "../assets/concept-crops/task-10-action.png",
+          "sha256": "62dd4cd1401b2647f5be70505399c1172de0bf81c4c6d54dae36f3cbcccd6460",
+          "dimensions": [
+            346,
+            549
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            687,
+            228,
+            335,
+            549
+          ],
+          "asset": "production/assets/concept-crops/task-10-analysis.png",
+          "html_src": "../assets/concept-crops/task-10-analysis.png",
+          "sha256": "0e373c3fe5d7f7c63befec42e431b633528cdaa114eff0892af5fa5ad2381b5a",
+          "dimensions": [
+            335,
+            549
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1030,
+            228,
+            367,
+            549
+          ],
+          "asset": "production/assets/concept-crops/task-10-detail.png",
+          "html_src": "../assets/concept-crops/task-10-detail.png",
+          "sha256": "e4577c3280986ab4b8829ad108321255646be9a5544acfc9a48860e96e4ea77b",
+          "dimensions": [
+            367,
+            549
+          ]
+        }
+      },
+      "reference_story": "Excel/Smart Factory/APS/DataHub 분산 → Cubic 포털 타일 → 조회/예약/보고서/메일 → 사선 통합 현황 → 공정",
+      "meaningful_motion": {
+        "after_action": [
+          "Lot 조회·장비 Status·TEM 예약·Report 타일이 한 포털로 모입니다.",
+          "기능 타일 선택에 따라 예약 달력과 조회 패널이 이어 열립니다."
+        ],
+        "after_analysis": [
+          "보고서 생성 체크 후 메일 전달 카드가 연결됩니다.",
+          "홈 통합 화면에서 Lot·장비·예약·보고서가 같은 경로 안에 있음을 보여줍니다."
+        ],
+        "before_after_comparison": [
+          "시스템 아이콘 사이를 오가던 경로와 한 포털 내 기능 흐름을 좌우로 대응합니다.",
+          "시안의 90% 단축 숫자는 재현하지 않습니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 11,
+      "title": "RSAB SNM Overlay 열화 원인 분석 및 솔루션 제시 Agent",
+      "owner": "장민희",
+      "source": "concept/1791878316232.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            236,
+            352,
+            540
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            364,
+            236,
+            291,
+            540
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            663,
+            236,
+            333,
+            540
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            1004,
+            236,
+            326,
+            540
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1338,
+            236,
+            330,
+            540
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            364,
+            236,
+            291,
+            540
+          ],
+          "asset": "production/assets/concept-crops/task-11-action.png",
+          "html_src": "../assets/concept-crops/task-11-action.png",
+          "sha256": "dc395a2743c813a89f3f999366cc093f8f0db00a9dffab62c5fe300bce1da6e6",
+          "dimensions": [
+            291,
+            540
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            663,
+            236,
+            333,
+            540
+          ],
+          "asset": "production/assets/concept-crops/task-11-analysis.png",
+          "html_src": "../assets/concept-crops/task-11-analysis.png",
+          "sha256": "0d02f6d1b915d31a965be4cec142ca981c40486772a69f25f70b8577a2a8271b",
+          "dimensions": [
+            333,
+            540
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            1004,
+            236,
+            326,
+            540
+          ],
+          "asset": "production/assets/concept-crops/task-11-detail.png",
+          "html_src": "../assets/concept-crops/task-11-detail.png",
+          "sha256": "d7e2dc6eb8b943fe91dfeb56a041884182a8f5bd147d08b0e2e68def936a240b",
+          "dimensions": [
+            326,
+            540
+          ]
+        }
+      },
+      "reference_story": "여러 Overlay 분석 화면 → Lot ID → Overlay/Residual/MA Bias Map → Box Trend·분포 → K-parameter 원인/솔루션",
+      "meaningful_motion": {
+        "after_action": [
+          "Lot ID 하나를 입력하면 Overlay·Residual·MA Bias·Trend·K-parameter 메뉴가 차례로 켜집니다.",
+          "선택 메뉴에서 네 개 Map이 한 화면으로 모입니다."
+        ],
+        "after_analysis": [
+          "Map의 위치별 색상이 채워지고 Trend 비교/Boxplot이 나타납니다.",
+          "K-parameter 후보에서 의심 공정과 관련 솔루션 카드까지 빛이 이어집니다."
+        ],
+        "before_after_comparison": [
+          "경험에 의존한 개별 조회를 왼쪽, Map·Trend·K-parameter 근거와 솔루션 지원을 오른쪽으로 제시합니다.",
+          "원인 확정으로 보이게 하지 않고 원인 후보/지원의 표현을 유지합니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    },
+    {
+      "task_id": 12,
+      "title": "AI Agent 기반 Plug 대면적 데이터 분석 자동화 및 인사이트 도출",
+      "owner": "김지은",
+      "source": "concept/1791878316281.png",
+      "viewed_directly": true,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "panel_count": 5,
+      "panels": [
+        {
+          "panel": 1,
+          "source_box_xywh": [
+            4,
+            248,
+            304,
+            508
+          ]
+        },
+        {
+          "panel": 2,
+          "source_box_xywh": [
+            316,
+            248,
+            318,
+            508
+          ]
+        },
+        {
+          "panel": 3,
+          "source_box_xywh": [
+            642,
+            248,
+            306,
+            508
+          ]
+        },
+        {
+          "panel": 4,
+          "source_box_xywh": [
+            956,
+            248,
+            376,
+            508
+          ]
+        },
+        {
+          "panel": 5,
+          "source_box_xywh": [
+            1340,
+            248,
+            328,
+            508
+          ]
+        }
+      ],
+      "photo_assets": {
+        "action": {
+          "source_box_xywh": [
+            316,
+            248,
+            318,
+            508
+          ],
+          "asset": "production/assets/concept-crops/task-12-action.png",
+          "html_src": "../assets/concept-crops/task-12-action.png",
+          "sha256": "4d5b9c383956a83625eb0fcfcd102accdb34be6e7a365504c36589d0c934cd13",
+          "dimensions": [
+            318,
+            508
+          ]
+        },
+        "analysis": {
+          "source_box_xywh": [
+            642,
+            248,
+            306,
+            508
+          ],
+          "asset": "production/assets/concept-crops/task-12-analysis.png",
+          "html_src": "../assets/concept-crops/task-12-analysis.png",
+          "sha256": "da78b0447194738e2e0a61da6fcf3c3eb7a4b71659e945fd4f70f5ba097811f3",
+          "dimensions": [
+            306,
+            508
+          ]
+        },
+        "detail": {
+          "source_box_xywh": [
+            956,
+            248,
+            376,
+            508
+          ],
+          "asset": "production/assets/concept-crops/task-12-detail.png",
+          "html_src": "../assets/concept-crops/task-12-detail.png",
+          "sha256": "d82d46fb1386df78d63260b07eb37c2132e9a96cc2276194fa8ce816279d08df",
+          "dimensions": [
+            376,
+            508
+          ]
+        }
+      },
+      "reference_story": "대면적 Plug 육안 모니터 → 원형 Plug 격자 CV 인식 → 의심/정상 비교와 담당자 판정 → Profile → 대시보드/챗봇",
+      "meaningful_motion": {
+        "after_action": [
+          "대면적 원형 Plug 격자 위를 스캔선이 지나고 개별 인식 박스가 차례로 그려집니다.",
+          "각 박스에 예시 ID가 붙고 계측선이 함께 나타납니다."
+        ],
+        "after_analysis": [
+          "의심 항목만 주황색으로 모아 검토 대상 목록을 만듭니다.",
+          "자동 판정 완료처럼 보이지 않도록 담당자 검토 → 최종 판정의 별도 두 단계를 명확히 보여줍니다."
+        ],
+        "before_after_comparison": [
+          "대면적 육안 확인을 왼쪽, 선별된 검토 대상과 Profile/대시보드 활용을 오른쪽으로 제시합니다.",
+          "의심 표시는 최종 불량 확정과 구분하고, 담당자의 최종 판단 문구를 보존합니다."
+        ]
+      },
+      "recommended_framing": {
+        "background": "기존 BEFORE 사진 또는 이 사진 crop의 어두운 확대 배경. 밝은 골드 보케와 공정 현장의 깊이를 유지합니다.",
+        "foreground_photo": "portrait crop를 화면의 약35~45% 폭에 배치하되 source UI의 작은/왜곡된 글씨는 선명한 live UI로 가립니다.",
+        "ui": "오른쪽/중앙 약55~65%에 3D 사선 모니터 형태의 SVG/HTML UI. 그래프/입력/스캔을 시간에 따라 실제로 변화시킵니다.",
+        "source_limit": "작은 source crop의 글씨를 시청자가 읽어야 하는 본문으로 사용하지 않습니다."
+      }
+    }
+  ],
+  "validation": {
+    "all_13_images_directly_viewed": true,
+    "all_12_tasks_have_exact_source_crops": true,
+    "all_36_task_crop_derivatives_created": true,
+    "source_images_modified": false,
+    "narration_timing_order_modified": false,
+    "all_41_crop_png_dimensions_match_boxes": true,
+    "all_boxes_inside_source_bounds": true,
+    "representative_crop_visual_qa": [
+      "task-01-action.png",
+      "task-02-analysis.png",
+      "task-11-detail.png",
+      "guideline-etching-wafer.png",
+      "guideline-ending-horizon.png",
+      "task-09-detail.png"
+    ]
+  }
+}

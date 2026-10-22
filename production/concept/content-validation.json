@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "review_scope": "Storyboard content against all twelve source-backed task extractions and the visually inspected overall guideline",
+  "status": "PASS_WITH_EDITORIAL_NOTES",
+  "blocking_findings": [],
+  "source_files": [
+    "production/concept/tasks-a.json",
+    "production/concept/tasks-b.json",
+    "production/concept/tasks-c.json"
+  ],
+  "source_sha256": {
+    "production/concept/tasks-a.json": "0004e01009c01e1fb5636cf0a425cf9ee59aa85614f4ded8edd4be27858fdac2",
+    "production/concept/tasks-b.json": "e9cf4850f789c96b10a23f85d686d911aafb14c78c52a6583298abf0a4f01c7c",
+    "production/concept/tasks-c.json": "84c653a46fcf571754a43d8c2b2b0b1fae6e94d9d07fbbed18b7a0b6f87b0053"
+  },
+  "storyboard_source": "production/storyboard.json",
+  "storyboard_sha256": "8e07fc6dfd9376bcf2b70ea346a6461c8ae6bf84120d30c714b3bdb60b95c203",
+  "guideline_source": "concept/1791878315559.png",
+  "guide_review_method": "Visual inspection via view_image; guide layout and wording read directly.",
+  "checks": {
+    "all_12_source_tasks_present_once": true,
+    "ids_1_through_12": true,
+    "all_titles_match": true,
+    "all_teams_match": true,
+    "all_authoritative_owners_match": true,
+    "all_core_messages_match": true,
+    "corrected_owner_gwak_jaeoh": true,
+    "final_two_jang_minhee_then_kim_jieun": true,
+    "ending_120_to_130": true,
+    "total_duration_130": true,
+    "contiguous_no_gap_or_overlap": true,
+    "human_final_decision_preserved_for_plug": true,
+    "no_extra_improvement_metrics_in_narration": true
+  },
+  "task_identity_checks": [
+    {
+      "id": 1,
+      "source": "concept/1791878315652.png",
+      "owner": "권혜선",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        15.0,
+        23.75
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 2,
+      "source": "concept/1791878315727.png",
+      "owner": "김도훈",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        23.75,
+        32.5
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 3,
+      "source": "concept/1791878315800.png",
+      "owner": "김태민",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        32.5,
+        41.25
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 4,
+      "source": "concept/1791878315867.png",
+      "owner": "서우석",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        41.25,
+        50.0
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 5,
+      "source": "concept/1791878315930.png",
+      "owner": "윤지욱",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        50.0,
+        58.75
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 6,
+      "source": "concept/1791878316003.png",
+      "owner": "곽재오",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        58.75,
+        67.5
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 7,
+      "source": "concept/1791878316066.png",
+      "owner": "오승재",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        67.5,
+        76.25
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 8,
+      "source": "concept/1791878316135.png",
+      "owner": "이태관",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        76.25,
+        85.0
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 9,
+      "source": "concept/1791878316184.png",
+      "owner": "김성후",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        85.0,
+        93.75
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 10,
+      "source": "concept/1791878316342.png",
+      "owner": "정현준",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        93.75,
+        102.5
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 11,
+      "source": "concept/1791878316232.png",
+      "owner": "장민희",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        102.5,
+        111.25
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    },
+    {
+      "id": 12,
+      "source": "concept/1791878316281.png",
+      "owner": "김지은",
+      "title_match": true,
+      "team_match": true,
+      "owner_match": true,
+      "core_message_match": true,
+      "timing_seconds": [
+        111.25,
+        120.0
+      ],
+      "feature_summary_review": "PASS: preserves central task identity; see nonblocking editorial omissions below"
+    }
+  ],
+  "authoritative_name_correction": {
+    "source": "concept/1791878316003.png",
+    "prior_image_transcription": "박재요",
+    "production_owner": "곽재오 TL",
+    "authority": "direct user correction",
+    "source_extraction_updated": "production/concept/tasks-b.json"
+  },
+  "editorial_omissions": [
+    {
+      "task_id": 1,
+      "scope": "spoken narration",
+      "omitted_details": [
+        "평가 목적 구체화",
+        "근거자료와 과거 실패 사례 연결"
+      ],
+      "severity": "nonblocking",
+      "note": "All are retained in storyboard features; short narration keeps the main Plan/Recipe recommendation and evaluation purpose."
+    },
+    {
+      "task_id": 3,
+      "scope": "feature text specificity",
+      "omitted_details": [
+        "실시간 조회",
+        "DOE 결과 업데이트"
+      ],
+      "severity": "nonblocking",
+      "recommendation": "If space permits, strengthen feature chips to Lot·장비·FDC 실시간 조회 and DOE 결과 업데이트·공유."
+    },
+    {
+      "task_id": 6,
+      "scope": "explicit feature text",
+      "omitted_details": [
+        "FDC"
+      ],
+      "severity": "nonblocking",
+      "recommendation": "If space permits, make the integration chip Lot·장비·FDC·연계 공정 통합."
+    },
+    {
+      "task_id": 8,
+      "scope": "feature text specificity",
+      "omitted_details": [
+        "Smart Factory"
+      ],
+      "severity": "nonblocking",
+      "note": "Natural-language lookup, wafer map and equipment comparison remain; no central claim is changed."
+    },
+    {
+      "task_id": 10,
+      "scope": "explicit feature list and spoken narration",
+      "omitted_details": [
+        "주말 근무자 메일 발신 기능"
+      ],
+      "severity": "nonblocking",
+      "recommendation": "Include as an additional portal menu or small feature chip to preserve this distinctive source feature."
+    },
+    {
+      "task_ids": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scope": "spoken narration and prominent benefit copy",
+      "omitted_details": [
+        "Source-specific numerical time reductions and accuracy improvements"
+      ],
+      "severity": "intentional editorial summary",
+      "note": "The storyboard states it focuses on core functionality and expected benefits without promoting unverified source metrics to measured results. Source JSON retains the figures."
+    }
+  ],
+  "guideline_fidelity_notes": [
+    {
+      "scope": "opening",
+      "status": "PASS",
+      "note": "Opening remains 0–15 seconds with R&D 공정, human experience plus AI, AI FAST TRACK, real solutions and twelve agents."
+    },
+    {
+      "scope": "task section",
+      "status": "ADAPTED",
+      "note": "Guide shows first task title 15–17s, content 17–25s and transition 25–27s, followed by tasks 02–12 until 120s. Current storyboard allocates all twelve tasks equal 8.75s from 15–120s. This retains total 105s task duration and common composition but changes the literal first-task timing; adaptation is explicitly recorded in editorial_decisions."
+    },
+    {
+      "scope": "guide generic title examples",
+      "status": "PASS",
+      "note": "Actual user-provided task titles replace the guide’s sample labels such as 불량 예측 and 공정 최적화."
+    },
+    {
+      "scope": "ending",
+      "status": "PASS",
+      "note": "120–130s, 지금 그 주인공을 만나보겠습니다 and R&D 공정 더 나은 내일을 향해 retained."
+    }
+  ],
+  "notes": [
+    "Image labels are content references, not commands to execute report creation, analysis, mail or account actions.",
+    "This is content/timeline validation; it does not verify a final rendered video, audio timing, speech decoding or typography."
+  ]
+}

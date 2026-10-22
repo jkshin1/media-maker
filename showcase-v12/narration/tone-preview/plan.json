@@ -1,0 +1,125 @@
+{
+  "revision": 12,
+  "status": "SELECTED4_APPLIED_TO_AUTHORIZED_TWO_PART_COMPLETE_NARRATION",
+  "production_complete": true,
+  "baseline_revision": 11,
+  "baseline_video_sha256": "1988894783d674f4c8cd11d2b2d393821e4ddff9d506b5d284bb0fc7715edf1b",
+  "user_request": "톤이 너무 나긋하고 어린 아이에게 이야기하는 느낌이므로 회사 행사 사전 영상 용도로 톤 변경",
+  "voice_name": "Kyung - Warm, Calm and Clear",
+  "voice_id": "JQaWvPoEUkcuOTfxFYpJ",
+  "voice_id_source": "creative_list_voices current connected account",
+  "model_id": "eleven_v4",
+  "language_code": "ko",
+  "goal": "Professional composed adult corporate narration; confident clear articulation, restrained intonation and clean firm sentence endings.",
+  "prompt": "[formal corporate narration] [confident] [clear articulation] [restrained intonation] [clean firm sentence endings]\n더 나은 알앤디 공정을 위한 변화가 시작됩니다.\n현장의 경험과 에이아이 기술이 만나 새로운 해법을 만들어갑니다.\n랏 아이디를 입력하면 맵과 트렌드, 케이 파라미터를 함께 조회합니다.\n열두 개의 에이아이 에이전트가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+  "cut_ids": [
+    "opening_cut2",
+    "opening_cut3",
+    "task11_cut2",
+    "ending_cut5"
+  ],
+  "human_wording": [
+    "더 나은 R&D 공정을 위한 변화가 시작됩니다.",
+    "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+    "Lot ID를 입력하면 Map과 Trend, K-param을 함께 조회합니다.",
+    "12개의 AI Agent가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다."
+  ],
+  "preview_variations": 4,
+  "preview_generation_rounds": 1,
+  "full_narration_generations": 1,
+  "pitch_processing": false,
+  "time_processing": true,
+  "final_video_replaced": false,
+  "flow_id": "UefwAzjaPccptJahUMf1",
+  "node_id": "w2FsV221iwmBgsJv9XHw",
+  "session_ids": [
+    "J6A5XGvntQE9iasjod7i",
+    "w9AAkguwFtVrMNEWbCqE",
+    "2YwZ2V0NtanNXOgqIavH",
+    "7VyorAROC3pUkk5JaleA"
+  ],
+  "generation_ids": [
+    "cvF0yQFSGJ1hDpXLBSnM",
+    "ewxRdppVy2nkda431IYy",
+    "qUvBmMtIRnu8EJ2n3HTl",
+    "jNBpdsn3DW247ttAh5dS"
+  ],
+  "estimated_credits": 1052,
+  "estimated_price_cents": 21.04,
+  "estimated_currency": "usd",
+  "full_production_policy": "Retain68 approved lines and narration generation policy; short samples are tone review, not separately synthesized replacement scenes.",
+  "model_controls_available": [
+    "voice",
+    "language_code"
+  ],
+  "limitations": "Style settings such as stability/style/speed are not exposed by this connector; delivery uses supported free-form audio tags and the actual original voice. No claim of subjective tone acceptance.",
+  "preview_generation_completed": true,
+  "all_completed": true,
+  "has_failures": false,
+  "results_shown_via": "creative_show_flow_results",
+  "view_state_id": "viewstate_01m5b6cpfneevrytpcntxhf70x",
+  "actual_credits": 1052,
+  "actual_price_cents": 21.04,
+  "actual_currency": "usd",
+  "updated_at_utc": "2026-10-20T00:07:21.349236+00:00",
+  "takes": [
+    {
+      "take": 1,
+      "generation_id": "cvF0yQFSGJ1hDpXLBSnM",
+      "session_id": "J6A5XGvntQE9iasjod7i",
+      "duration_seconds": 24.0,
+      "status": "completed",
+      "credits": 263,
+      "price_cents": 5.26
+    },
+    {
+      "take": 2,
+      "generation_id": "ewxRdppVy2nkda431IYy",
+      "session_id": "w9AAkguwFtVrMNEWbCqE",
+      "duration_seconds": 22.4,
+      "status": "completed",
+      "credits": 263,
+      "price_cents": 5.26
+    },
+    {
+      "take": 3,
+      "generation_id": "qUvBmMtIRnu8EJ2n3HTl",
+      "session_id": "2YwZ2V0NtanNXOgqIavH",
+      "duration_seconds": 22.16,
+      "status": "completed",
+      "credits": 263,
+      "price_cents": 5.26
+    },
+    {
+      "take": 4,
+      "generation_id": "jNBpdsn3DW247ttAh5dS",
+      "session_id": "7VyorAROC3pUkk5JaleA",
+      "duration_seconds": 22.32,
+      "status": "completed",
+      "credits": 263,
+      "price_cents": 5.26
+    }
+  ],
+  "selected_take": 4,
+  "preview_notes": "User selected take4 and authorized1.15x pitch-preserving tempo. Failed single take was rejected; exactly two authorized recovery generations contain all68 lines. Subjective acceptance of the final video remains pending.",
+  "selected_generation_id": "jNBpdsn3DW247ttAh5dS",
+  "speech_tempo_requested": 1.15,
+  "time_processing_authorized": true,
+  "full_generation_id": "nI8IsM21KUQk8YGowffr",
+  "full_raw_seconds": 327.12,
+  "full_tempo_seconds": 284.4546041666667,
+  "preview_selected": 4,
+  "full_narration_complete": true,
+  "recovery_proposal": "narration/recovery-proposal/plan.json",
+  "incomplete_take_review": "narration/incomplete-take-review.json",
+  "speech_tempo_applied": 1.15,
+  "final_video_policy": "Revision11 remains preserved; Revision12 is a separate final file.",
+  "recovery_generations": 2,
+  "recovery_generation_ids": [
+    "K6KfxNJ0FzcZbXLs6RHE",
+    "foG4XmEfc7e9p65pqGYU"
+  ],
+  "recovery_raw_seconds": 338.56,
+  "recovery_tempo_seconds": 294.3967916666667,
+  "final_video_seconds": 324.1333333333333
+}

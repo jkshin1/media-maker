@@ -1,0 +1,237 @@
+{
+  "status": "SAMPLE_READY_CONTENT_AND_PROVENANCE_VERIFIED",
+  "created_at": "2026-10-19T08:46:54.344479+00:00",
+  "sample": "/Users/jk/projects/media-maker/out/showcase-v9/recovery-review/revision8-ending-original-speed.wav",
+  "sample_sha256": "7a6e5d372d4c1b178ca38ae54058e27d120e78d19dfb49d87309a9783598b615",
+  "sample_meta": {
+    "sample_rate": 48000,
+    "channels": 1,
+    "sample_width": 2,
+    "samples": 749760,
+    "duration_seconds": 15.62
+  },
+  "source": "/Users/jk/projects/media-maker/showcase-v8/narration/take.wav",
+  "source_sha256": "765a118636ccf1a0ee125d5c8554c34424ba07511b27df8b665b42da8ca8664f",
+  "checks": {
+    "all4_latest_user_texts_exact": {
+      "pass": true,
+      "rows": [
+        {
+          "cut_id": "ending_cut1",
+          "v8_original_text": "서로 다른 현장의 과제들이,",
+          "v9_requested_text": "서로 다른 현장의 과제들이,",
+          "exact_text_match": true,
+          "v8_original_spoken_text": "서로 다른 현장의 과제들이,",
+          "v9_spoken_text": "서로 다른 현장의 과제들이,",
+          "spoken_meaning_equal_after_number_notation": true,
+          "recorded_global_ASR_text": "서로 다른 현장의 과제들이",
+          "recorded_global_word_start": 293.02,
+          "recorded_global_word_end": 294.68,
+          "note": "Word times are ASR evidence, not independently cut per sentence for this review sample."
+        },
+        {
+          "cut_id": "ending_cut2",
+          "v8_original_text": "AI와 함께 새로운 변화를 만들어갑니다.",
+          "v9_requested_text": "AI와 함께 새로운 변화를 만들어갑니다.",
+          "exact_text_match": true,
+          "v8_original_spoken_text": "에이아이와 함께 새로운 변화를 만들어갑니다.",
+          "v9_spoken_text": "에이아이와 함께 새로운 변화를 만들어갑니다.",
+          "spoken_meaning_equal_after_number_notation": true,
+          "recorded_global_ASR_text": "AI와 함께 새로운 변화를 만들어갑니다.",
+          "recorded_global_word_start": 294.68,
+          "recorded_global_word_end": 297.88,
+          "note": "Word times are ASR evidence, not independently cut per sentence for this review sample."
+        },
+        {
+          "cut_id": "ending_cut3",
+          "v8_original_text": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지.",
+          "v9_requested_text": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지.",
+          "exact_text_match": true,
+          "v8_original_spoken_text": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지.",
+          "v9_spoken_text": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지.",
+          "spoken_meaning_equal_after_number_notation": true,
+          "recorded_global_ASR_text": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지",
+          "recorded_global_word_start": 297.88,
+          "recorded_global_word_end": 302.32,
+          "note": "Word times are ASR evidence, not independently cut per sentence for this review sample."
+        },
+        {
+          "cut_id": "ending_cut5",
+          "v8_original_text": "12개의 AI Agent가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+          "v9_requested_text": "12개의 AI Agent가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+          "exact_text_match": true,
+          "v8_original_spoken_text": "12개의 에이아이 에이전트가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+          "v9_spoken_text": "열두 개의 에이아이 에이전트가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+          "spoken_meaning_equal_after_number_notation": true,
+          "recorded_global_ASR_text": "12개의 AI 에이전트가 만든 변화, 이제 2개의 우수 과제를 만나봅니다.",
+          "recorded_global_word_start": 302.32,
+          "recorded_global_word_end": 308.16,
+          "note": "Word times are ASR evidence, not independently cut per sentence for this review sample."
+        }
+      ]
+    },
+    "all4_phonetic_meanings_equal": {
+      "pass": true,
+      "difference": "Old saved spoken text retains12개 digits; latest spoken text writes열두 개. Numeric meaning is identical."
+    },
+    "old_master_bound_to_original_manifest_and_generation_duration": {
+      "pass": true,
+      "master_sha256": "765a118636ccf1a0ee125d5c8554c34424ba07511b27df8b665b42da8ca8664f",
+      "historical_master_recorded_path": "/Users/jk/projects/media-maker/showcase/narration/take.wav",
+      "current_verified_copy": "/Users/jk/projects/media-maker/showcase-v8/narration/take.wav",
+      "source_duration_seconds": 308.56
+    },
+    "sample_exact_original_pcm_and_old_vo14": {
+      "pass": true,
+      "sample_sha256": "7a6e5d372d4c1b178ca38ae54058e27d120e78d19dfb49d87309a9783598b615",
+      "sample_pcm_sha256": "c931039fd8e6365bfb3fd0955564600f078bf4ab24b08a19f9ed909f4cb98855",
+      "source_start_sample": 14054160,
+      "source_end_sample": 14803920,
+      "source_seconds": [
+        292.795,
+        308.415
+      ]
+    },
+    "raw48k_mono16bit_original_speed": {
+      "pass": true,
+      "format": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "samples": 749760,
+        "duration_seconds": 15.62
+      },
+      "tempo": 1,
+      "resampling": false,
+      "time_stretch": false,
+      "loudness_normalization": false,
+      "BGM": false,
+      "fade": false,
+      "silence_trim": false
+    },
+    "fresh_local_ASR_all4_sentences_complete": {
+      "pass": true,
+      "observed_text": " 서로 다른 현장의 과제들이 AI와 함께 새로운 변화를 만들어갑니다. 업무 효율화부터 데이터 분석, 더 나은 연구 환경까지 12개의 AI 에이전트가 만든 변화, 이제 2개의 우수 과제를 만나봅니다.",
+      "method": {
+        "local_tool": "/opt/homebrew/bin/whisper",
+        "model": "small",
+        "language": "ko",
+        "word_timestamps": true,
+        "threads": 4,
+        "initial_prompt": null,
+        "remote_TTS": false
+      },
+      "last_word_end_local_seconds": 15.36,
+      "sample_tail_after_last_word_seconds": 0.2599999999999998
+    },
+    "Kyung_and_model_saved_provenance_match_latest_request": {
+      "pass": true,
+      "voice_name": "Kyung - Warm, Calm and Clear",
+      "voice_id": "JQaWvPoEUkcuOTfxFYpJ",
+      "model_id": "eleven_v4",
+      "old_generation_id": "7zuRMuCaa9FWLSKUkOtL",
+      "old_generation_status": "completed",
+      "generation_language": [
+        {
+          "label": "Language",
+          "value": "ko"
+        }
+      ],
+      "recorded_generation_mode": "single_take",
+      "settings_limit": "Connected Creative Studio schema exposes voice and language only; stability and similarity are recorded as requested defaults, not independently verified applied settings."
+    },
+    "sample_end_preserves_complete_final_phrase": {
+      "pass": true,
+      "edge_energy": [
+        {
+          "region": "first20ms",
+          "rms_dbfs": -62.28426892226592
+        },
+        {
+          "region": "first100ms",
+          "rms_dbfs": -63.76633862322352
+        },
+        {
+          "region": "last20ms",
+          "rms_dbfs": -64.46605168162168
+        },
+        {
+          "region": "last100ms",
+          "rms_dbfs": -50.63076841848308
+        }
+      ],
+      "original_start_boundary": {
+        "basis": "waveform silence inside verified word gap",
+        "left_word_end": 292.44,
+        "right_word_start": 293.02,
+        "point": 292.79499999999996,
+        "silence_preferred": true
+      },
+      "original_end_boundary": {
+        "basis": "waveform silence inside verified word gap",
+        "left_word_end": 308.16,
+        "right_word_start": 308.56,
+        "point": 308.41499999999996,
+        "silence_preferred": true
+      }
+    },
+    "v8_source_and_new_raw_take_unchanged": {
+      "pass": true,
+      "old_source_sha256_after": "765a118636ccf1a0ee125d5c8554c34424ba07511b27df8b665b42da8ca8664f",
+      "new_raw_sha256_after": "b2e19801305df1f1e2624fca327b14943f9d04f696271869b09225afc42ba12b"
+    },
+    "sample_only_not_an_approved_recovery": {
+      "pass": true,
+      "new_take_combined": false,
+      "single_take_rule_released": false,
+      "user_exception_approval_received": false,
+      "additional_paid_generation_performed": false
+    }
+  },
+  "checks_passed": 10,
+  "checks_total": 10,
+  "source_hashes": {
+    "showcase-v8/narration/manifest.json": "3729e3e8954e23a30d8dfe42d27fbc7cdf5c8a0e5047c6796e8920d5c74ffb95",
+    "showcase-v8/narration/alignment-report.json": "9ca7978d934ca7c44e3fa595396bba0a3609574683d29ed974b00fb64b64108c",
+    "showcase-v8/narration/generation-result.json": "3ea7cc13fca6d3c9d7ba2c29d18e17c9d830b1e1bda5455ad45478778be582da",
+    "showcase-v8/narration/revision-manifest.json": "be77ebaa0f1885bbc47903d3a2275a9e48c4e173f8b9a1bec59bf0785887a189",
+    "showcase-v9/narration/ko.json": "af21b829868fdb5e69fea88f58d1f3c5c8bdbed6e1872fa4d5fb1c8afa564ec5",
+    "out/showcase-v9/recovery-review/revision8-ending-original-speed.json": "25104e6c2c7966aa318be711aa745cf9a8975d65f15cafc6fa3985ef3702db2d"
+  },
+  "scope": "Prepare an original-speed isolated ending sample for user review only. No new take assembly, pause removal, voice conversion, TTS, or final-video approval.",
+  "speed_distinction": {
+    "sample_uses_original_source_tempo": 1,
+    "historical_processed_tempo_ratio": 1.2446782514254684,
+    "historical_final_v8_audio_used": false,
+    "explanation_ko": "이 샘플은 가속된 최종영상/retimed 음성에서 뽑은 것이 아니라, 가속 전 원본 take의16-bit PCM 구간입니다."
+  },
+  "reuse_constraints_ko": [
+    "같은 Kyung voice ID와eleven_v4 기록이어도 서로 다른 생성 take라 호흡·음색·강세가 완전히 같다는 보장은 없습니다. 사용자의 샘플 청취와 예외 승인이 필요합니다.",
+    "원문4문장은 정확히 같지만 이 엔딩을 새 take에 넣으면 엄격한 단일 take 전체 구성의 예외가 됩니다. 아직 이 규칙을 해제하거나 실제 합성을 하지 않았습니다.",
+    "사용자가 예외를 승인한다면 끊긴 단어 뒤만 이어 붙이기보다 기존 엔딩4문장 전체를 검토 대상으로 삼을 수 있습니다. 실제 접합 위치·음량·파형·시간표·315초 상한 검수는 그 뒤 별도입니다.",
+    "기존15.62초 엔딩으로 바꾸면 현재 약4.3초짜리 잘린 엔딩보다 길어지므로, 기존 약15.58초 무음축소 목표를 그대로 적용할 수 없습니다. 완전한 원음 기준으로 필요한 축소량을 다시 산정해야 합니다.",
+    "추가 유료 전체 재생성 또는 엔딩만 새로 생성하는 방식은 별도의 사용자 유료 생성 허가가 필요합니다. 엔딩만 새로 생성하는 경우에도 single_take 예외 승인이 필요합니다."
+  ],
+  "choice_constraints": [
+    {
+      "option": "Reuse this existing original-speed4-sentence ending",
+      "new_paid_generation_needed": false,
+      "single_take_exception_needed": true,
+      "status": "USER_REVIEW_AND_APPROVAL_PENDING"
+    },
+    {
+      "option": "Keep strict single_take for every spoken line",
+      "requirements": "A complete corrected provider asset or a separately authorized paid full generation; the current truncated take alone cannot satisfy it.",
+      "status": "NO_COMPLETE_CURRENT_SOURCE"
+    },
+    {
+      "option": "Generate a new ending only",
+      "new_paid_generation_needed": true,
+      "single_take_exception_needed": true,
+      "status": "NOT_AUTHORIZED_NOT_PERFORMED"
+    }
+  ],
+  "final_narration_complete": false,
+  "recovery_approved": false,
+  "media_merged": false
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED_PASS",
+  "mode": "built-in image_gen",
+  "skill": "/Users/jk/.codex/skills/.system/imagegen/SKILL.md",
+  "scope": "tasks 1-4 BEFORE insert photographs only",
+  "assets": [
+    {
+      "task_id": 1,
+      "visual_kind": "architecture",
+      "label": "흩어진 평가 자료를 찾는 현장",
+      "scene": "A Korean male semiconductor process engineer in his 30s stands half turned beside a physical archive shelf and an R&D workbench, pulling one slim technical folder from a shelf while holding a different open binder. His face is naturally alert and mildly uncertain as he tries to locate the right evaluation reference. Several separated monitors with small indistinct process plots sit deeper in the background. Three-quarter standing composition, archive search action, no chin-rest pose.",
+      "file": "production/assets/before/task-01.png",
+      "prompt": "Use case: ads-marketing\nAsset type: single square photographic insert for the BEFORE cut of a Korean semiconductor R&D introduction video, 1024x1024 or similar square.\nStyle: photorealistic candid enterprise R&D photography, realistic skin/hands/materials, elegant black-and-warm-gold visual continuity. Believable modern engineering office or analysis lab, charcoal furnishings, muted warm practical light, restrained amber edge light, subtle monitor light, natural shadows.\nComposition: the described work action must remain clearly legible when displayed at 494x500 pixels. One coherent scene, no multi-panel image, no montage. Keep key hands/props within the center 85 percent; no typography required.\nConstraints: no captions, no legible text, no letters, no logos, no readable numbers, no watermark, no artificial sci-fi holograms, no giant floating UI, no comic frustration, no repeated generic man with chin on hand. Show normal professional effort before automation. Human figures are fictional representatives, not portraits of project owners.\nPrimary request: A Korean male semiconductor process engineer in his 30s stands half turned beside a physical archive shelf and an R&D workbench, pulling one slim technical folder from a shelf while holding a different open binder. His face is naturally alert and mildly uncertain as he tries to locate the right evaluation reference. Several separated monitors with small indistinct process plots sit deeper in the background. Three-quarter standing composition, archive search action, no chin-rest pose.",
+      "generated_output_path": "/Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a/exec-f1e8e42e-dee7-4b96-95b9-6f3b07f7051c.png",
+      "output_hint": "Generated images are saved to /Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a as /Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a/exec-f1e8e42e-dee7-4b96-95b9-6f3b07f7051c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "review": {
+        "status": "PASS",
+        "method": "manual visual inspection using view_image of every generated original",
+        "notes": "PASS: one fictional male engineer stands and reaches for a folder while holding an open binder; natural visible hands and archive/search action. Warm black/gold lab continuity; fragmented reference monitors in background. Distinct from generic chin-rest contemplation.",
+        "text_note": "No prominent captions, branding or readable identifiers. Tiny incidental document/UI marks are indistinct at presentation size."
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ac2faf68a9cb50ef01307a3722f604ad4f50e9139baa5db6c3891a45314850d3",
+      "bytes": 2025622,
+      "absolute_project_path": "/Users/jk/projects/media-maker/production/assets/before/task-01.png"
+    },
+    {
+      "task_id": 2,
+      "visual_kind": "daily-report",
+      "label": "마감 전 보고서를 정리하는 현장",
+      "scene": "A Korean female equipment engineer seated at a dark desk is actively transcribing a chart from a printout into a daily report on a laptop, pen in one hand and other hand on the keyboard. A small desk clock and several loose report pages communicate a reporting deadline. Candid side profile, brows slightly furrowed and lips lightly pressed with time pressure. One laptop and one data monitor, screen content abstract and unreadable. No chin-rest pose.",
+      "file": "production/assets/before/task-02.png",
+      "prompt": "Use case: ads-marketing\nAsset type: single square photographic insert for the BEFORE cut of a Korean semiconductor R&D introduction video, 1024x1024 or similar square.\nStyle: photorealistic candid enterprise R&D photography, realistic skin/hands/materials, elegant black-and-warm-gold visual continuity. Believable modern engineering office or analysis lab, charcoal furnishings, muted warm practical light, restrained amber edge light, subtle monitor light, natural shadows.\nComposition: the described work action must remain clearly legible when displayed at 494x500 pixels. One coherent scene, no multi-panel image, no montage. Keep key hands/props within the center 85 percent; no typography required.\nConstraints: no captions, no legible text, no letters, no logos, no readable numbers, no watermark, no artificial sci-fi holograms, no giant floating UI, no comic frustration, no repeated generic man with chin on hand. Show normal professional effort before automation. Human figures are fictional representatives, not portraits of project owners.\nPrimary request: A Korean female equipment engineer seated at a dark desk is actively transcribing a chart from a printout into a daily report on a laptop, pen in one hand and other hand on the keyboard. A small desk clock and several loose report pages communicate a reporting deadline. Candid side profile, brows slightly furrowed and lips lightly pressed with time pressure. One laptop and one data monitor, screen content abstract and unreadable. No chin-rest pose.",
+      "generated_output_path": "/Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a/exec-ceb76cae-08dc-419e-9de1-5fc52aff3b51.png",
+      "output_hint": "Generated images are saved to /Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a as /Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a/exec-ceb76cae-08dc-419e-9de1-5fc52aff3b51.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "review": {
+        "status": "PASS",
+        "method": "manual visual inspection using view_image of every generated original",
+        "notes": "PASS: fictional female engineer uses a pen and keyboard beside a printout and clock; natural hands, side view, concentrated reporting deadline expression. Task-specific reporting work clearly readable at insert size.",
+        "text_note": "No prominent captions, branding or readable identifiers. Tiny incidental document/UI marks are indistinct at presentation size."
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6b3c16c40e38da72bc398bd7996180d9791dbe75cdbf09057d8af659e6926cb5",
+      "bytes": 1952289,
+      "absolute_project_path": "/Users/jk/projects/media-maker/production/assets/before/task-02.png"
+    },
+    {
+      "task_id": 3,
+      "visual_kind": "thinfilm",
+      "label": "여러 화면의 장비 현황을 대조하는 현장",
+      "scene": "Two Korean semiconductor R&D engineers, a woman and a man, stand at a workstation comparing three physically separate monitors showing abstract equipment status charts and a wafer map. The woman points from one monitor to another, the man checks a small paper checklist; both are focused, their eye lines show comparison between screens. Wider eye-level medium composition, human collaboration and fragmented information, no sitting man contemplating, no chin-rest.",
+      "file": "production/assets/before/task-03.png",
+      "prompt": "Use case: ads-marketing\nAsset type: single square photographic insert for the BEFORE cut of a Korean semiconductor R&D introduction video, 1024x1024 or similar square.\nStyle: photorealistic candid enterprise R&D photography, realistic skin/hands/materials, elegant black-and-warm-gold visual continuity. Believable modern engineering office or analysis lab, charcoal furnishings, muted warm practical light, restrained amber edge light, subtle monitor light, natural shadows.\nComposition: the described work action must remain clearly legible when displayed at 494x500 pixels. One coherent scene, no multi-panel image, no montage. Keep key hands/props within the center 85 percent; no typography required.\nConstraints: no captions, no legible text, no letters, no logos, no readable numbers, no watermark, no artificial sci-fi holograms, no giant floating UI, no comic frustration, no repeated generic man with chin on hand. Show normal professional effort before automation. Human figures are fictional representatives, not portraits of project owners.\nPrimary request: Two Korean semiconductor R&D engineers, a woman and a man, stand at a workstation comparing three physically separate monitors showing abstract equipment status charts and a wafer map. The woman points from one monitor to another, the man checks a small paper checklist; both are focused, their eye lines show comparison between screens. Wider eye-level medium composition, human collaboration and fragmented information, no sitting man contemplating, no chin-rest.",
+      "generated_output_path": "/Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a/exec-71a064b1-6460-4b8b-8d12-99bfdeb326a1.png",
+      "output_hint": "Generated images are saved to /Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a as /Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a/exec-71a064b1-6460-4b8b-8d12-99bfdeb326a1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "review": {
+        "status": "PASS",
+        "method": "manual visual inspection using view_image of every generated original",
+        "notes": "PASS: two fictional engineers compare three screens; woman points to chart while man holds a paper checklist. Natural anatomy, collaboration and fragmented equipment/wafer information. Wide medium view differs from single-worker scenes.",
+        "text_note": "No prominent captions, branding or readable identifiers. Tiny incidental document/UI marks are indistinct at presentation size."
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "873a398e944d3b8948c7173b5642017f4360b2cc267943ba4345fa3fefc02092",
+      "bytes": 1953064,
+      "absolute_project_path": "/Users/jk/projects/media-maker/production/assets/before/task-03.png"
+    },
+    {
+      "task_id": 4,
+      "visual_kind": "working-board",
+      "label": "여러 파일에서 조건을 대조하는 작업",
+      "scene": "A close overhead view of an R&D desk and only the hands and forearms of a researcher manually spreading and matching several separate printed process charts, equipment logs, and experiment pages. One hand moves a sheet between two open laptops at opposite corners, the other marks a row with a pencil. Different unconnected document stacks show the burden of scattered files. The face is outside the frame. Tactile paper-and-screen overhead composition.",
+      "file": "production/assets/before/task-04.png",
+      "prompt": "Use case: ads-marketing\nAsset type: single square photographic insert for the BEFORE cut of a Korean semiconductor R&D introduction video, 1024x1024 or similar square.\nStyle: photorealistic candid enterprise R&D photography, realistic skin/hands/materials, elegant black-and-warm-gold visual continuity. Believable modern engineering office or analysis lab, charcoal furnishings, muted warm practical light, restrained amber edge light, subtle monitor light, natural shadows.\nComposition: the described work action must remain clearly legible when displayed at 494x500 pixels. One coherent scene, no multi-panel image, no montage. Keep key hands/props within the center 85 percent; no typography required.\nConstraints: no captions, no legible text, no letters, no logos, no readable numbers, no watermark, no artificial sci-fi holograms, no giant floating UI, no comic frustration, no repeated generic man with chin on hand. Show normal professional effort before automation. Human figures are fictional representatives, not portraits of project owners.\nPrimary request: A close overhead view of an R&D desk and only the hands and forearms of a researcher manually spreading and matching several separate printed process charts, equipment logs, and experiment pages. One hand moves a sheet between two open laptops at opposite corners, the other marks a row with a pencil. Different unconnected document stacks show the burden of scattered files. The face is outside the frame. Tactile paper-and-screen overhead composition.",
+      "generated_output_path": "/Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a/exec-487fd8c9-f04d-4fa0-91ec-9d0d2b3c9b5c.png",
+      "output_hint": "Generated images are saved to /Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a as /Users/jk/.codex/generated_images/01a134e7-747c-7842-af1d-9590857e707a/exec-487fd8c9-f04d-4fa0-91ec-9d0d2b3c9b5c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "review": {
+        "status": "PASS",
+        "method": "manual visual inspection using view_image of every generated original",
+        "notes": "PASS: overhead cropped desk shows two natural hands manually comparing process/equipment printouts between two laptop corners. Face excluded; charts and document stacks communicate fragmented files. Distinct tactile action; no generic pensive character.",
+        "text_note": "No prominent captions, branding or readable identifiers. Tiny incidental document/UI marks are indistinct at presentation size."
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ab842a5460d7b1fa79efb405e00c990cd88badc41f291af0e1de5dcd1cfd8717",
+      "bytes": 2351089,
+      "absolute_project_path": "/Users/jk/projects/media-maker/production/assets/before/task-04.png"
+    }
+  ]
+}

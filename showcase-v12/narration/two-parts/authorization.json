@@ -1,0 +1,24 @@
+{
+  "revision": 12,
+  "authorization_source": "direct_user_reply_in_current_chat",
+  "user_answer": "두 부분으로 각각 1회 생성 (권장)",
+  "approved_question": "새 전체 음성이 마지막 과제 중간에서 끊겨 엔딩까지 누락됐습니다. 기존에 정하신 전체 한 번 생성 규칙을 이번 수정에 한해 예외로 두고, 같은 Kyung·4번 톤·원고68문장을33문장+35문장으로 각각1회 생성. 추가 견적 합계 약US$0.52, 이후 음높이를 유지해1.15배 적용.",
+  "generation_mode": "two_part_with_user_authorization",
+  "default_generation_policy": "single_take",
+  "two_part_exception_authorized": true,
+  "generations_count_each": 1,
+  "sentence_counts": [
+    33,
+    35
+  ],
+  "speech_tempo": 1.15,
+  "pitch_cents": 0,
+  "selected_tone_preview": 4,
+  "selected_generation_id": "jNBpdsn3DW247ttAh5dS",
+  "voice_id": "JQaWvPoEUkcuOTfxFYpJ",
+  "model_id": "eleven_v4",
+  "estimated_credits": 2577,
+  "estimated_price_cents": 51.54,
+  "max_video_seconds": 330,
+  "created_at_utc": "2026-10-19T23:40:24.780847+00:00"
+}

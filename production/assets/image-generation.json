@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "mode": "built-in image_gen",
+  "intent": "new generation",
+  "use_case": "ads-marketing",
+  "reference_source": "concept/1791878315559.png",
+  "reference_role": "visual guide inspected locally; used to derive prompts, not edited or passed as an edit target",
+  "status": "COMPLETE",
+  "assets": [
+    {
+      "id": "hero",
+      "file": "production/assets/hero.png",
+      "source_output": "/Users/jk/.codex/generated_images/01a13462-ce21-7b20-ad18-477a4c9ce989/exec-04c960dd-7b10-48a5-be3e-2e27df4e1ecb.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ed86304e01d66f73234392290d00a3bcf1c03c61a470ef3608577b6264fac80f",
+      "prompt": "Use case: ads-marketing\nAsset type: cinematic opening background for a horizontal semiconductor R&D motion video, a single image, 16:9 landscape 1920x1080 or 2048x1152.\nPrimary request: Create a photorealistic black-and-gold semiconductor R&D scene with a macro silicon wafer with fine gold circuit traces filling the lower-right foreground and a precision etch instrument suspended above it on the right. On the far left, a monumental tall dark cleanroom corridor contains a luminous warm open doorway and one tiny silhouetted engineer walking inward. These elements share one continuous realistic industrial atmosphere and cinematic lighting; do not divide into panels or collage.\nComposition/framing: Wide establishing composition. Put the principal wafer and instrument on the right half, and the doorway at the far-left edge. Preserve abundant clean nearly-black negative space in the left-center and upper-left for typography to be added later. Doorway vertical perspective should feel monumental, engineer small and distant. Fine wafer surface detail and polished metallic instrument, believable industrial textures.\nLighting/mood: Warm gold rim lighting, subtle reflective black floor, gentle volumetric golden light, sophisticated and hopeful, elegant enterprise launch-film quality.\nColor palette: charcoal black, deep dark bronze, refined warm gold, restrained amber highlights.\nConstraints: no text, no typography, no letters, no logos, no labels, no numbers, no watermark, no border, no collage, no inset panels. Dark copy area must remain usable. A single cinematic background image.",
+      "visual_review": "PASS: One cinematic scene, left doorway and small engineer, dark left-center copy space, right wafer and precision instrument; no visible text, logos, labels, panels, or watermark."
+    },
+    {
+      "id": "ending",
+      "file": "production/assets/ending.png",
+      "source_output": "/Users/jk/.codex/generated_images/01a13462-ce21-7b20-ad18-477a4c9ce989/exec-04024ac6-1c11-4f39-a556-0a577c5e0d8d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4376d4849b1ac6c2c504095129ee79a7cbce8a354ad8431f33c19bfbdf906e6b",
+      "prompt": "Use case: ads-marketing\nAsset type: cinematic ending background for a horizontal semiconductor R&D motion video, a single 16:9 landscape image, ideally 1920x1080 or 2048x1152.\nPrimary request: A hopeful elegant black-and-gold future-facing R&D cinematic scene. A subtle Earth-like curved horizon glows warm gold across the lower-right portion of the frame, with delicate digital global network points and connecting arcs following the globe curvature. One small full-body back-view researcher silhouette stands near the right one-third, looking toward the horizon. Tall refined architectural gold light columns recede in the far-right distance. These elements form one coherent industrial-futuristic environment, as an elegant enterprise innovation launch film.\nStyle/medium: Photorealistic cinematic rendering, realistic brushed metal and reflective dark floor, restrained refined technology visuals, not an infographic.\nComposition/framing: Wide view. Position the researcher at about 73 percent across the frame, full body small enough to show scale. Keep the left two-thirds and upper half predominantly clean charcoal black with generous negative space for Korean ending copy added later. Gold horizon and network details concentrated toward right and bottom. No central bright object competing with copy.\nLighting/mood: Warm radiant horizon, subtle gold rim light on the silhouette, realistic atmospheric depth and floor reflections. Quiet, confident, hopeful, elegant.\nColor palette: almost-black charcoal, bronze shadows, gold highlights.\nConstraints: no text, no letters, no numbers, no logos, no watermarks, no diagram labels, no collage, no panels or borders. Only one small researcher. One cinematic background image.",
+      "visual_review": "PASS: Curved gold global-network horizon, one back-view researcher at right one-third, receding right gold columns, generous dark upper-left copy space; no visible text, logos, labels, panels, or watermark."
+    }
+  ],
+  "canvas_note": "Generated outputs are 1672x941 landscape (near 16:9); consuming 1920x1080 video should use object-fit: cover. No source concept images were changed.",
+  "task_before_assets": {
+    "manifest": "production/assets/before/manifest.json",
+    "count": 12,
+    "mode": "built-in image_gen",
+    "purpose": "User requested task-specific varied BEFORE work actions instead of repeated pensive male photos.",
+    "source_role": "New fictional work scenes support the source concept task content; not owner portraits."
+  }
+}

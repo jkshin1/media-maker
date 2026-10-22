@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "delivery_status": "COMPLETE_PENDING_USER_REVIEW",
+  "production_complete": true,
+  "human_acceptance": "PENDING_USER_REVIEW",
+  "revision": 10,
+  "created_at_utc": "2026-10-19T12:42:44.901420+00:00",
+  "duration_seconds": 315,
+  "frames": 9450,
+  "voice": "Kyung - Warm, Calm and Clear",
+  "generation_mode": "two_part_with_user_authorization",
+  "two_part_exception_authorized": true,
+  "retime_exception_authorized": true,
+  "speech_tempo": 1,
+  "pitch_cents": 315,
+  "spoken_samples_removed": 0,
+  "internal_quiet_seconds_removed": 2.6599791666666666,
+  "checks": {
+    "final_media_all55_pass": true,
+    "source_package_all14_pass": true,
+    "fresh_source_reproduction_all11_pass": true,
+    "final_repack_has_same_tested_source": true,
+    "final_video_hash_bound": true,
+    "final_zip_hash_bound": true,
+    "exact315s_natural_speed": true,
+    "narration_MD_all68_exact_lines": true,
+    "current_retime_pitch_authorized": true,
+    "prior_revisions_preserved": true
+  },
+  "checks_passed": 10,
+  "checks_total": 10,
+  "artifacts": {
+    "RD_Process_AI_Fast_Track_Showcase_Revision10.mp4": {
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/RD_Process_AI_Fast_Track_Showcase_Revision10.mp4",
+      "sha256": "a58b2a2bd527b9a6e649814855e9add5681c8a19976f5b3cac7d9ab71eca6cb7",
+      "bytes": 112174513
+    },
+    "RD_Process_AI_Fast_Track_Showcase_Revision10_Source.zip": {
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/RD_Process_AI_Fast_Track_Showcase_Revision10_Source.zip",
+      "sha256": "40711b90ad67e6ca7165b6e9326cb745de8099a2f591717516c47792e7044f2e",
+      "bytes": 221866318
+    },
+    "RD_Process_AI_Fast_Track_Showcase_Revision10_Narration_Timeline.md": {
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/RD_Process_AI_Fast_Track_Showcase_Revision10_Narration_Timeline.md",
+      "sha256": "5f6f1689996aa61254991e26f20d92170abfb8bd699b54cc1cc59f0bd57623e8",
+      "bytes": 7676
+    }
+  },
+  "immutable_source_identity": {
+    "file_count": 172,
+    "manifest_sha256": "e6586cf403d74409794a88798c1b262ba7d207d96a4be17272e886f31400ef84"
+  },
+  "source_identity_sha256": "92c31c5917cbb6a5c7d8f7f998ac005bdd43bfb1e69e79183333c5dfcca5e3c2",
+  "scope_limits": [
+    "Complete muted browser1x playback, source/ASR boundaries, BGM PCM, levels and final AAC/source correlation were verified. Subjective human listening acceptance remains pending.",
+    "Lot is written as 랏 in the approved spoken script. SNM 랏 아이디 near00:43.9 remains uncertain in automatic transcription; pronunciation perfection is not claimed.",
+    "The final ZIP source identity matches the fresh69PNG/fourWAV reproduction after receipt-only repack."
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "revision": 10,
+  "status": "PASS",
+  "scope": "Final encoded visual track identity linked to independently reviewed silent render. Exact copied video packets justify reuse of69 native stills and8 direct native/encoded comparisons; no redundant final frame extraction, whole visual playback, or listening claimed.",
+  "video_file": "/Users/jk/projects/media-maker/out/showcase-v10/RD_Process_AI_Fast_Track_Showcase_Revision10.mp4",
+  "video_sha256": "a58b2a2bd527b9a6e649814855e9add5681c8a19976f5b3cac7d9ab71eca6cb7",
+  "silent_video_sha256": "2217673d0cef3bbaa1c8cc9ec2bd3b0c02124d00ba2baed43039ce7772f2b45f",
+  "video_stream_sha256": "SHA256=29cf7420deb9e4a82f398e4439198840f3b0adee4ee49ab16fc2f1298748f294",
+  "duration_seconds": 315,
+  "frames": 9450,
+  "timeline_sha256": "8beda6d4a6871df3542f86a1aacf7d4d6912caed99923a90b3725796f6958318",
+  "checks": {
+    "current_final_video_and_timeline_bound": true,
+    "final_video_packets_exact_silent_visuals": true,
+    "315s9450frames1920x1080at30fps": true,
+    "silent69native_and8direct_encoded_samples_pass": true,
+    "whole_final_AV_strict_decode_receipt_bound": true,
+    "all_linked_receipts_current": true
+  },
+  "receipts": [
+    {
+      "file": "mux-validation.json",
+      "sha256": "5a9c0068de3b92c721bc00df0ca7e73ab0d96099bd83b74d3d3ec2248a9378db"
+    },
+    {
+      "file": "silent-encoded-visual-review.json",
+      "sha256": "1b8d4a96b86f5b0cd25a07283184fe50f778a13d619c1c62dacce6e604d1c870"
+    },
+    {
+      "file": "retime-native-visual-review.json",
+      "sha256": "cb558d7e8f746ac75c6d9a254ddfacf52ae03c7e7390990bc68b54d7a613393a"
+    }
+  ],
+  "direct_visual_samples": [
+    {
+      "cut_id": "task11_cut4",
+      "frame_index": 1736,
+      "time_seconds": 57.86666666666667,
+      "native_time_seconds": 57.87533333333334,
+      "time_difference_seconds": -0.008666666666670153,
+      "native_file": "/Users/jk/projects/media-maker/out/showcase-v10/stills/013_task11_cut_4.png",
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/01_task11_cut4.png",
+      "sha256": "f478f9a6dfe64e4b3b09ba14be4217cb387a7d57d73d37c24e738b4bf59fe71b",
+      "native_sha256": "ee05c9d093e38d460f8ab6c085152fe9e7098143e7f445b0af26423be8f1dc29",
+      "ssim_all": 0.989044,
+      "rgb_mean_absolute_error": 1.0240727663040161,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "cut_id": "task13_cut4",
+      "frame_index": 2513,
+      "time_seconds": 83.76666666666667,
+      "native_time_seconds": 83.77666666666667,
+      "time_difference_seconds": -0.010000000000005116,
+      "native_file": "/Users/jk/projects/media-maker/out/showcase-v10/stills/018_task13_cut_4.png",
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/02_task13_cut4.png",
+      "sha256": "921a12f588dfb546c26f429c54506c96781fe2c725ebd66a53288d5f330634e6",
+      "native_sha256": "2e247ce0e510c33d6c80826e5a875b88bf6b56811296b2778b927669b0337556",
+      "ssim_all": 0.992303,
+      "rgb_mean_absolute_error": 0.7866536378860474,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "cut_id": "task17_cut4",
+      "frame_index": 3856,
+      "time_seconds": 128.53333333333333,
+      "native_time_seconds": 128.53533333333334,
+      "time_difference_seconds": -0.0020000000000095497,
+      "native_file": "/Users/jk/projects/media-maker/out/showcase-v10/stills/028_task17_cut_4.png",
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/03_task17_cut4.png",
+      "sha256": "797048369a606d760d5b12e73dda8f78bd4a38d5338dee62aec3ce197ef840e0",
+      "native_sha256": "71773903dc278bc7a19c9a983cfdc2d879e20a6a478c304f1ffcf2ef39025cbb",
+      "ssim_all": 0.991043,
+      "rgb_mean_absolute_error": 1.022889494895935,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "cut_id": "task9_cut4",
+      "frame_index": 5092,
+      "time_seconds": 169.73333333333332,
+      "native_time_seconds": 169.72533333333334,
+      "time_difference_seconds": 0.007999999999981355,
+      "native_file": "/Users/jk/projects/media-maker/out/showcase-v10/stills/037_task9_cut_4.png",
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/04_task9_cut4.png",
+      "sha256": "e4ee92d4922679b69a6b69f1b71848c381bbf343a5cd98bfbcdd98b38ad80683",
+      "native_sha256": "03bccca8fa23ed6384f5d0a43217d9ed8f7261f63662375eb020fbe834734683",
+      "ssim_all": 0.993698,
+      "rgb_mean_absolute_error": 0.7370661497116089,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "cut_id": "task3_cut4",
+      "frame_index": 6929,
+      "time_seconds": 230.96666666666667,
+      "native_time_seconds": 230.9586666666667,
+      "time_difference_seconds": 0.007999999999981355,
+      "native_file": "/Users/jk/projects/media-maker/out/showcase-v10/stills/050_task3_cut_4.png",
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/05_task3_cut4.png",
+      "sha256": "f1e2c0feaff8832be54ca1ed1a72130500cb587f5067523b2dfb38a518791c42",
+      "native_sha256": "66ace0fc01cc6113b81e98ab18e730da91a6e8cf4dd3e16529e907678a8c5d97",
+      "ssim_all": 0.992288,
+      "rgb_mean_absolute_error": 0.966778576374054,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "cut_id": "task8_cut4",
+      "frame_index": 7410,
+      "time_seconds": 247.0,
+      "native_time_seconds": 246.99666666666667,
+      "time_difference_seconds": 0.0033333333333303017,
+      "native_file": "/Users/jk/projects/media-maker/out/showcase-v10/stills/054_task8_cut_4.png",
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/06_task8_cut4.png",
+      "sha256": "f153753beff9cb81cb316b6589e5387fd5ec64647f0e58216e79eab7d9ce1bf0",
+      "native_sha256": "e323f7446c34b47a1705dde896c38c9e0d62ef27fb238bc379ca415c201126ec",
+      "ssim_all": 0.988787,
+      "rgb_mean_absolute_error": 1.1177977323532104,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "cut_id": "task14_cut4",
+      "frame_index": 7971,
+      "time_seconds": 265.7,
+      "native_time_seconds": 265.686,
+      "time_difference_seconds": 0.014000000000010004,
+      "native_file": "/Users/jk/projects/media-maker/out/showcase-v10/stills/058_task14_cut_4.png",
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/07_task14_cut4.png",
+      "sha256": "bb00934cda9e5870b366a5c6a192436bb13396e410f511ef4605d58220e39356",
+      "native_sha256": "3dfe19240d437ccc666afcf2e70aeaad303e038f8f593acb5f62e8a71ba61678",
+      "ssim_all": 0.991749,
+      "rgb_mean_absolute_error": 0.919690728187561,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "cut_id": "task16_cut4",
+      "frame_index": 8723,
+      "time_seconds": 290.76666666666665,
+      "native_time_seconds": 290.7733333333333,
+      "time_difference_seconds": -0.006666666666660603,
+      "native_file": "/Users/jk/projects/media-maker/out/showcase-v10/stills/063_task16_cut_4.png",
+      "file": "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/08_task16_cut4.png",
+      "sha256": "0de517492ae526ea2f1bd164fb02dddaa1faa5a2e46fef3b61cee47e9716613a",
+      "native_sha256": "18a35170bf0d16e461c2f9824f9c25f1765dd090da119d118c62d0bd00964e46",
+      "ssim_all": 0.991174,
+      "rgb_mean_absolute_error": 0.9193333387374878,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "direct_visual_review": {
+    "status": "PASS",
+    "scope": "Directly inspected all eight Native/Encoded pairs in the contact sheet and full-size encoded task8_cut4 and task16_cut4 PNGs. Sampled visual inspection only; no listening or complete-video visual-playback claim.",
+    "findings": [
+      "All eight result cards omit the exact requested 자료 기준 qualifier while preserving remaining labels, numerical values and layout.",
+      "Human final validation, single-layer limitation, candidate-versus-confirmed distinction, and future-plan footers remain legible in the sampled result cuts.",
+      "No sampled header clipping, missing glyphs, malformed geometry or gross photo/compositing defects observed."
+    ],
+    "viewed_files": [
+      "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/native-vs-encoded-eight-cuts.jpg",
+      "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/06_task8_cut4.png",
+      "/Users/jk/projects/media-maker/out/showcase-v10/retimed-silent-encoded-review/08_task16_cut4.png"
+    ]
+  },
+  "final_audio_verified": false,
+  "production_complete": false,
+  "updated_at_utc": "2026-10-19T12:26:42.482978+00:00",
+  "receipt_rebinding": {
+    "reason": "The offline audio entrypoint was corrected and independently rebuilt to the same four WAV bytes. The owner rebound existing-media mux metadata without rewriting the MP4; exact video-stream copy and whole-AV strict decode remain PASS. No additional media test or rendering performed here.",
+    "previous_mux_receipt_sha256": "94180e6661f7e9d9b5f8f877a5cce834a487332748de8d57ae0499686a4b91f7",
+    "current_mux_receipt_sha256": "5a9c0068de3b92c721bc00df0ca7e73ab0d96099bd83b74d3d3ec2248a9378db",
+    "video_unchanged": true,
+    "updated_at_utc": "2026-10-19T12:39:53.603772+00:00"
+  },
+  "receipt_rebinding_history": [
+    {
+      "reason": "The owner reran existing-media validation without rewriting the MP4. Current mux confirms the same exact video packets and whole-AV strict decode. No new extraction/render/playback performed.",
+      "previous_mux_receipt_sha256": "d2395851530ed1d3ab5c69c9c7de64bc8fc5c26687cca15d8aa337d81d2d9f6b",
+      "current_mux_receipt_sha256": "94180e6661f7e9d9b5f8f877a5cce834a487332748de8d57ae0499686a4b91f7",
+      "video_unchanged": true,
+      "updated_at_utc": "2026-10-19T12:31:09.442773+00:00"
+    }
+  ]
+}

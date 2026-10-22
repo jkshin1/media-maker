@@ -1,0 +1,733 @@
+{
+  "duration": 276,
+  "entries": [
+    {
+      "section_id": "opening",
+      "kind": "opening",
+      "start": 0,
+      "end": 4,
+      "cut_index": 0,
+      "caption": "R&D 현업에 AI를 더합니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "opening",
+      "start": 4,
+      "end": 8,
+      "cut_index": 1,
+      "caption": "더 나은 R&D 공정을 위한 변화가 시작됩니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "opening",
+      "start": 8,
+      "end": 12,
+      "cut_index": 2,
+      "caption": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "opening",
+      "start": 12,
+      "end": 16,
+      "cut_index": 3,
+      "caption": "현업의 다양한 과제를 해결하기 위한 도전입니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "opening",
+      "start": 16,
+      "end": 20,
+      "cut_index": 4,
+      "caption": "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track."
+    },
+    {
+      "section_id": "opening",
+      "kind": "opening",
+      "start": 20,
+      "end": 24,
+      "cut_index": 5,
+      "caption": "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "opening",
+      "start": 24,
+      "end": 28,
+      "cut_index": 6,
+      "caption": "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "opening",
+      "start": 28,
+      "end": 32,
+      "cut_index": 7,
+      "caption": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다."
+    },
+    {
+      "section_id": "opening",
+      "kind": "opening",
+      "start": 32,
+      "end": 36,
+      "cut_index": 8,
+      "caption": "지금부터 12개의 AI Agent 과제를 소개합니다."
+    },
+    {
+      "section_id": "summary1",
+      "kind": "summary",
+      "start": 36,
+      "end": 42,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task3",
+      "kind": "title",
+      "start": 42,
+      "end": 44,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task3",
+      "kind": "task",
+      "start": 44,
+      "end": 47,
+      "cut_index": 0,
+      "caption": "흩어져 있는 Lot과 장비, 공정 이력을"
+    },
+    {
+      "section_id": "task3",
+      "kind": "task",
+      "start": 47,
+      "end": 50,
+      "cut_index": 1,
+      "caption": "하나의 앱에서 한 번에 확인하고,"
+    },
+    {
+      "section_id": "task3",
+      "kind": "task",
+      "start": 50,
+      "end": 53,
+      "cut_index": 2,
+      "caption": "데이터 간 연계를 통해 종합적으로 분석합니다."
+    },
+    {
+      "section_id": "task3",
+      "kind": "task",
+      "start": 53,
+      "end": 56,
+      "cut_index": 3,
+      "caption": "이를 바탕으로 분석 결과를 직관적으로 확인하고,"
+    },
+    {
+      "section_id": "task3",
+      "kind": "task",
+      "start": 56,
+      "end": 59,
+      "cut_index": 4,
+      "caption": "Lot 1건 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다."
+    },
+    {
+      "section_id": "task4",
+      "kind": "title",
+      "start": 59,
+      "end": 61,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task4",
+      "kind": "task",
+      "start": 61,
+      "end": 64,
+      "cut_index": 0,
+      "caption": "여러 시스템과 자료에 흩어진 Lot과 장비, FDC 정보를"
+    },
+    {
+      "section_id": "task4",
+      "kind": "task",
+      "start": 64,
+      "end": 67,
+      "cut_index": 1,
+      "caption": "하나의 플랫폼에서 확인하고,"
+    },
+    {
+      "section_id": "task4",
+      "kind": "task",
+      "start": 67,
+      "end": 70,
+      "cut_index": 2,
+      "caption": "실시간 현황과 Summary Chart로 핵심 정보를 빠르게 파악합니다."
+    },
+    {
+      "section_id": "task4",
+      "kind": "task",
+      "start": 70,
+      "end": 73,
+      "cut_index": 3,
+      "caption": "이어서 DOE 결과를 업데이트하고 조직과 공유해,"
+    },
+    {
+      "section_id": "task4",
+      "kind": "task",
+      "start": 73,
+      "end": 76,
+      "cut_index": 4,
+      "caption": "분석 방법과 최적 조건 탐색 로직을 조직의 자산으로 축적합니다."
+    },
+    {
+      "section_id": "task5",
+      "kind": "title",
+      "start": 76,
+      "end": 78,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task5",
+      "kind": "task",
+      "start": 78,
+      "end": 81,
+      "cut_index": 0,
+      "caption": "회의 자료와 이슈, 관련 문서가 여러 곳에 흩어져 있어"
+    },
+    {
+      "section_id": "task5",
+      "kind": "task",
+      "start": 81,
+      "end": 84,
+      "cut_index": 1,
+      "caption": "필요한 정보를 찾는 데 시간이 걸립니다. C&C Working Board Agent를 통해 관련 자료와 지식을 검색하고,"
+    },
+    {
+      "section_id": "task5",
+      "kind": "task",
+      "start": 84,
+      "end": 87,
+      "cut_index": 2,
+      "caption": "핵심 이슈와 내용을 빠르게 파악합니다."
+    },
+    {
+      "section_id": "task5",
+      "kind": "task",
+      "start": 87,
+      "end": 90,
+      "cut_index": 3,
+      "caption": "필요한 정보를 업무에 활용해"
+    },
+    {
+      "section_id": "task5",
+      "kind": "task",
+      "start": 90,
+      "end": 93,
+      "cut_index": 4,
+      "caption": "협업과 의사결정을 지원합니다."
+    },
+    {
+      "section_id": "summary2",
+      "kind": "summary",
+      "start": 93,
+      "end": 99,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task7",
+      "kind": "title",
+      "start": 99,
+      "end": 101,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task7",
+      "kind": "task",
+      "start": 101,
+      "end": 104,
+      "cut_index": 0,
+      "caption": "새로운 공정 평가를 시작할 때, 필요한 지식과 경험을 찾는 일부터 시작됩니다."
+    },
+    {
+      "section_id": "task7",
+      "kind": "task",
+      "start": 104,
+      "end": 107,
+      "cut_index": 1,
+      "caption": "과거의 평가 이력과 선행 경험 속에서 답을 찾아야 했습니다."
+    },
+    {
+      "section_id": "task7",
+      "kind": "task",
+      "start": 107,
+      "end": 110,
+      "cut_index": 2,
+      "caption": "이제 LLM에 질문해 관련 지식과 경험을 연결합니다."
+    },
+    {
+      "section_id": "task7",
+      "kind": "task",
+      "start": 110,
+      "end": 113,
+      "cut_index": 3,
+      "caption": "축적된 경험을 바탕으로 최적의 Plan과 Recipe를 추천받습니다."
+    },
+    {
+      "section_id": "task7",
+      "kind": "task",
+      "start": 113,
+      "end": 116,
+      "cut_index": 4,
+      "caption": "흩어진 공정 지식을 활용해 더 정확한 평가 의사결정을 지원합니다."
+    },
+    {
+      "section_id": "task8",
+      "kind": "title",
+      "start": 116,
+      "end": 118,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task8",
+      "kind": "task",
+      "start": 118,
+      "end": 121,
+      "cut_index": 0,
+      "caption": "여러 시스템에 흩어진 공정 데이터를 하나씩 확인하던 업무를,"
+    },
+    {
+      "section_id": "task8",
+      "kind": "task",
+      "start": 121,
+      "end": 124,
+      "cut_index": 1,
+      "caption": "자연어로 필요한 데이터를 질문하고,"
+    },
+    {
+      "section_id": "task8",
+      "kind": "task",
+      "start": 124,
+      "end": 127,
+      "cut_index": 2,
+      "caption": "AI Agent가 관련 공정 데이터를 조회해 연결하고,"
+    },
+    {
+      "section_id": "task8",
+      "kind": "task",
+      "start": 127,
+      "end": 130,
+      "cut_index": 3,
+      "caption": "Wafer Map과 그래프로 시각화해 한눈에 파악하고,"
+    },
+    {
+      "section_id": "task8",
+      "kind": "task",
+      "start": 130,
+      "end": 133,
+      "cut_index": 4,
+      "caption": "데이터 분석 시간을 단축해 더 빠른 의사결정을 지원합니다."
+    },
+    {
+      "section_id": "task9",
+      "kind": "title",
+      "start": 133,
+      "end": 135,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task9",
+      "kind": "task",
+      "start": 135,
+      "end": 138,
+      "cut_index": 0,
+      "caption": "C&C Inline Data를 조건별로 조회하고 이상 여부를 확인하던 업무를,"
+    },
+    {
+      "section_id": "task9",
+      "kind": "task",
+      "start": 138,
+      "end": 141,
+      "cut_index": 1,
+      "caption": "LLM에 자연어로 분석을 요청하고,"
+    },
+    {
+      "section_id": "task9",
+      "kind": "task",
+      "start": 141,
+      "end": 144,
+      "cut_index": 2,
+      "caption": "GoodDocs 매핑과 상관관계 분석으로 관련 정보를 연결하고,"
+    },
+    {
+      "section_id": "task9",
+      "kind": "task",
+      "start": 144,
+      "end": 147,
+      "cut_index": 3,
+      "caption": "분석 결과를 시각화하고 연계 공정을 선별해,"
+    },
+    {
+      "section_id": "task9",
+      "kind": "task",
+      "start": 147,
+      "end": 150,
+      "cut_index": 4,
+      "caption": "분석 시간을 단축하고 더 빠른 의사결정을 지원합니다."
+    },
+    {
+      "section_id": "summary3",
+      "kind": "summary",
+      "start": 150,
+      "end": 156,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task11",
+      "kind": "title",
+      "start": 156,
+      "end": 158,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task11",
+      "kind": "task",
+      "start": 158,
+      "end": 161,
+      "cut_index": 0,
+      "caption": "Overlay 분석 도구별로 데이터를 조회하고 담당자의 지식에 의존해 열화 원인을 분석하던 업무를,"
+    },
+    {
+      "section_id": "task11",
+      "kind": "task",
+      "start": 161,
+      "end": 164,
+      "cut_index": 1,
+      "caption": "Lot ID 하나로 필요한 데이터를 통합 조회합니다."
+    },
+    {
+      "section_id": "task11",
+      "kind": "task",
+      "start": 164,
+      "end": 167,
+      "cut_index": 2,
+      "caption": "Overlay, Residual, MA Bias를 Vector·Scatter Map으로 확인합니다."
+    },
+    {
+      "section_id": "task11",
+      "kind": "task",
+      "start": 167,
+      "end": 170,
+      "cut_index": 3,
+      "caption": "주요 Overlay Parameter의 Trend를 비교하고, 정상 대비 Wafer 분포를 확인합니다."
+    },
+    {
+      "section_id": "task11",
+      "kind": "task",
+      "start": 170,
+      "end": 173,
+      "cut_index": 4,
+      "caption": "K-parameter를 정상 Baseline 대비 Z-score로 평가해 의심 공정 계층을 추정하고, 원인별 솔루션을 제시합니다."
+    },
+    {
+      "section_id": "task12",
+      "kind": "title",
+      "start": 173,
+      "end": 175,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task12",
+      "kind": "task",
+      "start": 175,
+      "end": 178,
+      "cut_index": 0,
+      "caption": "경비 실적과 장비 이력 등 필요한 데이터가 여러 곳에 분산되어 있습니다."
+    },
+    {
+      "section_id": "task12",
+      "kind": "task",
+      "start": 178,
+      "end": 181,
+      "cut_index": 1,
+      "caption": "AI Agent가 다양한 데이터를 자동으로 수집하고 분석합니다."
+    },
+    {
+      "section_id": "task12",
+      "kind": "task",
+      "start": 181,
+      "end": 184,
+      "cut_index": 2,
+      "caption": "분석 결과를 기반으로 절감 가능 항목과 주요 인사이트를 제시합니다."
+    },
+    {
+      "section_id": "task12",
+      "kind": "task",
+      "start": 184,
+      "end": 187,
+      "cut_index": 3,
+      "caption": "검토 중인 항목과 제외 항목까지 포함해 전체 결과를 확인할 수 있습니다."
+    },
+    {
+      "section_id": "task12",
+      "kind": "task",
+      "start": 187,
+      "end": 190,
+      "cut_index": 4,
+      "caption": "분석 시간을 줄이고 더 효율적인 예산 운영을 지원합니다."
+    },
+    {
+      "section_id": "task13",
+      "kind": "title",
+      "start": 190,
+      "end": 192,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task13",
+      "kind": "task",
+      "start": 192,
+      "end": 195,
+      "cut_index": 0,
+      "caption": "매일 장비 데이터를 확인하고 보고서를 작성해 메일로 전달하던 업무."
+    },
+    {
+      "section_id": "task13",
+      "kind": "task",
+      "start": 195,
+      "end": 198,
+      "cut_index": 1,
+      "caption": "이제 AI Agent가 필요한 장비 데이터를 자동으로 수집합니다."
+    },
+    {
+      "section_id": "task13",
+      "kind": "task",
+      "start": 198,
+      "end": 201,
+      "cut_index": 2,
+      "caption": "분석 결과를 바탕으로 HTML 형식의 보고서를 자동으로 생성합니다."
+    },
+    {
+      "section_id": "task13",
+      "kind": "task",
+      "start": 201,
+      "end": 204,
+      "cut_index": 3,
+      "caption": "완성된 보고서를 지정된 담당자에게 자동으로 메일 발송합니다."
+    },
+    {
+      "section_id": "task13",
+      "kind": "task",
+      "start": 204,
+      "end": 207,
+      "cut_index": 4,
+      "caption": "반복 업무는 줄이고, 더 나은 의사결정을 지원합니다."
+    },
+    {
+      "section_id": "task14",
+      "kind": "title",
+      "start": 207,
+      "end": 209,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task14",
+      "kind": "task",
+      "start": 209,
+      "end": 212,
+      "cut_index": 0,
+      "caption": "여러 시스템을 오가며 확인하던 업무."
+    },
+    {
+      "section_id": "task14",
+      "kind": "task",
+      "start": 212,
+      "end": 215,
+      "cut_index": 1,
+      "caption": "이제 하나의 포털로 통합합니다."
+    },
+    {
+      "section_id": "task14",
+      "kind": "task",
+      "start": 215,
+      "end": 218,
+      "cut_index": 2,
+      "caption": "조회부터 예약, 보고서 생성까지."
+    },
+    {
+      "section_id": "task14",
+      "kind": "task",
+      "start": 218,
+      "end": 221,
+      "cut_index": 3,
+      "caption": "필요한 기능을 한곳에서 편리하게."
+    },
+    {
+      "section_id": "task14",
+      "kind": "task",
+      "start": 221,
+      "end": 224,
+      "cut_index": 4,
+      "caption": "업무 시간을 단축합니다."
+    },
+    {
+      "section_id": "summary4",
+      "kind": "summary",
+      "start": 224,
+      "end": 230,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task17",
+      "kind": "title",
+      "start": 230,
+      "end": 232,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task17",
+      "kind": "task",
+      "start": 232,
+      "end": 235,
+      "cut_index": 0,
+      "caption": "TEM 이미지 분석에 반복되는 수작업이 많습니다."
+    },
+    {
+      "section_id": "task17",
+      "kind": "task",
+      "start": 235,
+      "end": 238,
+      "cut_index": 1,
+      "caption": "하나의 Tool에서 이미지 측정부터 데이터 분석까지 자동으로 처리합니다."
+    },
+    {
+      "section_id": "task17",
+      "kind": "task",
+      "start": 238,
+      "end": 241,
+      "cut_index": 2,
+      "caption": "이미지를 회전하고, 항목별로 자동 측정해 Raw data까지 정리합니다."
+    },
+    {
+      "section_id": "task17",
+      "kind": "task",
+      "start": 241,
+      "end": 244,
+      "cut_index": 3,
+      "caption": "정리된 데이터를 기반으로 분석 결과를 시각화해 정확한 인사이트를 제공합니다."
+    },
+    {
+      "section_id": "task17",
+      "kind": "task",
+      "start": 244,
+      "end": 247,
+      "cut_index": 4,
+      "caption": "이미지당 측정 시간은 줄고, R_NIT와 S/W 정확도는 개선됩니다."
+    },
+    {
+      "section_id": "task16",
+      "kind": "title",
+      "start": 247,
+      "end": 249,
+      "cut_index": null,
+      "caption": ""
+    },
+    {
+      "section_id": "task16",
+      "kind": "task",
+      "start": 249,
+      "end": 252,
+      "cut_index": 0,
+      "caption": "엔지니어가 육안으로 검증하던 업무를,"
+    },
+    {
+      "section_id": "task16",
+      "kind": "task",
+      "start": 252,
+      "end": 255,
+      "cut_index": 1,
+      "caption": "CV로 계측선과 Plug를 분석해 자동으로 인식합니다."
+    },
+    {
+      "section_id": "task16",
+      "kind": "task",
+      "start": 255,
+      "end": 258,
+      "cut_index": 2,
+      "caption": "오계측 의심 항목을 자동으로 선별하고, 담당자가 최종 판단합니다."
+    },
+    {
+      "section_id": "task16",
+      "kind": "task",
+      "start": 258,
+      "end": 261,
+      "cut_index": 3,
+      "caption": "Plug의 CD와 Space Profile을 조회하고 데이터를 확인합니다."
+    },
+    {
+      "section_id": "task16",
+      "kind": "task",
+      "start": 261,
+      "end": 264,
+      "cut_index": 4,
+      "caption": "대시보드와 챗봇으로 분석 결과를 업무에 활용합니다."
+    },
+    {
+      "section_id": "ending",
+      "kind": "ending",
+      "start": 264,
+      "end": 266,
+      "cut_index": 0,
+      "caption": "서로 다른 현장의 과제들이,"
+    },
+    {
+      "section_id": "ending",
+      "kind": "ending",
+      "start": 266,
+      "end": 268,
+      "cut_index": 1,
+      "caption": "AI와 함께 새로운 변화를 만들어갑니다."
+    },
+    {
+      "section_id": "ending",
+      "kind": "ending",
+      "start": 268,
+      "end": 270,
+      "cut_index": 2,
+      "caption": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지."
+    },
+    {
+      "section_id": "ending",
+      "kind": "ending",
+      "start": 270,
+      "end": 272,
+      "cut_index": 3,
+      "caption": ""
+    },
+    {
+      "section_id": "ending",
+      "kind": "ending",
+      "start": 272,
+      "end": 274,
+      "cut_index": 4,
+      "caption": "12개의 AI Agent가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다."
+    },
+    {
+      "section_id": "ending",
+      "kind": "ending",
+      "start": 274,
+      "end": 276,
+      "cut_index": 5,
+      "caption": ""
+    }
+  ]
+}

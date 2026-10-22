@@ -1,0 +1,7 @@
+{
+  "method": "AAC stream copy from the approved Revision2 MP4; no audio processing or timing edits",
+  "source": "/Users/jk/projects/media-maker/out/showcase-v2/RD_Process_AI_Fast_Track_Showcase_Revision2.mp4",
+  "source_sha256": "44f841056822f53d0646ee5c55e3968730d9cb96f4c7cbec4088807866b956a2",
+  "file": "narration/approved-mix.m4a",
+  "sha256": "ba1d98c1922de502eccc67ff78c63f2a84c951b3990b33ede9c06aaadec43fc2"
+}

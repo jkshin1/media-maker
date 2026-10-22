@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "reviewer": "opening_spec_qa independent visual review",
+  "revision": 2,
+  "reviewed_at": "2026-10-14T10:49:37.451820+09:00",
+  "final_file": "out/opening-v2/rd-ai-fast-track-opening-v2.mp4",
+  "final_sha256": "16d12fb2795b1c57fa0f189dbe1fd59ceef1dcc69998c417b905555e638c952f",
+  "review_method": "All nine full-resolution native screenshots from uninterrupted playback of the final encoded MP4 inspected once against the user-provided nine-panel reference, approved Markdown text, and source code. Earlier 21 source-time samples provided safe-margin evidence.",
+  "cut_count": 9,
+  "sampled_encoded_frames": [
+    {
+      "cut": "01",
+      "file": "out/opening-v2/playback/cut01_1.50s.png",
+      "sha256": "663bb2ca67d575642dd7bc59c556451292ed131866e293bc92ca6bdf3e1bd453",
+      "status": "PASS",
+      "observation": "Gold-lit globe and sunrise horizon, central two-line approved title and exact literal R&D caption. Substantially matches reference panel01."
+    },
+    {
+      "cut": "02",
+      "file": "out/opening-v2/playback/cut02_4.70s.png",
+      "sha256": "e9831a20db5af5cc8a714040f79f31aaa769878011455f99f26e64beae672881",
+      "status": "PASS",
+      "observation": "Brilliant golden wafer and precision-equipment close-up with right-side approved three-line heading. Substantially matches reference panel02."
+    },
+    {
+      "cut": "03",
+      "file": "out/opening-v2/playback/cut03_9.50s.png",
+      "sha256": "63c8357188e36f35c15fb3dfa530df34016c474e816604025caa7e2ec7a6dccb",
+      "status": "PASS",
+      "observation": "Large cleanroom researcher portrait, subtle cool equipment light and warm highlights, right-side approved heading. Added feathered copy shade resolves bright monitor conflict and retains the reference photographic character."
+    },
+    {
+      "cut": "04",
+      "file": "out/opening-v2/playback/cut04_14.50s.png",
+      "sha256": "734d63e450c6cbbe59598e5c7e582809402b4b14fb2f1444cef42b57c31841c5",
+      "status": "PASS",
+      "observation": "Wafer foreground, receding angled photographic material frames and bright curving gold stream; exact right-side approved wording. Rich photographic depth closely follows reference panel04."
+    },
+    {
+      "cut": "05",
+      "file": "out/opening-v2/playback/cut05_19.50s.png",
+      "sha256": "7606244747a9f0b06d279c98b528da07e6a9e134f5322438476346ce06caafb8",
+      "status": "PASS",
+      "observation": "Dense luminous gold waves/particles around central R&D 공정 / AI Fast Track title, exact secondary line, strong title hierarchy. Substantially follows reference panel05."
+    },
+    {
+      "cut": "06",
+      "file": "out/opening-v2/playback/cut06_25.00s.png",
+      "sha256": "08b63c3acf9136fd0f3bb548443f5512320c0b03cb4587803e6461ec5c6c16a5",
+      "status": "PASS",
+      "observation": "Exactly twelve visible gold-framed abstract material panels in four columns by three rows, rear-view researcher and right-side approved text. No actual task UI, charts or performance data."
+    },
+    {
+      "cut": "07",
+      "file": "out/opening-v2/playback/cut07_31.50s.png",
+      "sha256": "4469d66633e0e0ca8ead6d026dbfc301585810413fbb2a1f058ac160949f71d4",
+      "status": "PASS",
+      "observation": "Four large sparse angled wafer/material frames around a close wafer and brilliant orbital ribbons, distinct from CUT06 grid. Exact Markdown screen/caption wording retained instead of inconsistent reference-image narration."
+    },
+    {
+      "cut": "08",
+      "file": "out/opening-v2/playback/cut08_38.50s.png",
+      "sha256": "7c5c7839d5a7b594940bbb8f8a4f3ff59da2ea088a347783771270ba77af8d54",
+      "status": "PASS",
+      "observation": "Photographic 3D golden pillars and curved amber rising arrow; exact four approved items, including 새로운 분석 관점. No axes, ticks, numerical values or measured-performance claims."
+    },
+    {
+      "cut": "09",
+      "file": "out/opening-v2/playback/cut09_44.00s.png",
+      "sha256": "936595ffc19906ac452ed510881d62f9643f1da25196ac4dda948ff33aa1828e",
+      "status": "PASS",
+      "observation": "Golden wafer close-up left and stable gold title at right, following reference panel09; exact approved secondary line and caption. No separate ending, presenter or outstanding-project text."
+    }
+  ],
+  "reference_match": "The photographic subject, viewpoint, title placement, bright gold/amber lighting, panel perspective, optical depth and major scene composition now substantially match the reference across all nine scenes. Images are regenerated conceptual backgrounds, not pixel-identical copies or actual task evidence.",
+  "gates": {
+    "approved_visible_text_and_caption_accuracy": "PASS",
+    "text_rendered_by_code": "PASS",
+    "no_generated_bitmap_text_numbers_or_labels": "PASS",
+    "all_nine_reference_scene_compositions": "PASS",
+    "black_gold_amber_dominant_palette": "PASS",
+    "readable_typography_safe_margins_no_clipping": "PASS",
+    "cut03_copy_contrast_resolved": "PASS",
+    "exactly_twelve_abstract_panels_cut06": "PASS",
+    "cut07_different_sparse_composition": "PASS",
+    "cut08_abstract_direction_without_values_results": "PASS",
+    "no_invented_task_features_ui_data_or_claims": "PASS",
+    "no_task_body_or_separate_ending_content": "PASS"
+  },
+  "pronunciation_scope": {
+    "source_config_verified": "R&D remains literal in captions; spoken_text and generated_prompt map it to 알앤디 in sentences01,02,05.",
+    "limit": "This visual review does not independently audition the narration. Audio generation, transcription coverage and pronunciation evidence belong to the narration/audio reports."
+  },
+  "corroborating_reports": {
+    "final-validation.json": {
+      "status": "PASS",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "duration_seconds": 46,
+      "frames": 1380,
+      "full_decode": true,
+      "black_frame_events": [],
+      "video_stream_copied_unchanged": true
+    },
+    "layout-validation.json": {
+      "status": "PASS",
+      "samples": 21,
+      "issue_count": 0
+    },
+    "playback-validation.json": {
+      "status": "PASS",
+      "ended": true,
+      "seeks_during_playback": 0,
+      "pauses_during_playback": 0,
+      "dropped_frames": 0,
+      "corrupted_frames": 0,
+      "media_errors": [],
+      "limit": "Headless browser playback validates real-time decoding, duration, errors and ending; it is not human listening or narration-quality approval."
+    }
+  },
+  "actionable_defects": []
+}

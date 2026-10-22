@@ -1,0 +1,478 @@
+{
+  "duration_seconds": 241,
+  "seed": 20261013,
+  "supertonic": {
+    "voice": "F3",
+    "speed": 1.0,
+    "steps": 16
+  },
+  "clips": [
+    {
+      "id": 1,
+      "start_ms": 350,
+      "end_ms": 14750,
+      "text": "알앤디 공정의 새로운 도전. 사람의 경험에 에이아이의 가능성을 더해, 현장의 고민을 실질적인 솔루션으로 바꿉니다. 열두 개 에이전트가 만드는 변화, 지금 시작합니다."
+    },
+    {
+      "id": 2,
+      "task_id": 1,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 17060,
+      "end_ms": 20940,
+      "text": "공정 자료가 흩어져 탐색이 길어집니다."
+    },
+    {
+      "id": 3,
+      "task_id": 1,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 21060,
+      "end_ms": 24940,
+      "text": "이제 대화로 평가 목적을 구체화합니다."
+    },
+    {
+      "id": 4,
+      "task_id": 1,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 25060,
+      "end_ms": 28940,
+      "text": "플랜과 레시피, 실패 사례까지 연결합니다."
+    },
+    {
+      "id": 5,
+      "task_id": 1,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 29060,
+      "end_ms": 32940,
+      "text": "반복 탐색은 줄이고, 평가 판단을 돕습니다."
+    },
+    {
+      "id": 6,
+      "task_id": 2,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 35060,
+      "end_ms": 38940,
+      "text": "보고서 작성과 발송에 매일 손이 갑니다."
+    },
+    {
+      "id": 7,
+      "task_id": 2,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 39060,
+      "end_ms": 42940,
+      "text": "장비 데이터를 여러 시스템에서 모읍니다."
+    },
+    {
+      "id": 8,
+      "task_id": 2,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 43060,
+      "end_ms": 46940,
+      "text": "핵심 지표를 담은 보고서를 자동 생성합니다."
+    },
+    {
+      "id": 9,
+      "task_id": 2,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 47060,
+      "end_ms": 50940,
+      "text": "자동 전달로, 중요한 판단에 집중합니다."
+    },
+    {
+      "id": 10,
+      "task_id": 3,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 53060,
+      "end_ms": 56940,
+      "text": "로트와 장비 확인에 여러 화면이 필요합니다."
+    },
+    {
+      "id": 11,
+      "task_id": 3,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 57060,
+      "end_ms": 60940,
+      "text": "하나의 플랫폼에서 실시간으로 조회합니다."
+    },
+    {
+      "id": 12,
+      "task_id": 3,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 61060,
+      "end_ms": 64940,
+      "text": "공정 차트와 실험 결과를 함께 공유합니다."
+    },
+    {
+      "id": 13,
+      "task_id": 3,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 65060,
+      "end_ms": 68940,
+      "text": "정보를 공유해, 연구 자산으로 활용합니다."
+    },
+    {
+      "id": 14,
+      "task_id": 4,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 71060,
+      "end_ms": 74940,
+      "text": "공정과 장비 정보가 파일마다 나뉩니다."
+    },
+    {
+      "id": 15,
+      "task_id": 4,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 75060,
+      "end_ms": 78940,
+      "text": "워킹 보드에 모아, 자연어로 검색합니다."
+    },
+    {
+      "id": 16,
+      "task_id": 4,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 79060,
+      "end_ms": 82940,
+      "text": "공정과 장비를 함께 분석해 보여줍니다."
+    },
+    {
+      "id": 17,
+      "task_id": 4,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 83060,
+      "end_ms": 86940,
+      "text": "분석을 저장해, 다음 업무에서도 활용합니다."
+    },
+    {
+      "id": 18,
+      "task_id": 5,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 89060,
+      "end_ms": 92940,
+      "text": "이상이 생기면 공정 이력을 찾아야 합니다."
+    },
+    {
+      "id": 19,
+      "task_id": 5,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 93060,
+      "end_ms": 96940,
+      "text": "로트 정보로 연계 공정 분석을 시작합니다."
+    },
+    {
+      "id": 20,
+      "task_id": 5,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 97060,
+      "end_ms": 100940,
+      "text": "이력 매핑과 상관관계 분석을 자동화합니다."
+    },
+    {
+      "id": 21,
+      "task_id": 5,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 101060,
+      "end_ms": 104940,
+      "text": "연계 공정 후보를 한눈에 확인합니다."
+    },
+    {
+      "id": 22,
+      "task_id": 6,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 107060,
+      "end_ms": 110940,
+      "text": "로트와 장비 이력을 따로 조회해야 합니다."
+    },
+    {
+      "id": 23,
+      "task_id": 6,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 111060,
+      "end_ms": 114940,
+      "text": "하나의 앱에서 관련 이력을 통합 조회합니다."
+    },
+    {
+      "id": 24,
+      "task_id": 6,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 115060,
+      "end_ms": 118940,
+      "text": "전후 공정을 연결해, 원인 후보를 살핍니다."
+    },
+    {
+      "id": 25,
+      "task_id": 6,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 119060,
+      "end_ms": 122940,
+      "text": "탐색 시간을 줄여, 연구 판단에 집중합니다."
+    },
+    {
+      "id": 26,
+      "task_id": 7,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 125060,
+      "end_ms": 128940,
+      "text": "경비와 장비 이력을 일일이 대조합니다."
+    },
+    {
+      "id": 27,
+      "task_id": 7,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 129060,
+      "end_ms": 132940,
+      "text": "데이터를 모아, 절감 판단 지표를 만듭니다."
+    },
+    {
+      "id": 28,
+      "task_id": 7,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 133060,
+      "end_ms": 136940,
+      "text": "절감 아이템의 검토와 제외 항목을 봅니다."
+    },
+    {
+      "id": 29,
+      "task_id": 7,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 137060,
+      "end_ms": 140940,
+      "text": "절감 기회를 빠르게 찾아 제안합니다."
+    },
+    {
+      "id": 30,
+      "task_id": 8,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 143060,
+      "end_ms": 146940,
+      "text": "모니터링 데이터를 엑셀로 가공합니다."
+    },
+    {
+      "id": 31,
+      "task_id": 8,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 147060,
+      "end_ms": 150940,
+      "text": "자연어로 원하는 공정 데이터를 찾습니다."
+    },
+    {
+      "id": 32,
+      "task_id": 8,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 151060,
+      "end_ms": 154940,
+      "text": "웨이퍼 맵과 그래프로 장비를 비교합니다."
+    },
+    {
+      "id": 33,
+      "task_id": 8,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 155060,
+      "end_ms": 158940,
+      "text": "수작업을 줄여 공정 변화를 파악합니다."
+    },
+    {
+      "id": 34,
+      "task_id": 9,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 161060,
+      "end_ms": 164940,
+      "text": "템 이미지를 맞추고 하나씩 측정합니다."
+    },
+    {
+      "id": 35,
+      "task_id": 9,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 165060,
+      "end_ms": 168940,
+      "text": "한 도구에서 정렬과 측정을 자동화합니다."
+    },
+    {
+      "id": 36,
+      "task_id": 9,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 169060,
+      "end_ms": 172940,
+      "text": "측정 데이터를 정리하고 시각화합니다."
+    },
+    {
+      "id": 37,
+      "task_id": 9,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 173060,
+      "end_ms": 176940,
+      "text": "반복 측정은 줄이고, 분석 편차를 낮춥니다."
+    },
+    {
+      "id": 38,
+      "task_id": 10,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 179060,
+      "end_ms": 182940,
+      "text": "조회와 예약에 시스템을 옮겨 다닙니다."
+    },
+    {
+      "id": 39,
+      "task_id": 10,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 183060,
+      "end_ms": 186940,
+      "text": "로트와 장비, 예약을 한 포털에 모읍니다."
+    },
+    {
+      "id": 40,
+      "task_id": 10,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 187060,
+      "end_ms": 190940,
+      "text": "일일 보고서와 메일 기능도 연결합니다."
+    },
+    {
+      "id": 41,
+      "task_id": 10,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 191060,
+      "end_ms": 194940,
+      "text": "조회와 예약을 한곳에서 처리합니다."
+    },
+    {
+      "id": 42,
+      "task_id": 11,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 197060,
+      "end_ms": 200940,
+      "text": "열화 원인 분석이 경험에 의존합니다."
+    },
+    {
+      "id": 43,
+      "task_id": 11,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 201060,
+      "end_ms": 204940,
+      "text": "로트 아이디로 오버레이 정보를 모읍니다."
+    },
+    {
+      "id": 44,
+      "task_id": 11,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 205060,
+      "end_ms": 208940,
+      "text": "맵과 추세를 비교해, 의심 원인을 좁힙니다."
+    },
+    {
+      "id": 45,
+      "task_id": 11,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 209060,
+      "end_ms": 212940,
+      "text": "케이 파라미터로 해결 방안을 제안합니다."
+    },
+    {
+      "id": 46,
+      "task_id": 12,
+      "cut_id": 1,
+      "phase": "before",
+      "start_ms": 215060,
+      "end_ms": 218940,
+      "text": "대면적 플러그는 육안 검증이 필요합니다."
+    },
+    {
+      "id": 47,
+      "task_id": 12,
+      "cut_id": 2,
+      "phase": "after_action",
+      "start_ms": 219060,
+      "end_ms": 222940,
+      "text": "계측선과 플러그를 자동으로 인식합니다."
+    },
+    {
+      "id": 48,
+      "task_id": 12,
+      "cut_id": 3,
+      "phase": "after_analysis",
+      "start_ms": 223060,
+      "end_ms": 226940,
+      "text": "자동 선별 후, 담당자가 최종 판정합니다."
+    },
+    {
+      "id": 49,
+      "task_id": 12,
+      "cut_id": 4,
+      "phase": "before_after_comparison",
+      "start_ms": 227060,
+      "end_ms": 230940,
+      "text": "검증 부담을 줄여, 분석 결과를 활용합니다."
+    },
+    {
+      "id": 50,
+      "phase": "ending",
+      "start_ms": 231600,
+      "end_ms": 239500,
+      "text": "사람의 경험과 에이아이가 함께 만드는 변화. 지금, 그 주인공을 만나보겠습니다."
+    }
+  ],
+  "elevenlabs": {
+    "voice": "mYk0rAapHek2oTw18z8x",
+    "model_id": "eleven_v4",
+    "delivery_tag": "[bright, confident voice, slightly higher pitch, projecting to an audience]",
+    "voice_settings": {
+      "stability": 0.75,
+      "similarity_boost": 0.75
+    },
+    "generation_mode": "single_take"
+  },
+  "default_engine": "elevenlabs",
+  "bgm": {
+    "file": "assets/bgm/mixkit-mountains-187.mp3",
+    "title": "Mountains",
+    "artist": "Andrew Ev",
+    "source_url": "https://mixkit.co/free-stock-music/tag/corporate/?page=2",
+    "license_url": "https://mixkit.co/license/modal/musicFree/",
+    "start_seconds": 0,
+    "gain": 0.18,
+    "ending_gain": 0.3,
+    "loop_overlap_seconds": 3
+  }
+}

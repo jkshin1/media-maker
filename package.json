@@ -1,0 +1,21 @@
+{
+  "name": "media-maker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tts:setup": "bash scripts/setup-tts.sh",
+    "tts:sample": ".venv/bin/python scripts/tts.py --sample-clip 4",
+    "tts:prompts": ".venv/bin/python scripts/tts.py --prompts",
+    "render": "node scripts/render.mjs",
+    "audio": "bash scripts/audio.sh",
+    "build": "node scripts/render.mjs && bash scripts/audio.sh",
+    "production:prompts": ".venv/bin/python scripts/tts.py --config production/narration/ko.json --prompts",
+    "production:stills": "node scripts/render-production.mjs",
+    "production:render": "node scripts/render-production.mjs",
+    "production:audio": ".venv/bin/python scripts/audio-production.py",
+    "production:build": "node scripts/render-production.mjs && .venv/bin/python scripts/audio-production.py"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.13.0"
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "revision": 10,
+  "status": "PROPOSAL_INTERNALLY_FEASIBLE",
+  "scope": "Independent read-only sample/frame arithmetic and original-PCM mapping feasibility of the exact proposal; not final production/audio/listening approval.",
+  "proposal_sha256": "ff38348f4f94a046381dfc29d357e8a6ebfb14224d4ab011e1706725cbda7abf",
+  "application_authorized": false,
+  "production_complete": false,
+  "actual_timeline_modified": false,
+  "subjective_listening_performed": false,
+  "checks": {
+    "exact_proposal_inputs_and_two_original_sources_bound": {
+      "pass": true,
+      "details": {
+        "source_identity_sha256": "92c31c5917cbb6a5c7d8f7f998ac005bdd43bfb1e69e79183333c5dfcca5e3c2",
+        "source_parts": [
+          {
+            "part_id": "part1",
+            "master": "narration/two-parts/part1/take.wav",
+            "master_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+            "asr_sha256": "8257067881d91c1ad82cb663e1ab18d1d4c4d7e81db8070a23312107db01050d",
+            "samples": 9308160
+          },
+          {
+            "part_id": "part2",
+            "master": "narration/two-parts/part2/take.wav",
+            "master_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+            "asr_sha256": "4cce7e0a86d71da7fc7f670f91c5727445801e1af0962249ba8b48597cd0b4b8",
+            "samples": 9423360
+          }
+        ]
+      }
+    },
+    "all68_approved_phrases_in_original_order_and_tempo1": {
+      "pass": true,
+      "details": {
+        "phrases": 68,
+        "part_counts": [
+          33,
+          35
+        ],
+        "wording_scope": "Cut IDs and unchanged approved captions/order; complete source speech coverage is a separate current-pair review."
+      }
+    },
+    "ten_exact_internal_quiet_deletions_are_between_timestamped_words": {
+      "pass": true,
+      "details": {
+        "rows": [
+          {
+            "cut_id": "opening_cut5",
+            "source_part_id": "part1",
+            "source_local_remove_samples": [
+              1041360,
+              1069200
+            ],
+            "removed_samples": 27840,
+            "removed_pcm_sha256": "1c742db49e7d26eedf6e468838bc3421b809b7d11e0e251f960dd9879fb7c081",
+            "actual_max_10ms_rms_dbfs": -50.32356926478596,
+            "overlapping_ASR_words": 0
+          },
+          {
+            "cut_id": "task11_cut2",
+            "source_part_id": "part1",
+            "source_local_remove_samples": [
+              2903520,
+              2915040
+            ],
+            "removed_samples": 11520,
+            "removed_pcm_sha256": "307f32337ed65db366e295fc6b01b371d2905dac8940d9c8577258d0c9a7b617",
+            "actual_max_10ms_rms_dbfs": -59.09095263801582,
+            "overlapping_ASR_words": 0
+          },
+          {
+            "cut_id": "task13_cut5",
+            "source_part_id": "part1",
+            "source_local_remove_samples": [
+              5410080,
+              5423040
+            ],
+            "removed_samples": 12960,
+            "removed_pcm_sha256": "e97c16707394a4abaaeb2644971573218f6d384a85ab4130653f445ae7fd5148",
+            "actual_max_10ms_rms_dbfs": -50.33104797342414,
+            "overlapping_ASR_words": 0
+          },
+          {
+            "cut_id": "task17_cut3",
+            "source_part_id": "part1",
+            "source_local_remove_samples": [
+              7489440,
+              7501440
+            ],
+            "removed_samples": 12000,
+            "removed_pcm_sha256": "8925d6870d2be6250f7daad8fa2be03e0a3af2ed3bf32eb97238dfe051c9da63",
+            "actual_max_10ms_rms_dbfs": -52.95526392157359,
+            "overlapping_ASR_words": 0
+          },
+          {
+            "cut_id": "task4_cut1",
+            "source_part_id": "part2",
+            "source_local_remove_samples": [
+              1500960,
+              1516319
+            ],
+            "removed_samples": 15359,
+            "removed_pcm_sha256": "c833cf22244cf934ca13cc4bd9047482749ad5468e1e975f05572c004d86732a",
+            "actual_max_10ms_rms_dbfs": -52.846272470842486,
+            "overlapping_ASR_words": 0
+          },
+          {
+            "cut_id": "task3_cut2",
+            "source_part_id": "part2",
+            "source_local_remove_samples": [
+              4058400,
+              4060320
+            ],
+            "removed_samples": 1920,
+            "removed_pcm_sha256": "01aedfb28ad3dca1aa3ae38fe71f7578e2d238b53a51f36c026ae0ea9d750eef",
+            "actual_max_10ms_rms_dbfs": -52.358075080080994,
+            "overlapping_ASR_words": 0
+          },
+          {
+            "cut_id": "task14_cut1",
+            "source_part_id": "part2",
+            "source_local_remove_samples": [
+              5825760,
+              5834880
+            ],
+            "removed_samples": 9120,
+            "removed_pcm_sha256": "e47acc85f367d9ebbaeec05db50c3496cc3554d20fd20edeb4dbe21d3359145f",
+            "actual_max_10ms_rms_dbfs": -48.37380885339189,
+            "overlapping_ASR_words": 0
+          },
+          {
+            "cut_id": "task14_cut2",
+            "source_part_id": "part2",
+            "source_local_remove_samples": [
+              6168719,
+              6185519
+            ],
+            "removed_samples": 16800,
+            "removed_pcm_sha256": "1aa60111a7aa3b50b0d7ceed56d2a4c9131a6eb7c7833d80076319813fd64b2b",
+            "actual_max_10ms_rms_dbfs": -50.236507181724264,
+            "overlapping_ASR_words": 0
+          },
+          {
+            "cut_id": "ending_cut3",
+            "source_part_id": "part2",
+            "source_local_remove_samples": [
+              9010560,
+              9013920
+            ],
+            "removed_samples": 3360,
+            "removed_pcm_sha256": "371c134543a1d04bb00b744e8deafed95d1d94ce178783a5431910bc1cc0f8ab",
+            "actual_max_10ms_rms_dbfs": -51.71885982073228,
+            "overlapping_ASR_words": 0
+          },
+          {
+            "cut_id": "ending_cut5",
+            "source_part_id": "part2",
+            "source_local_remove_samples": [
+              9286560,
+              9303360
+            ],
+            "removed_samples": 16800,
+            "removed_pcm_sha256": "6ab0dc37daa7d092f343cc596183e201c04341e397568bdad5fc67ec4b582938",
+            "actual_max_10ms_rms_dbfs": -52.85130288058024,
+            "overlapping_ASR_words": 0
+          }
+        ],
+        "removed_samples": 127679,
+        "removed_seconds": 2.6599791666666666,
+        "waveform_guard_each_side_ms": 80,
+        "retained_internal_pause_minimum_ms": 200,
+        "applied_to_source": false
+      }
+    },
+    "all77_proposed_pcm_pieces_are_exact_and_nonoverlapping": {
+      "pass": true,
+      "details": {
+        "pieces": 77,
+        "virtual_pcm_sha256": "8194f0e68353a3b5a3e8a51a9b743bfd9cb9d7a5247ae2d68a52128b75167ae1",
+        "audio_written": false
+      }
+    },
+    "all68_speech_ends_inside_their_corresponding_visual_cuts": {
+      "pass": true,
+      "details": {
+        "minimum_pre_guard_seconds": 0.08,
+        "minimum_nonterminal_post_guard_seconds": 0.08,
+        "last_source_EOF_post_padding_seconds": 0,
+        "following_final_card_seconds": 4
+      }
+    },
+    "ending_pair_preserves_all380ms_continuous_audio_and_moves_visual_only": {
+      "pass": true,
+      "details": {
+        "source_local_group_samples": [
+          8602560,
+          8844000
+        ],
+        "pcm_sha256": "f23b1f66312b965a1e4f4502c9201405c507567b501731b2c3d999784b616dce",
+        "quiet_source_seconds": [
+          181.11,
+          181.49
+        ],
+        "visual_boundary_source_seconds": 181.2933125,
+        "visual_boundary_video_seconds": 298.53333333333336,
+        "distance_from_original_quiet_center_ms": 6.6875,
+        "audio_deletion_or_restart_at_visual_boundary": false
+      }
+    },
+    "source_join_head_and_all_original_EOF_preserved": {
+      "pass": true,
+      "details": {
+        "source_join_conservative_added_seconds": 0.18,
+        "first_source_EOF_seconds": 193.92,
+        "second_source_head_start_sample": 0,
+        "second_source_EOF_seconds": 196.32,
+        "last_PCM_end_matches_silent_card_start": true
+      }
+    },
+    "minimum_and315_second_frame_budget_recomputed": {
+      "pass": true,
+      "details": {
+        "protected_source_seconds": 296.29,
+        "minimum_seconds": 314.9700208333333,
+        "frame_ceil_seconds": 315.0,
+        "remaining_quiet_samples": 1439,
+        "remaining_seconds": 0.029979166666666668,
+        "final_card_frames": 120
+      }
+    },
+    "boundary_shift_claims_and_minimax107_frames_independently_verified": {
+      "pass": true,
+      "details": {
+        "maximum_cut_boundary_shift_frames": 107,
+        "maximum_cut_boundary_shift_seconds": 3.566666666666667,
+        "maximum_task_start_shift_seconds": 3.433333333333333,
+        "106_frame_bound_impossible_witness": {
+          "cut_id": "task3_cut1",
+          "required_frame": 6579,
+          "allowed_max": 6578
+        },
+        "107_frame_bound_feasible": true,
+        "scope": "Primary minimax objective independently checked; secondary weighted preference optimality is not claimed."
+      }
+    },
+    "opening_ending_exposure_changes_explicit": {
+      "pass": true,
+      "details": {
+        "opening": {
+          "section_id": "opening",
+          "start_frame": 0,
+          "end_frame": 1177,
+          "start": 0.0,
+          "end": 39.233333333333334,
+          "duration": 39.233333333333334,
+          "old_start": 0.0,
+          "old_end": 39.56666666666667,
+          "old_duration": 39.56666666666667,
+          "start_shift_seconds": 0.0,
+          "end_shift_seconds": -0.3333333333333357,
+          "exposure_duration_change_seconds": -0.3333333333333357
+        },
+        "ending": {
+          "section_id": "ending",
+          "start_frame": 8890,
+          "end_frame": 9450,
+          "start": 296.3333333333333,
+          "end": 315.0,
+          "duration": 18.666666666666686,
+          "old_start": 294.76666666666665,
+          "old_end": 314.5,
+          "old_duration": 19.73333333333335,
+          "start_shift_seconds": 1.5666666666666629,
+          "end_shift_seconds": 0.5,
+          "exposure_duration_change_seconds": -1.0666666666666629
+        },
+        "all_spoken_entries_changed": 68,
+        "visual_design_or_scene_code_changed": false,
+        "independently_recomputed_sections": [
+          {
+            "section_id": "opening",
+            "start_shift_frames": 0,
+            "end_shift_frames": -10,
+            "exposure_change_frames": -10
+          },
+          {
+            "section_id": "task11",
+            "start_shift_frames": -10,
+            "end_shift_frames": 6,
+            "exposure_change_frames": 16
+          },
+          {
+            "section_id": "task13",
+            "start_shift_frames": 6,
+            "end_shift_frames": 28,
+            "exposure_change_frames": 22
+          },
+          {
+            "section_id": "task7",
+            "start_shift_frames": 28,
+            "end_shift_frames": 34,
+            "exposure_change_frames": 6
+          },
+          {
+            "section_id": "task17",
+            "start_shift_frames": 34,
+            "end_shift_frames": 36,
+            "exposure_change_frames": 2
+          },
+          {
+            "section_id": "task5",
+            "start_shift_frames": 36,
+            "end_shift_frames": 69,
+            "exposure_change_frames": 33
+          },
+          {
+            "section_id": "task9",
+            "start_shift_frames": 69,
+            "end_shift_frames": 78,
+            "exposure_change_frames": 9
+          },
+          {
+            "section_id": "task4",
+            "start_shift_frames": 78,
+            "end_shift_frames": 82,
+            "exposure_change_frames": 4
+          },
+          {
+            "section_id": "task12",
+            "start_shift_frames": 82,
+            "end_shift_frames": 103,
+            "exposure_change_frames": 21
+          },
+          {
+            "section_id": "task3",
+            "start_shift_frames": 103,
+            "end_shift_frames": 94,
+            "exposure_change_frames": -9
+          },
+          {
+            "section_id": "task8",
+            "start_shift_frames": 94,
+            "end_shift_frames": 86,
+            "exposure_change_frames": -8
+          },
+          {
+            "section_id": "task14",
+            "start_shift_frames": 86,
+            "end_shift_frames": 67,
+            "exposure_change_frames": -19
+          },
+          {
+            "section_id": "task16",
+            "start_shift_frames": 67,
+            "end_shift_frames": 47,
+            "exposure_change_frames": -20
+          },
+          {
+            "section_id": "ending",
+            "start_shift_frames": 47,
+            "end_shift_frames": 15,
+            "exposure_change_frames": -32
+          }
+        ],
+        "changed_entries_recomputed": 69,
+        "changed_spoken_entries_recomputed": 68
+      }
+    },
+    "actual_timeline_silent_video_and_render_sources_unchanged": {
+      "pass": true,
+      "details": {
+        "timeline_sha256": "03c984a6d5b29b3be07a29669d76c3bc25cdde23da9b0ac9789b3dea73cbb68b",
+        "silent_video_sha256": "100e4e137823a79427a8908cc240a364cfc63a18e7c682d241edd03980d24c73",
+        "render_inputs": 64,
+        "proposal_unchanged_while_reviewing": true
+      }
+    }
+  },
+  "checks_passed": 11,
+  "proposal_only": true,
+  "source_identity_sha256": "92c31c5917cbb6a5c7d8f7f998ac005bdd43bfb1e69e79183333c5dfcca5e3c2",
+  "regional_ASR_evidence": [
+    {
+      "transcript": "/private/tmp/media-maker-v10-retime-review-9gymobbj/part2-178-186.json",
+      "sha256": "13f9bb28c1bf0315e83dd155dc75c49808589ff76f803a08b57b7afaa553f0f1",
+      "text": " 서로 다른 현장의 과제들이 AI와 함께 새로운 변화를 만들어갑니다."
+    },
+    {
+      "transcript": "/private/tmp/media-maker-v10-retime-review-9gymobbj/ending-first-phrase.json",
+      "sha256": "5a7af2eca4de813a8ab6bfd09b94c71f9e75178a1972ca19d0e4c9099900e91d",
+      "text": " 서로 다른 현장의 과제들이"
+    },
+    {
+      "transcript": "/private/tmp/media-maker-v10-retime-review-9gymobbj/ending-second-phrase.json",
+      "sha256": "7faf3766a53aedd62f34f6459db275db6523b0b611e03bd2b60f4e277f50671d",
+      "text": " AI와 함께 새로운 변화를 만들어 갑니다."
+    }
+  ],
+  "waveform_evidence": {
+    "file": "/private/tmp/media-maker-v10-retime-review-9gymobbj/ending-boundary-waveform.png",
+    "sha256": "1fbb48caf526c98591c0bcd14d8e9d3a64727319cb9a1bf94599e5638f6a322a",
+    "quiet_source_seconds": [
+      181.11,
+      181.49
+    ],
+    "max_10ms_rms_dbfs": -51.74162045081569
+  },
+  "boundary_scope": {
+    "audio_preservation_resolved": [
+      "part1_EOF_to_part2_zero",
+      "ending_first_two_continuous_source"
+    ],
+    "visual_boundary_candidate": "source part2 181.2933125s maps to video298.5333333s; within the actual380ms quiet and6.6875ms from its center.",
+    "timestamp_caveat": "Whisper assigns AI와 a timestamp containing quiet; no140ms deletion at this boundary is approved by this review. Original continuous source is preserved instead.",
+    "subjective_listening_acceptance": false
+  },
+  "limitations": [
+    "No production timeline, source waveform, mix or complete video was edited. Only three temporary exact-PCM review samples and local ASR/waveform evidence were written.",
+    "Internally feasible sample/frame proposal is not user authorization or final production PASS.",
+    "Ten internal quiet removals and all69visual-entry timing changes remain pending the user exception.",
+    "Regional ASR plus waveform support the visual-cut candidate; they are not precise phoneme labels or subjective human listening acceptance."
+  ],
+  "reviewed_at_utc": "2026-10-19T11:51:41.436892+00:00"
+}

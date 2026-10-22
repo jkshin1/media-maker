@@ -1,0 +1,17 @@
+{
+  "flow_id": "C5mly4ET82daAsJR7iGG",
+  "all_completed": false,
+  "has_failures": true,
+  "generations": [
+    {
+      "id": "y8yyeQSQZudyYLqFmVlg",
+      "status": "failed",
+      "model_id": "eleven_v4",
+      "error_message": "This request exceeds your quota of 10000. You have 1854 credits remaining, while 2465 credits are required for this request."
+    }
+  ],
+  "required_credits": 2465,
+  "remaining_credits": 1854,
+  "shortfall_credits": 611,
+  "retry_without_user_reply": false
+}

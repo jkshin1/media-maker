@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>R&amp;D 공정 AI Fast Track — 오프닝</title>
+<style>
+@font-face{font-family:Noto;src:url('fonts/NotoSansCJKkr-Regular.otf');font-weight:400;font-display:block}
+@font-face{font-family:Noto;src:url('fonts/NotoSansCJKkr-Bold.otf');font-weight:700;font-display:block}
+@font-face{font-family:SourceSerif;src:url('fonts/SourceSerif4-Regular.woff2');font-weight:400;font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#080808;overflow:hidden}
+:root{--black:#080808;--charcoal:#1A1A1F;--gold:#D4AF7C;--warmgold:#F5D6A6;--amber:#FFB347;--white:#F2EEE7}
+#stage{width:1920px;height:1080px;position:absolute;transform-origin:0 0;overflow:hidden;background:var(--black);font-family:Noto,sans-serif;color:var(--white);-webkit-font-smoothing:antialiased}
+canvas{position:absolute;inset:0;width:1920px;height:1080px}
+.scene{position:absolute;inset:0;display:none;pointer-events:none}
+.headline{position:absolute;margin:0;font-size:74px;font-weight:400;line-height:1.35;letter-spacing:-.045em;text-shadow:0 3px 18px #000,0 0 32px #000b}
+.accent{color:var(--warmgold)}
+.title{position:absolute;left:150px;right:150px;top:315px;text-align:center;text-shadow:0 3px 18px #000,0 0 32px #000b}
+.title .ko{font-size:86px;letter-spacing:-.035em;margin:0;line-height:1.4;font-weight:400;color:var(--warmgold)}
+.latin{font-family:SourceSerif,serif}
+.title .en{font-family:SourceSerif,serif;font-size:154px;line-height:1.18;letter-spacing:-.025em;color:var(--warmgold);margin-top:5px;text-shadow:0 4px 22px #000b;font-weight:400}
+.subtitle{font-size:34px;letter-spacing:.055em;color:var(--white);margin-top:32px;font-weight:400}
+.titleRule{width:410px;height:1px;margin:27px auto 0;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+#s1 .headline{left:150px;right:150px;top:415px;font-size:103px;line-height:1.27;text-align:center}
+#s1 .headline .latin{font-size:112px}
+#s2 .headline{left:1230px;top:298px;font-size:76px}
+#s3 .headline{left:1220px;top:332px;font-size:75px}
+#s4 .headline{left:1235px;top:330px;font-size:74px}
+#s6 .headline{left:1270px;top:308px;font-size:75px}
+#s6 .count{font-family:SourceSerif,serif;font-size:109px;letter-spacing:-.035em;line-height:1.18}
+#s7 .headline{left:1220px;top:324px;font-size:76px}
+#s8 .benefits{position:absolute;left:1265px;top:238px;right:80px;display:flex;flex-direction:column;gap:53px}
+.benefit{position:relative;font-size:39px;line-height:1.4;letter-spacing:-.04em;padding-left:78px;white-space:nowrap;text-shadow:0 2px 15px #000}
+.benefit svg{position:absolute;width:54px;height:54px;left:0;top:2px;stroke:var(--warmgold);fill:none;stroke-width:1.65}
+#s9 .title{left:960px;right:105px;top:316px}#s9 .title .ko{font-size:86px}#s9 .title .en{font-size:119px}#s9 .title .subtitle{font-size:28px;letter-spacing:0;white-space:nowrap}
+.caption{position:absolute;left:100px;right:100px;bottom:84px;font-size:35px;line-height:1.45;text-align:center;letter-spacing:-.025em;white-space:nowrap;color:var(--white);text-shadow:0 2px 12px #000}
+.scene .caption{display:none}
+#captionBand{position:absolute;left:0;right:0;bottom:0;height:185px;background:linear-gradient(transparent,#080808e8 40%,#080808fa);pointer-events:none}
+#captionLine{position:absolute;left:100px;right:100px;bottom:155px;height:1px;background:linear-gradient(90deg,transparent,#D4AF7C72,transparent)}
+#controls{position:fixed;left:18px;bottom:14px;display:flex;gap:12px;align-items:center;z-index:99;background:#1a1a1fec;padding:9px 15px;border:1px solid #D4AF7C66;color:#F2EEE7;font:14px sans-serif}
+#controls button{color:#F5D6A6;background:#080808;border:1px solid #D4AF7C;padding:7px 14px;cursor:pointer}#controls input{width:280px;accent-color:#D4AF7C}
+</style>
+</head>
+<body>
+<div id="stage">
+<canvas id="visual" width="1920" height="1080"></canvas>
+<div id="captionBand"></div><div id="captionLine"></div>
+<section id="s1" class="scene"><h1 class="headline"><span class="latin">R&amp;D</span> 업무에<br><span class="accent">AI를 더합니다</span></h1><div class="caption"></div></section>
+<section id="s2" class="scene"><h1 class="headline">더 나은<br>R&amp;D 공정의<br><span class="accent">내일을 만듭니다</span></h1><div class="caption"></div></section>
+<section id="s3" class="scene"><h1 class="headline">사람의 경험과<br>AI의 가능성을<br><span class="accent">연결합니다</span></h1><div class="caption"></div></section>
+<section id="s4" class="scene"><h1 class="headline">연구와 업무의<br>새로운 가능성을<br><span class="accent">열어갑니다</span></h1><div class="caption"></div></section>
+<section id="s5" class="scene"><div class="title"><h1 class="ko"><span class="latin">R&amp;D</span> 공정</h1><div class="en">AI Fast Track</div><div class="titleRule"></div><div class="subtitle">AI로 더 스마트한 R&amp;D 공정</div></div><div class="caption"></div></section>
+<section id="s6" class="scene"><h1 class="headline"><span class="count accent">12개</span><br>AI Agent가<br><span class="accent">만드는 변화</span></h1><div class="caption"></div></section>
+<section id="s7" class="scene"><h1 class="headline">현장의 문제를<br>AI로 해결하는<br><span class="accent">12개 과제</span></h1><div class="caption"></div></section>
+<section id="s8" class="scene"><div class="benefits">
+<div class="benefit"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20"/><path d="M19 10h10l1 5 5 1 3 7-4 4v6l-7 5-5-3-5 1-5-7 3-5-1-6 5-3z"/><circle cx="24" cy="24" r="6"/></svg>업무 효율화</div>
+<div class="benefit"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20"/><path d="M13 32v-7h5v7M22 32V19h5v13M31 32V12h5v20"/></svg>데이터 기반 의사결정</div>
+<div class="benefit"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20"/><path d="M18 29c-8-9-3-17 6-17s14 8 6 17l-1 4H19zM20 37h8M20 33h8"/></svg>새로운 분석 관점</div>
+<div class="benefit"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20"/><circle cx="24" cy="16" r="5"/><circle cx="13" cy="20" r="3"/><circle cx="35" cy="20" r="3"/><path d="M16 35v-5q0-7 8-7t8 7v5M9 32v-4q0-4 5-4M39 32v-4q0-4-5-4"/></svg>더 스마트한 연구 환경</div>
+</div><div class="caption"></div></section>
+<section id="s9" class="scene"><div class="title"><h1 class="ko"><span class="latin">R&amp;D</span> 공정</h1><div class="en">AI Fast Track</div><div class="titleRule"></div><div class="subtitle">AI로 만들어가는 R&amp;D의 새로운 변화</div></div><div class="caption"></div></section>
+<div id="caption" class="caption"></div>
+</div>
+<div id="controls"><button id="play">재생</button><input id="scrub" type="range" min="0" max="46" step="0.033333" value="0"><span id="time">0.0 / 46.0</span></div>
+<script src="scenes.js"></script>
+</body>
+</html>

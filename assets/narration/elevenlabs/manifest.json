@@ -1,0 +1,81 @@
+{
+  "provider": "ElevenLabs",
+  "model_id": "eleven_v4",
+  "voice_id": "mYk0rAapHek2oTw18z8x",
+  "voice_name": "Salang - Calm, Clear and Warm",
+  "voice_settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75
+  },
+  "generation_mode": "single_take",
+  "status": "COMPLETE",
+  "missing_clips": [],
+  "source_take": {
+    "file": "take.wav",
+    "sha256": "cebc93cc377b039f5b764e9319e6984bebbd4312dd25716e6052b3ed25ef399b",
+    "generated_prompt": "[bright, confident voice, slightly higher pitch, projecting to an audience]\n흩어진 자료, 반복되는 탐색.\n이제, 에이아이와 대화하세요.\n플랜과 레시피, 근거와 실패 사례까지.\n평가는 한눈에. 판단은 더 정확하게.",
+    "source_filename": "ElevenLabs_2026-10-13T07_56_31_Salang - Calm, Clear and Warm_pvc_sp100_s50_sb75_v4.mp3",
+    "sample_rate": 48000,
+    "duration_seconds": 11.311020833333334,
+    "transport": "website",
+    "variant": "generation_1"
+  },
+  "clips": [
+    {
+      "id": 1,
+      "text": "흩어진 자료, 반복되는 탐색.",
+      "delivery_tag": "[bright, confident voice, slightly higher pitch, projecting to an audience]",
+      "generated_prompt": "[bright, confident voice, slightly higher pitch, projecting to an audience]\n흩어진 자료, 반복되는 탐색.\n이제, 에이아이와 대화하세요.\n플랜과 레시피, 근거와 실패 사례까지.\n평가는 한눈에. 판단은 더 정확하게.",
+      "file": "vo1.wav",
+      "sha256": "1da881d88cfe2ae126ceeb2a5e7ef54b6f06314cd5ce4465d3453314dd2ea9ea",
+      "source_take_sha256": "cebc93cc377b039f5b764e9319e6984bebbd4312dd25716e6052b3ed25ef399b",
+      "source_start_sample": 0,
+      "source_end_sample": 111245,
+      "source_start_ms": 0.0,
+      "source_end_ms": 2317.6041666666665,
+      "source_receipt": "out/elevenlabs-salang-consistent/web/receipt.json"
+    },
+    {
+      "id": 2,
+      "text": "이제, 에이아이와 대화하세요.",
+      "delivery_tag": "[bright, confident voice, slightly higher pitch, projecting to an audience]",
+      "generated_prompt": "[bright, confident voice, slightly higher pitch, projecting to an audience]\n흩어진 자료, 반복되는 탐색.\n이제, 에이아이와 대화하세요.\n플랜과 레시피, 근거와 실패 사례까지.\n평가는 한눈에. 판단은 더 정확하게.",
+      "file": "vo2.wav",
+      "sha256": "2fe84b86480f35dd8879ae7f9387282ed1c52a20683ae93eda212dab04101790",
+      "source_take_sha256": "cebc93cc377b039f5b764e9319e6984bebbd4312dd25716e6052b3ed25ef399b",
+      "source_start_sample": 111245,
+      "source_end_sample": 228332,
+      "source_start_ms": 2317.6041666666665,
+      "source_end_ms": 4756.916666666666,
+      "source_receipt": "out/elevenlabs-salang-consistent/web/receipt.json"
+    },
+    {
+      "id": 3,
+      "text": "플랜과 레시피, 근거와 실패 사례까지.",
+      "delivery_tag": "[bright, confident voice, slightly higher pitch, projecting to an audience]",
+      "generated_prompt": "[bright, confident voice, slightly higher pitch, projecting to an audience]\n흩어진 자료, 반복되는 탐색.\n이제, 에이아이와 대화하세요.\n플랜과 레시피, 근거와 실패 사례까지.\n평가는 한눈에. 판단은 더 정확하게.",
+      "file": "vo3.wav",
+      "sha256": "06c6db29e854d0b2fcd3e91c13b6d4b50a9ccf8b14d224c489a366a383b39fad",
+      "source_take_sha256": "cebc93cc377b039f5b764e9319e6984bebbd4312dd25716e6052b3ed25ef399b",
+      "source_start_sample": 228332,
+      "source_end_sample": 396960,
+      "source_start_ms": 4756.916666666666,
+      "source_end_ms": 8270.0,
+      "source_receipt": "out/elevenlabs-salang-consistent/web/receipt.json"
+    },
+    {
+      "id": 4,
+      "text": "평가는 한눈에. 판단은 더 정확하게.",
+      "delivery_tag": "[bright, confident voice, slightly higher pitch, projecting to an audience]",
+      "generated_prompt": "[bright, confident voice, slightly higher pitch, projecting to an audience]\n흩어진 자료, 반복되는 탐색.\n이제, 에이아이와 대화하세요.\n플랜과 레시피, 근거와 실패 사례까지.\n평가는 한눈에. 판단은 더 정확하게.",
+      "file": "vo4.wav",
+      "sha256": "3d8389f20f299e39d0dc0e844b67e6c405b5bf559c04865fa8be2c512ecba716",
+      "source_take_sha256": "cebc93cc377b039f5b764e9319e6984bebbd4312dd25716e6052b3ed25ef399b",
+      "source_start_sample": 396960,
+      "source_end_sample": 542929,
+      "source_start_ms": 8270.0,
+      "source_end_ms": 11311.020833333334,
+      "source_receipt": "out/elevenlabs-salang-consistent/web/receipt.json"
+    }
+  ]
+}

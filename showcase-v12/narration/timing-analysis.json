@@ -1,0 +1,465 @@
+{
+  "status": "PASS",
+  "source_seconds": 294.3967916666667,
+  "source_samples": 14131046,
+  "base_frames_including_restored_titles_and_card": 9672,
+  "base_seconds": 322.4,
+  "readability_budget_frames": 228,
+  "baseline_outer_deficit_requested_frames": 52,
+  "allocated_outer_readability_frames": 52,
+  "baseline_outer_minima_all_met": true,
+  "duration_seconds": 324.1333333333333,
+  "frames": 9724,
+  "maximum_seconds": 330,
+  "quiet_removed_samples": 0,
+  "all_fast_master_PCM_once": true,
+  "added_padding_samples": 1427354,
+  "restored_title_frames": 720,
+  "final_card_frames": 120,
+  "outer_allocation_policy": "Meet each baseline11 opening/ending spoken-cut minimum when possible; otherwise allocate available frames proportionally to those deficits. Never shorten source speech, remove quiet or alter1.15 tempo.",
+  "units": [
+    {
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut1"
+      ],
+      "source_start_sample": 0,
+      "source_end_sample": 107200,
+      "audio_destination_start_sample": 0,
+      "audio_destination_end_sample": 107200,
+      "visual_start_frame": 0,
+      "visual_end_frame": 69,
+      "minimum_frames": 67,
+      "baseline_minimum_frames": 69,
+      "readability_hold_frames": 2,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut2"
+      ],
+      "source_start_sample": 107200,
+      "source_end_sample": 278400,
+      "audio_destination_start_sample": 110400,
+      "audio_destination_end_sample": 281600,
+      "visual_start_frame": 69,
+      "visual_end_frame": 177,
+      "minimum_frames": 107,
+      "baseline_minimum_frames": 108,
+      "readability_hold_frames": 1,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut3"
+      ],
+      "source_start_sample": 278400,
+      "source_end_sample": 494400,
+      "audio_destination_start_sample": 283200,
+      "audio_destination_end_sample": 499200,
+      "visual_start_frame": 177,
+      "visual_end_frame": 326,
+      "minimum_frames": 135,
+      "baseline_minimum_frames": 149,
+      "readability_hold_frames": 14,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut4"
+      ],
+      "source_start_sample": 494400,
+      "source_end_sample": 660800,
+      "audio_destination_start_sample": 521600,
+      "audio_destination_end_sample": 688000,
+      "visual_start_frame": 326,
+      "visual_end_frame": 430,
+      "minimum_frames": 104,
+      "baseline_minimum_frames": 97,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut5"
+      ],
+      "source_start_sample": 660800,
+      "source_end_sample": 900800,
+      "audio_destination_start_sample": 688000,
+      "audio_destination_end_sample": 928000,
+      "visual_start_frame": 430,
+      "visual_end_frame": 580,
+      "minimum_frames": 150,
+      "baseline_minimum_frames": 144,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut6"
+      ],
+      "source_start_sample": 900800,
+      "source_end_sample": 1156800,
+      "audio_destination_start_sample": 928000,
+      "audio_destination_end_sample": 1184000,
+      "visual_start_frame": 580,
+      "visual_end_frame": 740,
+      "minimum_frames": 160,
+      "baseline_minimum_frames": 159,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut7"
+      ],
+      "source_start_sample": 1156800,
+      "source_end_sample": 1385600,
+      "audio_destination_start_sample": 1184000,
+      "audio_destination_end_sample": 1412800,
+      "visual_start_frame": 740,
+      "visual_end_frame": 895,
+      "minimum_frames": 143,
+      "baseline_minimum_frames": 155,
+      "readability_hold_frames": 12,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut8"
+      ],
+      "source_start_sample": 1385600,
+      "source_end_sample": 1640000,
+      "audio_destination_start_sample": 1432000,
+      "audio_destination_end_sample": 1686400,
+      "visual_start_frame": 895,
+      "visual_end_frame": 1063,
+      "minimum_frames": 159,
+      "baseline_minimum_frames": 168,
+      "readability_hold_frames": 9,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "opening",
+      "cut_ids": [
+        "opening_cut9"
+      ],
+      "source_start_sample": 1640000,
+      "source_end_sample": 1828800,
+      "audio_destination_start_sample": 1700800,
+      "audio_destination_end_sample": 1889600,
+      "visual_start_frame": 1063,
+      "visual_end_frame": 1191,
+      "minimum_frames": 118,
+      "baseline_minimum_frames": 128,
+      "readability_hold_frames": 10,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task11",
+      "cut_ids": [
+        "task11_cut1",
+        "task11_cut2",
+        "task11_cut3",
+        "task11_cut4",
+        "task11_cut5"
+      ],
+      "source_start_sample": 1828800,
+      "source_end_sample": 3009600,
+      "audio_destination_start_sample": 2001600,
+      "audio_destination_end_sample": 3182400,
+      "visual_start_frame": 1251,
+      "visual_end_frame": 1989,
+      "minimum_frames": 738,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task13",
+      "cut_ids": [
+        "task13_cut1",
+        "task13_cut2",
+        "task13_cut3",
+        "task13_cut4",
+        "task13_cut5"
+      ],
+      "source_start_sample": 3009600,
+      "source_end_sample": 4182400,
+      "audio_destination_start_sample": 3278400,
+      "audio_destination_end_sample": 4451200,
+      "visual_start_frame": 2049,
+      "visual_end_frame": 2782,
+      "minimum_frames": 733,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task7",
+      "cut_ids": [
+        "task7_cut1",
+        "task7_cut2",
+        "task7_cut3",
+        "task7_cut4",
+        "task7_cut5"
+      ],
+      "source_start_sample": 4182400,
+      "source_end_sample": 5180800,
+      "audio_destination_start_sample": 4547200,
+      "audio_destination_end_sample": 5545600,
+      "visual_start_frame": 2842,
+      "visual_end_frame": 3466,
+      "minimum_frames": 624,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task17",
+      "cut_ids": [
+        "task17_cut1",
+        "task17_cut2",
+        "task17_cut3",
+        "task17_cut4"
+      ],
+      "source_start_sample": 5180800,
+      "source_end_sample": 6003200,
+      "audio_destination_start_sample": 5641600,
+      "audio_destination_end_sample": 6464000,
+      "visual_start_frame": 3526,
+      "visual_end_frame": 4040,
+      "minimum_frames": 514,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task5",
+      "cut_ids": [
+        "task5_cut1",
+        "task5_cut2",
+        "task5_cut3",
+        "task5_cut4",
+        "task5_cut5"
+      ],
+      "source_start_sample": 6003200,
+      "source_end_sample": 6993600,
+      "audio_destination_start_sample": 6560000,
+      "audio_destination_end_sample": 7550400,
+      "visual_start_frame": 4100,
+      "visual_end_frame": 4719,
+      "minimum_frames": 619,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task9",
+      "cut_ids": [
+        "task9_cut1",
+        "task9_cut2",
+        "task9_cut3",
+        "task9_cut4",
+        "task9_cut5"
+      ],
+      "source_start_sample": 6993600,
+      "source_end_sample": 8104000,
+      "audio_destination_start_sample": 7646400,
+      "audio_destination_end_sample": 8756800,
+      "visual_start_frame": 4779,
+      "visual_end_frame": 5473,
+      "minimum_frames": 694,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task4",
+      "cut_ids": [
+        "task4_cut1",
+        "task4_cut2",
+        "task4_cut3",
+        "task4_cut4",
+        "task4_cut5"
+      ],
+      "source_start_sample": 8104000,
+      "source_end_sample": 9030400,
+      "audio_destination_start_sample": 8852800,
+      "audio_destination_end_sample": 9779200,
+      "visual_start_frame": 5533,
+      "visual_end_frame": 6112,
+      "minimum_frames": 579,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task12",
+      "cut_ids": [
+        "task12_cut1",
+        "task12_cut2",
+        "task12_cut3"
+      ],
+      "source_start_sample": 9030400,
+      "source_end_sample": 9681600,
+      "audio_destination_start_sample": 9875200,
+      "audio_destination_end_sample": 10526400,
+      "visual_start_frame": 6172,
+      "visual_end_frame": 6579,
+      "minimum_frames": 407,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task3",
+      "cut_ids": [
+        "task3_cut1",
+        "task3_cut2",
+        "task3_cut3",
+        "task3_cut4"
+      ],
+      "source_start_sample": 9681600,
+      "source_end_sample": 10555200,
+      "audio_destination_start_sample": 10622400,
+      "audio_destination_end_sample": 11496000,
+      "visual_start_frame": 6639,
+      "visual_end_frame": 7185,
+      "minimum_frames": 546,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task8",
+      "cut_ids": [
+        "task8_cut1",
+        "task8_cut2",
+        "task8_cut3",
+        "task8_cut4"
+      ],
+      "source_start_sample": 10555200,
+      "source_end_sample": 11264000,
+      "audio_destination_start_sample": 11592000,
+      "audio_destination_end_sample": 12300800,
+      "visual_start_frame": 7245,
+      "visual_end_frame": 7688,
+      "minimum_frames": 443,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task14",
+      "cut_ids": [
+        "task14_cut1",
+        "task14_cut2",
+        "task14_cut3",
+        "task14_cut4",
+        "task14_cut5"
+      ],
+      "source_start_sample": 11264000,
+      "source_end_sample": 12348800,
+      "audio_destination_start_sample": 12396800,
+      "audio_destination_end_sample": 13481600,
+      "visual_start_frame": 7748,
+      "visual_end_frame": 8426,
+      "minimum_frames": 678,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "task16",
+      "cut_ids": [
+        "task16_cut1",
+        "task16_cut2",
+        "task16_cut3",
+        "task16_cut4",
+        "task16_cut5"
+      ],
+      "source_start_sample": 12348800,
+      "source_end_sample": 13420800,
+      "audio_destination_start_sample": 13577600,
+      "audio_destination_end_sample": 14649600,
+      "visual_start_frame": 8486,
+      "visual_end_frame": 9156,
+      "minimum_frames": 670,
+      "baseline_minimum_frames": 0,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "ending",
+      "cut_ids": [
+        "ending_cut1"
+      ],
+      "source_start_sample": 13420800,
+      "source_end_sample": 13521600,
+      "audio_destination_start_sample": 14649600,
+      "audio_destination_end_sample": 14750400,
+      "visual_start_frame": 9156,
+      "visual_end_frame": 9222,
+      "minimum_frames": 63,
+      "baseline_minimum_frames": 66,
+      "readability_hold_frames": 3,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "ending",
+      "cut_ids": [
+        "ending_cut2"
+      ],
+      "source_start_sample": 13521600,
+      "source_end_sample": 13664000,
+      "audio_destination_start_sample": 14755200,
+      "audio_destination_end_sample": 14897600,
+      "visual_start_frame": 9222,
+      "visual_end_frame": 9311,
+      "minimum_frames": 89,
+      "baseline_minimum_frames": 89,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "ending",
+      "cut_ids": [
+        "ending_cut3"
+      ],
+      "source_start_sample": 13664000,
+      "source_end_sample": 13859200,
+      "audio_destination_start_sample": 14897600,
+      "audio_destination_end_sample": 15092800,
+      "visual_start_frame": 9311,
+      "visual_end_frame": 9434,
+      "minimum_frames": 122,
+      "baseline_minimum_frames": 123,
+      "readability_hold_frames": 1,
+      "frame_padding_samples": 0
+    },
+    {
+      "section_id": "ending",
+      "cut_ids": [
+        "ending_cut5"
+      ],
+      "source_start_sample": 13859200,
+      "source_end_sample": 14131046,
+      "audio_destination_start_sample": 15094400,
+      "audio_destination_end_sample": 15366246,
+      "visual_start_frame": 9434,
+      "visual_end_frame": 9604,
+      "minimum_frames": 170,
+      "baseline_minimum_frames": 162,
+      "readability_hold_frames": 0,
+      "frame_padding_samples": 154
+    }
+  ]
+}

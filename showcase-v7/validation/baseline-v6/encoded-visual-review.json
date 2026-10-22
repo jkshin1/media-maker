@@ -1,0 +1,473 @@
+{
+  "status": "PASS",
+  "revision": 6,
+  "reviewed_at_utc": "2026-10-15T06:12:35.856183+00:00",
+  "video_path": "/Users/jk/projects/media-maker/out/showcase-v6/RD_Process_AI_Fast_Track_Showcase_Revision6.mp4",
+  "video_sha256": "fda536f61d1fba62a920b4cbbd64e5fb1b9739868e52282a317a5e4d9a4e2e3c",
+  "expected_video_sha256": "fda536f61d1fba62a920b4cbbd64e5fb1b9739868e52282a317a5e4d9a4e2e3c",
+  "independent_video_sha256_match": true,
+  "scope": {
+    "review_type": "Actual final MP4 decoded-frame visual audit",
+    "unique_task_first_photo_cuts": 12,
+    "decoded_frames_reviewed": 13,
+    "sampling": "One integer-frame midpoint from every task cut_index 0, plus exact 122.0 seconds/frame 3660. Half-frame mathematical midpoints were floored to the preceding integer video frame.",
+    "native_size": [
+      1920,
+      1080
+    ],
+    "method": "Extracted selected frame numbers from the actual final MP4 in a single local FFmpeg decode pass, created contact sheets, and individually opened all thirteen native frames. Compared the twelve visible cut/task/owner headers against current spec. Opened original TCAD Before asset to verify the photographed cursor/measurement line.",
+    "exclusions": [
+      "No continuous playback or audio audit by this reviewer.",
+      "Function screens, opening and ending were outside this specific visual review.",
+      "The separately reported 225-sample RGBA equality and audio identity proofs were not re-run or claimed as this review evidence."
+    ]
+  },
+  "records": [
+    {
+      "file": "01_task3_first_photo.png",
+      "section": "task3",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 42.56666666666666,
+      "time": 42.56666666666667,
+      "frame": 1277,
+      "cut_bounds_seconds": [
+        41.0,
+        44.13333333333333
+      ],
+      "sha256": "4e06fdb563c43d70b0602a519e7c7e0674b7aa46f35c985368afb06d3762432c",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/01_task3_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "기존 업무의 어려움",
+        "task_title": "R&D 공정 Eng'r 연구 환경 Infra 구축",
+        "owner": "박재오 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The approved laboratory photograph fills the body. No added golden path, pointer or focus marker is visible."
+    },
+    {
+      "file": "02_task4_first_photo.png",
+      "section": "task4",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 61.03333333333333,
+      "time": 61.03333333333333,
+      "frame": 1831,
+      "cut_bounds_seconds": [
+        58.93333333333333,
+        63.13333333333333
+      ],
+      "sha256": "5735b1818d72f694594c6d818c5ae080f03125103d3b9c9d8dea006748b36c05",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/02_task4_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "여러 시스템에 흩어진 Lot·장비·FDC 현황",
+        "task_title": "Thinfilm Agent - BEOL Thinfilm",
+        "owner": "김태민 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The two researchers and photographed monitor information remain visible. No added scan line, crosshair or cursor is visible over the photograph."
+    },
+    {
+      "file": "03_task5_first_photo.png",
+      "section": "task5",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 80.31666666666666,
+      "time": 80.3,
+      "frame": 2409,
+      "cut_bounds_seconds": [
+        78.5,
+        82.13333333333334
+      ],
+      "sha256": "67645d4edf091f7dd98f57b55c6109c4bb146a239fb292fa372ab91439ec3082",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/03_task5_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "흩어진 자료와 이슈",
+        "task_title": "C&C Working Board Agent",
+        "owner": "서우석 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The overhead papers, pencil and laptops remain unobstructed. No added guide or decorative focus shape is visible."
+    },
+    {
+      "file": "04_task7_first_photo.png",
+      "section": "task7",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 99.58333333333333,
+      "time": 99.56666666666666,
+      "frame": 2987,
+      "cut_bounds_seconds": [
+        97.1,
+        102.06666666666666
+      ],
+      "sha256": "c194bd22ad7f231e25251d7e6d38c5f68104a68959926620b227b31ed167a4bb",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/04_task7_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "흩어진 정보, 반복되는 탐색",
+        "task_title": "Smart Process Architecture AI Agent",
+        "owner": "권혜선 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The reference-search photograph remains unobstructed. No added branching guide, cursor or ring is visible."
+    },
+    {
+      "file": "05_task8_first_photo.png",
+      "section": "task8",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 122.08333333333334,
+      "time": 122.06666666666666,
+      "frame": 3662,
+      "cut_bounds_seconds": [
+        120.2,
+        123.96666666666667
+      ],
+      "sha256": "a7434623fe5c15845360deac04f7d113563e0bc3f0e7f67b56116e54f48b5910",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/05_task8_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "데이터를 찾는 어려움",
+        "task_title": "Monitoring Data 자연어 검색·시각화 AI Agent",
+        "owner": "이태관 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The engineer and dual-monitor photograph remains unobstructed. No added ring, crosshair, cursor or guide is visible; this also holds at exactly 122.0 seconds."
+    },
+    {
+      "file": "06_task9_first_photo.png",
+      "section": "task9",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 141.10000000000002,
+      "time": 141.1,
+      "frame": 4233,
+      "cut_bounds_seconds": [
+        138.86666666666667,
+        143.33333333333334
+      ],
+      "sha256": "e1abddc9ce61cabd8ab519d45e365caf4b6cca37a84b397b1c360d1b26774917",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/06_task9_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "C&C Inline Data 조회",
+        "task_title": "LLM 기반 C&C Inline Data 분석 AI Agent",
+        "owner": "윤지욱 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The photographed writing/diagram activity remains intact. The arrows on the glass are part of the original scene; no added decorative indicator is visible."
+    },
+    {
+      "file": "07_task11_first_photo.png",
+      "section": "task11",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 161.25,
+      "time": 161.23333333333332,
+      "frame": 4837,
+      "cut_bounds_seconds": [
+        158.2,
+        164.3
+      ],
+      "sha256": "19c839961b5e99d9eb78ad82220072cbb03b615d05769ac9fcbbcf1ceb623571",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/07_task11_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "Overlay 분석 도구별 개별 조회",
+        "task_title": "RSAB SNM Overlay 열화 원인 분석 및 솔루션 제시 Agent",
+        "owner": "장민희 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The two researchers examining a printed wafer map remain unobstructed. No added golden focus ring, map marker or guide is visible."
+    },
+    {
+      "file": "08_task12_first_photo.png",
+      "section": "task12",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 188.96666666666667,
+      "time": 188.96666666666667,
+      "frame": 5669,
+      "cut_bounds_seconds": [
+        186.66666666666666,
+        191.26666666666668
+      ],
+      "sha256": "adfbffea59461cf527f0b50f0b2d1e840a39a39b6648f0b365b9fc959afede73",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/08_task12_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "흩어진 경비 데이터를 통합",
+        "task_title": "경비 분석 및 절감 아이템 발굴 Agent 개발",
+        "owner": "오승재 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The original ledger/calculator work photograph remains unobstructed. No added animated range selection or pointer is visible."
+    },
+    {
+      "file": "09_task13_first_photo.png",
+      "section": "task13",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 212.13333333333333,
+      "time": 212.13333333333333,
+      "frame": 6364,
+      "cut_bounds_seconds": [
+        209.96666666666667,
+        214.3
+      ],
+      "sha256": "4333581ec02a767ec646fd974c1a60b65ab6edb925e58038deddcae4261594c3",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/09_task13_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "반복되는 보고서 작업",
+        "task_title": "장비 Daily Report Auto Mail System",
+        "owner": "김도훈 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The original report-writing photograph remains unobstructed. No added cursor, ring or progress guide is visible."
+    },
+    {
+      "file": "10_task14_first_photo.png",
+      "section": "task14",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 233.65,
+      "time": 233.63333333333333,
+      "frame": 7009,
+      "cut_bounds_seconds": [
+        232.5,
+        234.8
+      ],
+      "sha256": "3608f33cb94604e8d33da28372de2fa1ee970f9a4c546228800fae74e876d150",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/10_task14_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "분산된 업무 환경",
+        "task_title": "Cubic공정Lab 전용 App&Agent",
+        "owner": "정현준 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The original multi-system work photograph remains unobstructed. No added decorative cursor or path is visible."
+    },
+    {
+      "file": "11_task17_first_photo.png",
+      "section": "task17",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 247.21666666666664,
+      "time": 247.2,
+      "frame": 7416,
+      "cut_bounds_seconds": [
+        245.73333333333332,
+        248.7
+      ],
+      "sha256": "ff9ee3cf30af58b40d39e63826b234c527f1f5e461d274e8aff2937fd7c2ab38",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/11_task17_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "반복되는 수작업 분석",
+        "task_title": "TCAD-TEM 이미지 연계를 통한 이미지 Labeling Tool 개발",
+        "owner": "김성후 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The TEM-work photograph remains intact. A white cursor, square measurement handles and a vertical line are visible only inside the photographed monitor; direct comparison with assets/before/task17.png confirms these are baked into the approved source photograph, not residual composed decoration."
+    },
+    {
+      "file": "12_task16_first_photo.png",
+      "section": "task16",
+      "cut_index": 0,
+      "role": "first_photo_midpoint",
+      "requested_midpoint_seconds": 270.8666666666667,
+      "time": 270.8666666666667,
+      "frame": 8126,
+      "cut_bounds_seconds": [
+        269.6333333333333,
+        272.1
+      ],
+      "sha256": "30a94b7b42b3c97084be424c4cc17af6b7c08e6528918b86b6c4608b6ecdfcc0",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/12_task16_first_photo.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "대면적 데이터 수동 검증",
+        "task_title": "AI Agent 기반 Plug 대면적 데이터 분석 자동화 및 인사이트 도출",
+        "owner": "김지은 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The physical magnifying glass and its source photograph remain intact. No added gold focus ring or crosshair is visible. Printed plotting/marking details remain part of the original paper photograph."
+    },
+    {
+      "file": "13_exact_122s.png",
+      "section": "task8",
+      "cut_index": 0,
+      "role": "exact_122_seconds",
+      "time": 122.0,
+      "frame": 3660,
+      "cut_bounds_seconds": [
+        120.2,
+        123.96666666666667
+      ],
+      "sha256": "829799701643c59e72f4eb82978d4b4c011c991c08755f8a8b9fb270c655a331",
+      "native_size": [
+        1920,
+        1080
+      ],
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/13_exact_122s.png",
+      "status": "PASS",
+      "expected_header": {
+        "cut_title": "데이터를 찾는 어려움",
+        "task_title": "Monitoring Data 자연어 검색·시각화 AI Agent",
+        "owner": "이태관 TL"
+      },
+      "header_text_visually_matches_spec": true,
+      "added_decorative_ring_crosshair_cursor_or_guide_visible": false,
+      "header_or_photo_occlusion": false,
+      "photo_fills_body_below_header": true,
+      "observation": "The engineer and dual-monitor photograph remains unobstructed. No added ring, crosshair, cursor or guide is visible; this also holds at exactly 122.0 seconds."
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/first-photo-contact-12.png",
+      "sha256": "7bce5e10aa8ad5456b1bda11c475eccede130e50b88bef4a75872f2c6e2b8e70"
+    },
+    {
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/exact122-contact.png",
+      "sha256": "0cf0832f46516f310dc6dfa4b0c63cb2a59ad2bc8829260912c66234f4bf1900"
+    }
+  ],
+  "provenance": {
+    "timeline": {
+      "path": "/Users/jk/projects/media-maker/showcase-v6/timeline.json",
+      "sha256": "c15bdae153fbe4bd60b289d155694b36ba29402d28babb55ab2e8978a4c16fd9"
+    },
+    "spec": {
+      "path": "/Users/jk/projects/media-maker/showcase-v6/spec.json",
+      "sha256": "eaa1aa2b14b2f16a42d08adc651a138684d4c547ec2bca523477339ce91f08ea"
+    },
+    "extraction_manifest": {
+      "path": "/Users/jk/projects/media-maker/out/showcase-v6/encoded-review/photo-frame-extraction.json",
+      "sha256": "162827beaf115d6451473b6bb32efb9174a9f10d6330dadbceb72111b1242815"
+    },
+    "tcad_original_photo": {
+      "path": "/Users/jk/projects/media-maker/showcase-v6/assets/before/task17.png",
+      "sha256": "a62719057fb9bb217fffe1550dc0806734dc26747526e62e4a76338f53e48891"
+    }
+  },
+  "findings": [
+    {
+      "check": "decorative_overlay_removal",
+      "status": "PASS",
+      "detail": "No residual composed ring, crosshair, cursor, range selector, scan/guide path or focus marker appears over the first-photo body in the thirteen reviewed encoded frames."
+    },
+    {
+      "check": "exact_122_seconds",
+      "status": "PASS",
+      "frame": 3660,
+      "detail": "The Monitoring photo at exactly 122.0 seconds is clear of the former decorative indicator, with intact task title and 이태관 TL header."
+    },
+    {
+      "check": "headers_and_photo_layout",
+      "status": "PASS",
+      "unique_tasks": 12,
+      "detail": "All twelve cut-title/task-title/owner headers match the spec, remain readable and uncut, and preserve the black/gold upper band. The approved photographs fill the remaining body with no new black lower strip, panel or label obstruction."
+    },
+    {
+      "check": "source_ui_distinction",
+      "status": "PASS",
+      "detail": "TCAD source-image cursor/measurement handles/line, source monitor charts, drawn glass arrows and physical magnifying-glass circle are retained scene content. These are distinguished from composed decorative overlays. The TCAD cursor and line are confirmed by direct source-image viewing."
+    }
+  ],
+  "material_defects_found": [],
+  "limitations": [
+    "The removal finding is established at these thirteen exact encoded positions; it is not an all-frame absence proof or continuous playback result."
+  ],
+  "mutation_scope": "No source or final media was changed. New decoded-frame evidence/contact sheets/extraction metadata were written only beneath out/showcase-v6/encoded-review, and this final review report was written to out/showcase-v6/encoded-visual-review.json."
+}

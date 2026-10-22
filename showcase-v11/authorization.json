@@ -1,0 +1,18 @@
+{
+  "revision": 11,
+  "authorization_source": "direct_user_request_in_current_chat",
+  "user_request": "음높이 보정은 빼고 Kyung 원래 목소리의 자연스러운 톤으로 수정. 나레이션 문구와 속도, 영상 길이와 타이밍, BGM 등 다른 부분은 그대로 유지.",
+  "authorized_at_utc": "2026-10-19T12:51:12.398941+00:00",
+  "baseline_revision": 10,
+  "pitch_shift_cents": 0,
+  "pitch_or_time_processor_allowed": false,
+  "speech_tempo": 1,
+  "duration_seconds": 315,
+  "frames": 9450,
+  "keep_timeline_byte_identical": true,
+  "keep_video_packets_identical": true,
+  "keep_music_PCM_identical": true,
+  "keep_all68_lines_and_source_samples": true,
+  "voice_level_policy": "Single constant gain only to retain the previous voice loudness around -19.3LUFS while avoiding clipping; no EQ, compression, voice conversion or new speech generation.",
+  "new_remote_generation_authorized": false
+}

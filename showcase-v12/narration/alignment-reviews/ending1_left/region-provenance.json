@@ -1,0 +1,10 @@
+{
+  "source": "narration/elevenlabs/complete-tempo1.15.wav",
+  "source_sha256": "258985ff5233f26f96b3fb2a98395e71e47a11e92669006c4842ed7f699cba89",
+  "source_start_sample": 13406400,
+  "source_end_sample": 13521600,
+  "source_start_seconds": 279.3,
+  "source_end_seconds": 281.7,
+  "region_pcm_sha256": "4e99569a73236336a6771137abfad2ba88a9852c5c47ae352bc177ecc1d5f6d0",
+  "method": "Exact PCM source crop; local small/ko/cpu/fp16False/word_timestamps; no initial prompt; condition_on_previous_text=False; no original changes."
+}

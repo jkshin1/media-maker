@@ -1,0 +1,50 @@
+{
+  "revision": 12,
+  "status": "PASS",
+  "reviewer": "root independent recomputation of middle-agent current-source evidence",
+  "source_identity_sha256": "9c7a0d8acfd1e1a88ead58c7146ead57147d2e5963f53f19173833e6927c4b9c",
+  "processed_master_sha256": "258985ff5233f26f96b3fb2a98395e71e47a11e92669006c4842ed7f699cba89",
+  "boundary_review_sha256": "94f3f432633d76c73f5fe11c1a0d9cad834c81acd74c00295257529a77f4f7c1",
+  "three_leading_pause_attribution_reviews": [
+    {
+      "after_cut": "task14_cut4",
+      "before_cut": "task14_cut5",
+      "source_boundary_sample": 12099200,
+      "measured_peak10ms_RMS_dbFS": -53.58771404541627,
+      "checks": {
+        "quiet_below_minus50dB": true,
+        "point_between_conservative_speech_bounds": true,
+        "point_inside_measured_quiet": true,
+        "regional_ASR_and_exact_PCM_bound": true,
+        "nothing_deleted_or_crossfaded": true
+      }
+    },
+    {
+      "after_cut": "ending_cut1",
+      "before_cut": "ending_cut2",
+      "source_boundary_sample": 13521600,
+      "measured_peak10ms_RMS_dbFS": -58.322147242332335,
+      "checks": {
+        "quiet_below_minus50dB": true,
+        "point_between_conservative_speech_bounds": true,
+        "point_inside_measured_quiet": true,
+        "regional_ASR_and_exact_PCM_bound": true,
+        "nothing_deleted_or_crossfaded": true
+      }
+    },
+    {
+      "after_cut": "ending_cut3",
+      "before_cut": "ending_cut5",
+      "source_boundary_sample": 13859200,
+      "measured_peak10ms_RMS_dbFS": -50.73428869920902,
+      "checks": {
+        "quiet_below_minus50dB": true,
+        "point_between_conservative_speech_bounds": true,
+        "point_inside_measured_quiet": true,
+        "regional_ASR_and_exact_PCM_bound": true,
+        "nothing_deleted_or_crossfaded": true
+      }
+    }
+  ],
+  "scope": "Current PCM regions, conservative complete-clause endpoints and unprompted regional ASR. No human listening claim."
+}

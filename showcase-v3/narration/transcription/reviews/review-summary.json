@@ -1,0 +1,70 @@
+{
+  "model": "local Whisper small",
+  "device": "cpu",
+  "beam_size": 5,
+  "word_timestamps": true,
+  "sources_unchanged": true,
+  "reviews": [
+    {
+      "id": "task7_cut3",
+      "expected": "이제 엘엘엠에 질문해 관련 지식과 경험을 연결합니다.",
+      "isolated_asr": "이제 LLM의 질문에 관련 지식과 경험을 연결합니다.",
+      "region": {
+        "source_start": 105.54,
+        "source_end": 109.88
+      },
+      "audio_sha256": "2a2c8ed84244b9f46c2b6c805752ef3956182396593a233a53e97bfcb12db89d",
+      "asr_sha256": "697608eb2f01e2680951f141dbd3e15626872ae8df9247fb3545928f6787dab1",
+      "status": "ASR_VARIANT_UNRESOLVED_REQUIRES_LISTENING"
+    },
+    {
+      "id": "task11_cut3",
+      "expected": "오버레이, 레지듀얼, 엠에이 바이어스를 벡터·스캐터 맵으로 확인합니다.",
+      "isolated_asr": "오버레이, 레지 듀얼, MA 바이오스를 백터, 스케터맵으로 확인합니다.",
+      "region": {
+        "source_start": 168.26,
+        "source_end": 173.7
+      },
+      "audio_sha256": "51ba1f77dd27ffb6db9102a465278f82d5b7af14206037c39b279897fb9f84cf",
+      "asr_sha256": "1f3296ad8d2835ef2e684971a9ecda9852437c64949bd334a6a6bfc6c5dec875",
+      "status": "ASR_VARIANT_UNRESOLVED_REQUIRES_LISTENING"
+    },
+    {
+      "id": "task16_cut1",
+      "expected": "엔지니어가 육안으로 검증하던 업무를,",
+      "isolated_asr": "엔지니어가 유관으로 검증하던 업무를",
+      "region": {
+        "source_start": 271.36,
+        "source_end": 274.88
+      },
+      "audio_sha256": "0e0472549b31469362d48a2b23bb90e6642d39cf926a02a2aff8bc6bf8cb91f5",
+      "asr_sha256": "926093913122c3f443e2a2ad7d45b0b3e58f9eeb3510482d4c6c8a8f088928e7",
+      "status": "ASR_VARIANT_UNRESOLVED_REQUIRES_LISTENING"
+    },
+    {
+      "id": "task16_cut5",
+      "expected": "대시보드와 챗봇으로 분석 결과를 업무에 활용합니다.",
+      "isolated_asr": "데시보드와 챗보스로 분석 결과를 업무에 활용합니다.",
+      "region": {
+        "source_start": 288.64,
+        "source_end": 292.74
+      },
+      "audio_sha256": "131e34c74bc30630213b0ee89555723852fe6891ea1242dd85e8773f3d55f206",
+      "asr_sha256": "778cfde9115a9058546097ef22f02d71545238de686565041a2a8066e8ddb8f7",
+      "status": "ASR_VARIANT_UNRESOLVED_REQUIRES_LISTENING"
+    },
+    {
+      "id": "ending_cut3_to_cut5",
+      "expected": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지. 12개의 에이아이 에이전트가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+      "isolated_asr": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지 12개의 AI 에이전트가 만든 변화, 이제 2개의 우수 과제를 만나봅니다.",
+      "region": {
+        "source_start": 297.6,
+        "source_end": 308.56
+      },
+      "audio_sha256": "db07411a8e66e15483da18c564dd101195b38d2438c8f20968385af2c35fd611",
+      "asr_sha256": "994e14e65cabbf1c0d0070ad3dea50ee977a359c60a27e05daddae671fe93853",
+      "status": "ENDING_SENTENCE_BOUNDARY_CONFIRMED"
+    }
+  ],
+  "note": "Isolated ASR confirms presence/order of all reviewed phrases and ending lines. Repeated spelling variants do not establish a spoken error or prove exact pronunciation; native listening is still needed."
+}

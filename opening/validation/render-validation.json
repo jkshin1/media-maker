@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 46,
+  "frames": 1380,
+  "elapsed_seconds": 61.914,
+  "sha256": "d81f103f083b8d36c3bc9b9fe3f675a5b5d0feb23ee069ba7122505c1d251a66",
+  "inputs": [
+    {
+      "file": "assets/dome.png",
+      "sha256": "8cc76d1ef80598e825c04aed49fcc055078fb4ab4f351bb9c258e3511b1249d2"
+    },
+    {
+      "file": "assets/prompts.json",
+      "sha256": "84a274562b87b959e3e57086814a9eaa4bb48cb4daefaeb4e6124e0277b1e94b"
+    },
+    {
+      "file": "assets/researcher.png",
+      "sha256": "972e6c6084496283def789cad57d4435f16ad82271dee581eb5aaf376001a587"
+    },
+    {
+      "file": "assets/wafer.png",
+      "sha256": "f7eecb7a437cd392594caa8761302305807d71f74f182bc7f78127160ece67d4"
+    },
+    {
+      "file": "fonts/NotoSansCJKkr-Bold.otf",
+      "sha256": "26d0c6748500a0444844280b308f5b62c7ae92ac6c6ac88148e502dd211eb52a"
+    },
+    {
+      "file": "fonts/NotoSansCJKkr-Regular.otf",
+      "sha256": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a"
+    },
+    {
+      "file": "fonts/SourceSerif4-Regular.woff2",
+      "sha256": "42aa010dbb82d90764a28f6cc7d809a9395999b7390eb3b212028c6975e97402"
+    },
+    {
+      "file": "index.html",
+      "sha256": "71853320ae8495f3c5c2f831578904bdb3561baa6b5afbaa0a26bc77aee3cdfe"
+    },
+    {
+      "file": "package.json",
+      "sha256": "a59340ac3d0a297604798c32d8b3cf5698ac844dfbc4d62ade7dbd430556462e"
+    },
+    {
+      "file": "scenes.js",
+      "sha256": "b86be912e23b4b7ab265aff6ef0527ff206f5f1db3e42ddc4239ee4a48bfc7ef"
+    },
+    {
+      "file": "spec-checklist.json",
+      "sha256": "bf04f513f5ecf444ff11d9007bbc4509080eba551165d6c9dd7a56a79e52cfdc"
+    }
+  ]
+}

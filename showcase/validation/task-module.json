@@ -1,0 +1,969 @@
+{
+  "status": "PASS",
+  "module_sha256": "65d6a93c355ba6d6e0c8740e6f8f0db8ed454998bc3e99b949c99730454a02e6",
+  "spec_sha256": "2ede59ff5b136c60b65a8ac5ab3241afe842cd9dca15771355e4fd910b4685b7",
+  "preview_timeline_sha256": "777c478ca83e4922b8920743150b842e7066ba6b786f3debae965555eb92d1d2",
+  "timing_basis": "preview timeline; final narration-aligned render remains separate",
+  "contract": {
+    "width": 1920,
+    "height": 1080,
+    "titleFontSize": 68,
+    "captionFontSize": 40,
+    "captionArea": [
+      72,
+      900,
+      1776,
+      115
+    ],
+    "deterministic": true,
+    "profiles": [
+      "infra",
+      "thinfilm",
+      "working",
+      "architecture",
+      "monitoring",
+      "inline",
+      "snm",
+      "expense",
+      "daily",
+      "cubic",
+      "tcad",
+      "plug"
+    ]
+  },
+  "native_canvas_frames": 216,
+  "scene_count": 60,
+  "motion_pass": 60,
+  "determinism_pass": 60,
+  "final_content_distinction_pass": 12,
+  "records": [
+    {
+      "section": "task3",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "07b3d43229c994edd42837938a7f4c7df7ed32203023f104b35877fb3d4320b8",
+      "hash_late": "5567e9cf68f832846e6bf4a4fb081af4b4c84310f1d1ef5f7307414e068fdb80",
+      "hash_repeat": "5567e9cf68f832846e6bf4a4fb081af4b4c84310f1d1ef5f7307414e068fdb80",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task3",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "4f9bdc539521d0b7bd420d9c020b70bf0ca22db87b2169a1e9ea69b27be610d9",
+      "hash_late": "d3a1fa3126dd5931e65bc848110c5639196474563360f7f0be4f69a099740a08",
+      "hash_repeat": "d3a1fa3126dd5931e65bc848110c5639196474563360f7f0be4f69a099740a08",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task3",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "fb2652ad4e9ab71001114e4779dd976d6904256c4606e577b37ae5d5f745e763",
+      "hash_late": "22da34087a5e086a555461443db0a464ddc1d0b050ef3eb2eda14f8e7c0e505c",
+      "hash_repeat": "22da34087a5e086a555461443db0a464ddc1d0b050ef3eb2eda14f8e7c0e505c",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task3",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "9f34602f972d503989e7548f8031442022c5c2de87256823e6a670efae6b10ee",
+      "hash_late": "13bfed7773ffe12eaa12552a2a9a91b725903582df97bfbe259c4535b8636d97",
+      "hash_repeat": "13bfed7773ffe12eaa12552a2a9a91b725903582df97bfbe259c4535b8636d97",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task3",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "1123ae2ea82715eeb22890dd1f4ceab612f5650a1c379d023a0e9fe5fdf6cd7a",
+      "hash_late": "d2212f0a6a632677d8edc5061c6ff4be2ed8ab727350a0f81dc1400e3b51df25",
+      "hash_repeat": "d2212f0a6a632677d8edc5061c6ff4be2ed8ab727350a0f81dc1400e3b51df25",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task4",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "94c1153aeec252b0d96ceb85136d5d83c72834aaee33aee16edbcc7bfbf71a4e",
+      "hash_late": "1a11c58ae5d533ea0e26c1e0318eb83766870dccc22d1da344bbec6075dbc9d9",
+      "hash_repeat": "1a11c58ae5d533ea0e26c1e0318eb83766870dccc22d1da344bbec6075dbc9d9",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task4",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "93c00d8396ca723428e97d923afa8318b398c17303e601a1447ee766fa6a277b",
+      "hash_late": "abd2d2ad04eb43b23f5c013430c07b5c695f268eb50bc5fe624eda386be09ab8",
+      "hash_repeat": "abd2d2ad04eb43b23f5c013430c07b5c695f268eb50bc5fe624eda386be09ab8",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task4",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "32f10516a7705626dee1a47f8c40a81f4fdc1a5188d132d0ae879a0a640dfe65",
+      "hash_late": "f38524f709eb618ca06c1d64f1015a37d30983da715e4ab709886c73afefd6f2",
+      "hash_repeat": "f38524f709eb618ca06c1d64f1015a37d30983da715e4ab709886c73afefd6f2",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task4",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "5bf53b1be7d4bd4d0b4de38d30528c2b014cf65cc26b387fb21505c1626a8d74",
+      "hash_late": "7bba10ea20497b84a7b559d698efd7ed94ce8d0b1cd99631c49f173f69e63d1c",
+      "hash_repeat": "7bba10ea20497b84a7b559d698efd7ed94ce8d0b1cd99631c49f173f69e63d1c",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task4",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "a1e5a3ba0a6cb6406d44fadfd86443ddfec49f53861f7f37fdbc060862813115",
+      "hash_late": "dcd08bd75262de3bfdb083e3505a9f48895eb65d84b6b6b7a598a95f0534f2be",
+      "hash_repeat": "dcd08bd75262de3bfdb083e3505a9f48895eb65d84b6b6b7a598a95f0534f2be",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task5",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "ee8fac04e1039bd2027b1af671f611ac794109f2997c76de01169db31cba2c60",
+      "hash_late": "1c5726fb9504980d2f7e9639dd271097c0dc079a7ba7a91047e1a0845b69c79e",
+      "hash_repeat": "1c5726fb9504980d2f7e9639dd271097c0dc079a7ba7a91047e1a0845b69c79e",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task5",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "48d2cad3c83584844953029c7c9f0e397b8ad13c866269110b2ee864b59bfec5",
+      "hash_late": "67da1bf3b0e0313831166a2a7f022c27f0934e6a8586c95765bed2ad390e38e9",
+      "hash_repeat": "67da1bf3b0e0313831166a2a7f022c27f0934e6a8586c95765bed2ad390e38e9",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task5",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "3979b1d0c4820d2a5abfb79a05037e3eb0316ec1c56d99bc214bfb6bed43fa3a",
+      "hash_late": "4489e983b7e89b8971b9bf97a0411dc55aa3f87fe240ceb58d490089e4f89242",
+      "hash_repeat": "4489e983b7e89b8971b9bf97a0411dc55aa3f87fe240ceb58d490089e4f89242",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task5",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "2c5497b5ecfacb50fdd8b0e75721c4e6ad87800cb0946fa3120c0a792ac4527a",
+      "hash_late": "989aadacb973fe32c73f53a58582bf5400ec8b03f7eec1342e3d764838835f34",
+      "hash_repeat": "989aadacb973fe32c73f53a58582bf5400ec8b03f7eec1342e3d764838835f34",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task5",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "1f59dd2c379ab7d059afcbc7feb3a8ad7f50cf742f6999c5780fafdf14bad5c9",
+      "hash_late": "d7c9471b2928fab1f3cd8050b8c6bf27398746954ce66fdefea8afa5b504bc59",
+      "hash_repeat": "d7c9471b2928fab1f3cd8050b8c6bf27398746954ce66fdefea8afa5b504bc59",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task7",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "47b78439723c4414d4e01ba19199bfb0fd9dfa957c9acdee24e0c0354b879c04",
+      "hash_late": "3229d690cccdc3dc2e7fb14503a67c1f91726a97606435a5379f7b9dc90a2247",
+      "hash_repeat": "3229d690cccdc3dc2e7fb14503a67c1f91726a97606435a5379f7b9dc90a2247",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task7",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "fe9399f8659307b7867ea28bc363a3c0498e3047fc19b7bddeec2e32d1ba416d",
+      "hash_late": "2d055c3aac48c5dd601b05c99b23fdaeef55bdd28f3202dd3f064f77f5ff5bc1",
+      "hash_repeat": "2d055c3aac48c5dd601b05c99b23fdaeef55bdd28f3202dd3f064f77f5ff5bc1",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task7",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "6a5efc71ad11dda0f48dc1bcb95c4a1429e80bc57d0c56d50d14097c5e5cafa0",
+      "hash_late": "52781f192b30502d070e7261baaaa4f9b8adfe81e57da75a0d8f7ec223b96b05",
+      "hash_repeat": "52781f192b30502d070e7261baaaa4f9b8adfe81e57da75a0d8f7ec223b96b05",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task7",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "f960345c834eec346b571c903a6573c12b7090f3db04300a435d1309bfe27e44",
+      "hash_late": "8754827e110e7ddeb1e0297b41ae1cd9a68877eec09fd9008e5348fb9d3ecdd7",
+      "hash_repeat": "8754827e110e7ddeb1e0297b41ae1cd9a68877eec09fd9008e5348fb9d3ecdd7",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task7",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "e580fb594adfd1bb87149e001efbf83c91d6ecc49aa84c0594f25d3eb4f5077b",
+      "hash_late": "563a4ef955744c3e91c58f9615fbf3f420109b8a3e0a1802de42da04ffb82ffe",
+      "hash_repeat": "563a4ef955744c3e91c58f9615fbf3f420109b8a3e0a1802de42da04ffb82ffe",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task8",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "d7263c4450e32824765c2e50bfce949f5785f36c4a2a436d6668c060b829eeb6",
+      "hash_late": "8ab6fc025b4c8e78c1d6a117f07c0f063e64f2d4c341e36fad17dc5167a71b3c",
+      "hash_repeat": "8ab6fc025b4c8e78c1d6a117f07c0f063e64f2d4c341e36fad17dc5167a71b3c",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task8",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "02e01a499be80f1318f0b5843f8360eb5f18d7592130c96ae942171df790f4d0",
+      "hash_late": "da08b3212ff2d47201c3c2790881752190fa98db962b402e629f26dab4ab3275",
+      "hash_repeat": "da08b3212ff2d47201c3c2790881752190fa98db962b402e629f26dab4ab3275",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task8",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "53252020b675f343da3a9b978e231f437da76da7ddca232494f0b181a66c225b",
+      "hash_late": "40e7cdff49ad1f3b601c489ed790c95677c557143b32700812c54f0a8b893708",
+      "hash_repeat": "40e7cdff49ad1f3b601c489ed790c95677c557143b32700812c54f0a8b893708",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task8",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "52862e9b608d287dd6fb0b56ef8d117f6977d28223dac62555e99b047c12e659",
+      "hash_late": "0290b13997daee9cea77106523383ba7e8272cd5a9cb1701c782bedcd887491a",
+      "hash_repeat": "0290b13997daee9cea77106523383ba7e8272cd5a9cb1701c782bedcd887491a",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task8",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "98826b39861b575b4c8484c66a86d34e8c76ce0fb43ea5dd315c3500803d36b1",
+      "hash_late": "b2358ceaccc47ab0d2e9addf09175b2ab3bccf36ab22dee3d9d280539c3e6285",
+      "hash_repeat": "b2358ceaccc47ab0d2e9addf09175b2ab3bccf36ab22dee3d9d280539c3e6285",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task9",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "3801f490b8343f33ded6ab957e926eee157450c0cdda245376fbf55278a6da10",
+      "hash_late": "e0dea8c0b9c23b2f5cfad6139dd1e0c4b57f3931439a92753c83080212b35190",
+      "hash_repeat": "e0dea8c0b9c23b2f5cfad6139dd1e0c4b57f3931439a92753c83080212b35190",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task9",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "ad8e4ec7819fec2714bb0c2826068771abc8573beb076bab95bd962bb78c9656",
+      "hash_late": "9df74809697b9fb2e4dd845d22936710e94138babb696f12582d80887c30281b",
+      "hash_repeat": "9df74809697b9fb2e4dd845d22936710e94138babb696f12582d80887c30281b",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task9",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "75f8d22cc210b55a8b98ea3bdc04daa8ee9e18743ffbfe370aeb5437fcbb638e",
+      "hash_late": "9954ed4579ac61b99f1ca81d1fa55e778c20803caf042a73db91336ccf160f1e",
+      "hash_repeat": "9954ed4579ac61b99f1ca81d1fa55e778c20803caf042a73db91336ccf160f1e",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task9",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "368445b27af6b5405ce7c277c17dce8f6df8845dca6c9366b6a92b30a8595f37",
+      "hash_late": "3293e23949e7f5dbfbe48bb3c3461a58d80c6d5d35af9a3f6802b1982d908487",
+      "hash_repeat": "3293e23949e7f5dbfbe48bb3c3461a58d80c6d5d35af9a3f6802b1982d908487",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task9",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "e3bfa694c593253f40abd12c34f503c1795c8f51e19d5acf4b11ebc726136093",
+      "hash_late": "fa0f798908b7169e4f8b18280f263363b6d610a267d2369c1581073d0ad5e937",
+      "hash_repeat": "fa0f798908b7169e4f8b18280f263363b6d610a267d2369c1581073d0ad5e937",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task11",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "9921ddaa062a8c245dc549aa534e46f1f8bd7eb302176207f9dc8a37d297fa97",
+      "hash_late": "788ed4bf5188102953ef375a7bccf2353429465b6b3c5d439002e09a822336b4",
+      "hash_repeat": "788ed4bf5188102953ef375a7bccf2353429465b6b3c5d439002e09a822336b4",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task11",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "83d7aa861da79a6aec1d4d95a3f034500de5be1790c0232b8ba3d058789764d5",
+      "hash_late": "a60b36e1cd1a40a15630189b5b144a41efaf6a38ef03ffc866e7633c083bd72d",
+      "hash_repeat": "a60b36e1cd1a40a15630189b5b144a41efaf6a38ef03ffc866e7633c083bd72d",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task11",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "de7ff381a9ffb2606635034ec82621a8b1a46e88e9a4b3daec2df8b101fb3951",
+      "hash_late": "8de982478f39cbf5f6d6a57e229febc761a1dd343048bc61d5e36dc372618139",
+      "hash_repeat": "8de982478f39cbf5f6d6a57e229febc761a1dd343048bc61d5e36dc372618139",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task11",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "2e29eac2f7d77230fc4cb2683601dc4b540a15f602917101df8f57b7097a59ee",
+      "hash_late": "d2d744783d333e73a9ac2c0706ddd4d3c4f8f2b3c4b291b104b43ff2b56caa9b",
+      "hash_repeat": "d2d744783d333e73a9ac2c0706ddd4d3c4f8f2b3c4b291b104b43ff2b56caa9b",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task11",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "1146107f28877c53d2bd84b3a00741864e4fe059448d603c98710abe2a0c3950",
+      "hash_late": "482785dc874246a74e839e871cfa7fce500fcf41c730b4388c17970d735a0554",
+      "hash_repeat": "482785dc874246a74e839e871cfa7fce500fcf41c730b4388c17970d735a0554",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task12",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "e9396268f6de5a814de82387d9d854c5eed61b3137cfd31380c90791fdb7a37b",
+      "hash_late": "6f7aa391ee0758ad6817a255cb6fb21a199ac152ac096ae84279c83e597c9d10",
+      "hash_repeat": "6f7aa391ee0758ad6817a255cb6fb21a199ac152ac096ae84279c83e597c9d10",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task12",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "5d55d13ea3051f3c9a9c39885bd6a1b485e03b45cf1f94e76a857209283d13d0",
+      "hash_late": "5b177b3ad738abde6c82e9de625799abd9cf5b84bdebff5bd7f31eb728a5e4f8",
+      "hash_repeat": "5b177b3ad738abde6c82e9de625799abd9cf5b84bdebff5bd7f31eb728a5e4f8",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task12",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "67106111cb316853321d17a4763da42adde9918ce34b2f9fda8a61ff11928c4d",
+      "hash_late": "8dfddb041c690c3a6250ff3564f00c278b5f11c9c3148f206723227f1abec170",
+      "hash_repeat": "8dfddb041c690c3a6250ff3564f00c278b5f11c9c3148f206723227f1abec170",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task12",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "d1819e71805e9fd03a3517f320a2ea4cda2474b047a19422adcde90e437aceda",
+      "hash_late": "7daa69c1f4919f9ba5ee175adf1335d8e3d84f5d5235c0b22b4f427e32d0a750",
+      "hash_repeat": "7daa69c1f4919f9ba5ee175adf1335d8e3d84f5d5235c0b22b4f427e32d0a750",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task12",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "491485395e236a3b67b16525841975b1aa593408820c318f409b6f1168ca5d39",
+      "hash_late": "e3e2969c034e4db157cea0e753ea947d7381f906d474c8080cb142b55582a219",
+      "hash_repeat": "e3e2969c034e4db157cea0e753ea947d7381f906d474c8080cb142b55582a219",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task13",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "629fd70a77f2266fe746cd19f1e5827006c9205e4f26eb0e80c52c7ffc4d6ac4",
+      "hash_late": "651d767e102425d04e99b5a8dbdc038c225793c16b1ad7aa7987d16c41e032a4",
+      "hash_repeat": "651d767e102425d04e99b5a8dbdc038c225793c16b1ad7aa7987d16c41e032a4",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task13",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "c363856e6edb01fa534f26f306ab354a27f6dbfc76d7f6b79ac792127909bd9c",
+      "hash_late": "0ec0ee0e688ca2380413943d66f451a442a16d20ef7ad63c9b7b965a98de2bd4",
+      "hash_repeat": "0ec0ee0e688ca2380413943d66f451a442a16d20ef7ad63c9b7b965a98de2bd4",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task13",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "83dd794aa0ff8a56eac178621f7d088dad3448cd6e5d360b688b666c7855806e",
+      "hash_late": "bfb33d6dd6215cf23c6ed381587ab2261b618342225faa8380ca7289ee07f3de",
+      "hash_repeat": "bfb33d6dd6215cf23c6ed381587ab2261b618342225faa8380ca7289ee07f3de",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task13",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "a37d89fd8b90c5975226f709501a3a4efc60a969abe43566da68217913959297",
+      "hash_late": "9e47d56d895346a6f857732e0e6e29e7b16bd772dd41da3f778de9204bf6a04c",
+      "hash_repeat": "9e47d56d895346a6f857732e0e6e29e7b16bd772dd41da3f778de9204bf6a04c",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task13",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "6ce2cc48a8cb4d9979b7914b3b682f4eabe9092410dc655f7f2e0e242351dd7e",
+      "hash_late": "aefe9c89977b26a1a1c05c3edcdaeee6a5b72574dc3a1f95c4fc38b892c0b8e3",
+      "hash_repeat": "aefe9c89977b26a1a1c05c3edcdaeee6a5b72574dc3a1f95c4fc38b892c0b8e3",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task14",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "67ed0d574e548010db5c1ea2905f0a5bab110e221dccef7075437d63832e6e9b",
+      "hash_late": "0a47102026878035c2a98e6a523a8555c98c5a1c768033b8d1eed97e1eb29a82",
+      "hash_repeat": "0a47102026878035c2a98e6a523a8555c98c5a1c768033b8d1eed97e1eb29a82",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task14",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "f73edd0ef4eacc8bdd0101e0021c2efa2af15c33f8ccaa27089fcbe4138d381b",
+      "hash_late": "205309fbcea36b63df4730c913fc333b6c8630d1d7db3738faee992f688c003b",
+      "hash_repeat": "205309fbcea36b63df4730c913fc333b6c8630d1d7db3738faee992f688c003b",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task14",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "70248a5413b1343fa35b8c3e22eccf3fb742eb9a3f925c94f2ced53208501ecd",
+      "hash_late": "03d26ece42d14fe22accc06f6bed41edf3f6be53fd298048e24dae4234172ea5",
+      "hash_repeat": "03d26ece42d14fe22accc06f6bed41edf3f6be53fd298048e24dae4234172ea5",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task14",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "f73edd0ef4eacc8bdd0101e0021c2efa2af15c33f8ccaa27089fcbe4138d381b",
+      "hash_late": "205309fbcea36b63df4730c913fc333b6c8630d1d7db3738faee992f688c003b",
+      "hash_repeat": "205309fbcea36b63df4730c913fc333b6c8630d1d7db3738faee992f688c003b",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task14",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "19809fafa96a98c85360a7b0ad9db6424ebf4ec38d6f6405d5f6eea5b2d895e0",
+      "hash_late": "62d0f566bc079d8fdbc795d063f8dcaf96abcb4d976c1a7e87828c230488bfe2",
+      "hash_repeat": "62d0f566bc079d8fdbc795d063f8dcaf96abcb4d976c1a7e87828c230488bfe2",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task17",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "4e24d2ebd68408e60c471654895fb3355f85a171cb98c20f9f9cadccb29d797f",
+      "hash_late": "d8bcd462f35bb13a5a3bd703b25795129ee8ff3dd19fb809359b0387b8cc99b9",
+      "hash_repeat": "d8bcd462f35bb13a5a3bd703b25795129ee8ff3dd19fb809359b0387b8cc99b9",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task17",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "7d40039415a0cf6635970064851223e0afa6e4961d21a0bd96443171bff6d624",
+      "hash_late": "afa1bf2dc367b0121976f956d99459cc21285392240179368f73cc73165745e1",
+      "hash_repeat": "afa1bf2dc367b0121976f956d99459cc21285392240179368f73cc73165745e1",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task17",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "645b5e862c54d3533dfff597604b23551d2d51b7bb14ff0c592670e7af32cb75",
+      "hash_late": "5e600195e2451aa99e0f91787b8de2d6df626ffabba38d7604a35009228f204c",
+      "hash_repeat": "5e600195e2451aa99e0f91787b8de2d6df626ffabba38d7604a35009228f204c",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task17",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "6c7a4d902f585b80e41012b91fa7fa9a2c6373dec5da23d4368a81ce8654c0a0",
+      "hash_late": "85f139cea02384a24ce121df75d6849765fbcd330fd7e18bfcbdefd6f39db1cd",
+      "hash_repeat": "85f139cea02384a24ce121df75d6849765fbcd330fd7e18bfcbdefd6f39db1cd",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task17",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "fa32b448decec91a92dea857f9d8b814e28624b364aa110658a4f279086a2c31",
+      "hash_late": "14b7ed92f6ceec83c3031fc0006f5c93c0382644cc732d1aac9379988f9a60a0",
+      "hash_repeat": "14b7ed92f6ceec83c3031fc0006f5c93c0382644cc732d1aac9379988f9a60a0",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task16",
+      "cut": 1,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "18853f352b22c2a37d7f8482a6bf06e1291bd7d58ce50b28a795056ac12b90d1",
+      "hash_late": "35f8f734c3eca0b15d959d16b195757793d061ac694b23ebfdf25e677f986a06",
+      "hash_repeat": "35f8f734c3eca0b15d959d16b195757793d061ac694b23ebfdf25e677f986a06",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task16",
+      "cut": 2,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "da9dab9905a38c03a9054a455ab23a29a28cf0e379c05613db6f9332be0f667e",
+      "hash_late": "7f6dedf84f710010bdcd7a1b5b21d7094b194e158989ab58d71bcd3204ce5674",
+      "hash_repeat": "7f6dedf84f710010bdcd7a1b5b21d7094b194e158989ab58d71bcd3204ce5674",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task16",
+      "cut": 3,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "4ca5f2eae44f7cd85b47940cf45a2ee5b02e83f54cfa2ab0f87e6cc3c22121b1",
+      "hash_late": "e547defecb109218edd6d7a1008980e1c6d6d51843aba42534bf270fea3bb51c",
+      "hash_repeat": "e547defecb109218edd6d7a1008980e1c6d6d51843aba42534bf270fea3bb51c",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task16",
+      "cut": 4,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "a421d633ffe8c22d5a5b1273be643d77d843c6e358ad96334b2c8258f8c4a983",
+      "hash_late": "edab252d60a62d16e6cf7c8451d6b97bf5317a68d7bb5bc2d902d3e7a560b7ab",
+      "hash_repeat": "edab252d60a62d16e6cf7c8451d6b97bf5317a68d7bb5bc2d902d3e7a560b7ab",
+      "motion_changed": true,
+      "deterministic": true
+    },
+    {
+      "section": "task16",
+      "cut": 5,
+      "duration": 3,
+      "times": [
+        0.81,
+        2.31
+      ],
+      "hash_early": "22bb941ef7653613fd7b6b8845a69974696ceec2342e84055f6597b485ae6d2b",
+      "hash_late": "86e7f6c6020d9c30d409e6499b0eb14634c0274befafdb39d5bc910e0cf91aa6",
+      "hash_repeat": "86e7f6c6020d9c30d409e6499b0eb14634c0274befafdb39d5bc910e0cf91aa6",
+      "motion_changed": true,
+      "deterministic": true
+    }
+  ],
+  "finals": [
+    {
+      "section": "task3",
+      "cut4_hash": "6053db9910d15a8eaacf0d85b24aa62f79db5c101ffa4efd20f3f394f20be54c",
+      "cut5_hash": "51a4b9e7f66fd61f50508bde379c4de5c55d7c7c6f7df543c36d3642602917c7",
+      "distinct_content": true
+    },
+    {
+      "section": "task4",
+      "cut4_hash": "6e6b275b890be7d591b85e6f841d8291fd266a2cf219d444667c4cac0511a899",
+      "cut5_hash": "d5296baf627229755bc2d9a3a10b739274f4fe429bcfacf54956fc8a5d27a821",
+      "distinct_content": true
+    },
+    {
+      "section": "task5",
+      "cut4_hash": "458ff31f78ebcf951c1d0608712e454756ba408a6554bf8febb00d0e1555dcb5",
+      "cut5_hash": "45c916bf2035503513ffb0bd45d957d20c626baa1e4e6f2469f2f86b45ded9a3",
+      "distinct_content": true
+    },
+    {
+      "section": "task7",
+      "cut4_hash": "9ac936497625cf1c81525bbf86a3bfd1d38ef1f31dc3eb75fdb6834708846f2a",
+      "cut5_hash": "5e6b819e1bed9dee68586906f15d3b25711a70f71fe59e3c09f27ee743b3bd8b",
+      "distinct_content": true
+    },
+    {
+      "section": "task8",
+      "cut4_hash": "c04bd82c77ffd3ba4bea50c309790971f29c4967a06985fb464e53a7f772ef4c",
+      "cut5_hash": "e365e35f7c5e5ab775390234189d53181f4e23c40674a888b65be29f14edc6a3",
+      "distinct_content": true
+    },
+    {
+      "section": "task9",
+      "cut4_hash": "4b4125fed5478abb4fa08c3f79cd7f3272a7d809cd31849e2998b9774d5a1632",
+      "cut5_hash": "a4102920608eafedcf564a8a1fcd859570260d2ded3484519576f7e75f4e03f6",
+      "distinct_content": true
+    },
+    {
+      "section": "task11",
+      "cut4_hash": "8b134ff7b40531b39ae82560af008f24607d805ea01c108514eed4acc266181a",
+      "cut5_hash": "13d3b68d5319876de6739047141b863223e4d4077f3e1a775d3e94a67e53ca71",
+      "distinct_content": true
+    },
+    {
+      "section": "task12",
+      "cut4_hash": "f5e7c3308e1aab235815a87c0183a446929c8b5c3667105e026144b96a70a5ab",
+      "cut5_hash": "6103a623d06e86576a1262b7a63c429afadf872c96c1f56e9af37b601b74ff7d",
+      "distinct_content": true
+    },
+    {
+      "section": "task13",
+      "cut4_hash": "c99e71afac94e0ba0c4da1a6411f5d3b44e63c0e70e527b6c851b81ebadbbbc2",
+      "cut5_hash": "a4dc4f61c2c6fdcb3c0895d79a8274452fa81f0b358dfd9015c0e79a0e54811d",
+      "distinct_content": true
+    },
+    {
+      "section": "task14",
+      "cut4_hash": "ad2ec358db3c73621c35ba74ee7dc128bd9194343749fa7479aa9849e36b34f2",
+      "cut5_hash": "1e42577b85c744bfb49f675b7c59b465021900ad2d3d9bc0c89b68070d54bb52",
+      "distinct_content": true
+    },
+    {
+      "section": "task17",
+      "cut4_hash": "5d321530cfb9136506c29117139d85049cca13235e7474359b1cc2832acd75e2",
+      "cut5_hash": "35e642f80f076da14b472219dc54b1f32a5e0d8115e7aa0c05b5ed527d605652",
+      "distinct_content": true
+    },
+    {
+      "section": "task16",
+      "cut4_hash": "ff5f82bba042b75ebb2240af52d0fa1754e9d0bc09d90e6728ba63524e59679f",
+      "cut5_hash": "26ecdfdf282c6e66439bacddb65b5e98b0be8f69c3fea953265fb40fa9f0ab10",
+      "distinct_content": true
+    }
+  ],
+  "review": {
+    "root_previews_read": "91 preview inventory and caption font metadata; inspected task3, task11, task17, task16 detail images",
+    "fixes": [
+      "Distinct final task compositions for knowledge use, collaboration, decision support, expense insights, report review, portal comparison and measurement outcome.",
+      "Plug source photo uses center-based measurement geometry instead of unrelated random crosses.",
+      "Plug dashboard switches to a visible result table when that tab is selected."
+    ],
+    "accuracy_policy": "No fabricated Lot IDs, recipes, Z-scores, measured chart axis values, rates or counts. Infra 2h40m -> 20min is explicitly stated in its source MD; conditional figures remain excluded.",
+    "limits": [
+      "Hash changes prove frame motion, not generated human movement.",
+      "Charts illustrate supported feature types and do not encode measured source data.",
+      "Microscopy is original reference texture with illustrative animated measurement geometry."
+    ]
+  }
+}

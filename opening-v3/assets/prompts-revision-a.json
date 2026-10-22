@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "revision": "reference-matching-a",
+  "generated_with": "built-in image_gen.imagegen",
+  "generation_date_local": "2026-10-14",
+  "purpose": "Standalone opening revision using the exact uploaded nine-panel storyboard as visual reference. Assets are generated cinematic concepts and do not document actual task execution or establish functionality/performance.",
+  "reference_input": {
+    "path": "/var/folders/54/0s3blr290t9_bxhblz69pct40000gn/T/codex-clipboard-ead6c045-5054-4f56-b80d-fbfbe58953bf.png",
+    "sha256": "8fbb3322964a45e45baa70fbeb80a665e27407c0c11647783a3af884c56f4615",
+    "role": "User-provided nine-panel visual reference; only specified individual photographic panels used."
+  },
+  "constraints": {
+    "text": "None in images; titles/narration captions rendered separately in code.",
+    "operational_ui_data": "None. Earth lights are symbolic reference-matching decoration, not operational data or mapped project evidence.",
+    "palette": "Black/gold/amber with modest natural cool lighting in researcher image matching the user reference."
+  },
+  "assets": [
+    {
+      "file": "cut01.png",
+      "reference_panel": "Top left, CUT 01",
+      "original_generated_path": "/Users/jk/.codex/generated_images/01a137f3-c4be-7540-9077-29d43532898a/exec-c7355a97-3556-4a12-99c5-839c6ed2cec3.png",
+      "sha256": "c701647db797c7fffa65e208694d6ee3ec7541a4022088d7e2299e029ea050e1",
+      "native_width": 1672,
+      "native_height": 941,
+      "transparent_background": false,
+      "visual_inspection": "Recognizable Earth, low orbital angle and arc, bright amber sunrise, luminous decorative golden network lights; matches top-left panel. No text, number or UI.",
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone fullbleed 16:9 cinematic background image for an opening film, WITHOUT ANY TEXT.\nInput image: the supplied nine-panel storyboard is visual reference only. Closely match ONLY the photographic visual of the TOP LEFT panel (01, Earth opening), including its camera angle, brightness, realistic texture and luminous black/gold/amber atmosphere. Ignore and remove every heading, title, caption, panel border and all other panels.\nPrimary request: photorealistic Earth viewed from a low orbital angle, a recognizable curved planet surface with recognizable continent shapes, dark oceans and densely scattered tiny warm golden city lights linked by a few very fine ornamental golden network filaments as in the reference. These lights are decorative opening imagery, not operational data.\nComposition: one wide horizontal 16:9 frame. The Earth arc spans the entire lower part of the frame, its bright atmospheric rim rises gently toward upper left/center and curves down to the right. Planet fills approximately bottom 65 percent. A bright restrained amber sunrise emerges from the far horizon near upper center-left, warm shafts barely visible. Dark almost black sky above leaves space for later code-rendered typography. Central Earth surface lower center is dark enough for later title overlay, with luminous gold accents around it.\nLook: exactly the premium cinematic photographic mood of the top-left reference panel, rich black oceans, subtle cool natural atmosphere at horizon only, bright amber/gold city glow, crisp continent/city detail, strong depth. Not a dark generic macro surface. Earth should clearly read as Earth. Slightly luminous, detailed and compelling on a large presentation screen.\nConstraints: single fullbleed image only, no collage, no panels, no border. ZERO text, ZERO letters, ZERO digits, no Korean, no captions, no heading, no logo, no watermark, no UI, no charts, no scale or coordinates. No spacecraft, no robots, no fantasy planet, no dramatic fantasy nebula, no floating technology panels. Match reference Earth imagery rather than overdesign.",
+      "prompt_sha256": "e276bac452ec56c8d5cb33f027564c4b6b059ec60d4991084e92da3f3caf7a1f"
+    },
+    {
+      "file": "cut02.png",
+      "reference_panel": "Top middle, CUT 02",
+      "original_generated_path": "/Users/jk/.codex/generated_images/01a137f3-c4be-7540-9077-29d43532898a/exec-a3c99639-0587-4a7c-8919-00fc66922e8b.png",
+      "sha256": "b96a99b65fe48f00451201282e76a35a35811b2a860d235a1a4f5cc26cb93ea5",
+      "native_width": 1672,
+      "native_height": 941,
+      "transparent_background": false,
+      "visual_inspection": "Wafer left, black precision head above, bright gold reflections and bokeh, dark right copy space; matches top-middle panel. No text, number or UI.",
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone fullbleed 16:9 photographic cinematic background image, no text.\nInput image: supplied nine-panel storyboard is visual reference only. Closely match ONLY the photograph/background of the TOP MIDDLE panel (02, wafer and precision instrument). Keep its luminous warm gold light, close macro angle and black title negative space. Ignore all typography, captions, panel border and other panels.\nPrimary request: highly realistic circular silicon semiconductor wafer held on a metallic precision instrument chuck, viewed low oblique close-up from front left, fine regular etched rectangular dies. A black metal cylindrical precision measurement head descends from the upper center-left above the wafer at a mechanically plausible position. Black metal instrument parts around it, polished brass-gold reflections created by lighting, not gold-painted equipment.\nComposition: full wide horizontal 16:9 photograph. Wafer and instrument occupy the LEFT 65 percent. Wafer slightly tilted ellipse centered around left-third lower-middle. Cylinder head above it at left-center, visible upper mechanical mounting. Bright warm golden bokeh and blurred illuminated laboratory geometry behind wafer on the left and upper middle. RIGHT 35 percent mostly deep black clean area for later titles. Wafer catches a luminous amber/gold light along its surface and circular perimeter. Rightmost background fades into black.\nStyle/lighting: closely match reference photograph, premium cinematic realistic industrial macro, rich black and brighter glowing warm gold/amber accents, shallow depth of field, clean detail and believable materials. Interesting luminous photographic scene, not a generic flat dark illustration.\nConstraints: single fullbleed image, no collage/borders. ZERO text, letters, digits, labels, captions, headings, watermark or logos. No monitor, no UI, no data, no charts, no numbers. No holograms, no fantasy machine, no exaggerated laser beams. Generic plausible R&D instrument illustration, no implication of a specific project feature or result.",
+      "prompt_sha256": "d636aeeb7a257d04c4365cdf98bf7b3664e8dcd0b52be31177d31f6ccaf91402"
+    },
+    {
+      "file": "cut03.png",
+      "reference_panel": "Top right, CUT 03",
+      "original_generated_path": "/Users/jk/.codex/generated_images/01a137f3-c4be-7540-9077-29d43532898a/exec-c6484b29-47f4-4ab5-bc05-2ef33ba3b0e0.png",
+      "sha256": "7b2498c648f61d68ee0a539891130ad122f65b394aa45bae7edf2f46450286d8",
+      "native_width": 1672,
+      "native_height": 941,
+      "transparent_background": false,
+      "visual_inspection": "Cleanroom researcher profile left, soft modest cool practical monitor glow and amber highlights, dark right equipment; matches top-right panel. No readable screen/UI/data.",
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone fullbleed 16:9 cinematic photographic background, all typography added separately later.\nInput image: supplied nine-panel storyboard is visual reference only. Closely match ONLY the photographic visual of the TOP RIGHT panel (03, cleanroom researcher observing equipment). Match the profile framing, cleanroom gown texture, realistic monitor glow and depth. Ignore all text, captions, panel borders and other panels.\nPrimary request: realistic East Asian adult cleanroom researcher in left-side profile, wearing fitted white cleanroom hood, white mask, clear safety glasses and cleanroom gown. The researcher leans slightly toward and attentively observes out-of-focus precision equipment or a softly glowing monitor ahead to the right. Natural fabric texture and convincing face visible around eye and glasses; no posed chin-resting gesture.\nComposition: full wide horizontal 16:9 photograph. Subject occupies LEFT 60 percent, head near upper-left-middle facing right and shoulders lower left, matching the reference profile. Behind and to the right blurred cleanroom equipment with a small modest cool-white/cool-blue practical monitor glow, without readable content. Rightmost 35 percent darker negative space for later code text. Soft warm amber rim on glasses, fabric and instrument edges; keep depth and photograph-like bokeh.\nLighting/color: premium cinematic photographic realism. Black/deep charcoal shadows, warm white gown and restrained amber highlights, modest natural cool practicals as in the reference are allowed but no bright blue-neon theme. Image sufficiently illuminated to see researcher details, not featureless dark. Rich contrast and true photographic texture.\nConstraints: only this one fullbleed image. ZERO words, letters, digits, Korean text, captions, heading, logos, watermark or borders. No readable UI on monitor, no software screens, charts, data or numbers; screen light blurred abstract only. No hologram, robot, invented task feature or performance result.",
+      "prompt_sha256": "94765b6f1ebd8dd97967fd936a85a190f26c6f1c3202013fddb10e4fda0aca13"
+    },
+    {
+      "file": "cut09.png",
+      "reference_panel": "Bottom right, CUT 09",
+      "original_generated_path": "/Users/jk/.codex/generated_images/01a137f3-c4be-7540-9077-29d43532898a/exec-b4f0ce1e-950e-429d-84d8-e8377caf94c1.png",
+      "sha256": "b2288478ad3abb0490c9ce4728cad8efe5187697ec8d16f2056e736a14fbf85b",
+      "native_width": 1672,
+      "native_height": 941,
+      "transparent_background": false,
+      "visual_inspection": "Separate wafer macro low left without measurement head, warm golden bokeh above and quiet dark right-center; matches bottom-right panel. No text, number or UI.",
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone fullbleed 16:9 premium cinematic wafer macro background, no typography.\nInput image: supplied nine-panel storyboard is visual reference only. Closely match ONLY the BOTTOM RIGHT photographic panel (09, closing wafer macro). This has a wafer low on left with beautiful bright golden bokeh behind it and dark right-center for title. It must be distinct from the top-middle instrument panel.\nPrimary request: close-up of a circular semiconductor wafer viewed very low and obliquely, its curved near rim and intricate die texture in the LOWER LEFT foreground. Warm golden/amber light glows across wafer surface. Background upper-left and center-left filled with pronounced rich warm golden photographic bokeh, like blurred laboratory practical lights and soft warm reflections. Luminous cinematic depth.\nComposition: full wide horizontal 16:9 photograph. The wafer occupies lower left 48 percent and extends partly off the bottom-left frame edge, its ellipse tilted diagonally toward center. Bright diffused golden bokeh above and behind it especially upper left; RIGHT center/half very dark nearly black for later titles. A few soft amber practical glows can continue near upper right edge, but right-center remains black and quiet. No instrument head anywhere. No mechanical spindle overhead.\nStyle/color: very close to the bottom-right reference panel background; premium photographed material texture, crisp wafer edge dissolving into shallow depth, luminous warm gold #D4AF7C/#F5D6A6 and amber #FFB347 against black #080808. Rich glow and bokeh, no generic empty black flat background.\nConstraints: one standalone fullbleed frame. NO text of any kind; no headings/captions/letters/digits/logos/watermarks/panel borders. No screen, UI, chart, data, number or graph. No instrument head, no robot, no hologram, no laser. Generic cinematic semiconductor material illustration, not documentary project proof.",
+      "prompt_sha256": "60b971e977943a4b04e1bc15fd7a24a3310c081e97cc783aa18f807b9373f6e4"
+    }
+  ]
+}

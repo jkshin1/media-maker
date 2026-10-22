@@ -1,0 +1,53 @@
+{
+  "provider": "Built-in image_gen",
+  "tool": "image_gen.imagegen",
+  "mode": "edit",
+  "purpose": "Remove static luminous gold paths so scene time can drive an actual bottom-to-top draw-on animation.",
+  "original_assets_preserved": true,
+  "assets": [
+    {
+      "cut": "04",
+      "input_file": "cut04.png",
+      "input_sha256": "35b001a4d5d5ed1dc966eed4dc586ebcce8fc8634b6e4769f4d67a436ee8312a",
+      "file": "cut04-clean.png",
+      "sha256": "345300c81839e7c3b1e24f3bd487e7efbd1d6ed3f33aed9ad5c1c041895e2073",
+      "width": 1672,
+      "height": 941,
+      "source_generated_file": "/Users/jk/.codex/generated_images/01a137f3-55cd-71a3-a36b-0b412911b1aa/exec-d41e13a0-4921-4822-aa15-0627f4a8a0c2.png",
+      "prompt_exact": "Use case: precise-object-edit. Asset type: clean photographic background plate for later code-rendered animated gold ribbon. Input image is the EDIT TARGET, not a style example. Edit this exact full-frame16:9 image, preserving camera, perspective, wafer and rectangular panel composition precisely. Remove ONLY the very bright curving amber-gold S-shaped light ribbons/strands/laser-like trails that run from the bottom-left, loop around the foreground wafer, bend toward the left-middle and recede toward the upper-center panels. Also remove small glowing traveling sparks associated with those trail paths and their strong immediate floor reflections/flare. Reconstruct the underlying dark metallic floor, wafer support and distant laboratory naturally where the trails were removed. KEEP the large golden semiconductor wafer in lower-left exactly positioned, the six angled floating wafer-texture panels exactly positioned and count intact, all thin GOLD PANEL BORDERS illuminated, panel material detail, distant laboratory perspective, ambient warm gold industrial lighting and background optical bokeh, high photographic3Ddepth, and the entire dark right-third negative copy area. Keep normal wafer reflections and metal highlights from ambient lighting. Do not darken or redesign the entire scene. NO curving light ribbon or residual curved line visible anywhere across the floor/wafer-space: this clean plate will receive a new moving S-trail drawn by code. Do not remove the gold rectangular panel edges. Do not add objects, letters, Korean, English, numbers, UI, graphs, data, watermark or logo. No text at all. Keep the same image dimensions/aspect and match the original scene as closely as possible except the removed trail effect.",
+      "transparent_background": false,
+      "visual_inspection": {
+        "status": "PASS",
+        "trail_removed": true,
+        "wafer_and_panels_preserved": true,
+        "illuminated_panel_borders_preserved": true,
+        "panel_count": 6,
+        "dark_copy_zone_preserved": true,
+        "no_generated_text_ui_values": true,
+        "notes": "Original composition and camera preserved closely; floor/support reconstructed naturally where luminous ribbon and traveling sparks were removed. Ordinary ambient metal reflections, industrial lights and bokeh retained."
+      }
+    },
+    {
+      "cut": "07",
+      "input_file": "cut07.png",
+      "input_sha256": "ba3fda421f9fe42667e56d6e45b766677d30fb49596d948f99f59b68322c8bf9",
+      "file": "cut07-clean.png",
+      "sha256": "382e8002fcfd88c48bb1b5643e77269e28c3b6be0659d528620c9e7b477d9a31",
+      "width": 1672,
+      "height": 941,
+      "source_generated_file": "/Users/jk/.codex/generated_images/01a137f3-55cd-71a3-a36b-0b412911b1aa/exec-a060f373-b6f7-4eff-b24e-9aaa1e800ebc.png",
+      "prompt_exact": "Use case: precise-object-edit. Asset type: clean photographic background plate for later code-rendered animated orbital light path. Input image is the EDIT TARGET, not a style reference. Edit this exact full-frame16:9 image with composition locked. Remove ONLY all bright curved amber-gold orbital ribbons, luminous strands and streaming spark trails around and above the large wafer and through the foreground floor. Remove their strong immediate curved glow/reflections so no static golden curving ribbon remains behind the later animation. Reconstruct underlying dark polished industrial floor, wafer support and laboratory geometry naturally. KEEP the large wafer at lower-left precisely positioned, its detailed chip/metal textures, the four sparse angled rectangular panels exactly positioned and count intact, illuminated thin GOLD RECTANGULAR PANEL BORDERS, abstract wafer-texture interiors, laboratory background perspective, ordinary warm industrial gold lights and distant optical bokeh, camera/viewpoint, realistic3Dphotographic material, and the dark empty right-third copy zone. Keep normal ambient metallic reflections and highlights. Do not erase rectangle edges, flatten the materials, darken the whole image, shift or replace objects, change palette, or make a new composition. No orbital ribbon/curved trail or moving spark stream anywhere. No text, letters, Korean, English, numbers, labels, watermark, logo, UI or graph. Preserve same dimensions/aspect and original image closely except the removed light-path effect.",
+      "transparent_background": false,
+      "visual_inspection": {
+        "status": "PASS",
+        "trail_removed": true,
+        "wafer_and_panels_preserved": true,
+        "illuminated_panel_borders_preserved": true,
+        "panel_count": 4,
+        "dark_copy_zone_preserved": true,
+        "no_generated_text_ui_values": true,
+        "notes": "Original composition and camera preserved closely; floor/support reconstructed naturally where luminous ribbon and traveling sparks were removed. Ordinary ambient metal reflections, industrial lights and bokeh retained."
+      }
+    }
+  ]
+}

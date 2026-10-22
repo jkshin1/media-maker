@@ -1,0 +1,49 @@
+{
+  "revision": 12,
+  "status": "INCOMPLETE_SINGLE_TAKE_NOT_ADOPTED",
+  "final_production_complete": false,
+  "generation_id": "nI8IsM21KUQk8YGowffr",
+  "original_master_sha256": "c59d79e41a1ca5e1395065900bb5bcaea8e27800a2dda6075c7d3ca51a9a0954",
+  "tempo_master_sha256": "122e1e385f70cdc5de41f899d643713e356b29b8faf9269047c6746a1a688d74",
+  "script_utterances": 68,
+  "complete_utterances_before_partial_last": 62,
+  "partial_cut": "task16_cut4",
+  "missing_cut_ids": [
+    "task16_cut5",
+    "ending_cut1",
+    "ending_cut2",
+    "ending_cut3",
+    "ending_cut5"
+  ],
+  "last_recognized_phrase": "수집 시간을 1200초에서 75초로 줄이고",
+  "partial_cut_character_coverage": 0.41304347826086957,
+  "tail_original_speed_recheck_asr": " 랏, 장비, 템과 보고 정보를 따로 확인했습니다. 하나의 앱에서 랏과 장비 상태, 템커터와 의뢰 현황을 통합조회합니다. 데일리와 위클리 리포트, 주말 근무자 안내를 자동화합니다. 보고와 취합 업무 시간을 90% 이상 단축합니다. 반복 조회와 취합 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다. 대량 데이터를 가공하고 오개측을 유관으로 검토했습니다. 개측 데이터의 수집과 전철이 적재를 자동화합니다. 이미지 기반 오개측 후보 탐지와 데시보드 자연어 분석을 제공합니다. 수집 시간을 1200초에서 75초로 줄이고",
+  "new_take_ends_during_speech": true,
+  "last_120ms_original_rms_dbFS_approximately": -29.3,
+  "evidence_files": {
+    "fast_full_asr": "narration/rejected-single-take/transcription-fast.json",
+    "original_speed_last45_asr": "narration/rejected-single-take/transcription-original-last45.json"
+  },
+  "old_ending_or_voice_not_spliced": true,
+  "new_full_generation_not_retried": true,
+  "recovery_status": "PENDING_USER_TWO_PART_EXCEPTION",
+  "title_restore_implementation_ready": true,
+  "title_restore_preview_stills": 81,
+  "title_count": 12,
+  "seconds_per_title": 2,
+  "first_photo_duplicate_overlay_disabled": true,
+  "preview_is_not_a_final_voice_timeline": true,
+  "historical_alignment_diagnostic_summary": {
+    "status": "REVIEW_REQUIRED",
+    "safe_boundary_count": 61,
+    "lexically_anchored_sentence_count": 62,
+    "ending_lexical_gate_pass": false,
+    "exact_character_coverage": 0.906508875739645,
+    "original_diagnostic_was_superseded_at_active_alignment_path": true
+  },
+  "evidence_hashes": {
+    "narration/rejected-single-take/transcription-fast.json": "e1047709b8a8e1b6bb288bd2f6242852741b0439d2936f50620ef611d834eb79",
+    "narration/rejected-single-take/transcription-original-last45.json": "78ccb3d9824c53bff81cc52b081ccd42ae7f60beadee3f86c606e3d1cfcb3e5f"
+  },
+  "scope": "Historical rejected single take only; neither this take nor its timestamps are active production inputs. Small diagnostic ASR records are preserved separately from current complete-take evidence."
+}

@@ -1,0 +1,1730 @@
+{
+  "status": "PASS_WITH_ASR_VARIANTS",
+  "scope": "Read-only source/MD conformance and audio provenance audit during final render. Only this validation JSON is created. Final encoded MP4 verification remains a separate gate.",
+  "created_at_utc": "2026-10-14T09:22:27.416365+00:00",
+  "checks": {
+    "reference_20_md_18_png": true,
+    "reference_source_hashes": true,
+    "task_order_12": true,
+    "task_owners_latest_md": true,
+    "task_five_content_cuts": true,
+    "kyung_actual_generation_voice": true,
+    "actual_generation_model_v4": true,
+    "completed_single_take": true,
+    "config_generation_prompt_matches": true,
+    "spoken_73_cut_captions_match": true,
+    "source_14_section_clips_exact": true,
+    "all_four_summaries_narration_zero": true,
+    "last_cards_narration_zero": true,
+    "under_five_minutes": true,
+    "three_conditional_script_deviations": true,
+    "selected_bgm_matches_uploaded_original": true,
+    "supplemental_before_12_byte_verified": true,
+    "frozen_source_inputs_unchanged_during_audit": true
+  },
+  "reference": {
+    "zip_sha256": "09e79abbdb5e961f1d784693980709c4580a7b374dc98eb8c40984c9d1a0e1f6",
+    "zip_hash_matches_manifest": true,
+    "zip_md_count": 19,
+    "zip_png_count": 18,
+    "separate_monitoring_md_count": 1,
+    "total_md": 20,
+    "total_png": 18,
+    "files": [
+      {
+        "path": "reference/1791965411046.png",
+        "sha256": "ea2e003c68f95836403bd3fdffaf4ec2946700342a07447c8476bfa9e6d699d6",
+        "bytes": 2101470,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965411046.png"
+      },
+      {
+        "path": "reference/1791965411099.png",
+        "sha256": "ee7716b8343d4d7c6e96cfe3fc5d62637285866da11024168342f9a39e4fd8a1",
+        "bytes": 2053083,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965411099.png"
+      },
+      {
+        "path": "reference/1791965411155.png",
+        "sha256": "0662fbc42cf6cfc0730241ae9d908b5b23d942beebc880e35e6439eb8c768253",
+        "bytes": 2600431,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965411155.png"
+      },
+      {
+        "path": "reference/1791965410023.png",
+        "sha256": "8bdc263426e663f5abf9bda834106ad904dd3544c212deb932220e5ecc03767d",
+        "bytes": 2317208,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410023.png"
+      },
+      {
+        "path": "reference/1791965410103.png",
+        "sha256": "b9f75d1e1e8305d98b0cba9b78b36157f492b051828d0584733be1e290642244",
+        "bytes": 2362379,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410103.png"
+      },
+      {
+        "path": "reference/1791965410176.png",
+        "sha256": "63603e605d467c061c1fd11748949dfc9f0a290e60a5762f374ebfd0dcaeb2a3",
+        "bytes": 2054794,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410176.png"
+      },
+      {
+        "path": "reference/1791965410246.png",
+        "sha256": "b9898638feae2f9047c4d3396989d1279b45abbd7c2f5d12fa4664b1a7133981",
+        "bytes": 2225967,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410246.png"
+      },
+      {
+        "path": "reference/1791965410319.png",
+        "sha256": "73f521f8b0c4cb53199790f14fce618cc678c0aa4a6572f32e74963c78677414",
+        "bytes": 2340200,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410319.png"
+      },
+      {
+        "path": "reference/1791965410381.png",
+        "sha256": "89f7525d4ae35735ba03e994c6c6a84aa4d425a8dbb990a3360ff38e2ad88992",
+        "bytes": 2400534,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410381.png"
+      },
+      {
+        "path": "reference/1791965410453.png",
+        "sha256": "2a2d62c1bc0ed0f1ea9c1575fd858abbd7eb56601c5d0720ea7c5eee1c8bbd66",
+        "bytes": 2257032,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410453.png"
+      },
+      {
+        "path": "reference/1791965410523.png",
+        "sha256": "84000a98169cbf0fd2d4faa75efba534efe2b5fa7b406853bd249e0a433d500f",
+        "bytes": 2240848,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410523.png"
+      },
+      {
+        "path": "reference/1791965410592.png",
+        "sha256": "5c9367580fecd8fb2d762a5134928aac8ab3886ec51b4b4df39424ca8d28a361",
+        "bytes": 2257009,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410592.png"
+      },
+      {
+        "path": "reference/1791965410660.png",
+        "sha256": "913b9ba91eb565b43fc74bfb56ff60a468e5758a4dc0d00749bdfd1e7bfbf3ae",
+        "bytes": 2271304,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410660.png"
+      },
+      {
+        "path": "reference/1791965410736.png",
+        "sha256": "a3de34e596f605ae87ea92363906d96f69263bcc3abf5cb8107201a7a2158e17",
+        "bytes": 2193098,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410736.png"
+      },
+      {
+        "path": "reference/1791965410805.png",
+        "sha256": "b3541effcc673ce41b2dd424abdfb38230cfcdada6144570bdbf7713db2127bd",
+        "bytes": 2114906,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410805.png"
+      },
+      {
+        "path": "reference/1791965410890.png",
+        "sha256": "fce402f79a7160c184e4aba4479f6b3f79e1a8c92259f590c31bb142532edaa3",
+        "bytes": 2042793,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410890.png"
+      },
+      {
+        "path": "reference/1791965410941.png",
+        "sha256": "7489f1428dc7b8aa2d627b9e856d15b49dbc14ef49158b471d407c4464a4b809",
+        "bytes": 1979520,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410941.png"
+      },
+      {
+        "path": "reference/1791965410989.png",
+        "sha256": "0ca19bab1ec4d41283f67cc930eddcd3345e496da6d03f6bd4482801f4eedd0d",
+        "bytes": 2618984,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1791965410989.png"
+      },
+      {
+        "path": "reference/18. RD_공정_AI_Fast_Track_엔딩_영상제작_MD.md",
+        "sha256": "315df9d2f8b4e9a9070a146f6339107b1b5d0d96c50563b78eb6b608ad6ba735",
+        "bytes": 11520,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "18. RD_공정_AI_Fast_Track_엔딩_영상제작_MD.md"
+      },
+      {
+        "path": "reference/17.RD_공정_AI_Fast_Track_김성후TL_TCAD_TEM_Image_Labeling_Tool_MD.md",
+        "sha256": "1f506752e026d2cb9e86b9c37ab7d78a2b05a30002b45e2be079bfef2ee66401",
+        "bytes": 11022,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "17.RD_공정_AI_Fast_Track_김성후TL_TCAD_TEM_Image_Labeling_Tool_MD.md"
+      },
+      {
+        "path": "reference/19. RD_공정_AI_Fast_Track_통합_영상제작_지시서.md",
+        "sha256": "ba48762f277f98616936bc31541dcfc015b3b043c966a1ad005305c68c06e371",
+        "bytes": 14568,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "19. RD_공정_AI_Fast_Track_통합_영상제작_지시서.md"
+      },
+      {
+        "path": "reference/15.RD_AI_Fast_Track_서머리4_메시지_모션포함_MD.md",
+        "sha256": "c825f3d5012131f1902c5cff544478c619243e2530959150939a840a4430264b",
+        "bytes": 7966,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "15.RD_AI_Fast_Track_서머리4_메시지_모션포함_MD.md"
+      },
+      {
+        "path": "reference/16.RD_공정_AI_Fast_Track_김지은TL_Plug_대면적데이터분석_MD.md",
+        "sha256": "485aff19b6fa119a31d323ffe889c15eee917d327281ec835061f25632afa4aa",
+        "bytes": 10924,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "16.RD_공정_AI_Fast_Track_김지은TL_Plug_대면적데이터분석_MD.md"
+      },
+      {
+        "path": "reference/14. RD_공정_AI_Fast_Track_정현준TL_Cubic공정Lab_App_Agent_MD.md",
+        "sha256": "97605ec566fa86279fa1b266b80bf983f46ca6b8bcfd38821a9db8f7eff52626",
+        "bytes": 10712,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "14. RD_공정_AI_Fast_Track_정현준TL_Cubic공정Lab_App_Agent_MD.md"
+      },
+      {
+        "path": "reference/13. RD_공정_AI_Fast_Track_김도훈TL_Daily_Report_Auto_Mail_System_MD.md",
+        "sha256": "25613236b9702eef12396a04b5d2284f6d341386e12b4d0f3da87f1131f2c154",
+        "bytes": 10713,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "13. RD_공정_AI_Fast_Track_김도훈TL_Daily_Report_Auto_Mail_System_MD.md"
+      },
+      {
+        "path": "reference/12. RD_공정_AI_Fast_Track_오승재TL_경비분석_절감아이템발굴_MD.md",
+        "sha256": "c917d77f52ec9870ed8b2a749348c66b40de0e382ef1b00fdd923942b1d72fbe",
+        "bytes": 10895,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "12. RD_공정_AI_Fast_Track_오승재TL_경비분석_절감아이템발굴_MD.md"
+      },
+      {
+        "path": "reference/10. RD_AI_Fast_Track_서머리_메시지_모션포함_MD.md",
+        "sha256": "8bb53967215cb7f1f26b8f6f87617a2412ba41e757358af823b62c19c06fa9fc",
+        "bytes": 7513,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "10. RD_AI_Fast_Track_서머리_메시지_모션포함_MD.md"
+      },
+      {
+        "path": "reference/11.RD_공정_AI_Fast_Track_장민희TL_RSAB_SNM_Overlay_영상제작_MD.md",
+        "sha256": "73908f5015e3da53454a19e2845a77628e5b474b912cbe522e326e4ea73c0b70",
+        "bytes": 11368,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "11.RD_공정_AI_Fast_Track_장민희TL_RSAB_SNM_Overlay_영상제작_MD.md"
+      },
+      {
+        "path": "reference/9.RD_공정_AI_Fast_Track_윤지욱TL_LLM_CnC_Inline_Data_분석_MD.md",
+        "sha256": "6e32401b20a3a7c746669fbfc64ad510eabe248df379af36c12469f3b4a113b7",
+        "bytes": 12081,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "9.RD_공정_AI_Fast_Track_윤지욱TL_LLM_CnC_Inline_Data_분석_MD.md"
+      },
+      {
+        "path": "reference/7.RD_공정_AI_Fast_Track_권혜선TL_Smart_Process_Architecture_AI_Agent_MD.md",
+        "sha256": "18792766f6503cf26ecb66d0e880ec2fb795a3a918407b84db8a89ddc867a63d",
+        "bytes": 12337,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "7.RD_공정_AI_Fast_Track_권혜선TL_Smart_Process_Architecture_AI_Agent_MD.md"
+      },
+      {
+        "path": "reference/6.RD_AI_Fast_Track_서머리2_메시지_모션포함_MD.md",
+        "sha256": "97c1806c1db8692db09f6b785c94d5efe25a8dfc5dcebd05425d0ab403b4a970",
+        "bytes": 7458,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "6.RD_AI_Fast_Track_서머리2_메시지_모션포함_MD.md"
+      },
+      {
+        "path": "reference/5.RD_공정_AI_Fast_Track_서우석TL_CC_Working_Board_Agent_영상제작_MD.md",
+        "sha256": "d84d207de91d7144d0c6fc21f152245179ffda349535ae8c75269b7e5f87aec3",
+        "bytes": 12623,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "5.RD_공정_AI_Fast_Track_서우석TL_CC_Working_Board_Agent_영상제작_MD.md"
+      },
+      {
+        "path": "reference/4.RD_공정_AI_Fast_Track_김태민TL_Thinfilm_Agent_영상제작_MD.md",
+        "sha256": "8e5618c3f3060f1ba1a79e9249980d13e1ebc5a81e91150badec9af8939fa231",
+        "bytes": 12689,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "4.RD_공정_AI_Fast_Track_김태민TL_Thinfilm_Agent_영상제작_MD.md"
+      },
+      {
+        "path": "reference/3.RD_공정_AI_Fast_Track_박재오TL_영상제작_MD_확정시안기준.md",
+        "sha256": "241244422a4f94e2412dc52e2d40da29f2a5e1ced94461046003ed4ea6b3c38f",
+        "bytes": 12531,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "3.RD_공정_AI_Fast_Track_박재오TL_영상제작_MD_확정시안기준.md"
+      },
+      {
+        "path": "reference/2. RD_AI_Fast_Track_서머리1_메시지_모션포함_MD.md",
+        "sha256": "049531c7b0c7538f7245a3fcc8ff0c53e3ec960fa8cc54df6c5ea1f1828ebaba",
+        "bytes": 7157,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "2. RD_AI_Fast_Track_서머리1_메시지_모션포함_MD.md"
+      },
+      {
+        "path": "reference/RD_AI_Fast_Track_공통_제작_규칙_타이틀화면추가.md",
+        "sha256": "e2a4265fc88afc0b2c6e265f8669359ddbf84347d3ed2de873509ab7284ad3ca",
+        "bytes": 10624,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "RD_AI_Fast_Track_공통_제작_규칙_타이틀화면추가.md"
+      },
+      {
+        "path": "reference/1.RD_공정_AI_Fast_Track_오프닝_MD_모션상세_템포개선.md",
+        "sha256": "4220400e46fefd27003b07660f2289c344e8df736cb78de2fc95094540791a74",
+        "bytes": 18890,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "ZIP member",
+        "source_member": "1.RD_공정_AI_Fast_Track_오프닝_MD_모션상세_템포개선.md"
+      },
+      {
+        "path": "reference/1-8.RD_공정_AI_Fast_Track_이태관TL_Monitoring_Data_자연어검색_시각화_MD.md",
+        "sha256": "8bdf6fa7e36494968f9aab0e3e16a606936dc53b3d305d5152b298cf61f30ce0",
+        "bytes": 12269,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "separate user attachment",
+        "source_member": null
+      },
+      {
+        "path": "assets/bgm/1-ES_Comprehension-Frank-Jonsson-1-.mp3",
+        "sha256": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2",
+        "bytes": 4472564,
+        "manifest_matches": true,
+        "source_matches": true,
+        "source_kind": "separate user attachment",
+        "source_member": null
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "task3",
+      "title": "R&D 공정 Eng'r 연구 환경 Infra 구축",
+      "owner": "박재오 TL",
+      "source_md": "reference/3.RD_공정_AI_Fast_Track_박재오TL_영상제작_MD_확정시안기준.md"
+    },
+    {
+      "id": "task4",
+      "title": "Thinfilm Agent - BEOL Thinfilm",
+      "owner": "김태민 TL",
+      "source_md": "reference/4.RD_공정_AI_Fast_Track_김태민TL_Thinfilm_Agent_영상제작_MD.md"
+    },
+    {
+      "id": "task5",
+      "title": "C&C Working Board Agent",
+      "owner": "서우석 TL",
+      "source_md": "reference/5.RD_공정_AI_Fast_Track_서우석TL_CC_Working_Board_Agent_영상제작_MD.md"
+    },
+    {
+      "id": "task7",
+      "title": "Smart Process Architecture AI Agent",
+      "owner": "권혜선 TL",
+      "source_md": "reference/7.RD_공정_AI_Fast_Track_권혜선TL_Smart_Process_Architecture_AI_Agent_MD.md"
+    },
+    {
+      "id": "task8",
+      "title": "Monitoring Data 자연어 검색·시각화 AI Agent",
+      "owner": "이태관 TL",
+      "source_md": "reference/1-8.RD_공정_AI_Fast_Track_이태관TL_Monitoring_Data_자연어검색_시각화_MD.md"
+    },
+    {
+      "id": "task9",
+      "title": "LLM 기반 C&C Inline Data 분석 AI Agent",
+      "owner": "윤지욱 TL",
+      "source_md": "reference/9.RD_공정_AI_Fast_Track_윤지욱TL_LLM_CnC_Inline_Data_분석_MD.md"
+    },
+    {
+      "id": "task11",
+      "title": "RSAB SNM Overlay 열화 원인 분석 및 솔루션 제시 Agent",
+      "owner": "장민희 TL",
+      "source_md": "reference/11.RD_공정_AI_Fast_Track_장민희TL_RSAB_SNM_Overlay_영상제작_MD.md"
+    },
+    {
+      "id": "task12",
+      "title": "경비 분석 및 절감 아이템 발굴 Agent 개발",
+      "owner": "오승재 TL",
+      "source_md": "reference/12. RD_공정_AI_Fast_Track_오승재TL_경비분석_절감아이템발굴_MD.md"
+    },
+    {
+      "id": "task13",
+      "title": "장비 Daily Report Auto Mail System",
+      "owner": "김도훈 TL",
+      "source_md": "reference/13. RD_공정_AI_Fast_Track_김도훈TL_Daily_Report_Auto_Mail_System_MD.md"
+    },
+    {
+      "id": "task14",
+      "title": "Cubic공정Lab 전용 App&Agent",
+      "owner": "정현준 TL",
+      "source_md": "reference/14. RD_공정_AI_Fast_Track_정현준TL_Cubic공정Lab_App_Agent_MD.md"
+    },
+    {
+      "id": "task17",
+      "title": "TCAD-TEM 이미지 연계를 통한 이미지 Labeling Tool 개발",
+      "owner": "김성후 TL",
+      "source_md": "reference/17.RD_공정_AI_Fast_Track_김성후TL_TCAD_TEM_Image_Labeling_Tool_MD.md"
+    },
+    {
+      "id": "task16",
+      "title": "AI Agent 기반 Plug 대면적 데이터 분석 자동화 및 인사이트 도출",
+      "owner": "김지은 TL",
+      "source_md": "reference/16.RD_공정_AI_Fast_Track_김지은TL_Plug_대면적데이터분석_MD.md"
+    }
+  ],
+  "narration": {
+    "voice_id": "JQaWvPoEUkcuOTfxFYpJ",
+    "voice_name": "Kyung - Warm, Calm and Clear",
+    "model_id": "eleven_v4",
+    "actual_generation_id": "7zuRMuCaa9FWLSKUkOtL",
+    "actual_completed_duration": 308.56,
+    "generation_result_sha256": "3ea7cc13fca6d3c9d7ba2c29d18e17c9d830b1e1bda5455ad45478778be582da",
+    "single_take": true,
+    "master_sha256": "765a118636ccf1a0ee125d5c8554c34424ba07511b27df8b665b42da8ca8664f",
+    "master_manifest_hash_matches": true,
+    "source_master_duration": 308.56,
+    "sample_rate": 48000,
+    "channels": 1,
+    "source_section_clip_count": 14,
+    "timeline_spoken_segment_count": 73,
+    "source_section_clips": [
+      {
+        "section_id": "opening",
+        "index": 1,
+        "file": "narration/vo1.wav",
+        "sha256": "860794191cbda88c5a4fa5206f58af21f1b9c0356936d1c6fdfafa3837efb5f6",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task3",
+        "index": 2,
+        "file": "narration/vo2.wav",
+        "sha256": "96f2d320dec06bdcaa477845524e268dd1b808eadaf60b10516411c4efe7b2b3",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task4",
+        "index": 3,
+        "file": "narration/vo3.wav",
+        "sha256": "895254ecf55d1af8e2700056836d4e16531d8e3f303a0fa789ce32217c81283e",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task5",
+        "index": 4,
+        "file": "narration/vo4.wav",
+        "sha256": "a4315fddff403a919209980b63dd0a924162136456abb88236afc7566789c8e4",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task7",
+        "index": 5,
+        "file": "narration/vo5.wav",
+        "sha256": "1d42fbd69570fbd78415dca8b687bf3593539c9fe99d1a6ae0f62256b4140a1f",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task8",
+        "index": 6,
+        "file": "narration/vo6.wav",
+        "sha256": "f86c18a0313eb442ac2fab20f2c9c4bc26ac54ac5f7ee4754a5ce2aa2dad6de0",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task9",
+        "index": 7,
+        "file": "narration/vo7.wav",
+        "sha256": "d533ea562e92a53345d6a0f6743bea99ae78f9ec1125678f4171c51513bb5ce3",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task11",
+        "index": 8,
+        "file": "narration/vo8.wav",
+        "sha256": "f2e4da51750de77a7beffea4ca63aaff2bafaf702e7c17c36392d7cbabd8800d",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task12",
+        "index": 9,
+        "file": "narration/vo9.wav",
+        "sha256": "6f9664d0f0375595d92323d28596413ab55307e939b11d5944270fc0e930e3d2",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task13",
+        "index": 10,
+        "file": "narration/vo10.wav",
+        "sha256": "eec6d0451aff942bdb881f845d9e359540adae587d84ba696629db827fefa5c5",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task14",
+        "index": 11,
+        "file": "narration/vo11.wav",
+        "sha256": "7546c40b4376c57ff2d7cd66dd4f15b3a5e3903dc2953d4ef6de0f8cdfdd4001",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task17",
+        "index": 12,
+        "file": "narration/vo12.wav",
+        "sha256": "819a49c7bdfe3a42cd465767e26f046d7f207bc5c601caa63c41db89f2e7ff9a",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "task16",
+        "index": 13,
+        "file": "narration/vo13.wav",
+        "sha256": "d5c65ec8e13878e48e3672e02672b78552ee832cfe963e224e5f92dbc63e20e8",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      },
+      {
+        "section_id": "ending",
+        "index": 14,
+        "file": "narration/vo14.wav",
+        "sha256": "7a6e5d372d4c1b178ca38ae54058e27d120e78d19dfb49d87309a9783598b615",
+        "manifest_file_sha256_matches": true,
+        "exact_pcm_master_slice": true
+      }
+    ],
+    "settings_limit": "Connected Creative Studio schema exposes voice and language only; stability and similarity are recorded as requested defaults, not independently verified applied settings.",
+    "word_and_caption_evidence": {
+      "script_caption_matches": 73,
+      "total_spoken_cuts": 73,
+      "asr_status": "PASS_WITH_ASR_VARIANTS",
+      "asr_exact_character_coverage": 0.9849710982658959,
+      "asr_script_blocks_covered": 14,
+      "asr_script_cuts_covered": 73,
+      "asr_variants_review": [
+        {
+          "id": "task7_cut3",
+          "status": "ASR_VARIANT_UNRESOLVED_REQUIRES_LISTENING"
+        },
+        {
+          "id": "task11_cut3",
+          "status": "ASR_VARIANT_UNRESOLVED_REQUIRES_LISTENING"
+        },
+        {
+          "id": "task16_cut1",
+          "status": "ASR_VARIANT_UNRESOLVED_REQUIRES_LISTENING"
+        },
+        {
+          "id": "task16_cut5",
+          "status": "ASR_VARIANT_UNRESOLVED_REQUIRES_LISTENING"
+        },
+        {
+          "id": "ending_cut3_to_cut5",
+          "status": "ENDING_SENTENCE_BOUNDARY_CONFIRMED"
+        }
+      ],
+      "limit": "Caption and script equality is exact. Timestamped ASR verifies script presence/order but does not prove exact spoken pronunciation; repeated notation variants remain for listening review.",
+      "cuts": [
+        {
+          "cut_id": "opening_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "R&D 현업에 AI를 더합니다.",
+          "asr_character_coverage": 0.9333333333333333,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "opening_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "더 나은 R&D 공정을 위한 변화가 시작됩니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "opening_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "opening_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "opening_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "opening_cut6",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "opening_cut7",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "opening_cut8",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "opening_cut9",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "지금부터 12개의 AI Agent 과제를 소개합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task3_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "흩어져 있는 Lot과 장비, 공정 이력을",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task3_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "하나의 앱에서 한 번에 확인하고,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task3_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "데이터 간 연계를 통해 종합적으로 분석합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task3_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "이를 바탕으로 분석 결과를 직관적으로 확인하고,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task3_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "Lot 1건 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task4_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "여러 시스템과 자료에 흩어진 Lot과 장비, FDC 정보를",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task4_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "하나의 플랫폼에서 확인하고,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task4_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "실시간 현황과 Summary Chart로 핵심 정보를 빠르게 파악합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task4_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "이어서 DOE 결과를 업데이트하고 조직과 공유해,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task4_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "분석 방법과 최적 조건 탐색 로직을 조직의 자산으로 축적합니다.",
+          "asr_character_coverage": 0.9615384615384616,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task5_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "회의 자료와 이슈, 관련 문서가 여러 곳에 흩어져 있어",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task5_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "필요한 정보를 찾는 데 시간이 걸립니다. C&C Working Board Agent를 통해 관련 자료와 지식을 검색하고,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task5_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "핵심 이슈와 내용을 빠르게 파악합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task5_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "필요한 정보를 업무에 활용해",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task5_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "협업과 의사결정을 지원합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task7_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "새로운 공정 평가를 시작할 때, 필요한 지식과 경험을 찾는 일부터 시작됩니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task7_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "과거의 평가 이력과 선행 경험 속에서 답을 찾아야 했습니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task7_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "이제 LLM에 질문해 관련 지식과 경험을 연결합니다.",
+          "asr_character_coverage": 0.9090909090909091,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task7_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "축적된 경험을 바탕으로 최적의 Plan과 Recipe를 추천받습니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task7_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "흩어진 공정 지식을 활용해 더 정확한 평가 의사결정을 지원합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task8_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "여러 시스템에 흩어진 공정 데이터를 하나씩 확인하던 업무를,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task8_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "자연어로 필요한 데이터를 질문하고,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task8_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "AI Agent가 관련 공정 데이터를 조회해 연결하고,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task8_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "Wafer Map과 그래프로 시각화해 한눈에 파악하고,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task8_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "데이터 분석 시간을 단축해 더 빠른 의사결정을 지원합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task9_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "C&C Inline Data를 조건별로 조회하고 이상 여부를 확인하던 업무를,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task9_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "LLM에 자연어로 분석을 요청하고,",
+          "asr_character_coverage": 0.9333333333333333,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task9_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "GoodDocs 매핑과 상관관계 분석으로 관련 정보를 연결하고,",
+          "asr_character_coverage": 0.9565217391304348,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task9_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "분석 결과를 시각화하고 연계 공정을 선별해,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task9_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "분석 시간을 단축하고 더 빠른 의사결정을 지원합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task11_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "Overlay 분석 도구별로 데이터를 조회하고 담당자의 지식에 의존해 열화 원인을 분석하던 업무를,",
+          "asr_character_coverage": 0.95,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task11_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "Lot ID 하나로 필요한 데이터를 통합 조회합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task11_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "Overlay, Residual, MA Bias를 Vector·Scatter Map으로 확인합니다.",
+          "asr_character_coverage": 0.896551724137931,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task11_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "주요 Overlay Parameter의 Trend를 비교하고, 정상 대비 Wafer 분포를 확인합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task11_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "K-parameter를 정상 Baseline 대비 Z-score로 평가해 의심 공정 계층을 추정하고, 원인별 솔루션을 제시합니다.",
+          "asr_character_coverage": 0.9361702127659575,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task12_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "경비 실적과 장비 이력 등 필요한 데이터가 여러 곳에 분산되어 있습니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task12_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "AI Agent가 다양한 데이터를 자동으로 수집하고 분석합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task12_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "분석 결과를 기반으로 절감 가능 항목과 주요 인사이트를 제시합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task12_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "검토 중인 항목과 제외 항목까지 포함해 전체 결과를 확인할 수 있습니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task12_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "분석 시간을 줄이고 더 효율적인 예산 운영을 지원합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task13_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "매일 장비 데이터를 확인하고 보고서를 작성해 메일로 전달하던 업무.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task13_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "이제 AI Agent가 필요한 장비 데이터를 자동으로 수집합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task13_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "분석 결과를 바탕으로 HTML 형식의 보고서를 자동으로 생성합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task13_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "완성된 보고서를 지정된 담당자에게 자동으로 메일 발송합니다.",
+          "asr_character_coverage": 0.9615384615384616,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task13_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "반복 업무는 줄이고, 더 나은 의사결정을 지원합니다.",
+          "asr_character_coverage": 0.9523809523809523,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task14_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "여러 시스템을 오가며 확인하던 업무.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task14_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "이제 하나의 포털로 통합합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task14_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "조회부터 예약, 보고서 생성까지.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task14_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "필요한 기능을 한곳에서 편리하게.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task14_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "업무 시간을 단축합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task17_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "TEM 이미지 분석에 반복되는 수작업이 많습니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task17_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "하나의 Tool에서 이미지 측정부터 데이터 분석까지 자동으로 처리합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task17_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "이미지를 회전하고, 항목별로 자동 측정해 Raw data까지 정리합니다.",
+          "asr_character_coverage": 0.9642857142857143,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task17_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "정리된 데이터를 기반으로 분석 결과를 시각화해 정확한 인사이트를 제공합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task17_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "이미지당 측정 시간은 줄고, R_NIT와 S/W 정확도는 개선됩니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task16_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "엔지니어가 육안으로 검증하던 업무를,",
+          "asr_character_coverage": 0.875,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task16_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "CV로 계측선과 Plug를 분석해 자동으로 인식합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task16_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "오계측 의심 항목을 자동으로 선별하고, 담당자가 최종 판단합니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "task16_cut4",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "Plug의 CD와 Space Profile을 조회하고 데이터를 확인합니다.",
+          "asr_character_coverage": 0.9310344827586207,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "task16_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "대시보드와 챗봇으로 분석 결과를 업무에 활용합니다.",
+          "asr_character_coverage": 0.8181818181818182,
+          "asr_review_required": true
+        },
+        {
+          "cut_id": "ending_cut1",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "서로 다른 현장의 과제들이,",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "ending_cut2",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "AI와 함께 새로운 변화를 만들어갑니다.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "ending_cut3",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지.",
+          "asr_character_coverage": 1.0,
+          "asr_review_required": false
+        },
+        {
+          "cut_id": "ending_cut5",
+          "caption_matches_active_narration": true,
+          "pronunciation_text_matches": true,
+          "caption": "12개의 AI Agent가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+          "asr_character_coverage": 0.96875,
+          "asr_review_required": true
+        }
+      ]
+    }
+  },
+  "narration_silent_scenes": [
+    {
+      "section_id": "summary1",
+      "cut_index": 0,
+      "start": 31.733333333333334,
+      "end": 37.733333333333334,
+      "sample_count": 288000,
+      "voice_peak": 0,
+      "nonzero_voice_samples": 0,
+      "exact_digital_voice_silence": true,
+      "voice_peak_dbfs": null,
+      "scheduled_narration_overlap": [],
+      "meaning": "Narration absent; BGM continues in final mix."
+    },
+    {
+      "section_id": "summary2",
+      "cut_index": 0,
+      "start": 88.03333333333333,
+      "end": 94.03333333333333,
+      "sample_count": 288000,
+      "voice_peak": 0,
+      "nonzero_voice_samples": 0,
+      "exact_digital_voice_silence": true,
+      "voice_peak_dbfs": null,
+      "scheduled_narration_overlap": [],
+      "meaning": "Narration absent; BGM continues in final mix."
+    },
+    {
+      "section_id": "summary3",
+      "cut_index": 0,
+      "start": 149.43333333333334,
+      "end": 155.43333333333334,
+      "sample_count": 288000,
+      "voice_peak": 0,
+      "nonzero_voice_samples": 0,
+      "exact_digital_voice_silence": true,
+      "voice_peak_dbfs": null,
+      "scheduled_narration_overlap": [],
+      "meaning": "Narration absent; BGM continues in final mix."
+    },
+    {
+      "section_id": "summary4",
+      "cut_index": 0,
+      "start": 234.63333333333333,
+      "end": 240.63333333333333,
+      "sample_count": 288000,
+      "voice_peak": 0,
+      "nonzero_voice_samples": 0,
+      "exact_digital_voice_silence": true,
+      "voice_peak_dbfs": null,
+      "scheduled_narration_overlap": [],
+      "meaning": "Narration absent; BGM continues in final mix."
+    },
+    {
+      "section_id": "ending",
+      "cut_index": 3,
+      "start": 289.06666666666666,
+      "end": 290.06666666666666,
+      "sample_count": 48000,
+      "voice_peak": 25,
+      "nonzero_voice_samples": 204,
+      "exact_digital_voice_silence": false,
+      "voice_peak_dbfs": -62.35019852575361,
+      "scheduled_narration_overlap": [],
+      "meaning": "Narration absent; BGM continues in final mix."
+    },
+    {
+      "section_id": "ending",
+      "cut_index": 5,
+      "start": 294.73333333333335,
+      "end": 298.73333333333335,
+      "sample_count": 192000,
+      "voice_peak": 0,
+      "nonzero_voice_samples": 0,
+      "exact_digital_voice_silence": true,
+      "voice_peak_dbfs": null,
+      "scheduled_narration_overlap": [],
+      "meaning": "Narration absent; BGM continues in final mix."
+    }
+  ],
+  "bgm": {
+    "selected_file": "assets/bgm/1-ES_Comprehension-Frank-Jonsson-1-.mp3",
+    "title": "Comprehension",
+    "artist": "Frank Jonsson",
+    "sha256": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2",
+    "uploaded_original_sha256": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2",
+    "crossfade_seconds": 3,
+    "voice_only_silence_not_bgm_silence": true
+  },
+  "timing": {
+    "duration_seconds": 298.73333333333335,
+    "frames": 8962,
+    "fps": 30,
+    "cap_seconds": 300,
+    "title_seconds": 2,
+    "tempo_ratio": 1.2446782514254684,
+    "fixed_silent_seconds": 53,
+    "section_timing": [
+      {
+        "section_id": "opening",
+        "duration": 31.733333333333334,
+        "title_seconds": [],
+        "visual_cuts": 9,
+        "source_recommended_seconds": 34.0
+      },
+      {
+        "section_id": "summary1",
+        "duration": 6.0,
+        "title_seconds": [],
+        "visual_cuts": 1,
+        "source_recommended_seconds": 8.0
+      },
+      {
+        "section_id": "task3",
+        "duration": 16.0,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 22.0
+      },
+      {
+        "section_id": "task4",
+        "duration": 17.599999999999994,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 23.0
+      },
+      {
+        "section_id": "task5",
+        "duration": 16.700000000000003,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 23.0
+      },
+      {
+        "section_id": "summary2",
+        "duration": 6.0,
+        "title_seconds": [],
+        "visual_cuts": 1,
+        "source_recommended_seconds": 8.0
+      },
+      {
+        "section_id": "task7",
+        "duration": 20.83333333333333,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 34.0
+      },
+      {
+        "section_id": "task8",
+        "duration": 16.799999999999997,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 34.0
+      },
+      {
+        "section_id": "task9",
+        "duration": 17.76666666666668,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 34.0
+      },
+      {
+        "section_id": "summary3",
+        "duration": 6.0,
+        "title_seconds": [],
+        "visual_cuts": 1,
+        "source_recommended_seconds": 8.0
+      },
+      {
+        "section_id": "task11",
+        "duration": 25.73333333333332,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 37.5
+      },
+      {
+        "section_id": "task12",
+        "duration": 21.03333333333333,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 32.5
+      },
+      {
+        "section_id": "task13",
+        "duration": 20.56666666666669,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 32.5
+      },
+      {
+        "section_id": "task14",
+        "duration": 11.866666666666646,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 32.5
+      },
+      {
+        "section_id": "summary4",
+        "duration": 6.0,
+        "title_seconds": [],
+        "visual_cuts": 1,
+        "source_recommended_seconds": 8.0
+      },
+      {
+        "section_id": "task17",
+        "duration": 21.80000000000001,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 37.5
+      },
+      {
+        "section_id": "task16",
+        "duration": 18.73333333333335,
+        "title_seconds": [
+          2.0
+        ],
+        "visual_cuts": 5,
+        "source_recommended_seconds": 37.5
+      },
+      {
+        "section_id": "ending",
+        "duration": 17.566666666666663,
+        "title_seconds": [],
+        "visual_cuts": 6,
+        "source_recommended_seconds": 12.0
+      }
+    ],
+    "override": "The later explicit user request for a full video within five minutes governs duration. Preserve task/summary order, all five task cuts and every narration phrase; replace MD recommended/fixed cut durations with word/pause-aligned timing and a pitch-preserving 1.2446782514 tempo factor. Opening is the preferred tempo-improved version. Summaries are six-second visual scenes; all task titles remain two seconds.",
+    "pace_limit": "Source take is 308.56 seconds; final voice tempo is faster. Naturalness/comfortable pace requires listening to final output, separate from duration and script coverage."
+  },
+  "conditional_metrics": {
+    "script_deviation_count": 3,
+    "deviations": [
+      {
+        "cut_id": "task12_cut5",
+        "field": "narration and matching subtitle",
+        "original": "분석 시간을 80% 이상 줄이고 더 효율적인 예산 운영을 지원합니다.",
+        "replacement": "분석 시간을 줄이고 더 효율적인 예산 운영을 지원합니다.",
+        "reason": "MD 7항: 시안 수치는 원본 자료 확인 후 사용. 승인된 원본 성과 자료가 첨부되지 않아 80% 수치를 제외했습니다."
+      },
+      {
+        "cut_id": "task14_cut5",
+        "field": "narration and matching subtitle",
+        "original": "업무 시간을 90% 이상 단축합니다.",
+        "replacement": "업무 시간을 단축합니다.",
+        "reason": "MD 7항: 90% 이상 단축은 승인된 자료에서 확인되는 경우에만 사용. 별도 원자료가 없어 정량 부분을 제외했습니다."
+      },
+      {
+        "cut_id": "task17_cut5",
+        "field": "narration and matching subtitle",
+        "original": "이미지당 측정 시간은 5분에서 6초로 줄고, R_NIT 정확도는 44%, S/W 정확도는 84% 개선됩니다.",
+        "replacement": "이미지당 측정 시간은 줄고, R_NIT와 S/W 정확도는 개선됩니다.",
+        "reason": "MD 7항: 5분→6초, R_NIT 44%, S/W 84%는 승인된 원본 자료에서 확인되는 경우에만 사용. 별도 원자료가 없어 정량 부분을 제외했습니다."
+      }
+    ],
+    "active_forbidden_tokens_found": [],
+    "visual_policy": "Conditional percentages, savings, counts, actual IDs and result values are excluded from editable UI. Reference graphs and microscopy demonstrate supported functions without measured axes. Infra 2h40m -> within20min is an unconditional statement in its supplied MD and is retained."
+  },
+  "supplemental_source_photos": {
+    "reason": "Reference storyboard photographic regions are only a few hundred pixels wide. Root selected twelve existing approved task-specific manual-work photographs as higher-resolution Before plates; task names, owners, function scope and narration still come from the supplied MD.",
+    "count": 12,
+    "source_files_unchanged": true,
+    "assets": [
+      {
+        "section_id": "task3",
+        "path": "assets/before/task3.png",
+        "source": "production/assets/before/task-06.png",
+        "sha256": "fd307791a9a37713f6ab7be1f8babd33eab4a3177ae1c32a7395a15451b272a6",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task4",
+        "path": "assets/before/task4.png",
+        "source": "production/assets/before/task-03.png",
+        "sha256": "873a398e944d3b8948c7173b5642017f4360b2cc267943ba4345fa3fefc02092",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task5",
+        "path": "assets/before/task5.png",
+        "source": "production/assets/before/task-04.png",
+        "sha256": "ab842a5460d7b1fa79efb405e00c990cd88badc41f291af0e1de5dcd1cfd8717",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task7",
+        "path": "assets/before/task7.png",
+        "source": "production/assets/before/task-01.png",
+        "sha256": "ac2faf68a9cb50ef01307a3722f604ad4f50e9139baa5db6c3891a45314850d3",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task8",
+        "path": "assets/before/task8.png",
+        "source": "production/assets/before/task-08.png",
+        "sha256": "2dcf75c9ca9abf5261c5738a7f13ecd02287c86b64df83179ff6cbb18d0bb8e5",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task9",
+        "path": "assets/before/task9.png",
+        "source": "production/assets/before/task-05.png",
+        "sha256": "f5ac995c878651fc1c2439af7ba3b48a39780a7121081e87f42fa41140d532f9",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task11",
+        "path": "assets/before/task11.png",
+        "source": "production/assets/before/task-11.png",
+        "sha256": "9044fbfce6f4da457cb7a6d06470eb807ae28c3cd3c9607d743f99fabefc8ea8",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task12",
+        "path": "assets/before/task12.png",
+        "source": "production/assets/before/task-07.png",
+        "sha256": "8971b195f38c4301a2a62aa984eed6de92e006b184e5292806bd8ca1359cd8ff",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task13",
+        "path": "assets/before/task13.png",
+        "source": "production/assets/before/task-02.png",
+        "sha256": "6b3c16c40e38da72bc398bd7996180d9791dbe75cdbf09057d8af659e6926cb5",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task14",
+        "path": "assets/before/task14.png",
+        "source": "production/assets/before/task-10.png",
+        "sha256": "5987e75d8f4e5cd5304268f14fc0ca3f8f67b1bed04a15bed20b4bcb7efde001",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task17",
+        "path": "assets/before/task17.png",
+        "source": "production/assets/before/task-09.png",
+        "sha256": "a62719057fb9bb217fffe1550dc0806734dc26747526e62e4a76338f53e48891",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      },
+      {
+        "section_id": "task16",
+        "path": "assets/before/task16.png",
+        "source": "production/assets/before/task-12.png",
+        "sha256": "6599de6d8deb7cd7c7914f416bcff6ac90a4a2907d69f7640eb8888fe670e9e8",
+        "manifest_matches": true,
+        "source_copy_matches": true,
+        "width": 1254,
+        "height": 1254,
+        "selected_in_spec_before": true,
+        "role": "Task-specific manual-work photograph; supplied-board composition retained for UI/content shots."
+      }
+    ]
+  },
+  "ending": {
+    "integrated_md_19_priority": true,
+    "last_cards": [
+      {
+        "owner": "김지은 TL",
+        "title": "AI Agent 기반 Plug 대면적 데이터 분석 자동화 및 인사이트 도출",
+        "reference_image": "reference/1791965411099.png"
+      },
+      {
+        "owner": "장민희 TL",
+        "title": "RSAB SNM Overlay 열화 원인 분석 및 솔루션 제시 Agent",
+        "reference_image": "reference/1791965410736.png"
+      }
+    ],
+    "last_cards_narration": "none; BGM only",
+    "ends_after_cards": true,
+    "no_automatic_extra_task_videos": true,
+    "source_conflict_resolution": "Standalone ending source contains a transition toward the Plug task title; integrated MD 19 explicitly overrides this with a handoff to the live presenter and no additional task videos."
+  },
+  "source_input_snapshot": {
+    "spec.json": "2ede59ff5b136c60b65a8ac5ab3241afe842cd9dca15771355e4fd910b4685b7",
+    "timeline.json": "d07fa4be02959db6d12689e564cccde557ce07ea73673c1a794c73280d3b02d9",
+    "stage.mjs": "186ec395a0200ca8e29e5f6094e19e8ef81a008be394c8af0f280f31f2c1d670",
+    "task-scenes.js": "65d6a93c355ba6d6e0c8740e6f8f0db8ed454998bc3e99b949c99730454a02e6",
+    "hero-scenes.js": "15233315c092b32fb27074e05ed73c0e8fba1d45c77be71cdb1295a26becd447",
+    "fonts/NotoSansCJK-LICENSE.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "fonts/NotoSansCJKkr-Bold.otf": "26d0c6748500a0444844280b308f5b62c7ae92ac6c6ac88148e502dd211eb52a",
+    "fonts/NotoSansCJKkr-Regular.otf": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a",
+    "fonts/SourceSerif-LICENSE.md": "c21d7293d87b6d7ab1d0229a2f55b77f33a7613a6a4e66f6693d68d7d8d09464",
+    "fonts/SourceSerif4-Regular.woff2": "42aa010dbb82d90764a28f6cc7d809a9395999b7390eb3b212028c6975e97402",
+    "assets/before/task11.png": "9044fbfce6f4da457cb7a6d06470eb807ae28c3cd3c9607d743f99fabefc8ea8",
+    "assets/before/task12.png": "8971b195f38c4301a2a62aa984eed6de92e006b184e5292806bd8ca1359cd8ff",
+    "assets/before/task13.png": "6b3c16c40e38da72bc398bd7996180d9791dbe75cdbf09057d8af659e6926cb5",
+    "assets/before/task14.png": "5987e75d8f4e5cd5304268f14fc0ca3f8f67b1bed04a15bed20b4bcb7efde001",
+    "assets/before/task16.png": "6599de6d8deb7cd7c7914f416bcff6ac90a4a2907d69f7640eb8888fe670e9e8",
+    "assets/before/task17.png": "a62719057fb9bb217fffe1550dc0806734dc26747526e62e4a76338f53e48891",
+    "assets/before/task3.png": "fd307791a9a37713f6ab7be1f8babd33eab4a3177ae1c32a7395a15451b272a6",
+    "assets/before/task4.png": "873a398e944d3b8948c7173b5642017f4360b2cc267943ba4345fa3fefc02092",
+    "assets/before/task5.png": "ab842a5460d7b1fa79efb405e00c990cd88badc41f291af0e1de5dcd1cfd8717",
+    "assets/before/task7.png": "ac2faf68a9cb50ef01307a3722f604ad4f50e9139baa5db6c3891a45314850d3",
+    "assets/before/task8.png": "2dcf75c9ca9abf5261c5738a7f13ecd02287c86b64df83179ff6cbb18d0bb8e5",
+    "assets/before/task9.png": "f5ac995c878651fc1c2439af7ba3b48a39780a7121081e87f42fa41140d532f9",
+    "assets/crops/opening-photo1.png": "4a38fec0a0f9a30d10604a42a208a1957cc5e99a71bf7e3ba6d58fa21967104e",
+    "assets/crops/opening-photo2.png": "9eca02684ad321fb299c8278303fe27a76901c98cb3608d43f905d74fb0e026f",
+    "assets/crops/opening-photo3.png": "839bda7022506419c6db7ad6ade1974990f4c6f318842eed9d8dba226088f4ba",
+    "assets/crops/opening-photo4.png": "edda52f74966742a0e06dfc05cd31e6b7aec65bab702faa8d7593e248c9485ac",
+    "assets/crops/opening-photo6.png": "90678e53e88b44c08beca4800d2a9626734e54832b741733508121d91ee5df3f",
+    "assets/crops/opening-photo7.png": "552a8201af5b3d12b6a3ba8c4979ac71939c5dcac3e1b5805bb41887e03f309a",
+    "assets/crops/opening-photo8.png": "40a6024e625bad262d604f5bd5982988877e913ab99917697460ddd44c534c43",
+    "assets/crops/opening-photo9.png": "5f1477b73b76638a2e0e57551ed6333ca21ce0bd80e03c9b0e341a7437b11dad",
+    "assets/crops/summary1-wafer.png": "20eb6023df375a010c8f19c02aaa8332f4b332c951ecdb669460eb6477d64a60",
+    "assets/crops/summary2-wafer.png": "b1b208e2d64773e7f21f78a427b2355cf0811724d14994fe3ffba8c83008d66f",
+    "assets/crops/summary3-wafer.png": "1dabe4b88ebcc4c16ae01ac2b6339843138e942e45b6e6ebe21b5908b52c0c79",
+    "assets/crops/summary4-wafer.png": "86def9817b257fcdc87b2b8832cd068f691cef717f8673be18fb73ea1141864f",
+    "assets/crops/task11-before-photo.png": "577c940e8f9728c13de0a8959139933d5aa1633820089b70d2500e7b17798b3c",
+    "assets/crops/task12-before-photo.png": "c2961e8ae532707c589ca0172443a15c2604456fbf4a11f6fd1ea7d18a6fdc2f",
+    "assets/crops/task13-after-photo.png": "30618be76659ce9bd4dfc8c9a11c3f8674606d8dc5a9c5f4f4af83e60ce5ea07",
+    "assets/crops/task13-before-photo.png": "0a6665c24d91c4657a48662cdc66c9cdf946d2679fa0ffdde20b033d2d5f6e43",
+    "assets/crops/task14-after-photo.png": "dba43fee09d14d8c8bec3720add918c91d179b90a37fe560d938ef8568017ea5",
+    "assets/crops/task14-before-photo.png": "fddd6b6056f438ece4c958d0de1e574831dea92d616af5cc2fdd7cc7602854e1",
+    "assets/crops/task16-before-photo.png": "14fd14d13b53a96c61e5612c909929dad8d0f7312c25ec5ff097a55a4acbf94c",
+    "assets/crops/task16-micrograph.png": "c205e8b46c90d62e9c4628d2c2e0f11ee0c6a44e7ac443fc6b0bb01f7590842d",
+    "assets/crops/task17-after-photo.png": "763dc079577ad2342b905d87d92300e089b8071de66ef7a82cade8ef286c88fd",
+    "assets/crops/task17-before-photo.png": "5d380f00628da207008376c8bfe4b2113a50d8c45e2061ee9cbf0ea45b2e8b3e",
+    "assets/crops/task17-micrograph.png": "24779c3b6a637232a6f4dbdc3b21756bf4d0cca63a1a8561ac1aced7e0f334dd",
+    "assets/crops/task3-before-photo.png": "06b15a56e371d38a85d0ab61efda8ca063b6dce933de4bc1b16070f72963ece1",
+    "assets/crops/task4-before-photo.png": "523ef7807b9905f59aa8f0610e6ecced5b625cc56a2b6e68e5788db25d220dc8",
+    "assets/crops/task5-after-photo.png": "f018192e94c2a082fba2b025b52ea92fabd49480d40c70b538d08e8585f5b8ba",
+    "assets/crops/task5-before-photo.png": "f018192e94c2a082fba2b025b52ea92fabd49480d40c70b538d08e8585f5b8ba",
+    "assets/crops/task7-after-photo.png": "b0b6fc5e52ad0546d75a3126632953ed89be429eb1987de5f253c2d88c1b18d7",
+    "assets/crops/task7-before-photo.png": "554cc30c3de5ce4b69081dc6e09171c633ff16ef0918ad3e2d835ac2aba36211",
+    "assets/crops/task8-after-photo.png": "f1e2e1e331fc38200d70339aad5e580b9e48b97c1b406cf14a20ff938e28e0f1",
+    "assets/crops/task8-before-photo.png": "1a91ec7200685ab7cca09727808543329ca0cf6b28af109b4b732c9c24f024d1",
+    "assets/crops/task9-after-photo.png": "8636bec4c7da33054767949f37a6226b4de0dbbfff792f9a587629ef2bd63e17",
+    "assets/crops/task9-before-photo.png": "3f74841e48c206f42eaab802ad038b749b39ada664ac7b3652b87ed22c7463e3",
+    "assets/opening/cut01.png": "c701647db797c7fffa65e208694d6ee3ec7541a4022088d7e2299e029ea050e1",
+    "assets/opening/cut02.png": "b96a99b65fe48f00451201282e76a35a35811b2a860d235a1a4f5cc26cb93ea5",
+    "assets/opening/cut03.png": "7b2498c648f61d68ee0a539891130ad122f65b394aa45bae7edf2f46450286d8",
+    "assets/opening/cut04.png": "345300c81839e7c3b1e24f3bd487e7efbd1d6ed3f33aed9ad5c1c041895e2073",
+    "assets/opening/cut05.png": "b2c2b5962a3e544d86d2955093915a7f106b00abd6b1c87c55b19963b1e40bf1",
+    "assets/opening/cut06.png": "e9067f744f46f6acdbf9ad1bc1ad66b12e7455e71151890a41cc22294f7d227c",
+    "assets/opening/cut07.png": "382e8002fcfd88c48bb1b5643e77269e28c3b6be0659d528620c9e7b477d9a31",
+    "assets/opening/cut08.png": "9fce70f839baf1fc3151b7a7020ee84114d5976bf58f2cc490d6b6ba9cf34921",
+    "assets/opening/cut09.png": "b2288478ad3abb0490c9ce4728cad8efe5187697ec8d16f2056e736a14fbf85b"
+  },
+  "limitations": [
+    "This audit does not claim the still-running full render or final mux is completed.",
+    "Frame hash validation demonstrates deterministic graphics motion, not photorealistic human animation.",
+    "Ending cut4 voice-only gap retains 204 nonzero PCM samples at peak25/32768 (about -62.35dBFS); summaries and final card voice-only regions are exactly zero."
+  ]
+}

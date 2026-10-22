@@ -1,0 +1,74 @@
+{
+  "provider": "Built-in image_gen",
+  "tool": "image_gen.imagegen",
+  "mode": "reference-guided generation",
+  "reference_image": {
+    "file": "/var/folders/54/0s3blr290t9_bxhblz69pct40000gn/T/codex-clipboard-ead6c045-5054-4f56-b80d-fbfbe58953bf.png",
+    "sha256": "8fbb3322964a45e45baa70fbeb80a665e27407c0c11647783a3af884c56f4615",
+    "role": "User-approved nine-panel reference storyboard; extract composition of the specified panel without its text or frame guide."
+  },
+  "scope": "Five replacement backgrounds only. Exact approved Markdown text is added separately by source code.",
+  "invariants": [
+    "No generated Korean, English, numbers, labels, logos or watermarks.",
+    "No actual task UI, detailed task features or invented performance data.",
+    "Black, gold and amber dominate; realistic photographic 3D depth and optical light.",
+    "Input reference remains unchanged; selected generated originals remain at their built-in save paths."
+  ],
+  "assets": [
+    {
+      "cut": "04",
+      "file": "cut04.png",
+      "source_generated_file": "/Users/jk/.codex/generated_images/01a137f3-55cd-71a3-a36b-0b412911b1aa/exec-cd3393fa-8614-4f8b-a818-82a8b088bd54.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "35b001a4d5d5ed1dc966eed4dc586ebcce8fc8634b6e4769f4d67a436ee8312a",
+      "prompt_exact": "Use case: stylized-concept. Asset type: cinematic photographic background plate for a16:9 FullHD Korean R&D opening video; all text will be added separately by code. Input image is aREFERENCE STORYBOARD ONLY: use the visual composition of PANEL04, second row left. Create ONE SINGLE full-frame16:9image, not a grid, collage, storyboard or multiple panels. Match that reference as closely as possible in cinematic realistic3Ddepth and black/gold/amber lighting. A realistic semiconductor wafer lies in the bottom-left foreground. A brilliant warm amber-gold curving stream of light sweeps from bottom-left around the wafer and leads into a deep receding R&D environment. Several luminous thin gold rectangular frames hover at angles along that path, large near viewer and smaller receding into space, occupying the left two-thirds. Inside them only abstract wafer surface texture, minimal geometric material patterns or dark frosted glass: no charts, actual task interface, controls, data or performance. Photographic metallic material, lens bokeh, real optical highlights, precision semiconductor atmosphere. Reserve the entire right third as deep black/dark charcoal negative space for later Korean copy, with no bright object behind copy; bottom band also unobstructed for captions. Palette DeepBlack#080808, Charcoal#1A1A1F, Gold#D4AF7C, WarmGold#F5D6A6, Amber#FFB347, subtle cool shadows only. NO TEXT ANYWHERE: no Korean, English, numbers, digits, symbols that look like letters, labels, logos, watermarks, UI, dashboards, data charts, axes, ticks. No cartoon, flat SVG appearance, game fantasy, robots or irrelevant objects. Must look like expanded high-quality single cinematic panel04 reference, not a generic abstract wallpaper.",
+      "transparent_background": false,
+      "visual_inspection": "PASS: wafer foreground, six receding angled abstract texture frames and brilliant curving gold path in left two-thirds, dark right copy space. No embedded text, digits, UI or charts."
+    },
+    {
+      "cut": "05",
+      "file": "cut05.png",
+      "source_generated_file": "/Users/jk/.codex/generated_images/01a137f3-55cd-71a3-a36b-0b412911b1aa/exec-2a534896-4ea8-4c53-9f77-823119652fe1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b2c2b5962a3e544d86d2955093915a7f106b00abd6b1c87c55b19963b1e40bf1",
+      "prompt_exact": "Use case: stylized-concept. Asset type: single cinematic16:9background plate for the central main title in an R&D opening video. Input image is aREFERENCE STORYBOARD ONLY: match PANEL05, second row center, removing every title/caption/label. Create ONE SINGLE full-frame16:9image, no collage or storyboard grid. Premium photorealistic optical gold wave and particles on deep black. Two dense elegant gold/amber particle filaments and luminous curved wave ribbons sweep inward from left and right edges around a wide dark EMPTY central title zone; like panel05 luminous waves behind a title but render absolutely no title. The strongest warm light gathers slightly left and right of center, exquisite layered thousands of tiny gold particles, realistic optical bokeh, metallic amber filaments,3Ddepth, cinematic restrained sparkle, no explosion. Keep central wide area approx middle60percent horizontally and middle55percent vertically dark and visually calm for later two-line title/subtitle added with code. Light trails frame that space rather than crossing over its central letters. Bottom caption zone dark. Preserve reference richness, gold glow and cinematic depth, not flat line-art. Palette#080808 black,#1A1A1Fcharcoal,#D4AF7Cgold,#F5D6A6warmgold,#FFB347amber. NO TEXT at all, no letters, words, Korean, English, numbers, logos, captions, symbols resembling writing, watermarks. No UI, graphs, dashboards, robots or blue-neon dominance.",
+      "transparent_background": false,
+      "visual_inspection": "PASS: dense gold waves and optical bokeh surround a wide dark central title zone; no embedded text, labels or data. Center remains open for code-rendered title."
+    },
+    {
+      "cut": "06",
+      "file": "cut06.png",
+      "source_generated_file": "/Users/jk/.codex/generated_images/01a137f3-55cd-71a3-a36b-0b412911b1aa/exec-fc3fcb1a-48d3-41e9-9f1a-e65c34689846.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e9067f744f46f6acdbf9ad1bc1ad66b12e7455e71151890a41cc22294f7d227c",
+      "prompt_exact": "Use case: stylized-concept. Asset type: single cinematic full-frame16:9background for twelve abstract AI Agent tasks in an R&D opening video. Input image is aREFERENCE STORYBOARD ONLY: match PANEL06, second row right, removing all writing and detailed icons/charts. Create ONE SINGLE16:9image, no collage or storyboard. A researcher's dark silhouette seen from behind stands bottom-center-left looking at EXACTLY TWELVE transparent dark-frosted rectangular glass panels with glowing thin gold frames, arranged FOUR COLUMNS BY THREE ROWS in the LEFT TWO-THIRDS of the image, with cinematic perspective and spatialdepth like reference. Exactly12panels, all12fully countable; the silhouette may overlap lower center edges but not obscure count. Researcher should resemble a real professional human in a dark cleanroom/research environment, no astronaut/robot. Panels contain only unlabelled abstract geometric material etching or wafer texture, mostly blank frosted glass, no task-specific feature pictures, no chart, graphs, fakeUI, controls, dashboard or symbols that imply exact function. Bright amber/gold connecting light path near their bottom edges creates reference depth and richness. Right third deep black/dark charcoal completely open for large Korean copy to be added by sourcecode; keep any glow within left2/3. Bottom captionzone dark. Photographic realistic3D materials, optical gold glare and bokeh, subtlecoolreflectionsbut overallblackgoldamber. Palette#080808,#1A1A1F,#D4AF7C,#F5D6A6,#FFB347. NO TEXT ANYWHERE, no words, numbers, digits, labels, Korean or English, logos, watermark. No flat nativegraphic look, no colorful sci-fi fantasy.",
+      "transparent_background": false,
+      "visual_inspection": "PASS: exactly twelve fully countable gold-framed abstract texture panels in four columns and three rows; rear-view researcher bottom-left/center; no actual task UI, labels or numbers. Silhouette overlaps lower-center edges but panel count remains visible."
+    },
+    {
+      "cut": "07",
+      "file": "cut07.png",
+      "source_generated_file": "/Users/jk/.codex/generated_images/01a137f3-55cd-71a3-a36b-0b412911b1aa/exec-17429f71-047f-44b3-aaaf-31328be78cd7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ba3fda421f9fe42667e56d6e45b766677d30fb49596d948f99f59b68322c8bf9",
+      "prompt_exact": "Use case: stylized-concept. Asset type: cinematic photographic single16:9background plate for an R&D task-preview scene. Input image is aREFERENCE STORYBOARD ONLY: match PANEL07, third row left, expand only this panel and remove all embedded writing. Create ONE SINGLE full-frame16:9image, no collage or storyboard grid. Very cinematic,3Dphotographicdepth: a realistic golden semiconductor wafer in lower-leftforeground, dramatic bright amber-gold orbital ribbons spiral gracefully around it, three or four large angled floating thin gold rectangular glass frames at various depths around and above the wafer in left two-thirds, large near-viewer frames with strong perspective, smaller distantframes receding behind. This is a dynamic sparse composition and MUST NOT be the12panel grid from panel06. Frame interiors are only abstract wafer textures, glowing geometry, frosted material or dark geometric etching; no actual task interface, fake controls, numeric graphs or performance charts. Match reference luminousgoldlightpath crossing bottomleft and sweeping upward into the deep laboratoryscene. Photographic metallic texture and opticalwarmglow/bokeh, premiumprecisionR&D atmosphere; do not renderflatline-art. Right third mostly black/darkcharcoal and clear for Korean copy added later; bottom band clear for narrationcaptions. Paletteblack#080808 charcoal#1A1A1F gold#D4AF7C warmgold#F5D6A6 amber#FFB347. NO TEXT ANYWHERE, no Korean, English, numbers, digits, labels, logos, watermarks, UI, dashboard, charts, axes/ticks, actual detailedtaskfeatures. No robots,gamefantasyor dominantblueneon.",
+      "transparent_background": false,
+      "visual_inspection": "PASS: sparse four angled frames around a close wafer and bright orbital gold ribbons; distinct from CUT06 grid, dark right copy space. No embedded text, UI or numbers."
+    },
+    {
+      "cut": "08",
+      "file": "cut08.png",
+      "source_generated_file": "/Users/jk/.codex/generated_images/01a137f3-55cd-71a3-a36b-0b412911b1aa/exec-10d41cc6-fb63-4ffa-be54-d2baeee13efd.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "df54ced218b7ee151bd4130cb201ad751cc7d0a52fe9d1c9a94880d5364da01b",
+      "prompt_exact": "Use case: stylized-concept. Asset type: single cinematic16:9photographic3Dbackground plate for abstract programdirection and expectedbenefits in a semiconductor R&D opening. Input image is aREFERENCE STORYBOARD ONLY: closely match PANEL08, third row center, remove all writing/icons from rightside. Create ONE SINGLE full-frame16:9image, no collage or storyboard grid. LEFT TWO-THIRDS: realistic3Dgold/brushedbronze rectangular pillars or bars of calm increasing heights from lower-left to upper-center, arranged in deep cinematicperspective, with a clearly ascending curved luminous ambergoldlighttrail sweeping from bottom-left upward through them towardupper-center. Match reference warmopticalglow, metallicbars, reflection, premiumblackindustrialbackgrounddepth and subtlephotographicbokeh; faintcoldreflectionspermitted but overallblackgoldamber. This is an unmeasured abstract metaphor, not actualdata: noaxes, gridlines, ticks, values, percentages, measurementmarkers, numbers, graphscreens or fakeperformanceclaims. Reserve entire RIGHT THIRD as deepblack/darkcharcoal completely EMPTY negativecopyspace for fouritems and codeicons later. Do not generateiconsorbenefitlabels. Keep bottomcaptionzone dark. Palette#080808,#1A1A1F,#D4AF7C,#F5D6A6,#FFB347. NO TEXT atall: noKorean,English,words,letters,numbers,digits,labels,watermark,logos. No2Dflatnativecharts,cartoons,robots,gameSF,dominantblueneon.",
+      "transparent_background": false,
+      "visual_inspection": "PASS: photographic metallic ascending bars and curved amber light arrow, no axes/ticks/values/percentages, dark right copy space. Abstract program-direction metaphor rather than measured performance."
+    }
+  ]
+}

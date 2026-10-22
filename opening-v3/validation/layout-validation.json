@@ -1,0 +1,929 @@
+{
+  "status": "PASS",
+  "issue_count": 0,
+  "safe_margins": {
+    "left": 78,
+    "right": 78,
+    "top": 75,
+    "bottom": 75
+  },
+  "records": [
+    {
+      "time": 0,
+      "state": {
+        "time": 0,
+        "cut": 1,
+        "local": 0,
+        "background": "cut01.png",
+        "captions": false,
+        "motion": "globe_connections",
+        "progress": 0,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "R&D",
+          "left": 703.109375,
+          "top": 474,
+          "right": 922.28125,
+          "bottom": 628
+        },
+        {
+          "text": "AI를 더합니다",
+          "left": 680.8125,
+          "top": 612.234375,
+          "right": 1239.1875,
+          "bottom": 761.234375
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 1.5,
+      "state": {
+        "time": 1.5,
+        "cut": 1,
+        "local": 1.5,
+        "background": "cut01.png",
+        "captions": false,
+        "motion": "globe_connections",
+        "progress": 0.68359375,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "R&D",
+          "left": 703.109375,
+          "top": 409,
+          "right": 922.28125,
+          "bottom": 563
+        },
+        {
+          "text": "업무에",
+          "left": 922.28125,
+          "top": 406,
+          "right": 1216.875,
+          "bottom": 555
+        },
+        {
+          "text": "AI를 더합니다",
+          "left": 680.8125,
+          "top": 547.234375,
+          "right": 1239.1875,
+          "bottom": 696.234375
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 3.1,
+      "state": {
+        "time": 3.1,
+        "cut": 2,
+        "local": 0.10000000000000009,
+        "background": "cut02.png",
+        "captions": false,
+        "motion": "wafer_scan_orbits",
+        "progress": 0.005063657407407417,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "R&D",
+          "left": 703.109375,
+          "top": 409,
+          "right": 922.28125,
+          "bottom": 563
+        },
+        {
+          "text": "업무에",
+          "left": 922.28125,
+          "top": 406,
+          "right": 1216.875,
+          "bottom": 555
+        },
+        {
+          "text": "AI를 더합니다",
+          "left": 680.8125,
+          "top": 547.234375,
+          "right": 1239.1875,
+          "bottom": 696.234375
+        },
+        {
+          "text": "더 나은",
+          "left": 1230,
+          "top": 354.35894775390625,
+          "right": 1447.375,
+          "bottom": 464.35894775390625
+        },
+        {
+          "text": "내일을 만듭니다",
+          "left": 1230,
+          "top": 564.1875,
+          "right": 1713.375,
+          "bottom": 674.1875
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 4.7,
+      "state": {
+        "time": 4.7,
+        "cut": 2,
+        "local": 1.7000000000000002,
+        "background": "cut02.png",
+        "captions": false,
+        "motion": "wafer_scan_orbits",
+        "progress": 0.7944155092592594,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "더 나은",
+          "left": 1230,
+          "top": 294,
+          "right": 1447.375,
+          "bottom": 404
+        },
+        {
+          "text": "R&D 공정의",
+          "left": 1230,
+          "top": 396.59375,
+          "right": 1589.328125,
+          "bottom": 506.59375
+        },
+        {
+          "text": "내일을 만듭니다",
+          "left": 1230,
+          "top": 499.1875,
+          "right": 1713.375,
+          "bottom": 609.1875
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 7.1,
+      "state": {
+        "time": 7.1,
+        "cut": 3,
+        "local": 0.09999999999999964,
+        "background": "cut03.png",
+        "captions": false,
+        "motion": "human_ai_link_flow",
+        "progress": 0.005063657407407373,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "더 나은",
+          "left": 1230,
+          "top": 294,
+          "right": 1447.375,
+          "bottom": 404
+        },
+        {
+          "text": "R&D 공정의",
+          "left": 1230,
+          "top": 396.59375,
+          "right": 1589.328125,
+          "bottom": 506.59375
+        },
+        {
+          "text": "내일을 만듭니다",
+          "left": 1230,
+          "top": 499.1875,
+          "right": 1713.375,
+          "bottom": 609.1875
+        },
+        {
+          "text": "사람의 경험과",
+          "left": 1220,
+          "top": 388.35894775390625,
+          "right": 1631.375,
+          "bottom": 497.35894775390625
+        },
+        {
+          "text": "연결합니다",
+          "left": 1220,
+          "top": 595.5,
+          "right": 1548.125,
+          "bottom": 704.5
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 9.5,
+      "state": {
+        "time": 9.5,
+        "cut": 3,
+        "local": 2.5,
+        "background": "cut03.png",
+        "captions": false,
+        "motion": "human_ai_link_flow",
+        "progress": 1,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "사람의 경험과",
+          "left": 1220,
+          "top": 328,
+          "right": 1631.375,
+          "bottom": 437
+        },
+        {
+          "text": "AI의 가능성을",
+          "left": 1220,
+          "top": 429.25,
+          "right": 1626.578125,
+          "bottom": 538.25
+        },
+        {
+          "text": "연결합니다",
+          "left": 1220,
+          "top": 530.5,
+          "right": 1548.125,
+          "bottom": 639.5
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 12.1,
+      "state": {
+        "time": 12.1,
+        "cut": 4,
+        "local": 0.09999999999999964,
+        "background": "cut04-clean.png",
+        "captions": false,
+        "motion": "ascending_s_ribbon",
+        "progress": 0.00010042951639071933,
+        "abstract_frame_count": 6
+      },
+      "texts": [
+        {
+          "text": "사람의 경험과",
+          "left": 1220,
+          "top": 328,
+          "right": 1631.375,
+          "bottom": 437
+        },
+        {
+          "text": "AI의 가능성을",
+          "left": 1220,
+          "top": 429.25,
+          "right": 1626.578125,
+          "bottom": 538.25
+        },
+        {
+          "text": "연결합니다",
+          "left": 1220,
+          "top": 530.5,
+          "right": 1548.125,
+          "bottom": 639.5
+        },
+        {
+          "text": "연구와 업무의",
+          "left": 1235,
+          "top": 386.35894775390625,
+          "right": 1640.890625,
+          "bottom": 493.35894775390625
+        },
+        {
+          "text": "열어갑니다",
+          "left": 1235,
+          "top": 590.78125,
+          "right": 1558.765625,
+          "bottom": 697.78125
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 14.5,
+      "state": {
+        "time": 14.5,
+        "cut": 4,
+        "local": 2.5,
+        "background": "cut04-clean.png",
+        "captions": false,
+        "motion": "ascending_s_ribbon",
+        "progress": 0.7858235603895174,
+        "abstract_frame_count": 6
+      },
+      "texts": [
+        {
+          "text": "연구와 업무의",
+          "left": 1235,
+          "top": 326,
+          "right": 1640.890625,
+          "bottom": 433
+        },
+        {
+          "text": "새로운 가능성을",
+          "left": 1235,
+          "top": 425.890625,
+          "right": 1705.640625,
+          "bottom": 532.890625
+        },
+        {
+          "text": "열어갑니다",
+          "left": 1235,
+          "top": 525.78125,
+          "right": 1558.765625,
+          "bottom": 632.78125
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 17.1,
+      "state": {
+        "time": 17.1,
+        "cut": 5,
+        "local": 0.10000000000000142,
+        "background": "cut05.png",
+        "captions": false,
+        "motion": "wave_convergence",
+        "progress": 0.0050636574074075505,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "연구와 업무의",
+          "left": 1235,
+          "top": 326,
+          "right": 1640.890625,
+          "bottom": 433
+        },
+        {
+          "text": "새로운 가능성을",
+          "left": 1235,
+          "top": 425.890625,
+          "right": 1705.640625,
+          "bottom": 532.890625
+        },
+        {
+          "text": "열어갑니다",
+          "left": 1235,
+          "top": 525.78125,
+          "right": 1558.765625,
+          "bottom": 632.78125
+        },
+        {
+          "text": "R&D",
+          "left": 793.2053833007812,
+          "top": 363.9703674316406,
+          "right": 958.3599853515625,
+          "bottom": 478.6492614746094
+        },
+        {
+          "text": "공정",
+          "left": 958.3599853515625,
+          "top": 353.2799377441406,
+          "right": 1126.7794189453125,
+          "bottom": 474.7618408203125
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 17.8,
+      "state": {
+        "time": 17.8,
+        "cut": 5,
+        "local": 0.8000000000000007,
+        "background": "cut05.png",
+        "captions": false,
+        "motion": "wave_convergence",
+        "progress": 0.2592592592592597,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "R&D",
+          "left": 788.4480590820312,
+          "top": 323.6197509765625,
+          "right": 958.313232421875,
+          "bottom": 441.56951904296875
+        },
+        {
+          "text": "공정",
+          "left": 958.313232421875,
+          "top": 312.6244201660156,
+          "right": 1131.536376953125,
+          "bottom": 437.5711975097656
+        },
+        {
+          "text": "AI Fast Track",
+          "left": 539.662109375,
+          "top": 434.76507568359375,
+          "right": 1380.322265625,
+          "bottom": 646.2903442382812
+        },
+        {
+          "text": "AI로 더 스마트한 R&D 공정",
+          "left": 754.3145751953125,
+          "top": 714.6295166015625,
+          "right": 1165.6700439453125,
+          "bottom": 762.751708984375
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 19.5,
+      "state": {
+        "time": 19.5,
+        "cut": 5,
+        "local": 2.5,
+        "background": "cut05.png",
+        "captions": false,
+        "motion": "wave_convergence",
+        "progress": 1,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "R&D",
+          "left": 788.375,
+          "top": 323,
+          "right": 958.3125,
+          "bottom": 441
+        },
+        {
+          "text": "공정",
+          "left": 958.3125,
+          "top": 312,
+          "right": 1131.609375,
+          "bottom": 437
+        },
+        {
+          "text": "AI Fast Track",
+          "left": 538.71875,
+          "top": 431.390625,
+          "right": 1381.265625,
+          "bottom": 643.390625
+        },
+        {
+          "text": "AI로 더 스마트한 R&D 공정",
+          "left": 750.5625,
+          "top": 689.109375,
+          "right": 1169.421875,
+          "bottom": 738.109375
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 22.1,
+      "state": {
+        "time": 22.1,
+        "cut": 6,
+        "local": 0.10000000000000142,
+        "background": "cut06.png",
+        "captions": false,
+        "motion": "twelve_panel_activation",
+        "progress": 0.0050636574074075505,
+        "abstract_frame_count": 12
+      },
+      "texts": [
+        {
+          "text": "R&D",
+          "left": 788.375,
+          "top": 323,
+          "right": 958.3125,
+          "bottom": 441
+        },
+        {
+          "text": "공정",
+          "left": 958.3125,
+          "top": 312,
+          "right": 1131.609375,
+          "bottom": 437
+        },
+        {
+          "text": "AI Fast Track",
+          "left": 538.71875,
+          "top": 431.390625,
+          "right": 1381.265625,
+          "bottom": 643.390625
+        },
+        {
+          "text": "AI로 더 스마트한 R&D 공정",
+          "left": 750.5625,
+          "top": 689.109375,
+          "right": 1169.421875,
+          "bottom": 738.109375
+        },
+        {
+          "text": "12개",
+          "left": 1270,
+          "top": 357.35894775390625,
+          "right": 1476.453125,
+          "bottom": 507.35894775390625
+        },
+        {
+          "text": "만드는 변화",
+          "left": 1270,
+          "top": 598.859375,
+          "right": 1615.75,
+          "bottom": 707.859375
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 23.3,
+      "state": {
+        "time": 23.3,
+        "cut": 6,
+        "local": 1.3000000000000007,
+        "background": "cut06.png",
+        "captions": false,
+        "motion": "twelve_panel_activation",
+        "progress": 0.5623553240740745,
+        "abstract_frame_count": 12
+      },
+      "texts": [
+        {
+          "text": "12개",
+          "left": 1270,
+          "top": 297,
+          "right": 1476.453125,
+          "bottom": 447
+        },
+        {
+          "text": "AI Agent가",
+          "left": 1270,
+          "top": 432.609375,
+          "right": 1599.5625,
+          "bottom": 541.609375
+        },
+        {
+          "text": "만드는 변화",
+          "left": 1270,
+          "top": 533.859375,
+          "right": 1615.75,
+          "bottom": 642.859375
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 25,
+      "state": {
+        "time": 25,
+        "cut": 6,
+        "local": 3,
+        "background": "cut06.png",
+        "captions": false,
+        "motion": "twelve_panel_activation",
+        "progress": 1,
+        "abstract_frame_count": 12
+      },
+      "texts": [
+        {
+          "text": "12개",
+          "left": 1270,
+          "top": 297,
+          "right": 1476.453125,
+          "bottom": 447
+        },
+        {
+          "text": "AI Agent가",
+          "left": 1270,
+          "top": 432.609375,
+          "right": 1599.5625,
+          "bottom": 541.609375
+        },
+        {
+          "text": "만드는 변화",
+          "left": 1270,
+          "top": 533.859375,
+          "right": 1615.75,
+          "bottom": 642.859375
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 28.1,
+      "state": {
+        "time": 28.1,
+        "cut": 7,
+        "local": 0.10000000000000142,
+        "background": "cut07-clean.png",
+        "captions": false,
+        "motion": "ascending_wafer_orbit",
+        "progress": 0.00007665113713115059,
+        "abstract_frame_count": 4
+      },
+      "texts": [
+        {
+          "text": "12개",
+          "left": 1270,
+          "top": 297,
+          "right": 1476.453125,
+          "bottom": 447
+        },
+        {
+          "text": "AI Agent가",
+          "left": 1270,
+          "top": 432.609375,
+          "right": 1599.5625,
+          "bottom": 541.609375
+        },
+        {
+          "text": "만드는 변화",
+          "left": 1270,
+          "top": 533.859375,
+          "right": 1615.75,
+          "bottom": 642.859375
+        },
+        {
+          "text": "현장의 문제를",
+          "left": 1220,
+          "top": 380.35894775390625,
+          "right": 1636.875,
+          "bottom": 490.35894775390625
+        },
+        {
+          "text": "12개 과제",
+          "left": 1220,
+          "top": 590.1875,
+          "right": 1514.890625,
+          "bottom": 700.1875
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 31.5,
+      "state": {
+        "time": 31.5,
+        "cut": 7,
+        "local": 3.5,
+        "background": "cut07-clean.png",
+        "captions": false,
+        "motion": "ascending_wafer_orbit",
+        "progress": 0.9508207504882981,
+        "abstract_frame_count": 4
+      },
+      "texts": [
+        {
+          "text": "현장의 문제를",
+          "left": 1220,
+          "top": 320,
+          "right": 1636.875,
+          "bottom": 430
+        },
+        {
+          "text": "AI로 해결하는",
+          "left": 1220,
+          "top": 422.59375,
+          "right": 1632,
+          "bottom": 532.59375
+        },
+        {
+          "text": "12개 과제",
+          "left": 1220,
+          "top": 525.1875,
+          "right": 1514.890625,
+          "bottom": 635.1875
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 35.1,
+      "state": {
+        "time": 35.1,
+        "cut": 8,
+        "local": 0.10000000000000142,
+        "background": "cut08-clean.png",
+        "captions": false,
+        "motion": "rising_hero_arrow",
+        "progress": 0.028571428571428976,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "현장의 문제를",
+          "left": 1220,
+          "top": 320,
+          "right": 1636.875,
+          "bottom": 430
+        },
+        {
+          "text": "AI로 해결하는",
+          "left": 1220,
+          "top": 422.59375,
+          "right": 1632,
+          "bottom": 532.59375
+        },
+        {
+          "text": "12개 과제",
+          "left": 1220,
+          "top": 525.1875,
+          "right": 1514.890625,
+          "bottom": 635.1875
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 38.5,
+      "state": {
+        "time": 38.5,
+        "cut": 8,
+        "local": 3.5,
+        "background": "cut08-clean.png",
+        "captions": false,
+        "motion": "rising_hero_arrow",
+        "progress": 1,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "업무 효율화",
+          "left": 1343,
+          "top": 237,
+          "right": 1523.96875,
+          "bottom": 293
+        },
+        {
+          "text": "데이터 기반 의사결정",
+          "left": 1343,
+          "top": 344.59375,
+          "right": 1670.609375,
+          "bottom": 400.59375
+        },
+        {
+          "text": "새로운 분석 관점",
+          "left": 1343,
+          "top": 452.1875,
+          "right": 1601.96875,
+          "bottom": 508.1875
+        },
+        {
+          "text": "더 스마트한 연구 환경",
+          "left": 1343,
+          "top": 559.78125,
+          "right": 1679.96875,
+          "bottom": 615.78125
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 42.1,
+      "state": {
+        "time": 42.1,
+        "cut": 9,
+        "local": 0.10000000000000142,
+        "background": "cut09.png",
+        "captions": false,
+        "motion": "wafer_scan_finale",
+        "progress": 0.0050636574074075505,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "업무 효율화",
+          "left": 1343,
+          "top": 237,
+          "right": 1523.96875,
+          "bottom": 293
+        },
+        {
+          "text": "데이터 기반 의사결정",
+          "left": 1343,
+          "top": 344.59375,
+          "right": 1670.609375,
+          "bottom": 400.59375
+        },
+        {
+          "text": "새로운 분석 관점",
+          "left": 1343,
+          "top": 452.1875,
+          "right": 1601.96875,
+          "bottom": 508.1875
+        },
+        {
+          "text": "더 스마트한 연구 환경",
+          "left": 1343,
+          "top": 559.78125,
+          "right": 1679.96875,
+          "bottom": 615.78125
+        },
+        {
+          "text": "R&D",
+          "left": 1220.705322265625,
+          "top": 364.9703674316406,
+          "right": 1385.8599853515625,
+          "bottom": 479.6492614746094
+        },
+        {
+          "text": "공정",
+          "left": 1385.8599853515625,
+          "top": 354.2799377441406,
+          "right": 1554.2794189453125,
+          "bottom": 475.7618408203125
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 44,
+      "state": {
+        "time": 44,
+        "cut": 9,
+        "local": 2,
+        "background": "cut09.png",
+        "captions": false,
+        "motion": "wafer_scan_finale",
+        "progress": 0.925925925925926,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "R&D",
+          "left": 1215.875,
+          "top": 324,
+          "right": 1385.8125,
+          "bottom": 442
+        },
+        {
+          "text": "공정",
+          "left": 1385.8125,
+          "top": 313,
+          "right": 1559.109375,
+          "bottom": 438
+        },
+        {
+          "text": "AI Fast Track",
+          "left": 1061.96875,
+          "top": 436.390625,
+          "right": 1713.03125,
+          "bottom": 599.390625
+        },
+        {
+          "text": "AI로 만들어가는 R&D의 새로운 변화",
+          "left": 1176.59375,
+          "top": 648.796875,
+          "right": 1598.390625,
+          "bottom": 688.796875
+        }
+      ],
+      "issues": []
+    },
+    {
+      "time": 45.9,
+      "state": {
+        "time": 45.9,
+        "cut": 9,
+        "local": 3.8999999999999986,
+        "background": "cut09.png",
+        "captions": false,
+        "motion": "wafer_scan_finale",
+        "progress": 1,
+        "abstract_frame_count": 0
+      },
+      "texts": [
+        {
+          "text": "R&D",
+          "left": 1215.875,
+          "top": 324,
+          "right": 1385.8125,
+          "bottom": 442
+        },
+        {
+          "text": "공정",
+          "left": 1385.8125,
+          "top": 313,
+          "right": 1559.109375,
+          "bottom": 438
+        },
+        {
+          "text": "AI Fast Track",
+          "left": 1061.96875,
+          "top": 436.390625,
+          "right": 1713.03125,
+          "bottom": 599.390625
+        },
+        {
+          "text": "AI로 만들어가는 R&D의 새로운 변화",
+          "left": 1176.59375,
+          "top": 648.796875,
+          "right": 1598.390625,
+          "bottom": 688.796875
+        }
+      ],
+      "issues": []
+    }
+  ]
+}

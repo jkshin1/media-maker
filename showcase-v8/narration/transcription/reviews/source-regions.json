@@ -1,0 +1,25 @@
+{
+  "master": "showcase/narration/take.wav",
+  "regions": {
+    "task7_cut3": {
+      "source_start": 105.54,
+      "source_end": 109.88
+    },
+    "task11_cut3": {
+      "source_start": 168.26,
+      "source_end": 173.7
+    },
+    "task16_cut1": {
+      "source_start": 271.36,
+      "source_end": 274.88
+    },
+    "task16_cut5": {
+      "source_start": 288.64,
+      "source_end": 292.74
+    },
+    "ending_cut3_to_cut5": {
+      "source_start": 297.6,
+      "source_end": 308.56
+    }
+  }
+}

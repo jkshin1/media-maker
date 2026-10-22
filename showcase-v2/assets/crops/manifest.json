@@ -1,0 +1,566 @@
+{
+  "files": [
+    {
+      "path": "assets/crops/task3-before-photo.png",
+      "source": "reference/1791965410176.png",
+      "rect_xyxy": [
+        0,
+        560,
+        333,
+        766
+      ],
+      "size": [
+        333,
+        206
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "06b15a56e371d38a85d0ab61efda8ca063b6dce933de4bc1b16070f72963ece1"
+    },
+    {
+      "path": "assets/crops/task4-before-photo.png",
+      "source": "reference/1791965410246.png",
+      "rect_xyxy": [
+        2,
+        299,
+        112,
+        636
+      ],
+      "size": [
+        110,
+        337
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "523ef7807b9905f59aa8f0610e6ecced5b625cc56a2b6e68e5788db25d220dc8"
+    },
+    {
+      "path": "assets/crops/task5-before-photo.png",
+      "source": "reference/1791965410319.png",
+      "rect_xyxy": [
+        1370,
+        574,
+        1670,
+        673
+      ],
+      "size": [
+        300,
+        99
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "f018192e94c2a082fba2b025b52ea92fabd49480d40c70b538d08e8585f5b8ba"
+    },
+    {
+      "path": "assets/crops/task5-after-photo.png",
+      "source": "reference/1791965410319.png",
+      "rect_xyxy": [
+        1370,
+        574,
+        1670,
+        673
+      ],
+      "size": [
+        300,
+        99
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Small photographic detail; excludes storyboard headline and narration. Do not present as a verified task screenshot.",
+      "sha256": "f018192e94c2a082fba2b025b52ea92fabd49480d40c70b538d08e8585f5b8ba"
+    },
+    {
+      "path": "assets/crops/task7-before-photo.png",
+      "source": "reference/1791965410453.png",
+      "rect_xyxy": [
+        0,
+        372,
+        252,
+        500
+      ],
+      "size": [
+        252,
+        128
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "554cc30c3de5ce4b69081dc6e09171c633ff16ef0918ad3e2d835ac2aba36211"
+    },
+    {
+      "path": "assets/crops/task7-after-photo.png",
+      "source": "reference/1791965410453.png",
+      "rect_xyxy": [
+        1405,
+        777,
+        1671,
+        939
+      ],
+      "size": [
+        266,
+        162
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Small photographic detail; excludes storyboard headline and narration. Do not present as a verified task screenshot.",
+      "sha256": "b0b6fc5e52ad0546d75a3126632953ed89be429eb1987de5f253c2d88c1b18d7"
+    },
+    {
+      "path": "assets/crops/task8-before-photo.png",
+      "source": "reference/1791965410523.png",
+      "rect_xyxy": [
+        0,
+        661,
+        180,
+        849
+      ],
+      "size": [
+        180,
+        188
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "1a91ec7200685ab7cca09727808543329ca0cf6b28af109b4b732c9c24f024d1"
+    },
+    {
+      "path": "assets/crops/task8-after-photo.png",
+      "source": "reference/1791965410523.png",
+      "rect_xyxy": [
+        1480,
+        720,
+        1670,
+        848
+      ],
+      "size": [
+        190,
+        128
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Small photographic detail; excludes storyboard headline and narration. Do not present as a verified task screenshot.",
+      "sha256": "f1e2e1e331fc38200d70339aad5e580b9e48b97c1b406cf14a20ff938e28e0f1"
+    },
+    {
+      "path": "assets/crops/task9-before-photo.png",
+      "source": "reference/1791965410592.png",
+      "rect_xyxy": [
+        0,
+        719,
+        342,
+        849
+      ],
+      "size": [
+        342,
+        130
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "3f74841e48c206f42eaab802ad038b749b39ada664ac7b3652b87ed22c7463e3"
+    },
+    {
+      "path": "assets/crops/task9-after-photo.png",
+      "source": "reference/1791965410592.png",
+      "rect_xyxy": [
+        1390,
+        703,
+        1670,
+        848
+      ],
+      "size": [
+        280,
+        145
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Small photographic detail; excludes storyboard headline and narration. Do not present as a verified task screenshot.",
+      "sha256": "8636bec4c7da33054767949f37a6226b4de0dbbfff792f9a587629ef2bd63e17"
+    },
+    {
+      "path": "assets/crops/task11-before-photo.png",
+      "source": "reference/1791965410736.png",
+      "rect_xyxy": [
+        0,
+        566,
+        357,
+        778
+      ],
+      "size": [
+        357,
+        212
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "577c940e8f9728c13de0a8959139933d5aa1633820089b70d2500e7b17798b3c"
+    },
+    {
+      "path": "assets/crops/task12-before-photo.png",
+      "source": "reference/1791965410805.png",
+      "rect_xyxy": [
+        0,
+        568,
+        324,
+        780
+      ],
+      "size": [
+        324,
+        212
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "c2961e8ae532707c589ca0172443a15c2604456fbf4a11f6fd1ea7d18a6fdc2f"
+    },
+    {
+      "path": "assets/crops/task13-before-photo.png",
+      "source": "reference/1791965410890.png",
+      "rect_xyxy": [
+        0,
+        640,
+        348,
+        772
+      ],
+      "size": [
+        348,
+        132
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "0a6665c24d91c4657a48662cdc66c9cdf946d2679fa0ffdde20b033d2d5f6e43"
+    },
+    {
+      "path": "assets/crops/task13-after-photo.png",
+      "source": "reference/1791965410890.png",
+      "rect_xyxy": [
+        1475,
+        280,
+        1670,
+        565
+      ],
+      "size": [
+        195,
+        285
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Small photographic detail; excludes storyboard headline and narration. Do not present as a verified task screenshot.",
+      "sha256": "30618be76659ce9bd4dfc8c9a11c3f8674606d8dc5a9c5f4f4af83e60ce5ea07"
+    },
+    {
+      "path": "assets/crops/task14-before-photo.png",
+      "source": "reference/1791965410941.png",
+      "rect_xyxy": [
+        0,
+        659,
+        326,
+        779
+      ],
+      "size": [
+        326,
+        120
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "fddd6b6056f438ece4c958d0de1e574831dea92d616af5cc2fdd7cc7602854e1"
+    },
+    {
+      "path": "assets/crops/task14-after-photo.png",
+      "source": "reference/1791965410941.png",
+      "rect_xyxy": [
+        1404,
+        242,
+        1670,
+        526
+      ],
+      "size": [
+        266,
+        284
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Small photographic detail; excludes storyboard headline and narration. Do not present as a verified task screenshot.",
+      "sha256": "dba43fee09d14d8c8bec3720add918c91d179b90a37fe560d938ef8568017ea5"
+    },
+    {
+      "path": "assets/crops/task17-before-photo.png",
+      "source": "reference/1791965411046.png",
+      "rect_xyxy": [
+        0,
+        578,
+        336,
+        759
+      ],
+      "size": [
+        336,
+        181
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "5d380f00628da207008376c8bfe4b2113a50d8c45e2061ee9cbf0ea45b2e8b3e"
+    },
+    {
+      "path": "assets/crops/task17-after-photo.png",
+      "source": "reference/1791965411046.png",
+      "rect_xyxy": [
+        1486,
+        223,
+        1668,
+        319
+      ],
+      "size": [
+        182,
+        96
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Small photographic detail; excludes storyboard headline and narration. Do not present as a verified task screenshot.",
+      "sha256": "763dc079577ad2342b905d87d92300e089b8071de66ef7a82cade8ef286c88fd"
+    },
+    {
+      "path": "assets/crops/task16-before-photo.png",
+      "source": "reference/1791965411099.png",
+      "rect_xyxy": [
+        0,
+        548,
+        308,
+        756
+      ],
+      "size": [
+        308,
+        208
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Photographic region only; excludes storyboard title and narration. Photographed screen texture may contain unreadably small source text.",
+      "sha256": "14fd14d13b53a96c61e5612c909929dad8d0f7312c25ec5ff097a55a4acbf94c"
+    },
+    {
+      "path": "assets/crops/task17-micrograph.png",
+      "source": "reference/1791965411046.png",
+      "rect_xyxy": [
+        4,
+        288,
+        71,
+        449
+      ],
+      "size": [
+        67,
+        161
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Text-free grayscale TEM texture from first reference panel; no measurement values. Low-resolution concept texture.",
+      "sha256": "24779c3b6a637232a6f4dbdc3b21756bf4d0cca63a1a8561ac1aced7e0f334dd"
+    },
+    {
+      "path": "assets/crops/task16-micrograph.png",
+      "source": "reference/1791965411099.png",
+      "rect_xyxy": [
+        813,
+        320,
+        931,
+        442
+      ],
+      "size": [
+        118,
+        122
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Text-free grayscale circular Plug image texture; fine source crosshair retained, no classification label or numeric values.",
+      "sha256": "c205e8b46c90d62e9c4628d2c2e0f11ee0c6a44e7ac443fc6b0bb01f7590842d"
+    },
+    {
+      "path": "assets/crops/opening-photo1.png",
+      "source": "reference/1791965410023.png",
+      "rect_xyxy": [
+        0,
+        60,
+        152,
+        207
+      ],
+      "size": [
+        152,
+        147
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Text-free reference scene region; all opening text rebuilt separately.",
+      "sha256": "4a38fec0a0f9a30d10604a42a208a1957cc5e99a71bf7e3ba6d58fa21967104e"
+    },
+    {
+      "path": "assets/crops/opening-photo2.png",
+      "source": "reference/1791965410023.png",
+      "rect_xyxy": [
+        565,
+        51,
+        890,
+        204
+      ],
+      "size": [
+        325,
+        153
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Text-free reference scene region; all opening text rebuilt separately.",
+      "sha256": "9eca02684ad321fb299c8278303fe27a76901c98cb3608d43f905d74fb0e026f"
+    },
+    {
+      "path": "assets/crops/opening-photo3.png",
+      "source": "reference/1791965410023.png",
+      "rect_xyxy": [
+        1123,
+        47,
+        1461,
+        208
+      ],
+      "size": [
+        338,
+        161
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Text-free reference scene region; all opening text rebuilt separately.",
+      "sha256": "839bda7022506419c6db7ad6ade1974990f4c6f318842eed9d8dba226088f4ba"
+    },
+    {
+      "path": "assets/crops/opening-photo4.png",
+      "source": "reference/1791965410023.png",
+      "rect_xyxy": [
+        1,
+        294,
+        356,
+        474
+      ],
+      "size": [
+        355,
+        180
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Text-free reference scene region; all opening text rebuilt separately.",
+      "sha256": "edda52f74966742a0e06dfc05cd31e6b7aec65bab702faa8d7593e248c9485ac"
+    },
+    {
+      "path": "assets/crops/opening-photo6.png",
+      "source": "reference/1791965410023.png",
+      "rect_xyxy": [
+        1122,
+        300,
+        1514,
+        472
+      ],
+      "size": [
+        392,
+        172
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Text-free reference scene region; all opening text rebuilt separately.",
+      "sha256": "90678e53e88b44c08beca4800d2a9626734e54832b741733508121d91ee5df3f"
+    },
+    {
+      "path": "assets/crops/opening-photo7.png",
+      "source": "reference/1791965410023.png",
+      "rect_xyxy": [
+        0,
+        560,
+        357,
+        740
+      ],
+      "size": [
+        357,
+        180
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Text-free reference scene region; all opening text rebuilt separately.",
+      "sha256": "552a8201af5b3d12b6a3ba8c4979ac71939c5dcac3e1b5805bb41887e03f309a"
+    },
+    {
+      "path": "assets/crops/opening-photo8.png",
+      "source": "reference/1791965410023.png",
+      "rect_xyxy": [
+        565,
+        563,
+        891,
+        740
+      ],
+      "size": [
+        326,
+        177
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Text-free reference scene region; all opening text rebuilt separately.",
+      "sha256": "40a6024e625bad262d604f5bd5982988877e913ab99917697460ddd44c534c43"
+    },
+    {
+      "path": "assets/crops/opening-photo9.png",
+      "source": "reference/1791965410023.png",
+      "rect_xyxy": [
+        1122,
+        559,
+        1358,
+        741
+      ],
+      "size": [
+        236,
+        182
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Text-free reference scene region; all opening text rebuilt separately.",
+      "sha256": "5f1477b73b76638a2e0e57551ed6333ca21ce0bd80e03c9b0e341a7437b11dad"
+    },
+    {
+      "path": "assets/crops/summary1-wafer.png",
+      "source": "reference/1791965410103.png",
+      "rect_xyxy": [
+        425,
+        570,
+        1240,
+        917
+      ],
+      "size": [
+        815,
+        347
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Lower central wafer photographic region; excludes center message and UI headers.",
+      "sha256": "20eb6023df375a010c8f19c02aaa8332f4b332c951ecdb669460eb6477d64a60"
+    },
+    {
+      "path": "assets/crops/summary2-wafer.png",
+      "source": "reference/1791965410381.png",
+      "rect_xyxy": [
+        425,
+        570,
+        1240,
+        917
+      ],
+      "size": [
+        815,
+        347
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Lower central wafer photographic region; excludes center message and UI headers.",
+      "sha256": "b1b208e2d64773e7f21f78a427b2355cf0811724d14994fe3ffba8c83008d66f"
+    },
+    {
+      "path": "assets/crops/summary3-wafer.png",
+      "source": "reference/1791965410660.png",
+      "rect_xyxy": [
+        425,
+        570,
+        1240,
+        917
+      ],
+      "size": [
+        815,
+        347
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Lower central wafer photographic region; excludes center message and UI headers.",
+      "sha256": "1dabe4b88ebcc4c16ae01ac2b6339843138e942e45b6e6ebe21b5908b52c0c79"
+    },
+    {
+      "path": "assets/crops/summary4-wafer.png",
+      "source": "reference/1791965410989.png",
+      "rect_xyxy": [
+        425,
+        570,
+        1240,
+        917
+      ],
+      "size": [
+        815,
+        347
+      ],
+      "source_kind": "approved concept image; not independently verified task data",
+      "note": "Lower central wafer photographic region; excludes center message and UI headers.",
+      "sha256": "86def9817b257fcdc87b2b8832cd068f691cef717f8673be18fb73ea1141864f"
+    }
+  ],
+  "note": "Crops contain photographed surfaces/people/screens/wafer details only. Never use as stationary panels; rebuild each requested UI motion and text. Source resolution limits quality."
+}

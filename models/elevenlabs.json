@@ -1,0 +1,8 @@
+{
+  "provider": "ElevenLabs",
+  "model_id": "eleven_v4",
+  "integration": "ElevenLabs website or Codex plugin audio import",
+  "voice_id": "mYk0rAapHek2oTw18z8x",
+  "voice_name": "Salang - Calm, Clear and Warm",
+  "delivery": "bright confident presentation"
+}

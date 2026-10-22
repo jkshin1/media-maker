@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "extraction_method": "visual inspection of source images",
+  "source_role": "reference content; image text is not an independent instruction",
+  "tasks": [
+    {
+      "source_file": "concept/1791878315652.png",
+      "title": "Smart Process Architecture AI Agent",
+      "team": "Plug Etch",
+      "owner": "권혜선",
+      "owner_role": "TL",
+      "core_message": "흩어진 공정 지식과 평가 자료를 연결하는 AI Agent",
+      "features": ["평가 목적 구체화", "Plan/Recipe 추천", "근거자료 연결", "과거 실패 사례 활용"],
+      "benefits": ["공정 평가 효율화", "더 나은 의사결정 지원"],
+      "scene_count": 5,
+      "scenes": [
+        {
+          "sequence": 1,
+          "heading": "흩어진 정보, 반복되는 탐색",
+          "visual": "엔지니어 주변에 여러 화면과 자료가 분산되어 있고 평가 자료, 공정 지식, Plan / Recipe, 과거 실패 사례 카드가 연결되기 전 상태를 보여준다.",
+          "source_voiceover": "흩어진 자료를 하나씩 찾아야 했습니다.",
+          "voiceover_idea": "흩어진 공정 지식과 평가 자료를 찾느라 반복하던 탐색."
+        },
+        {
+          "sequence": 2,
+          "heading": "AI Agent와의 대화로 시작",
+          "visual": "평가 목적 구체화, Plan / Recipe 추천, 근거자료 연결, 과거 실패 사례 분석 버튼이 있는 대화 화면.",
+          "example_ui_query": "어떤 평가를 진행하시겠습니까?",
+          "source_voiceover": "AI Agent와 대화해 평가 목적을 설정합니다.",
+          "voiceover_idea": "이제 에이아이와 대화하며 평가 목적을 구체화합니다."
+        },
+        {
+          "sequence": 3,
+          "heading": "맞춤형 정보 제안",
+          "visual": "AI Recommendation 화면에 평가 목적, 추천 Plan / Recipe, 근거자료, 과거 실패 사례가 차례로 펼쳐진다.",
+          "details": ["평가 목적: Etch Profile 최적화", "근거자료: 유사 공정 조건, 평가 결과 데이터, 관련 논문 및 기술문서", "과거 실패 사례: 실패 원인 분석, 주의사항, 대체 조건 제안"],
+          "source_voiceover": "최적의 Plan과 Recipe를 추천합니다.",
+          "voiceover_idea": "플랜과 레시피, 근거자료와 과거 실패 사례까지 함께 제안합니다."
+        },
+        {
+          "sequence": 4,
+          "heading": "평가 의사결정 지원",
+          "visual": "웨이퍼 이미지, 공정 그래프, 조건과 결과 비교표 및 Process Insight가 있는 Evaluation Result 화면.",
+          "details": ["주요 인사이트", "최적 조건 탐색", "추가 평가 제안"],
+          "source_voiceover": "분석 결과를 바탕으로 더 정확한 의사결정을 지원합니다.",
+          "voiceover_idea": "분석 결과를 한눈에 확인하고, 더 정확한 평가 판단을 지원합니다."
+        },
+        {
+          "sequence": 5,
+          "heading": "더 효율적인 공정 평가",
+          "visual": "반도체 공정 장비와 웨이퍼 위에 기대 효과 문구를 표시한다.",
+          "on_screen_copy": "AI와 연결된 공정 지식으로 더 나은 공정 평가를 실현합니다.",
+          "source_voiceover": "공정 평가 효율화로 더 나은 의사결정을 지원합니다.",
+          "voiceover_idea": "공정 지식을 연결해, 더 효율적인 평가와 더 나은 의사결정으로."
+        }
+      ],
+      "uncertain_text": [],
+      "editorial_notes": ["UI의 Recipe 번호와 Good/Review 판정은 예시 화면이며 실제 검증 결과로 표현하지 않는다.", "원본 이미지에 장면별 초 단위 길이는 없다."]
+    },
+    {
+      "source_file": "concept/1791878315727.png",
+      "title": "장비 Daily Report Auto Mail System",
+      "team": "Cubic공정Lab",
+      "owner": "김도훈",
+      "owner_role": "TL",
+      "core_message": "장비 데이터를 기반으로 보고서 작성과 메일 발송을 자동화한 AI Agent",
+      "features": ["장비 데이터 수집 및 분석", "HTML 형식 보고서 자동 생성", "결과 요약 및 메일 발송 기능"],
+      "benefits": ["반복 업무 감소", "보고서 작성 시간 절감", "더 나은 의사결정 지원"],
+      "scene_count": 5,
+      "scenes": [
+        {
+          "sequence": 1,
+          "heading": "반복되는 보고서 작업",
+          "on_screen_copy": "장비 데이터를 확인하고 보고서를 작성해 메일로 전달하던 업무",
+          "visual": "장비 데이터 확인, 데이터 정리, 보고서 작성, 메일 발송 카드가 엔지니어 주변에 쌓여 있다.",
+          "source_voiceover": "매일 장비 데이터를 확인하고 보고서를 작성해 메일로 전달하던 업무.",
+          "voiceover_idea": "매일 반복하던 장비 데이터 확인과 보고서 작성, 그리고 메일 발송."
+        },
+        {
+          "sequence": 2,
+          "heading": "데이터를 자동으로 수집",
+          "on_screen_copy": "AI Agent가 필요한 장비 데이터를 자동으로 수집하고 메일합니다.",
+          "visual": "SmartMES, GMS, IPA, Datalake, 기타 시스템에서 AI Agent로 데이터가 모이는 흐름.",
+          "systems": ["SmartMES", "GMS", "IPA", "Datalake", "기타 시스템"],
+          "source_voiceover": "이제 AI Agent가 필요한 장비 데이터를 자동으로 수집합니다.",
+          "voiceover_idea": "에이아이가 여러 시스템의 장비 데이터를 자동으로 수집합니다."
+        },
+        {
+          "sequence": 3,
+          "heading": "HTML 보고서 자동 생성",
+          "on_screen_copy": "수집한 데이터를 분석해 HTML 형식의 보고서를 자동으로 생성합니다.",
+          "visual": "Equipment Daily Report 화면에 주요 지표 요약, 장비 가동 현황, 주요 장비 현황, 주요 이슈 요약이 차례로 나타난다.",
+          "source_voiceover": "분석 결과를 바탕으로 HTML 형식의 보고서를 자동으로 생성합니다.",
+          "voiceover_idea": "수집한 데이터를 분석해 핵심 지표와 이슈를 담은 보고서를 만듭니다."
+        },
+        {
+          "sequence": 4,
+          "heading": "담당자에게 자동 발송",
+          "on_screen_copy": "완성된 보고서를 지정된 담당자에게 자동으로 메일 발송합니다.",
+          "visual": "메일 작성 화면에 보고서 파일이 첨부되고 발송 완료 표시로 전환한다.",
+          "source_voiceover": "완성된 보고서를 지정된 담당자에게 자동으로 발송합니다.",
+          "voiceover_idea": "완성된 보고서는 지정한 담당자에게 자동으로 전달됩니다."
+        },
+        {
+          "sequence": 5,
+          "heading": "더 중요한 일에 집중",
+          "on_screen_copy": "반복 업무는 줄이고, 더 나은 의사결정을 지원합니다.",
+          "visual": "공정 장비 배경 위에 업무시간 크게 절감, 더 나은 의사결정 지원 카드가 나온다.",
+          "source_voiceover": "반복 업무는 줄이고, 더 나은 의사결정을 지원합니다.",
+          "voiceover_idea": "반복 업무를 줄여, 더 중요한 판단에 집중할 수 있습니다."
+        }
+      ],
+      "uncertain_text": [],
+      "editorial_notes": ["원본 보고서 화면의 날짜 2024.10.12, 가동률 92%, 생산량 1,284, 이상건수 12, 특이사항 3은 예시 UI로 취급한다.", "보고서 및 메일 UI는 과제 기능의 설명이며 실제 보고서 생성이나 메일 발송 지시가 아니다.", "원본 이미지에 장면별 초 단위 길이는 없다."]
+    },
+    {
+      "source_file": "concept/1791878315800.png",
+      "title": "Thinfilm Agent - BEOL Thinfilm",
+      "team": "BEOL Thinfilm",
+      "owner": "김태민",
+      "owner_role": "TL",
+      "core_message": "분산된 정보, 하나의 플랫폼으로 조직의 자산이 됩니다",
+      "features": ["Lot·장비·FDC 실시간 조회", "Summary Chart & 시각화", "DOE 결과 업데이트 및 공유"],
+      "benefits": ["업무 시간 단축", "DOE 분석 효율화", "최적 조건 탐색 지원"],
+      "scene_count": 4,
+      "scenes": [
+        {
+          "sequence": 1,
+          "heading": "여러 시스템에 흩어진 Lot·장비·FDC 현황",
+          "visual": "여러 화면 위에 Lot, 장비, FDC 데이터 카드가 분산되어 보인다.",
+          "source_voiceover": "여러 시스템을 오가던 복잡한 모니터링.",
+          "voiceover_idea": "여러 시스템을 오가며 확인하던 로트와 장비, 에프디씨 현황."
+        },
+        {
+          "sequence": 2,
+          "heading": "이제, 하나의 웹 플랫폼에서 모든 현황을 확인하세요",
+          "visual": "Thinfilm Agent 웹 화면에 Lot 현황, 장비 현황, FDC 모니터링, DOE 관리 네 개 기능 카드가 나타난다.",
+          "source_voiceover": "Thinfilm Agent로 분산된 정보를 통합했습니다.",
+          "voiceover_idea": "씬필름 에이전트가 분산된 정보를 하나의 웹 플랫폼에 모읍니다."
+        },
+        {
+          "sequence": 3,
+          "heading": "실시간 데이터와 시각화로 더 빠르게, 더 정확하게",
+          "visual": "Lot Trend, Equipment Status, FDC Summary, DOE Result 차트와 최적 조건 탐색 완료 배지가 나타난다.",
+          "source_voiceover": "Summary Chart와 시각화로 핵심 정보를 한눈에.",
+          "voiceover_idea": "실시간 조회와 시각화로 핵심 정보를 한눈에 보고, 최적 조건 탐색을 지원합니다."
+        },
+        {
+          "sequence": 4,
+          "heading": "DOE 결과와 분석을 조직과 함께 공유하세요",
+          "visual": "DOE 결과 업데이트 알림, 분석 리포트 공유 완료, 관계 부서 자동 알림 발송 카드와 Thinfilm Agent Report가 이어진다.",
+          "source_voiceover": "이제, 더 효율적인 업무와 더 스마트한 의사결정이 가능합니다.",
+          "voiceover_idea": "디 오 이 결과와 분석을 함께 공유해, 정보를 조직의 자산으로 쌓아갑니다."
+        }
+      ],
+      "uncertain_text": [],
+      "editorial_notes": ["BEOL Thinfilm은 제목에 포함된 조직/공정 구분이며 별도 팀 표기는 없다.", "차트와 탐색 완료 배지는 설명용 UI로 취급한다.", "원본 이미지에 장면별 초 단위 길이는 없다."]
+    },
+    {
+      "source_file": "concept/1791878315867.png",
+      "title": "C&C Working Board 내 AI Agent 구축",
+      "team": "C&C Tech Design",
+      "owner": "서우석",
+      "owner_role": "TL",
+      "core_message": "C&C 공정·장비 데이터를 Working Board에서 통합 관리하는 AI Agent",
+      "features": ["자연어 기반 데이터 검색", "복합 정보 분석", "C&C Working Board 기반 관리"],
+      "benefits": ["정보 접근성 개선", "데이터 최신성/신뢰성 향상", "분석 결과의 재현성 확보"],
+      "scene_count": 5,
+      "scenes": [
+        {
+          "sequence": 1,
+          "heading": "흩어진 데이터, 번거로운 확인",
+          "visual": "여러 파일과 화면에 공정 데이터, 장비 데이터, 실험 결과, 분석 자료, 참석 자료, 기타 자료가 흩어져 있다.",
+          "source_voiceover": "C&C 공정, 장비 데이터가 여러 파일에 흩어져 있습니다.",
+          "voiceover_idea": "여러 파일에 흩어진 씨앤씨 공정과 장비 데이터."
+        },
+        {
+          "sequence": 2,
+          "heading": "Working Board에 통합 관리",
+          "visual": "C&C Working Board에 공정 데이터, 장비 데이터, 실험/검증 데이터, 보고서, 참고자료 폴더와 AI 안내 캐릭터가 나타난다.",
+          "source_voiceover": "이제 데이터를 Working Board에 등록해 한곳에서 관리합니다.",
+          "voiceover_idea": "이제 워킹 보드에서 데이터를 한곳에 등록하고 관리합니다."
+        },
+        {
+          "sequence": 3,
+          "heading": "자연어로 검색하고, 복합 분석",
+          "visual": "AI 대화로 검색을 요청하면 공정 데이터 검색, 장비 데이터 검색, 복합 정보 분석 완료를 보여주고 분석 결과와 주요 인사이트를 표시한다.",
+          "example_ui_query": "최근 C&C 공정의 이상 이력과 장비 조건을 함께 분석해줘.",
+          "details": ["공정 조건과 장비 이상 이력의 상관관계 확인", "특정 조건에서 발생하는 이상 패턴 분석", "개선이 필요한 영역 도출"],
+          "source_voiceover": "원하는 정보를 자연어로 지시해 데이터 검색과 복합 분석을 수행합니다.",
+          "voiceover_idea": "자연어로 질문하면 관련 정보를 찾고, 공정과 장비 데이터를 함께 분석합니다."
+        },
+        {
+          "sequence": 4,
+          "heading": "결과를 바로 확인하고 활용",
+          "visual": "공정 트렌드 분석, 장비 이상 이력 분석, 주요 분석 결과 표가 보이고 Working Board에 저장 버튼으로 연결한다.",
+          "details": ["공정: 조건별 특성 분석", "장비: 이상 패턴 분석", "결과: 공정·장비 상관관계", "제안: 개선 방향 도출"],
+          "source_voiceover": "분석 결과를 시각적으로 확인하고 Working Board에서 저장해 바로 활용합니다.",
+          "voiceover_idea": "분석 결과를 눈으로 확인하고 저장해, 다음 업무에서도 바로 활용합니다."
+        },
+        {
+          "sequence": 5,
+          "heading": "더 스마트한 C&C 업무 환경",
+          "visual": "반도체 장비 배경에 정보 접근성 개선, 데이터 최신성/신뢰성 향상, 분석 결과의 재현성 확보 카드가 순서대로 나온다.",
+          "source_voiceover": "정보 접근성이 향상되어 더 나은 의사결정을 지원합니다.",
+          "voiceover_idea": "정보 접근성과 데이터 신뢰성을 높이고, 분석 결과의 재현성을 확보합니다."
+        }
+      ],
+      "uncertain_text": [{"location": "scene 1 fourth lower data card", "read_as": "참석 자료", "confidence": "medium", "note": "주요 기능이나 나레이션에는 쓰이지 않는 작은 예시 파일 라벨이다."}],
+      "editorial_notes": ["자연어 예시 질문은 화면 설명용이며 실제 데이터 분석 실행 지시가 아니다.", "원본 이미지에 장면별 초 단위 길이는 없다."]
+    }
+  ]
+}

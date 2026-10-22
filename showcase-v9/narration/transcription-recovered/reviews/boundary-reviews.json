@@ -1,0 +1,76 @@
+{
+  "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+  "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+  "boundaries": [
+    {
+      "after_cut": "task14_cut4",
+      "actual_speech_end_seconds": 289.22,
+      "actual_next_speech_start_seconds": 290.21,
+      "source_boundary_seconds": 289.7,
+      "kind": "REVIEWED_CURRENT_PCM_ASR_LEADING_PAUSE_WITH_LOCAL_ASR_AND_WAVEFORM",
+      "evidence": {
+        "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+        "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+        "regional_asr": "narration/transcription-recovered/reviews/task14-transition.json",
+        "regional_asr_sha256": "21cd4ac9172331f6d48fdbb02a27f8b367489e56e7f79ed76b1ac9694f71b31e",
+        "region_time_offset_seconds": 286,
+        "lexical_observation": "Complete previous phrase and next approved phrase are present; Whisper assigned the inter-phrase pause to the next first word.",
+        "waveform_quiet_seconds": [
+          289.22,
+          290.21
+        ],
+        "threshold_dbfs": -48,
+        "window_seconds": 0.01,
+        "review_scope": "Visual boundary only; these zero-gap ASR spans remain excluded from automatic pause deletion.",
+        "actual_word_times_approximate": true
+      }
+    },
+    {
+      "after_cut": "ending_cut1",
+      "actual_speech_end_seconds": 323.59,
+      "actual_next_speech_start_seconds": 323.7,
+      "source_boundary_seconds": 323.6333333333333,
+      "kind": "REVIEWED_CURRENT_PCM_ASR_LEADING_PAUSE_WITH_LOCAL_ASR_AND_WAVEFORM",
+      "evidence": {
+        "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+        "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+        "regional_asr": "narration/transcription-recovered/ending-original-speed.json",
+        "regional_asr_sha256": "25104e6c2c7966aa318be711aa745cf9a8975d65f15cafc6fa3985ef3702db2d",
+        "region_time_offset_seconds": 321.5,
+        "lexical_observation": "Complete previous phrase and next approved phrase are present; Whisper assigned the inter-phrase pause to the next first word.",
+        "waveform_quiet_seconds": [
+          323.59,
+          323.7
+        ],
+        "threshold_dbfs": -48,
+        "window_seconds": 0.01,
+        "review_scope": "Visual boundary only; these zero-gap ASR spans remain excluded from automatic pause deletion.",
+        "actual_word_times_approximate": true
+      }
+    },
+    {
+      "after_cut": "ending_cut3",
+      "actual_speech_end_seconds": 331.13,
+      "actual_next_speech_start_seconds": 331.52,
+      "source_boundary_seconds": 331.3333333333333,
+      "kind": "REVIEWED_CURRENT_PCM_ASR_LEADING_PAUSE_WITH_LOCAL_ASR_AND_WAVEFORM",
+      "evidence": {
+        "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+        "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+        "regional_asr": "narration/transcription-recovered/ending-original-speed.json",
+        "regional_asr_sha256": "25104e6c2c7966aa318be711aa745cf9a8975d65f15cafc6fa3985ef3702db2d",
+        "region_time_offset_seconds": 321.5,
+        "lexical_observation": "Complete previous phrase and next approved phrase are present; Whisper assigned the inter-phrase pause to the next first word.",
+        "waveform_quiet_seconds": [
+          331.13,
+          331.52
+        ],
+        "threshold_dbfs": -48,
+        "window_seconds": 0.01,
+        "review_scope": "Visual boundary only; these zero-gap ASR spans remain excluded from automatic pause deletion.",
+        "actual_word_times_approximate": true
+      }
+    }
+  ],
+  "scope": "Explicit current-composite reviews of ASR leading-pause attribution. Original ASR and waveform remain unchanged; no audio edits."
+}

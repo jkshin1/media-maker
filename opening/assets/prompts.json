@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "generated_with": "built-in image_gen.imagegen",
+  "generation_date_local": "2026-10-14",
+  "purpose": "Cinematic concept illustration backgrounds for the standalone R&D process AI Fast Track opening; these are not documentary photographs of actual project execution or evidence of functionality/performance.",
+  "constraints": {
+    "text_rendering": "None in assets; Korean and all other titles are rendered separately in source code.",
+    "ui_numbers_charts": "None in assets.",
+    "palette": [
+      "#080808",
+      "#1A1A1F",
+      "#D4AF7C",
+      "#F5D6A6",
+      "#FFB347",
+      "#F2EEE7"
+    ]
+  },
+  "inputs": {
+    "common_rules": "2-RD_AI_Fast_Track_공통_제작_규칙.md",
+    "opening_spec": "3-RD_공정_AI_Fast_Track_오프닝.md",
+    "reference_storyboard": "1-1791939764461.jpg"
+  },
+  "assets": [
+    {
+      "file": "dome.png",
+      "original_generated_path": "/Users/jk/.codex/generated_images/01a137f3-c4be-7540-9077-29d43532898a/exec-d960c623-9b7f-4a0a-b343-dde405fe69a7.png",
+      "sha256": "8cc76d1ef80598e825c04aed49fcc055078fb4ab4f351bb9c258e3511b1249d2",
+      "native_width": 1672,
+      "native_height": 941,
+      "visual_inspection": "Accepted; photographic cinematic texture; no visible text, digits, logos, UI or data plots; black/gold/amber palette and title negative space present.",
+      "prompt": "Use case: ads-marketing.\nAsset type: fullbleed 16:9 landscape cinematic background photograph for a Korean semiconductor R&D opening video; text is composited separately later.\nPrimary request: An extraordinarily photorealistic very dark gently rounded semiconductor-like macro surface, visually recalling a curved globe only through its shape, with a restrained warm gold horizon light.\nScene/backdrop: premium real-material macro studio environment, no outer space.\nSubject: rounded graphite-black polished surface with tiny precision etched rectangular lattice motifs, gently curving down into the foreground, sparse pinpoints of reflected amber light; a low warm golden light crest along the far edge. The surface is an abstract design illustration, not a scientific planetary depiction.\nComposition/framing: extremely wide horizontal 16:9 image. Curving surface occupies the lower half and reaches toward a subtle glow at lower center-left. Top 45 percent and right 35 percent nearly black clean negative space suitable for large later titles. Camera low at grazing angle toward the arc. Cinematic 70 mm close-up feel and depth.\nLighting/mood: premium restrained graphite blacks, one soft amber edge light, warm gold microscopic glints; crisp natural material texture and believable shallow depth of field. Gold is an accent, not a glowing screen.\nColor palette: deep black #080808, dark charcoal #1A1A1F, muted gold #D4AF7C, restrained warm gold #F5D6A6 and amber #FFB347. No blue neon.\nConstraints: Generate no text of any kind, no Korean, no English, no letters, no digits, no logos, no watermark, no UI, no dashboards, no chart, no numbers. No planet network map, no orbit satellites, no stars, no galaxy, no space fantasy, no holograms, no robot, no sci-fi architecture, no illustrated/cartoon texture. Pure plausible cinematic surface material only. Composition must be wide 16:9."
+    },
+    {
+      "file": "wafer.png",
+      "original_generated_path": "/Users/jk/.codex/generated_images/01a137f3-c4be-7540-9077-29d43532898a/exec-3906f14f-1339-4451-bb2e-8f1a7232cd2b.png",
+      "sha256": "f7eecb7a437cd392594caa8761302305807d71f74f182bc7f78127160ece67d4",
+      "native_width": 1672,
+      "native_height": 941,
+      "visual_inspection": "Accepted; photographic cinematic texture; no visible text, digits, logos, UI or data plots; black/gold/amber palette and title negative space present.",
+      "prompt": "Use case: ads-marketing.\nAsset type: fullbleed 16:9 landscape cinematic background photograph for a semiconductor R&D opening video, with separately coded title overlay later.\nPrimary request: A highly realistic semiconductor wafer on a precision instrument chuck, viewed at a close low oblique angle. A plausible mechanical precision measurement head is suspended above the wafer, without showing or implying a particular measurement result or proprietary functionality.\nScene/backdrop: real clean industrial laboratory equipment, graphite-black mechanical framing.\nSubject: circular silicon wafer spanning the left two thirds of the image, neat tightly etched die grid and realistic metallic microtexture with restrained gold reflections; dark realistic wafer chuck and one compact mechanical spindle/head over the wafer at the upper left. Mechanically coherent construction.\nComposition/framing: wide horizontal 16:9, low 3/4 close-up view. Wafer round edge visible prominently at lower left, precision head above it. Right 35 percent nearly black negative space; upper right also dark. Wafer is tack sharp along its central area with gentle depth blur in distant equipment.\nLighting/mood: premium cinematic photographed texture, black gold lighting, a single warm amber grazing light reflecting along the wafer grooves, soft white practical reflection on metal, low-key exposure. Professional and restrained.\nColor palette: deep black #080808, dark charcoal #1A1A1F, muted gold #D4AF7C, restrained warm gold #F5D6A6 and amber #FFB347. Avoid colored rainbow wafers and blue neon.\nConstraints: no monitors, no screens, no UI, no dashboard, no charts, no performance data, no text, no labels, no letters, no digits, no numbers, no logos, no watermark. No invented digital feature, no holograms, no robot. No exaggerated laser beams, glowing circuitry, smoke, fantasy machines. Cinematic illustration of plausible generic R&D equipment, not documentary evidence. Compose full wide 16:9."
+    },
+    {
+      "file": "researcher.png",
+      "original_generated_path": "/Users/jk/.codex/generated_images/01a137f3-c4be-7540-9077-29d43532898a/exec-dc015a95-f14f-44e5-9daf-f014fff0eaec.png",
+      "sha256": "972e6c6084496283def789cad57d4435f16ad82271dee581eb5aaf376001a587",
+      "native_width": 1672,
+      "native_height": 941,
+      "visual_inspection": "Accepted; photographic cinematic texture; no visible text, digits, logos, UI or data plots; black/gold/amber palette and title negative space present.",
+      "prompt": "Use case: ads-marketing.\nAsset type: fullbleed 16:9 landscape cinematic background photograph for a semiconductor R&D opening video, later typography rendered separately in code.\nPrimary request: A realistic cleanroom researcher in profile on the left half of the image, attentively observing plausible out-of-focus semiconductor precision equipment.\nScene/backdrop: modern actual-looking cleanroom interior with a graphite metal instrument enclosure, darkened but believable photographic exposure.\nSubject: one adult East Asian researcher wearing a properly fitted white cleanroom hood, clear safety glasses, white mask and white cleanroom gown, profile facing to the right; thoughtful attentive posture, hands low and not prominently shown, researcher observing equipment. Fine fabric folds, skin and glass texture realistic.\nComposition/framing: wide horizontal 16:9 medium close-up. Person occupies left 42 percent; face in left center looking toward right. Right half is very dark soft cleanroom equipment negative space, with no screen content, no UI and no data. Natural 70 mm editorial photography perspective, shallow depth of field.\nLighting/mood: premium cinematic, soft warm white practical illumination on face and cleanroom fabric, faint amber rim on shoulder and instrument edge, deep blacks toward the right, professional quiet focus. Plausible exposure, premium not theatrical.\nColor palette: deep black #080808, dark charcoal #1A1A1F, restrained muted gold #D4AF7C, warm white #F2EEE7 and tiny amber #FFB347 highlights. Absolutely avoid dominant blue neon or cyan lighting.\nConstraints: no text of any kind, no letters, no digits, no logos, no watermark, no signs, no visible software UI, no dashboard, no chart, no numbers, no hologram, no robot, no science fiction, no exaggerated AI motifs. Do not imply a specific task performance or fabricated feature. Pure photographic cleanroom material illustration, not documentary project proof. Full wide 16:9."
+    }
+  ]
+}

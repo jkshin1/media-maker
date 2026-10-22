@@ -1,0 +1,1 @@
+{"text": " rnb", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 0.48, "text": " rnb", "tokens": [50364, 367, 77, 65, 50400], "temperature": 0.0, "avg_logprob": -0.8837033907572428, "compression_ratio": 0.2727272727272727, "no_speech_prob": 0.6630867123603821, "words": [{"word": " rnb", "start": 0.0, "end": 0.48, "probability": 0.6659828921159109}]}], "language": "ko"}

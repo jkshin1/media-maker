@@ -1,0 +1,47 @@
+{
+  "source_file": "narration/elevenlabs/take.wav",
+  "source_sha256": "c270e4f070017805e52952b40593818eec7ea9c3c11ab0920b482f803cd855d1",
+  "sample_rate": 48000,
+  "channels": 1,
+  "sample_width": 2,
+  "total_samples": 15770880,
+  "duration": 328.56,
+  "expected_first_sentence": "여러 도구에서 필터를 설정하고, 담당자의 경험으로 열화 원인을 분석했습니다.",
+  "expected_last_sentence": "담당자의 검토 범위를 줄이며, 프로비전 확장은 향후 계획입니다.",
+  "expected_plug_clause": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+  "source_script_sha256": "80370a45130be0f7393ba35e4f2b0d78d2a1d1da268224899e5de180e236f232",
+  "regions": [
+    {
+      "file": "take-start-0-10.wav",
+      "source_start": 0,
+      "source_end": 10,
+      "source_start_sample": 0,
+      "source_end_sample": 480000,
+      "sample_count": 480000,
+      "pcm_sha256": "75b9dcc7352f3f779a1ab1044ea05d4334757bcd0e200165ad3ddfa13bb98f3c",
+      "wav_sha256": "60e0059cc6a636001b7c601b9db99ff355989bfe56c7459756235def8c3d2d7d"
+    },
+    {
+      "file": "plug-source-306-321.wav",
+      "source_start": 306,
+      "source_end": 321,
+      "source_start_sample": 14688000,
+      "source_end_sample": 15408000,
+      "sample_count": 720000,
+      "pcm_sha256": "e6c509c8c9a7b24648e8ecde62a36cd2d5ef036bf3c65871ef3273a1f47cc72f",
+      "wav_sha256": "a5d8da4a5e3757609100f128825285b542bfd0a7f9e8b239f6e4a1c50f0b6404"
+    },
+    {
+      "file": "take-end-318-328.56.wav",
+      "source_start": 318,
+      "source_end": 328.56,
+      "source_start_sample": 15264000,
+      "source_end_sample": 15770880,
+      "sample_count": 506880,
+      "pcm_sha256": "bb8b33d02ac36cfdec9658a0c0e99c456278e7895f5a335b07b9e4a1b4a48193",
+      "wav_sha256": "84c2347f21d0aae336478751fa097f0412c736b0485e9ac7d588648a88eefe58"
+    }
+  ],
+  "method": "Exact original PCM sample slices only; no resampling, tempo change, normalization, script edit or external upload. Local small ASR will receive no prompt/hints and no previous-text conditioning.",
+  "created_at_utc": "2026-10-15T09:48:19Z"
+}

@@ -1,0 +1,220 @@
+{
+  "status": "PASS",
+  "output": "out/opening-v3/audio.wav",
+  "sha256": "5ce54014634a39106481c91af22fff427f4a700bebb90c598774b86d188b4054",
+  "metadata": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 2,
+    "samples": 2208000,
+    "duration_seconds": 46.0
+  },
+  "decode": "PASS",
+  "source_master_sha256": "9d7ce1994e34db3f40fd3766464327deea6ed33f00a5f8f078a81717c9239c04",
+  "narration_config_sha256": "5c44c3365f418093fd17b63fa111e7b0aa7d6b2c6965f2b1d3537ad55d5a3757",
+  "manifest_sha256": "d38fc054dea1cc91fab7b0b2b9fc4a1b8d2a7b668b27a45d55ec9988d8508c1f",
+  "single_take": true,
+  "all_nine_sentences_covered": true,
+  "safe_boundaries": 8,
+  "pronunciation_map": {
+    "R&D": "알앤디"
+  },
+  "pronunciation_verification": {
+    "requested_form": "알앤디",
+    "spoken_prompt_occurrences": 3,
+    "display_R_and_D_occurrences_preserved": 3,
+    "unprompted_ASR_canonical_R_and_D_occurrences": 3,
+    "unprompted_ASR_limit": "Whisper can canonicalize the Korean pronunciation 알앤디 as the Latin spelling R&D. The source prompt preserves 알앤디 in all three positions; this revision does not claim a new independent accent comparison."
+  },
+  "first_sentence_revision": {
+    "before": "알앤디 현업에 AI를 더합니다.",
+    "after": "알앤디 업무에 AI를 더합니다.",
+    "actual_ASR": " R&D 업무의 AI를 더합니다.",
+    "업무_present": true,
+    "현업_absent_from_first_sentence": true
+  },
+  "narration_validation_status": "COMPLETE_ASR_COVERAGE_AND_SAFE_PCM_CUTS",
+  "transcript_verification": {
+    "engine": "local OpenAI Whisper small",
+    "external_audio_transfer": false,
+    "all_nine_sentences_covered": true,
+    "last_sentence_present": true,
+    "recognized_text": " R&D 업무의 AI를 더합니다. 더 나은 R&D 공정을 위한 변화가 시작됩니다. 현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다. 현업의 다양한 과제를 해결하기 위한 도전입니다. 현업의 문제를 AI로 해결하는 R&D 공정, AI 패스트 트랙. 서로 다른 현업의 고민에서 12개의 AI 에이전트 과제가 시작됐습니다. 현업의 고민을 해결하기 위해 개발한 다양한 AI 에이전트를 살펴봅니다. 업무 효율을 높이고 데이터 기반의 의사 결정과 새로운 분석을 지원합니다. 지금부터 12개의 AI 에이전트 과제를 소개합니다.",
+    "character_perfect_ASR": false,
+    "spelling_caveats": [],
+    "transcript_sha256": "ef956f5a3d3043bc507fe58242edbc616bc0ab8e81eff43b1b31b40f46f8054a",
+    "limitations": "ASR spelling and word timings are approximate. Unprompted Whisper may canonicalize spoken Korean 알앤디 as R&D. AI, Agent and 12 pronunciation variants are normalized. This is sentence coverage evidence, not a claim of character-perfect ASR."
+  },
+  "clips": [
+    {
+      "id": 1,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 0.12,
+      "planned_end_seconds": 2.542125,
+      "end_seconds": 2.542125
+    },
+    {
+      "id": 2,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 3.18,
+      "planned_end_seconds": 6.586875,
+      "end_seconds": 6.586875
+    },
+    {
+      "id": 3,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 7.25,
+      "planned_end_seconds": 11.483291666666666,
+      "end_seconds": 11.483291666666666
+    },
+    {
+      "id": 4,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 12.3,
+      "planned_end_seconds": 15.51425,
+      "end_seconds": 15.51425
+    },
+    {
+      "id": 5,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 17.04,
+      "planned_end_seconds": 21.741479166666664,
+      "end_seconds": 21.741479166666668
+    },
+    {
+      "id": 6,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 22.25,
+      "planned_end_seconds": 27.2519375,
+      "end_seconds": 27.2519375
+    },
+    {
+      "id": 7,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 28.45,
+      "planned_end_seconds": 33.270583333333335,
+      "end_seconds": 33.270583333333335
+    },
+    {
+      "id": 8,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 35.4,
+      "planned_end_seconds": 40.5375,
+      "end_seconds": 40.5375
+    },
+    {
+      "id": 9,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 42.15,
+      "planned_end_seconds": 45.90258333333333,
+      "end_seconds": 45.90258333333333
+    }
+  ],
+  "narration_loudness_source": {
+    "input_i": "-22.95",
+    "input_tp": "-4.05",
+    "input_lra": "6.40",
+    "input_thresh": "-33.33",
+    "output_i": "-18.21",
+    "output_tp": "-1.80",
+    "output_lra": "5.40",
+    "output_thresh": "-28.58",
+    "normalization_type": "dynamic",
+    "target_offset": "1.21"
+  },
+  "narration_loudness_final": {
+    "input_i": "-17.09",
+    "input_tp": "-1.73",
+    "input_lra": "5.30",
+    "input_thresh": "-27.44",
+    "output_i": "-17.54",
+    "output_tp": "-1.80",
+    "output_lra": "4.70",
+    "output_thresh": "-27.91",
+    "normalization_type": "dynamic",
+    "target_offset": "0.54"
+  },
+  "mix_loudness_final": {
+    "input_i": "-17.14",
+    "input_tp": "-4.95",
+    "input_lra": "5.10",
+    "input_thresh": "-28.12",
+    "output_i": "-17.55",
+    "output_tp": "-4.14",
+    "output_lra": "4.60",
+    "output_thresh": "-28.58",
+    "normalization_type": "dynamic",
+    "target_offset": "0.55"
+  },
+  "bgm": {
+    "title": "Mountains",
+    "artist": "Andrew Ev",
+    "sha256": "a096933b71ff9264dd3b20dcad5c01ef237658e30954f5c5cc8741266098f639",
+    "license": {
+      "name": "Mixkit Stock Music Free License",
+      "commercial_and_noncommercial_video_use": "permitted",
+      "verified_for_this_project": "Free commercial and noncommercial video/educational use in a combined narrated project.",
+      "allowed_examples": [
+        "Educational purposes",
+        "YouTube videos",
+        "Social media video posts",
+        "Online marketing ads",
+        "Podcasts"
+      ],
+      "excluded_media": [
+        "CDs/DVDs",
+        "TV/radio broadcasts",
+        "Video games"
+      ],
+      "other_limits": [
+        "Do not redistribute as a standalone music-only track",
+        "Do not claim ownership or register in a rights management service"
+      ],
+      "proof_file": "narration/bgm/license.html",
+      "proof_sha256": "723e4bd4673eeb125480d8d44c11eb591a0391332838485783c9e9928d487177"
+    },
+    "settings": {
+      "file": "narration/bgm/music.mp3",
+      "title": "Mountains",
+      "artist": "Andrew Ev",
+      "start_seconds": 0,
+      "source_url": "https://mixkit.co/free-stock-music/tag/corporate/?page=2",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "gain": 0.12,
+      "fade_in_seconds": 0.8,
+      "fade_out_seconds": 1.2,
+      "selection": "Restrained introductory portion of the previously licensed instrumental. Quiet bed and narration sidechain ducking."
+    },
+    "sidechain_ducking": {
+      "threshold": 0.015,
+      "ratio": 5,
+      "attack_ms": 20,
+      "release_ms": 320
+    }
+  },
+  "timing_adjustment": {
+    "requested_cut09": [
+      42,
+      45
+    ],
+    "actual_cut09": [
+      42,
+      46
+    ],
+    "reason": "Retains the approved v1 46-second timeline. The final approved sentence requires more than three seconds at natural speed."
+  },
+  "limits": [
+    "Local Whisper sentence coverage and waveform cuts are verified; ASR spelling and timestamps are approximate.",
+    "Creative Studio does not expose saved stability/similarity settings; the default values were used and cannot be independently confirmed.",
+    "This report validates the audio mix only. Final MP4 mux, video stream, playback and visual checks remain separate."
+  ]
+}

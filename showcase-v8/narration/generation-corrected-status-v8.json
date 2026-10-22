@@ -1,0 +1,28 @@
+{
+  "flow_id": "JvheLMDuj2KUVD5RkNY1",
+  "flow_created": false,
+  "url": "https://elevenlabs.io/app/flows/JvheLMDuj2KUVD5RkNY1?mode=switchWorkspace&oobCode=788635b1d9844b43a662b558fbd3ff92",
+  "flow_url": "https://elevenlabs.io/app/flows/JvheLMDuj2KUVD5RkNY1?mode=switchWorkspace&oobCode=788635b1d9844b43a662b558fbd3ff92",
+  "session_id": "OnrY4AG3nvt4QX64lTjY",
+  "generations": [
+    {
+      "id": "OMm5OpG0Hwxz7gZGn4hO",
+      "status": "failed",
+      "model_id": "eleven_v4",
+      "modality": "audio",
+      "prompt": "[warm, calm, clear Korean narration, confident professional presentation, natural steady pacing]\n\n여러 도구에서 필터를 설정하고, 담당자의 경험으로 열화 원인을 분석했습니다.\n\n로트 아이디를 입력하면 맵과 트렌드, 케이 파라미터를 함께 조회합니다.\n\n표준 진단 기준을 적용해 원인 ",
+      "error_message": "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN, or by creating multiple free accounts. Please upgrade to a paid subscription to continue.",
+      "created_at_unix_ms": 1792056945670,
+      "price": {
+        "credits": 2731,
+        "price_cents": 27.31,
+        "cost_fiat_currency": "usd"
+      }
+    }
+  ],
+  "all_completed": false,
+  "has_failures": true,
+  "session_ids": [
+    "OnrY4AG3nvt4QX64lTjY"
+  ]
+}

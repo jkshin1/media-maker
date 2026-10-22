@@ -1,0 +1,16 @@
+{
+  "source_file": "narration/elevenlabs/take.wav",
+  "source_sha256": "248deebef2807c2de8481dea645e471c1f0d4631310a6ea49593430ad27cd0e6",
+  "sample_rate": 48000,
+  "channels": 1,
+  "sample_width": 2,
+  "total_samples": 15690240,
+  "duration": 326.88,
+  "region_start": 306,
+  "region_end": 318,
+  "source_start_sample": 14688000,
+  "source_end_sample": 15264000,
+  "region_pcm_sha256": "833f782ec8bb0497bd90939fd48656229c854af2057a59687557864c5bc893d9",
+  "region_file": "plug-source-306-318.wav",
+  "note": "Exact PCM sample slice; original source unchanged. No ASR hints or prompt will be supplied."
+}

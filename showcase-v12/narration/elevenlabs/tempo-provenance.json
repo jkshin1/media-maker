@@ -1,0 +1,21 @@
+{
+  "speech_tempo_requested": 1.15,
+  "filter": "atempo=1.15",
+  "pitch_cents": 0,
+  "continuous_master_processing": true,
+  "pitch_or_sample_rate_shift_filter": false,
+  "source": "narration/elevenlabs/take.wav",
+  "source_sha256": "c59d79e41a1ca5e1395065900bb5bcaea8e27800a2dda6075c7d3ca51a9a0954",
+  "output": "narration/elevenlabs/take-tempo1.15.wav",
+  "output_sha256": "122e1e385f70cdc5de41f899d643713e356b29b8faf9269047c6746a1a688d74",
+  "output_pcm_sha256": "81ddf2e94aa14abf0f288defd8763fb0584aa6389319f66a5d7ec6f62f5100b3",
+  "source_samples": 15701760,
+  "output_samples": 13653821,
+  "duration_ratio_measured": 1.1499901749114771,
+  "tempo_duration_difference_samples": 116.65217391215265,
+  "authorization": "authorization.json",
+  "authorization_sha256": "18a3457797779f542f5eb6d15bcbbe96f585e31a3d5829c5313e7412323facd2",
+  "scope": "One continuous whole-take tempo-only WSOLA pass, atempo=1.15 at unchanged48000Hz. Time compression changes PCM; bit identity to the original is not claimed. No asetrate or pitchshift filter. Full take completeness failed separately; this diagnostic audio is not adopted.",
+  "adopted_in_final_video": false,
+  "complete_narration": false
+}

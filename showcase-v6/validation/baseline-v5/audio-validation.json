@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "revision": 5,
+  "duration": 307.1333333333333,
+  "sample_rate": 48000,
+  "channels": 2,
+  "samples": 14742400,
+  "audio_sha256": "042b13bfb0f0697aa38cda9b25e0af483132f47b766d62e9aba7bf6ad09de025",
+  "voice": "Kyung - Warm, Calm and Clear",
+  "voice_id": "JQaWvPoEUkcuOTfxFYpJ",
+  "model_id": "eleven_v4",
+  "tempo_ratio": 1.1349368098823,
+  "additional_speed_changes": 0,
+  "new_tts": false,
+  "narration_sha256": "41be0373824f81d0dedcdf1b79502a54dfd390d2eb231207966250e332b03564",
+  "narration_raw_sha256": "5e50fc591b0bd2fee5cb8dab1f619ef283453222112f27ea5a7fe81af999ce1c",
+  "approved_revision4_mix_sha256": "fdb62647842c6abdb5db3da002e37f19725f85a3b80a2e83530115e99b668bde",
+  "bgm_source_sha256": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2",
+  "bgm_loop_sha256": "bce098a5d773f515a800c959884663733ff566de20bcdb96b70a4c6d6f41affa",
+  "bgm_gain": 0.125,
+  "opening_ending_pcm_exact": true,
+  "protected_pcm_ranges_samples": [
+    [
+      0,
+      1872000
+    ],
+    [
+      13828800,
+      14742400
+    ]
+  ],
+  "checks": {
+    "same_48000_stereo_frame_count": true,
+    "opening_pcm_exactly_preserved": true,
+    "ending_pcm_exactly_preserved": true,
+    "normalized_narration_file_byte_identical": true,
+    "raw_narration_all_processed_samples_preserved_once": true,
+    "raw_narration_matches_approved_revision4_hash": true,
+    "music_gain_change_confined_to_body": true,
+    "no_100ms_music_dropout_in_body": true,
+    "no_body_music_near_silence_longer_than_half_second": true,
+    "new_music_duck_floor_at_least_minus_8_1_db": true,
+    "mix_peak_below_original_limiter_ceiling": true,
+    "music_repair_does_not_trigger_shared_limiter": true,
+    "narration_has_six_db_headroom_in_95_percent_of_active_speech_windows": true
+  },
+  "bgm_audit_sha256": "2591c75cfba8c895a8907ca40098488927ac0d959faefb41f8789c28a46847d1",
+  "loop": {
+    "track": "Comprehension / Frank Jonsson",
+    "source_sha256": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2",
+    "source_start_seconds": 39.0,
+    "source_end_seconds": 109.0885,
+    "source_start_sample": 1872000,
+    "period_samples": 3262301,
+    "overlap_samples": 101947,
+    "metadata_bpm": 113,
+    "period_beats": 128,
+    "crossfade_beats": 4,
+    "phrase_basis": "128 beats at source metadata113BPM, a32 four-beat-group cycle; one four-beat equal-power overlap. Corresponding overlap RMS envelopes are measured from the original waveform.",
+    "waveform_overlap_envelope_correlation": 0.7246835847554026,
+    "source_core_rms_dbfs_p05_median_p95": [
+      -23.27348686159678,
+      -10.40997411949064,
+      -7.638684406396744
+    ],
+    "source_core_pcm_sha256": "9aebdc1398146ff218a8768ef6d4de1c9fb6fdaeefaf56b9584f574129cc0d84",
+    "crossfades": [
+      {
+        "start": 106.96460416666666,
+        "end": 109.0885
+      },
+      {
+        "start": 174.92920833333332,
+        "end": 177.05310416666666
+      },
+      {
+        "start": 242.8938125,
+        "end": 245.01770833333333
+      }
+    ],
+    "avoided_original_fade_tail_windows": [
+      [
+        127.6,
+        136.8
+      ],
+      [
+        263.1,
+        272.2
+      ]
+    ],
+    "source_music_speed_changed": false,
+    "crossfade_curve": "equal power, cosine/sine"
+  },
+  "notes": [
+    "Same normalized narration WAV and exact raw voice placement; no atempo or TTS.",
+    "Only the task-body music loop/ducking changes; protected outer audio samples come directly from the approved v4 PCM.",
+    "Both filter inputs have one second zero EOF guard; final duration stays unchanged."
+  ]
+}

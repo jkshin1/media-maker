@@ -1,0 +1,28 @@
+{
+  "flow_id": "ZsRYHcecIoum5f99Hhax",
+  "flow_created": false,
+  "url": "https://elevenlabs.io/app/flows/ZsRYHcecIoum5f99Hhax?mode=switchWorkspace&oobCode=459e5d871de446f781a7506024bb8817",
+  "flow_url": "https://elevenlabs.io/app/flows/ZsRYHcecIoum5f99Hhax?mode=switchWorkspace&oobCode=459e5d871de446f781a7506024bb8817",
+  "session_id": "BdmwDZO0ZnvcHlOqlHBv",
+  "generations": [
+    {
+      "id": "I9BnhvLiTwPnlp4CY2Zs",
+      "status": "failed",
+      "model_id": "eleven_v4",
+      "modality": "audio",
+      "prompt": "[warm, clear, confident Korean presentation, brisk natural speaking pace, concise pauses, consistent energy]\n\n알앤디 현업에 에이아이를 더합니다. 더 나은 알앤디 공정을 위한 변화가 시작됩니다. 현장의 경험과 에이아이 기술이 만나 새로운 해법을 만들어갑니다. 현업의 다양한",
+      "error_message": "This request exceeds your quota of 10000. You have 207 credits remaining, while 2474 credits are required for this request.",
+      "created_at_unix_ms": 1791968080913,
+      "price": {
+        "credits": 2474,
+        "price_cents": 24.740000000000002,
+        "cost_fiat_currency": "usd"
+      }
+    }
+  ],
+  "all_completed": false,
+  "has_failures": true,
+  "session_ids": [
+    "BdmwDZO0ZnvcHlOqlHBv"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "file": "rd-ai-fast-track-opening.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration_seconds": 46,
+  "frames": 1380,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "sample_rate": 48000,
+  "fully_decoded": true,
+  "video_stream_copied_unchanged": true,
+  "video_packet_hash": "SHA256=1fa05d1b65c5a4d981d7ae68e8354c14f4178b2a7b8685e261097a4a08b5a01d",
+  "black_frame_events": [],
+  "layout_issue_count": 0,
+  "sha256": "5c96a95c0f6201d07ca42da8c9b2ca98ca336162997fbd0c859895155c6cbedd",
+  "file_bytes": 13001481,
+  "scope": "Opening only; nine cuts. Final cut extended 42–46 seconds for complete naturally paced narration."
+}

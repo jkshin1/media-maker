@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "mode": "built-in image_gen",
+  "status": "COMPLETE",
+  "assets": [
+    {
+      "task_id": 9,
+      "visual_kind": "tem",
+      "label": "TEM 이미지를 수동 정렬하고 측정하는 작업",
+      "scene": "An extreme close-up of a desktop monitor and the hand of a Korean researcher moving a mouse to manually align a monochrome TEM cross-section image and drag a measurement line. Screen has a realistic grayscale layered semiconductor micrograph, a slanted orientation guide and thin measurement strokes but no legible labels or numbers. A physical notebook with a pencil lies near the hand. Face outside frame. Precise technical measurement work from a low oblique camera angle.",
+      "file": "production/assets/before/task-09.png",
+      "prompt": "Use case: ads-marketing\nAsset type: single square photographic insert for the BEFORE cut of a Korean semiconductor R&D introduction video, 1024x1024 or similar square.\nStyle: photorealistic candid enterprise R&D photography, realistic skin/hands/materials, elegant black-and-warm-gold visual continuity. Believable modern engineering office or analysis lab, charcoal furnishings, muted warm practical light, restrained amber edge light, subtle monitor light, natural shadows.\nComposition: the described work action must remain clearly legible when displayed at 494x500 pixels. One coherent scene, no multi-panel image, no montage. Keep key hands/props within the center 85 percent; no typography required.\nConstraints: no captions, no legible text, no letters, no logos, no readable numbers, no watermark, no artificial sci-fi holograms, no giant floating UI, no comic frustration, no repeated generic man with chin on hand. Show normal professional effort before automation. Human figures are fictional representatives, not portraits of project owners.\nPrimary request: An extreme close-up of a desktop monitor and the hand of a Korean researcher moving a mouse to manually align a monochrome TEM cross-section image and drag a measurement line. Screen has a realistic grayscale layered semiconductor micrograph, a slanted orientation guide and thin measurement strokes but no legible labels or numbers. A physical notebook with a pencil lies near the hand. Face outside frame. Precise technical measurement work from a low oblique camera angle.",
+      "source_output": "/Users/jk/.codex/generated_images/01a1339e-7392-7633-9295-4aeeeca0eec9/exec-35100b65-6627-451b-a85c-fd11d9de6043.png",
+      "visual_review": "PASS: viewed generated image; action/subject/anatomy and task context visible, distinctive composition, no visible readable claims or identifiers.",
+      "sha256": "a62719057fb9bb217fffe1550dc0806734dc26747526e62e4a76338f53e48891",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "task_id": 10,
+      "visual_kind": "portal",
+      "label": "조회와 예약을 여러 시스템에서 맞추는 현장",
+      "scene": "A Korean male lab coordinator, viewed from the front diagonal rather than from behind, actively alternates between a printed reservation calendar on the desk, a laptop with an abstract calendar grid and a second monitor with lot-status cards. One hand holds a pencil over the calendar and the other taps a mouse. Raised eyebrows and pressed lips communicate the difficulty of coordinating separate tools. Medium desk composition, no chin-rest or hand-to-face gesture, unreadable text.",
+      "file": "production/assets/before/task-10.png",
+      "prompt": "Use case: ads-marketing\nAsset type: single square photographic insert for the BEFORE cut of a Korean semiconductor R&D introduction video, 1024x1024 or similar square.\nStyle: photorealistic candid enterprise R&D photography, realistic skin/hands/materials, elegant black-and-warm-gold visual continuity. Believable modern engineering office or analysis lab, charcoal furnishings, muted warm practical light, restrained amber edge light, subtle monitor light, natural shadows.\nComposition: the described work action must remain clearly legible when displayed at 494x500 pixels. One coherent scene, no multi-panel image, no montage. Keep key hands/props within the center 85 percent; no typography required.\nConstraints: no captions, no legible text, no letters, no logos, no readable numbers, no watermark, no artificial sci-fi holograms, no giant floating UI, no comic frustration, no repeated generic man with chin on hand. Show normal professional effort before automation. Human figures are fictional representatives, not portraits of project owners.\nPrimary request: A Korean male lab coordinator, viewed from the front diagonal rather than from behind, actively alternates between a printed reservation calendar on the desk, a laptop with an abstract calendar grid and a second monitor with lot-status cards. One hand holds a pencil over the calendar and the other taps a mouse. Raised eyebrows and pressed lips communicate the difficulty of coordinating separate tools. Medium desk composition, no chin-rest or hand-to-face gesture, unreadable text.",
+      "source_output": "/Users/jk/.codex/generated_images/01a1339e-7392-7633-9295-4aeeeca0eec9/exec-8c2c7a95-55f7-4e29-89f8-5976d12f6f19.png",
+      "visual_review": "PASS: viewed generated image; action/subject/anatomy and task context visible, distinctive composition, no visible readable claims or identifiers.",
+      "sha256": "5987e75d8f4e5cd5304268f14fc0ca3f8f67b1bed04a15bed20b4bcb7efde001",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "task_id": 11,
+      "visual_kind": "overlay",
+      "label": "Overlay 자료를 나란히 대조하는 현장",
+      "scene": "Two Korean photo-process researchers seated side by side at a workbench manually compare separate printed circular wafer vector maps, residual scatter diagrams and trend sheets. A woman holds one transparent map sheet over another while a man points with a pencil to a differing region. Their eyes are on the maps, with engaged scrutiny and uncertain analytical comparison. Tight collaborative composition focused on map overlays and hands, faces only in upper background. No chin-rest pose, no readable text.",
+      "file": "production/assets/before/task-11.png",
+      "prompt": "Use case: ads-marketing\nAsset type: single square photographic insert for the BEFORE cut of a Korean semiconductor R&D introduction video, 1024x1024 or similar square.\nStyle: photorealistic candid enterprise R&D photography, realistic skin/hands/materials, elegant black-and-warm-gold visual continuity. Believable modern engineering office or analysis lab, charcoal furnishings, muted warm practical light, restrained amber edge light, subtle monitor light, natural shadows.\nComposition: the described work action must remain clearly legible when displayed at 494x500 pixels. One coherent scene, no multi-panel image, no montage. Keep key hands/props within the center 85 percent; no typography required.\nConstraints: no captions, no legible text, no letters, no logos, no readable numbers, no watermark, no artificial sci-fi holograms, no giant floating UI, no comic frustration, no repeated generic man with chin on hand. Show normal professional effort before automation. Human figures are fictional representatives, not portraits of project owners.\nPrimary request: Two Korean photo-process researchers seated side by side at a workbench manually compare separate printed circular wafer vector maps, residual scatter diagrams and trend sheets. A woman holds one transparent map sheet over another while a man points with a pencil to a differing region. Their eyes are on the maps, with engaged scrutiny and uncertain analytical comparison. Tight collaborative composition focused on map overlays and hands, faces only in upper background. No chin-rest pose, no readable text.",
+      "source_output": "/Users/jk/.codex/generated_images/01a1339e-7392-7633-9295-4aeeeca0eec9/exec-557ef8b7-f62e-4b70-9f8e-ebfc63e4fb7e.png",
+      "visual_review": "PASS: viewed generated image; action/subject/anatomy and task context visible, distinctive composition, no visible readable claims or identifiers.",
+      "sha256": "9044fbfce6f4da457cb7a6d06470eb807ae28c3cd3c9607d743f99fabefc8ea8",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "task_id": 12,
+      "visual_kind": "plug",
+      "label": "대면적 Plug 이미지를 육안으로 검증하는 작업",
+      "scene": "A close frontal cropped view of only a researcher’s hands performing manual visual review of a large printed semiconductor plug-array image beside a monitor showing the same dense circular grid. One hand holds a magnifying glass over one small region and the other pencil marks a review point on a separate sheet. Visible measuring-line marks and a repeated plug pattern communicate tedious large-area verification. No face shown, detailed tactile lab bench composition, no readable text or numbers.",
+      "file": "production/assets/before/task-12.png",
+      "prompt": "Use case: ads-marketing\nAsset type: single square photographic insert for the BEFORE cut of a Korean semiconductor R&D introduction video, 1024x1024 or similar square.\nStyle: photorealistic candid enterprise R&D photography, realistic skin/hands/materials, elegant black-and-warm-gold visual continuity. Believable modern engineering office or analysis lab, charcoal furnishings, muted warm practical light, restrained amber edge light, subtle monitor light, natural shadows.\nComposition: the described work action must remain clearly legible when displayed at 494x500 pixels. One coherent scene, no multi-panel image, no montage. Keep key hands/props within the center 85 percent; no typography required.\nConstraints: no captions, no legible text, no letters, no logos, no readable numbers, no watermark, no artificial sci-fi holograms, no giant floating UI, no comic frustration, no repeated generic man with chin on hand. Show normal professional effort before automation. Human figures are fictional representatives, not portraits of project owners.\nPrimary request: A close frontal cropped view of only a researcher’s hands performing manual visual review of a large printed semiconductor plug-array image beside a monitor showing the same dense circular grid. One hand holds a magnifying glass over one small region and the other pencil marks a review point on a separate sheet. Visible measuring-line marks and a repeated plug pattern communicate tedious large-area verification. No face shown, detailed tactile lab bench composition, no readable text or numbers.",
+      "source_output": "/Users/jk/.codex/generated_images/01a1339e-7392-7633-9295-4aeeeca0eec9/exec-948f2504-7c25-42ce-9cea-72178e74bd5b.png",
+      "visual_review": "PASS: viewed generated image; action/subject/anatomy and task context visible, distinctive composition, no visible readable claims or identifiers.",
+      "sha256": "6599de6d8deb7cd7c7914f416bcff6ac90a4a2907d69f7640eb8888fe670e9e8",
+      "width": 1254,
+      "height": 1254
+    }
+  ]
+}

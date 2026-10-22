@@ -1,0 +1,8 @@
+{
+  "status": "CONNECTOR_UNAVAILABLE",
+  "checked_after_user_reconnect": true,
+  "voice_lookup_error": "Mcp error -32001: Unknown tool elevenlabs.creative_list_voices",
+  "new_generation_after_reconnect_started": false,
+  "user_authorized_single_new_take_pending": true,
+  "current_take_complete": false
+}

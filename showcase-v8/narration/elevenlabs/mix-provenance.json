@@ -1,0 +1,251 @@
+{
+  "status": "PASS",
+  "revision": 8,
+  "checks": {
+    "all_twelve_exact_master_pcm_slices": true,
+    "all_source_sections_complete": true,
+    "source_tempo_unchanged": true,
+    "opening_pcm_identical": true,
+    "ending_pcm_identical": true,
+    "exact_frame_locked_sample_count": true,
+    "no_100ms_body_music_zero": true,
+    "duck_floor_above_minus_8_1_db": true,
+    "no_mix_clipping": true,
+    "speech_six_db_above_music_95_percent": true
+  },
+  "duration": 406.8333333333333,
+  "sample_rate": 48000,
+  "channels": 2,
+  "samples": 19528000,
+  "audio_file": "audio.wav",
+  "audio_sha256": "19ca3d2c94ae99db6531052145859c3270ab2a1a1a4d0aa53dfda453fe892bd3",
+  "voice": "Kyung - Warm, Calm and Clear",
+  "new_task_narration": true,
+  "tempo": 1,
+  "opening_and_ending_reused": true,
+  "approved_source_sha256": "08a7da25916af4742491b4c0a650c3dc2934e18c389b29491724767e3b7fedfb",
+  "new_master_sha256": "3d064497f531d1486e13730387dfa0511ef9195644bf190c44e957d2afadec99",
+  "normalization": {
+    "target_integrated_lufs": -18.5,
+    "true_peak_db": -3.5,
+    "first_pass": {
+      "input_i": "-26.23",
+      "input_tp": "-7.36",
+      "input_lra": "4.00",
+      "input_thresh": "-36.44",
+      "output_i": "-18.96",
+      "output_tp": "-3.50",
+      "output_lra": "4.40",
+      "output_thresh": "-29.16",
+      "normalization_type": "dynamic",
+      "target_offset": "0.46"
+    },
+    "second_pass": {
+      "input_i": "-26.23",
+      "input_tp": "-7.36",
+      "input_lra": "4.00",
+      "input_thresh": "-36.44",
+      "output_i": "-18.53",
+      "output_tp": "-3.50",
+      "output_lra": "4.30",
+      "output_thresh": "-28.73",
+      "normalization_type": "dynamic",
+      "target_offset": "0.03"
+    }
+  },
+  "bgm": {
+    "source_sha256": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2",
+    "source_track": "Comprehension / Frank Jonsson",
+    "base_gain": 0.125,
+    "same_repaired_loop_policy_as_revision6": true,
+    "source_speed_changed": false,
+    "bpm": 113,
+    "period_beats": 128,
+    "overlap_beats": 4,
+    "crossfades": [
+      {
+        "start": 106.96460416666666,
+        "end": 109.0885
+      },
+      {
+        "start": 174.92920833333332,
+        "end": 177.05310416666666
+      },
+      {
+        "start": 242.8938125,
+        "end": 245.01770833333333
+      },
+      {
+        "start": 310.85841666666664,
+        "end": 312.9823125
+      },
+      {
+        "start": 378.8230208333333,
+        "end": 380.94691666666665
+      }
+    ],
+    "duck_wet_mix": 0.6,
+    "duck_dry_floor": 0.4,
+    "body_boundary_music_blend_seconds": 1.2,
+    "minimum_duck_db": -6.847917614917876,
+    "body_music_rms_dbfs_p05_median_p95": [
+      -47.066411133370686,
+      -34.39411808488856,
+      -29.18172175945266
+    ],
+    "speech_minus_music_db_p05_median_p95": [
+      6.725842604770038,
+      17.115515662198078,
+      29.867726545156092
+    ]
+  },
+  "placements": [
+    {
+      "section_id": "task11",
+      "start_sample": 1968000,
+      "end_sample": 3201840,
+      "source_start_sample": 0,
+      "source_end_sample": 1233840,
+      "exact_master_pcm": true,
+      "file_sha256": "4b2a19bce94d88326770aa9de23003bcfd717c148d134e54494659828a8ef57d"
+    },
+    {
+      "section_id": "task13",
+      "start_sample": 3299200,
+      "end_sample": 4601680,
+      "source_start_sample": 1233840,
+      "source_end_sample": 2536320,
+      "exact_master_pcm": true,
+      "file_sha256": "21977581c3c2be1c60d5d8ad13c3807263f88b00c5076ddcb19ec1678cef0b1d"
+    },
+    {
+      "section_id": "task7",
+      "start_sample": 4699200,
+      "end_sample": 5890560,
+      "source_start_sample": 2536320,
+      "source_end_sample": 3727680,
+      "exact_master_pcm": true,
+      "file_sha256": "6763a94de2a1b5303d367eeeecee80b1f68590dc34a1f6fe2ab5af914c70cc81"
+    },
+    {
+      "section_id": "task17",
+      "start_sample": 5987200,
+      "end_sample": 7419280,
+      "source_start_sample": 3727680,
+      "source_end_sample": 5159760,
+      "exact_master_pcm": true,
+      "file_sha256": "041674efe63ef510feaf0799a7ec1d4d19054fb83eff363c26a955c4e81d69ea"
+    },
+    {
+      "section_id": "task5",
+      "start_sample": 7516800,
+      "end_sample": 8619120,
+      "source_start_sample": 5159760,
+      "source_end_sample": 6262080,
+      "exact_master_pcm": true,
+      "file_sha256": "e976eab75ecfdb95ac6a21bfb7f3b849c693dfa7135f92c839fccacf104f6ab3"
+    },
+    {
+      "section_id": "task9",
+      "start_sample": 8715200,
+      "end_sample": 10120880,
+      "source_start_sample": 6262080,
+      "source_end_sample": 7667760,
+      "exact_master_pcm": true,
+      "file_sha256": "807af5f2c6557dd978921fea8bdf7a7bbb2830318b859e49551d2e550628dbad"
+    },
+    {
+      "section_id": "task4",
+      "start_sample": 10217600,
+      "end_sample": 11267600,
+      "source_start_sample": 7667760,
+      "source_end_sample": 8717760,
+      "exact_master_pcm": true,
+      "file_sha256": "9e7a14d004f955ab53f70d5d8b038621c45b92902c5c2b4ff93c6a1f103ce6ac"
+    },
+    {
+      "section_id": "task12",
+      "start_sample": 11364800,
+      "end_sample": 12846560,
+      "source_start_sample": 8717760,
+      "source_end_sample": 10199520,
+      "exact_master_pcm": true,
+      "file_sha256": "b072d94142532b5b50c27096c693da748554f63eeb97fe6c6bc1c57e50b0fd82"
+    },
+    {
+      "section_id": "task3",
+      "start_sample": 12944000,
+      "end_sample": 14384240,
+      "source_start_sample": 10199520,
+      "source_end_sample": 11639760,
+      "exact_master_pcm": true,
+      "file_sha256": "8af8259ea927c31809dbd500405d8e01b462ea7614ee6a5a6f6c2826dcde664b"
+    },
+    {
+      "section_id": "task8",
+      "start_sample": 14481600,
+      "end_sample": 15617040,
+      "source_start_sample": 11639760,
+      "source_end_sample": 12775200,
+      "exact_master_pcm": true,
+      "file_sha256": "a6b0fe4aebc5ca7352ec0889334aa70717e253028b08a6f1d49a8f71d2d77f78"
+    },
+    {
+      "section_id": "task14",
+      "start_sample": 15713600,
+      "end_sample": 17043200,
+      "source_start_sample": 12775200,
+      "source_end_sample": 14104800,
+      "exact_master_pcm": true,
+      "file_sha256": "b8be6af719a05d4660d8b1c6d91405baa8c16e4de1bd99ac982a880651f63f53"
+    },
+    {
+      "section_id": "task16",
+      "start_sample": 17139200,
+      "end_sample": 18613280,
+      "source_start_sample": 14104800,
+      "source_end_sample": 15578880,
+      "exact_master_pcm": true,
+      "file_sha256": "a879b2f884a5d63b08538e43bcc4bf3cc01dfb771492096c3ff83c90c0f172e6"
+    }
+  ],
+  "scope": "PCM identity and objective envelope checks. Subjective voice, pronunciation and BGM listening acceptance are separate.",
+  "input_bindings": [
+    {
+      "file": "timeline.json",
+      "sha256": "b6b46237812704ad5f65c46f622a6e5accbe81f3fda9d5edec51dbbbb3e6654d"
+    },
+    {
+      "file": "narration/tasks-ko.json",
+      "sha256": "9a70981a7b4ecf808c8efc317e5e91b3651a4b307eea66580b9b9da97046ca72"
+    },
+    {
+      "file": "narration/elevenlabs/manifest.json",
+      "sha256": "0996e57fb27eca92e8d786e0f5d02f921c8012a667c35842c9968ee220fd04f0"
+    },
+    {
+      "file": "narration/elevenlabs/alignment-report.json",
+      "sha256": "306d54baaac01abc4f58e0c0d365acdf70f26c3b3b18c6970bdfa1cbac83ddbc"
+    },
+    {
+      "file": "narration/elevenlabs/take.wav",
+      "sha256": "3d064497f531d1486e13730387dfa0511ef9195644bf190c44e957d2afadec99"
+    },
+    {
+      "file": "assets/bgm/1-ES_Comprehension-Frank-Jonsson-1-.mp3",
+      "sha256": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2"
+    },
+    {
+      "file": "narration/revision5-approved-audio.m4a",
+      "sha256": "08a7da25916af4742491b4c0a650c3dc2934e18c389b29491724767e3b7fedfb"
+    },
+    {
+      "file": "assets/bgm/v6-body-entry-music.wav",
+      "sha256": "3039c2933476d13dc1c263a6824d533be0604ee6b4e2560939ed9ad9fe20e178"
+    },
+    {
+      "file": "assets/bgm/v6-body-exit-music.wav",
+      "sha256": "bb762314a5d6d51231f2518c74f586f4c193162bfbd892c8d5c8fc35b79060f3"
+    }
+  ]
+}

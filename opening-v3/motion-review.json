@@ -1,0 +1,1234 @@
+{
+  "status": "PASS",
+  "method": "Three explicit times in each of nine cuts. Full-frame camera is frozen through __freezeCamera. Actual 1920x1080 canvas pixels are compared; DOM title animation is excluded. Repeat-seek pixels must match exactly.",
+  "scope": "Rendered source motion evidence. This is not final encoded-MP4 playback or subjective audio listening.",
+  "thresholds": {
+    "region": {
+      "left": 0,
+      "top": 0,
+      "width": 1235,
+      "height": 1080
+    },
+    "sampling_stride": 2,
+    "max_rgb_channel_change_exceeds": 10,
+    "min_changed_fraction": 0.002,
+    "rationale": "At least 0.2 percent of sampled left-scene pixels must change by over 10 RGB levels while camera remains fixed; title or caption changes cannot satisfy the gate."
+  },
+  "source_files": [
+    {
+      "file": "index.html",
+      "sha256": "503c095f537636f7fe742a0f690dffccf491d4025f25b7570d5a9d8d1e9d8ed7"
+    },
+    {
+      "file": "scenes.js",
+      "sha256": "4f415380be999395664dbfc5b1ed7f92b64659d3be350c96954bf404ba80ad69"
+    },
+    {
+      "file": "hero-effects.js",
+      "sha256": "3bfe6ac419b38120f64d2090182aa4f61691c2985ea291e2b5fa2d7e2b35a78b"
+    },
+    {
+      "file": "spec-checklist.json",
+      "sha256": "0b39129c94729cc6656920a6dc4960b7b1d4c9e97f9e5d1fdfac3b0644b6c695"
+    }
+  ],
+  "caption_dom": {
+    "forbidden_nodes": 0,
+    "scene_nodes": 9
+  },
+  "all_nine_timeline": true,
+  "arrow_tip_rises_and_progresses": true,
+  "records": [
+    {
+      "cut": 1,
+      "start": 0,
+      "end": 3,
+      "effect": "globe_connections",
+      "frames": [
+        {
+          "local_seconds": 0.65,
+          "time_seconds": 0.65,
+          "file": "../out/opening-v3/motion/cut01_local0.65_camera-frozen.png",
+          "sha256": "eefbf8dc73c47813df128d8f2254a9f9b5b9c6a63632ad3592d374afdd00f369",
+          "state": {
+            "time": 0.65,
+            "cut": 1,
+            "local": 0.65,
+            "background": "cut01.png",
+            "captions": false,
+            "motion": "globe_connections",
+            "progress": 0.18032045717592596,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": null,
+          "against_previous": null,
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 1.5,
+          "time_seconds": 1.5,
+          "file": "../out/opening-v3/motion/cut01_local1.50_camera-frozen.png",
+          "sha256": "8bd6750e94f8df6059900baa294705fa4c0a9daea906baec4a2a084a99207943",
+          "state": {
+            "time": 1.5,
+            "cut": 1,
+            "local": 1.5,
+            "background": "cut01.png",
+            "captions": false,
+            "motion": "globe_connections",
+            "progress": 0.68359375,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 21118,
+            "changed_fraction": 0.06328059451036798,
+            "mean_absolute_rgb_difference": 2.656828079427804,
+            "changed_bounds": {
+              "left": 0,
+              "top": 106,
+              "right": 1234,
+              "bottom": 1038
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 21118,
+            "changed_fraction": 0.06328059451036798,
+            "mean_absolute_rgb_difference": 2.656828079427804,
+            "changed_bounds": {
+              "left": 0,
+              "top": 106,
+              "right": 1234,
+              "bottom": 1038
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 2.65,
+          "time_seconds": 2.65,
+          "file": "../out/opening-v3/motion/cut01_local2.65_camera-frozen.png",
+          "sha256": "c1449ee14ab5101289201d8171550b2d5206d3c6977403db812c0c3271b34493",
+          "state": {
+            "time": 2.65,
+            "cut": 1,
+            "local": 2.65,
+            "background": "cut01.png",
+            "captions": false,
+            "motion": "globe_connections",
+            "progress": 1,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 16516,
+            "changed_fraction": 0.04949059091453913,
+            "mean_absolute_rgb_difference": 2.28412341683647,
+            "changed_bounds": {
+              "left": 0,
+              "top": 106,
+              "right": 1234,
+              "bottom": 1040
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 16091,
+            "changed_fraction": 0.04821706820088697,
+            "mean_absolute_rgb_difference": 1.4551190618882646,
+            "changed_bounds": {
+              "left": 0,
+              "top": 140,
+              "right": 1234,
+              "bottom": 1040
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        }
+      ],
+      "max_changed_fraction_with_camera_frozen": 0.06328059451036798,
+      "non_camera_pixel_change": true,
+      "timeline_and_caption_gate": true,
+      "status": "PASS"
+    },
+    {
+      "cut": 2,
+      "start": 3,
+      "end": 7,
+      "effect": "wafer_scan_orbits",
+      "frames": [
+        {
+          "local_seconds": 0.65,
+          "time_seconds": 3.65,
+          "file": "../out/opening-v3/motion/cut02_local0.65_camera-frozen.png",
+          "sha256": "a03681fc6ff0f16b9e19950a7d55e6f6d081fa51edf64a8cd73b99978c9b665a",
+          "state": {
+            "time": 3.65,
+            "cut": 2,
+            "local": 0.6499999999999999,
+            "background": "cut02.png",
+            "captions": false,
+            "motion": "wafer_scan_orbits",
+            "progress": 0.1803204571759259,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": null,
+          "against_previous": null,
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 2,
+          "time_seconds": 5,
+          "file": "../out/opening-v3/motion/cut02_local2.00_camera-frozen.png",
+          "sha256": "ba8cc38d39d0986b1f2c80c8e2896bd6a7a623c5d917d9bc86398e072c1c5b31",
+          "state": {
+            "time": 5,
+            "cut": 2,
+            "local": 2,
+            "background": "cut02.png",
+            "captions": false,
+            "motion": "wafer_scan_orbits",
+            "progress": 0.925925925925926,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 24875,
+            "changed_fraction": 0.0745385352990531,
+            "mean_absolute_rgb_difference": 2.7303757641135333,
+            "changed_bounds": {
+              "left": 18,
+              "top": 196,
+              "right": 1234,
+              "bottom": 1050
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 24875,
+            "changed_fraction": 0.0745385352990531,
+            "mean_absolute_rgb_difference": 2.7303757641135333,
+            "changed_bounds": {
+              "left": 18,
+              "top": 196,
+              "right": 1234,
+              "bottom": 1050
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 3.65,
+          "time_seconds": 6.65,
+          "file": "../out/opening-v3/motion/cut02_local3.65_camera-frozen.png",
+          "sha256": "9617e0ceb8cd3cad7471368fb12603231766fee2b31294acef6c7f9022adffca",
+          "state": {
+            "time": 6.65,
+            "cut": 2,
+            "local": 3.6500000000000004,
+            "background": "cut02.png",
+            "captions": false,
+            "motion": "wafer_scan_orbits",
+            "progress": 1,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 17044,
+            "changed_fraction": 0.05107275560349994,
+            "mean_absolute_rgb_difference": 1.7490071517039747,
+            "changed_bounds": {
+              "left": 18,
+              "top": 196,
+              "right": 1234,
+              "bottom": 1028
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 15050,
+            "changed_fraction": 0.0450976866834472,
+            "mean_absolute_rgb_difference": 1.4999730312837314,
+            "changed_bounds": {
+              "left": 18,
+              "top": 196,
+              "right": 1234,
+              "bottom": 1050
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        }
+      ],
+      "max_changed_fraction_with_camera_frozen": 0.0745385352990531,
+      "non_camera_pixel_change": true,
+      "timeline_and_caption_gate": true,
+      "status": "PASS"
+    },
+    {
+      "cut": 3,
+      "start": 7,
+      "end": 12,
+      "effect": "human_ai_link_flow",
+      "frames": [
+        {
+          "local_seconds": 0.65,
+          "time_seconds": 7.65,
+          "file": "../out/opening-v3/motion/cut03_local0.65_camera-frozen.png",
+          "sha256": "031230a0725a1fbd0d5ed9c8fe5ab54df812cd746f11d1c1ee68966e9331f5f8",
+          "state": {
+            "time": 7.65,
+            "cut": 3,
+            "local": 0.6500000000000004,
+            "background": "cut03.png",
+            "captions": false,
+            "motion": "human_ai_link_flow",
+            "progress": 0.18032045717592612,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": null,
+          "against_previous": null,
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 2.5,
+          "time_seconds": 9.5,
+          "file": "../out/opening-v3/motion/cut03_local2.50_camera-frozen.png",
+          "sha256": "008451b3a87139db4c737fb416c0f2563c84355bab7f6f6b4e4b9ba941ecef76",
+          "state": {
+            "time": 9.5,
+            "cut": 3,
+            "local": 2.5,
+            "background": "cut03.png",
+            "captions": false,
+            "motion": "human_ai_link_flow",
+            "progress": 1,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 10968,
+            "changed_fraction": 0.032865875584322184,
+            "mean_absolute_rgb_difference": 1.1554836389787713,
+            "changed_bounds": {
+              "left": 0,
+              "top": 300,
+              "right": 1134,
+              "bottom": 1078
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 10968,
+            "changed_fraction": 0.032865875584322184,
+            "mean_absolute_rgb_difference": 1.1554836389787713,
+            "changed_bounds": {
+              "left": 0,
+              "top": 300,
+              "right": 1134,
+              "bottom": 1078
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 4.65,
+          "time_seconds": 11.65,
+          "file": "../out/opening-v3/motion/cut03_local4.65_camera-frozen.png",
+          "sha256": "07381c7192481b9f4bd9f38e745c2a3cdb5ddf3d1412deb34fc1a03ed647a06c",
+          "state": {
+            "time": 11.65,
+            "cut": 3,
+            "local": 4.65,
+            "background": "cut03.png",
+            "captions": false,
+            "motion": "human_ai_link_flow",
+            "progress": 1,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 9269,
+            "changed_fraction": 0.027774781253745655,
+            "mean_absolute_rgb_difference": 1.04382716049381,
+            "changed_bounds": {
+              "left": 0,
+              "top": 296,
+              "right": 1168,
+              "bottom": 1078
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 4315,
+            "changed_fraction": 0.012930001198609613,
+            "mean_absolute_rgb_difference": 0.33591034400096503,
+            "changed_bounds": {
+              "left": 32,
+              "top": 296,
+              "right": 1168,
+              "bottom": 1078
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        }
+      ],
+      "max_changed_fraction_with_camera_frozen": 0.032865875584322184,
+      "non_camera_pixel_change": true,
+      "timeline_and_caption_gate": true,
+      "status": "PASS"
+    },
+    {
+      "cut": 4,
+      "start": 12,
+      "end": 17,
+      "effect": "ascending_s_ribbon",
+      "frames": [
+        {
+          "local_seconds": 0.65,
+          "time_seconds": 12.65,
+          "file": "../out/opening-v3/motion/cut04_local0.65_camera-frozen.png",
+          "sha256": "aaadb2060b7490746f0398c11bbd52107452874c3200e118ea8159b1cd813935",
+          "state": {
+            "time": 12.65,
+            "cut": 4,
+            "local": 0.6500000000000004,
+            "background": "cut04-clean.png",
+            "captions": false,
+            "motion": "ascending_s_ribbon",
+            "progress": 0.07287055149174003,
+            "abstract_frame_count": 6
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": null,
+          "against_previous": null,
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 2.5,
+          "time_seconds": 14.5,
+          "file": "../out/opening-v3/motion/cut04_local2.50_camera-frozen.png",
+          "sha256": "a2aa29534840805aa903c171d897a4fa41f274ddbfc53617a88b2bc24fb8a84f",
+          "state": {
+            "time": 14.5,
+            "cut": 4,
+            "local": 2.5,
+            "background": "cut04-clean.png",
+            "captions": false,
+            "motion": "ascending_s_ribbon",
+            "progress": 0.7858235603895174,
+            "abstract_frame_count": 6
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 35312,
+            "changed_fraction": 0.10581325662231811,
+            "mean_absolute_rgb_difference": 5.111113108793708,
+            "changed_bounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1222,
+              "bottom": 1078
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 35312,
+            "changed_fraction": 0.10581325662231811,
+            "mean_absolute_rgb_difference": 5.111113108793708,
+            "changed_bounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1222,
+              "bottom": 1078
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 4.65,
+          "time_seconds": 16.65,
+          "file": "../out/opening-v3/motion/cut04_local4.65_camera-frozen.png",
+          "sha256": "3b0a65b69ce898f1c0550c6aa097a1f1e2baa6b63f1622252cf5d3ef8dfade6e",
+          "state": {
+            "time": 16.65,
+            "cut": 4,
+            "local": 4.649999999999999,
+            "background": "cut04-clean.png",
+            "captions": false,
+            "motion": "ascending_s_ribbon",
+            "progress": 1,
+            "abstract_frame_count": 6
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 31432,
+            "changed_fraction": 0.09418674337768189,
+            "mean_absolute_rgb_difference": 5.249777258380073,
+            "changed_bounds": {
+              "left": 4,
+              "top": 0,
+              "right": 1222,
+              "bottom": 1078
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 20638,
+            "changed_fraction": 0.06184226297494906,
+            "mean_absolute_rgb_difference": 1.9982769986814628,
+            "changed_bounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1220,
+              "bottom": 1078
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        }
+      ],
+      "max_changed_fraction_with_camera_frozen": 0.10581325662231811,
+      "non_camera_pixel_change": true,
+      "timeline_and_caption_gate": true,
+      "status": "PASS"
+    },
+    {
+      "cut": 5,
+      "start": 17,
+      "end": 22,
+      "effect": "wave_convergence",
+      "frames": [
+        {
+          "local_seconds": 0.65,
+          "time_seconds": 17.65,
+          "file": "../out/opening-v3/motion/cut05_local0.65_camera-frozen.png",
+          "sha256": "20c7858b553bdcde32ff789ac0b86d3f72bd4813a97e43b0de589a07b0070157",
+          "state": {
+            "time": 17.65,
+            "cut": 5,
+            "local": 0.6499999999999986,
+            "background": "cut05.png",
+            "captions": false,
+            "motion": "wave_convergence",
+            "progress": 0.18032045717592524,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": null,
+          "against_previous": null,
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 2.5,
+          "time_seconds": 19.5,
+          "file": "../out/opening-v3/motion/cut05_local2.50_camera-frozen.png",
+          "sha256": "16f052ea4fa53b07493508400ef201f97eaab5e873910a397bf770b7be445c10",
+          "state": {
+            "time": 19.5,
+            "cut": 5,
+            "local": 2.5,
+            "background": "cut05.png",
+            "captions": false,
+            "motion": "wave_convergence",
+            "progress": 1,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 16676,
+            "changed_fraction": 0.049970034759678775,
+            "mean_absolute_rgb_difference": 2.2782781972910184,
+            "changed_bounds": {
+              "left": 0,
+              "top": 2,
+              "right": 1234,
+              "bottom": 1056
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 16676,
+            "changed_fraction": 0.049970034759678775,
+            "mean_absolute_rgb_difference": 2.2782781972910184,
+            "changed_bounds": {
+              "left": 0,
+              "top": 2,
+              "right": 1234,
+              "bottom": 1056
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 4.65,
+          "time_seconds": 21.65,
+          "file": "../out/opening-v3/motion/cut05_local4.65_camera-frozen.png",
+          "sha256": "fc33b16e948b432b4874d5ff205d2e806b97f49eb759b3573be486448401a857",
+          "state": {
+            "time": 21.65,
+            "cut": 5,
+            "local": 4.649999999999999,
+            "background": "cut05.png",
+            "captions": false,
+            "motion": "wave_convergence",
+            "progress": 1,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 18256,
+            "changed_fraction": 0.054704542730432695,
+            "mean_absolute_rgb_difference": 2.3104348955210767,
+            "changed_bounds": {
+              "left": 0,
+              "top": 10,
+              "right": 1234,
+              "bottom": 1056
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 12360,
+            "changed_fraction": 0.037037037037037035,
+            "mean_absolute_rgb_difference": 1.741256142874267,
+            "changed_bounds": {
+              "left": 0,
+              "top": 2,
+              "right": 1234,
+              "bottom": 1040
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        }
+      ],
+      "max_changed_fraction_with_camera_frozen": 0.054704542730432695,
+      "non_camera_pixel_change": true,
+      "timeline_and_caption_gate": true,
+      "status": "PASS"
+    },
+    {
+      "cut": 6,
+      "start": 22,
+      "end": 28,
+      "effect": "twelve_panel_activation",
+      "frames": [
+        {
+          "local_seconds": 0.65,
+          "time_seconds": 22.65,
+          "file": "../out/opening-v3/motion/cut06_local0.65_camera-frozen.png",
+          "sha256": "97de504cee81ec741de61d6f6b994ec859f791c7216e03353603de9c48675ee7",
+          "state": {
+            "time": 22.65,
+            "cut": 6,
+            "local": 0.6499999999999986,
+            "background": "cut06.png",
+            "captions": false,
+            "motion": "twelve_panel_activation",
+            "progress": 0.18032045717592524,
+            "abstract_frame_count": 12
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": null,
+          "against_previous": null,
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 3,
+          "time_seconds": 25,
+          "file": "../out/opening-v3/motion/cut06_local3.00_camera-frozen.png",
+          "sha256": "60c11eb14f05b5f9aa0a5c9d75848fc918eff9ae5394ef9bd6011bd102ba5427",
+          "state": {
+            "time": 25,
+            "cut": 6,
+            "local": 3,
+            "background": "cut06.png",
+            "captions": false,
+            "motion": "twelve_panel_activation",
+            "progress": 1,
+            "abstract_frame_count": 12
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 125028,
+            "changed_fraction": 0.37464940668824165,
+            "mean_absolute_rgb_difference": 18.053069439450503,
+            "changed_bounds": {
+              "left": 0,
+              "top": 36,
+              "right": 1234,
+              "bottom": 1076
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 125028,
+            "changed_fraction": 0.37464940668824165,
+            "mean_absolute_rgb_difference": 18.053069439450503,
+            "changed_bounds": {
+              "left": 0,
+              "top": 36,
+              "right": 1234,
+              "bottom": 1076
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 5.65,
+          "time_seconds": 27.65,
+          "file": "../out/opening-v3/motion/cut06_local5.65_camera-frozen.png",
+          "sha256": "d2444c61fdbdcb025ecc90772d797ebae48aa390fcbbcaff203474015e3013ea",
+          "state": {
+            "time": 27.65,
+            "cut": 6,
+            "local": 5.649999999999999,
+            "background": "cut06.png",
+            "captions": false,
+            "motion": "twelve_panel_activation",
+            "progress": 1,
+            "abstract_frame_count": 12
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 123890,
+            "changed_fraction": 0.37123936233968596,
+            "mean_absolute_rgb_difference": 17.846750769108347,
+            "changed_bounds": {
+              "left": 2,
+              "top": 24,
+              "right": 1234,
+              "bottom": 1076
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 11465,
+            "changed_fraction": 0.03435514802828719,
+            "mean_absolute_rgb_difference": 1.069365535978274,
+            "changed_bounds": {
+              "left": 0,
+              "top": 24,
+              "right": 1234,
+              "bottom": 1076
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        }
+      ],
+      "max_changed_fraction_with_camera_frozen": 0.37464940668824165,
+      "non_camera_pixel_change": true,
+      "timeline_and_caption_gate": true,
+      "status": "PASS"
+    },
+    {
+      "cut": 7,
+      "start": 28,
+      "end": 35,
+      "effect": "ascending_wafer_orbit",
+      "frames": [
+        {
+          "local_seconds": 0.65,
+          "time_seconds": 28.65,
+          "file": "../out/opening-v3/motion/cut07_local0.65_camera-frozen.png",
+          "sha256": "2a9ae191aedecc0aa5fbb001ebb7bc5232d72c65e49eaaf0c170c0356d687624",
+          "state": {
+            "time": 28.65,
+            "cut": 7,
+            "local": 0.6499999999999986,
+            "background": "cut07-clean.png",
+            "captions": false,
+            "motion": "ascending_wafer_orbit",
+            "progress": 0.05646091282839667,
+            "abstract_frame_count": 4
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": null,
+          "against_previous": null,
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 3.5,
+          "time_seconds": 31.5,
+          "file": "../out/opening-v3/motion/cut07_local3.50_camera-frozen.png",
+          "sha256": "4db6156e44e4b244ae795f222bfe5baba0e30390e7b6fa20abc7ec8342639a45",
+          "state": {
+            "time": 31.5,
+            "cut": 7,
+            "local": 3.5,
+            "background": "cut07-clean.png",
+            "captions": false,
+            "motion": "ascending_wafer_orbit",
+            "progress": 0.9508207504882981,
+            "abstract_frame_count": 4
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 52003,
+            "changed_fraction": 0.1558282392424787,
+            "mean_absolute_rgb_difference": 8.263591234168564,
+            "changed_bounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1230,
+              "bottom": 1078
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 52003,
+            "changed_fraction": 0.1558282392424787,
+            "mean_absolute_rgb_difference": 8.263591234168564,
+            "changed_bounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1230,
+              "bottom": 1078
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 6.65,
+          "time_seconds": 34.65,
+          "file": "../out/opening-v3/motion/cut07_local6.65_camera-frozen.png",
+          "sha256": "70ebd067014263cc4f3775cf0f8d6b3f0bb001dce78105ac0a4ccba25d3ad0c5",
+          "state": {
+            "time": 34.65,
+            "cut": 7,
+            "local": 6.649999999999999,
+            "background": "cut07-clean.png",
+            "captions": false,
+            "motion": "ascending_wafer_orbit",
+            "progress": 1,
+            "abstract_frame_count": 4
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 52277,
+            "changed_fraction": 0.15664928682728035,
+            "mean_absolute_rgb_difference": 7.984440049542988,
+            "changed_bounds": {
+              "left": 2,
+              "top": 0,
+              "right": 1230,
+              "bottom": 1078
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 43838,
+            "changed_fraction": 0.13136162052019656,
+            "mean_absolute_rgb_difference": 3.726422350073931,
+            "changed_bounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1224,
+              "bottom": 1078
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        }
+      ],
+      "max_changed_fraction_with_camera_frozen": 0.15664928682728035,
+      "non_camera_pixel_change": true,
+      "timeline_and_caption_gate": true,
+      "status": "PASS"
+    },
+    {
+      "cut": 8,
+      "start": 35,
+      "end": 42,
+      "effect": "rising_hero_arrow",
+      "frames": [
+        {
+          "local_seconds": 0.65,
+          "time_seconds": 35.65,
+          "file": "../out/opening-v3/motion/cut08_local0.65_camera-frozen.png",
+          "sha256": "775a3b9ee172b2aad7baf1b44f8d21ba69f7aa1eef0e2f11e5d1ba96977239b1",
+          "state": {
+            "time": 35.65,
+            "cut": 8,
+            "local": 0.6499999999999986,
+            "background": "cut08-clean.png",
+            "captions": false,
+            "motion": "rising_hero_arrow",
+            "progress": 0.1857142857142853,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": null,
+          "against_previous": null,
+          "deterministic_same_time": true,
+          "hero": {
+            "progress": 0.03576621612266978,
+            "tip": {
+              "x": -15.871383839175406,
+              "y": 845.9677305136428
+            },
+            "arrived": false
+          },
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 3.5,
+          "time_seconds": 38.5,
+          "file": "../out/opening-v3/motion/cut08_local3.50_camera-frozen.png",
+          "sha256": "ad09700fc9b37b28325c2dd5451652acfdf5f8588d48e3e43d60ca776ef4b510",
+          "state": {
+            "time": 38.5,
+            "cut": 8,
+            "local": 3.5,
+            "background": "cut08-clean.png",
+            "captions": false,
+            "motion": "rising_hero_arrow",
+            "progress": 1,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 29861,
+            "changed_fraction": 0.08947920412321707,
+            "mean_absolute_rgb_difference": 6.364229493787445,
+            "changed_bounds": {
+              "left": 0,
+              "top": 106,
+              "right": 1054,
+              "bottom": 962
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 29861,
+            "changed_fraction": 0.08947920412321707,
+            "mean_absolute_rgb_difference": 6.364229493787445,
+            "changed_bounds": {
+              "left": 0,
+              "top": 106,
+              "right": 1054,
+              "bottom": 962
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": {
+            "progress": 0.985794929735142,
+            "tip": {
+              "x": 1010.3328101440363,
+              "y": 135.61105952240482
+            },
+            "arrived": false
+          },
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 6.65,
+          "time_seconds": 41.65,
+          "file": "../out/opening-v3/motion/cut08_local6.65_camera-frozen.png",
+          "sha256": "991973293f53e8b592f969948bf8981e2aa6283a5a32852007484ac27b331927",
+          "state": {
+            "time": 41.65,
+            "cut": 8,
+            "local": 6.649999999999999,
+            "background": "cut08-clean.png",
+            "captions": false,
+            "motion": "rising_hero_arrow",
+            "progress": 1,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 30085,
+            "changed_fraction": 0.09015042550641256,
+            "mean_absolute_rgb_difference": 6.533716888409677,
+            "changed_bounds": {
+              "left": 0,
+              "top": 88,
+              "right": 1062,
+              "bottom": 962
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 6552,
+            "changed_fraction": 0.019633225458468177,
+            "mean_absolute_rgb_difference": 0.9953054456829253,
+            "changed_bounds": {
+              "left": 8,
+              "top": 94,
+              "right": 1056,
+              "bottom": 880
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": {
+            "progress": 1,
+            "tip": {
+              "x": 1020,
+              "y": 116
+            },
+            "arrived": true
+          },
+          "caption_nodes": 0
+        }
+      ],
+      "max_changed_fraction_with_camera_frozen": 0.09015042550641256,
+      "non_camera_pixel_change": true,
+      "timeline_and_caption_gate": true,
+      "status": "PASS"
+    },
+    {
+      "cut": 9,
+      "start": 42,
+      "end": 46,
+      "effect": "wafer_scan_finale",
+      "frames": [
+        {
+          "local_seconds": 0.65,
+          "time_seconds": 42.65,
+          "file": "../out/opening-v3/motion/cut09_local0.65_camera-frozen.png",
+          "sha256": "b71a6bafa944588276d056ab9675e2ba3750520e7b4a798d3ce9ec37183995a9",
+          "state": {
+            "time": 42.65,
+            "cut": 9,
+            "local": 0.6499999999999986,
+            "background": "cut09.png",
+            "captions": false,
+            "motion": "wafer_scan_finale",
+            "progress": 0.18032045717592524,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": null,
+          "against_previous": null,
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 2,
+          "time_seconds": 44,
+          "file": "../out/opening-v3/motion/cut09_local2.00_camera-frozen.png",
+          "sha256": "02498ea395d6a71763cd1baf0a2da3ca0c6897594513e3097b0d8827404c1830",
+          "state": {
+            "time": 44,
+            "cut": 9,
+            "local": 2,
+            "background": "cut09.png",
+            "captions": false,
+            "motion": "wafer_scan_finale",
+            "progress": 0.925925925925926,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 13364,
+            "changed_fraction": 0.04004554716528826,
+            "mean_absolute_rgb_difference": 1.5669543329737616,
+            "changed_bounds": {
+              "left": 0,
+              "top": 90,
+              "right": 1234,
+              "bottom": 1078
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 13364,
+            "changed_fraction": 0.04004554716528826,
+            "mean_absolute_rgb_difference": 1.5669543329737616,
+            "changed_bounds": {
+              "left": 0,
+              "top": 90,
+              "right": 1234,
+              "bottom": 1078
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        },
+        {
+          "local_seconds": 3.65,
+          "time_seconds": 45.65,
+          "file": "../out/opening-v3/motion/cut09_local3.65_camera-frozen.png",
+          "sha256": "e85d2dd73dec410a296ad6c1ce55ef635499a7eb70657e880e4317c50ad703ce",
+          "state": {
+            "time": 45.65,
+            "cut": 9,
+            "local": 3.6499999999999986,
+            "background": "cut09.png",
+            "captions": false,
+            "motion": "wafer_scan_finale",
+            "progress": 1,
+            "abstract_frame_count": 0
+          },
+          "camera_frozen": true,
+          "canvas_width": 1920,
+          "canvas_height": 1080,
+          "against_first": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 8127,
+            "changed_fraction": 0.024352750809061487,
+            "mean_absolute_rgb_difference": 1.0859073474769052,
+            "changed_bounds": {
+              "left": 0,
+              "top": 100,
+              "right": 1234,
+              "bottom": 1078
+            }
+          },
+          "against_previous": {
+            "sampled_pixels": 333720,
+            "changed_pixels": 8849,
+            "changed_fraction": 0.026516241160254105,
+            "mean_absolute_rgb_difference": 0.74682068800192,
+            "changed_bounds": {
+              "left": 0,
+              "top": 90,
+              "right": 1234,
+              "bottom": 1078
+            }
+          },
+          "deterministic_same_time": true,
+          "hero": null,
+          "caption_nodes": 0
+        }
+      ],
+      "max_changed_fraction_with_camera_frozen": 0.04004554716528826,
+      "non_camera_pixel_change": true,
+      "timeline_and_caption_gate": true,
+      "status": "PASS"
+    }
+  ],
+  "page_errors": [],
+  "limits": [
+    "Pixel differences prove local effects remain without global camera movement; photographic object realism and composition require visual inspection.",
+    "Arrow geometry establishes an upward travelling tip; visual samples must also show the rendered head and trail.",
+    "User-visible copy and final narration are verified separately."
+  ],
+  "independent_visual_observations": {
+    "status": "PASS",
+    "reviewed_at": "2026-10-14T13:09:50.459476+09:00",
+    "cut04": "Camera-frozen samples at local 0.65,2.50,4.65 seconds show a short streak entering from the bottom-left, then an S-shaped illuminated path around the wafer, then the completed path rising toward the upper panels. Static ribbons were removed from the clean plate.",
+    "cut07": "Camera-frozen samples at local 0.65,3.50,6.65 seconds show progressive bottom-to-wafer-to-upper-panel ribbon reveal; sparse four-panel scene is preserved.",
+    "cut08": "Camera-frozen samples at local 0.65,3.50,6.65 seconds show a clean initial background followed by an actual metallic arrowhead and revealed trail reaching the upper path, with no static arrow behind it. Head is initially just off the left frame as it enters.",
+    "cut06": "Mid-cut camera-frozen sample shows the researcher in front of the optical ribbon, with silhouette masking intact and all twelve abstract panels countable.",
+    "limits": "Samples are source-canvas evidence, not final encoded playback. Pixel tests prove non-camera optical motion, not rigid motion of photographed hardware or a human. No subjective narration listening performed here.",
+    "actionable_defects": []
+  },
+  "motion_check_script_sha256": "f5ce5332cbc25c81eeab2672172e7b5ce09eb121b12ae547c05bbb5445eba676",
+  "core_hashes_still_match": true
+}

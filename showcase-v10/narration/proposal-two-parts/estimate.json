@@ -1,0 +1,15 @@
+{
+  "status": "ESTIMATE_ONLY_NOT_GENERATED",
+  "flow_id": "pT0QbjTslTFe8z8e9mnn",
+  "node_ids": [
+    "1HvrxaWusuDKXznEPHfz",
+    "a2y4LLFSkGETL5OcTZrT"
+  ],
+  "estimate": {
+    "credits": 2641,
+    "price_cents": 52.82,
+    "generations_count": 1,
+    "currency": "usd",
+    "estimated_runtime_seconds": 5
+  }
+}

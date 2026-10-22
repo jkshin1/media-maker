@@ -1,0 +1,37 @@
+{
+  "flow_id": "UefwAzjaPccptJahUMf1",
+  "node_id": "JuEHsnvsGv2KlUAFXjVY",
+  "session_ids": [
+    "km6ZyvSqrXqjToh8P9XO"
+  ],
+  "voice_id": "JQaWvPoEUkcuOTfxFYpJ",
+  "model_id": "eleven_v4",
+  "generation_mode": "single_take",
+  "generations_count": 1,
+  "generation_id": "nI8IsM21KUQk8YGowffr",
+  "provider_status": "completed",
+  "provider_duration_seconds": 327.12,
+  "provider_price": {
+    "credits": 2474,
+    "price_cents": 49.480000000000004,
+    "cost_fiat_currency": "usd"
+  },
+  "original_file": "narration/elevenlabs/generated-nI8IsM21KUQk8YGowffr.mp3",
+  "original_sha256": "c4fd7a31eb0c4d0138a7b67fe7f3d126ca6a97fd4d02926bffdf58772606f553",
+  "master_file": "narration/elevenlabs/take.wav",
+  "master_sha256": "c59d79e41a1ca5e1395065900bb5bcaea8e27800a2dda6075c7d3ca51a9a0954",
+  "master_pcm_sha256": "9f99decdd41866f96a98c3c0e1d49496e1cf3bf11b003260e9bea22e1cb9872b",
+  "samples": 15701760,
+  "sample_rate": 48000,
+  "channels": 1,
+  "sample_width": 2,
+  "source_seconds": 327.12,
+  "prompt_file": "narration/generated-prompt.txt",
+  "prompt_file_sha256": "feaa7d2c95000ea8a5b0995c12763d8c7b9dd33bb200c112903be188f5e5c010",
+  "requested_prompt_sha256": "351c4ce6a474caf0a8bc290fe0a2796dea6240baff3cca9cff1957895bc0093e",
+  "tone_preview_selected": 4,
+  "tone_generation_id": "jNBpdsn3DW247ttAh5dS",
+  "pitch_or_tempo_applied_to_original": false,
+  "completeness": "PENDING_LOCAL_ASR_AND_WAVEFORM_REVIEW",
+  "settings_limit": "Connected schema exposes voice/language only. No stability, similarity or generation-speed parameter is claimed as applied."
+}

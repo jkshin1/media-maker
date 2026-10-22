@@ -1,0 +1,4 @@
+{
+  "reason": "The final Overlay representative card contains unverified storyboard example Z-score values. MD 11 requires that such values not be presented as actual results. Hide only the score column while preserving map imagery, labels, and layout.",
+  "boxes": [{"x":1572,"y":74,"w":76,"h":176,"start":294.73333333333335,"end":298.73333333333335,"entrance_start":294.85333333333335,"entrance_duration":0.68,"dx":170,"dy":26}]
+}

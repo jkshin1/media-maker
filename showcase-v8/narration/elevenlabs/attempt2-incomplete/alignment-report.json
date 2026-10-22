@@ -1,0 +1,5563 @@
+{
+  "status": "FAIL",
+  "master": "narration/elevenlabs/take.wav",
+  "asr": "narration/transcription-v8-complete/take.json",
+  "master_sha256": "c270e4f070017805e52952b40593818eec7ea9c3c11ab0920b482f803cd855d1",
+  "asr_sha256": "7fe21fb46e6ffaae31f7d8057630e389dedec3e91ef63b6151f97c7a313730f9",
+  "master_duration": 328.56,
+  "normalization": "NFKC, punctuation/spacing removal, saved pronunciation map and documented ASR notation aliases. Original transcript retained.",
+  "expected_chars": 1784,
+  "asr_chars": 1757,
+  "edit_distance": 50,
+  "exact_character_coverage": 0.9725336322869955,
+  "cuts": [
+    {
+      "id": "task11_cut1",
+      "section_id": "task11",
+      "expected": "여러 도구에서 필터를 설정하고, 담당자의 경험으로 열화 원인을 분석했습니다.",
+      "spoken_text": "여러 도구에서 필터를 설정하고, 담당자의 경험으로 열화 원인을 분석했습니다.",
+      "normalized": "여러도구에서필터를설정하고담당자의경험으로열화원인을분석했습니다",
+      "asr_text": "여러 도구에서 필터를 설정하고 담당자의 경험으로 열화 원인을 분석했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 0,
+      "last_word_index": 8,
+      "word_start": 0.0,
+      "word_end": 5.06,
+      "review_required": false
+    },
+    {
+      "id": "task11_cut2",
+      "section_id": "task11",
+      "expected": "Lot ID를 입력하면 Map과 Trend, K-param을 함께 조회합니다.",
+      "spoken_text": "로트 아이디를 입력하면 맵과 트렌드, 케이 파라미터를 함께 조회합니다.",
+      "normalized": "로트아이디를입력하면맵과트렌드케이파라미터를함께조회합니다",
+      "asr_text": "로트 아이디를 입력하면 맵과 트렌드, K -파라미터를 함께 조회합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 9,
+      "last_word_index": 17,
+      "word_start": 5.82,
+      "word_end": 10.56,
+      "review_required": false
+    },
+    {
+      "id": "task11_cut3",
+      "section_id": "task11",
+      "expected": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+      "spoken_text": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+      "normalized": "표준진단기준을적용해원인분석과솔루션검토를지원합니다",
+      "asr_text": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 18,
+      "last_word_index": 26,
+      "word_start": 11.18,
+      "word_end": 15.34,
+      "review_required": false
+    },
+    {
+      "id": "task11_cut4",
+      "section_id": "task11",
+      "expected": "기존 15분에서 1시간이던 분석은, 자료 기준 건당 수분으로 줄었습니다.",
+      "spoken_text": "기존 십오 분에서 한 시간이던 분석은, 자료 기준 건당 수분으로 줄었습니다.",
+      "normalized": "기존십오분에서한시간이던분석은자료기준건당수분으로줄었습니다",
+      "asr_text": "기존 15분에서 1시간이던 분석은 자료 기준 건당 수분으로 줄었습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 27,
+      "last_word_index": 35,
+      "word_start": 15.96,
+      "word_end": 20.68,
+      "review_required": false
+    },
+    {
+      "id": "task11_cut5",
+      "section_id": "task11",
+      "expected": "반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다.",
+      "spoken_text": "반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다.",
+      "normalized": "반복조회와설정을줄이고분석근거를한화면에서확인합니다",
+      "asr_text": "반복 조회와 설정을 줄이고 분석근거를 한 화면에서 확인합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 36,
+      "last_word_index": 43,
+      "word_start": 21.38,
+      "word_end": 25.68,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut1",
+      "section_id": "task13",
+      "expected": "매일 여러 시스템의 장비 이슈와 PM 계획을 모아, 엑셀 정리부터 메일 발송까지 반복했습니다.",
+      "spoken_text": "매일 여러 시스템의 장비 이슈와 피엠 계획을 모아, 엑셀 정리부터 메일 발송까지 반복했습니다.",
+      "normalized": "매일여러시스템의장비이슈와피엠계획을모아엑셀정리부터메일발송까지반복했습니다",
+      "asr_text": "매일 여러 시스템의 장비 이슈와 P .M. 계획을 모아 엑셀 정리부터 매일 발송까지 반복했습니다.",
+      "character_coverage": 0.9210526315789473,
+      "first_word_index": 44,
+      "last_word_index": 57,
+      "word_start": 26.66,
+      "word_end": 32.86,
+      "review_required": true
+    },
+    {
+      "id": "task13_cut2",
+      "section_id": "task13",
+      "expected": "Agent가 장비 이력과 PM 계획을 조회합니다.",
+      "spoken_text": "에이전트가 장비 이력과 피엠 계획을 조회합니다.",
+      "normalized": "에이전트가장비이력과피엠계획을조회합니다",
+      "asr_text": "에이전트가 장비 이력과 P .M. 계획을 조회합니다.",
+      "character_coverage": 0.9,
+      "first_word_index": 58,
+      "last_word_index": 64,
+      "word_start": 33.56,
+      "word_end": 36.58,
+      "review_required": true
+    },
+    {
+      "id": "task13_cut3",
+      "section_id": "task13",
+      "expected": "내용을 요약해 오전 6시에 표준 HTML 보고 메일을 자동 발송합니다.",
+      "spoken_text": "내용을 요약해 오전 여섯 시에 표준 에이치티엠엘 보고 메일을 자동 발송합니다.",
+      "normalized": "내용을요약해오전여섯시에표준에이치티엠엘보고메일을자동발송합니다",
+      "asr_text": "내용을 요약해 오전 6시에 표준 HTML 보고 매일을 자동 발송합니다.",
+      "character_coverage": 0.90625,
+      "first_word_index": 65,
+      "last_word_index": 74,
+      "word_start": 37.26,
+      "word_end": 42.16,
+      "review_required": true
+    },
+    {
+      "id": "task13_cut4",
+      "section_id": "task13",
+      "expected": "자료 기준, 일일 보고 작성은 20분에서 0분으로, 연간 약 122시간을 절감했습니다.",
+      "spoken_text": "자료 기준, 일일 보고 작성은 이십 분에서 영 분으로, 연간 약 백이십이 시간을 절감했습니다.",
+      "normalized": "자료기준일일보고작성은이십분에서영분으로연간약백이십이시간을절감했습니다",
+      "asr_text": "자료 기준 1일 보고 작성은 20분에서 0분으로 연간 약 122시간을 절감했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 75,
+      "last_word_index": 85,
+      "word_start": 42.8,
+      "word_end": 49.2,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut5",
+      "section_id": "task13",
+      "expected": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다.",
+      "spoken_text": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다.",
+      "normalized": "담당자는메일확인과검토장비대응에집중합니다",
+      "asr_text": "담당자는 매일 확인과 검토, 장비 대응에 집중합니다.",
+      "character_coverage": 0.9523809523809523,
+      "first_word_index": 86,
+      "last_word_index": 92,
+      "word_start": 49.9,
+      "word_end": 53.56,
+      "review_required": true
+    },
+    {
+      "id": "task7_cut1",
+      "section_id": "task7",
+      "expected": "HyDisk와 Cube에서 과거 자료를 찾고 전문가에게 물어야 해, 지식이 특정 담당자에게 편중됐습니다.",
+      "spoken_text": "하이디스크와 큐브에서 과거 자료를 찾고 전문가에게 물어야 해, 지식이 특정 담당자에게 편중됐습니다.",
+      "normalized": "하이디스크와큐브에서과거자료를찾고전문가에게물어야해지식이특정담당자에게편중됐습니다",
+      "asr_text": "하이디스크와 큐브에서 과거 자료를 찾고 전문가에게 물어야 해 지식이 특정 담당자에게 편중됐습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 93,
+      "last_word_index": 104,
+      "word_start": 54.56,
+      "word_end": 61.56,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut2",
+      "section_id": "task7",
+      "expected": "평가 목적을 입력하면 내부 지식 아카이브를 검색합니다.",
+      "spoken_text": "평가 목적을 입력하면 내부 지식 아카이브를 검색합니다.",
+      "normalized": "평가목적을입력하면내부지식아카이브를검색합니다",
+      "asr_text": "평가 목적을 입력하면 내부 지식 아카이브를 검색합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 105,
+      "last_word_index": 111,
+      "word_start": 61.98,
+      "word_end": 65.4,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut3",
+      "section_id": "task7",
+      "expected": "관련 Recipe와 근거 자료를 함께 제안합니다.",
+      "spoken_text": "관련 레시피와 근거 자료를 함께 제안합니다.",
+      "normalized": "관련레시피와근거자료를함께제안합니다",
+      "asr_text": "관련 레시피와 근거 자료를 함께 제안합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 112,
+      "last_word_index": 117,
+      "word_start": 65.98,
+      "word_end": 68.66,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut4",
+      "section_id": "task7",
+      "expected": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "spoken_text": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "normalized": "자료탐색과구두문의의존을줄여평가계획수립을지원합니다",
+      "asr_text": "자료 탐색과 구두문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 118,
+      "last_word_index": 126,
+      "word_start": 69.26,
+      "word_end": 73.42,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut5",
+      "section_id": "task7",
+      "expected": "전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+      "spoken_text": "전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+      "normalized": "전문가지식을축적해담당자가바뀌어도활용할수있는기반을마련합니다",
+      "asr_text": "전문가 지식을 축적해 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 127,
+      "last_word_index": 136,
+      "word_start": 74.02,
+      "word_end": 78.74,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut1",
+      "section_id": "task17",
+      "expected": "TEM 이미지를 돌리고 측정선을 그어 값을 기록하면서, 측정자와 이미지 상태에 따른 편차가 생겼습니다.",
+      "spoken_text": "템 이미지를 돌리고 측정선을 그어 값을 기록하면서, 측정자와 이미지 상태에 따른 편차가 생겼습니다.",
+      "normalized": "템이미지를돌리고측정선을그어값을기록하면서측정자와이미지상태에따른편차가생겼습니다",
+      "asr_text": "템 이미지를 돌리고 측정선을 그어 값을 기록하면서 측정자와 이미지 상태에 따른 편차가 생겼습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 137,
+      "last_word_index": 149,
+      "word_start": 79.74,
+      "word_end": 86.58,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut2",
+      "section_id": "task17",
+      "expected": "이미지 기울기와 측정 위치를 분석합니다.",
+      "spoken_text": "이미지 기울기와 측정 위치를 분석합니다.",
+      "normalized": "이미지기울기와측정위치를분석합니다",
+      "asr_text": "이미지 기울기와 측정 위치를 분석합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 150,
+      "last_word_index": 154,
+      "word_start": 87.0,
+      "word_end": 89.62,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut3",
+      "section_id": "task17",
+      "expected": "측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다.",
+      "spoken_text": "측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다.",
+      "normalized": "측정값과좌표측정선오버레이를자동생성하고결과와이력을저장합니다",
+      "asr_text": "측정값과 좌표, 측정선 오버레이를 자동생성하고 결과와 이력을 저장합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 155,
+      "last_word_index": 162,
+      "word_start": 90.22,
+      "word_end": 95.82,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut4",
+      "section_id": "task17",
+      "expected": "자료 기준, 이미지당 측정 시간은 5분에서 6초로 줄었습니다.",
+      "spoken_text": "자료 기준, 이미지당 측정 시간은 오 분에서 육 초로 줄었습니다.",
+      "normalized": "자료기준이미지당측정시간은오분에서육초로줄었습니다",
+      "asr_text": "자료 기준, 이미지당 측정 시간은 5분에서 6초로 줄었습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 163,
+      "last_word_index": 170,
+      "word_start": 96.46,
+      "word_end": 100.42,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut5",
+      "section_id": "task17",
+      "expected": "담당자는 결과 검토와 예외 확인에 집중하며, 새 이미지의 누락·오류 보완과 사람의 최종 검증은 계속 필요합니다.",
+      "spoken_text": "담당자는 결과 검토와 예외 확인에 집중하며, 새 이미지의 누락·오류 보완과 사람의 최종 검증은 계속 필요합니다.",
+      "normalized": "담당자는결과검토와예외확인에집중하며새이미지의누락오류보완과사람의최종검증은계속필요합니다",
+      "asr_text": "담당자는 결과 검토와 예외 확인에 집중하며 새 이미지의 누락, 오류 보안과 사람의 최종 검증은 계속 필요합니다.",
+      "character_coverage": 0.9777777777777777,
+      "first_word_index": 171,
+      "last_word_index": 186,
+      "word_start": 101.1,
+      "word_end": 109.26,
+      "review_required": true
+    },
+    {
+      "id": "task5_cut1",
+      "section_id": "task5",
+      "expected": "자료가 어느 파일에 있는지 찾고, 여러 표를 열어 비교와 복사, 요약을 반복했습니다.",
+      "spoken_text": "자료가 어느 파일에 있는지 찾고, 여러 표를 열어 비교와 복사, 요약을 반복했습니다.",
+      "normalized": "자료가어느파일에있는지찾고여러표를열어비교와복사요약을반복했습니다",
+      "asr_text": "자료가 어느 파일에 있는지 찾고 여러 표를 열어 비교와 복사, 요약을 반복했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 187,
+      "last_word_index": 198,
+      "word_start": 110.26,
+      "word_end": 116.02,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut2",
+      "section_id": "task5",
+      "expected": "데이터를 Working Board에 등록합니다.",
+      "spoken_text": "데이터를 워킹 보드에 등록합니다.",
+      "normalized": "데이터를워킹보드에등록합니다",
+      "asr_text": "데이터를 워킹보드에 등록합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 199,
+      "last_word_index": 201,
+      "word_start": 116.62,
+      "word_end": 118.5,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut3",
+      "section_id": "task5",
+      "expected": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+      "spoken_text": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+      "normalized": "자연어질문으로필요한정보를추출하고여러데이터를교차분석합니다",
+      "asr_text": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 202,
+      "last_word_index": 210,
+      "word_start": 119.14,
+      "word_end": 123.48,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut4",
+      "section_id": "task5",
+      "expected": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "spoken_text": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "normalized": "조회창구를단일화해파일탐색과반복취합부담을줄입니다",
+      "asr_text": "조회 창고를 단일화해 파일 탐색과 반복 취약 부담을 줄입니다.",
+      "character_coverage": 0.92,
+      "first_word_index": 211,
+      "last_word_index": 219,
+      "word_start": 124.1,
+      "word_end": 128.18,
+      "review_required": true
+    },
+    {
+      "id": "task5_cut5",
+      "section_id": "task5",
+      "expected": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "spoken_text": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "normalized": "분석자료와도메인지식을함께관리할수있는기반을마련합니다",
+      "asr_text": "분석 자료와 도매인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "character_coverage": 0.9629629629629629,
+      "first_word_index": 220,
+      "last_word_index": 229,
+      "word_start": 128.82,
+      "word_end": 132.82,
+      "review_required": true
+    },
+    {
+      "id": "task9_cut1",
+      "section_id": "task9",
+      "expected": "Spec out이 생기면 여러 공정의 이력을 조사하고 데이터를 가공해, 연계공정의 이상 여부를 확인했습니다.",
+      "spoken_text": "스펙 아웃이 생기면 여러 공정의 이력을 조사하고 데이터를 가공해, 연계공정의 이상 여부를 확인했습니다.",
+      "normalized": "스펙아웃이생기면여러공정의이력을조사하고데이터를가공해연계공정의이상여부를확인했습니다",
+      "asr_text": "스펙아웃이 생기면 여러 공정의 이력을 조사하고 데이터를 가공해 연계공정의 이상 여부를 확인했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 230,
+      "last_word_index": 241,
+      "word_start": 133.8,
+      "word_end": 140.54,
+      "review_required": false
+    },
+    {
+      "id": "task9_cut2",
+      "section_id": "task9",
+      "expected": "Lot ID와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "spoken_text": "로트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "normalized": "로트아이디와메인공정을입력해데이터수집과통합을연결합니다",
+      "asr_text": "로트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 242,
+      "last_word_index": 250,
+      "word_start": 141.22,
+      "word_end": 145.56,
+      "review_required": false
+    },
+    {
+      "id": "task9_cut3",
+      "section_id": "task9",
+      "expected": "상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다.",
+      "spoken_text": "상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다.",
+      "normalized": "상관관계와이상치를분석하고원인공정후보랭킹과리포트를생성합니다",
+      "asr_text": "상관관계와 이상치를 분석하고 원인공정 후보랭킹과 리포트를 생성합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 251,
+      "last_word_index": 257,
+      "word_start": 146.16,
+      "word_end": 151.46,
+      "review_required": false
+    },
+    {
+      "id": "task9_cut4",
+      "section_id": "task9",
+      "expected": "자료에는 분석 시간이 70퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+      "spoken_text": "자료에는 분석 시간이 칠십 퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+      "normalized": "자료에는분석시간이칠십퍼센트이상단축된것으로기재돼있습니다",
+      "asr_text": "자료에는 분석 시간이 70 % 이상 단축된 것으로 기재돼 있습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 258,
+      "last_word_index": 267,
+      "word_start": 152.06,
+      "word_end": 156.2,
+      "review_required": false
+    },
+    {
+      "id": "task9_cut5",
+      "section_id": "task9",
+      "expected": "분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.",
+      "spoken_text": "분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.",
+      "normalized": "분석절차와기준을일관되게적용하며원인공정은확정원인이아닌후보로검토합니다",
+      "asr_text": "분석 절차와 기준을 일관되게 적용하며 원인공정은 확정 원인이 아닌 후보로 검토합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 268,
+      "last_word_index": 278,
+      "word_start": 156.9,
+      "word_end": 163.02,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut1",
+      "section_id": "task4",
+      "expected": "Lot과 장비, FDC를 따로 조회하고, 개인이 보유한 DOE 결과를 공유하기 어려웠습니다.",
+      "spoken_text": "로트와 장비, 에프디씨를 따로 조회하고, 개인이 보유한 디오이 결과를 공유하기 어려웠습니다.",
+      "normalized": "로트와장비에프디씨를따로조회하고개인이보유한디오이결과를공유하기어려웠습니다",
+      "asr_text": "로트와 장비, FDC를 따로 조회하고 개인이 보유한 DOE 결과를 공유하기 어려웠습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 279,
+      "last_word_index": 289,
+      "word_start": 164.04,
+      "word_end": 170.48,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut2",
+      "section_id": "task4",
+      "expected": "웹 플랫폼에서 현황과 모니터링 Trend를 통합 조회합니다.",
+      "spoken_text": "웹 플랫폼에서 현황과 모니터링 트렌드를 통합 조회합니다.",
+      "normalized": "웹플랫폼에서현황과모니터링트렌드를통합조회합니다",
+      "asr_text": "웹플랫폼에서 현황과 모니터링 트렌드를 통합 조회합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 290,
+      "last_word_index": 295,
+      "word_start": 170.9,
+      "word_end": 174.64,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut3",
+      "section_id": "task4",
+      "expected": "구성원이 DOE 평가 결과를 함께 확인합니다.",
+      "spoken_text": "구성원이 디오이 평가 결과를 함께 확인합니다.",
+      "normalized": "구성원이디오이평가결과를함께확인합니다",
+      "asr_text": "구성원이 DOE 평가 결과를 함께 확인합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 296,
+      "last_word_index": 301,
+      "word_start": 175.24,
+      "word_end": 178.06,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut4",
+      "section_id": "task4",
+      "expected": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+      "spoken_text": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+      "normalized": "시스템이동과데이터가공부담을줄입니다",
+      "asr_text": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 302,
+      "last_word_index": 307,
+      "word_start": 178.7,
+      "word_end": 181.26,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut5",
+      "section_id": "task4",
+      "expected": "개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.",
+      "spoken_text": "개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.",
+      "normalized": "개인의평가결과와분석노하우를조직안에서공유합니다",
+      "asr_text": "개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 308,
+      "last_word_index": 315,
+      "word_start": 181.88,
+      "word_end": 185.5,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut1",
+      "section_id": "task12",
+      "expected": "경비를 엑셀로 집계하고 장비 이력을 개별 확인해, 일부 항목을 경험에 따라 분석했습니다.",
+      "spoken_text": "경비를 엑셀로 집계하고 장비 이력을 개별 확인해, 일부 항목을 경험에 따라 분석했습니다.",
+      "normalized": "경비를엑셀로집계하고장비이력을개별확인해일부항목을경험에따라분석했습니다",
+      "asr_text": "경비를 엑셀로 집계하고 장비 이력을 개별 확인해 일부 항목을 경험에 따라 분석했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 316,
+      "last_word_index": 327,
+      "word_start": 186.54,
+      "word_end": 192.4,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut2",
+      "section_id": "task12",
+      "expected": "경비와 장비 이력을 연결하고 22개 판단 지표를 추가했습니다.",
+      "spoken_text": "경비와 장비 이력을 연결하고 스물두 개 판단 지표를 추가했습니다.",
+      "normalized": "경비와장비이력을연결하고스물두개판단지표를추가했습니다",
+      "asr_text": "경비와 장비 이력을 연결하고 22개 판단 지표를 추가했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 328,
+      "last_word_index": 335,
+      "word_start": 193.08,
+      "word_end": 197.28,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut3",
+      "section_id": "task12",
+      "expected": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다.",
+      "spoken_text": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다.",
+      "normalized": "비용증가원인과절감검토후보를분석하고실행가능성을함께살핍니다",
+      "asr_text": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살펩니다.",
+      "character_coverage": 0.9666666666666667,
+      "first_word_index": 336,
+      "last_word_index": 346,
+      "word_start": 197.88,
+      "word_end": 203.22,
+      "review_required": true
+    },
+    {
+      "id": "task12_cut4",
+      "section_id": "task12",
+      "expected": "자료에는 분석 시간 80퍼센트 이상 단축으로 기재됐지만, 지표와 결과의 실효성은 검증 중입니다.",
+      "spoken_text": "자료에는 분석 시간 팔십 퍼센트 이상 단축으로 기재됐지만, 지표와 결과의 실효성은 검증 중입니다.",
+      "normalized": "자료에는분석시간팔십퍼센트이상단축으로기재됐지만지표와결과의실효성은검증중입니다",
+      "asr_text": "자료에는 분석 시간 80 % 이상 단축으로 기재됐지만 지표와 결과의 실효성은 검증 중입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 347,
+      "last_word_index": 359,
+      "word_start": 203.86,
+      "word_end": 210.46,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut5",
+      "section_id": "task12",
+      "expected": "비용 금액에 머물지 않고 판단 근거를 넓히되, 절감 검토 후보와 확정 절감 실적을 구분합니다.",
+      "spoken_text": "비용 금액에 머물지 않고 판단 근거를 넓히되, 절감 검토 후보와 확정 절감 실적을 구분합니다.",
+      "normalized": "비용금액에머물지않고판단근거를넓히되절감검토후보와확정절감실적을구분합니다",
+      "asr_text": "비용 금액에 머물지 않고 판단 근거를 넓히되 절감 검토 후보와 확정 절감 실적을 구분합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 360,
+      "last_word_index": 373,
+      "word_start": 211.02,
+      "word_end": 217.5,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut1",
+      "section_id": "task3",
+      "expected": "Lot 하나를 해석하려고 공정 이력과 Inline, 장비와 FDC, 연계공정 정보를 각각 조사하고 정리했습니다.",
+      "spoken_text": "로트 하나를 해석하려고 공정 이력과 인라인, 장비와 에프디씨, 연계공정 정보를 각각 조사하고 정리했습니다.",
+      "normalized": "로트하나를해석하려고공정이력과인라인장비와에프디씨연계공정정보를각각조사하고정리했습니다",
+      "asr_text": "로트 하나를 해석하려고 공정 이력과 인라인, 장비와 FDC, 연계공정 정보를 각각 조사하고 정리했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 374,
+      "last_word_index": 386,
+      "word_start": 218.56,
+      "word_end": 226.56,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut2",
+      "section_id": "task3",
+      "expected": "앱에서 Lot과 장비 이력, Inline 데이터를 조회하고 추출합니다.",
+      "spoken_text": "앱에서 로트와 장비 이력, 인라인 데이터를 조회하고 추출합니다.",
+      "normalized": "앱에서로트와장비이력인라인데이터를조회하고추출합니다",
+      "asr_text": "앱에서 로트와 장비 이력, 인라인 데이터를 조회하고 추출합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 387,
+      "last_word_index": 394,
+      "word_start": 227.18,
+      "word_end": 231.34,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut3",
+      "section_id": "task3",
+      "expected": "Lot 간 공정 수순과 장비, Recipe 차이를 비교합니다.",
+      "spoken_text": "로트 간 공정 수순과 장비, 레시피 차이를 비교합니다.",
+      "normalized": "로트간공정수순과장비레시피차이를비교합니다",
+      "asr_text": "로트 간 공정 수순과 장비, 레시피 차이를 비교합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 395,
+      "last_word_index": 402,
+      "word_start": 231.92,
+      "word_end": 235.68,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut4",
+      "section_id": "task3",
+      "expected": "자료 기준, Lot 한 건 분석은 약 2시간 40분에서 20분 이내로 줄었습니다.",
+      "spoken_text": "자료 기준, 로트 한 건 분석은 약 두 시간 사십 분에서 이십 분 이내로 줄었습니다.",
+      "normalized": "자료기준로트한건분석은약두시간사십분에서이십분이내로줄었습니다",
+      "asr_text": "자료 기준, 로트 한 건 분석은 약 2시간 40분에서 20분 이내로 줄었습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 403,
+      "last_word_index": 414,
+      "word_start": 236.32,
+      "word_end": 241.64,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut5",
+      "section_id": "task3",
+      "expected": "공정 결과 해석에 집중하며, 자동 보고와 고도화된 연구 지원 Agent는 추가 개발 계획입니다.",
+      "spoken_text": "공정 결과 해석에 집중하며, 자동 보고와 고도화된 연구 지원 에이전트는 추가 개발 계획입니다.",
+      "normalized": "공정결과해석에집중하며자동보고와고도화된연구지원에이전트는추가개발계획입니다",
+      "asr_text": "공정 결과 해석에 집중하며 자동 보고와 고도화된 연구 지원 에이전트는 추가 개발 계획입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 415,
+      "last_word_index": 427,
+      "word_start": 242.3,
+      "word_end": 248.46,
+      "review_required": false
+    },
+    {
+      "id": "task8_cut1",
+      "section_id": "task8",
+      "expected": "Smart Factory별 조회와 엑셀 가공·시각화에 주당 한 시간 이상을 쓰고 있었습니다.",
+      "spoken_text": "스마트 팩토리별 조회와 엑셀 가공·시각화에 주당 한 시간 이상을 쓰고 있었습니다.",
+      "normalized": "스마트팩토리별조회와엑셀가공시각화에주당한시간이상을쓰고있었습니다",
+      "asr_text": "스마트 팩토리별 조회와 엑셀 가공 시각화에 주당 1시간 이상을 쓰고 있었습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 428,
+      "last_word_index": 438,
+      "word_start": 249.36,
+      "word_end": 254.94,
+      "review_required": false
+    },
+    {
+      "id": "task8_cut2",
+      "section_id": "task8",
+      "expected": "필요한 공정 데이터를 자연어로 조회합니다.",
+      "spoken_text": "필요한 공정 데이터를 자연어로 조회합니다.",
+      "normalized": "필요한공정데이터를자연어로조회합니다",
+      "asr_text": "필요한 공정 데이터를 자연어로 조회합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 439,
+      "last_word_index": 443,
+      "word_start": 255.32,
+      "word_end": 257.94,
+      "review_required": false
+    },
+    {
+      "id": "task8_cut3",
+      "section_id": "task8",
+      "expected": "Wafer Map과 그래프로 시각화해 수동 가공을 간소화합니다.",
+      "spoken_text": "웨이퍼 맵과 그래프로 시각화해 수동 가공을 간소화합니다.",
+      "normalized": "웨이퍼맵과그래프로시각화해수동가공을간소화합니다",
+      "asr_text": "웨이퍼맵과 그래프로 시각화에 수동 가공을 간소화합니다.",
+      "character_coverage": 0.9583333333333334,
+      "first_word_index": 444,
+      "last_word_index": 449,
+      "word_start": 258.54,
+      "word_end": 262.18,
+      "review_required": true
+    },
+    {
+      "id": "task8_cut4",
+      "section_id": "task8",
+      "expected": "자료에는 업무 시간이 40퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+      "spoken_text": "자료에는 업무 시간이 사십 퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+      "normalized": "자료에는업무시간이사십퍼센트이상단축된것으로기재돼있습니다",
+      "asr_text": "자료에는 업무 시간이 40 % 이상 단축된 것으로 기재돼 있습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 450,
+      "last_word_index": 459,
+      "word_start": 262.78,
+      "word_end": 267.0,
+      "review_required": false
+    },
+    {
+      "id": "task8_cut5",
+      "section_id": "task8",
+      "expected": "공정과 장비 간 협업을 돕고, 챗봇 자동 알림과 Reporting은 향후 계획입니다.",
+      "spoken_text": "공정과 장비 간 협업을 돕고, 챗봇 자동 알림과 리포팅은 향후 계획입니다.",
+      "normalized": "공정과장비간협업을돕고챗봇자동알림과리포팅은향후계획입니다",
+      "asr_text": "공정과 장비 간 협업을 돕고 체보 자동 알림과 리포팅은 향후 계획입니다.",
+      "character_coverage": 0.9310344827586207,
+      "first_word_index": 460,
+      "last_word_index": 470,
+      "word_start": 267.7,
+      "word_end": 272.92,
+      "review_required": true
+    },
+    {
+      "id": "task14_cut1",
+      "section_id": "task14",
+      "expected": "다섯 개 이상 시스템에서 Lot과 장비, TEM을 확인하고 보고와 주말 근무자 정보를 따로 모았습니다.",
+      "spoken_text": "다섯 개 이상 시스템에서 로트와 장비, 템을 확인하고 보고와 주말 근무자 정보를 따로 모았습니다.",
+      "normalized": "다섯개이상시스템에서로트와장비템을확인하고보고와주말근무자정보를따로모았습니다",
+      "asr_text": "5개 이상 시스템에서 로트와 장비, 템을 확인하고 보고와 주말 근무자 정보를 따로 모았습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 471,
+      "last_word_index": 483,
+      "word_start": 273.88,
+      "word_end": 280.52,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut2",
+      "section_id": "task14",
+      "expected": "하나의 앱에서 Lot과 장비 상태, TEM 쿼터와 의뢰 현황을 통합 조회합니다.",
+      "spoken_text": "하나의 앱에서 로트와 장비 상태, 템 쿼터와 의뢰 현황을 통합 조회합니다.",
+      "normalized": "하나의앱에서로트와장비상태템쿼터와의뢰현황을통합조회합니다",
+      "asr_text": "하나의 앱에서 로트와 장비 상태, 템쿼터와 의뢰 현황을 통합 조회합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 484,
+      "last_word_index": 493,
+      "word_start": 281.18,
+      "word_end": 286.48,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut3",
+      "section_id": "task14",
+      "expected": "Daily와 Weekly Report, 주말 근무자 안내를 자동화합니다.",
+      "spoken_text": "데일리와 위클리 리포트, 주말 근무자 안내를 자동화합니다.",
+      "normalized": "데일리와위클리리포트주말근무자안내를자동화합니다",
+      "asr_text": "데일리와 위클리 리포트, 주말 근무자 안내를 자동화합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 494,
+      "last_word_index": 500,
+      "word_start": 287.02,
+      "word_end": 290.68,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut4",
+      "section_id": "task14",
+      "expected": "자료에는 업무 시간이 90퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+      "spoken_text": "자료에는 업무 시간이 구십 퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+      "normalized": "자료에는업무시간이구십퍼센트이상단축된것으로기재돼있습니다",
+      "asr_text": "자료에는 업무 시간이 90 % 이상 단축된 것으로 기재돼 있습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 501,
+      "last_word_index": 510,
+      "word_start": 291.26,
+      "word_end": 295.46,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut5",
+      "section_id": "task14",
+      "expected": "반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+      "spoken_text": "반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+      "normalized": "반복조회와취합보고부담을줄이고축적된데이터를분석에활용합니다",
+      "asr_text": "단복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+      "character_coverage": 0.9666666666666667,
+      "first_word_index": 511,
+      "last_word_index": 520,
+      "word_start": 296.16,
+      "word_end": 301.32,
+      "review_required": true
+    },
+    {
+      "id": "task16_cut1",
+      "section_id": "task16",
+      "expected": "대량의 데이터를 내려받아 가공하고 오계측을 육안 검토하면서, 시간과 판정 편차가 발생했습니다.",
+      "spoken_text": "대량의 데이터를 내려받아 가공하고 오계측을 육안 검토하면서, 시간과 판정 편차가 발생했습니다.",
+      "normalized": "대량의데이터를내려받아가공하고오계측을육안검토하면서시간과판정편차가발생했습니다",
+      "asr_text": "대량의 데이터를 내려받아 가공하고 5개 측을 유관 검토하면서 시간과 판정 편차가 발생했습니다.",
+      "character_coverage": 0.9,
+      "first_word_index": 521,
+      "last_word_index": 532,
+      "word_start": 302.28,
+      "word_end": 308.88,
+      "review_required": true
+    },
+    {
+      "id": "task16_cut2",
+      "section_id": "task16",
+      "expected": "계측 데이터의 수집과 전처리, 적재를 자동화합니다.",
+      "spoken_text": "계측 데이터의 수집과 전처리, 적재를 자동화합니다.",
+      "normalized": "계측데이터의수집과전처리적재를자동화합니다",
+      "asr_text": "계측 데이터의 수집과 전 처리, 적재를 자동화합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 533,
+      "last_word_index": 539,
+      "word_start": 309.46,
+      "word_end": 313.0,
+      "review_required": false
+    },
+    {
+      "id": "task16_cut3",
+      "section_id": "task16",
+      "expected": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+      "spoken_text": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+      "normalized": "이미지기반오계측후보탐지와대시보드자연어분석을제공합니다",
+      "asr_text": "이",
+      "character_coverage": 0.03571428571428571,
+      "first_word_index": 540,
+      "last_word_index": 540,
+      "word_start": 313.54,
+      "word_end": 313.64,
+      "review_required": true
+    },
+    {
+      "id": "task16_cut4",
+      "section_id": "task16",
+      "expected": "자료상 수집 시간은 1200초에서 75초로, 단일 층 검증의 리뷰 대상은 317건에서 19건으로 줄었습니다.",
+      "spoken_text": "자료상 수집 시간은 천이백 초에서 칠십오 초로, 단일 층 검증의 리뷰 대상은 삼백십칠 건에서 십구 건으로 줄었습니다.",
+      "normalized": "자료상수집시간은천이백초에서칠십오초로단일층검증의리뷰대상은삼백십칠건에서십구건으로줄었습니다",
+      "asr_text": "자료상 수집 시간은 1200초에서 75초로 단일층 검증의 리뷰 대상은 317건에서 19건으로 줄었습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 541,
+      "last_word_index": 552,
+      "word_start": 313.64,
+      "word_end": 322.88,
+      "review_required": false
+    },
+    {
+      "id": "task16_cut5",
+      "section_id": "task16",
+      "expected": "담당자의 검토 범위를 줄이며, PROvision 확장은 향후 계획입니다.",
+      "spoken_text": "담당자의 검토 범위를 줄이며, 프로비전 확장은 향후 계획입니다.",
+      "normalized": "담당자의검토범위를줄이며프로비전확장은향후계획입니다",
+      "asr_text": "담당자의 검토 범위를 줄이며 프로비전 확장은 향후 계획입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 553,
+      "last_word_index": 560,
+      "word_start": 323.8,
+      "word_end": 328.14,
+      "review_required": false
+    }
+  ],
+  "edit_count": 50,
+  "edits": [
+    {
+      "kind": "substitution",
+      "expected_index": 156,
+      "actual_index": 156,
+      "expected": "피",
+      "actual": "p"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 157,
+      "actual_index": 157,
+      "expected": "엠",
+      "actual": "m"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 169,
+      "actual_index": 169,
+      "expected": "메",
+      "actual": "매"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 191,
+      "actual_index": 191,
+      "expected": "피",
+      "actual": "p"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 192,
+      "actual_index": 192,
+      "expected": "엠",
+      "actual": "m"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 209,
+      "actual_index": 209,
+      "expected": "여"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 210,
+      "actual_index": 209,
+      "expected": "섯",
+      "actual": "6"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 223,
+      "actual_index": 222,
+      "expected": "메",
+      "actual": "매"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 273,
+      "actual_index": 272,
+      "expected": "메",
+      "actual": "매"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 572,
+      "actual_index": 571,
+      "expected": "완",
+      "actual": "안"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 669,
+      "actual_index": 668,
+      "expected": "구",
+      "actual": "고"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 683,
+      "actual_index": 682,
+      "expected": "합",
+      "actual": "약"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 697,
+      "actual_index": 696,
+      "expected": "메",
+      "actual": "매"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1098,
+      "actual_index": 1097,
+      "expected": "핍",
+      "actual": "펩"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1401,
+      "actual_index": 1400,
+      "expected": "해",
+      "actual": "에"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1453,
+      "actual_index": 1452,
+      "expected": "챗",
+      "actual": "체"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1454,
+      "actual_index": 1453,
+      "expected": "봇",
+      "actual": "보"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1592,
+      "actual_index": 1591,
+      "expected": "반",
+      "actual": "단"
+    },
+    {
+      "kind": "insertion",
+      "expected_index": 1637,
+      "actual_index": 1636,
+      "actual": "다"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1637,
+      "actual_index": 1637,
+      "expected": "오",
+      "actual": "섯"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1638,
+      "actual_index": 1638,
+      "expected": "계",
+      "actual": "개"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1641,
+      "actual_index": 1641,
+      "expected": "육",
+      "actual": "유"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1642,
+      "actual_index": 1642,
+      "expected": "안",
+      "actual": "관"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1684,
+      "actual_index": 1684,
+      "expected": "미"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1685,
+      "actual_index": 1684,
+      "expected": "지"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1686,
+      "actual_index": 1684,
+      "expected": "기"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1687,
+      "actual_index": 1684,
+      "expected": "반"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1688,
+      "actual_index": 1684,
+      "expected": "오"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1689,
+      "actual_index": 1684,
+      "expected": "계"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1690,
+      "actual_index": 1684,
+      "expected": "측"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1691,
+      "actual_index": 1684,
+      "expected": "후"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1692,
+      "actual_index": 1684,
+      "expected": "보"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1693,
+      "actual_index": 1684,
+      "expected": "탐"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1694,
+      "actual_index": 1684,
+      "expected": "지"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1695,
+      "actual_index": 1684,
+      "expected": "와"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1696,
+      "actual_index": 1684,
+      "expected": "대"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1697,
+      "actual_index": 1684,
+      "expected": "시"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1698,
+      "actual_index": 1684,
+      "expected": "보"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1699,
+      "actual_index": 1684,
+      "expected": "드"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1700,
+      "actual_index": 1684,
+      "expected": "자"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1701,
+      "actual_index": 1684,
+      "expected": "연"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1702,
+      "actual_index": 1684,
+      "expected": "어"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1703,
+      "actual_index": 1684,
+      "expected": "분"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1704,
+      "actual_index": 1684,
+      "expected": "석"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1705,
+      "actual_index": 1684,
+      "expected": "을"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1706,
+      "actual_index": 1684,
+      "expected": "제"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1707,
+      "actual_index": 1684,
+      "expected": "공"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1708,
+      "actual_index": 1684,
+      "expected": "합"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1709,
+      "actual_index": 1684,
+      "expected": "니"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1710,
+      "actual_index": 1684,
+      "expected": "다"
+    }
+  ],
+  "waveform_silence_regions": [
+    [
+      0.3,
+      0.34
+    ],
+    [
+      0.43,
+      0.49
+    ],
+    [
+      0.7000000000000001,
+      0.74
+    ],
+    [
+      0.84,
+      0.93
+    ],
+    [
+      1.07,
+      1.1300000000000001
+    ],
+    [
+      1.35,
+      1.41
+    ],
+    [
+      1.52,
+      1.57
+    ],
+    [
+      1.83,
+      1.9100000000000001
+    ],
+    [
+      2.13,
+      2.34
+    ],
+    [
+      2.71,
+      2.74
+    ],
+    [
+      2.91,
+      2.99
+    ],
+    [
+      3.34,
+      3.37
+    ],
+    [
+      3.85,
+      3.88
+    ],
+    [
+      4.42,
+      4.51
+    ],
+    [
+      4.69,
+      4.7700000000000005
+    ],
+    [
+      4.82,
+      4.94
+    ],
+    [
+      5.08,
+      5.13
+    ],
+    [
+      5.24,
+      5.2700000000000005
+    ],
+    [
+      5.28,
+      5.86
+    ],
+    [
+      5.98,
+      6.0600000000000005
+    ],
+    [
+      6.33,
+      6.37
+    ],
+    [
+      6.8,
+      6.87
+    ],
+    [
+      6.88,
+      6.91
+    ],
+    [
+      7.55,
+      7.76
+    ],
+    [
+      7.92,
+      8.01
+    ],
+    [
+      8.02,
+      8.06
+    ],
+    [
+      8.07,
+      8.1
+    ],
+    [
+      8.31,
+      8.35
+    ],
+    [
+      8.46,
+      8.83
+    ],
+    [
+      8.96,
+      9.03
+    ],
+    [
+      9.32,
+      9.4
+    ],
+    [
+      9.68,
+      9.78
+    ],
+    [
+      9.870000000000001,
+      9.96
+    ],
+    [
+      10.03,
+      10.07
+    ],
+    [
+      10.08,
+      10.120000000000001
+    ],
+    [
+      10.49,
+      10.540000000000001
+    ],
+    [
+      10.68,
+      11.22
+    ],
+    [
+      12.02,
+      12.08
+    ],
+    [
+      12.27,
+      12.32
+    ],
+    [
+      12.41,
+      12.46
+    ],
+    [
+      12.84,
+      12.950000000000001
+    ],
+    [
+      13.3,
+      13.33
+    ],
+    [
+      13.6,
+      13.75
+    ],
+    [
+      13.92,
+      14.0
+    ],
+    [
+      14.18,
+      14.23
+    ],
+    [
+      14.370000000000001,
+      14.43
+    ],
+    [
+      14.57,
+      14.61
+    ],
+    [
+      14.83,
+      14.870000000000001
+    ],
+    [
+      15.3,
+      15.34
+    ],
+    [
+      15.48,
+      16.04
+    ],
+    [
+      16.47,
+      16.51
+    ],
+    [
+      16.61,
+      16.66
+    ],
+    [
+      16.9,
+      16.93
+    ],
+    [
+      17.05,
+      17.080000000000002
+    ],
+    [
+      17.22,
+      17.25
+    ],
+    [
+      17.27,
+      17.31
+    ],
+    [
+      17.35,
+      17.38
+    ],
+    [
+      17.57,
+      17.6
+    ],
+    [
+      17.75,
+      17.79
+    ],
+    [
+      17.92,
+      17.96
+    ],
+    [
+      18.06,
+      18.12
+    ],
+    [
+      18.37,
+      18.72
+    ],
+    [
+      18.97,
+      19.0
+    ],
+    [
+      19.07,
+      19.150000000000002
+    ],
+    [
+      19.32,
+      19.39
+    ],
+    [
+      19.87,
+      19.92
+    ],
+    [
+      20.21,
+      20.26
+    ],
+    [
+      20.27,
+      20.34
+    ],
+    [
+      20.48,
+      20.55
+    ],
+    [
+      20.580000000000002,
+      20.61
+    ],
+    [
+      20.740000000000002,
+      20.77
+    ],
+    [
+      20.92,
+      21.41
+    ],
+    [
+      21.7,
+      21.81
+    ],
+    [
+      22.27,
+      22.31
+    ],
+    [
+      22.41,
+      22.5
+    ],
+    [
+      22.7,
+      22.8
+    ],
+    [
+      22.95,
+      23.03
+    ],
+    [
+      23.240000000000002,
+      23.54
+    ],
+    [
+      23.81,
+      23.92
+    ],
+    [
+      24.21,
+      24.240000000000002
+    ],
+    [
+      24.42,
+      24.57
+    ],
+    [
+      24.69,
+      24.740000000000002
+    ],
+    [
+      25.07,
+      25.1
+    ],
+    [
+      25.34,
+      25.400000000000002
+    ],
+    [
+      25.68,
+      25.72
+    ],
+    [
+      25.8,
+      26.87
+    ],
+    [
+      27.490000000000002,
+      27.560000000000002
+    ],
+    [
+      27.68,
+      27.78
+    ],
+    [
+      28.0,
+      28.03
+    ],
+    [
+      28.05,
+      28.09
+    ],
+    [
+      28.5,
+      28.63
+    ],
+    [
+      28.86,
+      28.95
+    ],
+    [
+      28.97,
+      29.03
+    ],
+    [
+      29.240000000000002,
+      29.27
+    ],
+    [
+      29.490000000000002,
+      29.52
+    ],
+    [
+      29.990000000000002,
+      30.3
+    ],
+    [
+      30.36,
+      30.42
+    ],
+    [
+      30.61,
+      30.650000000000002
+    ],
+    [
+      30.900000000000002,
+      30.93
+    ],
+    [
+      30.98,
+      31.12
+    ],
+    [
+      31.77,
+      31.85
+    ],
+    [
+      31.96,
+      32.02
+    ],
+    [
+      32.1,
+      32.17
+    ],
+    [
+      32.21,
+      32.26
+    ],
+    [
+      32.29,
+      32.33
+    ],
+    [
+      32.51,
+      32.6
+    ],
+    [
+      32.65,
+      32.78
+    ],
+    [
+      32.9,
+      32.95
+    ],
+    [
+      33.1,
+      33.6
+    ],
+    [
+      33.94,
+      34.01
+    ],
+    [
+      34.07,
+      34.11
+    ],
+    [
+      34.27,
+      34.31
+    ],
+    [
+      34.34,
+      34.4
+    ],
+    [
+      34.910000000000004,
+      35.08
+    ],
+    [
+      35.22,
+      35.31
+    ],
+    [
+      35.34,
+      35.410000000000004
+    ],
+    [
+      35.62,
+      35.65
+    ],
+    [
+      35.89,
+      35.94
+    ],
+    [
+      36.050000000000004,
+      36.08
+    ],
+    [
+      36.54,
+      36.58
+    ],
+    [
+      36.72,
+      37.26
+    ],
+    [
+      37.86,
+      38.02
+    ],
+    [
+      38.28,
+      38.37
+    ],
+    [
+      38.86,
+      38.89
+    ],
+    [
+      38.980000000000004,
+      39.15
+    ],
+    [
+      39.33,
+      39.61
+    ],
+    [
+      39.67,
+      39.730000000000004
+    ],
+    [
+      40.04,
+      40.09
+    ],
+    [
+      40.13,
+      40.29
+    ],
+    [
+      40.58,
+      40.62
+    ],
+    [
+      40.71,
+      40.77
+    ],
+    [
+      41.09,
+      41.13
+    ],
+    [
+      41.29,
+      41.36
+    ],
+    [
+      41.37,
+      41.45
+    ],
+    [
+      41.5,
+      41.54
+    ],
+    [
+      41.800000000000004,
+      41.88
+    ],
+    [
+      42.160000000000004,
+      42.2
+    ],
+    [
+      42.34,
+      42.82
+    ],
+    [
+      42.83,
+      42.86
+    ],
+    [
+      43.1,
+      43.13
+    ],
+    [
+      43.21,
+      43.28
+    ],
+    [
+      43.56,
+      43.63
+    ],
+    [
+      43.910000000000004,
+      43.96
+    ],
+    [
+      44.25,
+      44.4
+    ],
+    [
+      44.78,
+      44.88
+    ],
+    [
+      45.11,
+      45.24
+    ],
+    [
+      45.46,
+      45.51
+    ],
+    [
+      46.24,
+      46.77
+    ],
+    [
+      47.410000000000004,
+      47.56
+    ],
+    [
+      47.730000000000004,
+      47.77
+    ],
+    [
+      48.33,
+      48.370000000000005
+    ],
+    [
+      48.67,
+      48.7
+    ],
+    [
+      49.03,
+      49.1
+    ],
+    [
+      49.11,
+      49.17
+    ],
+    [
+      49.27,
+      49.32
+    ],
+    [
+      49.45,
+      49.94
+    ],
+    [
+      50.26,
+      50.29
+    ],
+    [
+      51.09,
+      51.15
+    ],
+    [
+      51.47,
+      51.57
+    ],
+    [
+      51.730000000000004,
+      51.81
+    ],
+    [
+      51.96,
+      52.36
+    ],
+    [
+      52.65,
+      52.68
+    ],
+    [
+      53.03,
+      53.07
+    ],
+    [
+      53.15,
+      53.25
+    ],
+    [
+      53.58,
+      53.63
+    ],
+    [
+      53.730000000000004,
+      54.72
+    ],
+    [
+      55.06,
+      55.2
+    ],
+    [
+      55.36,
+      55.51
+    ],
+    [
+      55.57,
+      55.64
+    ],
+    [
+      55.89,
+      55.92
+    ],
+    [
+      56.08,
+      56.230000000000004
+    ],
+    [
+      56.31,
+      56.36
+    ],
+    [
+      56.81,
+      56.85
+    ],
+    [
+      56.870000000000005,
+      56.9
+    ],
+    [
+      56.96,
+      57.17
+    ],
+    [
+      57.38,
+      57.43
+    ],
+    [
+      57.89,
+      57.93
+    ],
+    [
+      58.69,
+      59.06
+    ],
+    [
+      59.32,
+      59.370000000000005
+    ],
+    [
+      59.49,
+      59.57
+    ],
+    [
+      59.59,
+      59.730000000000004
+    ],
+    [
+      59.88,
+      59.92
+    ],
+    [
+      59.94,
+      59.980000000000004
+    ],
+    [
+      60.29,
+      60.33
+    ],
+    [
+      60.5,
+      60.550000000000004
+    ],
+    [
+      60.620000000000005,
+      60.68
+    ],
+    [
+      60.72,
+      60.76
+    ],
+    [
+      60.85,
+      60.89
+    ],
+    [
+      61.09,
+      61.22
+    ],
+    [
+      61.35,
+      61.4
+    ],
+    [
+      61.550000000000004,
+      62.050000000000004
+    ],
+    [
+      62.2,
+      62.24
+    ],
+    [
+      62.440000000000005,
+      62.53
+    ],
+    [
+      62.97,
+      63.04
+    ],
+    [
+      63.050000000000004,
+      63.08
+    ],
+    [
+      63.45,
+      63.59
+    ],
+    [
+      63.910000000000004,
+      63.96
+    ],
+    [
+      64.27,
+      64.39
+    ],
+    [
+      64.53,
+      64.59
+    ],
+    [
+      64.76,
+      64.83
+    ],
+    [
+      65.05,
+      65.14
+    ],
+    [
+      65.33,
+      65.38
+    ],
+    [
+      65.5,
+      65.97
+    ],
+    [
+      65.98,
+      66.01
+    ],
+    [
+      66.44,
+      66.49
+    ],
+    [
+      66.5,
+      66.64
+    ],
+    [
+      66.96000000000001,
+      67.02
+    ],
+    [
+      67.63,
+      67.66
+    ],
+    [
+      67.8,
+      67.89
+    ],
+    [
+      67.98,
+      68.07000000000001
+    ],
+    [
+      68.16,
+      68.25
+    ],
+    [
+      68.64,
+      68.68
+    ],
+    [
+      68.81,
+      69.29
+    ],
+    [
+      69.3,
+      69.33
+    ],
+    [
+      69.52,
+      69.58
+    ],
+    [
+      69.85000000000001,
+      70.03
+    ],
+    [
+      70.21000000000001,
+      70.34
+    ],
+    [
+      71.19,
+      71.3
+    ],
+    [
+      71.33,
+      71.37
+    ],
+    [
+      71.61,
+      71.79
+    ],
+    [
+      71.82000000000001,
+      71.85000000000001
+    ],
+    [
+      71.95,
+      72.01
+    ],
+    [
+      72.11,
+      72.21000000000001
+    ],
+    [
+      72.4,
+      72.57000000000001
+    ],
+    [
+      72.71000000000001,
+      72.76
+    ],
+    [
+      72.89,
+      72.93
+    ],
+    [
+      73.39,
+      73.44
+    ],
+    [
+      73.57000000000001,
+      74.05
+    ],
+    [
+      74.45,
+      74.5
+    ],
+    [
+      74.60000000000001,
+      74.64
+    ],
+    [
+      74.79,
+      75.03
+    ],
+    [
+      75.10000000000001,
+      75.25
+    ],
+    [
+      75.46000000000001,
+      75.62
+    ],
+    [
+      75.65,
+      75.68
+    ],
+    [
+      75.98,
+      76.02
+    ],
+    [
+      76.2,
+      76.23
+    ],
+    [
+      76.34,
+      76.5
+    ],
+    [
+      76.66,
+      76.73
+    ],
+    [
+      76.92,
+      77.02
+    ],
+    [
+      77.33,
+      77.46000000000001
+    ],
+    [
+      77.81,
+      77.93
+    ],
+    [
+      77.98,
+      78.01
+    ],
+    [
+      78.72,
+      78.77
+    ],
+    [
+      78.86,
+      79.81
+    ],
+    [
+      80.22,
+      80.26
+    ],
+    [
+      80.46000000000001,
+      80.49
+    ],
+    [
+      80.8,
+      80.89
+    ],
+    [
+      81.07000000000001,
+      81.14
+    ],
+    [
+      81.18,
+      81.32000000000001
+    ],
+    [
+      81.5,
+      81.53
+    ],
+    [
+      81.76,
+      81.84
+    ],
+    [
+      82.03,
+      82.16
+    ],
+    [
+      82.2,
+      82.31
+    ],
+    [
+      82.47,
+      82.53
+    ],
+    [
+      82.64,
+      82.74
+    ],
+    [
+      82.99,
+      83.05
+    ],
+    [
+      83.27,
+      83.62
+    ],
+    [
+      83.64,
+      83.8
+    ],
+    [
+      83.96000000000001,
+      84.01
+    ],
+    [
+      84.37,
+      84.41
+    ],
+    [
+      84.64,
+      84.67
+    ],
+    [
+      84.76,
+      84.81
+    ],
+    [
+      84.94,
+      85.0
+    ],
+    [
+      85.14,
+      85.24
+    ],
+    [
+      85.33,
+      85.36
+    ],
+    [
+      85.5,
+      85.53
+    ],
+    [
+      85.56,
+      85.61
+    ],
+    [
+      85.69,
+      85.74
+    ],
+    [
+      85.76,
+      85.79
+    ],
+    [
+      85.85000000000001,
+      85.89
+    ],
+    [
+      85.95,
+      86.01
+    ],
+    [
+      86.18,
+      86.3
+    ],
+    [
+      86.44,
+      86.48
+    ],
+    [
+      86.61,
+      87.09
+    ],
+    [
+      87.43,
+      87.54
+    ],
+    [
+      87.77,
+      87.83
+    ],
+    [
+      88.12,
+      88.21000000000001
+    ],
+    [
+      88.23,
+      88.41
+    ],
+    [
+      88.7,
+      88.79
+    ],
+    [
+      88.84,
+      88.87
+    ],
+    [
+      89.04,
+      89.10000000000001
+    ],
+    [
+      89.33,
+      89.42
+    ],
+    [
+      89.60000000000001,
+      89.65
+    ],
+    [
+      89.76,
+      90.24
+    ],
+    [
+      90.31,
+      90.41
+    ],
+    [
+      90.55,
+      90.61
+    ],
+    [
+      90.68,
+      90.87
+    ],
+    [
+      91.01,
+      91.06
+    ],
+    [
+      91.07000000000001,
+      91.14
+    ],
+    [
+      91.22,
+      91.33
+    ],
+    [
+      91.49,
+      91.83
+    ],
+    [
+      91.85000000000001,
+      92.01
+    ],
+    [
+      92.78,
+      92.81
+    ],
+    [
+      92.92,
+      92.96000000000001
+    ],
+    [
+      92.98,
+      93.05
+    ],
+    [
+      93.10000000000001,
+      93.14
+    ],
+    [
+      93.28,
+      93.31
+    ],
+    [
+      93.44,
+      93.48
+    ],
+    [
+      93.69,
+      93.78
+    ],
+    [
+      93.95,
+      94.33
+    ],
+    [
+      94.49,
+      94.54
+    ],
+    [
+      95.13,
+      95.17
+    ],
+    [
+      95.32000000000001,
+      95.35000000000001
+    ],
+    [
+      95.79,
+      95.84
+    ],
+    [
+      95.97,
+      96.47
+    ],
+    [
+      96.48,
+      96.51
+    ],
+    [
+      96.85000000000001,
+      96.93
+    ],
+    [
+      97.14,
+      97.38
+    ],
+    [
+      97.59,
+      97.63
+    ],
+    [
+      97.71000000000001,
+      97.74000000000001
+    ],
+    [
+      97.88,
+      97.92
+    ],
+    [
+      97.95,
+      98.09
+    ],
+    [
+      98.23,
+      98.32000000000001
+    ],
+    [
+      98.35000000000001,
+      98.39
+    ],
+    [
+      98.76,
+      98.89
+    ],
+    [
+      99.05,
+      99.08
+    ],
+    [
+      99.31,
+      99.34
+    ],
+    [
+      99.61,
+      99.75
+    ],
+    [
+      100.0,
+      100.12
+    ],
+    [
+      100.28,
+      100.33
+    ],
+    [
+      100.34,
+      100.38
+    ],
+    [
+      100.52,
+      100.56
+    ],
+    [
+      100.68,
+      101.17
+    ],
+    [
+      101.48,
+      101.51
+    ],
+    [
+      101.84,
+      101.91
+    ],
+    [
+      102.08,
+      102.11
+    ],
+    [
+      102.21000000000001,
+      102.25
+    ],
+    [
+      102.4,
+      102.46000000000001
+    ],
+    [
+      103.22,
+      103.26
+    ],
+    [
+      103.43,
+      103.46000000000001
+    ],
+    [
+      103.47,
+      103.51
+    ],
+    [
+      103.52,
+      103.67
+    ],
+    [
+      104.16,
+      104.48
+    ],
+    [
+      104.92,
+      105.04
+    ],
+    [
+      105.35000000000001,
+      105.38
+    ],
+    [
+      105.66,
+      105.92
+    ],
+    [
+      106.19,
+      106.25
+    ],
+    [
+      106.56,
+      106.60000000000001
+    ],
+    [
+      106.8,
+      107.16
+    ],
+    [
+      107.47,
+      107.54
+    ],
+    [
+      107.56,
+      107.59
+    ],
+    [
+      107.68,
+      107.74000000000001
+    ],
+    [
+      107.88,
+      107.92
+    ],
+    [
+      108.09,
+      108.15
+    ],
+    [
+      108.46000000000001,
+      108.59
+    ],
+    [
+      108.79,
+      108.88
+    ],
+    [
+      108.91,
+      108.94
+    ],
+    [
+      109.28,
+      109.32000000000001
+    ],
+    [
+      109.41,
+      110.38
+    ],
+    [
+      110.63,
+      110.67
+    ],
+    [
+      111.06,
+      111.13
+    ],
+    [
+      111.67,
+      111.7
+    ],
+    [
+      111.74000000000001,
+      111.8
+    ],
+    [
+      111.82000000000001,
+      111.85000000000001
+    ],
+    [
+      111.91,
+      112.13
+    ],
+    [
+      112.36,
+      112.54
+    ],
+    [
+      112.79,
+      112.88
+    ],
+    [
+      112.9,
+      112.93
+    ],
+    [
+      113.5,
+      113.60000000000001
+    ],
+    [
+      113.62,
+      113.68
+    ],
+    [
+      113.76,
+      113.84
+    ],
+    [
+      114.15,
+      114.23
+    ],
+    [
+      114.31,
+      114.44
+    ],
+    [
+      114.48,
+      114.55
+    ],
+    [
+      114.67,
+      114.88
+    ],
+    [
+      115.18,
+      115.23
+    ],
+    [
+      115.33,
+      115.38
+    ],
+    [
+      115.41,
+      115.45
+    ],
+    [
+      115.64,
+      115.73
+    ],
+    [
+      115.79,
+      115.91
+    ],
+    [
+      116.04,
+      116.08
+    ],
+    [
+      116.21000000000001,
+      116.69
+    ],
+    [
+      116.86,
+      116.93
+    ],
+    [
+      117.37,
+      117.5
+    ],
+    [
+      117.75,
+      117.8
+    ],
+    [
+      117.94,
+      117.98
+    ],
+    [
+      117.99000000000001,
+      118.02
+    ],
+    [
+      118.21000000000001,
+      118.27
+    ],
+    [
+      118.49000000000001,
+      118.54
+    ],
+    [
+      118.67,
+      119.17
+    ],
+    [
+      119.18,
+      119.23
+    ],
+    [
+      119.53,
+      119.56
+    ],
+    [
+      120.08,
+      120.15
+    ],
+    [
+      120.18,
+      120.22
+    ],
+    [
+      120.5,
+      120.53
+    ],
+    [
+      120.87,
+      121.16
+    ],
+    [
+      121.31,
+      121.4
+    ],
+    [
+      121.60000000000001,
+      121.81
+    ],
+    [
+      122.08,
+      122.12
+    ],
+    [
+      122.27,
+      122.35000000000001
+    ],
+    [
+      122.45,
+      122.48
+    ],
+    [
+      122.61,
+      122.7
+    ],
+    [
+      122.78,
+      122.85000000000001
+    ],
+    [
+      122.96000000000001,
+      123.01
+    ],
+    [
+      123.2,
+      123.3
+    ],
+    [
+      123.47,
+      123.52
+    ],
+    [
+      123.64,
+      124.13000000000001
+    ],
+    [
+      124.36,
+      124.41
+    ],
+    [
+      124.79,
+      124.83
+    ],
+    [
+      125.56,
+      125.72
+    ],
+    [
+      125.75,
+      125.8
+    ],
+    [
+      125.97,
+      126.04
+    ],
+    [
+      126.21000000000001,
+      126.27
+    ],
+    [
+      126.33,
+      126.51
+    ],
+    [
+      126.68,
+      126.74000000000001
+    ],
+    [
+      126.76,
+      126.81
+    ],
+    [
+      127.04,
+      127.18
+    ],
+    [
+      127.19,
+      127.24000000000001
+    ],
+    [
+      127.34,
+      127.48
+    ],
+    [
+      127.53,
+      127.56
+    ],
+    [
+      127.8,
+      127.85000000000001
+    ],
+    [
+      127.88000000000001,
+      127.91
+    ],
+    [
+      128.18,
+      128.23
+    ],
+    [
+      128.35,
+      128.85
+    ],
+    [
+      129.1,
+      129.21
+    ],
+    [
+      129.63,
+      129.67000000000002
+    ],
+    [
+      130.07,
+      130.11
+    ],
+    [
+      130.19,
+      130.27
+    ],
+    [
+      130.32,
+      130.38
+    ],
+    [
+      130.55,
+      130.68
+    ],
+    [
+      130.78,
+      130.85
+    ],
+    [
+      130.95,
+      131.01
+    ],
+    [
+      131.38,
+      131.5
+    ],
+    [
+      131.85,
+      131.97
+    ],
+    [
+      132.02,
+      132.06
+    ],
+    [
+      132.79,
+      132.84
+    ],
+    [
+      132.92000000000002,
+      133.91
+    ],
+    [
+      133.97,
+      134.05
+    ],
+    [
+      134.48,
+      134.53
+    ],
+    [
+      135.47,
+      135.52
+    ],
+    [
+      136.05,
+      136.08
+    ],
+    [
+      136.31,
+      136.38
+    ],
+    [
+      136.47,
+      136.53
+    ],
+    [
+      136.75,
+      136.85
+    ],
+    [
+      136.99,
+      137.04
+    ],
+    [
+      137.23,
+      137.29
+    ],
+    [
+      137.48,
+      137.54
+    ],
+    [
+      137.64000000000001,
+      137.70000000000002
+    ],
+    [
+      138.04,
+      138.38
+    ],
+    [
+      138.69,
+      138.73
+    ],
+    [
+      139.73,
+      139.8
+    ],
+    [
+      139.85,
+      139.88
+    ],
+    [
+      140.03,
+      140.07
+    ],
+    [
+      140.13,
+      140.18
+    ],
+    [
+      140.33,
+      140.47
+    ],
+    [
+      140.59,
+      140.63
+    ],
+    [
+      140.73,
+      141.24
+    ],
+    [
+      141.36,
+      141.44
+    ],
+    [
+      141.72,
+      141.76
+    ],
+    [
+      142.58,
+      142.61
+    ],
+    [
+      143.03,
+      143.19
+    ],
+    [
+      143.38,
+      143.59
+    ],
+    [
+      143.77,
+      143.84
+    ],
+    [
+      143.98,
+      144.04
+    ],
+    [
+      144.08,
+      144.15
+    ],
+    [
+      144.20000000000002,
+      144.39000000000001
+    ],
+    [
+      144.51,
+      144.59
+    ],
+    [
+      144.64000000000001,
+      144.67000000000002
+    ],
+    [
+      144.86,
+      144.9
+    ],
+    [
+      145.56,
+      145.6
+    ],
+    [
+      145.72,
+      146.26
+    ],
+    [
+      147.42000000000002,
+      147.46
+    ],
+    [
+      147.49,
+      147.52
+    ],
+    [
+      147.66,
+      147.73
+    ],
+    [
+      147.83,
+      147.87
+    ],
+    [
+      147.93,
+      148.05
+    ],
+    [
+      148.13,
+      148.22
+    ],
+    [
+      148.44,
+      148.74
+    ],
+    [
+      149.43,
+      149.52
+    ],
+    [
+      149.56,
+      149.62
+    ],
+    [
+      149.88,
+      149.98
+    ],
+    [
+      150.13,
+      150.16
+    ],
+    [
+      150.48,
+      150.56
+    ],
+    [
+      150.66,
+      150.74
+    ],
+    [
+      150.95000000000002,
+      150.99
+    ],
+    [
+      151.11,
+      151.15
+    ],
+    [
+      151.44,
+      151.49
+    ],
+    [
+      151.6,
+      152.08
+    ],
+    [
+      152.68,
+      152.73
+    ],
+    [
+      152.74,
+      152.78
+    ],
+    [
+      152.99,
+      153.15
+    ],
+    [
+      153.18,
+      153.22
+    ],
+    [
+      153.51,
+      153.57
+    ],
+    [
+      153.61,
+      153.65
+    ],
+    [
+      153.72,
+      153.79
+    ],
+    [
+      153.82,
+      153.9
+    ],
+    [
+      153.99,
+      154.04
+    ],
+    [
+      154.15,
+      154.24
+    ],
+    [
+      154.45000000000002,
+      154.48
+    ],
+    [
+      154.62,
+      154.66
+    ],
+    [
+      154.68,
+      154.72
+    ],
+    [
+      154.84,
+      154.87
+    ],
+    [
+      154.88,
+      154.91
+    ],
+    [
+      154.93,
+      155.05
+    ],
+    [
+      155.22,
+      155.25
+    ],
+    [
+      155.34,
+      155.44
+    ],
+    [
+      155.59,
+      155.68
+    ],
+    [
+      155.73,
+      155.76
+    ],
+    [
+      155.86,
+      155.89000000000001
+    ],
+    [
+      156.01,
+      156.15
+    ],
+    [
+      156.27,
+      156.32
+    ],
+    [
+      156.44,
+      156.93
+    ],
+    [
+      157.18,
+      157.29
+    ],
+    [
+      157.41,
+      157.47
+    ],
+    [
+      157.74,
+      157.82
+    ],
+    [
+      157.88,
+      157.95000000000002
+    ],
+    [
+      158.41,
+      158.45000000000002
+    ],
+    [
+      158.72,
+      158.75
+    ],
+    [
+      158.82,
+      158.85
+    ],
+    [
+      158.86,
+      158.89000000000001
+    ],
+    [
+      158.97,
+      159.02
+    ],
+    [
+      159.53,
+      159.85
+    ],
+    [
+      160.72,
+      160.92000000000002
+    ],
+    [
+      160.95000000000002,
+      161.08
+    ],
+    [
+      162.02,
+      162.15
+    ],
+    [
+      162.21,
+      162.28
+    ],
+    [
+      162.49,
+      162.58
+    ],
+    [
+      162.72,
+      162.77
+    ],
+    [
+      163.05,
+      163.1
+    ],
+    [
+      163.20000000000002,
+      164.11
+    ],
+    [
+      164.24,
+      164.34
+    ],
+    [
+      164.59,
+      164.63
+    ],
+    [
+      164.65,
+      164.69
+    ],
+    [
+      164.91,
+      164.94
+    ],
+    [
+      165.12,
+      165.31
+    ],
+    [
+      165.38,
+      165.46
+    ],
+    [
+      165.54,
+      165.57
+    ],
+    [
+      165.65,
+      165.77
+    ],
+    [
+      165.82,
+      165.85
+    ],
+    [
+      165.95000000000002,
+      166.02
+    ],
+    [
+      166.24,
+      166.31
+    ],
+    [
+      166.65,
+      166.74
+    ],
+    [
+      166.97,
+      167.33
+    ],
+    [
+      167.65,
+      167.70000000000002
+    ],
+    [
+      168.19,
+      168.32
+    ],
+    [
+      168.63,
+      168.68
+    ],
+    [
+      168.83,
+      168.88
+    ],
+    [
+      168.98,
+      169.01
+    ],
+    [
+      169.14000000000001,
+      169.26
+    ],
+    [
+      169.6,
+      169.66
+    ],
+    [
+      170.06,
+      170.19
+    ],
+    [
+      170.32,
+      170.36
+    ],
+    [
+      170.5,
+      170.97
+    ],
+    [
+      171.08,
+      171.18
+    ],
+    [
+      171.34,
+      171.42000000000002
+    ],
+    [
+      171.95000000000002,
+      172.07
+    ],
+    [
+      172.42000000000002,
+      172.46
+    ],
+    [
+      172.89000000000001,
+      172.95000000000002
+    ],
+    [
+      173.19,
+      173.32
+    ],
+    [
+      173.48,
+      173.52
+    ],
+    [
+      173.58,
+      173.61
+    ],
+    [
+      173.74,
+      173.83
+    ],
+    [
+      173.88,
+      173.91
+    ],
+    [
+      174.06,
+      174.19
+    ],
+    [
+      174.64000000000001,
+      174.68
+    ],
+    [
+      174.8,
+      175.32
+    ],
+    [
+      175.9,
+      176.04
+    ],
+    [
+      176.33,
+      176.39000000000001
+    ],
+    [
+      176.54,
+      176.6
+    ],
+    [
+      176.69,
+      176.73
+    ],
+    [
+      176.86,
+      176.92000000000002
+    ],
+    [
+      177.21,
+      177.31
+    ],
+    [
+      177.41,
+      177.5
+    ],
+    [
+      177.6,
+      177.64000000000001
+    ],
+    [
+      177.72,
+      177.78
+    ],
+    [
+      178.05,
+      178.09
+    ],
+    [
+      178.21,
+      178.75
+    ],
+    [
+      178.88,
+      178.97
+    ],
+    [
+      179.67000000000002,
+      179.73
+    ],
+    [
+      179.92000000000002,
+      179.99
+    ],
+    [
+      180.09,
+      180.16
+    ],
+    [
+      180.27,
+      180.32
+    ],
+    [
+      180.49,
+      180.52
+    ],
+    [
+      180.58,
+      180.61
+    ],
+    [
+      180.86,
+      180.92000000000002
+    ],
+    [
+      180.94,
+      180.98
+    ],
+    [
+      181.25,
+      181.3
+    ],
+    [
+      181.41,
+      181.94
+    ],
+    [
+      182.24,
+      182.3
+    ],
+    [
+      182.45000000000002,
+      182.52
+    ],
+    [
+      182.62,
+      182.67000000000002
+    ],
+    [
+      182.81,
+      182.87
+    ],
+    [
+      183.15,
+      183.22
+    ],
+    [
+      183.23,
+      183.26
+    ],
+    [
+      183.96,
+      184.0
+    ],
+    [
+      184.20000000000002,
+      184.33
+    ],
+    [
+      184.56,
+      184.6
+    ],
+    [
+      184.83,
+      184.86
+    ],
+    [
+      184.98,
+      185.09
+    ],
+    [
+      185.51,
+      185.56
+    ],
+    [
+      185.65,
+      186.59
+    ],
+    [
+      187.12,
+      187.18
+    ],
+    [
+      187.47,
+      187.5
+    ],
+    [
+      187.58,
+      187.73
+    ],
+    [
+      187.94,
+      188.03
+    ],
+    [
+      188.25,
+      188.33
+    ],
+    [
+      188.34,
+      188.4
+    ],
+    [
+      189.05,
+      189.14000000000001
+    ],
+    [
+      189.23,
+      189.26
+    ],
+    [
+      189.52,
+      189.59
+    ],
+    [
+      189.9,
+      190.21
+    ],
+    [
+      190.38,
+      190.42000000000002
+    ],
+    [
+      190.81,
+      190.86
+    ],
+    [
+      191.04,
+      191.14000000000001
+    ],
+    [
+      191.5,
+      191.59
+    ],
+    [
+      191.79,
+      191.89000000000001
+    ],
+    [
+      192.08,
+      192.17000000000002
+    ],
+    [
+      192.22,
+      192.34
+    ],
+    [
+      192.46,
+      192.51
+    ],
+    [
+      192.64000000000001,
+      193.14000000000001
+    ],
+    [
+      193.63,
+      193.66
+    ],
+    [
+      193.69,
+      193.72
+    ],
+    [
+      194.23000000000002,
+      194.26
+    ],
+    [
+      194.56,
+      194.59
+    ],
+    [
+      194.8,
+      194.89000000000001
+    ],
+    [
+      195.09,
+      195.27
+    ],
+    [
+      195.5,
+      195.64000000000001
+    ],
+    [
+      195.72,
+      195.76
+    ],
+    [
+      195.84,
+      195.91
+    ],
+    [
+      195.94,
+      195.97
+    ],
+    [
+      196.08,
+      196.11
+    ],
+    [
+      196.26,
+      196.32
+    ],
+    [
+      196.35,
+      196.44
+    ],
+    [
+      196.56,
+      196.59
+    ],
+    [
+      196.69,
+      196.76
+    ],
+    [
+      196.8,
+      196.89000000000001
+    ],
+    [
+      197.04,
+      197.18
+    ],
+    [
+      197.3,
+      197.34
+    ],
+    [
+      197.46,
+      197.94
+    ],
+    [
+      197.96,
+      197.99
+    ],
+    [
+      198.25,
+      198.28
+    ],
+    [
+      198.99,
+      199.02
+    ],
+    [
+      199.22,
+      199.27
+    ],
+    [
+      199.29,
+      199.35
+    ],
+    [
+      199.48000000000002,
+      199.52
+    ],
+    [
+      199.69,
+      199.72
+    ],
+    [
+      199.87,
+      199.92000000000002
+    ],
+    [
+      200.03,
+      200.09
+    ],
+    [
+      200.15,
+      200.19
+    ],
+    [
+      200.37,
+      200.45000000000002
+    ],
+    [
+      200.66,
+      200.78
+    ],
+    [
+      200.86,
+      200.94
+    ],
+    [
+      201.15,
+      201.47
+    ],
+    [
+      201.51,
+      201.54
+    ],
+    [
+      201.74,
+      201.8
+    ],
+    [
+      202.05,
+      202.15
+    ],
+    [
+      202.42000000000002,
+      202.51
+    ],
+    [
+      202.6,
+      202.69
+    ],
+    [
+      202.77,
+      202.85
+    ],
+    [
+      202.93,
+      203.0
+    ],
+    [
+      203.02,
+      203.05
+    ],
+    [
+      203.22,
+      203.26
+    ],
+    [
+      203.37,
+      203.89000000000001
+    ],
+    [
+      203.9,
+      203.93
+    ],
+    [
+      204.5,
+      204.55
+    ],
+    [
+      204.56,
+      204.59
+    ],
+    [
+      204.81,
+      204.97
+    ],
+    [
+      205.01,
+      205.05
+    ],
+    [
+      205.21,
+      205.26
+    ],
+    [
+      205.29,
+      205.32
+    ],
+    [
+      205.39000000000001,
+      205.45000000000002
+    ],
+    [
+      205.5,
+      205.58
+    ],
+    [
+      205.67000000000002,
+      205.72
+    ],
+    [
+      205.84,
+      205.91
+    ],
+    [
+      206.5,
+      206.53
+    ],
+    [
+      206.56,
+      206.59
+    ],
+    [
+      206.64000000000001,
+      206.68
+    ],
+    [
+      206.82,
+      206.91
+    ],
+    [
+      206.95000000000002,
+      207.0
+    ],
+    [
+      207.07,
+      207.11
+    ],
+    [
+      207.18,
+      207.32
+    ],
+    [
+      207.64000000000001,
+      208.0
+    ],
+    [
+      208.1,
+      208.20000000000002
+    ],
+    [
+      208.49,
+      208.58
+    ],
+    [
+      208.73000000000002,
+      208.79
+    ],
+    [
+      208.98000000000002,
+      209.03
+    ],
+    [
+      209.05,
+      209.08
+    ],
+    [
+      209.1,
+      209.13
+    ],
+    [
+      209.23000000000002,
+      209.36
+    ],
+    [
+      209.67000000000002,
+      209.79
+    ],
+    [
+      210.1,
+      210.14000000000001
+    ],
+    [
+      210.41,
+      210.45000000000002
+    ],
+    [
+      210.57,
+      211.06
+    ],
+    [
+      211.08,
+      211.11
+    ],
+    [
+      211.98000000000002,
+      212.01
+    ],
+    [
+      212.02,
+      212.05
+    ],
+    [
+      212.27,
+      212.42000000000002
+    ],
+    [
+      212.56,
+      212.64000000000001
+    ],
+    [
+      212.66,
+      212.71
+    ],
+    [
+      212.82,
+      212.85
+    ],
+    [
+      213.01,
+      213.06
+    ],
+    [
+      213.6,
+      213.68
+    ],
+    [
+      213.70000000000002,
+      213.73000000000002
+    ],
+    [
+      213.76,
+      213.81
+    ],
+    [
+      214.05,
+      214.39000000000001
+    ],
+    [
+      214.4,
+      214.44
+    ],
+    [
+      214.58,
+      214.61
+    ],
+    [
+      214.78,
+      214.81
+    ],
+    [
+      214.95000000000002,
+      215.01
+    ],
+    [
+      215.11,
+      215.17000000000002
+    ],
+    [
+      215.24,
+      215.31
+    ],
+    [
+      215.66,
+      215.8
+    ],
+    [
+      215.83,
+      215.99
+    ],
+    [
+      216.18,
+      216.23000000000002
+    ],
+    [
+      216.35,
+      216.39000000000001
+    ],
+    [
+      216.53,
+      216.62
+    ],
+    [
+      216.70000000000002,
+      216.77
+    ],
+    [
+      216.87,
+      216.92000000000002
+    ],
+    [
+      217.02,
+      217.12
+    ],
+    [
+      217.52,
+      217.56
+    ],
+    [
+      217.65,
+      218.59
+    ],
+    [
+      218.71,
+      218.8
+    ],
+    [
+      219.47,
+      219.58
+    ],
+    [
+      219.79,
+      219.87
+    ],
+    [
+      220.11,
+      220.29
+    ],
+    [
+      220.85,
+      221.02
+    ],
+    [
+      221.22,
+      221.27
+    ],
+    [
+      221.78,
+      222.05
+    ],
+    [
+      222.06,
+      222.12
+    ],
+    [
+      222.29,
+      222.32
+    ],
+    [
+      222.62,
+      222.66
+    ],
+    [
+      222.73000000000002,
+      222.82
+    ],
+    [
+      222.9,
+      222.93
+    ],
+    [
+      223.0,
+      223.18
+    ],
+    [
+      223.28,
+      223.72
+    ],
+    [
+      224.02,
+      224.05
+    ],
+    [
+      224.38,
+      224.41
+    ],
+    [
+      224.58,
+      224.61
+    ],
+    [
+      224.69,
+      224.73000000000002
+    ],
+    [
+      224.88,
+      225.02
+    ],
+    [
+      225.06,
+      225.18
+    ],
+    [
+      225.25,
+      225.42000000000002
+    ],
+    [
+      225.5,
+      225.53
+    ],
+    [
+      225.78,
+      225.86
+    ],
+    [
+      225.95000000000002,
+      225.98000000000002
+    ],
+    [
+      225.99,
+      226.02
+    ],
+    [
+      226.34,
+      226.47
+    ],
+    [
+      226.6,
+      226.64000000000001
+    ],
+    [
+      226.75,
+      227.23000000000002
+    ],
+    [
+      227.91,
+      228.01
+    ],
+    [
+      228.26,
+      228.3
+    ],
+    [
+      228.32,
+      228.38
+    ],
+    [
+      228.77,
+      228.8
+    ],
+    [
+      228.93,
+      229.22
+    ],
+    [
+      229.8,
+      229.89000000000001
+    ],
+    [
+      229.99,
+      230.02
+    ],
+    [
+      230.18,
+      230.28
+    ],
+    [
+      230.67000000000002,
+      230.74
+    ],
+    [
+      230.81,
+      230.87
+    ],
+    [
+      230.88,
+      231.09
+    ],
+    [
+      231.34,
+      231.39000000000001
+    ],
+    [
+      231.48000000000002,
+      231.97
+    ],
+    [
+      232.09,
+      232.18
+    ],
+    [
+      232.25,
+      232.29
+    ],
+    [
+      232.46,
+      232.53
+    ],
+    [
+      232.85,
+      232.91
+    ],
+    [
+      232.96,
+      233.05
+    ],
+    [
+      233.22,
+      233.26
+    ],
+    [
+      233.5,
+      233.65
+    ],
+    [
+      233.66,
+      233.73000000000002
+    ],
+    [
+      233.92000000000002,
+      233.96
+    ],
+    [
+      234.09,
+      234.31
+    ],
+    [
+      234.57,
+      234.65
+    ],
+    [
+      234.71,
+      234.79
+    ],
+    [
+      234.81,
+      234.84
+    ],
+    [
+      235.01,
+      235.04
+    ],
+    [
+      235.14000000000001,
+      235.20000000000002
+    ],
+    [
+      235.33,
+      235.38
+    ],
+    [
+      235.66,
+      235.71
+    ],
+    [
+      235.83,
+      236.33
+    ],
+    [
+      236.34,
+      236.37
+    ],
+    [
+      236.70000000000002,
+      236.78
+    ],
+    [
+      236.96,
+      237.22
+    ],
+    [
+      237.36,
+      237.47
+    ],
+    [
+      237.71,
+      237.78
+    ],
+    [
+      237.95000000000002,
+      237.98000000000002
+    ],
+    [
+      238.26,
+      238.32
+    ],
+    [
+      238.6,
+      238.71
+    ],
+    [
+      238.83,
+      239.03
+    ],
+    [
+      239.42000000000002,
+      239.5
+    ],
+    [
+      239.6,
+      239.67000000000002
+    ],
+    [
+      239.70000000000002,
+      239.83
+    ],
+    [
+      240.04,
+      240.11
+    ],
+    [
+      240.3,
+      240.41
+    ],
+    [
+      240.63,
+      240.77
+    ],
+    [
+      241.22,
+      241.27
+    ],
+    [
+      241.29,
+      241.34
+    ],
+    [
+      241.5,
+      241.61
+    ],
+    [
+      241.74,
+      241.78
+    ],
+    [
+      241.9,
+      242.4
+    ],
+    [
+      242.89000000000001,
+      242.93
+    ],
+    [
+      243.15,
+      243.18
+    ],
+    [
+      243.19,
+      243.22
+    ],
+    [
+      243.38,
+      243.43
+    ],
+    [
+      243.49,
+      243.64000000000001
+    ],
+    [
+      244.14000000000001,
+      244.34
+    ],
+    [
+      244.35,
+      244.41
+    ],
+    [
+      244.84,
+      244.91
+    ],
+    [
+      245.24,
+      245.36
+    ],
+    [
+      245.71,
+      245.76
+    ],
+    [
+      246.14000000000001,
+      246.17000000000002
+    ],
+    [
+      246.25,
+      246.32
+    ],
+    [
+      246.66,
+      246.72
+    ],
+    [
+      246.84,
+      246.94
+    ],
+    [
+      247.21,
+      247.41
+    ],
+    [
+      247.42000000000002,
+      247.48000000000002
+    ],
+    [
+      247.5,
+      247.55
+    ],
+    [
+      247.67000000000002,
+      247.74
+    ],
+    [
+      247.82,
+      247.86
+    ],
+    [
+      247.99,
+      248.04
+    ],
+    [
+      248.22,
+      248.27
+    ],
+    [
+      248.45000000000002,
+      248.49
+    ],
+    [
+      248.6,
+      249.55
+    ],
+    [
+      249.75,
+      249.83
+    ],
+    [
+      249.86,
+      249.93
+    ],
+    [
+      250.0,
+      250.11
+    ],
+    [
+      250.3,
+      250.33
+    ],
+    [
+      250.48000000000002,
+      250.54
+    ],
+    [
+      251.13,
+      251.25
+    ],
+    [
+      251.32,
+      251.4
+    ],
+    [
+      251.42000000000002,
+      251.45000000000002
+    ],
+    [
+      251.62,
+      251.69
+    ],
+    [
+      251.70000000000002,
+      251.76000000000002
+    ],
+    [
+      251.85,
+      251.9
+    ],
+    [
+      252.05,
+      252.09
+    ],
+    [
+      252.11,
+      252.14000000000001
+    ],
+    [
+      252.16,
+      252.21
+    ],
+    [
+      252.28,
+      252.42000000000002
+    ],
+    [
+      252.82,
+      252.98000000000002
+    ],
+    [
+      253.03,
+      253.06
+    ],
+    [
+      253.24,
+      253.31
+    ],
+    [
+      253.41,
+      253.46
+    ],
+    [
+      253.48000000000002,
+      253.51000000000002
+    ],
+    [
+      253.54,
+      253.57
+    ],
+    [
+      253.83,
+      253.86
+    ],
+    [
+      254.07,
+      254.17000000000002
+    ],
+    [
+      254.21,
+      254.26000000000002
+    ],
+    [
+      254.37,
+      254.42000000000002
+    ],
+    [
+      254.51000000000002,
+      254.64000000000001
+    ],
+    [
+      254.76000000000002,
+      254.81
+    ],
+    [
+      254.92000000000002,
+      255.41
+    ],
+    [
+      255.44,
+      255.47
+    ],
+    [
+      255.8,
+      255.85
+    ],
+    [
+      256.35,
+      256.45
+    ],
+    [
+      256.55,
+      256.58
+    ],
+    [
+      256.76,
+      256.83
+    ],
+    [
+      256.84000000000003,
+      256.93
+    ],
+    [
+      257.4,
+      257.43
+    ],
+    [
+      257.91,
+      257.95
+    ],
+    [
+      258.07,
+      258.56
+    ],
+    [
+      258.74,
+      258.8
+    ],
+    [
+      259.02,
+      259.21
+    ],
+    [
+      259.35,
+      259.45
+    ],
+    [
+      259.59000000000003,
+      259.68
+    ],
+    [
+      259.85,
+      259.88
+    ],
+    [
+      259.97,
+      260.02
+    ],
+    [
+      260.09000000000003,
+      260.22
+    ],
+    [
+      260.58,
+      260.78000000000003
+    ],
+    [
+      260.8,
+      260.84000000000003
+    ],
+    [
+      261.02,
+      261.05
+    ],
+    [
+      261.15,
+      261.22
+    ],
+    [
+      261.46,
+      261.58
+    ],
+    [
+      262.16,
+      262.2
+    ],
+    [
+      262.29,
+      262.81
+    ],
+    [
+      263.81,
+      263.84000000000003
+    ],
+    [
+      263.87,
+      263.92
+    ],
+    [
+      264.24,
+      264.32
+    ],
+    [
+      264.33,
+      264.39
+    ],
+    [
+      264.57,
+      264.66
+    ],
+    [
+      264.75,
+      264.8
+    ],
+    [
+      264.91,
+      265.0
+    ],
+    [
+      265.18,
+      265.21
+    ],
+    [
+      265.39,
+      265.43
+    ],
+    [
+      265.45,
+      265.5
+    ],
+    [
+      265.61,
+      265.65
+    ],
+    [
+      265.71,
+      265.82
+    ],
+    [
+      266.0,
+      266.03000000000003
+    ],
+    [
+      266.11,
+      266.22
+    ],
+    [
+      266.38,
+      266.48
+    ],
+    [
+      266.52,
+      266.55
+    ],
+    [
+      266.66,
+      266.69
+    ],
+    [
+      266.81,
+      266.95
+    ],
+    [
+      267.08,
+      267.12
+    ],
+    [
+      267.25,
+      267.76
+    ],
+    [
+      268.13,
+      268.16
+    ],
+    [
+      268.28000000000003,
+      268.31
+    ],
+    [
+      268.34000000000003,
+      268.39
+    ],
+    [
+      268.64,
+      268.67
+    ],
+    [
+      268.81,
+      268.87
+    ],
+    [
+      268.93,
+      268.98
+    ],
+    [
+      269.06,
+      269.1
+    ],
+    [
+      269.19,
+      269.23
+    ],
+    [
+      269.3,
+      269.5
+    ],
+    [
+      269.72,
+      270.04
+    ],
+    [
+      270.13,
+      270.27
+    ],
+    [
+      270.35,
+      270.44
+    ],
+    [
+      270.46,
+      270.53000000000003
+    ],
+    [
+      270.61,
+      270.64
+    ],
+    [
+      271.33,
+      271.42
+    ],
+    [
+      271.5,
+      271.65
+    ],
+    [
+      271.95,
+      272.13
+    ],
+    [
+      272.37,
+      272.46
+    ],
+    [
+      272.68,
+      272.71
+    ],
+    [
+      272.88,
+      272.93
+    ],
+    [
+      273.02,
+      273.93
+    ],
+    [
+      274.16,
+      274.27
+    ],
+    [
+      274.61,
+      274.67
+    ],
+    [
+      274.75,
+      274.90000000000003
+    ],
+    [
+      275.12,
+      275.17
+    ],
+    [
+      275.45,
+      275.48
+    ],
+    [
+      275.63,
+      275.76
+    ],
+    [
+      276.03000000000003,
+      276.08
+    ],
+    [
+      276.1,
+      276.17
+    ],
+    [
+      276.36,
+      276.40000000000003
+    ],
+    [
+      276.53000000000003,
+      276.71
+    ],
+    [
+      276.74,
+      276.78000000000003
+    ],
+    [
+      277.0,
+      277.03000000000003
+    ],
+    [
+      277.14,
+      277.2
+    ],
+    [
+      277.39,
+      277.48
+    ],
+    [
+      277.69,
+      278.05
+    ],
+    [
+      278.18,
+      278.25
+    ],
+    [
+      278.56,
+      278.63
+    ],
+    [
+      278.66,
+      278.7
+    ],
+    [
+      278.91,
+      278.96
+    ],
+    [
+      279.29,
+      279.35
+    ],
+    [
+      279.51,
+      279.55
+    ],
+    [
+      279.63,
+      279.67
+    ],
+    [
+      279.8,
+      279.88
+    ],
+    [
+      280.32,
+      280.46
+    ],
+    [
+      280.58,
+      280.63
+    ],
+    [
+      280.74,
+      281.27
+    ],
+    [
+      281.7,
+      281.73
+    ],
+    [
+      282.32,
+      282.43
+    ],
+    [
+      282.67,
+      282.71
+    ],
+    [
+      282.72,
+      282.8
+    ],
+    [
+      283.05,
+      283.08
+    ],
+    [
+      283.22,
+      283.31
+    ],
+    [
+      283.32,
+      283.35
+    ],
+    [
+      283.45,
+      283.84000000000003
+    ],
+    [
+      284.02,
+      284.12
+    ],
+    [
+      284.19,
+      284.3
+    ],
+    [
+      284.66,
+      284.7
+    ],
+    [
+      285.03000000000003,
+      285.06
+    ],
+    [
+      285.51,
+      285.58
+    ],
+    [
+      285.61,
+      285.66
+    ],
+    [
+      285.82,
+      285.96
+    ],
+    [
+      286.38,
+      286.43
+    ],
+    [
+      286.56,
+      287.03000000000003
+    ],
+    [
+      287.74,
+      287.88
+    ],
+    [
+      288.14,
+      288.24
+    ],
+    [
+      288.32,
+      288.46
+    ],
+    [
+      288.6,
+      288.86
+    ],
+    [
+      289.15000000000003,
+      289.2
+    ],
+    [
+      289.82,
+      289.85
+    ],
+    [
+      289.98,
+      290.03000000000003
+    ],
+    [
+      290.04,
+      290.13
+    ],
+    [
+      290.18,
+      290.22
+    ],
+    [
+      290.62,
+      290.67
+    ],
+    [
+      290.77,
+      291.28000000000003
+    ],
+    [
+      291.90000000000003,
+      291.94
+    ],
+    [
+      292.28000000000003,
+      292.32
+    ],
+    [
+      292.35,
+      292.39
+    ],
+    [
+      292.71,
+      292.86
+    ],
+    [
+      293.03000000000003,
+      293.11
+    ],
+    [
+      293.2,
+      293.25
+    ],
+    [
+      293.37,
+      293.46
+    ],
+    [
+      293.85,
+      293.88
+    ],
+    [
+      293.91,
+      293.95
+    ],
+    [
+      294.06,
+      294.09000000000003
+    ],
+    [
+      294.11,
+      294.14
+    ],
+    [
+      294.17,
+      294.28000000000003
+    ],
+    [
+      294.46,
+      294.49
+    ],
+    [
+      294.58,
+      294.68
+    ],
+    [
+      294.83,
+      294.93
+    ],
+    [
+      295.28000000000003,
+      295.40000000000003
+    ],
+    [
+      295.51,
+      295.56
+    ],
+    [
+      295.68,
+      296.16
+    ],
+    [
+      296.45,
+      296.56
+    ],
+    [
+      296.99,
+      297.08
+    ],
+    [
+      297.15000000000003,
+      297.18
+    ],
+    [
+      297.41,
+      297.68
+    ],
+    [
+      297.82,
+      297.86
+    ],
+    [
+      297.95,
+      297.99
+    ],
+    [
+      298.3,
+      298.41
+    ],
+    [
+      298.54,
+      298.63
+    ],
+    [
+      298.83,
+      299.15000000000003
+    ],
+    [
+      299.17,
+      299.2
+    ],
+    [
+      299.22,
+      299.33
+    ],
+    [
+      299.40000000000003,
+      299.51
+    ],
+    [
+      299.67,
+      299.7
+    ],
+    [
+      299.85,
+      299.94
+    ],
+    [
+      300.05,
+      300.08
+    ],
+    [
+      300.25,
+      300.35
+    ],
+    [
+      300.36,
+      300.39
+    ],
+    [
+      300.67,
+      300.72
+    ],
+    [
+      300.82,
+      300.88
+    ],
+    [
+      301.28000000000003,
+      301.32
+    ],
+    [
+      301.43,
+      302.33
+    ],
+    [
+      302.72,
+      302.76
+    ],
+    [
+      302.91,
+      302.97
+    ],
+    [
+      303.44,
+      303.47
+    ],
+    [
+      303.56,
+      303.6
+    ],
+    [
+      303.68,
+      303.79
+    ],
+    [
+      303.86,
+      303.93
+    ],
+    [
+      304.17,
+      304.28000000000003
+    ],
+    [
+      304.52,
+      304.6
+    ],
+    [
+      304.74,
+      304.77
+    ],
+    [
+      304.86,
+      304.95
+    ],
+    [
+      304.99,
+      305.02
+    ],
+    [
+      305.06,
+      305.11
+    ],
+    [
+      305.38,
+      305.43
+    ],
+    [
+      305.61,
+      305.64
+    ],
+    [
+      305.78000000000003,
+      305.82
+    ],
+    [
+      306.18,
+      306.24
+    ],
+    [
+      306.45,
+      306.8
+    ],
+    [
+      306.90000000000003,
+      306.95
+    ],
+    [
+      307.17,
+      307.21
+    ],
+    [
+      307.33,
+      307.41
+    ],
+    [
+      307.44,
+      307.48
+    ],
+    [
+      307.58,
+      307.62
+    ],
+    [
+      307.73,
+      307.78000000000003
+    ],
+    [
+      307.94,
+      307.99
+    ],
+    [
+      308.0,
+      308.03000000000003
+    ],
+    [
+      308.21,
+      308.25
+    ],
+    [
+      308.39,
+      308.43
+    ],
+    [
+      308.67,
+      308.76
+    ],
+    [
+      308.88,
+      308.92
+    ],
+    [
+      309.04,
+      309.54
+    ],
+    [
+      309.63,
+      309.68
+    ],
+    [
+      309.75,
+      309.86
+    ],
+    [
+      310.02,
+      310.1
+    ],
+    [
+      310.38,
+      310.42
+    ],
+    [
+      310.46,
+      310.53000000000003
+    ],
+    [
+      310.57,
+      310.78000000000003
+    ],
+    [
+      310.91,
+      310.95
+    ],
+    [
+      310.97,
+      311.02
+    ],
+    [
+      311.17,
+      311.21
+    ],
+    [
+      311.23,
+      311.26
+    ],
+    [
+      311.36,
+      311.39
+    ],
+    [
+      311.5,
+      311.72
+    ],
+    [
+      311.74,
+      311.77
+    ],
+    [
+      311.83,
+      312.01
+    ],
+    [
+      312.11,
+      312.14
+    ],
+    [
+      312.27,
+      312.32
+    ],
+    [
+      312.33,
+      312.40000000000003
+    ],
+    [
+      312.46,
+      312.5
+    ],
+    [
+      312.90000000000003,
+      312.94
+    ],
+    [
+      313.06,
+      313.54
+    ],
+    [
+      314.01,
+      314.05
+    ],
+    [
+      314.22,
+      314.26
+    ],
+    [
+      314.48,
+      314.55
+    ],
+    [
+      314.69,
+      314.74
+    ],
+    [
+      315.23,
+      315.29
+    ],
+    [
+      315.33,
+      315.40000000000003
+    ],
+    [
+      315.8,
+      315.93
+    ],
+    [
+      315.95,
+      315.98
+    ],
+    [
+      316.21,
+      316.3
+    ],
+    [
+      316.44,
+      316.53000000000003
+    ],
+    [
+      316.55,
+      316.59000000000003
+    ],
+    [
+      316.68,
+      316.72
+    ],
+    [
+      316.74,
+      316.78000000000003
+    ],
+    [
+      316.83,
+      316.86
+    ],
+    [
+      317.02,
+      317.1
+    ],
+    [
+      317.45,
+      317.96
+    ],
+    [
+      318.26,
+      318.32
+    ],
+    [
+      318.69,
+      318.74
+    ],
+    [
+      319.38,
+      319.44
+    ],
+    [
+      319.82,
+      320.14
+    ],
+    [
+      320.37,
+      320.42
+    ],
+    [
+      320.54,
+      320.65000000000003
+    ],
+    [
+      320.7,
+      320.73
+    ],
+    [
+      320.81,
+      320.91
+    ],
+    [
+      321.15000000000003,
+      321.23
+    ],
+    [
+      321.43,
+      321.52
+    ],
+    [
+      321.62,
+      321.84000000000003
+    ],
+    [
+      321.89,
+      322.01
+    ],
+    [
+      322.36,
+      322.41
+    ],
+    [
+      322.46,
+      322.49
+    ],
+    [
+      322.71,
+      322.76
+    ],
+    [
+      322.92,
+      322.95
+    ],
+    [
+      323.09000000000003,
+      323.93
+    ],
+    [
+      324.51,
+      324.55
+    ],
+    [
+      324.56,
+      324.61
+    ],
+    [
+      324.76,
+      324.81
+    ],
+    [
+      325.29,
+      325.33
+    ],
+    [
+      325.34000000000003,
+      325.40000000000003
+    ],
+    [
+      325.92,
+      326.1
+    ],
+    [
+      326.28000000000003,
+      326.32
+    ],
+    [
+      326.38,
+      326.43
+    ],
+    [
+      326.66,
+      326.83
+    ],
+    [
+      327.18,
+      327.33
+    ],
+    [
+      327.62,
+      327.7
+    ],
+    [
+      327.92,
+      327.96
+    ],
+    [
+      328.15000000000003,
+      328.19
+    ],
+    [
+      328.33,
+      328.56
+    ]
+  ],
+  "boundaries": [],
+  "error": "AssertionError: At least one narration cut lacks sufficient transcript coverage; inspect report."
+}

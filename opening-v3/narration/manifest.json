@@ -1,0 +1,556 @@
+{
+  "provider": "ElevenLabs Creative Studio",
+  "model_id": "eleven_v4",
+  "voice_id": "mYk0rAapHek2oTw18z8x",
+  "voice_name": "Salang - Calm, Clear and Warm",
+  "generation_mode": "single_take",
+  "generated_prompt": "[bright, confident voice, slightly higher pitch, projecting to an audience, clear Korean diction, precise consonants]\n\n알앤디 업무에 AI를 더합니다.\n\n더 나은 알앤디 공정을 위한 변화가 시작됩니다.\n\n현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.\n\n현업의 다양한 과제를 해결하기 위한 도전입니다.\n\n현업의 문제를 AI로 해결하는 알앤디 공정 AI Fast Track.\n\n서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.\n\n현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.\n\n업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.\n\n지금부터 12개의 AI Agent 과제를 소개합니다.",
+  "pronunciation_map": {
+    "R&D": "알앤디"
+  },
+  "approved_display_script": [
+    "R&D 업무에 AI를 더합니다.",
+    "더 나은 R&D 공정을 위한 변화가 시작됩니다.",
+    "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+    "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+    "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track.",
+    "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+    "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+    "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+    "지금부터 12개의 AI Agent 과제를 소개합니다."
+  ],
+  "spoken_script": [
+    "알앤디 업무에 AI를 더합니다.",
+    "더 나은 알앤디 공정을 위한 변화가 시작됩니다.",
+    "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+    "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+    "현업의 문제를 AI로 해결하는 알앤디 공정 AI Fast Track.",
+    "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+    "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+    "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+    "지금부터 12개의 AI Agent 과제를 소개합니다."
+  ],
+  "first_sentence_revision": {
+    "before": "알앤디 현업에 AI를 더합니다.",
+    "after": "알앤디 업무에 AI를 더합니다.",
+    "actual_ASR": " R&D 업무의 AI를 더합니다.",
+    "업무_present": true,
+    "현업_absent_from_first_sentence": true
+  },
+  "pronunciation_verification": {
+    "requested_form": "알앤디",
+    "spoken_prompt_occurrences": 3,
+    "display_R_and_D_occurrences_preserved": 3,
+    "unprompted_ASR_canonical_R_and_D_occurrences": 3,
+    "unprompted_ASR_limit": "Whisper can canonicalize the Korean pronunciation 알앤디 as the Latin spelling R&D. The source prompt preserves 알앤디 in all three positions; this revision does not claim a new independent accent comparison."
+  },
+  "generation_id": "oMWZdjpos5wtbdkjYn8B",
+  "status": "COMPLETE_ASR_COVERAGE_AND_SAFE_PCM_CUTS",
+  "rejected_take": {
+    "generation_id": "kJnbaRK4s7QWPI5t1ZBq",
+    "receipt": "rejected-take/receipt.json",
+    "reason": "CUT02 words could not be independently verified against local v2 control."
+  },
+  "source_take": {
+    "file": "take.wav",
+    "sha256": "9d7ce1994e34db3f40fd3766464327deea6ed33f00a5f8f078a81717c9239c04",
+    "source_mp3_sha256": "66c01d77011ab184755edef8a863c7358ccb9951dc3d32cf7b756a44551d0ba5",
+    "sample_rate": 48000,
+    "channels": 1,
+    "sample_width_bytes": 2,
+    "samples": 1935360,
+    "duration_seconds": 40.32,
+    "conversion": "Unaltered remote MP3 decoded/resampled to 48000 Hz mono PCM16."
+  },
+  "transcript_verification": {
+    "engine": "local OpenAI Whisper small",
+    "external_audio_transfer": false,
+    "all_nine_sentences_covered": true,
+    "last_sentence_present": true,
+    "recognized_text": " R&D 업무의 AI를 더합니다. 더 나은 R&D 공정을 위한 변화가 시작됩니다. 현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다. 현업의 다양한 과제를 해결하기 위한 도전입니다. 현업의 문제를 AI로 해결하는 R&D 공정, AI 패스트 트랙. 서로 다른 현업의 고민에서 12개의 AI 에이전트 과제가 시작됐습니다. 현업의 고민을 해결하기 위해 개발한 다양한 AI 에이전트를 살펴봅니다. 업무 효율을 높이고 데이터 기반의 의사 결정과 새로운 분석을 지원합니다. 지금부터 12개의 AI 에이전트 과제를 소개합니다.",
+    "character_perfect_ASR": false,
+    "spelling_caveats": [],
+    "transcript_sha256": "ef956f5a3d3043bc507fe58242edbc616bc0ab8e81eff43b1b31b40f46f8054a",
+    "limitations": "ASR spelling and word timings are approximate. Unprompted Whisper may canonicalize spoken Korean 알앤디 as R&D. AI, Agent and 12 pronunciation variants are normalized. This is sentence coverage evidence, not a claim of character-perfect ASR."
+  },
+  "boundary_reviews": [
+    {
+      "after_block": 1,
+      "cut_sample": 122324,
+      "cut_seconds": 2.5484166666666668,
+      "waveform_pause_seconds": [
+        2.336458,
+        2.760396
+      ],
+      "previous_last_word": {
+        "word": " 더합니다.",
+        "start": 1.68,
+        "end": 2.08,
+        "probability": 0.9357527196407318
+      },
+      "following_first_word": {
+        "word": " 더",
+        "start": 2.7,
+        "end": 2.9,
+        "probability": 0.9780769348144531
+      },
+      "waveform_center_50ms_rms_dbfs": -67.1948421935613,
+      "transcript_boundary_verified": true,
+      "targeted_following_sentence_transcript": null,
+      "targeted_previous_sentence_transcript": null,
+      "timestamp_caveat": null
+    },
+    {
+      "after_block": 2,
+      "cut_sample": 301225,
+      "cut_seconds": 6.275520833333333,
+      "waveform_pause_seconds": [
+        5.999583,
+        6.551479
+      ],
+      "previous_last_word": {
+        "word": " 시작됩니다.",
+        "start": 5.16,
+        "end": 5.9,
+        "probability": 0.9963800112406412
+      },
+      "following_first_word": {
+        "word": " 현장의",
+        "start": 6.52,
+        "end": 6.98,
+        "probability": 0.9923613468805949
+      },
+      "waveform_center_50ms_rms_dbfs": -85.34143144198458,
+      "transcript_boundary_verified": true,
+      "targeted_following_sentence_transcript": null,
+      "targeted_previous_sentence_transcript": null,
+      "timestamp_caveat": null
+    },
+    {
+      "after_block": 3,
+      "cut_sample": 523187,
+      "cut_seconds": 10.899729166666667,
+      "waveform_pause_seconds": [
+        10.623938,
+        11.1755
+      ],
+      "previous_last_word": {
+        "word": " 만들어갑니다.",
+        "start": 9.8,
+        "end": 10.5,
+        "probability": 0.8560972809791565
+      },
+      "following_first_word": {
+        "word": " 현업의",
+        "start": 11.16,
+        "end": 11.58,
+        "probability": 0.9260870615641276
+      },
+      "waveform_center_50ms_rms_dbfs": -87.15629435140843,
+      "transcript_boundary_verified": true,
+      "targeted_following_sentence_transcript": null,
+      "targeted_previous_sentence_transcript": null,
+      "timestamp_caveat": null
+    },
+    {
+      "after_block": 4,
+      "cut_sample": 700361,
+      "cut_seconds": 14.590854166666666,
+      "waveform_pause_seconds": [
+        14.238208,
+        14.9435
+      ],
+      "previous_last_word": {
+        "word": " 도전입니다.",
+        "start": 13.32,
+        "end": 14.02,
+        "probability": 0.9909572800000509
+      },
+      "following_first_word": {
+        "word": " 현업의",
+        "start": 14.88,
+        "end": 15.32,
+        "probability": 0.9861378073692322
+      },
+      "waveform_center_50ms_rms_dbfs": -85.27449676477424,
+      "transcript_boundary_verified": true,
+      "targeted_following_sentence_transcript": null,
+      "targeted_previous_sentence_transcript": null,
+      "timestamp_caveat": null
+    },
+    {
+      "after_block": 5,
+      "cut_sample": 951405,
+      "cut_seconds": 19.8209375,
+      "waveform_pause_seconds": [
+        19.501958,
+        20.139917
+      ],
+      "previous_last_word": {
+        "word": " 트랙.",
+        "start": 19.18,
+        "end": 19.46,
+        "probability": 0.782648891210556
+      },
+      "following_first_word": {
+        "word": " 서로",
+        "start": 20.12,
+        "end": 20.3,
+        "probability": 0.9981667995452881
+      },
+      "waveform_center_50ms_rms_dbfs": -86.01551396995774,
+      "transcript_boundary_verified": true,
+      "targeted_following_sentence_transcript": null,
+      "targeted_previous_sentence_transcript": null,
+      "timestamp_caveat": null
+    },
+    {
+      "after_block": 6,
+      "cut_sample": 1213089,
+      "cut_seconds": 25.2726875,
+      "waveform_pause_seconds": [
+        24.973667,
+        25.571708
+      ],
+      "previous_last_word": {
+        "word": " 시작됐습니다.",
+        "start": 23.9,
+        "end": 24.82,
+        "probability": 0.9776001572608948
+      },
+      "following_first_word": {
+        "word": " 현업의",
+        "start": 24.82,
+        "end": 25.94,
+        "probability": 0.9192471106847128
+      },
+      "waveform_center_50ms_rms_dbfs": -85.25523755441385,
+      "transcript_boundary_verified": true,
+      "targeted_following_sentence_transcript": " 현업의 고민을 해결하기 위해 개발한 다양한 AI 에이전트를 살펴봅니다.",
+      "targeted_previous_sentence_transcript": null,
+      "timestamp_caveat": "Full-take ASR boundary timestamps include the adjacent pause. Exact-cut isolated transcriptions confirm the complete sentence and edge words."
+    },
+    {
+      "after_block": 7,
+      "cut_sample": 1467257,
+      "cut_seconds": 30.567854166666667,
+      "waveform_pause_seconds": [
+        30.234042,
+        30.901667
+      ],
+      "previous_last_word": {
+        "word": " 살펴봅니다.",
+        "start": 29.3,
+        "end": 30.16,
+        "probability": 0.9891525506973267
+      },
+      "following_first_word": {
+        "word": " 업무",
+        "start": 30.76,
+        "end": 31.2,
+        "probability": 0.9588047862052917
+      },
+      "waveform_center_50ms_rms_dbfs": -85.34200800286415,
+      "transcript_boundary_verified": true,
+      "targeted_following_sentence_transcript": null,
+      "targeted_previous_sentence_transcript": null,
+      "timestamp_caveat": null
+    },
+    {
+      "after_block": 8,
+      "cut_sample": 1737478,
+      "cut_seconds": 36.19745833333333,
+      "waveform_pause_seconds": [
+        35.8885,
+        36.506437
+      ],
+      "previous_last_word": {
+        "word": " 지원합니다.",
+        "start": 35.12,
+        "end": 35.68,
+        "probability": 0.9935848116874695
+      },
+      "following_first_word": {
+        "word": " 지금부터",
+        "start": 36.46,
+        "end": 37.02,
+        "probability": 0.9941211740175883
+      },
+      "waveform_center_50ms_rms_dbfs": -88.31899331399542,
+      "transcript_boundary_verified": true,
+      "targeted_following_sentence_transcript": null,
+      "targeted_previous_sentence_transcript": null,
+      "timestamp_caveat": null
+    }
+  ],
+  "clips": [
+    {
+      "id": 1,
+      "start_ms": 0,
+      "end_ms": 3000,
+      "text": "R&D 업무에 AI를 더합니다.",
+      "spoken_text": "알앤디 업무에 AI를 더합니다.",
+      "file": "vo1.wav",
+      "sha256": "26dd93933c20036d74118d8f4abb9f1a2af8546127aa4ec6bfa895478d1a6421",
+      "recognized_text": "R&D 업무의 AI를 더합니다.",
+      "isolated_sentence_review_text": null,
+      "ASR_spelling_caveat": null,
+      "normalized_character_similarity": 0.933333,
+      "source_start_sample": 0,
+      "source_end_sample": 122324,
+      "source_duration_seconds": 2.5484166666666668,
+      "timeline_trim_start_sample": 1061,
+      "timeline_trim_end_sample": 117323,
+      "trim_edge_padding_samples": [
+        2880,
+        3840
+      ],
+      "trimmed_duration_seconds": 2.422125,
+      "tempo_ratio": 1.0,
+      "timeline_start_seconds": 0.12,
+      "timeline_end_seconds": 2.542125,
+      "exact_source_pcm_match": true
+    },
+    {
+      "id": 2,
+      "start_ms": 3000,
+      "end_ms": 7000,
+      "text": "더 나은 R&D 공정을 위한 변화가 시작됩니다.",
+      "spoken_text": "더 나은 알앤디 공정을 위한 변화가 시작됩니다.",
+      "file": "vo2.wav",
+      "sha256": "67f7dcf7a2b2aa8a152068a0e9dedace36db8e66eb9d8a0a02cd770eea55b3bc",
+      "recognized_text": "더 나은 R&D 공정을 위한 변화가 시작됩니다.",
+      "isolated_sentence_review_text": null,
+      "ASR_spelling_caveat": null,
+      "normalized_character_similarity": 1.0,
+      "source_start_sample": 122324,
+      "source_end_sample": 301225,
+      "source_duration_seconds": 3.727104166666667,
+      "timeline_trim_start_sample": 7294,
+      "timeline_trim_end_sample": 170824,
+      "trim_edge_padding_samples": [
+        2880,
+        3840
+      ],
+      "trimmed_duration_seconds": 3.406875,
+      "tempo_ratio": 1.0,
+      "timeline_start_seconds": 3.18,
+      "timeline_end_seconds": 6.586875,
+      "exact_source_pcm_match": true
+    },
+    {
+      "id": 3,
+      "start_ms": 7000,
+      "end_ms": 12000,
+      "text": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+      "spoken_text": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+      "file": "vo3.wav",
+      "sha256": "06a6795bbac8b8d880fb7153c2b83fa3b881ca0cddc545e7c693dc231438358a",
+      "recognized_text": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+      "isolated_sentence_review_text": null,
+      "ASR_spelling_caveat": null,
+      "normalized_character_similarity": 1.0,
+      "source_start_sample": 301225,
+      "source_end_sample": 523187,
+      "source_duration_seconds": 4.624208333333334,
+      "timeline_trim_start_sample": 10112,
+      "timeline_trim_end_sample": 213310,
+      "trim_edge_padding_samples": [
+        2880,
+        3840
+      ],
+      "trimmed_duration_seconds": 4.233291666666666,
+      "tempo_ratio": 1.0,
+      "timeline_start_seconds": 7.25,
+      "timeline_end_seconds": 11.483291666666666,
+      "exact_source_pcm_match": true
+    },
+    {
+      "id": 4,
+      "start_ms": 12000,
+      "end_ms": 17000,
+      "text": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "spoken_text": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "file": "vo4.wav",
+      "sha256": "9b1a567d36db60f76dc697308b83b9e4325e5e6e84b1f81a3af7d4068375491f",
+      "recognized_text": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "isolated_sentence_review_text": null,
+      "ASR_spelling_caveat": null,
+      "normalized_character_similarity": 1.0,
+      "source_start_sample": 523187,
+      "source_end_sample": 700361,
+      "source_duration_seconds": 3.691125,
+      "timeline_trim_start_sample": 10201,
+      "timeline_trim_end_sample": 164485,
+      "trim_edge_padding_samples": [
+        2880,
+        3840
+      ],
+      "trimmed_duration_seconds": 3.21425,
+      "tempo_ratio": 1.0,
+      "timeline_start_seconds": 12.3,
+      "timeline_end_seconds": 15.51425,
+      "exact_source_pcm_match": true
+    },
+    {
+      "id": 5,
+      "start_ms": 17000,
+      "end_ms": 22000,
+      "text": "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track.",
+      "spoken_text": "현업의 문제를 AI로 해결하는 알앤디 공정 AI Fast Track.",
+      "file": "vo5.wav",
+      "sha256": "ad91c8ca68fabe5d63e57d92bee1d52ae96eb80ecc83d1e6cd99bee342437255",
+      "recognized_text": "현업의 문제를 AI로 해결하는 R&D 공정, AI 패스트 트랙.",
+      "isolated_sentence_review_text": null,
+      "ASR_spelling_caveat": null,
+      "normalized_character_similarity": 1.0,
+      "source_start_sample": 700361,
+      "source_end_sample": 951405,
+      "source_duration_seconds": 5.230083333333333,
+      "timeline_trim_start_sample": 14035,
+      "timeline_trim_end_sample": 239706,
+      "trim_edge_padding_samples": [
+        2880,
+        3840
+      ],
+      "trimmed_duration_seconds": 4.701479166666667,
+      "tempo_ratio": 1.0,
+      "timeline_start_seconds": 17.04,
+      "timeline_end_seconds": 21.741479166666664,
+      "exact_source_pcm_match": true
+    },
+    {
+      "id": 6,
+      "start_ms": 22000,
+      "end_ms": 28000,
+      "text": "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+      "spoken_text": "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+      "file": "vo6.wav",
+      "sha256": "095aee673e1c4a787cf2c7bfe4b59c914f10b1d1337f3ff387c453094e301d8e",
+      "recognized_text": "서로 다른 현업의 고민에서 12개의 AI 에이전트 과제가 시작됐습니다.",
+      "isolated_sentence_review_text": null,
+      "ASR_spelling_caveat": null,
+      "normalized_character_similarity": 1.0,
+      "source_start_sample": 951405,
+      "source_end_sample": 1213089,
+      "source_duration_seconds": 5.45175,
+      "timeline_trim_start_sample": 12132,
+      "timeline_trim_end_sample": 252225,
+      "trim_edge_padding_samples": [
+        2880,
+        3840
+      ],
+      "trimmed_duration_seconds": 5.0019375,
+      "tempo_ratio": 1.0,
+      "timeline_start_seconds": 22.25,
+      "timeline_end_seconds": 27.2519375,
+      "exact_source_pcm_match": true
+    },
+    {
+      "id": 7,
+      "start_ms": 28000,
+      "end_ms": 35000,
+      "text": "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+      "spoken_text": "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+      "file": "vo7.wav",
+      "sha256": "b4e15786461a500ae983a409dba82431967d84e098aa42f05caea4f676f2a377",
+      "recognized_text": "현업의 고민을 해결하기 위해 개발한 다양한 AI 에이전트를 살펴봅니다.",
+      "isolated_sentence_review_text": null,
+      "ASR_spelling_caveat": null,
+      "normalized_character_similarity": 1.0,
+      "source_start_sample": 1213089,
+      "source_end_sample": 1467257,
+      "source_duration_seconds": 5.295166666666667,
+      "timeline_trim_start_sample": 11194,
+      "timeline_trim_end_sample": 242582,
+      "trim_edge_padding_samples": [
+        2880,
+        3840
+      ],
+      "trimmed_duration_seconds": 4.820583333333333,
+      "tempo_ratio": 1.0,
+      "timeline_start_seconds": 28.45,
+      "timeline_end_seconds": 33.270583333333335,
+      "exact_source_pcm_match": true
+    },
+    {
+      "id": 8,
+      "start_ms": 35000,
+      "end_ms": 42000,
+      "text": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+      "spoken_text": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+      "file": "vo8.wav",
+      "sha256": "217a2e18b4febbdbc0d225b807c593dd6c7c63acf1c56a9a083ff8bd159dc393",
+      "recognized_text": "업무 효율을 높이고 데이터 기반의 의사 결정과 새로운 분석을 지원합니다.",
+      "isolated_sentence_review_text": null,
+      "ASR_spelling_caveat": null,
+      "normalized_character_similarity": 1.0,
+      "source_start_sample": 1467257,
+      "source_end_sample": 1737478,
+      "source_duration_seconds": 5.629604166666667,
+      "timeline_trim_start_sample": 13111,
+      "timeline_trim_end_sample": 259711,
+      "trim_edge_padding_samples": [
+        2880,
+        3840
+      ],
+      "trimmed_duration_seconds": 5.1375,
+      "tempo_ratio": 1.0,
+      "timeline_start_seconds": 35.4,
+      "timeline_end_seconds": 40.5375,
+      "exact_source_pcm_match": true
+    },
+    {
+      "id": 9,
+      "start_ms": 42000,
+      "end_ms": 46000,
+      "text": "지금부터 12개의 AI Agent 과제를 소개합니다.",
+      "spoken_text": "지금부터 12개의 AI Agent 과제를 소개합니다.",
+      "file": "vo9.wav",
+      "sha256": "6dd26d5eb2c8daf8f13d3152167ba25f2b70168acd0b7a455511ad22593d3b46",
+      "recognized_text": "지금부터 12개의 AI 에이전트 과제를 소개합니다.",
+      "isolated_sentence_review_text": null,
+      "ASR_spelling_caveat": null,
+      "normalized_character_similarity": 1.0,
+      "source_start_sample": 1737478,
+      "source_end_sample": 1935360,
+      "source_duration_seconds": 4.122541666666667,
+      "timeline_trim_start_sample": 13815,
+      "timeline_trim_end_sample": 193939,
+      "trim_edge_padding_samples": [
+        960,
+        1440
+      ],
+      "trimmed_duration_seconds": 3.7525833333333334,
+      "tempo_ratio": 1.0,
+      "timeline_start_seconds": 42.15,
+      "timeline_end_seconds": 45.90258333333333,
+      "exact_source_pcm_match": true
+    }
+  ],
+  "voice_settings": {
+    "requested": {
+      "stability": 0.75,
+      "similarity_boost": 0.75
+    },
+    "actual_exposed": {
+      "voice": "mYk0rAapHek2oTw18z8x",
+      "voice_id": "mYk0rAapHek2oTw18z8x",
+      "language_code": "ko",
+      "output_format": "mp3_44100_128",
+      "pronunciation_dictionary_locators": []
+    },
+    "limitation": "Creative Studio eleven_v4 does not expose stability or similarity_boost. Generation uses connector defaults for those controls; exact values cannot be verified."
+  },
+  "timing_adjustment": {
+    "requested_cut09": [
+      42,
+      45
+    ],
+    "actual_cut09": [
+      42,
+      46
+    ],
+    "reason": "Retains the approved v1 46-second timeline. The final approved sentence requires more than three seconds at natural speed."
+  }
+}

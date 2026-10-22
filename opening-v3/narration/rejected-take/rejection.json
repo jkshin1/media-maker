@@ -1,0 +1,8 @@
+{
+  "status": "REJECTED_FOR_UNCLEAR_CUT02_WORD_VERIFICATION",
+  "generation_id": "kJnbaRK4s7QWPI5t1ZBq",
+  "reason": "Local Whisper whole-take, isolated sentence and beam-5 consistently transcribed 공점을/견화가, while the v2 control under the same settings transcribed 공정을/변화가. The connected Scribe response included an unspoken delivery tag and impossible timings, so it was rejected as independent acoustic evidence.",
+  "source_master_sha256": "e90f42e768d4c91dbfeb2cbc4f1ae1fa1f4e60c6c40273a204cd2a52d5e01e5f",
+  "source_mp3_retained": true,
+  "new_take_plan": "One deliberate corrected full take with clear Korean diction; exact approved nine spoken sentences remain unchanged."
+}

@@ -1,0 +1,5260 @@
+{
+  "revision": 9,
+  "status": "PASS_WITH_ASR_VARIANTS",
+  "master": "narration/recovery/composite-original.wav",
+  "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+  "asr": "narration/transcription-recovered/mapped-source-words.json",
+  "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+  "master_duration": 337.12,
+  "master_samples": 16181760,
+  "config_sha256": "af21b829868fdb5e69fea88f58d1f3c5c8bdbed6e1872fa4d5fb1c8afa564ec5",
+  "spec_sha256": "0f6a3caf04d1d82a728f476b21c166fa225f2cd113c57cd27e92185378d19345",
+  "brief_sha256": "80709d19e491b01aab20b29a045392d815cb7995a41fa67a369a4907f6cb86cf",
+  "normalization": "Saved pronunciation/number aliases and spacing/punctuation only; raw ASR and every discrepancy are retained.",
+  "expected_chars": 1699,
+  "asr_chars": 1700,
+  "exact_character_coverage": 0.9846968805179518,
+  "edit_distance": 27,
+  "edit_count": 27,
+  "edits": [
+    {
+      "kind": "substitution",
+      "expected_index": 5,
+      "actual_index": 5,
+      "expected": "에",
+      "actual": "의"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 105,
+      "actual_index": 105,
+      "expected": "패",
+      "actual": "페"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 238,
+      "actual_index": 238,
+      "expected": "에",
+      "actual": "의"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 241,
+      "actual_index": 241,
+      "expected": "해",
+      "actual": "의"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 242,
+      "actual_index": 242,
+      "expected": "열",
+      "actual": "여"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 243,
+      "actual_index": 243,
+      "expected": "화",
+      "actual": "러"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 263,
+      "actual_index": 263,
+      "expected": "맵",
+      "actual": "넵"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 565,
+      "actual_index": 565,
+      "expected": "두",
+      "actual": "도"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 778,
+      "actual_index": 778,
+      "expected": "구",
+      "actual": "고"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 806,
+      "actual_index": 806,
+      "expected": "메",
+      "actual": "매"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 853,
+      "actual_index": 853,
+      "expected": "로",
+      "actual": "노"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1003,
+      "actual_index": 1003,
+      "expected": "황",
+      "actual": "안"
+    },
+    {
+      "kind": "insertion",
+      "expected_index": 1158,
+      "actual_index": 1158,
+      "actual": "피"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1158,
+      "actual_index": 1159,
+      "expected": "핍",
+      "actual": "입"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1236,
+      "actual_index": 1237,
+      "expected": "건",
+      "actual": "껌"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1294,
+      "actual_index": 1295,
+      "expected": "어",
+      "actual": "으"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1313,
+      "actual_index": 1314,
+      "expected": "해",
+      "actual": "에"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1393,
+      "actual_index": 1394,
+      "expected": "쿼",
+      "actual": "커"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1495,
+      "actual_index": 1496,
+      "expected": "계",
+      "actual": "개"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1498,
+      "actual_index": 1499,
+      "expected": "육",
+      "actual": "유"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1499,
+      "actual_index": 1500,
+      "expected": "안",
+      "actual": "관"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1508,
+      "actual_index": 1509,
+      "expected": "계",
+      "actual": "개"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1518,
+      "actual_index": 1519,
+      "expected": "처",
+      "actual": "철"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1519,
+      "actual_index": 1520,
+      "expected": "리",
+      "actual": "이"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1535,
+      "actual_index": 1536,
+      "expected": "계",
+      "actual": "개"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1542,
+      "actual_index": 1543,
+      "expected": "대",
+      "actual": "데"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1686,
+      "actual_index": 1687,
+      "expected": "두",
+      "actual": "2"
+    }
+  ],
+  "cuts": [
+    {
+      "id": "opening_cut1",
+      "section_id": "opening",
+      "expected": "R&D 업무에 AI를 더합니다.",
+      "spoken_text": "알앤디 업무에 에이아이를 더합니다.",
+      "normalized": "알앤디업무에에이아이를더합니다",
+      "asr_text": "R &D 업무의 AI를 더합니다.",
+      "character_coverage": 0.9333333333333333,
+      "first_word_index": 0,
+      "last_word_index": 4,
+      "word_start": 0.0,
+      "word_end": 1.98,
+      "review_required": true
+    },
+    {
+      "id": "opening_cut2",
+      "section_id": "opening",
+      "expected": "더 나은 R&D 공정을 위한 변화가 시작됩니다.",
+      "spoken_text": "더 나은 알앤디 공정을 위한 변화가 시작됩니다.",
+      "normalized": "더나은알앤디공정을위한변화가시작됩니다",
+      "asr_text": "더 나은 R &D 공정을 위한 변화가 시작됩니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 5,
+      "last_word_index": 12,
+      "word_start": 2.8,
+      "word_end": 5.96,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut3",
+      "section_id": "opening",
+      "expected": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+      "spoken_text": "현장의 경험과 에이아이 기술이 만나 새로운 해법을 만들어갑니다.",
+      "normalized": "현장의경험과에이아이기술이만나새로운해법을만들어갑니다",
+      "asr_text": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 13,
+      "last_word_index": 20,
+      "word_start": 6.8,
+      "word_end": 10.72,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut4",
+      "section_id": "opening",
+      "expected": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "spoken_text": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "normalized": "현업의다양한과제를해결하기위한도전입니다",
+      "asr_text": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 21,
+      "last_word_index": 26,
+      "word_start": 11.72,
+      "word_end": 14.32,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut5",
+      "section_id": "opening",
+      "expected": "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track.",
+      "spoken_text": "현업의 문제를 에이아이로 해결하는 알앤디 공정 에이아이 패스트 트랙.",
+      "normalized": "현업의문제를에이아이로해결하는알앤디공정에이아이패스트트랙",
+      "asr_text": "현업의 문제를 AI로 해결하는 R &D 공정 AI 페스트트랙",
+      "character_coverage": 0.9655172413793104,
+      "first_word_index": 27,
+      "last_word_index": 35,
+      "word_start": 15.88,
+      "word_end": 20.18,
+      "review_required": true
+    },
+    {
+      "id": "opening_cut6",
+      "section_id": "opening",
+      "expected": "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+      "spoken_text": "서로 다른 현업의 고민에서 열두 개의 에이아이 에이전트 과제가 시작됐습니다.",
+      "normalized": "서로다른현업의고민에서열두개의에이아이에이전트과제가시작됐습니다",
+      "asr_text": "서로 다른 현업의 고민에서 12개의 AI 에이전트 과제가 시작됐습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 36,
+      "last_word_index": 44,
+      "word_start": 20.84,
+      "word_end": 25.86,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut7",
+      "section_id": "opening",
+      "expected": "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+      "spoken_text": "현업의 고민을 해결하기 위해 개발한 다양한 에이아이 에이전트를 살펴봅니다.",
+      "normalized": "현업의고민을해결하기위해개발한다양한에이아이에이전트를살펴봅니다",
+      "asr_text": "현업의 고민을 해결하기 위해 개발한 다양한 AI 에이전트를 살펴봅니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 45,
+      "last_word_index": 53,
+      "word_start": 26.86,
+      "word_end": 31.44,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut8",
+      "section_id": "opening",
+      "expected": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+      "spoken_text": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+      "normalized": "업무효율을높이고데이터기반의의사결정과새로운분석을지원합니다",
+      "asr_text": "업무 효율을 높이고 데이터 기반의 의사 결정과 새로운 분석을 지원합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 54,
+      "last_word_index": 63,
+      "word_start": 32.14,
+      "word_end": 37.6,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut9",
+      "section_id": "opening",
+      "expected": "지금부터 12개의 AI Agent 과제를 소개합니다.",
+      "spoken_text": "지금부터 열두 개의 에이아이 에이전트 과제를 소개합니다.",
+      "normalized": "지금부터열두개의에이아이에이전트과제를소개합니다",
+      "asr_text": "지금부터 12개의 AI 에이전트 과제를 소개합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 64,
+      "last_word_index": 69,
+      "word_start": 38.7,
+      "word_end": 42.1,
+      "review_required": false
+    },
+    {
+      "id": "task11_cut1",
+      "section_id": "task11",
+      "expected": "여러 도구를 오가며 경험에 의존해 열화 원인을 분석했습니다.",
+      "spoken_text": "여러 도구를 오가며 경험에 의존해 열화 원인을 분석했습니다.",
+      "normalized": "여러도구를오가며경험에의존해열화원인을분석했습니다",
+      "asr_text": "여러 도구를 오가며 경험의 의존의 여러 원인을 분석했습니다.",
+      "character_coverage": 0.84,
+      "first_word_index": 70,
+      "last_word_index": 77,
+      "word_start": 44.3,
+      "word_end": 48.08,
+      "review_required": true
+    },
+    {
+      "id": "task11_cut2",
+      "section_id": "task11",
+      "expected": "Lot ID를 입력하면 Map과 Trend, K-param을 함께 조회합니다.",
+      "spoken_text": "로트 아이디를 입력하면 맵과 트렌드, 케이 파라미터를 함께 조회합니다.",
+      "normalized": "로트아이디를입력하면맵과트렌드케이파라미터를함께조회합니다",
+      "asr_text": "로트 아이디를 입력하면 넵과 트렌드, K -파라미터를 함께 조회합니다.",
+      "character_coverage": 0.9655172413793104,
+      "first_word_index": 78,
+      "last_word_index": 86,
+      "word_start": 49.36,
+      "word_end": 54.02,
+      "review_required": true
+    },
+    {
+      "id": "task11_cut3",
+      "section_id": "task11",
+      "expected": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+      "spoken_text": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+      "normalized": "표준진단기준을적용해원인분석과솔루션검토를지원합니다",
+      "asr_text": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 87,
+      "last_word_index": 95,
+      "word_start": 55.02,
+      "word_end": 59.46,
+      "review_required": false
+    },
+    {
+      "id": "task11_cut4",
+      "section_id": "task11",
+      "expected": "기존 건당 15분에서 1시간 걸리던 분석 시간을 몇 분 수준으로 줄였습니다.",
+      "spoken_text": "기존 건당 십오 분에서 한 시간 걸리던 분석 시간을 몇 분 수준으로 줄였습니다.",
+      "normalized": "기존건당십오분에서한시간걸리던분석시간을몇분수준으로줄였습니다",
+      "asr_text": "기존 건당 15분에서 1시간 걸리던 분석 시간을 몇 분 수준으로 줄였습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 96,
+      "last_word_index": 106,
+      "word_start": 60.0,
+      "word_end": 65.04,
+      "review_required": false
+    },
+    {
+      "id": "task11_cut5",
+      "section_id": "task11",
+      "expected": "반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다.",
+      "spoken_text": "반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다.",
+      "normalized": "반복조회와설정을줄이고분석근거를한화면에서확인합니다",
+      "asr_text": "반복 조회와 설정을 줄이고 분석 근거를 한 화면에서 확인합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 107,
+      "last_word_index": 115,
+      "word_start": 66.54,
+      "word_end": 70.46,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut1",
+      "section_id": "task13",
+      "expected": "장비 이슈와 PM 계획을 모아 일일 보고를 반복 작성했습니다.",
+      "spoken_text": "장비 이슈와 피엠 계획을 모아 일일 보고를 반복 작성했습니다.",
+      "normalized": "장비이슈와피엠계획을모아일일보고를반복작성했습니다",
+      "asr_text": "장비 이슈와 PM 계획을 모아 1일 보고를 반복 작성했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 116,
+      "last_word_index": 124,
+      "word_start": 71.9,
+      "word_end": 75.74,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut2",
+      "section_id": "task13",
+      "expected": "Agent가 장비 이력과 PM 계획을 조회합니다.",
+      "spoken_text": "에이전트가 장비 이력과 피엠 계획을 조회합니다.",
+      "normalized": "에이전트가장비이력과피엠계획을조회합니다",
+      "asr_text": "에이전트가 장비 이력과 PM 계획을 조회합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 125,
+      "last_word_index": 130,
+      "word_start": 77.04,
+      "word_end": 79.9,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut3",
+      "section_id": "task13",
+      "expected": "내용을 요약해 오전 6시에 표준 HTML 보고 메일을 자동 발송합니다.",
+      "spoken_text": "내용을 요약해 오전 여섯 시에 표준 에이치티엠엘 보고 메일을 자동 발송합니다.",
+      "normalized": "내용을요약해오전여섯시에표준에이치티엠엘보고메일을자동발송합니다",
+      "asr_text": "내용을 요약해 오전 6시에 표준 HTML 보고 메일을 자동발송합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 131,
+      "last_word_index": 139,
+      "word_start": 80.87,
+      "word_end": 85.6,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut4",
+      "section_id": "task13",
+      "expected": "일일 보고 작성 시간을 20분에서 0분으로 줄이고, 연간 약 122시간을 절감합니다.",
+      "spoken_text": "일일 보고 작성 시간을 이십 분에서 영 분으로 줄이고, 연간 약 백이십이 시간을 절감합니다.",
+      "normalized": "일일보고작성시간을이십분에서영분으로줄이고연간약백이십이시간을절감합니다",
+      "asr_text": "1일 보고 작성 시간을 20분에서 0분으로 줄이고 연간 약 122시간을 절감합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 140,
+      "last_word_index": 150,
+      "word_start": 86.52,
+      "word_end": 92.92,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut5",
+      "section_id": "task13",
+      "expected": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다.",
+      "spoken_text": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다.",
+      "normalized": "담당자는메일확인과검토장비대응에집중합니다",
+      "asr_text": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 151,
+      "last_word_index": 157,
+      "word_start": 94.04,
+      "word_end": 97.56,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut1",
+      "section_id": "task7",
+      "expected": "과거 자료 탐색과 전문가 문의에 의존했습니다.",
+      "spoken_text": "과거 자료 탐색과 전문가 문의에 의존했습니다.",
+      "normalized": "과거자료탐색과전문가문의에의존했습니다",
+      "asr_text": "과거자료 탐색과 전문가 문의에 의존했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 158,
+      "last_word_index": 162,
+      "word_start": 98.72,
+      "word_end": 101.34,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut2",
+      "section_id": "task7",
+      "expected": "평가 목적을 입력하면 내부 지식 아카이브를 검색합니다.",
+      "spoken_text": "평가 목적을 입력하면 내부 지식 아카이브를 검색합니다.",
+      "normalized": "평가목적을입력하면내부지식아카이브를검색합니다",
+      "asr_text": "평가 목적을 입력하면 내부지식 아카이브를 검색합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 163,
+      "last_word_index": 168,
+      "word_start": 102.72,
+      "word_end": 106.24,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut3",
+      "section_id": "task7",
+      "expected": "관련 Recipe와 근거 자료를 함께 제안합니다.",
+      "spoken_text": "관련 레시피와 근거 자료를 함께 제안합니다.",
+      "normalized": "관련레시피와근거자료를함께제안합니다",
+      "asr_text": "관련 레시피와 근거 자료를 함께 제안합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 169,
+      "last_word_index": 174,
+      "word_start": 107.00999999999999,
+      "word_end": 109.96,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut4",
+      "section_id": "task7",
+      "expected": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "spoken_text": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "normalized": "자료탐색과구두문의의존을줄여평가계획수립을지원합니다",
+      "asr_text": "자료 탐색과 구도문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "character_coverage": 0.9615384615384616,
+      "first_word_index": 175,
+      "last_word_index": 183,
+      "word_start": 111.0,
+      "word_end": 114.94,
+      "review_required": true
+    },
+    {
+      "id": "task7_cut5",
+      "section_id": "task7",
+      "expected": "전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+      "spoken_text": "전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+      "normalized": "전문가지식을축적해담당자가바뀌어도활용할수있는기반을마련합니다",
+      "asr_text": "전문가 지식을 축적해 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 184,
+      "last_word_index": 193,
+      "word_start": 116.08,
+      "word_end": 120.54,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut1",
+      "section_id": "task17",
+      "expected": "TEM 이미지 측정과 기록을 수작업으로 진행해 편차가 생겼습니다.",
+      "spoken_text": "템 이미지 측정과 기록을 수작업으로 진행해 편차가 생겼습니다.",
+      "normalized": "템이미지측정과기록을수작업으로진행해편차가생겼습니다",
+      "asr_text": "템, 이미지 측정과 기록을 수작업으로 진행해 편차가 생겼습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 194,
+      "last_word_index": 201,
+      "word_start": 122.12,
+      "word_end": 126.14,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut2",
+      "section_id": "task17",
+      "expected": "이미지 기울기와 측정 위치를 분석합니다.",
+      "spoken_text": "이미지 기울기와 측정 위치를 분석합니다.",
+      "normalized": "이미지기울기와측정위치를분석합니다",
+      "asr_text": "이미지 기울기와 측정 위치를 분석합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 202,
+      "last_word_index": 206,
+      "word_start": 127.24,
+      "word_end": 129.6,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut3",
+      "section_id": "task17",
+      "expected": "측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다.",
+      "spoken_text": "측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다.",
+      "normalized": "측정값과좌표측정선오버레이를자동생성하고결과와이력을저장합니다",
+      "asr_text": "측정값과 좌표, 측정선 오버레이를 자동생성하고 결과와 이력을 저장합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 207,
+      "last_word_index": 214,
+      "word_start": 130.6,
+      "word_end": 136.04,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut4",
+      "section_id": "task17",
+      "expected": "이미지당 측정 시간을 5분에서 6초로 줄입니다.",
+      "spoken_text": "이미지당 측정 시간을 오 분에서 육 초로 줄입니다.",
+      "normalized": "이미지당측정시간을오분에서육초로줄입니다",
+      "asr_text": "이미지당 측정시간을 5분에서 6초로 줄입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 215,
+      "last_word_index": 219,
+      "word_start": 136.82,
+      "word_end": 140.12,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut1",
+      "section_id": "task5",
+      "expected": "여러 파일과 표를 오가며 자료를 비교·취합했습니다.",
+      "spoken_text": "여러 파일과 표를 오가며 자료를 비교, 취합했습니다.",
+      "normalized": "여러파일과표를오가며자료를비교취합했습니다",
+      "asr_text": "여러 파일과 표를 오가며 자료를 비교 취합했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 220,
+      "last_word_index": 226,
+      "word_start": 141.42,
+      "word_end": 144.64,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut2",
+      "section_id": "task5",
+      "expected": "데이터를 Working Board에 등록합니다.",
+      "spoken_text": "데이터를 워킹 보드에 등록합니다.",
+      "normalized": "데이터를워킹보드에등록합니다",
+      "asr_text": "데이터를 워킹보드에 등록합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 227,
+      "last_word_index": 229,
+      "word_start": 145.78,
+      "word_end": 147.44,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut3",
+      "section_id": "task5",
+      "expected": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+      "spoken_text": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+      "normalized": "자연어질문으로필요한정보를추출하고여러데이터를교차분석합니다",
+      "asr_text": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 230,
+      "last_word_index": 238,
+      "word_start": 148.48,
+      "word_end": 152.9,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut4",
+      "section_id": "task5",
+      "expected": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "spoken_text": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "normalized": "조회창구를단일화해파일탐색과반복취합부담을줄입니다",
+      "asr_text": "조회창고를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "character_coverage": 0.96,
+      "first_word_index": 239,
+      "last_word_index": 246,
+      "word_start": 154.3,
+      "word_end": 158.06,
+      "review_required": true
+    },
+    {
+      "id": "task5_cut5",
+      "section_id": "task5",
+      "expected": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "spoken_text": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "normalized": "분석자료와도메인지식을함께관리할수있는기반을마련합니다",
+      "asr_text": "분석 자료와 도매인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "character_coverage": 0.9629629629629629,
+      "first_word_index": 247,
+      "last_word_index": 256,
+      "word_start": 159.02,
+      "word_end": 162.88,
+      "review_required": true
+    },
+    {
+      "id": "task9_cut1",
+      "section_id": "task9",
+      "expected": "Spec out 발생 시 공정 이력을 조사하고 데이터를 가공했습니다.",
+      "spoken_text": "스펙 아웃 발생 시 공정 이력을 조사하고 데이터를 가공했습니다.",
+      "normalized": "스펙아웃발생시공정이력을조사하고데이터를가공했습니다",
+      "asr_text": "스펙 아웃 발생 시 공정 이력을 조사하고 데이터를 가공했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 257,
+      "last_word_index": 265,
+      "word_start": 163.62,
+      "word_end": 168.04,
+      "review_required": false
+    },
+    {
+      "id": "task9_cut2",
+      "section_id": "task9",
+      "expected": "Lot ID와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "spoken_text": "로트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "normalized": "로트아이디와메인공정을입력해데이터수집과통합을연결합니다",
+      "asr_text": "노트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "character_coverage": 0.9642857142857143,
+      "first_word_index": 266,
+      "last_word_index": 274,
+      "word_start": 169.52,
+      "word_end": 173.58,
+      "review_required": true
+    },
+    {
+      "id": "task9_cut3",
+      "section_id": "task9",
+      "expected": "상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다.",
+      "spoken_text": "상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다.",
+      "normalized": "상관관계와이상치를분석하고원인공정후보랭킹과리포트를생성합니다",
+      "asr_text": "상관 관계와 이상치를 분석하고 원인 공정 후보랭킹과 리포트를 생성합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 275,
+      "last_word_index": 283,
+      "word_start": 174.68,
+      "word_end": 180.08,
+      "review_required": false
+    },
+    {
+      "id": "task9_cut4",
+      "section_id": "task9",
+      "expected": "분석 시간을 70퍼센트 이상 단축합니다.",
+      "spoken_text": "분석 시간을 칠십 퍼센트 이상 단축합니다.",
+      "normalized": "분석시간을칠십퍼센트이상단축합니다",
+      "asr_text": "분석 시간을 70 % 이상 단축합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 284,
+      "last_word_index": 289,
+      "word_start": 181.28,
+      "word_end": 183.76,
+      "review_required": false
+    },
+    {
+      "id": "task9_cut5",
+      "section_id": "task9",
+      "expected": "분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.",
+      "spoken_text": "분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.",
+      "normalized": "분석절차와기준을일관되게적용하며원인공정은확정원인이아닌후보로검토합니다",
+      "asr_text": "분석 절차와 기준을 일관되게 적용하며 원인 공정은 확정 원인이 아닌 후보로 검토합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 290,
+      "last_word_index": 301,
+      "word_start": 184.76,
+      "word_end": 191.04,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut1",
+      "section_id": "task4",
+      "expected": "Lot·장비·FDC를 따로 조회하고 DOE 결과를 공유하기 어려웠습니다.",
+      "spoken_text": "로트, 장비, 에프디씨를 따로 조회하고 디오이 결과를 공유하기 어려웠습니다.",
+      "normalized": "로트장비에프디씨를따로조회하고디오이결과를공유하기어려웠습니다",
+      "asr_text": "로트, 장비, FDC를 따로 조회하고 DOE 결과를 공유하기 어려웠습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 302,
+      "last_word_index": 310,
+      "word_start": 192.22,
+      "word_end": 197.22,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut2",
+      "section_id": "task4",
+      "expected": "웹 플랫폼에서 현황과 모니터링 Trend를 통합 조회합니다.",
+      "spoken_text": "웹 플랫폼에서 현황과 모니터링 트렌드를 통합 조회합니다.",
+      "normalized": "웹플랫폼에서현황과모니터링트렌드를통합조회합니다",
+      "asr_text": "웹 플랫폼에서 현안과 모니터링 트렌드를 통합 조회합니다.",
+      "character_coverage": 0.9583333333333334,
+      "first_word_index": 311,
+      "last_word_index": 317,
+      "word_start": 198.44,
+      "word_end": 201.96,
+      "review_required": true
+    },
+    {
+      "id": "task4_cut3",
+      "section_id": "task4",
+      "expected": "구성원이 DOE 평가 결과를 함께 확인합니다.",
+      "spoken_text": "구성원이 디오이 평가 결과를 함께 확인합니다.",
+      "normalized": "구성원이디오이평가결과를함께확인합니다",
+      "asr_text": "구성원이 DOE 평가 결과를 함께 확인합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 318,
+      "last_word_index": 323,
+      "word_start": 202.98,
+      "word_end": 205.6,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut4",
+      "section_id": "task4",
+      "expected": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+      "spoken_text": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+      "normalized": "시스템이동과데이터가공부담을줄입니다",
+      "asr_text": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 324,
+      "last_word_index": 329,
+      "word_start": 206.7,
+      "word_end": 209.14,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut5",
+      "section_id": "task4",
+      "expected": "개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.",
+      "spoken_text": "개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.",
+      "normalized": "개인의평가결과와분석노하우를조직안에서공유합니다",
+      "asr_text": "개인의 평가 결과와 분석 노하우를 조직안에서 공유합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 330,
+      "last_word_index": 336,
+      "word_start": 210.14,
+      "word_end": 213.76,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut1",
+      "section_id": "task12",
+      "expected": "경비를 엑셀로 집계하고 장비 이력을 따로 확인했습니다.",
+      "spoken_text": "경비를 엑셀로 집계하고 장비 이력을 따로 확인했습니다.",
+      "normalized": "경비를엑셀로집계하고장비이력을따로확인했습니다",
+      "asr_text": "경비를 엑셀로 집계하고 장비 이력을 따로 확인했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 337,
+      "last_word_index": 343,
+      "word_start": 214.64,
+      "word_end": 218.26,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut2",
+      "section_id": "task12",
+      "expected": "경비와 장비 이력을 연결하고 22개 판단 지표를 추가했습니다.",
+      "spoken_text": "경비와 장비 이력을 연결하고 스물두 개 판단 지표를 추가했습니다.",
+      "normalized": "경비와장비이력을연결하고스물두개판단지표를추가했습니다",
+      "asr_text": "경비와 장비 이력을 연결하고 22개 판단 지표를 추가했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 344,
+      "last_word_index": 351,
+      "word_start": 219.5,
+      "word_end": 223.38,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut3",
+      "section_id": "task12",
+      "expected": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다.",
+      "spoken_text": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다.",
+      "normalized": "비용증가원인과절감검토후보를분석하고실행가능성을함께살핍니다",
+      "asr_text": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살피입니다.",
+      "character_coverage": 0.9666666666666667,
+      "first_word_index": 352,
+      "last_word_index": 362,
+      "word_start": 224.8,
+      "word_end": 229.8,
+      "review_required": true
+    },
+    {
+      "id": "task3_cut1",
+      "section_id": "task3",
+      "expected": "Lot 분석을 위해 공정·장비·Inline 정보를 따로 조사했습니다.",
+      "spoken_text": "로트 분석을 위해 공정, 장비, 인라인 정보를 따로 조사했습니다.",
+      "normalized": "로트분석을위해공정장비인라인정보를따로조사했습니다",
+      "asr_text": "로트 분석을 위해 공정, 장비, 인라인 정보를 따로 조사했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 363,
+      "last_word_index": 371,
+      "word_start": 231.14,
+      "word_end": 235.0,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut2",
+      "section_id": "task3",
+      "expected": "앱에서 Lot과 장비 이력, Inline 데이터를 조회하고 추출합니다.",
+      "spoken_text": "앱에서 로트와 장비 이력, 인라인 데이터를 조회하고 추출합니다.",
+      "normalized": "앱에서로트와장비이력인라인데이터를조회하고추출합니다",
+      "asr_text": "앱에서 로트와 장비 이력, 인라인 데이터를 조회하고 추출합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 372,
+      "last_word_index": 379,
+      "word_start": 236.0,
+      "word_end": 240.02,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut3",
+      "section_id": "task3",
+      "expected": "Lot 간 공정 수순과 장비, Recipe 차이를 비교합니다.",
+      "spoken_text": "로트 간 공정 수순과 장비, 레시피 차이를 비교합니다.",
+      "normalized": "로트간공정수순과장비레시피차이를비교합니다",
+      "asr_text": "로트 간 공정 수순과 장비 레시피 차이를 비교합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 380,
+      "last_word_index": 387,
+      "word_start": 240.92,
+      "word_end": 244.62,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut4",
+      "section_id": "task3",
+      "expected": "Lot 한 건 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다.",
+      "spoken_text": "로트 한 건 분석 시간을 약 두 시간 사십 분에서 이십 분 이내로 줄입니다.",
+      "normalized": "로트한건분석시간을약두시간사십분에서이십분이내로줄입니다",
+      "asr_text": "로트 한 껌 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다.",
+      "character_coverage": 0.9642857142857143,
+      "first_word_index": 388,
+      "last_word_index": 398,
+      "word_start": 245.74,
+      "word_end": 250.06,
+      "review_required": true
+    },
+    {
+      "id": "task8_cut1",
+      "section_id": "task8",
+      "expected": "공정 데이터를 조회하고 엑셀로 가공·시각화했습니다.",
+      "spoken_text": "공정 데이터를 조회하고 엑셀로 가공, 시각화했습니다.",
+      "normalized": "공정데이터를조회하고엑셀로가공시각화했습니다",
+      "asr_text": "공정 데이터를 조회하고 엑셀로 가공 시각화했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 399,
+      "last_word_index": 404,
+      "word_start": 251.48,
+      "word_end": 254.5,
+      "review_required": false
+    },
+    {
+      "id": "task8_cut2",
+      "section_id": "task8",
+      "expected": "필요한 공정 데이터를 자연어로 조회합니다.",
+      "spoken_text": "필요한 공정 데이터를 자연어로 조회합니다.",
+      "normalized": "필요한공정데이터를자연어로조회합니다",
+      "asr_text": "필요한 공정 데이터를 자연으로 조회합니다.",
+      "character_coverage": 0.9444444444444444,
+      "first_word_index": 405,
+      "last_word_index": 409,
+      "word_start": 255.88,
+      "word_end": 258.26,
+      "review_required": true
+    },
+    {
+      "id": "task8_cut3",
+      "section_id": "task8",
+      "expected": "Wafer Map과 그래프로 시각화해 수동 가공을 간소화합니다.",
+      "spoken_text": "웨이퍼 맵과 그래프로 시각화해 수동 가공을 간소화합니다.",
+      "normalized": "웨이퍼맵과그래프로시각화해수동가공을간소화합니다",
+      "asr_text": "웨이퍼 맵과 그래프로 시각화에 수동 가공을 간소화합니다.",
+      "character_coverage": 0.9583333333333334,
+      "first_word_index": 410,
+      "last_word_index": 416,
+      "word_start": 259.46,
+      "word_end": 262.9,
+      "review_required": true
+    },
+    {
+      "id": "task8_cut4",
+      "section_id": "task8",
+      "expected": "공정 데이터 조회와 시각화 업무 시간을 40퍼센트 이상 단축합니다.",
+      "spoken_text": "공정 데이터 조회와 시각화 업무 시간을 사십 퍼센트 이상 단축합니다.",
+      "normalized": "공정데이터조회와시각화업무시간을사십퍼센트이상단축합니다",
+      "asr_text": "공정 데이터 조회와 시각화 업무 시간을 40 % 이상 단축합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 417,
+      "last_word_index": 426,
+      "word_start": 263.9,
+      "word_end": 268.32,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut1",
+      "section_id": "task14",
+      "expected": "여러 시스템에서 Lot·장비·TEM과 보고 정보를 따로 확인했습니다.",
+      "spoken_text": "여러 시스템에서 로트, 장비, 템과 보고 정보를 따로 확인했습니다.",
+      "normalized": "여러시스템에서로트장비템과보고정보를따로확인했습니다",
+      "asr_text": "여러 시스템에서 로트, 장비, 템과 보고 정보를 따로 확인했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 427,
+      "last_word_index": 435,
+      "word_start": 269.36,
+      "word_end": 273.94,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut2",
+      "section_id": "task14",
+      "expected": "하나의 앱에서 Lot과 장비 상태, TEM 쿼터와 의뢰 현황을 통합 조회합니다.",
+      "spoken_text": "하나의 앱에서 로트와 장비 상태, 템 쿼터와 의뢰 현황을 통합 조회합니다.",
+      "normalized": "하나의앱에서로트와장비상태템쿼터와의뢰현황을통합조회합니다",
+      "asr_text": "하나의 앱에서 로트와 장비 상태, 템커터와 의뢰 현황을 통합 조회합니다.",
+      "character_coverage": 0.9655172413793104,
+      "first_word_index": 436,
+      "last_word_index": 445,
+      "word_start": 275.2,
+      "word_end": 279.98,
+      "review_required": true
+    },
+    {
+      "id": "task14_cut3",
+      "section_id": "task14",
+      "expected": "Daily와 Weekly Report, 주말 근무자 안내를 자동화합니다.",
+      "spoken_text": "데일리와 위클리 리포트, 주말 근무자 안내를 자동화합니다.",
+      "normalized": "데일리와위클리리포트주말근무자안내를자동화합니다",
+      "asr_text": "데일리와 위클리 리포트, 주말 근무자 안내를 자동화합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 446,
+      "last_word_index": 452,
+      "word_start": 281.22,
+      "word_end": 284.54,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut4",
+      "section_id": "task14",
+      "expected": "보고와 취합 업무 시간을 90퍼센트 이상 단축합니다.",
+      "spoken_text": "보고와 취합 업무 시간을 구십 퍼센트 이상 단축합니다.",
+      "normalized": "보고와취합업무시간을구십퍼센트이상단축합니다",
+      "asr_text": "보고와 취합 업무 시간을 90 % 이상 단축합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 453,
+      "last_word_index": 460,
+      "word_start": 285.88,
+      "word_end": 288.92,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut5",
+      "section_id": "task14",
+      "expected": "반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+      "spoken_text": "반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+      "normalized": "반복조회와취합보고부담을줄이고축적된데이터를분석에활용합니다",
+      "asr_text": "반복 조회와 취합 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 461,
+      "last_word_index": 470,
+      "word_start": 288.92,
+      "word_end": 294.86,
+      "review_required": false
+    },
+    {
+      "id": "task16_cut1",
+      "section_id": "task16",
+      "expected": "대량 데이터를 가공하고 오계측을 육안으로 검토했습니다.",
+      "spoken_text": "대량 데이터를 가공하고 오계측을 육안으로 검토했습니다.",
+      "normalized": "대량데이터를가공하고오계측을육안으로검토했습니다",
+      "asr_text": "대량 데이터를 가공하고 오개측을 유관으로 검토했습니다.",
+      "character_coverage": 0.875,
+      "first_word_index": 471,
+      "last_word_index": 476,
+      "word_start": 295.66,
+      "word_end": 299.64,
+      "review_required": true
+    },
+    {
+      "id": "task16_cut2",
+      "section_id": "task16",
+      "expected": "계측 데이터의 수집과 전처리, 적재를 자동화합니다.",
+      "spoken_text": "계측 데이터의 수집과 전처리, 적재를 자동화합니다.",
+      "normalized": "계측데이터의수집과전처리적재를자동화합니다",
+      "asr_text": "개측 데이터의 수집과 전철이 적재를 자동화합니다.",
+      "character_coverage": 0.8571428571428571,
+      "first_word_index": 477,
+      "last_word_index": 482,
+      "word_start": 300.88,
+      "word_end": 303.88,
+      "review_required": true
+    },
+    {
+      "id": "task16_cut3",
+      "section_id": "task16",
+      "expected": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+      "spoken_text": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+      "normalized": "이미지기반오계측후보탐지와대시보드자연어분석을제공합니다",
+      "asr_text": "이미지 기반 오개측 후보 탐지와 데시보드 자연어 분석을 제공합니다.",
+      "character_coverage": 0.9285714285714286,
+      "first_word_index": 483,
+      "last_word_index": 491,
+      "word_start": 305.0,
+      "word_end": 309.14,
+      "review_required": true
+    },
+    {
+      "id": "task16_cut4",
+      "section_id": "task16",
+      "expected": "수집 시간을 1200초에서 75초로 줄이고, 단일 층 검증의 리뷰 대상은 317건에서 19건으로 줄입니다.",
+      "spoken_text": "수집 시간을 천이백 초에서 칠십오 초로 줄이고, 단일 층 검증의 리뷰 대상은 삼백십칠 건에서 십구 건으로 줄입니다.",
+      "normalized": "수집시간을천이백초에서칠십오초로줄이고단일층검증의리뷰대상은삼백십칠건에서십구건으로줄입니다",
+      "asr_text": "수집 시간을 1200초에서 75초로 줄이고 단일층 검증의 리뷰 대상은 317건에서 19건으로 줄입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 492,
+      "last_word_index": 503,
+      "word_start": 310.42,
+      "word_end": 318.14,
+      "review_required": false
+    },
+    {
+      "id": "task16_cut5",
+      "section_id": "task16",
+      "expected": "담당자의 검토 범위를 줄입니다.",
+      "spoken_text": "담당자의 검토 범위를 줄입니다.",
+      "normalized": "담당자의검토범위를줄입니다",
+      "asr_text": "담당자의 검토 범위를 줄입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 504,
+      "last_word_index": 507,
+      "word_start": 319.0,
+      "word_end": 320.94,
+      "review_required": false
+    },
+    {
+      "id": "ending_cut1",
+      "section_id": "ending",
+      "expected": "서로 다른 현장의 과제들이,",
+      "spoken_text": "서로 다른 현장의 과제들이,",
+      "normalized": "서로다른현장의과제들이",
+      "asr_text": "서로 다른 현장의 과제들이",
+      "character_coverage": 1.0,
+      "first_word_index": 508,
+      "last_word_index": 511,
+      "word_start": 321.5,
+      "word_end": 323.4,
+      "review_required": false
+    },
+    {
+      "id": "ending_cut2",
+      "section_id": "ending",
+      "expected": "AI와 함께 새로운 변화를 만들어갑니다.",
+      "spoken_text": "에이아이와 함께 새로운 변화를 만들어갑니다.",
+      "normalized": "에이아이와함께새로운변화를만들어갑니다",
+      "asr_text": "AI와 함께 새로운 변화를 만들어갑니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 512,
+      "last_word_index": 516,
+      "word_start": 323.4,
+      "word_end": 326.74,
+      "review_required": false
+    },
+    {
+      "id": "ending_cut3",
+      "section_id": "ending",
+      "expected": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지.",
+      "spoken_text": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지.",
+      "normalized": "업무효율화부터데이터분석더나은연구환경까지",
+      "asr_text": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지",
+      "character_coverage": 1.0,
+      "first_word_index": 517,
+      "last_word_index": 524,
+      "word_start": 327.04,
+      "word_end": 331.02,
+      "review_required": false
+    },
+    {
+      "id": "ending_cut5",
+      "section_id": "ending",
+      "expected": "12개의 AI Agent가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+      "spoken_text": "열두 개의 에이아이 에이전트가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+      "normalized": "열두개의에이아이에이전트가만든변화이제두개의우수과제를만나봅니다",
+      "asr_text": "12개의 AI 에이전트가 만든 변화, 이제 2개의 우수 과제를 만나봅니다.",
+      "character_coverage": 0.96875,
+      "first_word_index": 525,
+      "last_word_index": 534,
+      "word_start": 331.02,
+      "word_end": 336.86,
+      "review_required": true
+    }
+  ],
+  "boundaries": [
+    {
+      "frame": 72,
+      "sample": 115200,
+      "point": 2.4,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 1.98,
+      "right_word_start": 2.8,
+      "quiet": {
+        "start_sample": 106080,
+        "end_sample": 144960,
+        "start": 2.21,
+        "end": 3.02,
+        "duration": 0.81,
+        "peak_rms_dbfs": -42.56849275965399
+      },
+      "quiet_before_frame_seconds": 0.18999999999999995,
+      "quiet_after_frame_seconds": 0.6200000000000001,
+      "reviewed": false,
+      "after_cut": "opening_cut1",
+      "before_cut": "opening_cut2",
+      "section_id": "opening",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 191,
+      "sample": 305600,
+      "point": 6.366666666666666,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 5.96,
+      "right_word_start": 6.8,
+      "quiet": {
+        "start_sample": 291360,
+        "end_sample": 330720,
+        "start": 6.07,
+        "end": 6.890000000000001,
+        "duration": 0.8200000000000001,
+        "peak_rms_dbfs": -42.201638941893236
+      },
+      "quiet_before_frame_seconds": 0.29666666666666597,
+      "quiet_after_frame_seconds": 0.5233333333333343,
+      "reviewed": false,
+      "after_cut": "opening_cut2",
+      "before_cut": "opening_cut3",
+      "section_id": "opening",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 337,
+      "sample": 539200,
+      "point": 11.233333333333333,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 10.72,
+      "right_word_start": 11.72,
+      "quiet": {
+        "start_sample": 521280,
+        "end_sample": 566400,
+        "start": 10.86,
+        "end": 11.8,
+        "duration": 0.9400000000000001,
+        "peak_rms_dbfs": -46.30438874611102
+      },
+      "quiet_before_frame_seconds": 0.3733333333333331,
+      "quiet_after_frame_seconds": 0.5666666666666682,
+      "reviewed": false,
+      "after_cut": "opening_cut3",
+      "before_cut": "opening_cut4",
+      "section_id": "opening",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 453,
+      "sample": 724800,
+      "point": 15.1,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 14.32,
+      "right_word_start": 15.88,
+      "quiet": {
+        "start_sample": 697440,
+        "end_sample": 769440,
+        "start": 14.530000000000001,
+        "end": 16.03,
+        "duration": 1.5,
+        "peak_rms_dbfs": -42.16088346289016
+      },
+      "quiet_before_frame_seconds": 0.5699999999999985,
+      "quiet_after_frame_seconds": 0.9300000000000015,
+      "reviewed": false,
+      "after_cut": "opening_cut4",
+      "before_cut": "opening_cut5",
+      "section_id": "opening",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 615,
+      "sample": 984000,
+      "point": 20.5,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 20.18,
+      "right_word_start": 20.84,
+      "quiet": {
+        "start_sample": 967680,
+        "end_sample": 1016160,
+        "start": 20.16,
+        "end": 21.17,
+        "duration": 1.01,
+        "peak_rms_dbfs": -42.85936334983427
+      },
+      "quiet_before_frame_seconds": 0.33999999999999986,
+      "quiet_after_frame_seconds": 0.6700000000000017,
+      "reviewed": false,
+      "after_cut": "opening_cut5",
+      "before_cut": "opening_cut6",
+      "section_id": "opening",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 791,
+      "sample": 1265600,
+      "point": 26.366666666666667,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 25.86,
+      "right_word_start": 26.86,
+      "quiet": {
+        "start_sample": 1247520,
+        "end_sample": 1310880,
+        "start": 25.990000000000002,
+        "end": 27.310000000000002,
+        "duration": 1.32,
+        "peak_rms_dbfs": -42.52372409058951
+      },
+      "quiet_before_frame_seconds": 0.37666666666666515,
+      "quiet_after_frame_seconds": 0.9433333333333351,
+      "reviewed": false,
+      "after_cut": "opening_cut6",
+      "before_cut": "opening_cut7",
+      "section_id": "opening",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 954,
+      "sample": 1526400,
+      "point": 31.8,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 31.44,
+      "right_word_start": 32.14,
+      "quiet": {
+        "start_sample": 1519200,
+        "end_sample": 1579200,
+        "start": 31.650000000000002,
+        "end": 32.9,
+        "duration": 1.25,
+        "peak_rms_dbfs": -43.26638826611245
+      },
+      "quiet_before_frame_seconds": 0.14999999999999858,
+      "quiet_after_frame_seconds": 1.0999999999999979,
+      "reviewed": false,
+      "after_cut": "opening_cut7",
+      "before_cut": "opening_cut8",
+      "section_id": "opening",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 1145,
+      "sample": 1832000,
+      "point": 38.166666666666664,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 37.6,
+      "right_word_start": 38.7,
+      "quiet": {
+        "start_sample": 1815360,
+        "end_sample": 1860960,
+        "start": 37.82,
+        "end": 38.77,
+        "duration": 0.9500000000000001,
+        "peak_rms_dbfs": -42.71823004698311
+      },
+      "quiet_before_frame_seconds": 0.346666666666664,
+      "quiet_after_frame_seconds": 0.6033333333333388,
+      "reviewed": false,
+      "after_cut": "opening_cut8",
+      "before_cut": "opening_cut9",
+      "section_id": "opening",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 1296,
+      "sample": 2073600,
+      "point": 43.2,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 42.1,
+      "right_word_start": 44.3,
+      "quiet": {
+        "start_sample": 2032800,
+        "end_sample": 2128320,
+        "start": 42.35,
+        "end": 44.34,
+        "duration": 1.99,
+        "peak_rms_dbfs": -44.69075264651284
+      },
+      "quiet_before_frame_seconds": 0.8500000000000014,
+      "quiet_after_frame_seconds": 1.1400000000000006,
+      "reviewed": false,
+      "after_cut": "opening_cut9",
+      "before_cut": "task11_cut1",
+      "section_id": "opening",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 1462,
+      "sample": 2339200,
+      "point": 48.733333333333334,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 48.08,
+      "right_word_start": 49.36,
+      "quiet": {
+        "start_sample": 2323200,
+        "end_sample": 2373120,
+        "start": 48.4,
+        "end": 49.44,
+        "duration": 1.04,
+        "peak_rms_dbfs": -42.68288302595799
+      },
+      "quiet_before_frame_seconds": 0.3333333333333357,
+      "quiet_after_frame_seconds": 0.7066666666666634,
+      "reviewed": false,
+      "after_cut": "task11_cut1",
+      "before_cut": "task11_cut2",
+      "section_id": "task11",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 1636,
+      "sample": 2617600,
+      "point": 54.53333333333333,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 54.02,
+      "right_word_start": 55.02,
+      "quiet": {
+        "start_sample": 2607840,
+        "end_sample": 2660160,
+        "start": 54.33,
+        "end": 55.42,
+        "duration": 1.09,
+        "peak_rms_dbfs": -44.30614198204249
+      },
+      "quiet_before_frame_seconds": 0.20333333333333314,
+      "quiet_after_frame_seconds": 0.8866666666666703,
+      "reviewed": false,
+      "after_cut": "task11_cut2",
+      "before_cut": "task11_cut3",
+      "section_id": "task11",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 1792,
+      "sample": 2867200,
+      "point": 59.733333333333334,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 59.46,
+      "right_word_start": 60.0,
+      "quiet": {
+        "start_sample": 2860800,
+        "end_sample": 2908800,
+        "start": 59.6,
+        "end": 60.6,
+        "duration": 1.0,
+        "peak_rms_dbfs": -43.583170127147994
+      },
+      "quiet_before_frame_seconds": 0.13333333333333286,
+      "quiet_after_frame_seconds": 0.8666666666666671,
+      "reviewed": false,
+      "after_cut": "task11_cut3",
+      "before_cut": "task11_cut4",
+      "section_id": "task11",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 1974,
+      "sample": 3158400,
+      "point": 65.8,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 65.04,
+      "right_word_start": 66.54,
+      "quiet": {
+        "start_sample": 3140640,
+        "end_sample": 3196800,
+        "start": 65.43,
+        "end": 66.6,
+        "duration": 1.17,
+        "peak_rms_dbfs": -44.66859911021655
+      },
+      "quiet_before_frame_seconds": 0.36999999999999034,
+      "quiet_after_frame_seconds": 0.7999999999999972,
+      "reviewed": false,
+      "after_cut": "task11_cut4",
+      "before_cut": "task11_cut5",
+      "section_id": "task11",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 2135,
+      "sample": 3416000,
+      "point": 71.16666666666667,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 70.46,
+      "right_word_start": 71.9,
+      "quiet": {
+        "start_sample": 3394560,
+        "end_sample": 3453600,
+        "start": 70.72,
+        "end": 71.95,
+        "duration": 1.23,
+        "peak_rms_dbfs": -42.82435439763083
+      },
+      "quiet_before_frame_seconds": 0.44666666666667254,
+      "quiet_after_frame_seconds": 0.7833333333333314,
+      "reviewed": false,
+      "after_cut": "task11_cut5",
+      "before_cut": "task13_cut1",
+      "section_id": "task11",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 2292,
+      "sample": 3667200,
+      "point": 76.4,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 75.74,
+      "right_word_start": 77.04,
+      "quiet": {
+        "start_sample": 3650880,
+        "end_sample": 3700800,
+        "start": 76.06,
+        "end": 77.10000000000001,
+        "duration": 1.04,
+        "peak_rms_dbfs": -42.08870718328186
+      },
+      "quiet_before_frame_seconds": 0.3400000000000034,
+      "quiet_after_frame_seconds": 0.7000000000000028,
+      "reviewed": false,
+      "after_cut": "task13_cut1",
+      "before_cut": "task13_cut2",
+      "section_id": "task13",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 2412,
+      "sample": 3859200,
+      "point": 80.4,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 79.9,
+      "right_word_start": 80.87,
+      "quiet": {
+        "start_sample": 3852000,
+        "end_sample": 3890400,
+        "start": 80.25,
+        "end": 81.05,
+        "duration": 0.8,
+        "peak_rms_dbfs": -43.98965112515477
+      },
+      "quiet_before_frame_seconds": 0.15000000000000568,
+      "quiet_after_frame_seconds": 0.6499999999999915,
+      "reviewed": false,
+      "after_cut": "task13_cut2",
+      "before_cut": "task13_cut3",
+      "section_id": "task13",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 2582,
+      "sample": 4131200,
+      "point": 86.06666666666666,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 85.6,
+      "right_word_start": 86.52,
+      "quiet": {
+        "start_sample": 4119360,
+        "end_sample": 4169760,
+        "start": 85.82000000000001,
+        "end": 86.87,
+        "duration": 1.05,
+        "peak_rms_dbfs": -42.635877447102
+      },
+      "quiet_before_frame_seconds": 0.2466666666666555,
+      "quiet_after_frame_seconds": 0.8033333333333417,
+      "reviewed": false,
+      "after_cut": "task13_cut3",
+      "before_cut": "task13_cut4",
+      "section_id": "task13",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 2804,
+      "sample": 4486400,
+      "point": 93.46666666666667,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 92.92,
+      "right_word_start": 94.04,
+      "quiet": {
+        "start_sample": 4473600,
+        "end_sample": 4521120,
+        "start": 93.2,
+        "end": 94.19,
+        "duration": 0.99,
+        "peak_rms_dbfs": -42.853628125373646
+      },
+      "quiet_before_frame_seconds": 0.2666666666666657,
+      "quiet_after_frame_seconds": 0.7233333333333292,
+      "reviewed": false,
+      "after_cut": "task13_cut4",
+      "before_cut": "task13_cut5",
+      "section_id": "task13",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 2944,
+      "sample": 4710400,
+      "point": 98.13333333333334,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 97.56,
+      "right_word_start": 98.72,
+      "quiet": {
+        "start_sample": 4695840,
+        "end_sample": 4739040,
+        "start": 97.83,
+        "end": 98.73,
+        "duration": 0.9,
+        "peak_rms_dbfs": -42.55219441705633
+      },
+      "quiet_before_frame_seconds": 0.30333333333334167,
+      "quiet_after_frame_seconds": 0.596666666666664,
+      "reviewed": false,
+      "after_cut": "task13_cut5",
+      "before_cut": "task7_cut1",
+      "section_id": "task13",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 3061,
+      "sample": 4897600,
+      "point": 102.03333333333333,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 101.34,
+      "right_word_start": 102.72,
+      "quiet": {
+        "start_sample": 4881120,
+        "end_sample": 4932480,
+        "start": 101.69,
+        "end": 102.76,
+        "duration": 1.07,
+        "peak_rms_dbfs": -44.15171008988654
+      },
+      "quiet_before_frame_seconds": 0.3433333333333337,
+      "quiet_after_frame_seconds": 0.7266666666666737,
+      "reviewed": false,
+      "after_cut": "task7_cut1",
+      "before_cut": "task7_cut2",
+      "section_id": "task7",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 3199,
+      "sample": 5118400,
+      "point": 106.63333333333334,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 106.24,
+      "right_word_start": 107.00999999999999,
+      "quiet": {
+        "start_sample": 5110080,
+        "end_sample": 5149440,
+        "start": 106.46000000000001,
+        "end": 107.28,
+        "duration": 0.8200000000000001,
+        "peak_rms_dbfs": -42.16234846650507
+      },
+      "quiet_before_frame_seconds": 0.173333333333332,
+      "quiet_after_frame_seconds": 0.6466666666666612,
+      "reviewed": false,
+      "after_cut": "task7_cut2",
+      "before_cut": "task7_cut3",
+      "section_id": "task7",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 3314,
+      "sample": 5302400,
+      "point": 110.46666666666667,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 109.96,
+      "right_word_start": 111.0,
+      "quiet": {
+        "start_sample": 5287680,
+        "end_sample": 5331360,
+        "start": 110.16,
+        "end": 111.07000000000001,
+        "duration": 0.91,
+        "peak_rms_dbfs": -42.03046795586192
+      },
+      "quiet_before_frame_seconds": 0.30666666666667197,
+      "quiet_after_frame_seconds": 0.6033333333333388,
+      "reviewed": false,
+      "after_cut": "task7_cut3",
+      "before_cut": "task7_cut4",
+      "section_id": "task7",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 3465,
+      "sample": 5544000,
+      "point": 115.5,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 114.94,
+      "right_word_start": 116.08,
+      "quiet": {
+        "start_sample": 5525760,
+        "end_sample": 5574240,
+        "start": 115.12,
+        "end": 116.13,
+        "duration": 1.01,
+        "peak_rms_dbfs": -42.18023972791109
+      },
+      "quiet_before_frame_seconds": 0.37999999999999545,
+      "quiet_after_frame_seconds": 0.6299999999999955,
+      "reviewed": false,
+      "after_cut": "task7_cut4",
+      "before_cut": "task7_cut5",
+      "section_id": "task7",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 3640,
+      "sample": 5824000,
+      "point": 121.33333333333333,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 120.54,
+      "right_word_start": 122.12,
+      "quiet": {
+        "start_sample": 5799360,
+        "end_sample": 5868000,
+        "start": 120.82000000000001,
+        "end": 122.25,
+        "duration": 1.43,
+        "peak_rms_dbfs": -43.49637163395051
+      },
+      "quiet_before_frame_seconds": 0.5133333333333212,
+      "quiet_after_frame_seconds": 0.9166666666666714,
+      "reviewed": false,
+      "after_cut": "task7_cut5",
+      "before_cut": "task17_cut1",
+      "section_id": "task7",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 3801,
+      "sample": 6081600,
+      "point": 126.7,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 126.14,
+      "right_word_start": 127.24,
+      "quiet": {
+        "start_sample": 6064320,
+        "end_sample": 6111840,
+        "start": 126.34,
+        "end": 127.33,
+        "duration": 0.99,
+        "peak_rms_dbfs": -45.14358656994513
+      },
+      "quiet_before_frame_seconds": 0.35999999999999943,
+      "quiet_after_frame_seconds": 0.6299999999999955,
+      "reviewed": false,
+      "after_cut": "task17_cut1",
+      "before_cut": "task17_cut2",
+      "section_id": "task17",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 3903,
+      "sample": 6244800,
+      "point": 130.1,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 129.6,
+      "right_word_start": 130.6,
+      "quiet": {
+        "start_sample": 6237120,
+        "end_sample": 6275040,
+        "start": 129.94,
+        "end": 130.73,
+        "duration": 0.79,
+        "peak_rms_dbfs": -42.444183838102525
+      },
+      "quiet_before_frame_seconds": 0.1599999999999966,
+      "quiet_after_frame_seconds": 0.6299999999999955,
+      "reviewed": false,
+      "after_cut": "task17_cut2",
+      "before_cut": "task17_cut3",
+      "section_id": "task17",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 4093,
+      "sample": 6548800,
+      "point": 136.43333333333334,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 136.04,
+      "right_word_start": 136.82,
+      "quiet": {
+        "start_sample": 6538560,
+        "end_sample": 6594720,
+        "start": 136.22,
+        "end": 137.39000000000001,
+        "duration": 1.17,
+        "peak_rms_dbfs": -42.39719588659189
+      },
+      "quiet_before_frame_seconds": 0.21333333333333826,
+      "quiet_after_frame_seconds": 0.9566666666666777,
+      "reviewed": false,
+      "after_cut": "task17_cut3",
+      "before_cut": "task17_cut4",
+      "section_id": "task17",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 4223,
+      "sample": 6756800,
+      "point": 140.76666666666668,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 140.12,
+      "right_word_start": 141.42,
+      "quiet": {
+        "start_sample": 6739680,
+        "end_sample": 6790560,
+        "start": 140.41,
+        "end": 141.47,
+        "duration": 1.06,
+        "peak_rms_dbfs": -44.923639678339924
+      },
+      "quiet_before_frame_seconds": 0.35666666666668334,
+      "quiet_after_frame_seconds": 0.7033333333333189,
+      "reviewed": false,
+      "after_cut": "task17_cut4",
+      "before_cut": "task5_cut1",
+      "section_id": "task17",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 4356,
+      "sample": 6969600,
+      "point": 145.2,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 144.64,
+      "right_word_start": 145.78,
+      "quiet": {
+        "start_sample": 6958080,
+        "end_sample": 6998880,
+        "start": 144.96,
+        "end": 145.81,
+        "duration": 0.85,
+        "peak_rms_dbfs": -42.32438780601316
+      },
+      "quiet_before_frame_seconds": 0.23999999999998067,
+      "quiet_after_frame_seconds": 0.6100000000000136,
+      "reviewed": false,
+      "after_cut": "task5_cut1",
+      "before_cut": "task5_cut2",
+      "section_id": "task5",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 4439,
+      "sample": 7102400,
+      "point": 147.96666666666667,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 147.44,
+      "right_word_start": 148.48,
+      "quiet": {
+        "start_sample": 7092480,
+        "end_sample": 7128480,
+        "start": 147.76,
+        "end": 148.51,
+        "duration": 0.75,
+        "peak_rms_dbfs": -42.76366332706346
+      },
+      "quiet_before_frame_seconds": 0.20666666666667766,
+      "quiet_after_frame_seconds": 0.5433333333333223,
+      "reviewed": false,
+      "after_cut": "task5_cut2",
+      "before_cut": "task5_cut3",
+      "section_id": "task5",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 4608,
+      "sample": 7372800,
+      "point": 153.6,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 152.9,
+      "right_word_start": 154.3,
+      "quiet": {
+        "start_sample": 7354080,
+        "end_sample": 7410240,
+        "start": 153.21,
+        "end": 154.38,
+        "duration": 1.17,
+        "peak_rms_dbfs": -42.46609044809532
+      },
+      "quiet_before_frame_seconds": 0.38999999999998636,
+      "quiet_after_frame_seconds": 0.7800000000000011,
+      "reviewed": false,
+      "after_cut": "task5_cut3",
+      "before_cut": "task5_cut4",
+      "section_id": "task5",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 4756,
+      "sample": 7609600,
+      "point": 158.53333333333333,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 158.06,
+      "right_word_start": 159.02,
+      "quiet": {
+        "start_sample": 7601760,
+        "end_sample": 7643520,
+        "start": 158.37,
+        "end": 159.24,
+        "duration": 0.87,
+        "peak_rms_dbfs": -42.41829762628367
+      },
+      "quiet_before_frame_seconds": 0.1633333333333269,
+      "quiet_after_frame_seconds": 0.7066666666666777,
+      "reviewed": false,
+      "after_cut": "task5_cut4",
+      "before_cut": "task5_cut5",
+      "section_id": "task5",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 4898,
+      "sample": 7836800,
+      "point": 163.26666666666668,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 162.88,
+      "right_word_start": 163.62,
+      "quiet": {
+        "start_sample": 7829760,
+        "end_sample": 7885920,
+        "start": 163.12,
+        "end": 164.29,
+        "duration": 1.17,
+        "peak_rms_dbfs": -42.064439777345626
+      },
+      "quiet_before_frame_seconds": 0.14666666666667538,
+      "quiet_after_frame_seconds": 1.0233333333333121,
+      "reviewed": false,
+      "after_cut": "task5_cut5",
+      "before_cut": "task9_cut1",
+      "section_id": "task5",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 5063,
+      "sample": 8100800,
+      "point": 168.76666666666668,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 168.04,
+      "right_word_start": 169.52,
+      "quiet": {
+        "start_sample": 8083200,
+        "end_sample": 8141280,
+        "start": 168.4,
+        "end": 169.61,
+        "duration": 1.21,
+        "peak_rms_dbfs": -42.299123723426675
+      },
+      "quiet_before_frame_seconds": 0.36666666666667425,
+      "quiet_after_frame_seconds": 0.8433333333333337,
+      "reviewed": false,
+      "after_cut": "task9_cut1",
+      "before_cut": "task9_cut2",
+      "section_id": "task9",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 5224,
+      "sample": 8358400,
+      "point": 174.13333333333333,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 173.58,
+      "right_word_start": 174.68,
+      "quiet": {
+        "start_sample": 8345280,
+        "end_sample": 8389920,
+        "start": 173.86,
+        "end": 174.79,
+        "duration": 0.93,
+        "peak_rms_dbfs": -42.29599242747951
+      },
+      "quiet_before_frame_seconds": 0.2733333333333121,
+      "quiet_after_frame_seconds": 0.6566666666666663,
+      "reviewed": false,
+      "after_cut": "task9_cut2",
+      "before_cut": "task9_cut3",
+      "section_id": "task9",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 5420,
+      "sample": 8672000,
+      "point": 180.66666666666666,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 180.08,
+      "right_word_start": 181.28,
+      "quiet": {
+        "start_sample": 8658720,
+        "end_sample": 8703360,
+        "start": 180.39000000000001,
+        "end": 181.32,
+        "duration": 0.93,
+        "peak_rms_dbfs": -42.73831393806037
+      },
+      "quiet_before_frame_seconds": 0.2766666666666424,
+      "quiet_after_frame_seconds": 0.653333333333336,
+      "reviewed": false,
+      "after_cut": "task9_cut3",
+      "before_cut": "task9_cut4",
+      "section_id": "task9",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 5528,
+      "sample": 8844800,
+      "point": 184.26666666666668,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 183.76,
+      "right_word_start": 184.76,
+      "quiet": {
+        "start_sample": 8834880,
+        "end_sample": 8884320,
+        "start": 184.06,
+        "end": 185.09,
+        "duration": 1.03,
+        "peak_rms_dbfs": -42.39638758013762
+      },
+      "quiet_before_frame_seconds": 0.20666666666667766,
+      "quiet_after_frame_seconds": 0.8233333333333235,
+      "reviewed": false,
+      "after_cut": "task9_cut4",
+      "before_cut": "task9_cut5",
+      "section_id": "task9",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 5749,
+      "sample": 9198400,
+      "point": 191.63333333333333,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 191.04,
+      "right_word_start": 192.22,
+      "quiet": {
+        "start_sample": 9180960,
+        "end_sample": 9234240,
+        "start": 191.27,
+        "end": 192.38,
+        "duration": 1.11,
+        "peak_rms_dbfs": -42.57136837137005
+      },
+      "quiet_before_frame_seconds": 0.3633333333333155,
+      "quiet_after_frame_seconds": 0.7466666666666697,
+      "reviewed": false,
+      "after_cut": "task9_cut5",
+      "before_cut": "task4_cut1",
+      "section_id": "task9",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 5935,
+      "sample": 9496000,
+      "point": 197.83333333333334,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 197.22,
+      "right_word_start": 198.44,
+      "quiet": {
+        "start_sample": 9476640,
+        "end_sample": 9526560,
+        "start": 197.43,
+        "end": 198.47,
+        "duration": 1.04,
+        "peak_rms_dbfs": -43.19233598634959
+      },
+      "quiet_before_frame_seconds": 0.403333333333336,
+      "quiet_after_frame_seconds": 0.6366666666666561,
+      "reviewed": false,
+      "after_cut": "task4_cut1",
+      "before_cut": "task4_cut2",
+      "section_id": "task4",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 6074,
+      "sample": 9718400,
+      "point": 202.46666666666667,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 201.96,
+      "right_word_start": 202.98,
+      "quiet": {
+        "start_sample": 9705120,
+        "end_sample": 9748320,
+        "start": 202.19,
+        "end": 203.09,
+        "duration": 0.9,
+        "peak_rms_dbfs": -43.50315547132311
+      },
+      "quiet_before_frame_seconds": 0.27666666666667084,
+      "quiet_after_frame_seconds": 0.6233333333333348,
+      "reviewed": false,
+      "after_cut": "task4_cut2",
+      "before_cut": "task4_cut3",
+      "section_id": "task4",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 6184,
+      "sample": 9894400,
+      "point": 206.13333333333333,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 205.6,
+      "right_word_start": 206.7,
+      "quiet": {
+        "start_sample": 9884640,
+        "end_sample": 9923520,
+        "start": 205.93,
+        "end": 206.74,
+        "duration": 0.81,
+        "peak_rms_dbfs": -43.80139322694898
+      },
+      "quiet_before_frame_seconds": 0.20333333333331893,
+      "quiet_after_frame_seconds": 0.6066666666666833,
+      "reviewed": false,
+      "after_cut": "task4_cut3",
+      "before_cut": "task4_cut4",
+      "section_id": "task4",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 6289,
+      "sample": 10062400,
+      "point": 209.63333333333333,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 209.14,
+      "right_word_start": 210.14,
+      "quiet": {
+        "start_sample": 10053600,
+        "end_sample": 10097760,
+        "start": 209.45000000000002,
+        "end": 210.37,
+        "duration": 0.92,
+        "peak_rms_dbfs": -43.29242333451364
+      },
+      "quiet_before_frame_seconds": 0.1833333333333087,
+      "quiet_after_frame_seconds": 0.7366666666666788,
+      "reviewed": false,
+      "after_cut": "task4_cut4",
+      "before_cut": "task4_cut5",
+      "section_id": "task4",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 6426,
+      "sample": 10281600,
+      "point": 214.2,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 213.76,
+      "right_word_start": 214.64,
+      "quiet": {
+        "start_sample": 10269120,
+        "end_sample": 10328160,
+        "start": 213.94,
+        "end": 215.17000000000002,
+        "duration": 1.23,
+        "peak_rms_dbfs": -43.154929421634776
+      },
+      "quiet_before_frame_seconds": 0.2599999999999909,
+      "quiet_after_frame_seconds": 0.9700000000000273,
+      "reviewed": false,
+      "after_cut": "task4_cut5",
+      "before_cut": "task12_cut1",
+      "section_id": "task4",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 6566,
+      "sample": 10505600,
+      "point": 218.86666666666667,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 218.26,
+      "right_word_start": 219.5,
+      "quiet": {
+        "start_sample": 10495200,
+        "end_sample": 10539360,
+        "start": 218.65,
+        "end": 219.57,
+        "duration": 0.92,
+        "peak_rms_dbfs": -43.32033620070452
+      },
+      "quiet_before_frame_seconds": 0.21666666666666856,
+      "quiet_after_frame_seconds": 0.7033333333333189,
+      "reviewed": false,
+      "after_cut": "task12_cut1",
+      "before_cut": "task12_cut2",
+      "section_id": "task12",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 6723,
+      "sample": 10756800,
+      "point": 224.1,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 223.38,
+      "right_word_start": 224.8,
+      "quiet": {
+        "start_sample": 10741440,
+        "end_sample": 10793280,
+        "start": 223.78,
+        "end": 224.86,
+        "duration": 1.08,
+        "peak_rms_dbfs": -42.62977735977205
+      },
+      "quiet_before_frame_seconds": 0.3199999999999932,
+      "quiet_after_frame_seconds": 0.7600000000000193,
+      "reviewed": false,
+      "after_cut": "task12_cut2",
+      "before_cut": "task12_cut3",
+      "section_id": "task12",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 6914,
+      "sample": 11062400,
+      "point": 230.46666666666667,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 229.8,
+      "right_word_start": 231.14,
+      "quiet": {
+        "start_sample": 11036640,
+        "end_sample": 11093760,
+        "start": 229.93,
+        "end": 231.12,
+        "duration": 1.19,
+        "peak_rms_dbfs": -43.64300330310928
+      },
+      "quiet_before_frame_seconds": 0.5366666666666617,
+      "quiet_after_frame_seconds": 0.653333333333336,
+      "reviewed": false,
+      "after_cut": "task12_cut3",
+      "before_cut": "task3_cut1",
+      "section_id": "task12",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 7065,
+      "sample": 11304000,
+      "point": 235.5,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 235.0,
+      "right_word_start": 236.0,
+      "quiet": {
+        "start_sample": 11297760,
+        "end_sample": 11349120,
+        "start": 235.37,
+        "end": 236.44,
+        "duration": 1.07,
+        "peak_rms_dbfs": -42.95030086362928
+      },
+      "quiet_before_frame_seconds": 0.12999999999999545,
+      "quiet_after_frame_seconds": 0.9399999999999977,
+      "reviewed": false,
+      "after_cut": "task3_cut1",
+      "before_cut": "task3_cut2",
+      "section_id": "task3",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 7214,
+      "sample": 11542400,
+      "point": 240.46666666666667,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 240.02,
+      "right_word_start": 240.92,
+      "quiet": {
+        "start_sample": 11535840,
+        "end_sample": 11577120,
+        "start": 240.33,
+        "end": 241.19,
+        "duration": 0.86,
+        "peak_rms_dbfs": -43.92834485662864
+      },
+      "quiet_before_frame_seconds": 0.13666666666665606,
+      "quiet_after_frame_seconds": 0.7233333333333292,
+      "reviewed": false,
+      "after_cut": "task3_cut2",
+      "before_cut": "task3_cut3",
+      "section_id": "task3",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 7355,
+      "sample": 11768000,
+      "point": 245.16666666666666,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 244.62,
+      "right_word_start": 245.74,
+      "quiet": {
+        "start_sample": 11755680,
+        "end_sample": 11804640,
+        "start": 244.91,
+        "end": 245.93,
+        "duration": 1.02,
+        "peak_rms_dbfs": -43.32015882504186
+      },
+      "quiet_before_frame_seconds": 0.2566666666666606,
+      "quiet_after_frame_seconds": 0.7633333333333496,
+      "reviewed": false,
+      "after_cut": "task3_cut3",
+      "before_cut": "task3_cut4",
+      "section_id": "task3",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 7523,
+      "sample": 12036800,
+      "point": 250.76666666666668,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 250.06,
+      "right_word_start": 251.48,
+      "quiet": {
+        "start_sample": 12015840,
+        "end_sample": 12073920,
+        "start": 250.33,
+        "end": 251.54,
+        "duration": 1.21,
+        "peak_rms_dbfs": -42.08013316591929
+      },
+      "quiet_before_frame_seconds": 0.4366666666666674,
+      "quiet_after_frame_seconds": 0.7733333333333121,
+      "reviewed": false,
+      "after_cut": "task3_cut4",
+      "before_cut": "task8_cut1",
+      "section_id": "task3",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 7656,
+      "sample": 12249600,
+      "point": 255.2,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 254.5,
+      "right_word_start": 255.88,
+      "quiet": {
+        "start_sample": 12233760,
+        "end_sample": 12285120,
+        "start": 254.87,
+        "end": 255.94,
+        "duration": 1.07,
+        "peak_rms_dbfs": -42.68029110286467
+      },
+      "quiet_before_frame_seconds": 0.3299999999999841,
+      "quiet_after_frame_seconds": 0.7400000000000091,
+      "reviewed": false,
+      "after_cut": "task8_cut1",
+      "before_cut": "task8_cut2",
+      "section_id": "task8",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 7766,
+      "sample": 12425600,
+      "point": 258.8666666666667,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 258.26,
+      "right_word_start": 259.46,
+      "quiet": {
+        "start_sample": 12409920,
+        "end_sample": 12456480,
+        "start": 258.54,
+        "end": 259.51,
+        "duration": 0.97,
+        "peak_rms_dbfs": -42.148737675276955
+      },
+      "quiet_before_frame_seconds": 0.3266666666666538,
+      "quiet_after_frame_seconds": 0.6433333333333167,
+      "reviewed": false,
+      "after_cut": "task8_cut2",
+      "before_cut": "task8_cut3",
+      "section_id": "task8",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 7902,
+      "sample": 12643200,
+      "point": 263.4,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 262.9,
+      "right_word_start": 263.9,
+      "quiet": {
+        "start_sample": 12632640,
+        "end_sample": 12684480,
+        "start": 263.18,
+        "end": 264.26,
+        "duration": 1.08,
+        "peak_rms_dbfs": -43.73051801877466
+      },
+      "quiet_before_frame_seconds": 0.21999999999997044,
+      "quiet_after_frame_seconds": 0.8600000000000136,
+      "reviewed": false,
+      "after_cut": "task8_cut3",
+      "before_cut": "task8_cut4",
+      "section_id": "task8",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 8065,
+      "sample": 12904000,
+      "point": 268.8333333333333,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 268.32,
+      "right_word_start": 269.36,
+      "quiet": {
+        "start_sample": 12891360,
+        "end_sample": 12958080,
+        "start": 268.57,
+        "end": 269.96,
+        "duration": 1.3900000000000001,
+        "peak_rms_dbfs": -44.18749070182849
+      },
+      "quiet_before_frame_seconds": 0.2633333333333212,
+      "quiet_after_frame_seconds": 1.1266666666666652,
+      "reviewed": false,
+      "after_cut": "task8_cut4",
+      "before_cut": "task14_cut1",
+      "section_id": "task8",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 8237,
+      "sample": 13179200,
+      "point": 274.56666666666666,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 273.94,
+      "right_word_start": 275.2,
+      "quiet": {
+        "start_sample": 13166400,
+        "end_sample": 13213920,
+        "start": 274.3,
+        "end": 275.29,
+        "duration": 0.99,
+        "peak_rms_dbfs": -43.062500603577874
+      },
+      "quiet_before_frame_seconds": 0.2666666666666515,
+      "quiet_after_frame_seconds": 0.7233333333333576,
+      "reviewed": false,
+      "after_cut": "task14_cut1",
+      "before_cut": "task14_cut2",
+      "section_id": "task14",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 8418,
+      "sample": 13468800,
+      "point": 280.6,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 279.98,
+      "right_word_start": 281.22,
+      "quiet": {
+        "start_sample": 13455360,
+        "end_sample": 13499520,
+        "start": 280.32,
+        "end": 281.24,
+        "duration": 0.92,
+        "peak_rms_dbfs": -43.14854647421755
+      },
+      "quiet_before_frame_seconds": 0.28000000000002956,
+      "quiet_after_frame_seconds": 0.6399999999999864,
+      "reviewed": false,
+      "after_cut": "task14_cut2",
+      "before_cut": "task14_cut3",
+      "section_id": "task14",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 8556,
+      "sample": 13689600,
+      "point": 285.2,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 284.54,
+      "right_word_start": 285.88,
+      "quiet": {
+        "start_sample": 13669920,
+        "end_sample": 13723200,
+        "start": 284.79,
+        "end": 285.90000000000003,
+        "duration": 1.11,
+        "peak_rms_dbfs": -42.60459175902389
+      },
+      "quiet_before_frame_seconds": 0.40999999999996817,
+      "quiet_after_frame_seconds": 0.7000000000000455,
+      "reviewed": false,
+      "after_cut": "task14_cut3",
+      "before_cut": "task14_cut4",
+      "section_id": "task14",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 8691,
+      "sample": 13905600,
+      "point": 289.7,
+      "basis": "REVIEWED_CURRENT_PCM_ASR_LEADING_PAUSE_WITH_LOCAL_ASR_AND_WAVEFORM",
+      "left_word_end": 288.92,
+      "right_word_start": 288.92,
+      "reviewed_previous_speech_end": 289.22,
+      "reviewed_next_speech_start": 290.21,
+      "evidence": {
+        "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+        "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+        "regional_asr": "narration/transcription-recovered/reviews/task14-transition.json",
+        "regional_asr_sha256": "21cd4ac9172331f6d48fdbb02a27f8b367489e56e7f79ed76b1ac9694f71b31e",
+        "region_time_offset_seconds": 286,
+        "lexical_observation": "Complete previous phrase and next approved phrase are present; Whisper assigned the inter-phrase pause to the next first word.",
+        "waveform_quiet_seconds": [
+          289.22,
+          290.21
+        ],
+        "threshold_dbfs": -48,
+        "window_seconds": 0.01,
+        "review_scope": "Visual boundary only; these zero-gap ASR spans remain excluded from automatic pause deletion.",
+        "actual_word_times_approximate": true
+      },
+      "review": {
+        "after_cut": "task14_cut4",
+        "actual_speech_end_seconds": 289.22,
+        "actual_next_speech_start_seconds": 290.21,
+        "source_boundary_seconds": 289.7,
+        "kind": "REVIEWED_CURRENT_PCM_ASR_LEADING_PAUSE_WITH_LOCAL_ASR_AND_WAVEFORM",
+        "evidence": {
+          "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+          "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+          "regional_asr": "narration/transcription-recovered/reviews/task14-transition.json",
+          "regional_asr_sha256": "21cd4ac9172331f6d48fdbb02a27f8b367489e56e7f79ed76b1ac9694f71b31e",
+          "region_time_offset_seconds": 286,
+          "lexical_observation": "Complete previous phrase and next approved phrase are present; Whisper assigned the inter-phrase pause to the next first word.",
+          "waveform_quiet_seconds": [
+            289.22,
+            290.21
+          ],
+          "threshold_dbfs": -48,
+          "window_seconds": 0.01,
+          "review_scope": "Visual boundary only; these zero-gap ASR spans remain excluded from automatic pause deletion.",
+          "actual_word_times_approximate": true
+        }
+      },
+      "reviewed": true,
+      "quiet": {
+        "start_sample": 13881600,
+        "end_sample": 13930080,
+        "start": 289.2,
+        "end": 290.21,
+        "duration": 1.01,
+        "peak_rms_dbfs": -42.3729001329685
+      },
+      "after_cut": "task14_cut4",
+      "before_cut": "task14_cut5",
+      "section_id": "task14",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 8858,
+      "sample": 14172800,
+      "point": 295.26666666666665,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 294.86,
+      "right_word_start": 295.66,
+      "quiet": {
+        "start_sample": 14161920,
+        "end_sample": 14227680,
+        "start": 295.04,
+        "end": 296.41,
+        "duration": 1.37,
+        "peak_rms_dbfs": -43.330216960399056
+      },
+      "quiet_before_frame_seconds": 0.22666666666663104,
+      "quiet_after_frame_seconds": 1.1433333333333735,
+      "reviewed": false,
+      "after_cut": "task14_cut5",
+      "before_cut": "task16_cut1",
+      "section_id": "task14",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 9008,
+      "sample": 14412800,
+      "point": 300.26666666666665,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 299.64,
+      "right_word_start": 300.88,
+      "quiet": {
+        "start_sample": 14398080,
+        "end_sample": 14443200,
+        "start": 299.96,
+        "end": 300.90000000000003,
+        "duration": 0.9400000000000001,
+        "peak_rms_dbfs": -43.63245421564463
+      },
+      "quiet_before_frame_seconds": 0.30666666666667197,
+      "quiet_after_frame_seconds": 0.6333333333333826,
+      "reviewed": false,
+      "after_cut": "task16_cut1",
+      "before_cut": "task16_cut2",
+      "section_id": "task16",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 9133,
+      "sample": 14612800,
+      "point": 304.43333333333334,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 303.88,
+      "right_word_start": 305.0,
+      "quiet": {
+        "start_sample": 14597280,
+        "end_sample": 14641920,
+        "start": 304.11,
+        "end": 305.04,
+        "duration": 0.93,
+        "peak_rms_dbfs": -43.602529089258354
+      },
+      "quiet_before_frame_seconds": 0.3233333333333235,
+      "quiet_after_frame_seconds": 0.6066666666666833,
+      "reviewed": false,
+      "after_cut": "task16_cut2",
+      "before_cut": "task16_cut3",
+      "section_id": "task16",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 9293,
+      "sample": 14868800,
+      "point": 309.76666666666665,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 309.14,
+      "right_word_start": 310.42,
+      "quiet": {
+        "start_sample": 14850240,
+        "end_sample": 14906400,
+        "start": 309.38,
+        "end": 310.55,
+        "duration": 1.17,
+        "peak_rms_dbfs": -43.200613080780776
+      },
+      "quiet_before_frame_seconds": 0.38666666666665606,
+      "quiet_after_frame_seconds": 0.7833333333333599,
+      "reviewed": false,
+      "after_cut": "task16_cut3",
+      "before_cut": "task16_cut4",
+      "section_id": "task16",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 9557,
+      "sample": 15291200,
+      "point": 318.56666666666666,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 318.14,
+      "right_word_start": 319.0,
+      "quiet": {
+        "start_sample": 15285120,
+        "end_sample": 15323040,
+        "start": 318.44,
+        "end": 319.23,
+        "duration": 0.79,
+        "peak_rms_dbfs": -43.47051807972625
+      },
+      "quiet_before_frame_seconds": 0.12666666666666515,
+      "quiet_after_frame_seconds": 0.6633333333333553,
+      "reviewed": false,
+      "after_cut": "task16_cut4",
+      "before_cut": "task16_cut5",
+      "section_id": "task16",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 9637,
+      "sample": 15419200,
+      "point": 321.23333333333335,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 320.94,
+      "right_word_start": 321.5,
+      "quiet": {
+        "start_sample": 15417600,
+        "end_sample": 15443040,
+        "start": 321.2,
+        "end": 321.73,
+        "duration": 0.53,
+        "peak_rms_dbfs": -42.191369673386845
+      },
+      "quiet_before_frame_seconds": 0.03333333333335986,
+      "quiet_after_frame_seconds": 0.4966666666666697,
+      "reviewed": false,
+      "after_cut": "task16_cut5",
+      "before_cut": "ending_cut1",
+      "section_id": "task16",
+      "kind": "between_contiguous_source_blocks"
+    },
+    {
+      "frame": 9709,
+      "sample": 15534400,
+      "point": 323.6333333333333,
+      "basis": "REVIEWED_CURRENT_PCM_ASR_LEADING_PAUSE_WITH_LOCAL_ASR_AND_WAVEFORM",
+      "left_word_end": 323.4,
+      "right_word_start": 323.4,
+      "reviewed_previous_speech_end": 323.59,
+      "reviewed_next_speech_start": 323.7,
+      "evidence": {
+        "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+        "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+        "regional_asr": "narration/transcription-recovered/ending-original-speed.json",
+        "regional_asr_sha256": "25104e6c2c7966aa318be711aa745cf9a8975d65f15cafc6fa3985ef3702db2d",
+        "region_time_offset_seconds": 321.5,
+        "lexical_observation": "Complete previous phrase and next approved phrase are present; Whisper assigned the inter-phrase pause to the next first word.",
+        "waveform_quiet_seconds": [
+          323.59,
+          323.7
+        ],
+        "threshold_dbfs": -48,
+        "window_seconds": 0.01,
+        "review_scope": "Visual boundary only; these zero-gap ASR spans remain excluded from automatic pause deletion.",
+        "actual_word_times_approximate": true
+      },
+      "review": {
+        "after_cut": "ending_cut1",
+        "actual_speech_end_seconds": 323.59,
+        "actual_next_speech_start_seconds": 323.7,
+        "source_boundary_seconds": 323.6333333333333,
+        "kind": "REVIEWED_CURRENT_PCM_ASR_LEADING_PAUSE_WITH_LOCAL_ASR_AND_WAVEFORM",
+        "evidence": {
+          "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+          "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+          "regional_asr": "narration/transcription-recovered/ending-original-speed.json",
+          "regional_asr_sha256": "25104e6c2c7966aa318be711aa745cf9a8975d65f15cafc6fa3985ef3702db2d",
+          "region_time_offset_seconds": 321.5,
+          "lexical_observation": "Complete previous phrase and next approved phrase are present; Whisper assigned the inter-phrase pause to the next first word.",
+          "waveform_quiet_seconds": [
+            323.59,
+            323.7
+          ],
+          "threshold_dbfs": -48,
+          "window_seconds": 0.01,
+          "review_scope": "Visual boundary only; these zero-gap ASR spans remain excluded from automatic pause deletion.",
+          "actual_word_times_approximate": true
+        }
+      },
+      "reviewed": true,
+      "quiet": {
+        "start_sample": 15530880,
+        "end_sample": 15537600,
+        "start": 323.56,
+        "end": 323.7,
+        "duration": 0.14,
+        "peak_rms_dbfs": -45.48173397526547
+      },
+      "after_cut": "ending_cut1",
+      "before_cut": "ending_cut2",
+      "section_id": "ending",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 9807,
+      "sample": 15691200,
+      "point": 326.9,
+      "basis": "sustained waveform quiet inside ordered lexical phrase gap, quantized to the global frame clock",
+      "left_word_end": 326.74,
+      "right_word_start": 327.04,
+      "quiet": {
+        "start_sample": 15681600,
+        "end_sample": 15700320,
+        "start": 326.7,
+        "end": 327.09000000000003,
+        "duration": 0.39,
+        "peak_rms_dbfs": -42.949532514212834
+      },
+      "quiet_before_frame_seconds": 0.19999999999998863,
+      "quiet_after_frame_seconds": 0.19000000000005457,
+      "reviewed": false,
+      "after_cut": "ending_cut2",
+      "before_cut": "ending_cut3",
+      "section_id": "ending",
+      "kind": "visual_only_within_continuous_block"
+    },
+    {
+      "frame": 9940,
+      "sample": 15904000,
+      "point": 331.3333333333333,
+      "basis": "REVIEWED_CURRENT_PCM_ASR_LEADING_PAUSE_WITH_LOCAL_ASR_AND_WAVEFORM",
+      "left_word_end": 331.02,
+      "right_word_start": 331.02,
+      "reviewed_previous_speech_end": 331.13,
+      "reviewed_next_speech_start": 331.52,
+      "evidence": {
+        "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+        "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+        "regional_asr": "narration/transcription-recovered/ending-original-speed.json",
+        "regional_asr_sha256": "25104e6c2c7966aa318be711aa745cf9a8975d65f15cafc6fa3985ef3702db2d",
+        "region_time_offset_seconds": 321.5,
+        "lexical_observation": "Complete previous phrase and next approved phrase are present; Whisper assigned the inter-phrase pause to the next first word.",
+        "waveform_quiet_seconds": [
+          331.13,
+          331.52
+        ],
+        "threshold_dbfs": -48,
+        "window_seconds": 0.01,
+        "review_scope": "Visual boundary only; these zero-gap ASR spans remain excluded from automatic pause deletion.",
+        "actual_word_times_approximate": true
+      },
+      "review": {
+        "after_cut": "ending_cut3",
+        "actual_speech_end_seconds": 331.13,
+        "actual_next_speech_start_seconds": 331.52,
+        "source_boundary_seconds": 331.3333333333333,
+        "kind": "REVIEWED_CURRENT_PCM_ASR_LEADING_PAUSE_WITH_LOCAL_ASR_AND_WAVEFORM",
+        "evidence": {
+          "master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+          "asr_sha256": "c6738d0f76b09d91a531b5e8572301477259dafa49398f4127c36d9ce5a2f371",
+          "regional_asr": "narration/transcription-recovered/ending-original-speed.json",
+          "regional_asr_sha256": "25104e6c2c7966aa318be711aa745cf9a8975d65f15cafc6fa3985ef3702db2d",
+          "region_time_offset_seconds": 321.5,
+          "lexical_observation": "Complete previous phrase and next approved phrase are present; Whisper assigned the inter-phrase pause to the next first word.",
+          "waveform_quiet_seconds": [
+            331.13,
+            331.52
+          ],
+          "threshold_dbfs": -48,
+          "window_seconds": 0.01,
+          "review_scope": "Visual boundary only; these zero-gap ASR spans remain excluded from automatic pause deletion.",
+          "actual_word_times_approximate": true
+        }
+      },
+      "reviewed": true,
+      "quiet": {
+        "start_sample": 15894240,
+        "end_sample": 15912960,
+        "start": 331.13,
+        "end": 331.52,
+        "duration": 0.39,
+        "peak_rms_dbfs": -49.16536415676233
+      },
+      "after_cut": "ending_cut3",
+      "before_cut": "ending_cut5",
+      "section_id": "ending",
+      "kind": "visual_only_within_continuous_block"
+    }
+  ],
+  "waveform_silence_regions": [
+    {
+      "start_sample": 0,
+      "end_sample": 3840,
+      "start": 0.0,
+      "end": 0.08,
+      "duration": 0.08,
+      "peak_rms_dbfs": -45.75305831804718
+    },
+    {
+      "start_sample": 47040,
+      "end_sample": 52800,
+      "start": 0.98,
+      "end": 1.1,
+      "duration": 0.12,
+      "peak_rms_dbfs": -46.76655134618015
+    },
+    {
+      "start_sample": 106080,
+      "end_sample": 144960,
+      "start": 2.21,
+      "end": 3.02,
+      "duration": 0.81,
+      "peak_rms_dbfs": -42.56849275965399
+    },
+    {
+      "start_sample": 176640,
+      "end_sample": 181440,
+      "start": 3.68,
+      "end": 3.7800000000000002,
+      "duration": 0.1,
+      "peak_rms_dbfs": -44.44258727132766
+    },
+    {
+      "start_sample": 264480,
+      "end_sample": 269760,
+      "start": 5.51,
+      "end": 5.62,
+      "duration": 0.11,
+      "peak_rms_dbfs": -42.20699300523134
+    },
+    {
+      "start_sample": 291360,
+      "end_sample": 330720,
+      "start": 6.07,
+      "end": 6.890000000000001,
+      "duration": 0.8200000000000001,
+      "peak_rms_dbfs": -42.201638941893236
+    },
+    {
+      "start_sample": 380160,
+      "end_sample": 386880,
+      "start": 7.92,
+      "end": 8.06,
+      "duration": 0.14,
+      "peak_rms_dbfs": -44.28254676695782
+    },
+    {
+      "start_sample": 403680,
+      "end_sample": 407520,
+      "start": 8.41,
+      "end": 8.49,
+      "duration": 0.08,
+      "peak_rms_dbfs": -48.298106506933685
+    },
+    {
+      "start_sample": 442080,
+      "end_sample": 447840,
+      "start": 9.21,
+      "end": 9.33,
+      "duration": 0.12,
+      "peak_rms_dbfs": -42.41860306545658
+    },
+    {
+      "start_sample": 464160,
+      "end_sample": 468480,
+      "start": 9.67,
+      "end": 9.76,
+      "duration": 0.09,
+      "peak_rms_dbfs": -46.56814886738075
+    },
+    {
+      "start_sample": 521280,
+      "end_sample": 566400,
+      "start": 10.86,
+      "end": 11.8,
+      "duration": 0.9400000000000001,
+      "peak_rms_dbfs": -46.30438874611102
+    },
+    {
+      "start_sample": 697440,
+      "end_sample": 769440,
+      "start": 14.530000000000001,
+      "end": 16.03,
+      "duration": 1.5,
+      "peak_rms_dbfs": -42.16088346289016
+    },
+    {
+      "start_sample": 811200,
+      "end_sample": 815040,
+      "start": 16.9,
+      "end": 16.98,
+      "duration": 0.08,
+      "peak_rms_dbfs": -45.15420419055922
+    },
+    {
+      "start_sample": 865440,
+      "end_sample": 869760,
+      "start": 18.03,
+      "end": 18.12,
+      "duration": 0.09,
+      "peak_rms_dbfs": -51.12384959415422
+    },
+    {
+      "start_sample": 909120,
+      "end_sample": 916800,
+      "start": 18.94,
+      "end": 19.1,
+      "duration": 0.16,
+      "peak_rms_dbfs": -43.19855592333419
+    },
+    {
+      "start_sample": 936480,
+      "end_sample": 940800,
+      "start": 19.51,
+      "end": 19.6,
+      "duration": 0.09,
+      "peak_rms_dbfs": -52.49686055834295
+    },
+    {
+      "start_sample": 947040,
+      "end_sample": 950880,
+      "start": 19.73,
+      "end": 19.81,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.65440396083278
+    },
+    {
+      "start_sample": 954720,
+      "end_sample": 958560,
+      "start": 19.89,
+      "end": 19.97,
+      "duration": 0.08,
+      "peak_rms_dbfs": -44.39621949564463
+    },
+    {
+      "start_sample": 967680,
+      "end_sample": 1016160,
+      "start": 20.16,
+      "end": 21.17,
+      "duration": 1.01,
+      "peak_rms_dbfs": -42.85936334983427
+    },
+    {
+      "start_sample": 1064160,
+      "end_sample": 1068480,
+      "start": 22.17,
+      "end": 22.26,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.9208180100123
+    },
+    {
+      "start_sample": 1098240,
+      "end_sample": 1107840,
+      "start": 22.88,
+      "end": 23.080000000000002,
+      "duration": 0.2,
+      "peak_rms_dbfs": -46.80995319128581
+    },
+    {
+      "start_sample": 1206720,
+      "end_sample": 1210560,
+      "start": 25.14,
+      "end": 25.22,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.74279266951
+    },
+    {
+      "start_sample": 1215840,
+      "end_sample": 1220640,
+      "start": 25.330000000000002,
+      "end": 25.43,
+      "duration": 0.1,
+      "peak_rms_dbfs": -46.801960654768145
+    },
+    {
+      "start_sample": 1247520,
+      "end_sample": 1310880,
+      "start": 25.990000000000002,
+      "end": 27.310000000000002,
+      "duration": 1.32,
+      "peak_rms_dbfs": -42.52372409058951
+    },
+    {
+      "start_sample": 1379040,
+      "end_sample": 1383840,
+      "start": 28.73,
+      "end": 28.830000000000002,
+      "duration": 0.1,
+      "peak_rms_dbfs": -43.79149647834769
+    },
+    {
+      "start_sample": 1405920,
+      "end_sample": 1409760,
+      "start": 29.29,
+      "end": 29.37,
+      "duration": 0.08,
+      "peak_rms_dbfs": -50.658457231179966
+    },
+    {
+      "start_sample": 1432800,
+      "end_sample": 1436640,
+      "start": 29.85,
+      "end": 29.93,
+      "duration": 0.08,
+      "peak_rms_dbfs": -45.98782408052787
+    },
+    {
+      "start_sample": 1519200,
+      "end_sample": 1579200,
+      "start": 31.650000000000002,
+      "end": 32.9,
+      "duration": 1.25,
+      "peak_rms_dbfs": -43.26638826611245
+    },
+    {
+      "start_sample": 1616160,
+      "end_sample": 1620960,
+      "start": 33.67,
+      "end": 33.77,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.80981171582092
+    },
+    {
+      "start_sample": 1638720,
+      "end_sample": 1659840,
+      "start": 34.14,
+      "end": 34.58,
+      "duration": 0.44,
+      "peak_rms_dbfs": -49.55878378951374
+    },
+    {
+      "start_sample": 1740480,
+      "end_sample": 1745760,
+      "start": 36.26,
+      "end": 36.37,
+      "duration": 0.11,
+      "peak_rms_dbfs": -42.50307444718387
+    },
+    {
+      "start_sample": 1815360,
+      "end_sample": 1860960,
+      "start": 37.82,
+      "end": 38.77,
+      "duration": 0.9500000000000001,
+      "peak_rms_dbfs": -42.71823004698311
+    },
+    {
+      "start_sample": 1876800,
+      "end_sample": 1882080,
+      "start": 39.1,
+      "end": 39.21,
+      "duration": 0.11,
+      "peak_rms_dbfs": -43.02559380759846
+    },
+    {
+      "start_sample": 1892160,
+      "end_sample": 1902240,
+      "start": 39.42,
+      "end": 39.63,
+      "duration": 0.21,
+      "peak_rms_dbfs": -44.74005568795397
+    },
+    {
+      "start_sample": 1933440,
+      "end_sample": 1938240,
+      "start": 40.28,
+      "end": 40.38,
+      "duration": 0.1,
+      "peak_rms_dbfs": -47.8741658748114
+    },
+    {
+      "start_sample": 2032800,
+      "end_sample": 2128320,
+      "start": 42.35,
+      "end": 44.34,
+      "duration": 1.99,
+      "peak_rms_dbfs": -44.69075264651284
+    },
+    {
+      "start_sample": 2239680,
+      "end_sample": 2244960,
+      "start": 46.660000000000004,
+      "end": 46.77,
+      "duration": 0.11,
+      "peak_rms_dbfs": -42.975651702168605
+    },
+    {
+      "start_sample": 2290560,
+      "end_sample": 2294400,
+      "start": 47.72,
+      "end": 47.800000000000004,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.316009397233124
+    },
+    {
+      "start_sample": 2323200,
+      "end_sample": 2373120,
+      "start": 48.4,
+      "end": 49.44,
+      "duration": 1.04,
+      "peak_rms_dbfs": -42.68288302595799
+    },
+    {
+      "start_sample": 2378400,
+      "end_sample": 2382720,
+      "start": 49.550000000000004,
+      "end": 49.64,
+      "duration": 0.09,
+      "peak_rms_dbfs": -45.19552748116257
+    },
+    {
+      "start_sample": 2450400,
+      "end_sample": 2457600,
+      "start": 51.050000000000004,
+      "end": 51.2,
+      "duration": 0.15,
+      "peak_rms_dbfs": -42.910909462306066
+    },
+    {
+      "start_sample": 2465760,
+      "end_sample": 2469600,
+      "start": 51.370000000000005,
+      "end": 51.45,
+      "duration": 0.08,
+      "peak_rms_dbfs": -49.52442523196916
+    },
+    {
+      "start_sample": 2492160,
+      "end_sample": 2518080,
+      "start": 51.92,
+      "end": 52.46,
+      "duration": 0.54,
+      "peak_rms_dbfs": -42.71079215076771
+    },
+    {
+      "start_sample": 2524800,
+      "end_sample": 2528640,
+      "start": 52.6,
+      "end": 52.68,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.73321949968024
+    },
+    {
+      "start_sample": 2607840,
+      "end_sample": 2660160,
+      "start": 54.33,
+      "end": 55.42,
+      "duration": 1.09,
+      "peak_rms_dbfs": -44.30614198204249
+    },
+    {
+      "start_sample": 2736000,
+      "end_sample": 2740320,
+      "start": 57.0,
+      "end": 57.09,
+      "duration": 0.09,
+      "peak_rms_dbfs": -48.039925556695565
+    },
+    {
+      "start_sample": 2770080,
+      "end_sample": 2775840,
+      "start": 57.71,
+      "end": 57.83,
+      "duration": 0.12,
+      "peak_rms_dbfs": -43.779537649085796
+    },
+    {
+      "start_sample": 2785920,
+      "end_sample": 2790240,
+      "start": 58.04,
+      "end": 58.13,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.64096578123501
+    },
+    {
+      "start_sample": 2860800,
+      "end_sample": 2908800,
+      "start": 59.6,
+      "end": 60.6,
+      "duration": 1.0,
+      "peak_rms_dbfs": -43.583170127147994
+    },
+    {
+      "start_sample": 3031680,
+      "end_sample": 3038880,
+      "start": 63.160000000000004,
+      "end": 63.31,
+      "duration": 0.15,
+      "peak_rms_dbfs": -42.13295721863279
+    },
+    {
+      "start_sample": 3069120,
+      "end_sample": 3075360,
+      "start": 63.940000000000005,
+      "end": 64.07000000000001,
+      "duration": 0.13,
+      "peak_rms_dbfs": -42.84372474117123
+    },
+    {
+      "start_sample": 3103680,
+      "end_sample": 3108480,
+      "start": 64.66,
+      "end": 64.76,
+      "duration": 0.1,
+      "peak_rms_dbfs": -43.58672262790251
+    },
+    {
+      "start_sample": 3140640,
+      "end_sample": 3196800,
+      "start": 65.43,
+      "end": 66.6,
+      "duration": 1.17,
+      "peak_rms_dbfs": -44.66859911021655
+    },
+    {
+      "start_sample": 3282240,
+      "end_sample": 3288000,
+      "start": 68.38,
+      "end": 68.5,
+      "duration": 0.12,
+      "peak_rms_dbfs": -48.638125456420475
+    },
+    {
+      "start_sample": 3300480,
+      "end_sample": 3304320,
+      "start": 68.76,
+      "end": 68.84,
+      "duration": 0.08,
+      "peak_rms_dbfs": -46.10132229953991
+    },
+    {
+      "start_sample": 3394560,
+      "end_sample": 3453600,
+      "start": 70.72,
+      "end": 71.95,
+      "duration": 1.23,
+      "peak_rms_dbfs": -42.82435439763083
+    },
+    {
+      "start_sample": 3499200,
+      "end_sample": 3504000,
+      "start": 72.9,
+      "end": 73.0,
+      "duration": 0.1,
+      "peak_rms_dbfs": -51.040939172848084
+    },
+    {
+      "start_sample": 3611520,
+      "end_sample": 3615360,
+      "start": 75.24,
+      "end": 75.32000000000001,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.01274511210969
+    },
+    {
+      "start_sample": 3650880,
+      "end_sample": 3700800,
+      "start": 76.06,
+      "end": 77.10000000000001,
+      "duration": 1.04,
+      "peak_rms_dbfs": -42.08870718328186
+    },
+    {
+      "start_sample": 3765120,
+      "end_sample": 3770400,
+      "start": 78.44,
+      "end": 78.55,
+      "duration": 0.11,
+      "peak_rms_dbfs": -45.787456994761975
+    },
+    {
+      "start_sample": 3781440,
+      "end_sample": 3785280,
+      "start": 78.78,
+      "end": 78.86,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.702081918921905
+    },
+    {
+      "start_sample": 3852000,
+      "end_sample": 3890400,
+      "start": 80.25,
+      "end": 81.05,
+      "duration": 0.8,
+      "peak_rms_dbfs": -43.98965112515477
+    },
+    {
+      "start_sample": 3920160,
+      "end_sample": 3926400,
+      "start": 81.67,
+      "end": 81.8,
+      "duration": 0.13,
+      "peak_rms_dbfs": -42.799904553529295
+    },
+    {
+      "start_sample": 3965760,
+      "end_sample": 3973440,
+      "start": 82.62,
+      "end": 82.78,
+      "duration": 0.16,
+      "peak_rms_dbfs": -43.229312766121524
+    },
+    {
+      "start_sample": 3985440,
+      "end_sample": 3990240,
+      "start": 83.03,
+      "end": 83.13,
+      "duration": 0.1,
+      "peak_rms_dbfs": -43.99930037197492
+    },
+    {
+      "start_sample": 4015200,
+      "end_sample": 4022880,
+      "start": 83.65,
+      "end": 83.81,
+      "duration": 0.16,
+      "peak_rms_dbfs": -42.383470427024086
+    },
+    {
+      "start_sample": 4089120,
+      "end_sample": 4093920,
+      "start": 85.19,
+      "end": 85.29,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.39357782268746
+    },
+    {
+      "start_sample": 4119360,
+      "end_sample": 4169760,
+      "start": 85.82000000000001,
+      "end": 86.87,
+      "duration": 1.05,
+      "peak_rms_dbfs": -42.635877447102
+    },
+    {
+      "start_sample": 4240800,
+      "end_sample": 4245120,
+      "start": 88.35000000000001,
+      "end": 88.44,
+      "duration": 0.09,
+      "peak_rms_dbfs": -46.16361834907017
+    },
+    {
+      "start_sample": 4253760,
+      "end_sample": 4257600,
+      "start": 88.62,
+      "end": 88.7,
+      "duration": 0.08,
+      "peak_rms_dbfs": -49.61727064104333
+    },
+    {
+      "start_sample": 4295040,
+      "end_sample": 4299360,
+      "start": 89.48,
+      "end": 89.57000000000001,
+      "duration": 0.09,
+      "peak_rms_dbfs": -45.664425840336506
+    },
+    {
+      "start_sample": 4320000,
+      "end_sample": 4343520,
+      "start": 90.0,
+      "end": 90.49,
+      "duration": 0.49,
+      "peak_rms_dbfs": -46.3019103120273
+    },
+    {
+      "start_sample": 4380960,
+      "end_sample": 4385760,
+      "start": 91.27,
+      "end": 91.37,
+      "duration": 0.1,
+      "peak_rms_dbfs": -48.78368195107513
+    },
+    {
+      "start_sample": 4473600,
+      "end_sample": 4521120,
+      "start": 93.2,
+      "end": 94.19,
+      "duration": 0.99,
+      "peak_rms_dbfs": -42.853628125373646
+    },
+    {
+      "start_sample": 4594560,
+      "end_sample": 4598400,
+      "start": 95.72,
+      "end": 95.8,
+      "duration": 0.08,
+      "peak_rms_dbfs": -51.24528009836855
+    },
+    {
+      "start_sample": 4662720,
+      "end_sample": 4668960,
+      "start": 97.14,
+      "end": 97.27,
+      "duration": 0.13,
+      "peak_rms_dbfs": -42.22216557573522
+    },
+    {
+      "start_sample": 4695840,
+      "end_sample": 4739040,
+      "start": 97.83,
+      "end": 98.73,
+      "duration": 0.9,
+      "peak_rms_dbfs": -42.55219441705633
+    },
+    {
+      "start_sample": 4781760,
+      "end_sample": 4788000,
+      "start": 99.62,
+      "end": 99.75,
+      "duration": 0.13,
+      "peak_rms_dbfs": -42.01427920968027
+    },
+    {
+      "start_sample": 4881120,
+      "end_sample": 4932480,
+      "start": 101.69,
+      "end": 102.76,
+      "duration": 1.07,
+      "peak_rms_dbfs": -44.15171008988654
+    },
+    {
+      "start_sample": 4978560,
+      "end_sample": 4982880,
+      "start": 103.72,
+      "end": 103.81,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.38998132472809
+    },
+    {
+      "start_sample": 5003040,
+      "end_sample": 5012160,
+      "start": 104.23,
+      "end": 104.42,
+      "duration": 0.19,
+      "peak_rms_dbfs": -42.6936072864034
+    },
+    {
+      "start_sample": 5045760,
+      "end_sample": 5049600,
+      "start": 105.12,
+      "end": 105.2,
+      "duration": 0.08,
+      "peak_rms_dbfs": -44.268313942047556
+    },
+    {
+      "start_sample": 5068800,
+      "end_sample": 5072640,
+      "start": 105.60000000000001,
+      "end": 105.68,
+      "duration": 0.08,
+      "peak_rms_dbfs": -46.75849240229795
+    },
+    {
+      "start_sample": 5083200,
+      "end_sample": 5088000,
+      "start": 105.9,
+      "end": 106.0,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.61074631743095
+    },
+    {
+      "start_sample": 5110080,
+      "end_sample": 5149440,
+      "start": 106.46000000000001,
+      "end": 107.28,
+      "duration": 0.8200000000000001,
+      "peak_rms_dbfs": -42.16234846650507
+    },
+    {
+      "start_sample": 5179200,
+      "end_sample": 5183520,
+      "start": 107.9,
+      "end": 107.99000000000001,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.33709509221462
+    },
+    {
+      "start_sample": 5244000,
+      "end_sample": 5247840,
+      "start": 109.25,
+      "end": 109.33,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.53880851854751
+    },
+    {
+      "start_sample": 5287680,
+      "end_sample": 5331360,
+      "start": 110.16,
+      "end": 111.07000000000001,
+      "duration": 0.91,
+      "peak_rms_dbfs": -42.03046795586192
+    },
+    {
+      "start_sample": 5359680,
+      "end_sample": 5365440,
+      "start": 111.66,
+      "end": 111.78,
+      "duration": 0.12,
+      "peak_rms_dbfs": -50.249389262159305
+    },
+    {
+      "start_sample": 5378880,
+      "end_sample": 5384640,
+      "start": 112.06,
+      "end": 112.18,
+      "duration": 0.12,
+      "peak_rms_dbfs": -42.82791034554635
+    },
+    {
+      "start_sample": 5422560,
+      "end_sample": 5427840,
+      "start": 112.97,
+      "end": 113.08,
+      "duration": 0.11,
+      "peak_rms_dbfs": -43.5146309595244
+    },
+    {
+      "start_sample": 5441760,
+      "end_sample": 5446560,
+      "start": 113.37,
+      "end": 113.47,
+      "duration": 0.1,
+      "peak_rms_dbfs": -44.76075578451141
+    },
+    {
+      "start_sample": 5472960,
+      "end_sample": 5477280,
+      "start": 114.02,
+      "end": 114.11,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.240578754903034
+    },
+    {
+      "start_sample": 5525760,
+      "end_sample": 5574240,
+      "start": 115.12,
+      "end": 116.13,
+      "duration": 1.01,
+      "peak_rms_dbfs": -42.18023972791109
+    },
+    {
+      "start_sample": 5616480,
+      "end_sample": 5621280,
+      "start": 117.01,
+      "end": 117.11,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.5571612952368
+    },
+    {
+      "start_sample": 5626080,
+      "end_sample": 5630880,
+      "start": 117.21000000000001,
+      "end": 117.31,
+      "duration": 0.1,
+      "peak_rms_dbfs": -45.85220080299961
+    },
+    {
+      "start_sample": 5679840,
+      "end_sample": 5685600,
+      "start": 118.33,
+      "end": 118.45,
+      "duration": 0.12,
+      "peak_rms_dbfs": -42.438117990006035
+    },
+    {
+      "start_sample": 5703840,
+      "end_sample": 5708640,
+      "start": 118.83,
+      "end": 118.93,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.889439917964495
+    },
+    {
+      "start_sample": 5723520,
+      "end_sample": 5728320,
+      "start": 119.24000000000001,
+      "end": 119.34,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.94671822232245
+    },
+    {
+      "start_sample": 5741280,
+      "end_sample": 5745120,
+      "start": 119.61,
+      "end": 119.69,
+      "duration": 0.08,
+      "peak_rms_dbfs": -45.736553807332456
+    },
+    {
+      "start_sample": 5799360,
+      "end_sample": 5868000,
+      "start": 120.82000000000001,
+      "end": 122.25,
+      "duration": 1.43,
+      "peak_rms_dbfs": -43.49637163395051
+    },
+    {
+      "start_sample": 5906880,
+      "end_sample": 5913600,
+      "start": 123.06,
+      "end": 123.2,
+      "duration": 0.14,
+      "peak_rms_dbfs": -42.37908725071664
+    },
+    {
+      "start_sample": 5929440,
+      "end_sample": 5934240,
+      "start": 123.53,
+      "end": 123.63000000000001,
+      "duration": 0.1,
+      "peak_rms_dbfs": -46.325512015132674
+    },
+    {
+      "start_sample": 5952480,
+      "end_sample": 5957760,
+      "start": 124.01,
+      "end": 124.12,
+      "duration": 0.11,
+      "peak_rms_dbfs": -43.81890204618766
+    },
+    {
+      "start_sample": 6038400,
+      "end_sample": 6042240,
+      "start": 125.8,
+      "end": 125.88000000000001,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.25533446934685
+    },
+    {
+      "start_sample": 6064320,
+      "end_sample": 6111840,
+      "start": 126.34,
+      "end": 127.33,
+      "duration": 0.99,
+      "peak_rms_dbfs": -45.14358656994513
+    },
+    {
+      "start_sample": 6127680,
+      "end_sample": 6133440,
+      "start": 127.66,
+      "end": 127.78,
+      "duration": 0.12,
+      "peak_rms_dbfs": -44.24269604830647
+    },
+    {
+      "start_sample": 6165120,
+      "end_sample": 6169920,
+      "start": 128.44,
+      "end": 128.54,
+      "duration": 0.1,
+      "peak_rms_dbfs": -43.27077558221566
+    },
+    {
+      "start_sample": 6206400,
+      "end_sample": 6210720,
+      "start": 129.3,
+      "end": 129.39000000000001,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.13861051699879
+    },
+    {
+      "start_sample": 6237120,
+      "end_sample": 6275040,
+      "start": 129.94,
+      "end": 130.73,
+      "duration": 0.79,
+      "peak_rms_dbfs": -42.444183838102525
+    },
+    {
+      "start_sample": 6277920,
+      "end_sample": 6283200,
+      "start": 130.79,
+      "end": 130.9,
+      "duration": 0.11,
+      "peak_rms_dbfs": -42.044979975912966
+    },
+    {
+      "start_sample": 6294720,
+      "end_sample": 6302400,
+      "start": 131.14000000000001,
+      "end": 131.3,
+      "duration": 0.16,
+      "peak_rms_dbfs": -42.38374643725423
+    },
+    {
+      "start_sample": 6324480,
+      "end_sample": 6329280,
+      "start": 131.76,
+      "end": 131.86,
+      "duration": 0.1,
+      "peak_rms_dbfs": -48.51838504655176
+    },
+    {
+      "start_sample": 6340320,
+      "end_sample": 6345120,
+      "start": 132.09,
+      "end": 132.19,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.96402488828771
+    },
+    {
+      "start_sample": 6348480,
+      "end_sample": 6353760,
+      "start": 132.26,
+      "end": 132.37,
+      "duration": 0.11,
+      "peak_rms_dbfs": -43.22335060988311
+    },
+    {
+      "start_sample": 6446400,
+      "end_sample": 6450240,
+      "start": 134.3,
+      "end": 134.38,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.18058762502639
+    },
+    {
+      "start_sample": 6458400,
+      "end_sample": 6464640,
+      "start": 134.55,
+      "end": 134.68,
+      "duration": 0.13,
+      "peak_rms_dbfs": -42.03513713349538
+    },
+    {
+      "start_sample": 6538560,
+      "end_sample": 6594720,
+      "start": 136.22,
+      "end": 137.39000000000001,
+      "duration": 1.17,
+      "peak_rms_dbfs": -42.39719588659189
+    },
+    {
+      "start_sample": 6625920,
+      "end_sample": 6630240,
+      "start": 138.04,
+      "end": 138.13,
+      "duration": 0.09,
+      "peak_rms_dbfs": -45.68157848657008
+    },
+    {
+      "start_sample": 6693600,
+      "end_sample": 6699360,
+      "start": 139.45000000000002,
+      "end": 139.57,
+      "duration": 0.12,
+      "peak_rms_dbfs": -42.92162142009816
+    },
+    {
+      "start_sample": 6708480,
+      "end_sample": 6713280,
+      "start": 139.76,
+      "end": 139.86,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.096062874400914
+    },
+    {
+      "start_sample": 6739680,
+      "end_sample": 6790560,
+      "start": 140.41,
+      "end": 141.47,
+      "duration": 1.06,
+      "peak_rms_dbfs": -44.923639678339924
+    },
+    {
+      "start_sample": 6892320,
+      "end_sample": 6896160,
+      "start": 143.59,
+      "end": 143.67000000000002,
+      "duration": 0.08,
+      "peak_rms_dbfs": -48.27557393147691
+    },
+    {
+      "start_sample": 6913440,
+      "end_sample": 6918720,
+      "start": 144.03,
+      "end": 144.14000000000001,
+      "duration": 0.11,
+      "peak_rms_dbfs": -42.91177067969336
+    },
+    {
+      "start_sample": 6958080,
+      "end_sample": 6998880,
+      "start": 144.96,
+      "end": 145.81,
+      "duration": 0.85,
+      "peak_rms_dbfs": -42.32438780601316
+    },
+    {
+      "start_sample": 7027200,
+      "end_sample": 7032480,
+      "start": 146.4,
+      "end": 146.51,
+      "duration": 0.11,
+      "peak_rms_dbfs": -43.93086187348694
+    },
+    {
+      "start_sample": 7092480,
+      "end_sample": 7128480,
+      "start": 147.76,
+      "end": 148.51,
+      "duration": 0.75,
+      "peak_rms_dbfs": -42.76366332706346
+    },
+    {
+      "start_sample": 7220160,
+      "end_sample": 7226400,
+      "start": 150.42000000000002,
+      "end": 150.55,
+      "duration": 0.13,
+      "peak_rms_dbfs": -42.26169097078867
+    },
+    {
+      "start_sample": 7235520,
+      "end_sample": 7239360,
+      "start": 150.74,
+      "end": 150.82,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.486079843909835
+    },
+    {
+      "start_sample": 7247040,
+      "end_sample": 7259520,
+      "start": 150.98,
+      "end": 151.24,
+      "duration": 0.26,
+      "peak_rms_dbfs": -48.22137368100735
+    },
+    {
+      "start_sample": 7280640,
+      "end_sample": 7284480,
+      "start": 151.68,
+      "end": 151.76,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.66923068495889
+    },
+    {
+      "start_sample": 7295520,
+      "end_sample": 7299840,
+      "start": 151.99,
+      "end": 152.08,
+      "duration": 0.09,
+      "peak_rms_dbfs": -43.69419182249433
+    },
+    {
+      "start_sample": 7354080,
+      "end_sample": 7410240,
+      "start": 153.21,
+      "end": 154.38,
+      "duration": 1.17,
+      "peak_rms_dbfs": -42.46609044809532
+    },
+    {
+      "start_sample": 7473600,
+      "end_sample": 7478400,
+      "start": 155.70000000000002,
+      "end": 155.8,
+      "duration": 0.1,
+      "peak_rms_dbfs": -44.0567586915388
+    },
+    {
+      "start_sample": 7504800,
+      "end_sample": 7511040,
+      "start": 156.35,
+      "end": 156.48,
+      "duration": 0.13,
+      "peak_rms_dbfs": -43.24739978767458
+    },
+    {
+      "start_sample": 7536480,
+      "end_sample": 7543680,
+      "start": 157.01,
+      "end": 157.16,
+      "duration": 0.15,
+      "peak_rms_dbfs": -42.10062874073876
+    },
+    {
+      "start_sample": 7551360,
+      "end_sample": 7556160,
+      "start": 157.32,
+      "end": 157.42000000000002,
+      "duration": 0.1,
+      "peak_rms_dbfs": -50.06434213887359
+    },
+    {
+      "start_sample": 7571520,
+      "end_sample": 7575840,
+      "start": 157.74,
+      "end": 157.83,
+      "duration": 0.09,
+      "peak_rms_dbfs": -43.214877120921464
+    },
+    {
+      "start_sample": 7601760,
+      "end_sample": 7643520,
+      "start": 158.37,
+      "end": 159.24,
+      "duration": 0.87,
+      "peak_rms_dbfs": -42.41829762628367
+    },
+    {
+      "start_sample": 7656000,
+      "end_sample": 7660800,
+      "start": 159.5,
+      "end": 159.6,
+      "duration": 0.1,
+      "peak_rms_dbfs": -43.42360848364574
+    },
+    {
+      "start_sample": 7755840,
+      "end_sample": 7761600,
+      "start": 161.58,
+      "end": 161.70000000000002,
+      "duration": 0.12,
+      "peak_rms_dbfs": -43.87057284882467
+    },
+    {
+      "start_sample": 7829760,
+      "end_sample": 7885920,
+      "start": 163.12,
+      "end": 164.29,
+      "duration": 1.17,
+      "peak_rms_dbfs": -42.064439777345626
+    },
+    {
+      "start_sample": 7890240,
+      "end_sample": 7896000,
+      "start": 164.38,
+      "end": 164.5,
+      "duration": 0.12,
+      "peak_rms_dbfs": -42.64617011451202
+    },
+    {
+      "start_sample": 7914240,
+      "end_sample": 7918560,
+      "start": 164.88,
+      "end": 164.97,
+      "duration": 0.09,
+      "peak_rms_dbfs": -43.04503651348774
+    },
+    {
+      "start_sample": 7949280,
+      "end_sample": 7956480,
+      "start": 165.61,
+      "end": 165.76,
+      "duration": 0.15,
+      "peak_rms_dbfs": -42.42598601896739
+    },
+    {
+      "start_sample": 8083200,
+      "end_sample": 8141280,
+      "start": 168.4,
+      "end": 169.61,
+      "duration": 1.21,
+      "peak_rms_dbfs": -42.299123723426675
+    },
+    {
+      "start_sample": 8146560,
+      "end_sample": 8150880,
+      "start": 169.72,
+      "end": 169.81,
+      "duration": 0.09,
+      "peak_rms_dbfs": -52.65317145842761
+    },
+    {
+      "start_sample": 8227680,
+      "end_sample": 8232000,
+      "start": 171.41,
+      "end": 171.5,
+      "duration": 0.09,
+      "peak_rms_dbfs": -44.79415029141653
+    },
+    {
+      "start_sample": 8243040,
+      "end_sample": 8248320,
+      "start": 171.73,
+      "end": 171.84,
+      "duration": 0.11,
+      "peak_rms_dbfs": -43.276557937756905
+    },
+    {
+      "start_sample": 8263680,
+      "end_sample": 8267520,
+      "start": 172.16,
+      "end": 172.24,
+      "duration": 0.08,
+      "peak_rms_dbfs": -44.396368365794345
+    },
+    {
+      "start_sample": 8274720,
+      "end_sample": 8280000,
+      "start": 172.39000000000001,
+      "end": 172.5,
+      "duration": 0.11,
+      "peak_rms_dbfs": -43.413705335417774
+    },
+    {
+      "start_sample": 8345280,
+      "end_sample": 8389920,
+      "start": 173.86,
+      "end": 174.79,
+      "duration": 0.93,
+      "peak_rms_dbfs": -42.29599242747951
+    },
+    {
+      "start_sample": 8474880,
+      "end_sample": 8480160,
+      "start": 176.56,
+      "end": 176.67000000000002,
+      "duration": 0.11,
+      "peak_rms_dbfs": -42.04431949408502
+    },
+    {
+      "start_sample": 8495520,
+      "end_sample": 8520960,
+      "start": 176.99,
+      "end": 177.52,
+      "duration": 0.53,
+      "peak_rms_dbfs": -47.75078962034608
+    },
+    {
+      "start_sample": 8573280,
+      "end_sample": 8577120,
+      "start": 178.61,
+      "end": 178.69,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.70798513656014
+    },
+    {
+      "start_sample": 8658720,
+      "end_sample": 8703360,
+      "start": 180.39000000000001,
+      "end": 181.32,
+      "duration": 0.93,
+      "peak_rms_dbfs": -42.73831393806037
+    },
+    {
+      "start_sample": 8834880,
+      "end_sample": 8884320,
+      "start": 184.06,
+      "end": 185.09,
+      "duration": 1.03,
+      "peak_rms_dbfs": -42.39638758013762
+    },
+    {
+      "start_sample": 8895840,
+      "end_sample": 8900160,
+      "start": 185.33,
+      "end": 185.42000000000002,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.45096885059348
+    },
+    {
+      "start_sample": 9008640,
+      "end_sample": 9029760,
+      "start": 187.68,
+      "end": 188.12,
+      "duration": 0.44,
+      "peak_rms_dbfs": -47.68788477499383
+    },
+    {
+      "start_sample": 9076800,
+      "end_sample": 9082080,
+      "start": 189.1,
+      "end": 189.21,
+      "duration": 0.11,
+      "peak_rms_dbfs": -45.12589114421072
+    },
+    {
+      "start_sample": 9142560,
+      "end_sample": 9146400,
+      "start": 190.47,
+      "end": 190.55,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.379123975082564
+    },
+    {
+      "start_sample": 9180960,
+      "end_sample": 9234240,
+      "start": 191.27,
+      "end": 192.38,
+      "duration": 1.11,
+      "peak_rms_dbfs": -42.57136837137005
+    },
+    {
+      "start_sample": 9242400,
+      "end_sample": 9250080,
+      "start": 192.55,
+      "end": 192.71,
+      "duration": 0.16,
+      "peak_rms_dbfs": -49.1523188597442
+    },
+    {
+      "start_sample": 9289440,
+      "end_sample": 9295680,
+      "start": 193.53,
+      "end": 193.66,
+      "duration": 0.13,
+      "peak_rms_dbfs": -44.95306616002142
+    },
+    {
+      "start_sample": 9339360,
+      "end_sample": 9344160,
+      "start": 194.57,
+      "end": 194.67000000000002,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.32210560867773
+    },
+    {
+      "start_sample": 9372000,
+      "end_sample": 9378720,
+      "start": 195.25,
+      "end": 195.39000000000001,
+      "duration": 0.14,
+      "peak_rms_dbfs": -42.57039464695757
+    },
+    {
+      "start_sample": 9413280,
+      "end_sample": 9417600,
+      "start": 196.11,
+      "end": 196.20000000000002,
+      "duration": 0.09,
+      "peak_rms_dbfs": -47.953870991372945
+    },
+    {
+      "start_sample": 9476640,
+      "end_sample": 9526560,
+      "start": 197.43,
+      "end": 198.47,
+      "duration": 1.04,
+      "peak_rms_dbfs": -43.19233598634959
+    },
+    {
+      "start_sample": 9533280,
+      "end_sample": 9538080,
+      "start": 198.61,
+      "end": 198.71,
+      "duration": 0.1,
+      "peak_rms_dbfs": -44.94413026610807
+    },
+    {
+      "start_sample": 9547200,
+      "end_sample": 9551520,
+      "start": 198.9,
+      "end": 198.99,
+      "duration": 0.09,
+      "peak_rms_dbfs": -46.077139546111745
+    },
+    {
+      "start_sample": 9667200,
+      "end_sample": 9674400,
+      "start": 201.4,
+      "end": 201.55,
+      "duration": 0.15,
+      "peak_rms_dbfs": -43.62762994494731
+    },
+    {
+      "start_sample": 9705120,
+      "end_sample": 9748320,
+      "start": 202.19,
+      "end": 203.09,
+      "duration": 0.9,
+      "peak_rms_dbfs": -43.50315547132311
+    },
+    {
+      "start_sample": 9776160,
+      "end_sample": 9781920,
+      "start": 203.67000000000002,
+      "end": 203.79,
+      "duration": 0.12,
+      "peak_rms_dbfs": -45.58547987835837
+    },
+    {
+      "start_sample": 9839040,
+      "end_sample": 9843360,
+      "start": 204.98000000000002,
+      "end": 205.07,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.404891106460035
+    },
+    {
+      "start_sample": 9884640,
+      "end_sample": 9923520,
+      "start": 205.93,
+      "end": 206.74,
+      "duration": 0.81,
+      "peak_rms_dbfs": -43.80139322694898
+    },
+    {
+      "start_sample": 9980640,
+      "end_sample": 9984480,
+      "start": 207.93,
+      "end": 208.01,
+      "duration": 0.08,
+      "peak_rms_dbfs": -44.24509591471885
+    },
+    {
+      "start_sample": 10021440,
+      "end_sample": 10026240,
+      "start": 208.78,
+      "end": 208.88,
+      "duration": 0.1,
+      "peak_rms_dbfs": -43.2699770219069
+    },
+    {
+      "start_sample": 10053600,
+      "end_sample": 10097760,
+      "start": 209.45000000000002,
+      "end": 210.37,
+      "duration": 0.92,
+      "peak_rms_dbfs": -43.29242333451364
+    },
+    {
+      "start_sample": 10230240,
+      "end_sample": 10234080,
+      "start": 213.13,
+      "end": 213.21,
+      "duration": 0.08,
+      "peak_rms_dbfs": -46.419927406608544
+    },
+    {
+      "start_sample": 10269120,
+      "end_sample": 10328160,
+      "start": 213.94,
+      "end": 215.17000000000002,
+      "duration": 1.23,
+      "peak_rms_dbfs": -43.154929421634776
+    },
+    {
+      "start_sample": 10377600,
+      "end_sample": 10383360,
+      "start": 216.20000000000002,
+      "end": 216.32,
+      "duration": 0.12,
+      "peak_rms_dbfs": -45.56464449308589
+    },
+    {
+      "start_sample": 10468320,
+      "end_sample": 10474080,
+      "start": 218.09,
+      "end": 218.21,
+      "duration": 0.12,
+      "peak_rms_dbfs": -42.04652167090214
+    },
+    {
+      "start_sample": 10495200,
+      "end_sample": 10539360,
+      "start": 218.65,
+      "end": 219.57,
+      "duration": 0.92,
+      "peak_rms_dbfs": -43.32033620070452
+    },
+    {
+      "start_sample": 10619520,
+      "end_sample": 10623360,
+      "start": 221.24,
+      "end": 221.32,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.9174850685213
+    },
+    {
+      "start_sample": 10633920,
+      "end_sample": 10639200,
+      "start": 221.54,
+      "end": 221.65,
+      "duration": 0.11,
+      "peak_rms_dbfs": -42.83725182395728
+    },
+    {
+      "start_sample": 10686720,
+      "end_sample": 10690560,
+      "start": 222.64000000000001,
+      "end": 222.72,
+      "duration": 0.08,
+      "peak_rms_dbfs": -48.91100909849054
+    },
+    {
+      "start_sample": 10715040,
+      "end_sample": 10718880,
+      "start": 223.23000000000002,
+      "end": 223.31,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.21235395779107
+    },
+    {
+      "start_sample": 10741440,
+      "end_sample": 10793280,
+      "start": 223.78,
+      "end": 224.86,
+      "duration": 1.08,
+      "peak_rms_dbfs": -42.62977735977205
+    },
+    {
+      "start_sample": 10941120,
+      "end_sample": 10947840,
+      "start": 227.94,
+      "end": 228.08,
+      "duration": 0.14,
+      "peak_rms_dbfs": -42.217902535595925
+    },
+    {
+      "start_sample": 10995360,
+      "end_sample": 10999200,
+      "start": 229.07,
+      "end": 229.15,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.22360247059981
+    },
+    {
+      "start_sample": 11036640,
+      "end_sample": 11093760,
+      "start": 229.93,
+      "end": 231.12,
+      "duration": 1.19,
+      "peak_rms_dbfs": -43.64300330310928
+    },
+    {
+      "start_sample": 11101920,
+      "end_sample": 11105760,
+      "start": 231.29,
+      "end": 231.37,
+      "duration": 0.08,
+      "peak_rms_dbfs": -49.499625324485834
+    },
+    {
+      "start_sample": 11200320,
+      "end_sample": 11207040,
+      "start": 233.34,
+      "end": 233.48000000000002,
+      "duration": 0.14,
+      "peak_rms_dbfs": -43.44532474325224
+    },
+    {
+      "start_sample": 11271840,
+      "end_sample": 11277120,
+      "start": 234.83,
+      "end": 234.94,
+      "duration": 0.11,
+      "peak_rms_dbfs": -42.597931836723184
+    },
+    {
+      "start_sample": 11297760,
+      "end_sample": 11349120,
+      "start": 235.37,
+      "end": 236.44,
+      "duration": 1.07,
+      "peak_rms_dbfs": -42.95030086362928
+    },
+    {
+      "start_sample": 11379840,
+      "end_sample": 11384640,
+      "start": 237.08,
+      "end": 237.18,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.52116186514278
+    },
+    {
+      "start_sample": 11429280,
+      "end_sample": 11434560,
+      "start": 238.11,
+      "end": 238.22,
+      "duration": 0.11,
+      "peak_rms_dbfs": -43.21817868211674
+    },
+    {
+      "start_sample": 11496480,
+      "end_sample": 11500800,
+      "start": 239.51,
+      "end": 239.6,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.6543604858461
+    },
+    {
+      "start_sample": 11501760,
+      "end_sample": 11507040,
+      "start": 239.62,
+      "end": 239.73000000000002,
+      "duration": 0.11,
+      "peak_rms_dbfs": -42.227834800392365
+    },
+    {
+      "start_sample": 11535840,
+      "end_sample": 11577120,
+      "start": 240.33,
+      "end": 241.19,
+      "duration": 0.86,
+      "peak_rms_dbfs": -43.92834485662864
+    },
+    {
+      "start_sample": 11582400,
+      "end_sample": 11586720,
+      "start": 241.3,
+      "end": 241.39000000000001,
+      "duration": 0.09,
+      "peak_rms_dbfs": -48.3878382164502
+    },
+    {
+      "start_sample": 11602080,
+      "end_sample": 11605920,
+      "start": 241.71,
+      "end": 241.79,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.214700843172196
+    },
+    {
+      "start_sample": 11653440,
+      "end_sample": 11661600,
+      "start": 242.78,
+      "end": 242.95000000000002,
+      "duration": 0.17,
+      "peak_rms_dbfs": -42.09639535406023
+    },
+    {
+      "start_sample": 11755680,
+      "end_sample": 11804640,
+      "start": 244.91,
+      "end": 245.93,
+      "duration": 1.02,
+      "peak_rms_dbfs": -43.32015882504186
+    },
+    {
+      "start_sample": 11809920,
+      "end_sample": 11814240,
+      "start": 246.04,
+      "end": 246.13,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.21701263561664
+    },
+    {
+      "start_sample": 11849280,
+      "end_sample": 11853120,
+      "start": 246.86,
+      "end": 246.94,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.398995947835246
+    },
+    {
+      "start_sample": 11884320,
+      "end_sample": 11892000,
+      "start": 247.59,
+      "end": 247.75,
+      "duration": 0.16,
+      "peak_rms_dbfs": -42.084246282233586
+    },
+    {
+      "start_sample": 11922720,
+      "end_sample": 11929440,
+      "start": 248.39000000000001,
+      "end": 248.53,
+      "duration": 0.14,
+      "peak_rms_dbfs": -44.48126574607359
+    },
+    {
+      "start_sample": 11961600,
+      "end_sample": 11966400,
+      "start": 249.20000000000002,
+      "end": 249.3,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.429303749069504
+    },
+    {
+      "start_sample": 11986560,
+      "end_sample": 11990880,
+      "start": 249.72,
+      "end": 249.81,
+      "duration": 0.09,
+      "peak_rms_dbfs": -45.32750425602944
+    },
+    {
+      "start_sample": 12015840,
+      "end_sample": 12073920,
+      "start": 250.33,
+      "end": 251.54,
+      "duration": 1.21,
+      "peak_rms_dbfs": -42.08013316591929
+    },
+    {
+      "start_sample": 12099360,
+      "end_sample": 12103200,
+      "start": 252.07,
+      "end": 252.15,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.58139832962617
+    },
+    {
+      "start_sample": 12194400,
+      "end_sample": 12199680,
+      "start": 254.05,
+      "end": 254.16,
+      "duration": 0.11,
+      "peak_rms_dbfs": -42.40082077519567
+    },
+    {
+      "start_sample": 12206400,
+      "end_sample": 12210240,
+      "start": 254.3,
+      "end": 254.38,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.17936502692247
+    },
+    {
+      "start_sample": 12233760,
+      "end_sample": 12285120,
+      "start": 254.87,
+      "end": 255.94,
+      "duration": 1.07,
+      "peak_rms_dbfs": -42.68029110286467
+    },
+    {
+      "start_sample": 12409920,
+      "end_sample": 12456480,
+      "start": 258.54,
+      "end": 259.51,
+      "duration": 0.97,
+      "peak_rms_dbfs": -42.148737675276955
+    },
+    {
+      "start_sample": 12466080,
+      "end_sample": 12470400,
+      "start": 259.71,
+      "end": 259.8,
+      "duration": 0.09,
+      "peak_rms_dbfs": -43.53148537525308
+    },
+    {
+      "start_sample": 12481920,
+      "end_sample": 12489600,
+      "start": 260.04,
+      "end": 260.2,
+      "duration": 0.16,
+      "peak_rms_dbfs": -46.123021743294274
+    },
+    {
+      "start_sample": 12511680,
+      "end_sample": 12515520,
+      "start": 260.66,
+      "end": 260.74,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.23596397636421
+    },
+    {
+      "start_sample": 12534240,
+      "end_sample": 12538560,
+      "start": 261.13,
+      "end": 261.22,
+      "duration": 0.09,
+      "peak_rms_dbfs": -44.47432603355303
+    },
+    {
+      "start_sample": 12556320,
+      "end_sample": 12562080,
+      "start": 261.59000000000003,
+      "end": 261.71,
+      "duration": 0.12,
+      "peak_rms_dbfs": -43.62547932354769
+    },
+    {
+      "start_sample": 12632640,
+      "end_sample": 12684480,
+      "start": 263.18,
+      "end": 264.26,
+      "duration": 1.08,
+      "peak_rms_dbfs": -43.73051801877466
+    },
+    {
+      "start_sample": 12814560,
+      "end_sample": 12818400,
+      "start": 266.97,
+      "end": 267.05,
+      "duration": 0.08,
+      "peak_rms_dbfs": -47.741168003199405
+    },
+    {
+      "start_sample": 12891360,
+      "end_sample": 12958080,
+      "start": 268.57,
+      "end": 269.96,
+      "duration": 1.3900000000000001,
+      "peak_rms_dbfs": -44.18749070182849
+    },
+    {
+      "start_sample": 12983040,
+      "end_sample": 12986880,
+      "start": 270.48,
+      "end": 270.56,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.2795167341492
+    },
+    {
+      "start_sample": 13020480,
+      "end_sample": 13026720,
+      "start": 271.26,
+      "end": 271.39,
+      "duration": 0.13,
+      "peak_rms_dbfs": -44.63256754317001
+    },
+    {
+      "start_sample": 13035840,
+      "end_sample": 13042080,
+      "start": 271.58,
+      "end": 271.71,
+      "duration": 0.13,
+      "peak_rms_dbfs": -42.069095571321725
+    },
+    {
+      "start_sample": 13058880,
+      "end_sample": 13064160,
+      "start": 272.06,
+      "end": 272.17,
+      "duration": 0.11,
+      "peak_rms_dbfs": -46.68364580266563
+    },
+    {
+      "start_sample": 13166400,
+      "end_sample": 13213920,
+      "start": 274.3,
+      "end": 275.29,
+      "duration": 0.99,
+      "peak_rms_dbfs": -43.062500603577874
+    },
+    {
+      "start_sample": 13262400,
+      "end_sample": 13266720,
+      "start": 276.3,
+      "end": 276.39,
+      "duration": 0.09,
+      "peak_rms_dbfs": -45.93116089068304
+    },
+    {
+      "start_sample": 13300320,
+      "end_sample": 13305120,
+      "start": 277.09000000000003,
+      "end": 277.19,
+      "duration": 0.1,
+      "peak_rms_dbfs": -43.07960862621539
+    },
+    {
+      "start_sample": 13313280,
+      "end_sample": 13334400,
+      "start": 277.36,
+      "end": 277.8,
+      "duration": 0.44,
+      "peak_rms_dbfs": -42.039942209464584
+    },
+    {
+      "start_sample": 13351200,
+      "end_sample": 13356000,
+      "start": 278.15000000000003,
+      "end": 278.25,
+      "duration": 0.1,
+      "peak_rms_dbfs": -48.63758602916743
+    },
+    {
+      "start_sample": 13415520,
+      "end_sample": 13421760,
+      "start": 279.49,
+      "end": 279.62,
+      "duration": 0.13,
+      "peak_rms_dbfs": -42.61496801456147
+    },
+    {
+      "start_sample": 13455360,
+      "end_sample": 13499520,
+      "start": 280.32,
+      "end": 281.24,
+      "duration": 0.92,
+      "peak_rms_dbfs": -43.14854647421755
+    },
+    {
+      "start_sample": 13533600,
+      "end_sample": 13539360,
+      "start": 281.95,
+      "end": 282.07,
+      "duration": 0.12,
+      "peak_rms_dbfs": -44.83102737840155
+    },
+    {
+      "start_sample": 13551840,
+      "end_sample": 13555680,
+      "start": 282.33,
+      "end": 282.41,
+      "duration": 0.08,
+      "peak_rms_dbfs": -44.14075668827287
+    },
+    {
+      "start_sample": 13560480,
+      "end_sample": 13568160,
+      "start": 282.51,
+      "end": 282.67,
+      "duration": 0.16,
+      "peak_rms_dbfs": -43.63240715025717
+    },
+    {
+      "start_sample": 13574880,
+      "end_sample": 13578720,
+      "start": 282.81,
+      "end": 282.89,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.28558531254038
+    },
+    {
+      "start_sample": 13627680,
+      "end_sample": 13631520,
+      "start": 283.91,
+      "end": 283.99,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.93893293847805
+    },
+    {
+      "start_sample": 13669920,
+      "end_sample": 13723200,
+      "start": 284.79,
+      "end": 285.90000000000003,
+      "duration": 1.11,
+      "peak_rms_dbfs": -42.60459175902389
+    },
+    {
+      "start_sample": 13793280,
+      "end_sample": 13798080,
+      "start": 287.36,
+      "end": 287.46,
+      "duration": 0.1,
+      "peak_rms_dbfs": -47.75989478072397
+    },
+    {
+      "start_sample": 13805280,
+      "end_sample": 13809120,
+      "start": 287.61,
+      "end": 287.69,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.83060775806142
+    },
+    {
+      "start_sample": 13881600,
+      "end_sample": 13930080,
+      "start": 289.2,
+      "end": 290.21,
+      "duration": 1.01,
+      "peak_rms_dbfs": -42.3729001329685
+    },
+    {
+      "start_sample": 13972800,
+      "end_sample": 13977600,
+      "start": 291.1,
+      "end": 291.2,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.11736766998349
+    },
+    {
+      "start_sample": 13988640,
+      "end_sample": 13997760,
+      "start": 291.43,
+      "end": 291.62,
+      "duration": 0.19,
+      "peak_rms_dbfs": -45.00530245078594
+    },
+    {
+      "start_sample": 14026080,
+      "end_sample": 14029920,
+      "start": 292.21,
+      "end": 292.29,
+      "duration": 0.08,
+      "peak_rms_dbfs": -44.60012885052966
+    },
+    {
+      "start_sample": 14051040,
+      "end_sample": 14055840,
+      "start": 292.73,
+      "end": 292.83,
+      "duration": 0.1,
+      "peak_rms_dbfs": -47.05921334901379
+    },
+    {
+      "start_sample": 14059200,
+      "end_sample": 14064000,
+      "start": 292.90000000000003,
+      "end": 293.0,
+      "duration": 0.1,
+      "peak_rms_dbfs": -45.16939819435681
+    },
+    {
+      "start_sample": 14067840,
+      "end_sample": 14074080,
+      "start": 293.08,
+      "end": 293.21,
+      "duration": 0.13,
+      "peak_rms_dbfs": -45.03912515888054
+    },
+    {
+      "start_sample": 14161920,
+      "end_sample": 14227680,
+      "start": 295.04,
+      "end": 296.41,
+      "duration": 1.37,
+      "peak_rms_dbfs": -43.330216960399056
+    },
+    {
+      "start_sample": 14316480,
+      "end_sample": 14320320,
+      "start": 298.26,
+      "end": 298.34000000000003,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.42265475210187
+    },
+    {
+      "start_sample": 14351040,
+      "end_sample": 14355360,
+      "start": 298.98,
+      "end": 299.07,
+      "duration": 0.09,
+      "peak_rms_dbfs": -44.68712964427525
+    },
+    {
+      "start_sample": 14373120,
+      "end_sample": 14377440,
+      "start": 299.44,
+      "end": 299.53000000000003,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.13383047214492
+    },
+    {
+      "start_sample": 14398080,
+      "end_sample": 14443200,
+      "start": 299.96,
+      "end": 300.90000000000003,
+      "duration": 0.9400000000000001,
+      "peak_rms_dbfs": -43.63245421564463
+    },
+    {
+      "start_sample": 14455680,
+      "end_sample": 14461440,
+      "start": 301.16,
+      "end": 301.28000000000003,
+      "duration": 0.12,
+      "peak_rms_dbfs": -44.53934477960616
+    },
+    {
+      "start_sample": 14469120,
+      "end_sample": 14473440,
+      "start": 301.44,
+      "end": 301.53000000000003,
+      "duration": 0.09,
+      "peak_rms_dbfs": -46.47034332664002
+    },
+    {
+      "start_sample": 14495040,
+      "end_sample": 14501280,
+      "start": 301.98,
+      "end": 302.11,
+      "duration": 0.13,
+      "peak_rms_dbfs": -42.385505320354184
+    },
+    {
+      "start_sample": 14539680,
+      "end_sample": 14545920,
+      "start": 302.91,
+      "end": 303.04,
+      "duration": 0.13,
+      "peak_rms_dbfs": -44.16871012365667
+    },
+    {
+      "start_sample": 14597280,
+      "end_sample": 14641920,
+      "start": 304.11,
+      "end": 305.04,
+      "duration": 0.93,
+      "peak_rms_dbfs": -43.602529089258354
+    },
+    {
+      "start_sample": 14696640,
+      "end_sample": 14702400,
+      "start": 306.18,
+      "end": 306.3,
+      "duration": 0.12,
+      "peak_rms_dbfs": -43.67091659882189
+    },
+    {
+      "start_sample": 14710560,
+      "end_sample": 14714400,
+      "start": 306.47,
+      "end": 306.55,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.21920893240498
+    },
+    {
+      "start_sample": 14741280,
+      "end_sample": 14748000,
+      "start": 307.11,
+      "end": 307.25,
+      "duration": 0.14,
+      "peak_rms_dbfs": -42.10088816778891
+    },
+    {
+      "start_sample": 14813280,
+      "end_sample": 14817120,
+      "start": 308.61,
+      "end": 308.69,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.99870296431056
+    },
+    {
+      "start_sample": 14850240,
+      "end_sample": 14906400,
+      "start": 309.38,
+      "end": 310.55,
+      "duration": 1.17,
+      "peak_rms_dbfs": -43.200613080780776
+    },
+    {
+      "start_sample": 14962080,
+      "end_sample": 14969280,
+      "start": 311.71,
+      "end": 311.86,
+      "duration": 0.15,
+      "peak_rms_dbfs": -42.58615089578694
+    },
+    {
+      "start_sample": 15009120,
+      "end_sample": 15013440,
+      "start": 312.69,
+      "end": 312.78000000000003,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.25589609627634
+    },
+    {
+      "start_sample": 15021600,
+      "end_sample": 15025920,
+      "start": 312.95,
+      "end": 313.04,
+      "duration": 0.09,
+      "peak_rms_dbfs": -43.8659566417345
+    },
+    {
+      "start_sample": 15033120,
+      "end_sample": 15036960,
+      "start": 313.19,
+      "end": 313.27,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.15922541281111
+    },
+    {
+      "start_sample": 15047520,
+      "end_sample": 15069120,
+      "start": 313.49,
+      "end": 313.94,
+      "duration": 0.45,
+      "peak_rms_dbfs": -42.0753857634455
+    },
+    {
+      "start_sample": 15172800,
+      "end_sample": 15176640,
+      "start": 316.1,
+      "end": 316.18,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.66402293595574
+    },
+    {
+      "start_sample": 15180000,
+      "end_sample": 15184320,
+      "start": 316.25,
+      "end": 316.34000000000003,
+      "duration": 0.09,
+      "peak_rms_dbfs": -46.370312149146926
+    },
+    {
+      "start_sample": 15190560,
+      "end_sample": 15194880,
+      "start": 316.47,
+      "end": 316.56,
+      "duration": 0.09,
+      "peak_rms_dbfs": -42.44098569456921
+    },
+    {
+      "start_sample": 15225600,
+      "end_sample": 15231840,
+      "start": 317.2,
+      "end": 317.33,
+      "duration": 0.13,
+      "peak_rms_dbfs": -45.7576462495871
+    },
+    {
+      "start_sample": 15234240,
+      "end_sample": 15240000,
+      "start": 317.38,
+      "end": 317.5,
+      "duration": 0.12,
+      "peak_rms_dbfs": -43.550827809497136
+    },
+    {
+      "start_sample": 15253920,
+      "end_sample": 15259200,
+      "start": 317.79,
+      "end": 317.90000000000003,
+      "duration": 0.11,
+      "peak_rms_dbfs": -43.96543890825386
+    },
+    {
+      "start_sample": 15285120,
+      "end_sample": 15323040,
+      "start": 318.44,
+      "end": 319.23,
+      "duration": 0.79,
+      "peak_rms_dbfs": -43.47051807972625
+    },
+    {
+      "start_sample": 15352320,
+      "end_sample": 15356160,
+      "start": 319.84000000000003,
+      "end": 319.92,
+      "duration": 0.08,
+      "peak_rms_dbfs": -43.40855874980437
+    },
+    {
+      "start_sample": 15385920,
+      "end_sample": 15390720,
+      "start": 320.54,
+      "end": 320.64,
+      "duration": 0.1,
+      "peak_rms_dbfs": -43.74270509401265
+    },
+    {
+      "start_sample": 15417600,
+      "end_sample": 15443040,
+      "start": 321.2,
+      "end": 321.73,
+      "duration": 0.53,
+      "peak_rms_dbfs": -42.191369673386845
+    },
+    {
+      "start_sample": 15530880,
+      "end_sample": 15537600,
+      "start": 323.56,
+      "end": 323.7,
+      "duration": 0.14,
+      "peak_rms_dbfs": -45.48173397526547
+    },
+    {
+      "start_sample": 15574080,
+      "end_sample": 15578880,
+      "start": 324.46,
+      "end": 324.56,
+      "duration": 0.1,
+      "peak_rms_dbfs": -53.900494311647236
+    },
+    {
+      "start_sample": 15681600,
+      "end_sample": 15700320,
+      "start": 326.7,
+      "end": 327.09000000000003,
+      "duration": 0.39,
+      "peak_rms_dbfs": -42.949532514212834
+    },
+    {
+      "start_sample": 15740160,
+      "end_sample": 15747360,
+      "start": 327.92,
+      "end": 328.07,
+      "duration": 0.15,
+      "peak_rms_dbfs": -52.06314835012641
+    },
+    {
+      "start_sample": 15769920,
+      "end_sample": 15773760,
+      "start": 328.54,
+      "end": 328.62,
+      "duration": 0.08,
+      "peak_rms_dbfs": -42.8692997270912
+    },
+    {
+      "start_sample": 15797760,
+      "end_sample": 15813120,
+      "start": 329.12,
+      "end": 329.44,
+      "duration": 0.32,
+      "peak_rms_dbfs": -47.269075261465694
+    },
+    {
+      "start_sample": 15894240,
+      "end_sample": 15912960,
+      "start": 331.13,
+      "end": 331.52,
+      "duration": 0.39,
+      "peak_rms_dbfs": -49.16536415676233
+    },
+    {
+      "start_sample": 16036320,
+      "end_sample": 16053120,
+      "start": 334.09000000000003,
+      "end": 334.44,
+      "duration": 0.35000000000000003,
+      "peak_rms_dbfs": -46.94821019528266
+    },
+    {
+      "start_sample": 16070400,
+      "end_sample": 16075680,
+      "start": 334.8,
+      "end": 334.91,
+      "duration": 0.11,
+      "peak_rms_dbfs": -44.84859984505885
+    },
+    {
+      "start_sample": 16176960,
+      "end_sample": 16181760,
+      "start": 337.02,
+      "end": 337.12,
+      "duration": 0.1,
+      "peak_rms_dbfs": -42.82738760957499
+    }
+  ],
+  "waveform_rms_window_seconds": 0.01,
+  "quiet_threshold_dbfs": -42,
+  "required_output_tempo": 1,
+  "new_tts_by_this_script": false,
+  "source_mapping_proof": {
+    "method": "Exact PCM prefix/ending source ASR mapping under the explicitly authorized recovery; full composite ASR retained separately for independent 68-line presence.",
+    "current_composite": "narration/recovery/composite-original.wav",
+    "current_composite_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+    "recovery_map": "narration/recovery/recovery-map.json",
+    "recovery_map_sha256": "2369ce9749b5d9418c835e1787dd572d325407496adec8fb6278ac7df33fadf1",
+    "body_master_sha256": "b2e19801305df1f1e2624fca327b14943f9d04f696271869b09225afc42ba12b",
+    "body_asr": "narration/transcription/take.json",
+    "body_asr_sha256": "42f1b534d2c43ca02fa28e1d16b7e0ecb3e2e5dc9ec24b710fb16d0baa725bc3",
+    "body_source_sample_span": [
+      0,
+      15432000
+    ],
+    "body_word_count": 508,
+    "body_time_offset_seconds": 0,
+    "ending_master": "narration/recovery/approved-ending-original.wav",
+    "ending_master_sha256": "7a6e5d372d4c1b178ca38ae54058e27d120e78d19dfb49d87309a9783598b615",
+    "ending_asr": "narration/transcription-recovered/ending-original-speed.json",
+    "ending_asr_sha256": "25104e6c2c7966aa318be711aa745cf9a8975d65f15cafc6fa3985ef3702db2d",
+    "ending_word_count": 27,
+    "ending_time_offset_seconds": 321.5,
+    "full_composite_asr": "narration/transcription-recovered/composite-original.json",
+    "full_composite_asr_sha256": "589df3785f9fe30a50b50a26e6cea756a101021df5030a3e888149b37cf0c408",
+    "full_composite_normalized_character_coverage": 0.9805768098881695,
+    "full_composite_line_anchor_count": 68,
+    "all_source_spans_pcm_exact": true
+  },
+  "proposed_duration_seconds": 341.1333333333333,
+  "source_speech_frames": 10114,
+  "final_card_frames": 120,
+  "maximum_seconds": 315,
+  "script_blocks_covered": 14,
+  "script_cuts_covered": 68,
+  "all_source_cut_pcm_matches": true,
+  "all_source_pcm_in_order_once": true,
+  "source_pcm_sha256": "fca946beb47a1a6e12c5832cb6c55b0d4136283c50b4151be15d9f2a32e732af",
+  "joined_clip_pcm_sha256": "fca946beb47a1a6e12c5832cb6c55b0d4136283c50b4151be15d9f2a32e732af",
+  "final_timeline_seconds": 341.1333333333333,
+  "source_head_and_eof_preserved": true,
+  "audio_restarts_at_visual_boundaries": false,
+  "inserted_inter_block_or_inter_cut_silence_samples": 0,
+  "final_frame_padding_samples": 640,
+  "final_card_seconds": 4,
+  "notes": [
+    "No tempo change, narration generation, wording change, or old outer audio reuse.",
+    "The master is played once continuously; 14 exact WAV slices are provenance, not separately restarted audio.",
+    "All 67 lexical boundaries are quantized inside sustained waveform quiet or explicitly current-master reviewed.",
+    "ASR variants remain evidence differences; source/PCM validation does not prove pronunciation or subjective listening acceptance."
+  ],
+  "analysis_only": true,
+  "duration_within_hard_limit": false,
+  "timeline_committed": false,
+  "generation_mode": "single_take_with_authorized_original_ending_reuse",
+  "ending_reuse_exception_authorized": true,
+  "fresh_body_narration": true,
+  "new_full_narration": false,
+  "speech_tempo": 1,
+  "source_assembly": {
+    "status": "EXACT_PCM_COMPOSITE_ASSEMBLED_PENDING_FULL_ASR",
+    "generation_mode": "single_take_with_authorized_original_ending_reuse",
+    "ending_reuse_exception_authorized": true,
+    "fresh_body_narration": true,
+    "new_full_narration": false,
+    "tempo": 1,
+    "speech_tempo": 1,
+    "authorization": "narration/recovery/authorization.json",
+    "authorization_sha256": "4111d8478312667656530c7ad005a5688a8ff9e9a1985a60720e0a9a6bc462cf",
+    "ending_review": "narration/recovery/ending-reuse-review.json",
+    "ending_review_sha256": "287db6fda714e82831b8468214f538033166155cfac95af2f0bd42b92f73ba6b",
+    "prefix_review": "narration/recovery/prefix64-narration-analysis.json",
+    "prefix_review_sha256": "57b5373e1b4223f7eb8225bbc10d93799baabfa7d95e7e75db618a4b6e013677",
+    "original_incomplete_take_preserved": true,
+    "original_incomplete_take": "narration/elevenlabs/take.wav",
+    "original_incomplete_take_sha256": "b2e19801305df1f1e2624fca327b14943f9d04f696271869b09225afc42ba12b",
+    "composite": "narration/recovery/composite-original.wav",
+    "composite_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+    "composite_pcm_sha256": "fca946beb47a1a6e12c5832cb6c55b0d4136283c50b4151be15d9f2a32e732af",
+    "samples": 16181760,
+    "duration": 337.12,
+    "sample_rate": 48000,
+    "channels": 1,
+    "sample_width": 2,
+    "source_spans": [
+      {
+        "role": "fresh_opening_and_55_task_lines",
+        "file": "narration/elevenlabs/take.wav",
+        "file_sha256": "b2e19801305df1f1e2624fca327b14943f9d04f696271869b09225afc42ba12b",
+        "source_start_sample": 0,
+        "source_end_sample": 15432000,
+        "composite_start_sample": 0,
+        "composite_end_sample": 15432000,
+        "pcm_sha256": "ce5e0c8f602b7aba76272d4aef211488d57f0e9ca37a4e01370fa59c136e45a2"
+      },
+      {
+        "role": "authorized_identical_original_speed_ending",
+        "file": "narration/recovery/approved-ending-original.wav",
+        "file_sha256": "7a6e5d372d4c1b178ca38ae54058e27d120e78d19dfb49d87309a9783598b615",
+        "source_start_sample": 0,
+        "source_end_sample": 749760,
+        "composite_start_sample": 15432000,
+        "composite_end_sample": 16181760,
+        "pcm_sha256": "c931039fd8e6365bfb3fd0955564600f078bf4ab24b08a19f9ed909f4cb98855"
+      }
+    ],
+    "words_or_samples_synthesized": 0,
+    "speech_speed_changed": false,
+    "crossfade_samples": 0,
+    "actual_pause_edit_applied": false,
+    "scope": "Exact authorized source assembly only; full 68-line completeness and pause-edit approval remain separate gates."
+  },
+  "source_assembly_sha256": "2369ce9749b5d9418c835e1787dd572d325407496adec8fb6278ac7df33fadf1"
+}

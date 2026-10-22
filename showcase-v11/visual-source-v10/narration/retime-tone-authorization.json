@@ -1,0 +1,21 @@
+{
+  "revision": 10,
+  "authorization_source": "direct_user_reply_in_current_chat",
+  "user_answer": "타이밍 조정 + 보정 톤 적용 (권장)",
+  "authorized_at_utc": "2026-10-19T12:09:02.675Z",
+  "scope": "Apply the prepared315.0s/9450-frame cut-retiming proposal and the demonstrated +315cents Kyung pitch-only treatment at speech rate1. Preserve all68 approved sentences, task order, existing design/text apart from 자료 기준 removal, and all approved original source phonemes.",
+  "approved_proposal_sha256": "ff38348f4f94a046381dfc29d357e8a6ebfb14224d4ab011e1706725cbda7abf",
+  "approved_proposal": "narration/retime/approved-plan.json",
+  "independent_review": "narration/retime/independent-review.json",
+  "source_identity_sha256": "92c31c5917cbb6a5c7d8f7f998ac005bdd43bfb1e69e79183333c5dfcca5e3c2",
+  "duration_seconds": 315,
+  "frames": 9450,
+  "fps": 30,
+  "final_silent_card_seconds": 4,
+  "speech_tempo": 1,
+  "pitch_cents": 315,
+  "tone_preview_sha256": "939d54068cb69ccc4ba206c40b638fd59ad8702a7b0bca802fbef47a09bd22e8",
+  "maximum_cut_boundary_displacement_seconds": 3.566666666666667,
+  "bgm_policy": "Preserve the complete approved314.5s final music PCM; add0.5s zero tail inside the final silent-narration card to match315s.",
+  "additional_paid_generation_authorized": false
+}

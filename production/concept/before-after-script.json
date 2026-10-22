@@ -1,0 +1,1278 @@
+{
+  "schema_version": 1,
+  "purpose": "18-second task introductions emphasizing the change from BEFORE to AFTER",
+  "source_role": "Concept images are reference content. Direct user instructions and corrected names govern editorial choices.",
+  "duration_seconds": 241,
+  "opening": {
+    "start": 0,
+    "end": 15,
+    "lines": [
+      "R&D 공정",
+      "사람의 경험에 AI의 가능성을 더해",
+      "R&D 공정 — AI FAST TRACK",
+      "현장의 고민이 실질적인 솔루션으로",
+      "12 AI AGENTS"
+    ],
+    "narration": "알앤디 공정의 새로운 도전. 사람의 경험에 에이아이의 가능성을 더해, 현장의 고민을 실질적인 솔루션으로 바꿉니다. 열두 개 에이전트가 만드는 변화, 지금 시작합니다."
+  },
+  "task_duration_seconds": 18,
+  "title_seconds": 2,
+  "body_cut_duration_seconds": 4,
+  "next_cards": false,
+  "ending": {
+    "start": 231,
+    "end": 241,
+    "lines": [
+      "지금, 그 주인공을 만나보겠습니다.",
+      "R&D 공정",
+      "더 나은 내일을 향해"
+    ],
+    "narration": "사람의 경험과 에이아이가 함께 만드는 변화. 지금, 그 주인공을 만나보겠습니다."
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "source_file": "concept/1791878315652.png",
+      "title": "Smart Process Architecture AI Agent",
+      "short_title": "공정 평가 지식 연결",
+      "team": "Plug Etch",
+      "owner": "권혜선",
+      "owner_role": "TL",
+      "visual_kind": "architecture",
+      "start": 15,
+      "end": 33,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "흩어진 정보, 반복 탐색",
+      "afteraction": "대화로 평가 목적 구체화",
+      "comparison": {
+        "before": "반복 탐색",
+        "after": "평가 판단 지원"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 17,
+          "end": 21,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "흩어진 정보, 반복 탐색",
+          "visual_details_from_original": "평가 자료 · 공정 지식 · Plan/Recipe · 과거 실패 사례 카드가 서로 떨어진 여러 화면. 엔지니어가 시스템과 문서를 오가며 탐색.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315652.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "공정 자료가 흩어져 탐색이 길어집니다.",
+          "narration_characters": 21
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 21,
+          "end": 25,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "대화로 평가 목적 구체화",
+          "visual_details_from_original": "AI Agent 대화창과 평가 목적 입력. 평가 목적 구체화, Plan/Recipe 추천, 근거자료 연결 기능이 한 화면에 모임.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315652.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "이제 대화로 평가 목적을 구체화합니다.",
+          "narration_characters": 21
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 25,
+          "end": 29,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "맞춤 제안과 근거 연결",
+          "visual_details_from_original": "추천 Plan/Recipe, 유사 공정 조건·평가 데이터·기술문서, 실패 원인·주의사항·대체 조건. 이어 웨이퍼와 공정 그래프, 주요 인사이트 화면.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315652.png",
+            "panels": [
+              3,
+              4
+            ]
+          },
+          "narration": "플랜과 레시피, 실패 사례까지 연결합니다.",
+          "narration_characters": 23
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 29,
+          "end": 33,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "반복 탐색 → 평가 판단 지원",
+          "visual_details_from_original": "BEFORE에는 분산 자료와 수동 탐색, AFTER에는 평가 결과·조건 비교·인사이트를 나란히 배치. 실제 판정값이나 검증 수치는 넣지 않음.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315652.png",
+            "panels": [
+              4,
+              5
+            ]
+          },
+          "narration": "반복 탐색은 줄이고, 평가 판단을 돕습니다.",
+          "narration_characters": 24,
+          "before_caption": "반복 탐색",
+          "after_caption": "평가 판단 지원"
+        }
+      ],
+      "narration": "공정 자료가 흩어져 탐색이 길어집니다.\n이제 대화로 평가 목적을 구체화합니다.\n플랜과 레시피, 실패 사례까지 연결합니다.\n반복 탐색은 줄이고, 평가 판단을 돕습니다."
+    },
+    {
+      "id": 2,
+      "source_file": "concept/1791878315727.png",
+      "title": "장비 Daily Report Auto Mail System",
+      "short_title": "장비 리포트 자동화",
+      "team": "Cubic공정Lab",
+      "owner": "김도훈",
+      "owner_role": "TL",
+      "visual_kind": "report",
+      "start": 33,
+      "end": 51,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "매일 반복되는 일일 보고",
+      "afteraction": "여러 시스템에서 자동 수집",
+      "comparison": {
+        "before": "수작업 보고",
+        "after": "자동 전달"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 35,
+          "end": 39,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "매일 반복되는 일일 보고",
+          "visual_details_from_original": "장비 데이터 확인 → 데이터 정리 → 보고서 작성 → 메일 발송 수작업 카드를 시간순으로 표시.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315727.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "보고서 작성과 발송에 매일 손이 갑니다.",
+          "narration_characters": 22
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 39,
+          "end": 43,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "여러 시스템에서 자동 수집",
+          "visual_details_from_original": "SmartMES, GMS, IPA, Datalake 등 시스템에서 장비 데이터가 AI Agent로 모이는 연결도.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315727.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "장비 데이터를 여러 시스템에서 모읍니다.",
+          "narration_characters": 22
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 43,
+          "end": 47,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "보고서 자동 생성",
+          "visual_details_from_original": "HTML Equipment Daily Report에 주요 지표, 장비 가동 현황, 주요 이슈 요약. 원본 예시 숫자는 제외.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315727.png",
+            "panels": [
+              3
+            ]
+          },
+          "narration": "핵심 지표를 담은 보고서를 자동 생성합니다.",
+          "narration_characters": 24
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 47,
+          "end": 51,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "수작업 보고 → 자동 전달",
+          "visual_details_from_original": "BEFORE 보고서 작성과 메일 준비 카드, AFTER 지정 담당자에게 보고서를 자동 전달하는 흐름과 반복 업무 감소 메시지.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315727.png",
+            "panels": [
+              4,
+              5
+            ]
+          },
+          "narration": "자동 전달로, 중요한 판단에 집중합니다.",
+          "narration_characters": 22,
+          "before_caption": "수작업 보고",
+          "after_caption": "자동 전달"
+        }
+      ],
+      "narration": "보고서 작성과 발송에 매일 손이 갑니다.\n장비 데이터를 여러 시스템에서 모읍니다.\n핵심 지표를 담은 보고서를 자동 생성합니다.\n자동 전달로, 중요한 판단에 집중합니다."
+    },
+    {
+      "id": 3,
+      "source_file": "concept/1791878315800.png",
+      "title": "Thinfilm Agent - BEOL Thinfilm",
+      "short_title": "Thinfilm 통합 모니터링",
+      "team": "BEOL Thinfilm",
+      "owner": "김태민",
+      "owner_role": "TL",
+      "visual_kind": "thinfilm",
+      "start": 51,
+      "end": 69,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "분산된 Lot · 장비 · FDC",
+      "afteraction": "하나의 웹 플랫폼으로 통합",
+      "comparison": {
+        "before": "개별 확인",
+        "after": "조직의 연구 자산"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 53,
+          "end": 57,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "분산된 Lot · 장비 · FDC",
+          "visual_details_from_original": "Lot, 장비, FDC 현황이 각기 다른 화면에 흩어짐. 각각의 모니터링 창을 독립 카드로 표현.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315800.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "로트와 장비 확인에 여러 화면이 필요합니다.",
+          "narration_characters": 24
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 57,
+          "end": 61,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "하나의 웹 플랫폼으로 통합",
+          "visual_details_from_original": "Thinfilm Agent 웹 화면의 Lot 현황, 장비 현황, FDC 모니터링, DOE 관리 네 기능 카드.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315800.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "하나의 플랫폼에서 실시간으로 조회합니다.",
+          "narration_characters": 22
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 61,
+          "end": 65,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "시각화와 DOE 결과 공유",
+          "visual_details_from_original": "Lot Trend, Equipment Status, FDC Summary, DOE Result 차트. DOE 결과 업데이트와 분석 리포트 공유를 연결.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315800.png",
+            "panels": [
+              3,
+              4
+            ]
+          },
+          "narration": "공정 차트와 실험 결과를 함께 공유합니다.",
+          "narration_characters": 23
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 65,
+          "end": 69,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "개별 확인 → 조직의 연구 자산",
+          "visual_details_from_original": "BEFORE에는 개별 시스템의 고립된 화면, AFTER에는 DOE 결과·분석 리포트·관계 부서 공유를 연결. 완료 배지와 실제 성과 수치는 제외.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315800.png",
+            "panels": [
+              4
+            ]
+          },
+          "narration": "정보를 공유해, 연구 자산으로 활용합니다.",
+          "narration_characters": 23,
+          "before_caption": "개별 확인",
+          "after_caption": "조직의 연구 자산"
+        }
+      ],
+      "narration": "로트와 장비 확인에 여러 화면이 필요합니다.\n하나의 플랫폼에서 실시간으로 조회합니다.\n공정 차트와 실험 결과를 함께 공유합니다.\n정보를 공유해, 연구 자산으로 활용합니다."
+    },
+    {
+      "id": 4,
+      "source_file": "concept/1791878315867.png",
+      "title": "C&C Working Board 내 AI Agent 구축",
+      "short_title": "C&C Working Board",
+      "team": "C&C Tech Design",
+      "owner": "서우석",
+      "owner_role": "TL",
+      "visual_kind": "board",
+      "start": 69,
+      "end": 87,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "여러 파일에 흩어진 데이터",
+      "afteraction": "Working Board에 모아 검색",
+      "comparison": {
+        "before": "분산 파일",
+        "after": "재활용 가능한 분석"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 71,
+          "end": 75,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "여러 파일에 흩어진 데이터",
+          "visual_details_from_original": "공정 데이터, 장비 데이터, 실험 결과, 분석 자료 파일이 분산. 작고 불확실한 원본 라벨은 재사용하지 않음.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315867.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "공정과 장비 정보가 파일마다 나뉩니다.",
+          "narration_characters": 21
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 75,
+          "end": 79,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "Working Board에 모아 검색",
+          "visual_details_from_original": "C&C Working Board의 공정·장비·실험/검증·보고서·참고자료 폴더와 자연어 질의창.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315867.png",
+            "panels": [
+              2,
+              3
+            ]
+          },
+          "narration": "워킹 보드에 모아, 자연어로 검색합니다.",
+          "narration_characters": 22
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 79,
+          "end": 83,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "공정과 장비의 복합 분석",
+          "visual_details_from_original": "공정 조건과 장비 이상 이력의 상관관계, 조건별 이상 패턴, 개선 방향. 공정 트렌드와 장비 이상 이력 그래프를 병렬 비교.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315867.png",
+            "panels": [
+              3,
+              4
+            ]
+          },
+          "narration": "공정과 장비를 함께 분석해 보여줍니다.",
+          "narration_characters": 21
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 83,
+          "end": 87,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "분산 파일 → 재활용 가능한 분석",
+          "visual_details_from_original": "BEFORE 개별 파일 탐색, AFTER Working Board에 분석 결과를 저장해 재활용하는 흐름. 정보 접근성과 분석 재현성 메시지.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315867.png",
+            "panels": [
+              4,
+              5
+            ]
+          },
+          "narration": "분석을 저장해, 다음 업무에서도 활용합니다.",
+          "narration_characters": 24,
+          "before_caption": "분산 파일",
+          "after_caption": "재활용 가능한 분석"
+        }
+      ],
+      "narration": "공정과 장비 정보가 파일마다 나뉩니다.\n워킹 보드에 모아, 자연어로 검색합니다.\n공정과 장비를 함께 분석해 보여줍니다.\n분석을 저장해, 다음 업무에서도 활용합니다."
+    },
+    {
+      "id": 5,
+      "source_file": "concept/1791878315930.png",
+      "title": "LLM을 활용한 C&C 공정 Inline Data 관리",
+      "short_title": "C&C Inline 원인 분석",
+      "team": "C&C Tech Design",
+      "owner": "윤지욱",
+      "owner_role": "TL",
+      "visual_kind": "correlation",
+      "start": 87,
+      "end": 105,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "Spec out 이후 수동 조사",
+      "afteraction": "Lot ID로 분석 요청",
+      "comparison": {
+        "before": "개별 조사",
+        "after": "원인 후보를 한눈에"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 89,
+          "end": 93,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "Spec out 이후 수동 조사",
+          "visual_details_from_original": "Spec out 경고와 공정별 이력, 장비 로그, 조건 데이터, 반제품 이력, 품질 결과 자료를 차례로 확인하는 모습.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315930.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "이상이 생기면 공정 이력을 찾아야 합니다.",
+          "narration_characters": 23
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 93,
+          "end": 97,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "Lot ID로 분석 요청",
+          "visual_details_from_original": "C&C Inline Data AI Agent에 Lot ID와 메인 공정을 입력. 예시 식별값 대신 입력 필드와 분석 요청 흐름만 보여줌.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315930.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "로트 정보로 연계 공정 분석을 시작합니다.",
+          "narration_characters": 23
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 97,
+          "end": 101,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "이력 매핑 · 상관관계 분석",
+          "visual_details_from_original": "GoodDocs 매핑, 공정 이력 분석, 상관관계 분석. 영향도 그래프와 연계공정 후보 목록을 연결하되 구체적 실제 순위나 점수는 제외.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315930.png",
+            "panels": [
+              3,
+              4
+            ]
+          },
+          "narration": "이력 매핑과 상관관계 분석을 자동화합니다.",
+          "narration_characters": 23
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 101,
+          "end": 105,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "개별 조사 → 원인 후보를 한눈에",
+          "visual_details_from_original": "BEFORE 이력 개별 확인, AFTER 상관관계 시각화와 연계 가능성이 높은 공정 후보. 원인 확정이나 실제 70% 성과로 표현하지 않음.",
+          "imagepanel_reference": {
+            "file": "concept/1791878315930.png",
+            "panels": [
+              4,
+              5
+            ]
+          },
+          "narration": "연계 공정 후보를 한눈에 확인합니다.",
+          "narration_characters": 20,
+          "before_caption": "개별 조사",
+          "after_caption": "원인 후보를 한눈에"
+        }
+      ],
+      "narration": "이상이 생기면 공정 이력을 찾아야 합니다.\n로트 정보로 연계 공정 분석을 시작합니다.\n이력 매핑과 상관관계 분석을 자동화합니다.\n연계 공정 후보를 한눈에 확인합니다."
+    },
+    {
+      "id": 6,
+      "source_file": "concept/1791878316003.png",
+      "title": "R&D 공정 Eng’r 연구 환경 Infra 구축",
+      "short_title": "연구 환경 통합 Infra",
+      "team": "NAND Cell Lab",
+      "owner": "곽재오",
+      "owner_role": "TL",
+      "visual_kind": "research",
+      "start": 105,
+      "end": 123,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "곳곳에 흩어진 연구 이력",
+      "afteraction": "하나의 연구 앱에서 조회",
+      "comparison": {
+        "before": "데이터 탐색",
+        "after": "연구 판단 집중"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 107,
+          "end": 111,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "곳곳에 흩어진 연구 이력",
+          "visual_details_from_original": "Lot 이력, Lot Inline, 장비 이력, 장비 FDC, 연계 공정 이력이 다섯 개 독립 카드에 분산.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316003.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "로트와 장비 이력을 따로 조회해야 합니다.",
+          "narration_characters": 23
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 111,
+          "end": 115,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "하나의 연구 앱에서 조회",
+          "visual_details_from_original": "NAND R&D Data Platform의 Lot ID 입력과 Lot·Inline·장비·FDC·연계 공정 탭.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316003.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "하나의 앱에서 관련 이력을 통합 조회합니다.",
+          "narration_characters": 24
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 115,
+          "end": 119,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "전후 공정까지 연계 분석",
+          "visual_details_from_original": "이전 공정 T1 → 현재 NAND Cell → 이후 공정 T2 연결. 공정 조건 편차, 장비 이상 이력, 연계 공정 영향의 원인 후보 카드.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316003.png",
+            "panels": [
+              3,
+              4
+            ]
+          },
+          "narration": "전후 공정을 연결해, 원인 후보를 살핍니다.",
+          "narration_characters": 24
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 119,
+          "end": 123,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "데이터 탐색 → 연구 판단 집중",
+          "visual_details_from_original": "BEFORE 분산 이력 검색, AFTER 하나의 앱에서 연결된 원인 후보·공정 영향도·연계 공정을 확인. 분석 시간 수치를 실측 결과로 추가하지 않음.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316003.png",
+            "panels": [
+              4,
+              5
+            ]
+          },
+          "narration": "탐색 시간을 줄여, 연구 판단에 집중합니다.",
+          "narration_characters": 24,
+          "before_caption": "데이터 탐색",
+          "after_caption": "연구 판단 집중"
+        }
+      ],
+      "narration": "로트와 장비 이력을 따로 조회해야 합니다.\n하나의 앱에서 관련 이력을 통합 조회합니다.\n전후 공정을 연결해, 원인 후보를 살핍니다.\n탐색 시간을 줄여, 연구 판단에 집중합니다."
+    },
+    {
+      "id": 7,
+      "source_file": "concept/1791878316066.png",
+      "title": "경비 분석 및 절감 아이템 발굴 Agent 개발",
+      "short_title": "경비 분석 · 절감 아이템",
+      "team": "R&D장비기술 Thinfilm",
+      "owner": "오승재",
+      "owner_role": "TL",
+      "visual_kind": "cost",
+      "start": 123,
+      "end": 141,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "경비와 장비 이력, 개별 확인",
+      "afteraction": "통합 분석으로 판단 지표 생성",
+      "comparison": {
+        "before": "수작업 분석",
+        "after": "절감 기회 발굴"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 125,
+          "end": 129,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "경비와 장비 이력, 개별 확인",
+          "visual_details_from_original": "경비 실적, 장비 이력, 구매/계약 정보, 유지보수 이력 등 자료가 분산된 모습.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316066.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "경비와 장비 이력을 일일이 대조합니다.",
+          "narration_characters": 21
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 129,
+          "end": 133,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "통합 분석으로 판단 지표 생성",
+          "visual_details_from_original": "경비 분석 AI Agent가 경비, 장비, 계약, 유지보수 정보를 모아 분석하고 판단 지표를 생성하는 흐름.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316066.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "데이터를 모아, 절감 판단 지표를 만듭니다.",
+          "narration_characters": 24
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 133,
+          "end": 137,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "절감 아이템 · 검토 상태 확인",
+          "visual_details_from_original": "가스 사용량, 소모품 단가, 유지보수 주기 등 절감 검토 주제. 제안·검토 중·제외 항목의 상태를 구분한 표와 경비 추이.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316066.png",
+            "panels": [
+              3,
+              4
+            ]
+          },
+          "narration": "절감 아이템의 검토와 제외 항목을 봅니다.",
+          "narration_characters": 23
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 137,
+          "end": 141,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "수작업 분석 → 절감 기회 발굴",
+          "visual_details_from_original": "BEFORE 분산 경비 자료와 개별 검토, AFTER 절감 후보와 검토 상태를 한눈에 확인. 실제 절감액, 누적 건수와 80% 개선율은 제외.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316066.png",
+            "panels": [
+              4,
+              5
+            ]
+          },
+          "narration": "절감 기회를 빠르게 찾아 제안합니다.",
+          "narration_characters": 20,
+          "before_caption": "수작업 분석",
+          "after_caption": "절감 기회 발굴"
+        }
+      ],
+      "narration": "경비와 장비 이력을 일일이 대조합니다.\n데이터를 모아, 절감 판단 지표를 만듭니다.\n절감 아이템의 검토와 제외 항목을 봅니다.\n절감 기회를 빠르게 찾아 제안합니다."
+    },
+    {
+      "id": 8,
+      "source_file": "concept/1791878316135.png",
+      "title": "공정 Monitoring Data 자연어 검색 및 시각화 Agent",
+      "short_title": "공정 자연어 검색 · 시각화",
+      "team": "R&D장비기술 Diffusion",
+      "owner": "이태관",
+      "owner_role": "TL",
+      "visual_kind": "monitoring",
+      "start": 141,
+      "end": 159,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "조회 뒤에도 엑셀 가공",
+      "afteraction": "자연어로 공정 데이터 조회",
+      "comparison": {
+        "before": "수동 가공",
+        "after": "공정 변화를 한눈에"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 143,
+          "end": 147,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "조회 뒤에도 엑셀 가공",
+          "visual_details_from_original": "Smart Factory 데이터 조회 → Excel 가공 → 수동 분석 → 리포트 작성의 단계가 별도 창으로 펼쳐짐.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316135.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "모니터링 데이터를 엑셀로 가공합니다.",
+          "narration_characters": 20
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 147,
+          "end": 151,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "자연어로 공정 데이터 조회",
+          "visual_details_from_original": "공정 모니터링 AI Agent에서 Lot 공정 데이터, Wafer Map, 그래프, 장비별 조회를 대화로 요청.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316135.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "자연어로 원하는 공정 데이터를 찾습니다.",
+          "narration_characters": 22
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 151,
+          "end": 155,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "Wafer Map · 장비별 비교",
+          "visual_details_from_original": "Wafer Map과 공정 지표 추이. 장비별 주요 지표 비교와 장비 운영 현황을 나란히 배치. 구체적인 샘플 수치는 제외.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316135.png",
+            "panels": [
+              3,
+              4
+            ]
+          },
+          "narration": "웨이퍼 맵과 그래프로 장비를 비교합니다.",
+          "narration_characters": 22
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 155,
+          "end": 159,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "수동 가공 → 공정 변화를 한눈에",
+          "visual_details_from_original": "BEFORE 엑셀 가공과 여러 시스템 조회, AFTER 웨이퍼 분포·추이·장비 비교가 연결된 모니터링 화면. 실제 40% 성과로 표현하지 않음.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316135.png",
+            "panels": [
+              4,
+              5
+            ]
+          },
+          "narration": "수작업을 줄여 공정 변화를 파악합니다.",
+          "narration_characters": 21,
+          "before_caption": "수동 가공",
+          "after_caption": "공정 변화를 한눈에"
+        }
+      ],
+      "narration": "모니터링 데이터를 엑셀로 가공합니다.\n자연어로 원하는 공정 데이터를 찾습니다.\n웨이퍼 맵과 그래프로 장비를 비교합니다.\n수작업을 줄여 공정 변화를 파악합니다."
+    },
+    {
+      "id": 9,
+      "source_file": "concept/1791878316184.png",
+      "title": "TCAD-TEM 이미지 연계를 통한 이미지 Labeling Tool 개발",
+      "short_title": "TCAD–TEM 이미지 분석",
+      "team": "DRAM ETCH",
+      "owner": "김성후",
+      "owner_role": "TL",
+      "visual_kind": "labeling",
+      "start": 159,
+      "end": 177,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "반복되는 TEM 수작업 측정",
+      "afteraction": "정렬과 측정을 하나의 도구로",
+      "comparison": {
+        "before": "수작업 반복",
+        "after": "일관된 분석"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 161,
+          "end": 165,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "반복되는 TEM 수작업 측정",
+          "visual_details_from_original": "TEM 단면 이미지의 회전, 항목별 수동 측정, Raw data 정리와 수동 분석을 엔지니어가 반복.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316184.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "템 이미지를 맞추고 하나씩 측정합니다.",
+          "narration_characters": 21
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 165,
+          "end": 169,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "정렬과 측정을 하나의 도구로",
+          "visual_details_from_original": "TCAD-TEM Labeling Tool의 이미지 불러오기 → 회전·정렬 → 항목별 자동 측정 → Raw data 정리 흐름.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316184.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "한 도구에서 정렬과 측정을 자동화합니다.",
+          "narration_characters": 22
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 169,
+          "end": 173,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "측정선 · Raw data · 시각화",
+          "visual_details_from_original": "TEM 단면의 색상별 측정선과 R_NIT, S/W, CD, LS, Etch Depth, Sidewall Angle 항목. 측정 데이터 표와 결과 그래프를 연결.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316184.png",
+            "panels": [
+              3,
+              4
+            ]
+          },
+          "narration": "측정 데이터를 정리하고 시각화합니다.",
+          "narration_characters": 20
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 173,
+          "end": 177,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "수작업 반복 → 일관된 분석",
+          "visual_details_from_original": "BEFORE 이미지별 수동 정렬·측정·데이터 정리, AFTER 동일 도구의 자동 측정과 정리된 분석 결과. 5분→6초나 정확도 개선율은 실제 검증 성과로 재사용하지 않음.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316184.png",
+            "panels": [
+              4,
+              5
+            ]
+          },
+          "narration": "반복 측정은 줄이고, 분석 편차를 낮춥니다.",
+          "narration_characters": 24,
+          "before_caption": "수작업 반복",
+          "after_caption": "일관된 분석"
+        }
+      ],
+      "narration": "템 이미지를 맞추고 하나씩 측정합니다.\n한 도구에서 정렬과 측정을 자동화합니다.\n측정 데이터를 정리하고 시각화합니다.\n반복 측정은 줄이고, 분석 편차를 낮춥니다."
+    },
+    {
+      "id": 10,
+      "source_file": "concept/1791878316342.png",
+      "title": "Cubic공정Lab 전용 App&Agent",
+      "short_title": "Cubic 통합 업무 포털",
+      "team": "Cubic공정Lab",
+      "owner": "정현준",
+      "owner_role": "TL",
+      "visual_kind": "portal",
+      "start": 177,
+      "end": 195,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "업무마다 시스템 이동",
+      "afteraction": "Cubic 전용 포털로 통합",
+      "comparison": {
+        "before": "시스템 이동",
+        "after": "한곳에서 업무"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 179,
+          "end": 183,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "업무마다 시스템 이동",
+          "visual_details_from_original": "Excel, Smart Factory, APS, DataHub와 기타 시스템에 조회·예약·보고 업무가 분산.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316342.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "조회와 예약에 시스템을 옮겨 다닙니다.",
+          "narration_characters": 21
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 183,
+          "end": 187,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "Cubic 전용 포털로 통합",
+          "visual_details_from_original": "Cubic공정Lab 포털의 Lot 조회, 장비 Status, TEM 쿼터 예약 메뉴가 한곳에 모임.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316342.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "로트와 장비, 예약을 한 포털에 모읍니다.",
+          "narration_characters": 23
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 187,
+          "end": 191,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "보고서 · 메일 기능까지 연결",
+          "visual_details_from_original": "Daily/Weekly Report 자동 생성과 주말 근무자 메일 발신 기능. Lot 추이, 장비 현황, TEM 예약, 최근 보고서 카드.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316342.png",
+            "panels": [
+              3,
+              4
+            ]
+          },
+          "narration": "일일 보고서와 메일 기능도 연결합니다.",
+          "narration_characters": 21
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 191,
+          "end": 195,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "시스템 이동 → 한곳에서 업무",
+          "visual_details_from_original": "BEFORE 여러 시스템을 오가는 흐름, AFTER 포털 한 화면에서 조회·예약·보고 기능을 쓰는 흐름. 실제 메일 발송과 90% 실적은 보여주지 않음.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316342.png",
+            "panels": [
+              4,
+              5
+            ]
+          },
+          "narration": "조회와 예약을 한곳에서 처리합니다.",
+          "narration_characters": 19,
+          "before_caption": "시스템 이동",
+          "after_caption": "한곳에서 업무"
+        }
+      ],
+      "narration": "조회와 예약에 시스템을 옮겨 다닙니다.\n로트와 장비, 예약을 한 포털에 모읍니다.\n일일 보고서와 메일 기능도 연결합니다.\n조회와 예약을 한곳에서 처리합니다."
+    },
+    {
+      "id": 11,
+      "source_file": "concept/1791878316232.png",
+      "title": "RSAB SNM Overlay 열화 원인 분석 및 솔루션 제시 Agent",
+      "short_title": "RSAB SNM Overlay 분석",
+      "team": "DRAM 트랙 Photo",
+      "owner": "장민희",
+      "owner_role": "TL",
+      "visual_kind": "overlay",
+      "start": 195,
+      "end": 213,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "도구별 조회에 의존한 분석",
+      "afteraction": "Lot ID 하나로 통합 조회",
+      "comparison": {
+        "before": "경험 의존",
+        "after": "원인별 솔루션 지원"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 197,
+          "end": 201,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "도구별 조회에 의존한 분석",
+          "visual_details_from_original": "Overlay, Residual, MA Bias 분석 도구와 Dcol Data의 Spec in/out 화면이 분산되어 각각 조회.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316232.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "열화 원인 분석이 경험에 의존합니다.",
+          "narration_characters": 20
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 201,
+          "end": 205,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "Lot ID 하나로 통합 조회",
+          "visual_details_from_original": "RSAB SNM Overlay AI Agent에 Lot ID 입력. Overlay, Residual, MA Bias Map, Trend와 K-parameter 분석 기능을 연결.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316232.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "로트 아이디로 오버레이 정보를 모읍니다.",
+          "narration_characters": 22
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 205,
+          "end": 209,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "Map · Trend로 원인 후보 비교",
+          "visual_details_from_original": "Vector·Scatter Map과 Residual·MA Bias Map. 정상 Baseline과 입력 Lot의 Parameter Trend 박스플롯 및 웨이퍼 분포를 비교.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316232.png",
+            "panels": [
+              3,
+              4
+            ]
+          },
+          "narration": "맵과 추세를 비교해, 의심 원인을 좁힙니다.",
+          "narration_characters": 24
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 209,
+          "end": 213,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "경험 의존 → 원인별 솔루션 지원",
+          "visual_details_from_original": "BEFORE 개별 조회와 경험 의존, AFTER 정상 Baseline 대비 K-parameter Z-score로 의심 공정 계층을 추정. 장비 정렬 점검, Reticle 이력 확인, PR 조건 검토 등 솔루션 주제만 보여줌.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316232.png",
+            "panels": [
+              5
+            ]
+          },
+          "narration": "케이 파라미터로 해결 방안을 제안합니다.",
+          "narration_characters": 22,
+          "before_caption": "경험 의존",
+          "after_caption": "원인별 솔루션 지원"
+        }
+      ],
+      "narration": "열화 원인 분석이 경험에 의존합니다.\n로트 아이디로 오버레이 정보를 모읍니다.\n맵과 추세를 비교해, 의심 원인을 좁힙니다.\n케이 파라미터로 해결 방안을 제안합니다."
+    },
+    {
+      "id": 12,
+      "source_file": "concept/1791878316281.png",
+      "title": "AI Agent 기반 Plug 대면적 데이터 분석 자동화 및 인사이트 도출",
+      "short_title": "Plug 대면적 데이터 분석",
+      "team": "N-PMA",
+      "owner": "김지은",
+      "owner_role": "TL",
+      "visual_kind": "plug",
+      "start": 213,
+      "end": 231,
+      "title_seconds": 2,
+      "transition_enabled": false,
+      "beforepain": "대면적 이미지의 육안 검증",
+      "afteraction": "CV 기반 계측선 · Plug 인식",
+      "comparison": {
+        "before": "대면적 육안 검증",
+        "after": "결과 활용"
+      },
+      "cuts": [
+        {
+          "id": 1,
+          "start_offset": 2,
+          "end_offset": 6,
+          "start": 215,
+          "end": 219,
+          "phase": "before",
+          "cutlabel": "BEFORE",
+          "caption": "대면적 이미지의 육안 검증",
+          "visual_details_from_original": "대면적 Plug 이미지와 계측 표를 엔지니어가 육안으로 대조하는 장면.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316281.png",
+            "panels": [
+              1
+            ]
+          },
+          "narration": "대면적 플러그는 육안 검증이 필요합니다.",
+          "narration_characters": 22
+        },
+        {
+          "id": 2,
+          "start_offset": 6,
+          "end_offset": 10,
+          "start": 219,
+          "end": 223,
+          "phase": "after_action",
+          "cutlabel": "AFTER · 연결",
+          "caption": "CV 기반 계측선 · Plug 인식",
+          "visual_details_from_original": "계측선이 있는 Plug 이미지를 영역별로 나누고 CV로 계측선과 Plug를 인식해 번호를 부여.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316281.png",
+            "panels": [
+              2
+            ]
+          },
+          "narration": "계측선과 플러그를 자동으로 인식합니다.",
+          "narration_characters": 21
+        },
+        {
+          "id": 3,
+          "start_offset": 10,
+          "end_offset": 14,
+          "start": 223,
+          "end": 227,
+          "phase": "after_analysis",
+          "cutlabel": "AFTER · 분석",
+          "caption": "의심 항목 선별 · 담당자 최종 판정",
+          "visual_details_from_original": "정상/오계측 의심 단면을 비교하고 검토 대상 목록을 제시. 담당자의 최종 판정 단계는 별도 강조.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316281.png",
+            "panels": [
+              3
+            ]
+          },
+          "narration": "자동 선별 후, 담당자가 최종 판정합니다.",
+          "narration_characters": 23
+        },
+        {
+          "id": 4,
+          "start_offset": 14,
+          "end_offset": 18,
+          "start": 227,
+          "end": 231,
+          "phase": "before_after_comparison",
+          "cutlabel": "BEFORE → AFTER",
+          "caption": "대면적 육안 검증 → 결과 활용",
+          "visual_details_from_original": "BEFORE 전체 이미지 육안 검증, AFTER 선별된 검토와 CD/Space Profile 조회. 이어 대시보드와 분석 챗봇. 실제 총 파일·Plug 수와 CD 평균은 제외.",
+          "imagepanel_reference": {
+            "file": "concept/1791878316281.png",
+            "panels": [
+              4,
+              5
+            ]
+          },
+          "narration": "검증 부담을 줄여, 분석 결과를 활용합니다.",
+          "narration_characters": 24,
+          "before_caption": "대면적 육안 검증",
+          "after_caption": "결과 활용"
+        }
+      ],
+      "narration": "대면적 플러그는 육안 검증이 필요합니다.\n계측선과 플러그를 자동으로 인식합니다.\n자동 선별 후, 담당자가 최종 판정합니다.\n검증 부담을 줄여, 분석 결과를 활용합니다."
+    }
+  ],
+  "editorial_notes": [
+    "Each task has a 2-second full title, then four 4-second body cuts. The final comparison remains visible until the next full title; omit NEXT cards.",
+    "Keep task 11 장민희 and task 12 김지은 as the last two task introductions, followed by a separate ending.",
+    "Names 곽재오 and 윤지욱 follow direct user corrections.",
+    "Source dashboards and quantified benefit claims are illustrative or expected; the narration avoids presenting them as independently verified measurements.",
+    "Use Salang with the saved bright, confident presentation settings. Generate the entire narration as one take with one delivery tag.",
+    "The four body lines align to BEFORE, AFTER input/integration, AFTER analysis, then BEFORE/AFTER comparison. Original image panels may be combined where needed."
+  ],
+  "narration_text": "알앤디 공정의 새로운 도전. 사람의 경험에 에이아이의 가능성을 더해, 현장의 고민을 실질적인 솔루션으로 바꿉니다. 열두 개 에이전트가 만드는 변화, 지금 시작합니다.\n공정 자료가 흩어져 탐색이 길어집니다.\n이제 대화로 평가 목적을 구체화합니다.\n플랜과 레시피, 실패 사례까지 연결합니다.\n반복 탐색은 줄이고, 평가 판단을 돕습니다.\n보고서 작성과 발송에 매일 손이 갑니다.\n장비 데이터를 여러 시스템에서 모읍니다.\n핵심 지표를 담은 보고서를 자동 생성합니다.\n자동 전달로, 중요한 판단에 집중합니다.\n로트와 장비 확인에 여러 화면이 필요합니다.\n하나의 플랫폼에서 실시간으로 조회합니다.\n공정 차트와 실험 결과를 함께 공유합니다.\n정보를 공유해, 연구 자산으로 활용합니다.\n공정과 장비 정보가 파일마다 나뉩니다.\n워킹 보드에 모아, 자연어로 검색합니다.\n공정과 장비를 함께 분석해 보여줍니다.\n분석을 저장해, 다음 업무에서도 활용합니다.\n이상이 생기면 공정 이력을 찾아야 합니다.\n로트 정보로 연계 공정 분석을 시작합니다.\n이력 매핑과 상관관계 분석을 자동화합니다.\n연계 공정 후보를 한눈에 확인합니다.\n로트와 장비 이력을 따로 조회해야 합니다.\n하나의 앱에서 관련 이력을 통합 조회합니다.\n전후 공정을 연결해, 원인 후보를 살핍니다.\n탐색 시간을 줄여, 연구 판단에 집중합니다.\n경비와 장비 이력을 일일이 대조합니다.\n데이터를 모아, 절감 판단 지표를 만듭니다.\n절감 아이템의 검토와 제외 항목을 봅니다.\n절감 기회를 빠르게 찾아 제안합니다.\n모니터링 데이터를 엑셀로 가공합니다.\n자연어로 원하는 공정 데이터를 찾습니다.\n웨이퍼 맵과 그래프로 장비를 비교합니다.\n수작업을 줄여 공정 변화를 파악합니다.\n템 이미지를 맞추고 하나씩 측정합니다.\n한 도구에서 정렬과 측정을 자동화합니다.\n측정 데이터를 정리하고 시각화합니다.\n반복 측정은 줄이고, 분석 편차를 낮춥니다.\n조회와 예약에 시스템을 옮겨 다닙니다.\n로트와 장비, 예약을 한 포털에 모읍니다.\n일일 보고서와 메일 기능도 연결합니다.\n조회와 예약을 한곳에서 처리합니다.\n열화 원인 분석이 경험에 의존합니다.\n로트 아이디로 오버레이 정보를 모읍니다.\n맵과 추세를 비교해, 의심 원인을 좁힙니다.\n케이 파라미터로 해결 방안을 제안합니다.\n대면적 플러그는 육안 검증이 필요합니다.\n계측선과 플러그를 자동으로 인식합니다.\n자동 선별 후, 담당자가 최종 판정합니다.\n검증 부담을 줄여, 분석 결과를 활용합니다.\n사람의 경험과 에이아이가 함께 만드는 변화. 지금, 그 주인공을 만나보겠습니다.",
+  "narration_characters": 1250,
+  "narration_with_saved_tag_characters": 1326
+}

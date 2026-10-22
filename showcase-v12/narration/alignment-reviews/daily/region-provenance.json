@@ -1,0 +1,10 @@
+{
+  "source": "narration/elevenlabs/complete-tempo1.15.wav",
+  "source_sha256": "258985ff5233f26f96b3fb2a98395e71e47a11e92669006c4842ed7f699cba89",
+  "source_start_sample": 11856000,
+  "source_end_sample": 12384000,
+  "source_start_seconds": 247.0,
+  "source_end_seconds": 258.0,
+  "region_pcm_sha256": "7c1a050c750e7f9b0ce6324cad5b96f09e3d1d542bfe5d757fed0910716a67e7",
+  "method": "Exact PCM extraction, local Whisper small/ko/no-initial-prompt, no original change."
+}

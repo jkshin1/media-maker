@@ -1,0 +1,5923 @@
+{
+  "status": "PASS_WITH_ASR_VARIANTS",
+  "master": "/Users/jk/projects/media-maker/showcase/narration/take.wav",
+  "asr": "/Users/jk/projects/media-maker/showcase/narration/transcription/take.json",
+  "master_sha256": "765a118636ccf1a0ee125d5c8554c34424ba07511b27df8b665b42da8ca8664f",
+  "asr_sha256": "bb84134853557d01f81358e8729b9e517e73bda3bc2ac9a7f5e16563e9da974d",
+  "master_duration": 308.56,
+  "normalization": "NFKC, punctuation/spacing removal, saved pronunciation map and documented ASR notation aliases. Original transcript retained.",
+  "expected_chars": 1730,
+  "asr_chars": 1729,
+  "edit_distance": 26,
+  "exact_character_coverage": 0.9849710982658959,
+  "cuts": [
+    {
+      "id": "opening_cut1",
+      "section_id": "opening",
+      "expected": "R&D 현업에 AI를 더합니다.",
+      "spoken_text": "알앤디 현업에 에이아이를 더합니다.",
+      "normalized": "알앤디현업에에이아이를더합니다",
+      "asr_text": "R &D 현업의 AI를 더합니다.",
+      "character_coverage": 0.9333333333333333,
+      "first_word_index": 0,
+      "last_word_index": 4,
+      "word_start": 0.0,
+      "word_end": 2.16,
+      "review_required": true
+    },
+    {
+      "id": "opening_cut2",
+      "section_id": "opening",
+      "expected": "더 나은 R&D 공정을 위한 변화가 시작됩니다.",
+      "spoken_text": "더 나은 알앤디 공정을 위한 변화가 시작됩니다.",
+      "normalized": "더나은알앤디공정을위한변화가시작됩니다",
+      "asr_text": "더 나은 R &D 공정을 위한 변화가 시작됩니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 5,
+      "last_word_index": 12,
+      "word_start": 2.8,
+      "word_end": 5.98,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut3",
+      "section_id": "opening",
+      "expected": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+      "spoken_text": "현장의 경험과 에이아이 기술이 만나 새로운 해법을 만들어갑니다.",
+      "normalized": "현장의경험과에이아이기술이만나새로운해법을만들어갑니다",
+      "asr_text": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어 갑니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 13,
+      "last_word_index": 21,
+      "word_start": 6.58,
+      "word_end": 10.66,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut4",
+      "section_id": "opening",
+      "expected": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "spoken_text": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "normalized": "현업의다양한과제를해결하기위한도전입니다",
+      "asr_text": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 22,
+      "last_word_index": 27,
+      "word_start": 11.26,
+      "word_end": 14.08,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut5",
+      "section_id": "opening",
+      "expected": "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track.",
+      "spoken_text": "현업의 문제를 에이아이로 해결하는 알앤디 공정 에이아이 패스트 트랙.",
+      "normalized": "현업의문제를에이아이로해결하는알앤디공정에이아이패스트트랙",
+      "asr_text": "현업의 문제를 AI로 해결하는 R &D 공정, AI Fast Track.",
+      "character_coverage": 1.0,
+      "first_word_index": 28,
+      "last_word_index": 37,
+      "word_start": 14.8,
+      "word_end": 19.5,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut6",
+      "section_id": "opening",
+      "expected": "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+      "spoken_text": "서로 다른 현업의 고민에서 12개의 에이아이 에이전트 과제가 시작됐습니다.",
+      "normalized": "서로다른현업의고민에서열두개의에이아이에이전트과제가시작됐습니다",
+      "asr_text": "서로 다른 현업의 고민에서 12개의 AI 아이전트 과제가 시작됐습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 38,
+      "last_word_index": 46,
+      "word_start": 20.02,
+      "word_end": 24.68,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut7",
+      "section_id": "opening",
+      "expected": "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+      "spoken_text": "현업의 고민을 해결하기 위해 개발한 다양한 에이아이 에이전트를 살펴봅니다.",
+      "normalized": "현업의고민을해결하기위해개발한다양한에이아이에이전트를살펴봅니다",
+      "asr_text": "현업의 고민을 해결하기 위해 개발한 다양한 AI 아이전트를 살펴봅니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 47,
+      "last_word_index": 55,
+      "word_start": 25.1,
+      "word_end": 29.74,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut8",
+      "section_id": "opening",
+      "expected": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+      "spoken_text": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+      "normalized": "업무효율을높이고데이터기반의의사결정과새로운분석을지원합니다",
+      "asr_text": "업무 효율을 높이고 데이터 기반의 의사 결정과 새로운 분석을 지원합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 56,
+      "last_word_index": 65,
+      "word_start": 30.24,
+      "word_end": 35.16,
+      "review_required": false
+    },
+    {
+      "id": "opening_cut9",
+      "section_id": "opening",
+      "expected": "지금부터 12개의 AI Agent 과제를 소개합니다.",
+      "spoken_text": "지금부터 12개의 에이아이 에이전트 과제를 소개합니다.",
+      "normalized": "지금부터열두개의에이아이에이전트과제를소개합니다",
+      "asr_text": "지금부터 12개의 AI 아이전트 과제를 소개합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 66,
+      "last_word_index": 71,
+      "word_start": 35.7,
+      "word_end": 39.2,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut1",
+      "section_id": "task3",
+      "expected": "흩어져 있는 Lot과 장비, 공정 이력을",
+      "spoken_text": "흩어져 있는 로트와 장비, 공정 이력을",
+      "normalized": "흩어져있는로트와장비공정이력을",
+      "asr_text": "흩어져 있는 로트와 장비, 공정 이력을",
+      "character_coverage": 1.0,
+      "first_word_index": 72,
+      "last_word_index": 77,
+      "word_start": 39.94,
+      "word_end": 42.92,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut2",
+      "section_id": "task3",
+      "expected": "하나의 앱에서 한 번에 확인하고,",
+      "spoken_text": "하나의 앱에서 한 번에 확인하고,",
+      "normalized": "하나의앱에서한번에확인하고",
+      "asr_text": "하나의 앱에서 한 번에 확인하고",
+      "character_coverage": 1.0,
+      "first_word_index": 78,
+      "last_word_index": 82,
+      "word_start": 42.92,
+      "word_end": 45.02,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut3",
+      "section_id": "task3",
+      "expected": "데이터 간 연계를 통해 종합적으로 분석합니다.",
+      "spoken_text": "데이터 간 연계를 통해 종합적으로 분석합니다.",
+      "normalized": "데이터간연계를통해종합적으로분석합니다",
+      "asr_text": "데이터 간 연계를 통해 종합적으로 분석합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 83,
+      "last_word_index": 88,
+      "word_start": 45.02,
+      "word_end": 48.12,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut4",
+      "section_id": "task3",
+      "expected": "이를 바탕으로 분석 결과를 직관적으로 확인하고,",
+      "spoken_text": "이를 바탕으로 분석 결과를 직관적으로 확인하고,",
+      "normalized": "이를바탕으로분석결과를직관적으로확인하고",
+      "asr_text": "이를 바탕으로 분석 결과를 직관적으로 확인하고",
+      "character_coverage": 1.0,
+      "first_word_index": 89,
+      "last_word_index": 94,
+      "word_start": 48.7,
+      "word_end": 51.84,
+      "review_required": false
+    },
+    {
+      "id": "task3_cut5",
+      "section_id": "task3",
+      "expected": "Lot 1건 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다.",
+      "spoken_text": "로트 1건 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다.",
+      "normalized": "로트한건분석시간을약두시간사십분에서이십분이내로줄입니다",
+      "asr_text": "로트 한 건 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 95,
+      "last_word_index": 105,
+      "word_start": 51.84,
+      "word_end": 57.08,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut1",
+      "section_id": "task4",
+      "expected": "여러 시스템과 자료에 흩어진 Lot과 장비, FDC 정보를",
+      "spoken_text": "여러 시스템과 자료에 흩어진 로트와 장비, 에프디씨 정보를",
+      "normalized": "여러시스템과자료에흩어진로트와장비에프디씨정보를",
+      "asr_text": "여러 시스템과 자료에 흩어진 로트와 장비, FDC 정보를",
+      "character_coverage": 1.0,
+      "first_word_index": 106,
+      "last_word_index": 113,
+      "word_start": 57.68,
+      "word_end": 61.96,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut2",
+      "section_id": "task4",
+      "expected": "하나의 플랫폼에서 확인하고,",
+      "spoken_text": "하나의 플랫폼에서 확인하고,",
+      "normalized": "하나의플랫폼에서확인하고",
+      "asr_text": "하나의 플랫폼에서 확인하고",
+      "character_coverage": 1.0,
+      "first_word_index": 114,
+      "last_word_index": 116,
+      "word_start": 61.96,
+      "word_end": 63.68,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut3",
+      "section_id": "task4",
+      "expected": "실시간 현황과 Summary Chart로 핵심 정보를 빠르게 파악합니다.",
+      "spoken_text": "실시간 현황과 서머리 차트로 핵심 정보를 빠르게 파악합니다.",
+      "normalized": "실시간현황과서머리차트로핵심정보를빠르게파악합니다",
+      "asr_text": "실시간 현황과 써머리 차트로 핵심 정보를 빠르게 파악합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 117,
+      "last_word_index": 124,
+      "word_start": 63.68,
+      "word_end": 68.16,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut4",
+      "section_id": "task4",
+      "expected": "이어서 DOE 결과를 업데이트하고 조직과 공유해,",
+      "spoken_text": "이어서 디오이 결과를 업데이트하고 조직과 공유해,",
+      "normalized": "이어서디오이결과를업데이트하고조직과공유해",
+      "asr_text": "이어서 DOE 결과를 업데이트하고 조직과 공유해",
+      "character_coverage": 1.0,
+      "first_word_index": 125,
+      "last_word_index": 130,
+      "word_start": 68.7,
+      "word_end": 72.2,
+      "review_required": false
+    },
+    {
+      "id": "task4_cut5",
+      "section_id": "task4",
+      "expected": "분석 방법과 최적 조건 탐색 로직을 조직의 자산으로 축적합니다.",
+      "spoken_text": "분석 방법과 최적 조건 탐색 로직을 조직의 자산으로 축적합니다.",
+      "normalized": "분석방법과최적조건탐색로직을조직의자산으로축적합니다",
+      "asr_text": "분석 방법과 최적 조건 탐색 모직을 조직의 자산으로 축적합니다.",
+      "character_coverage": 0.9615384615384616,
+      "first_word_index": 131,
+      "last_word_index": 139,
+      "word_start": 72.2,
+      "word_end": 76.84,
+      "review_required": true
+    },
+    {
+      "id": "task5_cut1",
+      "section_id": "task5",
+      "expected": "회의 자료와 이슈, 관련 문서가 여러 곳에 흩어져 있어",
+      "spoken_text": "회의 자료와 이슈, 관련 문서가 여러 곳에 흩어져 있어",
+      "normalized": "회의자료와이슈관련문서가여러곳에흩어져있어",
+      "asr_text": "회의 자료와 이슈, 관련 문서가 여러 곳에 흩어져 있어",
+      "character_coverage": 1.0,
+      "first_word_index": 140,
+      "last_word_index": 148,
+      "word_start": 77.42,
+      "word_end": 80.96,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut2",
+      "section_id": "task5",
+      "expected": "필요한 정보를 찾는 데 시간이 걸립니다. C&C Working Board Agent를 통해 관련 자료와 지식을 검색하고,",
+      "spoken_text": "필요한 정보를 찾는 데 시간이 걸립니다. 씨앤씨 워킹 보드 에이전트를 통해 관련 자료와 지식을 검색하고,",
+      "normalized": "필요한정보를찾는데시간이걸립니다씨앤씨워킹보드에이전트를통해관련자료와지식을검색하고",
+      "asr_text": "필요한 정보를 찾는 데 시간이 걸립니다. CNC 워킹보드 에이전트를 통해 관련 자료와 지식을 검색하고",
+      "character_coverage": 1.0,
+      "first_word_index": 149,
+      "last_word_index": 162,
+      "word_start": 80.96,
+      "word_end": 88.24,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut3",
+      "section_id": "task5",
+      "expected": "핵심 이슈와 내용을 빠르게 파악합니다.",
+      "spoken_text": "핵심 이슈와 내용을 빠르게 파악합니다.",
+      "normalized": "핵심이슈와내용을빠르게파악합니다",
+      "asr_text": "핵심 이슈와 내용을 빠르게 파악합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 163,
+      "last_word_index": 167,
+      "word_start": 88.24,
+      "word_end": 90.94,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut4",
+      "section_id": "task5",
+      "expected": "필요한 정보를 업무에 활용해",
+      "spoken_text": "필요한 정보를 업무에 활용해",
+      "normalized": "필요한정보를업무에활용해",
+      "asr_text": "필요한 정보를 업무에 활용해",
+      "character_coverage": 1.0,
+      "first_word_index": 168,
+      "last_word_index": 171,
+      "word_start": 91.48,
+      "word_end": 93.42,
+      "review_required": false
+    },
+    {
+      "id": "task5_cut5",
+      "section_id": "task5",
+      "expected": "협업과 의사결정을 지원합니다.",
+      "spoken_text": "협업과 의사결정을 지원합니다.",
+      "normalized": "협업과의사결정을지원합니다",
+      "asr_text": "협업과 의사 결정을 지원합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 172,
+      "last_word_index": 175,
+      "word_start": 93.42,
+      "word_end": 95.48,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut1",
+      "section_id": "task7",
+      "expected": "새로운 공정 평가를 시작할 때, 필요한 지식과 경험을 찾는 일부터 시작됩니다.",
+      "spoken_text": "새로운 공정 평가를 시작할 때, 필요한 지식과 경험을 찾는 일부터 시작됩니다.",
+      "normalized": "새로운공정평가를시작할때필요한지식과경험을찾는일부터시작됩니다",
+      "asr_text": "새로운 공정 평가를 시작할 때 필요한 지식과 경험을 찾는 일부터 시작됩니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 176,
+      "last_word_index": 186,
+      "word_start": 96.04,
+      "word_end": 101.12,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut2",
+      "section_id": "task7",
+      "expected": "과거의 평가 이력과 선행 경험 속에서 답을 찾아야 했습니다.",
+      "spoken_text": "과거의 평가 이력과 선행 경험 속에서 답을 찾아야 했습니다.",
+      "normalized": "과거의평가이력과선행경험속에서답을찾아야했습니다",
+      "asr_text": "과거의 평가 이력과 선행 경험 속에서 답을 찾아야 했습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 187,
+      "last_word_index": 195,
+      "word_start": 101.62,
+      "word_end": 105.14,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut3",
+      "section_id": "task7",
+      "expected": "이제 LLM에 질문해 관련 지식과 경험을 연결합니다.",
+      "spoken_text": "이제 엘엘엠에 질문해 관련 지식과 경험을 연결합니다.",
+      "normalized": "이제엘엘엠에질문해관련지식과경험을연결합니다",
+      "asr_text": "이제 LLM의 질문에 관련 지식과 경험을 연결합니다.",
+      "character_coverage": 0.9090909090909091,
+      "first_word_index": 196,
+      "last_word_index": 202,
+      "word_start": 105.84,
+      "word_end": 109.58,
+      "review_required": true
+    },
+    {
+      "id": "task7_cut4",
+      "section_id": "task7",
+      "expected": "축적된 경험을 바탕으로 최적의 Plan과 Recipe를 추천받습니다.",
+      "spoken_text": "축적된 경험을 바탕으로 최적의 플랜과 레시피를 추천받습니다.",
+      "normalized": "축적된경험을바탕으로최적의플랜과레시피를추천받습니다",
+      "asr_text": "축적된 경험을 바탕으로 최적의 플랜과 레시피를 추천받습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 203,
+      "last_word_index": 209,
+      "word_start": 110.16000000000001,
+      "word_end": 114.42,
+      "review_required": false
+    },
+    {
+      "id": "task7_cut5",
+      "section_id": "task7",
+      "expected": "흩어진 공정 지식을 활용해 더 정확한 평가 의사결정을 지원합니다.",
+      "spoken_text": "흩어진 공정 지식을 활용해 더 정확한 평가 의사결정을 지원합니다.",
+      "normalized": "흩어진공정지식을활용해더정확한평가의사결정을지원합니다",
+      "asr_text": "흩어진 공정 지식을 활용해 더 정확한 평가 의사 결정을 지원합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 210,
+      "last_word_index": 219,
+      "word_start": 114.82,
+      "word_end": 119.26,
+      "review_required": false
+    },
+    {
+      "id": "task8_cut1",
+      "section_id": "task8",
+      "expected": "여러 시스템에 흩어진 공정 데이터를 하나씩 확인하던 업무를,",
+      "spoken_text": "여러 시스템에 흩어진 공정 데이터를 하나씩 확인하던 업무를,",
+      "normalized": "여러시스템에흩어진공정데이터를하나씩확인하던업무를",
+      "asr_text": "여러 시스템에 흩어진 공정 데이터를 하나씩 확인하던 업무를",
+      "character_coverage": 1.0,
+      "first_word_index": 220,
+      "last_word_index": 227,
+      "word_start": 119.76,
+      "word_end": 123.62,
+      "review_required": false
+    },
+    {
+      "id": "task8_cut2",
+      "section_id": "task8",
+      "expected": "자연어로 필요한 데이터를 질문하고,",
+      "spoken_text": "자연어로 필요한 데이터를 질문하고,",
+      "normalized": "자연어로필요한데이터를질문하고",
+      "asr_text": "자연어로 필요한 데이터를 질문하고",
+      "character_coverage": 1.0,
+      "first_word_index": 228,
+      "last_word_index": 231,
+      "word_start": 123.62,
+      "word_end": 126.18,
+      "review_required": false
+    },
+    {
+      "id": "task8_cut3",
+      "section_id": "task8",
+      "expected": "AI Agent가 관련 공정 데이터를 조회해 연결하고,",
+      "spoken_text": "에이아이 에이전트가 관련 공정 데이터를 조회해 연결하고,",
+      "normalized": "에이아이에이전트가관련공정데이터를조회해연결하고",
+      "asr_text": "AI 에이전트가 관련 공정 데이터를 조회해 연결하고",
+      "character_coverage": 1.0,
+      "first_word_index": 232,
+      "last_word_index": 238,
+      "word_start": 126.18,
+      "word_end": 130.4,
+      "review_required": false
+    },
+    {
+      "id": "task8_cut4",
+      "section_id": "task8",
+      "expected": "Wafer Map과 그래프로 시각화해 한눈에 파악하고,",
+      "spoken_text": "웨이퍼 맵과 그래프로 시각화해 한눈에 파악하고,",
+      "normalized": "웨이퍼맵과그래프로시각화해한눈에파악하고",
+      "asr_text": "웨이퍼맵과 그래프로 시각화해 한눈에 파악하고",
+      "character_coverage": 1.0,
+      "first_word_index": 239,
+      "last_word_index": 243,
+      "word_start": 130.4,
+      "word_end": 133.94,
+      "review_required": false
+    },
+    {
+      "id": "task8_cut5",
+      "section_id": "task8",
+      "expected": "데이터 분석 시간을 단축해 더 빠른 의사결정을 지원합니다.",
+      "spoken_text": "데이터 분석 시간을 단축해 더 빠른 의사결정을 지원합니다.",
+      "normalized": "데이터분석시간을단축해더빠른의사결정을지원합니다",
+      "asr_text": "데이터 분석 시간을 단축해 더 빠른 의사 결정을 지원합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 244,
+      "last_word_index": 252,
+      "word_start": 133.94,
+      "word_end": 137.96,
+      "review_required": false
+    },
+    {
+      "id": "task9_cut1",
+      "section_id": "task9",
+      "expected": "C&C Inline Data를 조건별로 조회하고 이상 여부를 확인하던 업무를,",
+      "spoken_text": "씨앤씨 인라인 데이터를 조건별로 조회하고 이상 여부를 확인하던 업무를,",
+      "normalized": "씨앤씨인라인데이터를조건별로조회하고이상여부를확인하던업무를",
+      "asr_text": "CNC 인라인 데이터를 조건별로 조회하고 이상 여부를 확인하던 업무를",
+      "character_coverage": 1.0,
+      "first_word_index": 253,
+      "last_word_index": 261,
+      "word_start": 138.26,
+      "word_end": 143.14,
+      "review_required": false
+    },
+    {
+      "id": "task9_cut2",
+      "section_id": "task9",
+      "expected": "LLM에 자연어로 분석을 요청하고,",
+      "spoken_text": "엘엘엠에 자연어로 분석을 요청하고,",
+      "normalized": "엘엘엠에자연어로분석을요청하고",
+      "asr_text": "LLM의 자연어로 분석을 요청하고",
+      "character_coverage": 0.9333333333333333,
+      "first_word_index": 262,
+      "last_word_index": 265,
+      "word_start": 143.14,
+      "word_end": 145.78,
+      "review_required": true
+    },
+    {
+      "id": "task9_cut3",
+      "section_id": "task9",
+      "expected": "GoodDocs 매핑과 상관관계 분석으로 관련 정보를 연결하고,",
+      "spoken_text": "굿독스 매핑과 상관관계 분석으로 관련 정보를 연결하고,",
+      "normalized": "굿독스매핑과상관관계분석으로관련정보를연결하고",
+      "asr_text": "굿독스 맵핑과 상관관계 분석으로 관련 정보를 연결하고",
+      "character_coverage": 0.9565217391304348,
+      "first_word_index": 266,
+      "last_word_index": 272,
+      "word_start": 145.78,
+      "word_end": 150.1,
+      "review_required": true
+    },
+    {
+      "id": "task9_cut4",
+      "section_id": "task9",
+      "expected": "분석 결과를 시각화하고 연계 공정을 선별해,",
+      "spoken_text": "분석 결과를 시각화하고 연계 공정을 선별해,",
+      "normalized": "분석결과를시각화하고연계공정을선별해",
+      "asr_text": "분석 결과를 시각화하고 연계 공정을 선별해",
+      "character_coverage": 1.0,
+      "first_word_index": 273,
+      "last_word_index": 278,
+      "word_start": 150.1,
+      "word_end": 153.68,
+      "review_required": false
+    },
+    {
+      "id": "task9_cut5",
+      "section_id": "task9",
+      "expected": "분석 시간을 단축하고 더 빠른 의사결정을 지원합니다.",
+      "spoken_text": "분석 시간을 단축하고 더 빠른 의사결정을 지원합니다.",
+      "normalized": "분석시간을단축하고더빠른의사결정을지원합니다",
+      "asr_text": "분석 시간을 단축하고 더 빠른 의사 결정을 지원합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 279,
+      "last_word_index": 286,
+      "word_start": 153.68,
+      "word_end": 157.54,
+      "review_required": false
+    },
+    {
+      "id": "task11_cut1",
+      "section_id": "task11",
+      "expected": "Overlay 분석 도구별로 데이터를 조회하고 담당자의 지식에 의존해 열화 원인을 분석하던 업무를,",
+      "spoken_text": "오버레이 분석 도구별로 데이터를 조회하고 담당자의 지식에 의존해 열화 원인을 분석하던 업무를,",
+      "normalized": "오버레이분석도구별로데이터를조회하고담당자의지식에의존해열화원인을분석하던업무를",
+      "asr_text": "오버레이 분석 도구별로 데이터를 조회하고 담당자의 지식의 의존에 열화 원인을 분석하던 업무를",
+      "character_coverage": 0.95,
+      "first_word_index": 287,
+      "last_word_index": 298,
+      "word_start": 157.98,
+      "word_end": 164.58,
+      "review_required": true
+    },
+    {
+      "id": "task11_cut2",
+      "section_id": "task11",
+      "expected": "Lot ID 하나로 필요한 데이터를 통합 조회합니다.",
+      "spoken_text": "로트 아이디 하나로 필요한 데이터를 통합 조회합니다.",
+      "normalized": "로트아이디하나로필요한데이터를통합조회합니다",
+      "asr_text": "로트 아이디 하나로 필요한 데이터를 통합 조회합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 299,
+      "last_word_index": 305,
+      "word_start": 164.58,
+      "word_end": 168.12,
+      "review_required": false
+    },
+    {
+      "id": "task11_cut3",
+      "section_id": "task11",
+      "expected": "Overlay, Residual, MA Bias를 Vector·Scatter Map으로 확인합니다.",
+      "spoken_text": "오버레이, 레지듀얼, 엠에이 바이어스를 벡터·스캐터 맵으로 확인합니다.",
+      "normalized": "오버레이레지듀얼엠에이바이어스를벡터스캐터맵으로확인합니다",
+      "asr_text": "오버레이, 레지 듀얼, MA 바이오스를 백터, 스케터 맵으로 확인합니다.",
+      "character_coverage": 0.896551724137931,
+      "first_word_index": 306,
+      "last_word_index": 314,
+      "word_start": 168.56,
+      "word_end": 173.4,
+      "review_required": true
+    },
+    {
+      "id": "task11_cut4",
+      "section_id": "task11",
+      "expected": "주요 Overlay Parameter의 Trend를 비교하고, 정상 대비 Wafer 분포를 확인합니다.",
+      "spoken_text": "주요 오버레이 파라미터의 트렌드를 비교하고, 정상 대비 웨이퍼 분포를 확인합니다.",
+      "normalized": "주요오버레이파라미터의트렌드를비교하고정상대비웨이퍼분포를확인합니다",
+      "asr_text": "주요 오버레이 파라미터의 트렌드를 비교하고 정상 대비 웨이퍼분포를 확인합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 315,
+      "last_word_index": 323,
+      "word_start": 173.88,
+      "word_end": 178.98,
+      "review_required": false
+    },
+    {
+      "id": "task11_cut5",
+      "section_id": "task11",
+      "expected": "K-parameter를 정상 Baseline 대비 Z-score로 평가해 의심 공정 계층을 추정하고, 원인별 솔루션을 제시합니다.",
+      "spoken_text": "케이 파라미터를 정상 베이스라인 대비 지 스코어로 평가해 의심 공정 계층을 추정하고, 원인별 솔루션을 제시합니다.",
+      "normalized": "케이파라미터를정상베이스라인대비지스코어로평가해의심공정계층을추정하고원인별솔루션을제시합니다",
+      "asr_text": "K 파라미터를 정상 베이스라인 대비 G스코어로 평가해 의심 공정 계층을 추정하고 원인별 솔루션을 제시합니다.",
+      "character_coverage": 0.9361702127659575,
+      "first_word_index": 324,
+      "last_word_index": 337,
+      "word_start": 179.48,
+      "word_end": 187.3,
+      "review_required": true
+    },
+    {
+      "id": "task12_cut1",
+      "section_id": "task12",
+      "expected": "경비 실적과 장비 이력 등 필요한 데이터가 여러 곳에 분산되어 있습니다.",
+      "spoken_text": "경비 실적과 장비 이력 등 필요한 데이터가 여러 곳에 분산되어 있습니다.",
+      "normalized": "경비실적과장비이력등필요한데이터가여러곳에분산되어있습니다",
+      "asr_text": "경비 실적과 장비 이력 등 필요한 데이터가 여러 곳에 분산되어 있습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 338,
+      "last_word_index": 348,
+      "word_start": 187.88,
+      "word_end": 192.38,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut2",
+      "section_id": "task12",
+      "expected": "AI Agent가 다양한 데이터를 자동으로 수집하고 분석합니다.",
+      "spoken_text": "에이아이 에이전트가 다양한 데이터를 자동으로 수집하고 분석합니다.",
+      "normalized": "에이아이에이전트가다양한데이터를자동으로수집하고분석합니다",
+      "asr_text": "AI 에이전트가 다양한 데이터를 자동으로 수집하고 분석합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 349,
+      "last_word_index": 355,
+      "word_start": 192.81,
+      "word_end": 197.26,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut3",
+      "section_id": "task12",
+      "expected": "분석 결과를 기반으로 절감 가능 항목과 주요 인사이트를 제시합니다.",
+      "spoken_text": "분석 결과를 기반으로 절감 가능 항목과 주요 인사이트를 제시합니다.",
+      "normalized": "분석결과를기반으로절감가능항목과주요인사이트를제시합니다",
+      "asr_text": "분석 결과를 기반으로 절감 가능 항목과 주요 인사이트를 제시합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 356,
+      "last_word_index": 364,
+      "word_start": 197.78,
+      "word_end": 202.34,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut4",
+      "section_id": "task12",
+      "expected": "검토 중인 항목과 제외 항목까지 포함해 전체 결과를 확인할 수 있습니다.",
+      "spoken_text": "검토 중인 항목과 제외 항목까지 포함해 전체 결과를 확인할 수 있습니다.",
+      "normalized": "검토중인항목과제외항목까지포함해전체결과를확인할수있습니다",
+      "asr_text": "검토 중인 항목과 제외 항목까지 포함해 전체 결과를 확인할 수 있습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 365,
+      "last_word_index": 375,
+      "word_start": 202.86,
+      "word_end": 207.3,
+      "review_required": false
+    },
+    {
+      "id": "task12_cut5",
+      "section_id": "task12",
+      "expected": "분석 시간을 줄이고 더 효율적인 예산 운영을 지원합니다.",
+      "spoken_text": "분석 시간을 줄이고 더 효율적인 예산 운영을 지원합니다.",
+      "normalized": "분석시간을줄이고더효율적인예산운영을지원합니다",
+      "asr_text": "분석 시간을 줄이고 더 효율적인 예산 운영을 지원합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 376,
+      "last_word_index": 383,
+      "word_start": 207.8,
+      "word_end": 211.3,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut1",
+      "section_id": "task13",
+      "expected": "매일 장비 데이터를 확인하고 보고서를 작성해 메일로 전달하던 업무.",
+      "spoken_text": "매일 장비 데이터를 확인하고 보고서를 작성해 메일로 전달하던 업무.",
+      "normalized": "매일장비데이터를확인하고보고서를작성해메일로전달하던업무",
+      "asr_text": "매일 장비 데이터를 확인하고 보고서를 작성해 메일로 전달하던 업무.",
+      "character_coverage": 1.0,
+      "first_word_index": 384,
+      "last_word_index": 392,
+      "word_start": 211.86,
+      "word_end": 216.3,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut2",
+      "section_id": "task13",
+      "expected": "이제 AI Agent가 필요한 장비 데이터를 자동으로 수집합니다.",
+      "spoken_text": "이제 에이아이 에이전트가 필요한 장비 데이터를 자동으로 수집합니다.",
+      "normalized": "이제에이아이에이전트가필요한장비데이터를자동으로수집합니다",
+      "asr_text": "이제 AI 에이전트가 필요한 장비 데이터를 자동으로 수집합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 393,
+      "last_word_index": 400,
+      "word_start": 216.72,
+      "word_end": 220.88,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut3",
+      "section_id": "task13",
+      "expected": "분석 결과를 바탕으로 HTML 형식의 보고서를 자동으로 생성합니다.",
+      "spoken_text": "분석 결과를 바탕으로 에이치티엠엘 형식의 보고서를 자동으로 생성합니다.",
+      "normalized": "분석결과를바탕으로에이치티엠엘형식의보고서를자동으로생성합니다",
+      "asr_text": "분석 결과를 바탕으로 HTML 형식의 보고서를 자동으로 생성합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 401,
+      "last_word_index": 408,
+      "word_start": 220.88,
+      "word_end": 225.96,
+      "review_required": false
+    },
+    {
+      "id": "task13_cut4",
+      "section_id": "task13",
+      "expected": "완성된 보고서를 지정된 담당자에게 자동으로 메일 발송합니다.",
+      "spoken_text": "완성된 보고서를 지정된 담당자에게 자동으로 메일 발송합니다.",
+      "normalized": "완성된보고서를지정된담당자에게자동으로메일발송합니다",
+      "asr_text": "완성된 보고서를 지정된 담당자에게 자동으로 매일 발송합니다.",
+      "character_coverage": 0.9615384615384616,
+      "first_word_index": 409,
+      "last_word_index": 415,
+      "word_start": 226.42,
+      "word_end": 230.54,
+      "review_required": true
+    },
+    {
+      "id": "task13_cut5",
+      "section_id": "task13",
+      "expected": "반복 업무는 줄이고, 더 나은 의사결정을 지원합니다.",
+      "spoken_text": "반복 업무는 줄이고, 더 나은 의사결정을 지원합니다.",
+      "normalized": "반복업무는줄이고더나은의사결정을지원합니다",
+      "asr_text": "단복 업무는 줄이고 더 나은 의사 결정을 지원합니다.",
+      "character_coverage": 0.9523809523809523,
+      "first_word_index": 416,
+      "last_word_index": 423,
+      "word_start": 231.08,
+      "word_end": 234.48,
+      "review_required": true
+    },
+    {
+      "id": "task14_cut1",
+      "section_id": "task14",
+      "expected": "여러 시스템을 오가며 확인하던 업무.",
+      "spoken_text": "여러 시스템을 오가며 확인하던 업무.",
+      "normalized": "여러시스템을오가며확인하던업무",
+      "asr_text": "여러 시스템을 오가며 확인하던 업무.",
+      "character_coverage": 1.0,
+      "first_word_index": 424,
+      "last_word_index": 428,
+      "word_start": 234.98,
+      "word_end": 237.14,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut2",
+      "section_id": "task14",
+      "expected": "이제 하나의 포털로 통합합니다.",
+      "spoken_text": "이제 하나의 포털로 통합합니다.",
+      "normalized": "이제하나의포털로통합합니다",
+      "asr_text": "이제 하나의 포털로 통합합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 429,
+      "last_word_index": 432,
+      "word_start": 237.52,
+      "word_end": 239.52,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut3",
+      "section_id": "task14",
+      "expected": "조회부터 예약, 보고서 생성까지.",
+      "spoken_text": "조회부터 예약, 보고서 생성까지.",
+      "normalized": "조회부터예약보고서생성까지",
+      "asr_text": "조회부터 예약, 보고서 생성까지",
+      "character_coverage": 1.0,
+      "first_word_index": 433,
+      "last_word_index": 436,
+      "word_start": 240.12,
+      "word_end": 242.52,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut4",
+      "section_id": "task14",
+      "expected": "필요한 기능을 한곳에서 편리하게.",
+      "spoken_text": "필요한 기능을 한곳에서 편리하게.",
+      "normalized": "필요한기능을한곳에서편리하게",
+      "asr_text": "필요한 기능을 한 곳에서 편리하게",
+      "character_coverage": 1.0,
+      "first_word_index": 437,
+      "last_word_index": 441,
+      "word_start": 242.52,
+      "word_end": 245.2,
+      "review_required": false
+    },
+    {
+      "id": "task14_cut5",
+      "section_id": "task14",
+      "expected": "업무 시간을 단축합니다.",
+      "spoken_text": "업무 시간을 단축합니다.",
+      "normalized": "업무시간을단축합니다",
+      "asr_text": "업무 시간을 단축합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 442,
+      "last_word_index": 444,
+      "word_start": 245.2,
+      "word_end": 247.02,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut1",
+      "section_id": "task17",
+      "expected": "TEM 이미지 분석에 반복되는 수작업이 많습니다.",
+      "spoken_text": "템 이미지 분석에 반복되는 수작업이 많습니다.",
+      "normalized": "템이미지분석에반복되는수작업이많습니다",
+      "asr_text": "템 이미지 분석에 반복되는 수작업이 많습니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 445,
+      "last_word_index": 450,
+      "word_start": 247.02,
+      "word_end": 250.38,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut2",
+      "section_id": "task17",
+      "expected": "하나의 Tool에서 이미지 측정부터 데이터 분석까지 자동으로 처리합니다.",
+      "spoken_text": "하나의 툴에서 이미지 측정부터 데이터 분석까지 자동으로 처리합니다.",
+      "normalized": "하나의툴에서이미지측정부터데이터분석까지자동으로처리합니다",
+      "asr_text": "하나의 툴에서 이미지 측정부터 데이터 분석까지 자동으로 처리합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 451,
+      "last_word_index": 458,
+      "word_start": 250.82,
+      "word_end": 255.5,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut3",
+      "section_id": "task17",
+      "expected": "이미지를 회전하고, 항목별로 자동 측정해 Raw data까지 정리합니다.",
+      "spoken_text": "이미지를 회전하고, 항목별로 자동 측정해 로 데이터까지 정리합니다.",
+      "normalized": "이미지를회전하고항목별로자동측정해로데이터까지정리합니다",
+      "asr_text": "이미지를 회전하고 항목별로 자동 측정에 로 데이터까지 정리합니다.",
+      "character_coverage": 0.9642857142857143,
+      "first_word_index": 459,
+      "last_word_index": 466,
+      "word_start": 256.04,
+      "word_end": 260.72,
+      "review_required": true
+    },
+    {
+      "id": "task17_cut4",
+      "section_id": "task17",
+      "expected": "정리된 데이터를 기반으로 분석 결과를 시각화해 정확한 인사이트를 제공합니다.",
+      "spoken_text": "정리된 데이터를 기반으로 분석 결과를 시각화해 정확한 인사이트를 제공합니다.",
+      "normalized": "정리된데이터를기반으로분석결과를시각화해정확한인사이트를제공합니다",
+      "asr_text": "정리된 데이터를 기반으로 분석 결과를 시각화해 정확한 인사이트를 제공합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 467,
+      "last_word_index": 475,
+      "word_start": 261.28,
+      "word_end": 266.36,
+      "review_required": false
+    },
+    {
+      "id": "task17_cut5",
+      "section_id": "task17",
+      "expected": "이미지당 측정 시간은 줄고, R_NIT와 S/W 정확도는 개선됩니다.",
+      "spoken_text": "이미지당 측정 시간은 줄고, 알 니트와 에스 더블유 정확도는 개선됩니다.",
+      "normalized": "이미지당측정시간은줄고알니트와에스더블유정확도는개선됩니다",
+      "asr_text": "이미지당 측정 시간은 줄고 알니트와 SW정확도는 개선됩니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 476,
+      "last_word_index": 482,
+      "word_start": 266.86,
+      "word_end": 271.66,
+      "review_required": false
+    },
+    {
+      "id": "task16_cut1",
+      "section_id": "task16",
+      "expected": "엔지니어가 육안으로 검증하던 업무를,",
+      "spoken_text": "엔지니어가 육안으로 검증하던 업무를,",
+      "normalized": "엔지니어가육안으로검증하던업무를",
+      "asr_text": "엔지니어가 유관으로 검증하던 업무를",
+      "character_coverage": 0.875,
+      "first_word_index": 483,
+      "last_word_index": 486,
+      "word_start": 271.66,
+      "word_end": 274.58,
+      "review_required": true
+    },
+    {
+      "id": "task16_cut2",
+      "section_id": "task16",
+      "expected": "CV로 계측선과 Plug를 분석해 자동으로 인식합니다.",
+      "spoken_text": "씨브이로 계측선과 플러그를 분석해 자동으로 인식합니다.",
+      "normalized": "씨브이로계측선과플러그를분석해자동으로인식합니다",
+      "asr_text": "CV로 계측선과 플러그를 분석해 자동으로 인식합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 487,
+      "last_word_index": 492,
+      "word_start": 274.58,
+      "word_end": 278.86,
+      "review_required": false
+    },
+    {
+      "id": "task16_cut3",
+      "section_id": "task16",
+      "expected": "오계측 의심 항목을 자동으로 선별하고, 담당자가 최종 판단합니다.",
+      "spoken_text": "오계측 의심 항목을 자동으로 선별하고, 담당자가 최종 판단합니다.",
+      "normalized": "오계측의심항목을자동으로선별하고담당자가최종판단합니다",
+      "asr_text": "오계측 의심 항목을 자동으로 선별하고 담당자가 최종 판단합니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 493,
+      "last_word_index": 500,
+      "word_start": 279.3,
+      "word_end": 283.82,
+      "review_required": false
+    },
+    {
+      "id": "task16_cut4",
+      "section_id": "task16",
+      "expected": "Plug의 CD와 Space Profile을 조회하고 데이터를 확인합니다.",
+      "spoken_text": "플러그의 씨디와 스페이스 프로파일을 조회하고 데이터를 확인합니다.",
+      "normalized": "플러그의씨디와스페이스프로파일을조회하고데이터를확인합니다",
+      "asr_text": "플러그의 CD와 스페이스 프로파이를 조회하고 데이터를 확인합니다.",
+      "character_coverage": 0.9310344827586207,
+      "first_word_index": 501,
+      "last_word_index": 507,
+      "word_start": 284.28,
+      "word_end": 288.4,
+      "review_required": true
+    },
+    {
+      "id": "task16_cut5",
+      "section_id": "task16",
+      "expected": "대시보드와 챗봇으로 분석 결과를 업무에 활용합니다.",
+      "spoken_text": "대시보드와 챗봇으로 분석 결과를 업무에 활용합니다.",
+      "normalized": "대시보드와챗봇으로분석결과를업무에활용합니다",
+      "asr_text": "데시보드와 책보스로 분석 결과를 업무에 활용합니다.",
+      "character_coverage": 0.8181818181818182,
+      "first_word_index": 508,
+      "last_word_index": 513,
+      "word_start": 288.94,
+      "word_end": 292.44,
+      "review_required": true
+    },
+    {
+      "id": "ending_cut1",
+      "section_id": "ending",
+      "expected": "서로 다른 현장의 과제들이,",
+      "spoken_text": "서로 다른 현장의 과제들이,",
+      "normalized": "서로다른현장의과제들이",
+      "asr_text": "서로 다른 현장의 과제들이",
+      "character_coverage": 1.0,
+      "first_word_index": 514,
+      "last_word_index": 517,
+      "word_start": 293.02,
+      "word_end": 294.68,
+      "review_required": false
+    },
+    {
+      "id": "ending_cut2",
+      "section_id": "ending",
+      "expected": "AI와 함께 새로운 변화를 만들어갑니다.",
+      "spoken_text": "에이아이와 함께 새로운 변화를 만들어갑니다.",
+      "normalized": "에이아이와함께새로운변화를만들어갑니다",
+      "asr_text": "AI와 함께 새로운 변화를 만들어갑니다.",
+      "character_coverage": 1.0,
+      "first_word_index": 518,
+      "last_word_index": 522,
+      "word_start": 294.68,
+      "word_end": 297.88,
+      "review_required": false
+    },
+    {
+      "id": "ending_cut3",
+      "section_id": "ending",
+      "expected": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지.",
+      "spoken_text": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지.",
+      "normalized": "업무효율화부터데이터분석더나은연구환경까지",
+      "asr_text": "업무 효율화부터 데이터 분석, 더 나은 연구 환경까지",
+      "character_coverage": 1.0,
+      "first_word_index": 523,
+      "last_word_index": 530,
+      "word_start": 297.88,
+      "word_end": 302.32,
+      "review_required": false
+    },
+    {
+      "id": "ending_cut5",
+      "section_id": "ending",
+      "expected": "12개의 AI Agent가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+      "spoken_text": "12개의 에이아이 에이전트가 만든 변화, 이제 두 개의 우수 과제를 만나봅니다.",
+      "normalized": "열두개의에이아이에이전트가만든변화이제두개의우수과제를만나봅니다",
+      "asr_text": "12개의 AI 에이전트가 만든 변화, 이제 2개의 우수 과제를 만나봅니다.",
+      "character_coverage": 0.96875,
+      "first_word_index": 531,
+      "last_word_index": 540,
+      "word_start": 302.32,
+      "word_end": 308.16,
+      "review_required": true
+    }
+  ],
+  "edit_count": 26,
+  "edits": [
+    {
+      "kind": "substitution",
+      "expected_index": 5,
+      "actual_index": 5,
+      "expected": "에",
+      "actual": "의"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 416,
+      "actual_index": 416,
+      "expected": "로",
+      "actual": "모"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 595,
+      "actual_index": 595,
+      "expected": "에",
+      "actual": "의"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 598,
+      "actual_index": 598,
+      "expected": "해",
+      "actual": "에"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 806,
+      "actual_index": 806,
+      "expected": "에",
+      "actual": "의"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 821,
+      "actual_index": 821,
+      "expected": "매",
+      "actual": "맵"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 905,
+      "actual_index": 905,
+      "expected": "에",
+      "actual": "의"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 908,
+      "actual_index": 908,
+      "expected": "해",
+      "actual": "에"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 956,
+      "actual_index": 956,
+      "expected": "어",
+      "actual": "오"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 959,
+      "actual_index": 959,
+      "expected": "벡",
+      "actual": "백"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 962,
+      "actual_index": 962,
+      "expected": "캐",
+      "actual": "케"
+    },
+    {
+      "kind": "deletion",
+      "expected_index": 1006,
+      "actual_index": 1006,
+      "expected": "케"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1007,
+      "actual_index": 1006,
+      "expected": "이",
+      "actual": "k"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1022,
+      "actual_index": 1021,
+      "expected": "지",
+      "actual": "g"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1298,
+      "actual_index": 1297,
+      "expected": "메",
+      "actual": "매"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1305,
+      "actual_index": 1304,
+      "expected": "반",
+      "actual": "단"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1455,
+      "actual_index": 1454,
+      "expected": "해",
+      "actual": "에"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1534,
+      "actual_index": 1533,
+      "expected": "육",
+      "actual": "유"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1535,
+      "actual_index": 1534,
+      "expected": "안",
+      "actual": "관"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1610,
+      "actual_index": 1609,
+      "expected": "일",
+      "actual": "이"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1611,
+      "actual_index": 1610,
+      "expected": "을",
+      "actual": "를"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1625,
+      "actual_index": 1624,
+      "expected": "대",
+      "actual": "데"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1630,
+      "actual_index": 1629,
+      "expected": "챗",
+      "actual": "책"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1631,
+      "actual_index": 1630,
+      "expected": "봇",
+      "actual": "보"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1632,
+      "actual_index": 1631,
+      "expected": "으",
+      "actual": "스"
+    },
+    {
+      "kind": "substitution",
+      "expected_index": 1717,
+      "actual_index": 1716,
+      "expected": "두",
+      "actual": "2"
+    }
+  ],
+  "waveform_silence_regions": [
+    [
+      0.0,
+      0.04
+    ],
+    [
+      0.73,
+      0.77
+    ],
+    [
+      1.0,
+      1.11
+    ],
+    [
+      1.73,
+      1.77
+    ],
+    [
+      2.13,
+      2.16
+    ],
+    [
+      2.33,
+      2.87
+    ],
+    [
+      3.44,
+      3.47
+    ],
+    [
+      3.86,
+      3.9
+    ],
+    [
+      4.65,
+      4.72
+    ],
+    [
+      5.1000000000000005,
+      5.16
+    ],
+    [
+      5.57,
+      5.68
+    ],
+    [
+      5.88,
+      5.91
+    ],
+    [
+      6.0600000000000005,
+      6.66
+    ],
+    [
+      7.03,
+      7.1000000000000005
+    ],
+    [
+      7.45,
+      7.48
+    ],
+    [
+      8.17,
+      8.25
+    ],
+    [
+      8.36,
+      8.39
+    ],
+    [
+      8.950000000000001,
+      9.18
+    ],
+    [
+      9.58,
+      9.71
+    ],
+    [
+      9.8,
+      9.84
+    ],
+    [
+      10.540000000000001,
+      10.57
+    ],
+    [
+      10.72,
+      11.32
+    ],
+    [
+      11.53,
+      11.56
+    ],
+    [
+      11.66,
+      11.71
+    ],
+    [
+      11.76,
+      11.790000000000001
+    ],
+    [
+      12.39,
+      12.44
+    ],
+    [
+      12.75,
+      12.8
+    ],
+    [
+      13.01,
+      13.06
+    ],
+    [
+      13.52,
+      13.59
+    ],
+    [
+      14.08,
+      14.120000000000001
+    ],
+    [
+      14.27,
+      14.89
+    ],
+    [
+      15.76,
+      15.83
+    ],
+    [
+      16.46,
+      16.5
+    ],
+    [
+      16.94,
+      17.05
+    ],
+    [
+      17.46,
+      17.51
+    ],
+    [
+      17.68,
+      17.71
+    ],
+    [
+      17.91,
+      18.28
+    ],
+    [
+      18.72,
+      18.85
+    ],
+    [
+      18.95,
+      19.09
+    ],
+    [
+      19.150000000000002,
+      19.31
+    ],
+    [
+      19.42,
+      20.14
+    ],
+    [
+      20.32,
+      20.36
+    ],
+    [
+      20.96,
+      21.03
+    ],
+    [
+      21.37,
+      21.43
+    ],
+    [
+      21.69,
+      21.81
+    ],
+    [
+      21.990000000000002,
+      22.080000000000002
+    ],
+    [
+      22.17,
+      22.22
+    ],
+    [
+      22.51,
+      22.580000000000002
+    ],
+    [
+      23.17,
+      23.2
+    ],
+    [
+      23.35,
+      23.39
+    ],
+    [
+      23.46,
+      23.54
+    ],
+    [
+      23.63,
+      23.71
+    ],
+    [
+      23.78,
+      23.84
+    ],
+    [
+      23.98,
+      24.07
+    ],
+    [
+      24.09,
+      24.12
+    ],
+    [
+      24.2,
+      24.29
+    ],
+    [
+      24.35,
+      24.48
+    ],
+    [
+      24.63,
+      24.67
+    ],
+    [
+      24.84,
+      25.330000000000002
+    ],
+    [
+      25.64,
+      25.71
+    ],
+    [
+      26.13,
+      26.18
+    ],
+    [
+      26.39,
+      26.45
+    ],
+    [
+      26.76,
+      26.830000000000002
+    ],
+    [
+      26.900000000000002,
+      26.95
+    ],
+    [
+      27.32,
+      27.41
+    ],
+    [
+      27.43,
+      27.48
+    ],
+    [
+      28.0,
+      28.07
+    ],
+    [
+      28.68,
+      28.740000000000002
+    ],
+    [
+      28.88,
+      28.92
+    ],
+    [
+      28.93,
+      28.96
+    ],
+    [
+      29.0,
+      29.04
+    ],
+    [
+      29.17,
+      29.240000000000002
+    ],
+    [
+      29.32,
+      29.37
+    ],
+    [
+      29.47,
+      29.51
+    ],
+    [
+      29.72,
+      29.76
+    ],
+    [
+      29.89,
+      30.3
+    ],
+    [
+      30.61,
+      30.67
+    ],
+    [
+      31.1,
+      31.2
+    ],
+    [
+      31.3,
+      31.37
+    ],
+    [
+      31.57,
+      31.84
+    ],
+    [
+      32.0,
+      32.09
+    ],
+    [
+      32.29,
+      32.33
+    ],
+    [
+      32.79,
+      32.83
+    ],
+    [
+      32.93,
+      32.97
+    ],
+    [
+      33.08,
+      33.18
+    ],
+    [
+      33.36,
+      33.4
+    ],
+    [
+      33.61,
+      33.74
+    ],
+    [
+      34.06,
+      34.15
+    ],
+    [
+      34.43,
+      34.480000000000004
+    ],
+    [
+      34.62,
+      34.7
+    ],
+    [
+      35.14,
+      35.19
+    ],
+    [
+      35.32,
+      35.77
+    ],
+    [
+      36.06,
+      36.160000000000004
+    ],
+    [
+      36.43,
+      36.51
+    ],
+    [
+      36.71,
+      36.81
+    ],
+    [
+      36.89,
+      36.93
+    ],
+    [
+      37.27,
+      37.31
+    ],
+    [
+      37.9,
+      37.95
+    ],
+    [
+      38.07,
+      38.13
+    ],
+    [
+      38.17,
+      38.26
+    ],
+    [
+      38.36,
+      38.42
+    ],
+    [
+      38.5,
+      38.53
+    ],
+    [
+      38.68,
+      38.76
+    ],
+    [
+      38.82,
+      38.87
+    ],
+    [
+      39.15,
+      39.19
+    ],
+    [
+      39.31,
+      39.97
+    ],
+    [
+      40.01,
+      40.09
+    ],
+    [
+      40.19,
+      40.22
+    ],
+    [
+      40.81,
+      40.93
+    ],
+    [
+      40.94,
+      40.97
+    ],
+    [
+      41.27,
+      41.31
+    ],
+    [
+      41.6,
+      41.64
+    ],
+    [
+      41.81,
+      42.1
+    ],
+    [
+      42.65,
+      42.71
+    ],
+    [
+      42.97,
+      43.09
+    ],
+    [
+      43.6,
+      43.64
+    ],
+    [
+      43.75,
+      43.83
+    ],
+    [
+      43.99,
+      44.11
+    ],
+    [
+      44.58,
+      44.64
+    ],
+    [
+      44.83,
+      44.92
+    ],
+    [
+      45.09,
+      45.480000000000004
+    ],
+    [
+      45.65,
+      45.71
+    ],
+    [
+      45.81,
+      45.84
+    ],
+    [
+      46.4,
+      46.47
+    ],
+    [
+      46.81,
+      46.89
+    ],
+    [
+      47.13,
+      47.25
+    ],
+    [
+      47.37,
+      47.410000000000004
+    ],
+    [
+      47.56,
+      47.65
+    ],
+    [
+      47.83,
+      47.92
+    ],
+    [
+      48.11,
+      48.14
+    ],
+    [
+      48.300000000000004,
+      48.730000000000004
+    ],
+    [
+      48.94,
+      48.97
+    ],
+    [
+      49.06,
+      49.15
+    ],
+    [
+      49.64,
+      49.75
+    ],
+    [
+      49.980000000000004,
+      50.08
+    ],
+    [
+      50.22,
+      50.26
+    ],
+    [
+      50.53,
+      50.6
+    ],
+    [
+      50.7,
+      50.82
+    ],
+    [
+      50.99,
+      51.02
+    ],
+    [
+      51.1,
+      51.15
+    ],
+    [
+      51.42,
+      51.480000000000004
+    ],
+    [
+      51.67,
+      51.75
+    ],
+    [
+      51.92,
+      52.25
+    ],
+    [
+      52.36,
+      52.45
+    ],
+    [
+      52.72,
+      52.79
+    ],
+    [
+      52.94,
+      52.99
+    ],
+    [
+      53.2,
+      53.35
+    ],
+    [
+      53.38,
+      53.42
+    ],
+    [
+      53.79,
+      53.94
+    ],
+    [
+      54.07,
+      54.24
+    ],
+    [
+      54.25,
+      54.300000000000004
+    ],
+    [
+      54.51,
+      54.54
+    ],
+    [
+      54.68,
+      54.78
+    ],
+    [
+      54.89,
+      54.96
+    ],
+    [
+      54.99,
+      55.120000000000005
+    ],
+    [
+      55.31,
+      55.38
+    ],
+    [
+      55.550000000000004,
+      55.71
+    ],
+    [
+      55.93,
+      56.06
+    ],
+    [
+      56.63,
+      56.77
+    ],
+    [
+      57.06,
+      57.11
+    ],
+    [
+      57.25,
+      57.71
+    ],
+    [
+      57.95,
+      58.01
+    ],
+    [
+      58.13,
+      58.25
+    ],
+    [
+      58.42,
+      58.45
+    ],
+    [
+      58.56,
+      58.59
+    ],
+    [
+      58.620000000000005,
+      58.65
+    ],
+    [
+      59.13,
+      59.21
+    ],
+    [
+      59.230000000000004,
+      59.34
+    ],
+    [
+      59.45,
+      59.53
+    ],
+    [
+      59.82,
+      59.96
+    ],
+    [
+      59.97,
+      60.01
+    ],
+    [
+      60.27,
+      60.410000000000004
+    ],
+    [
+      60.6,
+      60.64
+    ],
+    [
+      60.800000000000004,
+      61.02
+    ],
+    [
+      61.1,
+      61.19
+    ],
+    [
+      61.27,
+      61.300000000000004
+    ],
+    [
+      61.370000000000005,
+      61.46
+    ],
+    [
+      61.52,
+      61.56
+    ],
+    [
+      61.72,
+      61.75
+    ],
+    [
+      61.83,
+      61.86
+    ],
+    [
+      62.050000000000004,
+      62.21
+    ],
+    [
+      62.480000000000004,
+      62.550000000000004
+    ],
+    [
+      62.72,
+      62.82
+    ],
+    [
+      63.02,
+      63.08
+    ],
+    [
+      63.27,
+      63.34
+    ],
+    [
+      63.53,
+      63.620000000000005
+    ],
+    [
+      63.81,
+      64.18
+    ],
+    [
+      64.31,
+      64.41
+    ],
+    [
+      64.45,
+      64.49
+    ],
+    [
+      64.62,
+      64.65
+    ],
+    [
+      65.02,
+      65.05
+    ],
+    [
+      65.26,
+      65.32000000000001
+    ],
+    [
+      65.6,
+      65.72
+    ],
+    [
+      65.78,
+      65.92
+    ],
+    [
+      66.16,
+      66.34
+    ],
+    [
+      66.38,
+      66.48
+    ],
+    [
+      66.49,
+      66.52
+    ],
+    [
+      66.63,
+      66.67
+    ],
+    [
+      66.93,
+      66.96000000000001
+    ],
+    [
+      67.08,
+      67.2
+    ],
+    [
+      67.41,
+      67.47
+    ],
+    [
+      67.57000000000001,
+      67.66
+    ],
+    [
+      67.82000000000001,
+      67.92
+    ],
+    [
+      68.11,
+      68.15
+    ],
+    [
+      68.29,
+      68.73
+    ],
+    [
+      68.93,
+      69.0
+    ],
+    [
+      69.19,
+      69.29
+    ],
+    [
+      69.3,
+      69.34
+    ],
+    [
+      69.67,
+      69.72
+    ],
+    [
+      69.88,
+      69.92
+    ],
+    [
+      70.26,
+      70.39
+    ],
+    [
+      70.52,
+      70.64
+    ],
+    [
+      70.82000000000001,
+      70.92
+    ],
+    [
+      71.11,
+      71.23
+    ],
+    [
+      71.42,
+      71.53
+    ],
+    [
+      71.63,
+      71.72
+    ],
+    [
+      72.21000000000001,
+      72.5
+    ],
+    [
+      72.51,
+      72.54
+    ],
+    [
+      72.75,
+      72.86
+    ],
+    [
+      73.09,
+      73.27
+    ],
+    [
+      73.46000000000001,
+      73.58
+    ],
+    [
+      73.69,
+      73.74
+    ],
+    [
+      73.8,
+      73.96000000000001
+    ],
+    [
+      74.01,
+      74.13
+    ],
+    [
+      74.25,
+      74.29
+    ],
+    [
+      74.44,
+      74.49
+    ],
+    [
+      74.72,
+      74.81
+    ],
+    [
+      74.85000000000001,
+      74.91
+    ],
+    [
+      75.10000000000001,
+      75.3
+    ],
+    [
+      75.4,
+      75.43
+    ],
+    [
+      75.63,
+      75.68
+    ],
+    [
+      75.69,
+      75.77
+    ],
+    [
+      75.84,
+      75.87
+    ],
+    [
+      76.10000000000001,
+      76.13
+    ],
+    [
+      76.24,
+      76.32000000000001
+    ],
+    [
+      76.37,
+      76.47
+    ],
+    [
+      76.54,
+      76.64
+    ],
+    [
+      76.82000000000001,
+      76.86
+    ],
+    [
+      76.98,
+      77.46000000000001
+    ],
+    [
+      77.69,
+      77.73
+    ],
+    [
+      78.4,
+      78.45
+    ],
+    [
+      78.52,
+      78.55
+    ],
+    [
+      78.73,
+      79.01
+    ],
+    [
+      79.57000000000001,
+      79.63
+    ],
+    [
+      80.07000000000001,
+      80.12
+    ],
+    [
+      80.19,
+      80.24
+    ],
+    [
+      80.39,
+      80.47
+    ],
+    [
+      80.57000000000001,
+      80.63
+    ],
+    [
+      80.76,
+      80.93
+    ],
+    [
+      81.13,
+      81.34
+    ],
+    [
+      81.68,
+      81.73
+    ],
+    [
+      82.06,
+      82.15
+    ],
+    [
+      82.45,
+      82.48
+    ],
+    [
+      82.65,
+      82.68
+    ],
+    [
+      82.77,
+      82.85000000000001
+    ],
+    [
+      83.05,
+      83.10000000000001
+    ],
+    [
+      83.42,
+      83.47
+    ],
+    [
+      83.62,
+      84.09
+    ],
+    [
+      84.38,
+      84.42
+    ],
+    [
+      84.7,
+      84.84
+    ],
+    [
+      85.07000000000001,
+      85.11
+    ],
+    [
+      85.33,
+      85.37
+    ],
+    [
+      85.5,
+      85.56
+    ],
+    [
+      85.71000000000001,
+      85.78
+    ],
+    [
+      86.15,
+      86.36
+    ],
+    [
+      87.11,
+      87.17
+    ],
+    [
+      87.2,
+      87.23
+    ],
+    [
+      87.33,
+      87.37
+    ],
+    [
+      87.43,
+      87.46000000000001
+    ],
+    [
+      87.55,
+      87.64
+    ],
+    [
+      87.86,
+      87.98
+    ],
+    [
+      88.06,
+      88.14
+    ],
+    [
+      88.34,
+      88.66
+    ],
+    [
+      88.7,
+      88.76
+    ],
+    [
+      89.09,
+      89.23
+    ],
+    [
+      89.88,
+      90.01
+    ],
+    [
+      90.22,
+      90.28
+    ],
+    [
+      90.37,
+      90.46000000000001
+    ],
+    [
+      90.62,
+      90.73
+    ],
+    [
+      90.91,
+      90.95
+    ],
+    [
+      91.08,
+      91.51
+    ],
+    [
+      91.85000000000001,
+      91.89
+    ],
+    [
+      93.31,
+      93.55
+    ],
+    [
+      93.60000000000001,
+      93.65
+    ],
+    [
+      93.73,
+      93.93
+    ],
+    [
+      94.12,
+      94.17
+    ],
+    [
+      94.45,
+      94.49
+    ],
+    [
+      94.61,
+      94.71000000000001
+    ],
+    [
+      94.96000000000001,
+      95.0
+    ],
+    [
+      95.47,
+      95.51
+    ],
+    [
+      95.61,
+      96.10000000000001
+    ],
+    [
+      96.48,
+      96.55
+    ],
+    [
+      96.85000000000001,
+      96.89
+    ],
+    [
+      97.03,
+      97.09
+    ],
+    [
+      97.28,
+      97.36
+    ],
+    [
+      97.51,
+      97.61
+    ],
+    [
+      97.72,
+      97.86
+    ],
+    [
+      98.11,
+      98.29
+    ],
+    [
+      98.32000000000001,
+      98.35000000000001
+    ],
+    [
+      98.39,
+      98.42
+    ],
+    [
+      98.67,
+      98.72
+    ],
+    [
+      98.75,
+      98.78
+    ],
+    [
+      98.84,
+      98.92
+    ],
+    [
+      98.95,
+      99.15
+    ],
+    [
+      99.29,
+      99.41
+    ],
+    [
+      99.74000000000001,
+      99.78
+    ],
+    [
+      99.79,
+      99.83
+    ],
+    [
+      100.18,
+      100.24000000000001
+    ],
+    [
+      100.28,
+      100.39
+    ],
+    [
+      100.52,
+      100.61
+    ],
+    [
+      100.65,
+      100.7
+    ],
+    [
+      100.75,
+      100.86
+    ],
+    [
+      101.07000000000001,
+      101.11
+    ],
+    [
+      101.25,
+      101.66
+    ],
+    [
+      101.69,
+      101.72
+    ],
+    [
+      101.83,
+      101.89
+    ],
+    [
+      102.05,
+      102.11
+    ],
+    [
+      102.27,
+      102.34
+    ],
+    [
+      102.64,
+      102.82000000000001
+    ],
+    [
+      103.02,
+      103.11
+    ],
+    [
+      103.36,
+      103.41
+    ],
+    [
+      103.67,
+      103.75
+    ],
+    [
+      103.82000000000001,
+      103.86
+    ],
+    [
+      103.96000000000001,
+      104.02
+    ],
+    [
+      104.16,
+      104.22
+    ],
+    [
+      104.24000000000001,
+      104.31
+    ],
+    [
+      104.37,
+      104.41
+    ],
+    [
+      104.51,
+      104.60000000000001
+    ],
+    [
+      104.66,
+      104.72
+    ],
+    [
+      104.96000000000001,
+      105.10000000000001
+    ],
+    [
+      105.24000000000001,
+      105.28
+    ],
+    [
+      105.45,
+      105.85000000000001
+    ],
+    [
+      106.26,
+      106.33
+    ],
+    [
+      106.8,
+      106.85000000000001
+    ],
+    [
+      106.86,
+      106.9
+    ],
+    [
+      107.41,
+      107.63
+    ],
+    [
+      107.95,
+      108.03
+    ],
+    [
+      108.09,
+      108.16
+    ],
+    [
+      108.2,
+      108.37
+    ],
+    [
+      108.49000000000001,
+      108.61
+    ],
+    [
+      109.63,
+      109.67
+    ],
+    [
+      109.79,
+      110.23
+    ],
+    [
+      110.3,
+      110.39
+    ],
+    [
+      110.47,
+      110.58
+    ],
+    [
+      110.74000000000001,
+      110.79
+    ],
+    [
+      111.23,
+      111.33
+    ],
+    [
+      111.78,
+      111.92
+    ],
+    [
+      112.07000000000001,
+      112.10000000000001
+    ],
+    [
+      112.2,
+      112.24000000000001
+    ],
+    [
+      112.31,
+      112.39
+    ],
+    [
+      112.42,
+      112.46000000000001
+    ],
+    [
+      113.10000000000001,
+      113.2
+    ],
+    [
+      113.24000000000001,
+      113.33
+    ],
+    [
+      113.41,
+      113.45
+    ],
+    [
+      113.55,
+      113.60000000000001
+    ],
+    [
+      113.62,
+      113.74000000000001
+    ],
+    [
+      113.75,
+      113.78
+    ],
+    [
+      113.97,
+      114.10000000000001
+    ],
+    [
+      114.25,
+      114.28
+    ],
+    [
+      114.44,
+      114.84
+    ],
+    [
+      114.88,
+      114.96000000000001
+    ],
+    [
+      115.07000000000001,
+      115.12
+    ],
+    [
+      115.27,
+      115.35000000000001
+    ],
+    [
+      115.68,
+      115.71000000000001
+    ],
+    [
+      115.77,
+      115.84
+    ],
+    [
+      115.89,
+      115.92
+    ],
+    [
+      116.53,
+      116.72
+    ],
+    [
+      116.74000000000001,
+      116.78
+    ],
+    [
+      116.86,
+      116.92
+    ],
+    [
+      116.94,
+      117.01
+    ],
+    [
+      117.21000000000001,
+      117.36
+    ],
+    [
+      117.53,
+      117.58
+    ],
+    [
+      117.60000000000001,
+      117.64
+    ],
+    [
+      117.74000000000001,
+      117.82000000000001
+    ],
+    [
+      118.05,
+      118.11
+    ],
+    [
+      118.19,
+      118.23
+    ],
+    [
+      118.35000000000001,
+      118.45
+    ],
+    [
+      118.72,
+      118.76
+    ],
+    [
+      119.23,
+      119.27
+    ],
+    [
+      119.39,
+      119.8
+    ],
+    [
+      120.03,
+      120.12
+    ],
+    [
+      120.24000000000001,
+      120.34
+    ],
+    [
+      120.62,
+      120.72
+    ],
+    [
+      120.84,
+      120.92
+    ],
+    [
+      121.12,
+      121.21000000000001
+    ],
+    [
+      121.73,
+      121.82000000000001
+    ],
+    [
+      121.93,
+      121.96000000000001
+    ],
+    [
+      122.14,
+      122.26
+    ],
+    [
+      122.42,
+      122.56
+    ],
+    [
+      122.60000000000001,
+      122.73
+    ],
+    [
+      122.78,
+      122.84
+    ],
+    [
+      123.01,
+      123.05
+    ],
+    [
+      123.66,
+      123.96000000000001
+    ],
+    [
+      123.97,
+      124.04
+    ],
+    [
+      124.57000000000001,
+      124.64
+    ],
+    [
+      125.01,
+      125.04
+    ],
+    [
+      125.19,
+      125.29
+    ],
+    [
+      125.49000000000001,
+      125.54
+    ],
+    [
+      125.57000000000001,
+      125.62
+    ],
+    [
+      126.0,
+      126.08
+    ],
+    [
+      126.27,
+      126.55
+    ],
+    [
+      127.14,
+      127.2
+    ],
+    [
+      127.33,
+      127.43
+    ],
+    [
+      127.47,
+      127.54
+    ],
+    [
+      127.73,
+      127.9
+    ],
+    [
+      128.24,
+      128.33
+    ],
+    [
+      128.82,
+      128.91
+    ],
+    [
+      129.12,
+      129.21
+    ],
+    [
+      130.23,
+      130.31
+    ],
+    [
+      130.44,
+      130.78
+    ],
+    [
+      130.96,
+      131.03
+    ],
+    [
+      131.23,
+      131.4
+    ],
+    [
+      131.53,
+      131.63
+    ],
+    [
+      131.77,
+      131.87
+    ],
+    [
+      131.88,
+      131.91
+    ],
+    [
+      132.06,
+      132.11
+    ],
+    [
+      132.12,
+      132.16
+    ],
+    [
+      132.2,
+      132.24
+    ],
+    [
+      132.31,
+      132.47
+    ],
+    [
+      132.8,
+      132.92000000000002
+    ],
+    [
+      133.26,
+      133.34
+    ],
+    [
+      133.37,
+      133.42000000000002
+    ],
+    [
+      133.54,
+      133.69
+    ],
+    [
+      133.75,
+      133.84
+    ],
+    [
+      133.95,
+      134.3
+    ],
+    [
+      134.46,
+      134.54
+    ],
+    [
+      134.62,
+      134.68
+    ],
+    [
+      134.87,
+      135.0
+    ],
+    [
+      135.03,
+      135.07
+    ],
+    [
+      135.27,
+      135.3
+    ],
+    [
+      135.46,
+      135.56
+    ],
+    [
+      135.58,
+      135.73
+    ],
+    [
+      135.92000000000002,
+      136.06
+    ],
+    [
+      136.08,
+      136.11
+    ],
+    [
+      136.19,
+      136.33
+    ],
+    [
+      136.95000000000002,
+      136.99
+    ],
+    [
+      137.11,
+      137.20000000000002
+    ],
+    [
+      137.46,
+      137.51
+    ],
+    [
+      137.96,
+      138.01
+    ],
+    [
+      138.12,
+      138.58
+    ],
+    [
+      138.6,
+      138.63
+    ],
+    [
+      138.81,
+      138.93
+    ],
+    [
+      139.62,
+      139.70000000000002
+    ],
+    [
+      140.03,
+      140.11
+    ],
+    [
+      140.18,
+      140.29
+    ],
+    [
+      140.68,
+      140.78
+    ],
+    [
+      141.16,
+      141.26
+    ],
+    [
+      141.46,
+      141.53
+    ],
+    [
+      141.97,
+      142.01
+    ],
+    [
+      142.19,
+      142.25
+    ],
+    [
+      142.31,
+      142.36
+    ],
+    [
+      142.53,
+      142.56
+    ],
+    [
+      142.93,
+      142.96
+    ],
+    [
+      143.18,
+      143.43
+    ],
+    [
+      144.04,
+      144.08
+    ],
+    [
+      144.11,
+      144.19
+    ],
+    [
+      144.65,
+      144.75
+    ],
+    [
+      144.99,
+      145.02
+    ],
+    [
+      145.22,
+      145.3
+    ],
+    [
+      145.32,
+      145.36
+    ],
+    [
+      145.57,
+      145.66
+    ],
+    [
+      145.84,
+      146.13
+    ],
+    [
+      146.19,
+      146.29
+    ],
+    [
+      146.36,
+      146.41
+    ],
+    [
+      146.42000000000002,
+      146.5
+    ],
+    [
+      146.66,
+      146.77
+    ],
+    [
+      146.79,
+      146.82
+    ],
+    [
+      147.21,
+      147.32
+    ],
+    [
+      147.43,
+      147.46
+    ],
+    [
+      147.62,
+      147.65
+    ],
+    [
+      147.9,
+      147.97
+    ],
+    [
+      148.22,
+      148.29
+    ],
+    [
+      148.33,
+      148.36
+    ],
+    [
+      148.54,
+      148.68
+    ],
+    [
+      148.98,
+      149.01
+    ],
+    [
+      149.9,
+      149.99
+    ],
+    [
+      150.08,
+      150.49
+    ],
+    [
+      150.71,
+      150.81
+    ],
+    [
+      150.94,
+      150.99
+    ],
+    [
+      151.22,
+      151.3
+    ],
+    [
+      151.38,
+      151.43
+    ],
+    [
+      151.5,
+      151.65
+    ],
+    [
+      151.86,
+      151.95000000000002
+    ],
+    [
+      152.15,
+      152.38
+    ],
+    [
+      152.69,
+      152.73
+    ],
+    [
+      152.88,
+      152.92000000000002
+    ],
+    [
+      153.12,
+      153.19
+    ],
+    [
+      153.70000000000002,
+      153.93
+    ],
+    [
+      154.14000000000001,
+      154.29
+    ],
+    [
+      154.33,
+      154.37
+    ],
+    [
+      154.58,
+      154.62
+    ],
+    [
+      154.63,
+      154.70000000000002
+    ],
+    [
+      154.8,
+      154.9
+    ],
+    [
+      154.92000000000002,
+      155.06
+    ],
+    [
+      155.14000000000001,
+      155.22
+    ],
+    [
+      155.39000000000001,
+      155.57
+    ],
+    [
+      155.70000000000002,
+      155.82
+    ],
+    [
+      156.29,
+      156.34
+    ],
+    [
+      156.44,
+      156.48
+    ],
+    [
+      156.6,
+      156.70000000000002
+    ],
+    [
+      156.96,
+      157.01
+    ],
+    [
+      157.47,
+      157.51
+    ],
+    [
+      157.63,
+      158.02
+    ],
+    [
+      158.47,
+      158.54
+    ],
+    [
+      158.76,
+      158.86
+    ],
+    [
+      158.94,
+      158.98
+    ],
+    [
+      159.06,
+      159.09
+    ],
+    [
+      159.47,
+      159.51
+    ],
+    [
+      159.71,
+      159.78
+    ],
+    [
+      160.0,
+      160.08
+    ],
+    [
+      160.48,
+      160.57
+    ],
+    [
+      160.79,
+      161.01
+    ],
+    [
+      161.38,
+      161.41
+    ],
+    [
+      161.6,
+      161.71
+    ],
+    [
+      161.9,
+      161.93
+    ],
+    [
+      162.18,
+      162.22
+    ],
+    [
+      162.67000000000002,
+      162.70000000000002
+    ],
+    [
+      163.51,
+      163.61
+    ],
+    [
+      163.81,
+      163.92000000000002
+    ],
+    [
+      163.97,
+      164.01
+    ],
+    [
+      164.37,
+      164.4
+    ],
+    [
+      164.58,
+      164.86
+    ],
+    [
+      164.99,
+      165.08
+    ],
+    [
+      165.42000000000002,
+      165.46
+    ],
+    [
+      165.56,
+      165.62
+    ],
+    [
+      165.98,
+      166.14000000000001
+    ],
+    [
+      166.16,
+      166.21
+    ],
+    [
+      166.67000000000002,
+      166.79
+    ],
+    [
+      167.06,
+      167.16
+    ],
+    [
+      167.41,
+      167.58
+    ],
+    [
+      168.0,
+      168.04
+    ],
+    [
+      168.17000000000002,
+      168.55
+    ],
+    [
+      169.06,
+      169.36
+    ],
+    [
+      169.51,
+      169.54
+    ],
+    [
+      169.65,
+      169.70000000000002
+    ],
+    [
+      170.02,
+      170.23
+    ],
+    [
+      170.54,
+      170.59
+    ],
+    [
+      170.86,
+      171.0
+    ],
+    [
+      171.05,
+      171.08
+    ],
+    [
+      171.3,
+      171.47
+    ],
+    [
+      171.56,
+      171.75
+    ],
+    [
+      171.89000000000001,
+      172.08
+    ],
+    [
+      172.12,
+      172.23
+    ],
+    [
+      172.29,
+      172.38
+    ],
+    [
+      172.62,
+      172.68
+    ],
+    [
+      172.73,
+      172.76
+    ],
+    [
+      172.88,
+      172.93
+    ],
+    [
+      173.01,
+      173.06
+    ],
+    [
+      173.35,
+      173.39000000000001
+    ],
+    [
+      173.51,
+      173.94
+    ],
+    [
+      173.97,
+      174.0
+    ],
+    [
+      174.39000000000001,
+      174.42000000000002
+    ],
+    [
+      174.67000000000002,
+      174.74
+    ],
+    [
+      175.04,
+      175.16
+    ],
+    [
+      175.33,
+      175.5
+    ],
+    [
+      175.87,
+      175.99
+    ],
+    [
+      176.06,
+      176.13
+    ],
+    [
+      176.35,
+      176.44
+    ],
+    [
+      176.62,
+      176.92000000000002
+    ],
+    [
+      177.28,
+      177.31
+    ],
+    [
+      177.41,
+      177.45000000000002
+    ],
+    [
+      177.8,
+      177.88
+    ],
+    [
+      177.97,
+      178.03
+    ],
+    [
+      178.16,
+      178.23
+    ],
+    [
+      178.32,
+      178.35
+    ],
+    [
+      178.48,
+      178.53
+    ],
+    [
+      178.6,
+      178.65
+    ],
+    [
+      178.95000000000002,
+      178.99
+    ],
+    [
+      179.13,
+      179.57
+    ],
+    [
+      179.71,
+      179.78
+    ],
+    [
+      180.08,
+      180.19
+    ],
+    [
+      180.54,
+      180.61
+    ],
+    [
+      180.62,
+      180.67000000000002
+    ],
+    [
+      180.83,
+      180.87
+    ],
+    [
+      181.02,
+      181.06
+    ],
+    [
+      181.23,
+      181.34
+    ],
+    [
+      181.62,
+      181.65
+    ],
+    [
+      181.75,
+      181.82
+    ],
+    [
+      181.97,
+      182.09
+    ],
+    [
+      182.33,
+      182.49
+    ],
+    [
+      182.71,
+      182.79
+    ],
+    [
+      182.94,
+      183.02
+    ],
+    [
+      183.35,
+      183.56
+    ],
+    [
+      183.74,
+      183.77
+    ],
+    [
+      183.94,
+      183.99
+    ],
+    [
+      184.41,
+      184.56
+    ],
+    [
+      184.72,
+      184.85
+    ],
+    [
+      184.86,
+      184.9
+    ],
+    [
+      185.16,
+      185.25
+    ],
+    [
+      185.4,
+      185.68
+    ],
+    [
+      186.18,
+      186.26
+    ],
+    [
+      186.47,
+      186.54
+    ],
+    [
+      186.8,
+      186.84
+    ],
+    [
+      186.85,
+      186.88
+    ],
+    [
+      187.02,
+      187.05
+    ],
+    [
+      187.31,
+      187.35
+    ],
+    [
+      187.45000000000002,
+      187.94
+    ],
+    [
+      188.22,
+      188.28
+    ],
+    [
+      188.39000000000001,
+      188.47
+    ],
+    [
+      188.54,
+      188.72
+    ],
+    [
+      188.89000000000001,
+      188.93
+    ],
+    [
+      188.95000000000002,
+      189.02
+    ],
+    [
+      189.4,
+      189.44
+    ],
+    [
+      189.51,
+      189.68
+    ],
+    [
+      189.98,
+      190.06
+    ],
+    [
+      190.08,
+      190.13
+    ],
+    [
+      190.16,
+      190.19
+    ],
+    [
+      190.43,
+      190.46
+    ],
+    [
+      190.6,
+      190.69
+    ],
+    [
+      190.8,
+      190.87
+    ],
+    [
+      191.34,
+      191.39000000000001
+    ],
+    [
+      191.47,
+      191.53
+    ],
+    [
+      191.6,
+      191.71
+    ],
+    [
+      192.22,
+      192.35
+    ],
+    [
+      192.48000000000002,
+      192.52
+    ],
+    [
+      192.68,
+      193.1
+    ],
+    [
+      193.68,
+      193.72
+    ],
+    [
+      193.85,
+      193.95000000000002
+    ],
+    [
+      193.99,
+      194.05
+    ],
+    [
+      194.24,
+      194.33
+    ],
+    [
+      194.36,
+      194.41
+    ],
+    [
+      194.81,
+      194.84
+    ],
+    [
+      194.97,
+      195.08
+    ],
+    [
+      195.37,
+      195.54
+    ],
+    [
+      195.6,
+      195.65
+    ],
+    [
+      195.95000000000002,
+      196.06
+    ],
+    [
+      196.08,
+      196.16
+    ],
+    [
+      196.19,
+      196.3
+    ],
+    [
+      196.31,
+      196.35
+    ],
+    [
+      196.42000000000002,
+      196.5
+    ],
+    [
+      196.62,
+      196.72
+    ],
+    [
+      196.92000000000002,
+      197.02
+    ],
+    [
+      197.22,
+      197.25
+    ],
+    [
+      197.4,
+      197.84
+    ],
+    [
+      198.06,
+      198.14000000000001
+    ],
+    [
+      198.27,
+      198.3
+    ],
+    [
+      198.5,
+      198.58
+    ],
+    [
+      198.64000000000001,
+      198.67000000000002
+    ],
+    [
+      198.89000000000001,
+      198.92000000000002
+    ],
+    [
+      199.18,
+      199.26
+    ],
+    [
+      199.28,
+      199.34
+    ],
+    [
+      199.49,
+      199.53
+    ],
+    [
+      199.71,
+      199.82
+    ],
+    [
+      200.31,
+      200.48000000000002
+    ],
+    [
+      200.67000000000002,
+      200.86
+    ],
+    [
+      201.27,
+      201.33
+    ],
+    [
+      201.47,
+      201.6
+    ],
+    [
+      201.77,
+      201.86
+    ],
+    [
+      201.95000000000002,
+      202.03
+    ],
+    [
+      202.27,
+      202.32
+    ],
+    [
+      202.44,
+      202.89000000000001
+    ],
+    [
+      203.03,
+      203.06
+    ],
+    [
+      203.16,
+      203.22
+    ],
+    [
+      203.68,
+      203.85
+    ],
+    [
+      204.03,
+      204.1
+    ],
+    [
+      204.11,
+      204.15
+    ],
+    [
+      204.63,
+      204.72
+    ],
+    [
+      204.81,
+      204.87
+    ],
+    [
+      204.9,
+      205.01
+    ],
+    [
+      205.47,
+      205.66
+    ],
+    [
+      205.79,
+      205.83
+    ],
+    [
+      205.95000000000002,
+      206.0
+    ],
+    [
+      206.13,
+      206.19
+    ],
+    [
+      206.28,
+      206.31
+    ],
+    [
+      206.43,
+      206.49
+    ],
+    [
+      206.54,
+      206.59
+    ],
+    [
+      206.77,
+      206.89000000000001
+    ],
+    [
+      206.95000000000002,
+      207.09
+    ],
+    [
+      207.23000000000002,
+      207.28
+    ],
+    [
+      207.39000000000001,
+      207.84
+    ],
+    [
+      208.05,
+      208.18
+    ],
+    [
+      208.22,
+      208.25
+    ],
+    [
+      208.47,
+      208.57
+    ],
+    [
+      208.72,
+      208.8
+    ],
+    [
+      209.03,
+      209.15
+    ],
+    [
+      209.17000000000002,
+      209.21
+    ],
+    [
+      209.32,
+      209.4
+    ],
+    [
+      209.63,
+      209.73000000000002
+    ],
+    [
+      209.83,
+      209.89000000000001
+    ],
+    [
+      210.81,
+      210.87
+    ],
+    [
+      211.3,
+      211.34
+    ],
+    [
+      211.48000000000002,
+      211.85
+    ],
+    [
+      212.21,
+      212.25
+    ],
+    [
+      212.27,
+      212.33
+    ],
+    [
+      212.58,
+      212.61
+    ],
+    [
+      212.75,
+      212.82
+    ],
+    [
+      213.16,
+      213.22
+    ],
+    [
+      213.44,
+      213.53
+    ],
+    [
+      213.73000000000002,
+      213.82
+    ],
+    [
+      213.94,
+      213.98000000000002
+    ],
+    [
+      214.07,
+      214.12
+    ],
+    [
+      214.31,
+      214.35
+    ],
+    [
+      214.42000000000002,
+      214.59
+    ],
+    [
+      215.36,
+      215.4
+    ],
+    [
+      215.42000000000002,
+      215.48000000000002
+    ],
+    [
+      215.83,
+      215.87
+    ],
+    [
+      216.31,
+      216.74
+    ],
+    [
+      216.82,
+      216.86
+    ],
+    [
+      217.12,
+      217.16
+    ],
+    [
+      217.76,
+      217.81
+    ],
+    [
+      217.94,
+      218.03
+    ],
+    [
+      218.06,
+      218.12
+    ],
+    [
+      218.36,
+      218.49
+    ],
+    [
+      218.51,
+      218.54
+    ],
+    [
+      218.85,
+      218.96
+    ],
+    [
+      219.19,
+      219.22
+    ],
+    [
+      219.37,
+      219.45000000000002
+    ],
+    [
+      219.46,
+      219.49
+    ],
+    [
+      219.57,
+      219.6
+    ],
+    [
+      219.77,
+      219.95000000000002
+    ],
+    [
+      220.0,
+      220.05
+    ],
+    [
+      220.39000000000001,
+      220.49
+    ],
+    [
+      220.52,
+      220.55
+    ],
+    [
+      220.61,
+      220.68
+    ],
+    [
+      220.92000000000002,
+      220.96
+    ],
+    [
+      221.09,
+      221.52
+    ],
+    [
+      221.73000000000002,
+      221.82
+    ],
+    [
+      221.95000000000002,
+      221.98000000000002
+    ],
+    [
+      222.16,
+      222.20000000000002
+    ],
+    [
+      222.28,
+      222.37
+    ],
+    [
+      222.58,
+      222.61
+    ],
+    [
+      222.84,
+      222.98000000000002
+    ],
+    [
+      223.12,
+      223.18
+    ],
+    [
+      223.19,
+      223.22
+    ],
+    [
+      223.26,
+      223.39000000000001
+    ],
+    [
+      223.85,
+      223.94
+    ],
+    [
+      223.96,
+      224.01
+    ],
+    [
+      224.09,
+      224.17000000000002
+    ],
+    [
+      224.24,
+      224.31
+    ],
+    [
+      224.39000000000001,
+      224.46
+    ],
+    [
+      224.55,
+      224.58
+    ],
+    [
+      224.76,
+      224.92000000000002
+    ],
+    [
+      225.0,
+      225.05
+    ],
+    [
+      225.38,
+      225.45000000000002
+    ],
+    [
+      225.55,
+      225.6
+    ],
+    [
+      225.91,
+      225.94
+    ],
+    [
+      226.05,
+      226.49
+    ],
+    [
+      226.98000000000002,
+      227.02
+    ],
+    [
+      227.1,
+      227.14000000000001
+    ],
+    [
+      227.23000000000002,
+      227.28
+    ],
+    [
+      227.6,
+      227.72
+    ],
+    [
+      228.53,
+      228.58
+    ],
+    [
+      228.77,
+      228.84
+    ],
+    [
+      229.02,
+      229.21
+    ],
+    [
+      229.28,
+      229.33
+    ],
+    [
+      229.69,
+      229.72
+    ],
+    [
+      229.97,
+      230.0
+    ],
+    [
+      230.12,
+      230.21
+    ],
+    [
+      230.49,
+      230.54
+    ],
+    [
+      230.65,
+      231.09
+    ],
+    [
+      231.11,
+      231.15
+    ],
+    [
+      231.4,
+      231.43
+    ],
+    [
+      231.82,
+      231.85
+    ],
+    [
+      231.87,
+      231.94
+    ],
+    [
+      232.09,
+      232.17000000000002
+    ],
+    [
+      232.39000000000001,
+      232.55
+    ],
+    [
+      232.57,
+      232.62
+    ],
+    [
+      233.39000000000001,
+      233.43
+    ],
+    [
+      233.55,
+      233.65
+    ],
+    [
+      233.92000000000002,
+      233.96
+    ],
+    [
+      234.43,
+      234.47
+    ],
+    [
+      234.57,
+      235.02
+    ],
+    [
+      235.31,
+      235.34
+    ],
+    [
+      235.42000000000002,
+      235.54
+    ],
+    [
+      235.87,
+      235.93
+    ],
+    [
+      236.27,
+      236.3
+    ],
+    [
+      236.39000000000001,
+      236.45000000000002
+    ],
+    [
+      236.63,
+      236.67000000000002
+    ],
+    [
+      237.13,
+      237.16
+    ],
+    [
+      237.17000000000002,
+      237.56
+    ],
+    [
+      237.65,
+      237.70000000000002
+    ],
+    [
+      237.94,
+      238.04
+    ],
+    [
+      238.32,
+      238.41
+    ],
+    [
+      238.48000000000002,
+      238.61
+    ],
+    [
+      238.91,
+      238.99
+    ],
+    [
+      239.19,
+      239.26
+    ],
+    [
+      239.5,
+      239.54
+    ],
+    [
+      239.68,
+      240.13
+    ],
+    [
+      240.14000000000001,
+      240.17000000000002
+    ],
+    [
+      240.42000000000002,
+      240.47
+    ],
+    [
+      240.52,
+      240.67000000000002
+    ],
+    [
+      241.25,
+      241.59
+    ],
+    [
+      241.69,
+      241.73000000000002
+    ],
+    [
+      241.82,
+      241.87
+    ],
+    [
+      241.95000000000002,
+      242.02
+    ],
+    [
+      242.12,
+      242.17000000000002
+    ],
+    [
+      242.28,
+      242.36
+    ],
+    [
+      242.44,
+      242.55
+    ],
+    [
+      242.64000000000001,
+      243.01
+    ],
+    [
+      243.03,
+      243.06
+    ],
+    [
+      243.38,
+      243.43
+    ],
+    [
+      243.86,
+      244.01
+    ],
+    [
+      244.13,
+      244.18
+    ],
+    [
+      244.26,
+      244.33
+    ],
+    [
+      244.41,
+      244.48000000000002
+    ],
+    [
+      244.59,
+      244.68
+    ],
+    [
+      244.73000000000002,
+      244.77
+    ],
+    [
+      245.09,
+      245.16
+    ],
+    [
+      245.25,
+      245.64000000000001
+    ],
+    [
+      245.93,
+      246.03
+    ],
+    [
+      246.06,
+      246.1
+    ],
+    [
+      246.37,
+      246.41
+    ],
+    [
+      246.44,
+      246.47
+    ],
+    [
+      246.58,
+      246.61
+    ],
+    [
+      246.69,
+      246.79
+    ],
+    [
+      246.99,
+      247.03
+    ],
+    [
+      247.11,
+      247.54
+    ],
+    [
+      247.95000000000002,
+      248.01000000000002
+    ],
+    [
+      248.07,
+      248.11
+    ],
+    [
+      248.28,
+      248.31
+    ],
+    [
+      248.4,
+      248.48000000000002
+    ],
+    [
+      248.63,
+      248.69
+    ],
+    [
+      248.71,
+      248.77
+    ],
+    [
+      248.99,
+      249.1
+    ],
+    [
+      249.3,
+      249.4
+    ],
+    [
+      249.41,
+      249.47
+    ],
+    [
+      249.56,
+      249.62
+    ],
+    [
+      249.68,
+      249.73000000000002
+    ],
+    [
+      250.08,
+      250.11
+    ],
+    [
+      250.28,
+      250.32
+    ],
+    [
+      250.49,
+      250.98000000000002
+    ],
+    [
+      251.25,
+      251.39000000000001
+    ],
+    [
+      251.55,
+      251.59
+    ],
+    [
+      251.85,
+      252.0
+    ],
+    [
+      252.21,
+      252.26000000000002
+    ],
+    [
+      252.32,
+      252.4
+    ],
+    [
+      252.41,
+      252.59
+    ],
+    [
+      252.82,
+      252.98000000000002
+    ],
+    [
+      253.19,
+      253.25
+    ],
+    [
+      253.44,
+      253.51000000000002
+    ],
+    [
+      253.59,
+      253.67000000000002
+    ],
+    [
+      253.8,
+      253.83
+    ],
+    [
+      253.89000000000001,
+      254.01000000000002
+    ],
+    [
+      254.1,
+      254.21
+    ],
+    [
+      254.36,
+      254.45000000000002
+    ],
+    [
+      254.46,
+      254.54
+    ],
+    [
+      254.63,
+      254.67000000000002
+    ],
+    [
+      254.99,
+      255.05
+    ],
+    [
+      255.06,
+      255.11
+    ],
+    [
+      255.48000000000002,
+      255.52
+    ],
+    [
+      255.65,
+      256.05
+    ],
+    [
+      256.27,
+      256.3
+    ],
+    [
+      256.64,
+      256.7
+    ],
+    [
+      256.95,
+      257.04
+    ],
+    [
+      257.23,
+      257.47
+    ],
+    [
+      257.65,
+      257.79
+    ],
+    [
+      258.1,
+      258.25
+    ],
+    [
+      258.31,
+      258.35
+    ],
+    [
+      258.48,
+      258.53000000000003
+    ],
+    [
+      258.55,
+      258.74
+    ],
+    [
+      259.12,
+      259.17
+    ],
+    [
+      259.38,
+      259.45
+    ],
+    [
+      259.62,
+      259.69
+    ],
+    [
+      259.78000000000003,
+      259.88
+    ],
+    [
+      259.98,
+      260.06
+    ],
+    [
+      260.15,
+      260.24
+    ],
+    [
+      260.7,
+      260.74
+    ],
+    [
+      260.85,
+      261.31
+    ],
+    [
+      261.57,
+      261.6
+    ],
+    [
+      261.91,
+      261.98
+    ],
+    [
+      262.17,
+      262.26
+    ],
+    [
+      262.31,
+      262.34000000000003
+    ],
+    [
+      262.56,
+      262.59000000000003
+    ],
+    [
+      262.82,
+      262.97
+    ],
+    [
+      263.19,
+      263.3
+    ],
+    [
+      263.43,
+      263.48
+    ],
+    [
+      263.69,
+      263.79
+    ],
+    [
+      263.82,
+      263.87
+    ],
+    [
+      263.94,
+      264.09000000000003
+    ],
+    [
+      264.4,
+      264.63
+    ],
+    [
+      264.83,
+      264.96
+    ],
+    [
+      265.29,
+      265.36
+    ],
+    [
+      265.5,
+      265.63
+    ],
+    [
+      265.67,
+      265.7
+    ],
+    [
+      265.81,
+      265.9
+    ],
+    [
+      265.97,
+      266.02
+    ],
+    [
+      266.33,
+      266.37
+    ],
+    [
+      266.49,
+      266.9
+    ],
+    [
+      267.23,
+      267.26
+    ],
+    [
+      267.41,
+      267.46
+    ],
+    [
+      267.48,
+      267.64
+    ],
+    [
+      267.77,
+      267.86
+    ],
+    [
+      267.89,
+      267.93
+    ],
+    [
+      268.16,
+      268.28000000000003
+    ],
+    [
+      268.41,
+      268.49
+    ],
+    [
+      268.69,
+      268.97
+    ],
+    [
+      269.27,
+      269.42
+    ],
+    [
+      269.74,
+      269.77
+    ],
+    [
+      269.94,
+      270.04
+    ],
+    [
+      270.35,
+      270.39
+    ],
+    [
+      270.4,
+      270.44
+    ],
+    [
+      270.62,
+      270.76
+    ],
+    [
+      271.07,
+      271.15
+    ],
+    [
+      271.64,
+      271.69
+    ],
+    [
+      271.79,
+      272.22
+    ],
+    [
+      272.75,
+      272.82
+    ],
+    [
+      273.15000000000003,
+      273.2
+    ],
+    [
+      273.51,
+      273.59000000000003
+    ],
+    [
+      273.97,
+      274.0
+    ],
+    [
+      274.37,
+      274.40000000000003
+    ],
+    [
+      274.63,
+      274.95
+    ],
+    [
+      275.05,
+      275.1
+    ],
+    [
+      275.51,
+      275.62
+    ],
+    [
+      275.7,
+      275.78000000000003
+    ],
+    [
+      275.86,
+      276.0
+    ],
+    [
+      276.2,
+      276.23
+    ],
+    [
+      276.33,
+      276.42
+    ],
+    [
+      276.44,
+      276.49
+    ],
+    [
+      276.65000000000003,
+      276.7
+    ],
+    [
+      276.86,
+      276.95
+    ],
+    [
+      277.06,
+      277.11
+    ],
+    [
+      277.17,
+      277.35
+    ],
+    [
+      277.52,
+      277.72
+    ],
+    [
+      277.81,
+      277.85
+    ],
+    [
+      278.45,
+      278.55
+    ],
+    [
+      278.75,
+      278.79
+    ],
+    [
+      278.91,
+      279.33
+    ],
+    [
+      279.46,
+      279.49
+    ],
+    [
+      279.58,
+      279.72
+    ],
+    [
+      280.0,
+      280.04
+    ],
+    [
+      280.43,
+      280.48
+    ],
+    [
+      280.64,
+      280.7
+    ],
+    [
+      280.71,
+      280.8
+    ],
+    [
+      280.86,
+      280.91
+    ],
+    [
+      281.2,
+      281.27
+    ],
+    [
+      281.64,
+      281.73
+    ],
+    [
+      281.90000000000003,
+      282.1
+    ],
+    [
+      282.12,
+      282.17
+    ],
+    [
+      282.48,
+      282.53000000000003
+    ],
+    [
+      282.62,
+      282.68
+    ],
+    [
+      282.81,
+      282.94
+    ],
+    [
+      283.04,
+      283.11
+    ],
+    [
+      283.23,
+      283.29
+    ],
+    [
+      283.3,
+      283.34000000000003
+    ],
+    [
+      283.43,
+      283.46
+    ],
+    [
+      283.77,
+      283.81
+    ],
+    [
+      283.91,
+      284.35
+    ],
+    [
+      284.58,
+      284.65000000000003
+    ],
+    [
+      284.83,
+      284.95
+    ],
+    [
+      285.03000000000003,
+      285.1
+    ],
+    [
+      285.43,
+      285.51
+    ],
+    [
+      285.52,
+      285.61
+    ],
+    [
+      285.76,
+      285.87
+    ],
+    [
+      285.90000000000003,
+      286.05
+    ],
+    [
+      286.13,
+      286.22
+    ],
+    [
+      286.41,
+      286.44
+    ],
+    [
+      286.54,
+      286.64
+    ],
+    [
+      287.0,
+      287.09000000000003
+    ],
+    [
+      287.27,
+      287.39
+    ],
+    [
+      287.58,
+      287.68
+    ],
+    [
+      287.92,
+      287.99
+    ],
+    [
+      288.04,
+      288.09000000000003
+    ],
+    [
+      288.38,
+      288.42
+    ],
+    [
+      288.53000000000003,
+      288.96
+    ],
+    [
+      289.1,
+      289.13
+    ],
+    [
+      289.35,
+      289.41
+    ],
+    [
+      289.61,
+      289.73
+    ],
+    [
+      289.77,
+      289.91
+    ],
+    [
+      289.99,
+      290.1
+    ],
+    [
+      290.39,
+      290.56
+    ],
+    [
+      290.79,
+      290.90000000000003
+    ],
+    [
+      291.04,
+      291.09000000000003
+    ],
+    [
+      291.19,
+      291.22
+    ],
+    [
+      291.41,
+      291.47
+    ],
+    [
+      291.93,
+      291.96
+    ],
+    [
+      291.97,
+      292.02
+    ],
+    [
+      292.42,
+      292.46
+    ],
+    [
+      292.57,
+      293.1
+    ],
+    [
+      293.28000000000003,
+      293.32
+    ],
+    [
+      293.36,
+      293.39
+    ],
+    [
+      293.86,
+      293.90000000000003
+    ],
+    [
+      294.1,
+      294.19
+    ],
+    [
+      294.28000000000003,
+      294.34000000000003
+    ],
+    [
+      294.42,
+      294.48
+    ],
+    [
+      294.55,
+      294.58
+    ],
+    [
+      294.84000000000003,
+      295.02
+    ],
+    [
+      295.75,
+      295.88
+    ],
+    [
+      296.07,
+      296.24
+    ],
+    [
+      296.57,
+      296.6
+    ],
+    [
+      296.62,
+      296.67
+    ],
+    [
+      296.97,
+      297.0
+    ],
+    [
+      297.14,
+      297.19
+    ],
+    [
+      297.53000000000003,
+      297.56
+    ],
+    [
+      297.78000000000003,
+      297.81
+    ],
+    [
+      297.96,
+      298.39
+    ],
+    [
+      298.71,
+      298.78000000000003
+    ],
+    [
+      298.97,
+      299.0
+    ],
+    [
+      299.1,
+      299.16
+    ],
+    [
+      299.2,
+      299.38
+    ],
+    [
+      299.58,
+      299.64
+    ],
+    [
+      299.84000000000003,
+      299.93
+    ],
+    [
+      300.03000000000003,
+      300.09000000000003
+    ],
+    [
+      300.38,
+      300.74
+    ],
+    [
+      300.75,
+      300.81
+    ],
+    [
+      301.57,
+      301.6
+    ],
+    [
+      301.87,
+      301.90000000000003
+    ],
+    [
+      302.02,
+      302.09000000000003
+    ],
+    [
+      302.17,
+      302.3
+    ],
+    [
+      302.37,
+      302.82
+    ],
+    [
+      302.99,
+      303.08
+    ],
+    [
+      303.15000000000003,
+      303.2
+    ],
+    [
+      304.11,
+      304.16
+    ],
+    [
+      304.29,
+      304.36
+    ],
+    [
+      304.39,
+      304.43
+    ],
+    [
+      304.72,
+      304.76
+    ],
+    [
+      305.33,
+      305.74
+    ],
+    [
+      305.82,
+      305.86
+    ],
+    [
+      306.09000000000003,
+      306.29
+    ],
+    [
+      306.40000000000003,
+      306.46
+    ],
+    [
+      306.96,
+      306.99
+    ],
+    [
+      307.06,
+      307.12
+    ],
+    [
+      307.24,
+      307.32
+    ],
+    [
+      307.40000000000003,
+      307.44
+    ],
+    [
+      308.12,
+      308.15000000000003
+    ],
+    [
+      308.27,
+      308.56
+    ]
+  ],
+  "boundaries": [
+    {
+      "section_id": "opening",
+      "after_cut": "opening_cut1",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 2.16,
+      "right_word_start": 2.8,
+      "point": 2.565,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "opening",
+      "after_cut": "opening_cut2",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 5.98,
+      "right_word_start": 6.58,
+      "point": 6.32,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "opening",
+      "after_cut": "opening_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 10.66,
+      "right_word_start": 11.26,
+      "point": 10.99,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "opening",
+      "after_cut": "opening_cut4",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 14.08,
+      "right_word_start": 14.8,
+      "point": 14.535,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "opening",
+      "after_cut": "opening_cut5",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 19.5,
+      "right_word_start": 20.02,
+      "point": 19.759999999999998,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "opening",
+      "after_cut": "opening_cut6",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 24.68,
+      "right_word_start": 25.1,
+      "point": 24.97,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "opening",
+      "after_cut": "opening_cut7",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 29.74,
+      "right_word_start": 30.24,
+      "point": 30.064999999999998,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "opening",
+      "after_cut": "opening_cut8",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 35.16,
+      "right_word_start": 35.7,
+      "point": 35.510000000000005,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task3",
+      "after_cut": "task3_cut1",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 42.92,
+      "right_word_start": 42.92,
+      "point": 42.92,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task3",
+      "after_cut": "task3_cut2",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 45.02,
+      "right_word_start": 45.02,
+      "point": 45.02,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task3",
+      "after_cut": "task3_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 48.12,
+      "right_word_start": 48.7,
+      "point": 48.5,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task3",
+      "after_cut": "task3_cut4",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 51.84,
+      "right_word_start": 51.84,
+      "point": 51.84,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task4",
+      "after_cut": "task4_cut1",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 61.96,
+      "right_word_start": 61.96,
+      "point": 61.96,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task4",
+      "after_cut": "task4_cut2",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 63.68,
+      "right_word_start": 63.68,
+      "point": 63.68,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task4",
+      "after_cut": "task4_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 68.16,
+      "right_word_start": 68.7,
+      "point": 68.495,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task4",
+      "after_cut": "task4_cut4",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 72.2,
+      "right_word_start": 72.2,
+      "point": 72.2,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task5",
+      "after_cut": "task5_cut1",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 80.96,
+      "right_word_start": 80.96,
+      "point": 80.96,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task5",
+      "after_cut": "task5_cut2",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 88.24,
+      "right_word_start": 88.24,
+      "point": 88.24,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task5",
+      "after_cut": "task5_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 90.94,
+      "right_word_start": 91.48,
+      "point": 91.28,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task5",
+      "after_cut": "task5_cut4",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 93.42,
+      "right_word_start": 93.42,
+      "point": 93.42,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task7",
+      "after_cut": "task7_cut1",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 101.12,
+      "right_word_start": 101.62,
+      "point": 101.435,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task7",
+      "after_cut": "task7_cut2",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 105.14,
+      "right_word_start": 105.84,
+      "point": 105.64500000000001,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task7",
+      "after_cut": "task7_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 109.58,
+      "right_word_start": 110.16000000000001,
+      "point": 109.97500000000001,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task7",
+      "after_cut": "task7_cut4",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 114.42,
+      "right_word_start": 114.82,
+      "point": 114.63,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task8",
+      "after_cut": "task8_cut1",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 123.62,
+      "right_word_start": 123.62,
+      "point": 123.62,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task8",
+      "after_cut": "task8_cut2",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 126.18,
+      "right_word_start": 126.18,
+      "point": 126.18,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task8",
+      "after_cut": "task8_cut3",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 130.4,
+      "right_word_start": 130.4,
+      "point": 130.4,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task8",
+      "after_cut": "task8_cut4",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 133.94,
+      "right_word_start": 133.94,
+      "point": 133.94,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task9",
+      "after_cut": "task9_cut1",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 143.14,
+      "right_word_start": 143.14,
+      "point": 143.14,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task9",
+      "after_cut": "task9_cut2",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 145.78,
+      "right_word_start": 145.78,
+      "point": 145.78,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task9",
+      "after_cut": "task9_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 150.1,
+      "right_word_start": 150.1,
+      "point": 150.1,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task9",
+      "after_cut": "task9_cut4",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 153.68,
+      "right_word_start": 153.68,
+      "point": 153.68,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task11",
+      "after_cut": "task11_cut1",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 164.58,
+      "right_word_start": 164.58,
+      "point": 164.58,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task11",
+      "after_cut": "task11_cut2",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 168.12,
+      "right_word_start": 168.56,
+      "point": 168.36,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task11",
+      "after_cut": "task11_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 173.4,
+      "right_word_start": 173.88,
+      "point": 173.695,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task11",
+      "after_cut": "task11_cut4",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 178.98,
+      "right_word_start": 179.48,
+      "point": 179.305,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task12",
+      "after_cut": "task12_cut1",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 192.38,
+      "right_word_start": 192.81,
+      "point": 192.5,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task12",
+      "after_cut": "task12_cut2",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 197.26,
+      "right_word_start": 197.78,
+      "point": 197.59,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task12",
+      "after_cut": "task12_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 202.34,
+      "right_word_start": 202.86,
+      "point": 202.65,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task12",
+      "after_cut": "task12_cut4",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 207.3,
+      "right_word_start": 207.8,
+      "point": 207.59500000000003,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task13",
+      "after_cut": "task13_cut1",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 216.3,
+      "right_word_start": 216.72,
+      "point": 216.515,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task13",
+      "after_cut": "task13_cut2",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 220.88,
+      "right_word_start": 220.88,
+      "point": 220.88,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task13",
+      "after_cut": "task13_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 225.96,
+      "right_word_start": 226.42,
+      "point": 226.235,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task13",
+      "after_cut": "task13_cut4",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 230.54,
+      "right_word_start": 231.08,
+      "point": 230.865,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task14",
+      "after_cut": "task14_cut1",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 237.14,
+      "right_word_start": 237.52,
+      "point": 237.34500000000003,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task14",
+      "after_cut": "task14_cut2",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 239.52,
+      "right_word_start": 240.12,
+      "point": 239.9,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task14",
+      "after_cut": "task14_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 242.52,
+      "right_word_start": 242.52,
+      "point": 242.52,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task14",
+      "after_cut": "task14_cut4",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 245.2,
+      "right_word_start": 245.2,
+      "point": 245.2,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task17",
+      "after_cut": "task17_cut1",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 250.38,
+      "right_word_start": 250.82,
+      "point": 250.655,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task17",
+      "after_cut": "task17_cut2",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 255.5,
+      "right_word_start": 256.04,
+      "point": 255.84500000000003,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task17",
+      "after_cut": "task17_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 260.72,
+      "right_word_start": 261.28,
+      "point": 261.065,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task17",
+      "after_cut": "task17_cut4",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 266.36,
+      "right_word_start": 266.86,
+      "point": 266.675,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task16",
+      "after_cut": "task16_cut1",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 274.58,
+      "right_word_start": 274.58,
+      "point": 274.58,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "task16",
+      "after_cut": "task16_cut2",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 278.86,
+      "right_word_start": 279.3,
+      "point": 279.105,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task16",
+      "after_cut": "task16_cut3",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 283.82,
+      "right_word_start": 284.28,
+      "point": 284.095,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "task16",
+      "after_cut": "task16_cut4",
+      "basis": "waveform silence inside verified word gap",
+      "left_word_end": 288.4,
+      "right_word_start": 288.94,
+      "point": 288.735,
+      "silence_preferred": true
+    },
+    {
+      "section_id": "ending",
+      "after_cut": "ending_cut1",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 294.68,
+      "right_word_start": 294.68,
+      "point": 294.68,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "ending",
+      "after_cut": "ending_cut2",
+      "basis": "verified inter-word gap; no qualifying waveform silence",
+      "left_word_end": 297.88,
+      "right_word_start": 297.88,
+      "point": 297.88,
+      "silence_preferred": false
+    },
+    {
+      "section_id": "ending",
+      "after_cut": "ending_cut3",
+      "basis": "isolated ASR sentence review + independent ffmpeg silence + RMS verification; leading-pause ASR interval corrected",
+      "left_word_end": 302.425333,
+      "right_word_start": 302.821021,
+      "point": 302.62266650000004,
+      "silence_preferred": true,
+      "source_review": "/Users/jk/projects/media-maker/showcase/narration/transcription/reviews/ending_cut3_to_cut5.json",
+      "source_review_sha256": "994e14e65cabbf1c0d0070ad3dea50ee977a359c60a27e05daddae671fe93853",
+      "isolated_asr_previous_word": {
+        "word": " 환경까지",
+        "start": 4.06,
+        "end": 4.74,
+        "probability": 0.8773879210154215
+      },
+      "isolated_asr_next_word": {
+        "word": " 12개의",
+        "start": 4.74,
+        "end": 5.88,
+        "probability": 0.8484976689020792
+      },
+      "source_review_offset": 297.6,
+      "original_asr_previous_word": {
+        "word": " 환경까지",
+        "start": 301.66,
+        "end": 302.32,
+        "probability": 0.8790160616238912
+      },
+      "original_asr_next_word": {
+        "word": " 12개의",
+        "start": 302.32,
+        "end": 303.48,
+        "probability": 0.8416847387949625
+      },
+      "corrected_previous_word_end": 302.425333,
+      "corrected_next_word_start": 302.821021,
+      "rms_dbfs_80ms": -65.24085603011972,
+      "explicit_timestamp_correction": true
+    }
+  ],
+  "script_blocks_covered": 14,
+  "script_cuts_covered": 73,
+  "all_source_cut_pcm_matches": true,
+  "required_output_tempo": 1.2446782514254684,
+  "final_timeline_seconds": 298.73333333333335,
+  "short_visual_cuts": [
+    {
+      "cut_id": "task4_cut2",
+      "duration": 1.3999999999999986,
+      "caption": "하나의 플랫폼에서 확인하고,"
+    }
+  ],
+  "minimum_visual_cut_seconds": 1.2,
+  "low_coverage_cuts": [
+    {
+      "id": "task7_cut3",
+      "section_id": "task7",
+      "expected": "이제 LLM에 질문해 관련 지식과 경험을 연결합니다.",
+      "spoken_text": "이제 엘엘엠에 질문해 관련 지식과 경험을 연결합니다.",
+      "normalized": "이제엘엘엠에질문해관련지식과경험을연결합니다",
+      "asr_text": "이제 LLM의 질문에 관련 지식과 경험을 연결합니다.",
+      "character_coverage": 0.9090909090909091,
+      "first_word_index": 196,
+      "last_word_index": 202,
+      "word_start": 105.84,
+      "word_end": 109.58,
+      "review_required": true
+    },
+    {
+      "id": "task11_cut3",
+      "section_id": "task11",
+      "expected": "Overlay, Residual, MA Bias를 Vector·Scatter Map으로 확인합니다.",
+      "spoken_text": "오버레이, 레지듀얼, 엠에이 바이어스를 벡터·스캐터 맵으로 확인합니다.",
+      "normalized": "오버레이레지듀얼엠에이바이어스를벡터스캐터맵으로확인합니다",
+      "asr_text": "오버레이, 레지 듀얼, MA 바이오스를 백터, 스케터 맵으로 확인합니다.",
+      "character_coverage": 0.896551724137931,
+      "first_word_index": 306,
+      "last_word_index": 314,
+      "word_start": 168.56,
+      "word_end": 173.4,
+      "review_required": true
+    },
+    {
+      "id": "task16_cut1",
+      "section_id": "task16",
+      "expected": "엔지니어가 육안으로 검증하던 업무를,",
+      "spoken_text": "엔지니어가 육안으로 검증하던 업무를,",
+      "normalized": "엔지니어가육안으로검증하던업무를",
+      "asr_text": "엔지니어가 유관으로 검증하던 업무를",
+      "character_coverage": 0.875,
+      "first_word_index": 483,
+      "last_word_index": 486,
+      "word_start": 271.66,
+      "word_end": 274.58,
+      "review_required": true
+    },
+    {
+      "id": "task16_cut5",
+      "section_id": "task16",
+      "expected": "대시보드와 챗봇으로 분석 결과를 업무에 활용합니다.",
+      "spoken_text": "대시보드와 챗봇으로 분석 결과를 업무에 활용합니다.",
+      "normalized": "대시보드와챗봇으로분석결과를업무에활용합니다",
+      "asr_text": "데시보드와 책보스로 분석 결과를 업무에 활용합니다.",
+      "character_coverage": 0.8181818181818182,
+      "first_word_index": 508,
+      "last_word_index": 513,
+      "word_start": 288.94,
+      "word_end": 292.44,
+      "review_required": true
+    }
+  ],
+  "notes": [
+    "Character coverage is transcript evidence, not a substitute for listening to ASR variants.",
+    "Every section and every ending line is anchored to timestamped words. No word or sentence was deleted to meet duration.",
+    "Tempo must be pitch preserving in audio mix; source master and exact section cuts remain unmodified."
+  ]
+}

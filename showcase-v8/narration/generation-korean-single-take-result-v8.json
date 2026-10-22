@@ -1,0 +1,36 @@
+{
+  "flow_id": "2pEfmbXL5pBiI764HTIm",
+  "flow_created": false,
+  "url": "https://elevenlabs.io/app/flows/2pEfmbXL5pBiI764HTIm?vs=viewstate_01m4znfbyhe7xrvtq7exs8skzq&mode=switchWorkspace&oobCode=788635b1d9844b43a662b558fbd3ff92",
+  "flow_url": "https://elevenlabs.io/app/flows/2pEfmbXL5pBiI764HTIm?mode=switchWorkspace&oobCode=788635b1d9844b43a662b558fbd3ff92",
+  "results": [
+    {
+      "success": true,
+      "node_id": "C8KEJQmAMTVVUa6lSjgv",
+      "session_id": "TvVp4NuwQIL7gDSACVzd",
+      "credit_costs": {
+        "lBxuHRMJppd55UUuM1Fu": 2732
+      }
+    }
+  ],
+  "summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "C8KEJQmAMTVVUa6lSjgv": 1
+    }
+  },
+  "session_ids": [
+    "TvVp4NuwQIL7gDSACVzd"
+  ],
+  "pending": [
+    {
+      "generation_id": "lBxuHRMJppd55UUuM1Fu",
+      "kind": "audio"
+    }
+  ],
+  "poll_after_seconds": 3,
+  "notes": "Not finished yet. The generation view tracks progress and polls by itself, so there is nothing to do here — do not call creative_get_flow_run_status.",
+  "view_state_id": "viewstate_01m4znfbyhe7xrvtq7exs8skzq"
+}

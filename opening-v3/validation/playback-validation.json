@@ -1,0 +1,534 @@
+{
+  "status": "PASS",
+  "file": "/Users/jk/projects/media-maker/out/opening-v3/rd-ai-fast-track-opening-v3.mp4",
+  "sha256": "f81deadaf806c4e32bc2294fb6cf0e6e4206d8c6ab0e524c0cb1c11a1b369441",
+  "source_url": "file:///Users/jk/projects/media-maker/out/opening-v3/rd-ai-fast-track-opening-v3.mp4",
+  "browser_executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "expected": {
+    "width": 1920,
+    "height": 1080,
+    "duration": 46
+  },
+  "playback_timeout_ms": 55000,
+  "viewport": {
+    "width": 1920,
+    "height": 1080,
+    "deviceScaleFactor": 1
+  },
+  "method": "Uninterrupted real-time HTMLVideoElement playback with screenshots during playback; no seeking after play().",
+  "audio_scope": "HTML video unmuted at volume 1; this automated headless check makes no subjective audibility claim.",
+  "screenshot_samples": [
+    {
+      "cut": 1,
+      "target_seconds": 1.5,
+      "file": "playback/cut01_1.50s.png",
+      "screenshot_width": 1920,
+      "screenshot_height": 1080,
+      "before": {
+        "currentTime": 1.505382,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 50,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 50,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 1.6769000000953673
+      },
+      "after": {
+        "currentTime": 1.808785,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 59,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 59,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 1.980300000190735
+      }
+    },
+    {
+      "cut": 2,
+      "target_seconds": 4.7,
+      "file": "playback/cut02_4.70s.png",
+      "screenshot_width": 1920,
+      "screenshot_height": 1080,
+      "before": {
+        "currentTime": 4.712476,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 146,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 146,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 4.884
+      },
+      "after": {
+        "currentTime": 4.93543,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 153,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 153,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 5.106900000095368
+      }
+    },
+    {
+      "cut": 3,
+      "target_seconds": 9.5,
+      "file": "playback/cut03_9.50s.png",
+      "screenshot_width": 1920,
+      "screenshot_height": 1080,
+      "before": {
+        "currentTime": 9.538422,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 291,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 291,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 9.71
+      },
+      "after": {
+        "currentTime": 9.857936,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 301,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 301,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 10.0295
+      }
+    },
+    {
+      "cut": 4,
+      "target_seconds": 14.5,
+      "file": "playback/cut04_14.50s.png",
+      "screenshot_width": 1920,
+      "screenshot_height": 1080,
+      "before": {
+        "currentTime": 14.511455,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 440,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 440,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 14.682900000095367
+      },
+      "after": {
+        "currentTime": 14.755449,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 448,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 448,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 14.927
+      }
+    },
+    {
+      "cut": 5,
+      "target_seconds": 19.5,
+      "file": "playback/cut05_19.50s.png",
+      "screenshot_width": 1920,
+      "screenshot_height": 1080,
+      "before": {
+        "currentTime": 19.508271,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 590,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 590,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 19.67990000009537
+      },
+      "after": {
+        "currentTime": 19.740138,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 597,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 597,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 19.911700000286103
+      }
+    },
+    {
+      "cut": 6,
+      "target_seconds": 25,
+      "file": "playback/cut06_25.00s.png",
+      "screenshot_width": 1920,
+      "screenshot_height": 1080,
+      "before": {
+        "currentTime": 25.042874,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 756,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 756,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 25.2145
+      },
+      "after": {
+        "currentTime": 25.294912,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 764,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 764,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 25.4665
+      }
+    },
+    {
+      "cut": 7,
+      "target_seconds": 31.5,
+      "file": "playback/cut07_31.50s.png",
+      "screenshot_width": 1920,
+      "screenshot_height": 1080,
+      "before": {
+        "currentTime": 31.549145,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 951,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 951,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 31.720800000190735
+      },
+      "after": {
+        "currentTime": 31.818316,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 960,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 960,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 31.989900000095368
+      }
+    },
+    {
+      "cut": 8,
+      "target_seconds": 38.5,
+      "file": "playback/cut08_38.50s.png",
+      "screenshot_width": 1920,
+      "screenshot_height": 1080,
+      "before": {
+        "currentTime": 38.522471,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 1161,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 1161,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 38.69409999990463
+      },
+      "after": {
+        "currentTime": 38.803346,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 1169,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 1169,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 38.975
+      }
+    },
+    {
+      "cut": 9,
+      "target_seconds": 44,
+      "file": "playback/cut09_44.00s.png",
+      "screenshot_width": 1920,
+      "screenshot_height": 1080,
+      "before": {
+        "currentTime": 44.006748,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 1325,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 1325,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 44.1785
+      },
+      "after": {
+        "currentTime": 44.264088,
+        "duration": 46,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "networkState": 1,
+        "muted": false,
+        "volume": 1,
+        "playbackRate": 1,
+        "decoded_frames": 1333,
+        "dropped_frames": 0,
+        "playback_quality": {
+          "totalVideoFrames": 1333,
+          "droppedVideoFrames": 0,
+          "corruptedVideoFrames": 0
+        },
+        "error": null,
+        "wall_seconds": 44.43580000019073
+      }
+    }
+  ],
+  "page_errors": [],
+  "media_errors": [],
+  "browser_version": "Chrome/155.0.8059.40",
+  "metadata": {
+    "width": 1920,
+    "height": 1080,
+    "duration": 46,
+    "readyState": 1,
+    "muted": false,
+    "volume": 1,
+    "playbackRate": 1
+  },
+  "final": {
+    "currentTime": 46,
+    "duration": 46,
+    "paused": true,
+    "ended": true,
+    "readyState": 4,
+    "networkState": 1,
+    "muted": false,
+    "volume": 1,
+    "playbackRate": 1,
+    "decoded_frames": 1380,
+    "dropped_frames": 0,
+    "playback_quality": {
+      "totalVideoFrames": 1380,
+      "droppedVideoFrames": 0,
+      "corruptedVideoFrames": 0
+    },
+    "error": null,
+    "wall_seconds": 46.238800000190736
+  },
+  "events": [
+    {
+      "type": "loadedmetadata",
+      "currentTime": 0,
+      "wall_seconds": null,
+      "readyState": 1,
+      "error": null
+    },
+    {
+      "type": "play",
+      "currentTime": 0,
+      "wall_seconds": 0.00009999990463256836,
+      "readyState": 1,
+      "error": null
+    },
+    {
+      "type": "waiting",
+      "currentTime": 0,
+      "wall_seconds": 0.00009999990463256836,
+      "readyState": 1,
+      "error": null
+    },
+    {
+      "type": "canplay",
+      "currentTime": 0,
+      "wall_seconds": 0.1185,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "type": "playing",
+      "currentTime": 0,
+      "wall_seconds": 0.1185,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "type": "pause",
+      "currentTime": 46,
+      "wall_seconds": 46.18859999990463,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "type": "ended",
+      "currentTime": 46,
+      "wall_seconds": 46.18880000019073,
+      "readyState": 4,
+      "error": null
+    }
+  ],
+  "loadedmetadata": true,
+  "play_promise_resolved": true,
+  "ended_event": true,
+  "playback_wall_seconds": 46.12,
+  "seeks_during_playback": 0,
+  "pauses_during_playback": 0
+}

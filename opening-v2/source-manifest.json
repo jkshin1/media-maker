@@ -1,0 +1,367 @@
+{
+  "source_root": "opening-v2",
+  "revision": "Korean R&D pronunciation and original storyboard-matched backgrounds",
+  "final_video_sha256": "16d12fb2795b1c57fa0f189dbe1fd59ceef1dcc69998c417b905555e638c952f",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7088,
+      "sha256": "42165e68739d3ae8e459ff8134c650dd514a5b737065a9c8aed6ae729f7e8190"
+    },
+    {
+      "path": "assets/cut01.png",
+      "bytes": 2468958,
+      "sha256": "c701647db797c7fffa65e208694d6ee3ec7541a4022088d7e2299e029ea050e1"
+    },
+    {
+      "path": "assets/cut02.png",
+      "bytes": 1767514,
+      "sha256": "b96a99b65fe48f00451201282e76a35a35811b2a860d235a1a4f5cc26cb93ea5"
+    },
+    {
+      "path": "assets/cut03.png",
+      "bytes": 1903783,
+      "sha256": "7b2498c648f61d68ee0a539891130ad122f65b394aa45bae7edf2f46450286d8"
+    },
+    {
+      "path": "assets/cut04.png",
+      "bytes": 2141839,
+      "sha256": "35b001a4d5d5ed1dc966eed4dc586ebcce8fc8634b6e4769f4d67a436ee8312a"
+    },
+    {
+      "path": "assets/cut05.png",
+      "bytes": 1891387,
+      "sha256": "b2c2b5962a3e544d86d2955093915a7f106b00abd6b1c87c55b19963b1e40bf1"
+    },
+    {
+      "path": "assets/cut06.png",
+      "bytes": 2068598,
+      "sha256": "e9067f744f46f6acdbf9ad1bc1ad66b12e7455e71151890a41cc22294f7d227c"
+    },
+    {
+      "path": "assets/cut07.png",
+      "bytes": 2154256,
+      "sha256": "ba3fda421f9fe42667e56d6e45b766677d30fb49596d948f99f59b68322c8bf9"
+    },
+    {
+      "path": "assets/cut08.png",
+      "bytes": 1755538,
+      "sha256": "df54ced218b7ee151bd4130cb201ad751cc7d0a52fe9d1c9a94880d5364da01b"
+    },
+    {
+      "path": "assets/cut09.png",
+      "bytes": 1865363,
+      "sha256": "b2288478ad3abb0490c9ce4728cad8efe5187697ec8d16f2056e736a14fbf85b"
+    },
+    {
+      "path": "assets/prompts-revision-a.json",
+      "bytes": 12230,
+      "sha256": "6cce474ca0dfdb3f779a13b3a7733a13c1b0804549ae3e8d3d7aabd7db79b425"
+    },
+    {
+      "path": "assets/prompts-revision-b.json",
+      "bytes": 11949,
+      "sha256": "19f81d79b7616f5ce6eb4ca4579da8a40f861ea62eec1c482d9da2dae3fcab10"
+    },
+    {
+      "path": "audio.py",
+      "bytes": 8311,
+      "sha256": "d20719cc8b55540c4d657c9cf9b5110f63e0380ed508cb9ace28166d3b34024d"
+    },
+    {
+      "path": "build.mjs",
+      "bytes": 1100,
+      "sha256": "018725aba8baaa7b09035d11fa7149020e906afe9283c296b584aa8b5451798c"
+    },
+    {
+      "path": "fonts/NotoSansCJK-LICENSE.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "fonts/NotoSansCJKkr-Bold.otf",
+      "bytes": 16997996,
+      "sha256": "26d0c6748500a0444844280b308f5b62c7ae92ac6c6ac88148e502dd211eb52a"
+    },
+    {
+      "path": "fonts/NotoSansCJKkr-Regular.otf",
+      "bytes": 16433112,
+      "sha256": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a"
+    },
+    {
+      "path": "fonts/SourceSerif-LICENSE.md",
+      "bytes": 4491,
+      "sha256": "c21d7293d87b6d7ab1d0229a2f55b77f33a7613a6a4e66f6693d68d7d8d09464"
+    },
+    {
+      "path": "fonts/SourceSerif4-Regular.woff2",
+      "bytes": 107408,
+      "sha256": "42aa010dbb82d90764a28f6cc7d809a9395999b7390eb3b212028c6975e97402"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6910,
+      "sha256": "ed6b70906d8fdbc3780cf0f471ee636706e38bbc05fbba5ef87e59c96bc024e0"
+    },
+    {
+      "path": "inputs/common-rules.md",
+      "bytes": 9408,
+      "sha256": "245463d4516b47e200e0ed1e9430603dbab06a90ebdef4336787fbbf4ce3cc16"
+    },
+    {
+      "path": "inputs/opening-spec.md",
+      "bytes": 9209,
+      "sha256": "f3c9eb1233e0825866d7404ad100403e061642b9edd74af85f91074b18295400"
+    },
+    {
+      "path": "inputs/revision-reference.png",
+      "bytes": 1621399,
+      "sha256": "8fbb3322964a45e45baa70fbeb80a665e27407c0c11647783a3af884c56f4615"
+    },
+    {
+      "path": "inputs/storyboard-reference.jpg",
+      "bytes": 194779,
+      "sha256": "99be66c4d3ebb2c6c6dbdff1199073ed4bef3ff8f96c40296d489aaa1db88147"
+    },
+    {
+      "path": "narration/README.md",
+      "bytes": 5805,
+      "sha256": "7cc4a3e2ac4df573adda1e19b0a71bf81d1bef7d9495ebc3d0f52fdc65b013f4"
+    },
+    {
+      "path": "narration/align.py",
+      "bytes": 11682,
+      "sha256": "beafac4a02a22461d18945e6e28f7de5bed4c47131e0266aee8c6511ab76fc00"
+    },
+    {
+      "path": "narration/bgm/license.html",
+      "bytes": 2268,
+      "sha256": "723e4bd4673eeb125480d8d44c11eb591a0391332838485783c9e9928d487177"
+    },
+    {
+      "path": "narration/bgm/music.mp3",
+      "bytes": 8875825,
+      "sha256": "a096933b71ff9264dd3b20dcad5c01ef237658e30954f5c5cc8741266098f639"
+    },
+    {
+      "path": "narration/bgm/provenance.json",
+      "bytes": 3333,
+      "sha256": "8ea2e049c4e345878abe61e8cebc80e8ed90b5e6c5daf5df2de9e451db32defa"
+    },
+    {
+      "path": "narration/ko.json",
+      "bytes": 3862,
+      "sha256": "97567d5e86b61c14a2c9155f48a91d827231cac5ffc318d67771dbd8ae3288b6"
+    },
+    {
+      "path": "narration/manifest.json",
+      "bytes": 21833,
+      "sha256": "a4f5b9f92d9171427a270b629458aaa09114869b1a7867a94ca1e9d12859fd49"
+    },
+    {
+      "path": "narration/mix.wav",
+      "bytes": 8832078,
+      "sha256": "bd78d55ead696354b6821ccecfce30f8af429cf9f34905ea0dcae552f8e251ce"
+    },
+    {
+      "path": "narration/receipt.json",
+      "bytes": 3504,
+      "sha256": "b71a35800b52cd134714f4e605a60e38b29c533ea3e1097884fb61566ea78576"
+    },
+    {
+      "path": "narration/source.mp3",
+      "bytes": 683814,
+      "sha256": "3ee790790e8973e4087acaa597e531c684f7312993a9e07ad1fbda4c44c3442e"
+    },
+    {
+      "path": "narration/take.wav",
+      "bytes": 3993678,
+      "sha256": "b8fb031c2c9b26c98d555b1a9538f90a9e06206d581ad15179bb5971067e0f46"
+    },
+    {
+      "path": "narration/transcription/boundary7-source.json",
+      "bytes": 91,
+      "sha256": "5df5745563f5daa04fd2c18f4a5a8a1d21cdc39ccaa545e3825846c3aea61b21"
+    },
+    {
+      "path": "narration/transcription/boundary7.json",
+      "bytes": 1662,
+      "sha256": "cdbc3bf4eb37e25994743540c9718b55b0c8e3ffd640b2638ac7e620cc5e4a5e"
+    },
+    {
+      "path": "narration/transcription/boundary7.wav",
+      "bytes": 513612,
+      "sha256": "0e155857878b51e771a40d6b881fdeb779962f8cdb05150a6e2ea3a1ce1b499b"
+    },
+    {
+      "path": "narration/transcription/korean-lexicon/take.json",
+      "bytes": 12251,
+      "sha256": "6c016db2af8d1e68bead50d1894ba283b2a99527cf853a22655fadf08f1a6b94"
+    },
+    {
+      "path": "narration/transcription/korean-orthography/take.json",
+      "bytes": 12512,
+      "sha256": "e6dd113d4a9389f8ea2d7ce5b672c0474500fde5c209267cb77b5c8b52312a86"
+    },
+    {
+      "path": "narration/transcription/pronunciation/cut1.json",
+      "bytes": 378,
+      "sha256": "e4c6de847592d1b7be686a254c0784e6ac57678f62858ab9b797b662bc1cb97f"
+    },
+    {
+      "path": "narration/transcription/pronunciation/cut1.wav",
+      "bytes": 62444,
+      "sha256": "b0aabd054a6ba150923510e54829459647aa146210383b4ae16bce8235d924f8"
+    },
+    {
+      "path": "narration/transcription/pronunciation/cut2.json",
+      "bytes": 719,
+      "sha256": "2000fed96d5953f983ccb42fdadb5542fa4257e125e21e8897b14d1dc361a6ca"
+    },
+    {
+      "path": "narration/transcription/pronunciation/cut2.wav",
+      "bytes": 82604,
+      "sha256": "5428b6c5ce9b79e1c3a454f4f34933ff9530f02b3b03bed6302ccc2d6fa9747d"
+    },
+    {
+      "path": "narration/transcription/pronunciation/cut5.json",
+      "bytes": 580,
+      "sha256": "1ccf435faf984071f966a5050586db439c5d15e5adbca9adcc4fda0e9115697f"
+    },
+    {
+      "path": "narration/transcription/pronunciation/cut5.wav",
+      "bytes": 107564,
+      "sha256": "69032ea78f5206f5f04a10edf144a77052e2602986ada6865794f9d1e4451ce6"
+    },
+    {
+      "path": "narration/transcription/silencedetect.log",
+      "bytes": 3461,
+      "sha256": "0c525a269d4835ba8ba2c58486a44085a28879503c4a9114562d94fe1f1c08b9"
+    },
+    {
+      "path": "narration/transcription/take.json",
+      "bytes": 12491,
+      "sha256": "5d4288d22a44e1827b2cf94be6392425f1623e649682f9aeb5b334af7630567d"
+    },
+    {
+      "path": "narration/transcription/v1-reference-orthography/take.json",
+      "bytes": 13131,
+      "sha256": "e32bfc99d7a18e78d52846619d8f23a489a8eed5197a21a201eb3dc5d77bbeba"
+    },
+    {
+      "path": "narration/vo1.wav",
+      "bytes": 228132,
+      "sha256": "a38d331e7077afe5acb4a798e4ef963289871c6a2f2b001d21252f3ebe734c7b"
+    },
+    {
+      "path": "narration/vo2.wav",
+      "bytes": 353104,
+      "sha256": "b620e10619a9306db587894a3269c6f701667b2f71a51cb647b48958997f81d7"
+    },
+    {
+      "path": "narration/vo3.wav",
+      "bytes": 459612,
+      "sha256": "4cddf69cbfa6a1960f941f1ffafd57ccafad7d6c1e5a684484d31a91ecbe7f0e"
+    },
+    {
+      "path": "narration/vo4.wav",
+      "bytes": 349606,
+      "sha256": "d85b6c22cadea8682d30a1fdcd2e4cea22ef47c332a6ae4ee237882d746fa5bf"
+    },
+    {
+      "path": "narration/vo5.wav",
+      "bytes": 557096,
+      "sha256": "51676614b23ebcfdcf69c4c816280812a8a7001e403cb9f216851d7e2ceedadf"
+    },
+    {
+      "path": "narration/vo6.wav",
+      "bytes": 551352,
+      "sha256": "a09fcecf13c17ccfa4c3fe64ed6cc5996a5794ea6af7a6755752100839e66603"
+    },
+    {
+      "path": "narration/vo7.wav",
+      "bytes": 513612,
+      "sha256": "0e155857878b51e771a40d6b881fdeb779962f8cdb05150a6e2ea3a1ce1b499b"
+    },
+    {
+      "path": "narration/vo8.wav",
+      "bytes": 554188,
+      "sha256": "f24138fb34a53f61f273f7460c9e044ae78e10d4daf1a5fe9228965141da4dff"
+    },
+    {
+      "path": "narration/vo9.wav",
+      "bytes": 427294,
+      "sha256": "4b237095dcb8e5c174361d75f86a1e515b9e8ddfe43894b2daf7ba977d39c6ad"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 11048,
+      "sha256": "8bcb10a185675c6c9338ab23020264cdb3e36436ba479db30854fa01422cd1f8"
+    },
+    {
+      "path": "package.json",
+      "bytes": 399,
+      "sha256": "dcf41cae3b07b603457a268846555835e5bfd4d980ae3158caf878f4c56cfea8"
+    },
+    {
+      "path": "playback-check.mjs",
+      "bytes": 10251,
+      "sha256": "76c4f967680dd9b7d4d774124e8820b74b0a95abf96661db2033657774f20134"
+    },
+    {
+      "path": "render.mjs",
+      "bytes": 7769,
+      "sha256": "197b4aa05b99c4d4ff783198577432cf39aabf6ee34d52721f0f99bdf386a858"
+    },
+    {
+      "path": "scenes.js",
+      "bytes": 7250,
+      "sha256": "f281714b3004c6060ca0084c27689a517f21eff5e8a8d1bea0c82a338e574ef8"
+    },
+    {
+      "path": "spec-checklist.json",
+      "bytes": 6231,
+      "sha256": "668a7730084ba7bf5daa444f5203f86d9b125f88d601ce2f696e85e5b34de24c"
+    },
+    {
+      "path": "validation/audio-validation.json",
+      "bytes": 7773,
+      "sha256": "4fcab4954d9fedaff295c8f1d0851ebdad06f5e27edd51098eef7b45271b1862"
+    },
+    {
+      "path": "validation/contact-sheet.jpg",
+      "bytes": 183362,
+      "sha256": "c7cc1ae2e7c715c7f769d4d494febfad2a820155f13e0ff48d148d0d5f4f28dd"
+    },
+    {
+      "path": "validation/final-validation.json",
+      "bytes": 672,
+      "sha256": "511b1ccd91aac3dfa5efea3f69ea3c9824fc6b96bd04110bf508ae6e53334851"
+    },
+    {
+      "path": "validation/layout-validation.json",
+      "bytes": 25697,
+      "sha256": "3cde4129a96ad173bec2767e8dd33cb778df3696e3db8d35b3d458f2ad0ebfee"
+    },
+    {
+      "path": "validation/playback-validation.json",
+      "bytes": 13757,
+      "sha256": "85d472c8007f18b1aabc6d619ae33bff76b66ce44a9563af8c8e7f829a3f6375"
+    },
+    {
+      "path": "validation/render-validation.json",
+      "bytes": 2905,
+      "sha256": "f75c605bb28a04f6a5208c0ffaf513189382e42afd36ba5bb858ccd87104ad8e"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 2379,
+      "sha256": "2013d287b630e5d2df7ba3639abbee887dd02466bcfdf6e80bb95995d29189d6"
+    },
+    {
+      "path": "visual-review.json",
+      "bytes": 6471,
+      "sha256": "2c739c836ec313448c09e014bf4894786485b9d82df44424e84508d8fddb4dec"
+    }
+  ]
+}

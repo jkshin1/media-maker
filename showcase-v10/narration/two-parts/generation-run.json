@@ -1,0 +1,50 @@
+{
+  "flow_id": "pT0QbjTslTFe8z8e9mnn",
+  "flow_created": false,
+  "url": "https://elevenlabs.io/app/flows/pT0QbjTslTFe8z8e9mnn?vs=viewstate_01m59yj657f3e8yevz8p8rt84d&mode=switchWorkspace&oobCode=788635b1d9844b43a662b558fbd3ff92",
+  "flow_url": "https://elevenlabs.io/app/flows/pT0QbjTslTFe8z8e9mnn?mode=switchWorkspace&oobCode=788635b1d9844b43a662b558fbd3ff92",
+  "results": [
+    {
+      "success": true,
+      "node_id": "1HvrxaWusuDKXznEPHfz",
+      "session_id": "rflEu9sKFSkx0sZ9iyZq",
+      "credit_costs": {
+        "p1W5fsj9iqYMCGYjRliS": 1286
+      }
+    },
+    {
+      "success": true,
+      "node_id": "a2y4LLFSkGETL5OcTZrT",
+      "session_id": "G76qFzWkJElTZU4CIGwg",
+      "credit_costs": {
+        "RyahRkInv8jJy5zUazPn": 1355
+      }
+    }
+  ],
+  "summary": {
+    "nodes_run": 2,
+    "generations_started": 2,
+    "failed": 0,
+    "generations_by_node": {
+      "1HvrxaWusuDKXznEPHfz": 1,
+      "a2y4LLFSkGETL5OcTZrT": 1
+    }
+  },
+  "session_ids": [
+    "rflEu9sKFSkx0sZ9iyZq",
+    "G76qFzWkJElTZU4CIGwg"
+  ],
+  "pending": [
+    {
+      "generation_id": "p1W5fsj9iqYMCGYjRliS",
+      "kind": "audio"
+    },
+    {
+      "generation_id": "RyahRkInv8jJy5zUazPn",
+      "kind": "audio"
+    }
+  ],
+  "poll_after_seconds": 3,
+  "notes": "Not finished yet. The generation view tracks progress and polls by itself, so there is nothing to do here — do not call creative_get_flow_run_status.",
+  "view_state_id": "viewstate_01m59yj657f3e8yevz8p8rt84d"
+}

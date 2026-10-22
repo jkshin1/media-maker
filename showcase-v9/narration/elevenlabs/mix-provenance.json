@@ -1,0 +1,492 @@
+{
+  "status": "PASS",
+  "revision": 9,
+  "checks": {
+    "fourteen_exact_original_pcm_slices": true,
+    "raw_clips_reconstruct_original_source": true,
+    "retained_original_pcm_exact_in_working": true,
+    "spoken_samples_removed_zero": true,
+    "whole_working_master_single_continuous_placement": true,
+    "all_sixty_eight_audio_segments_contiguous": true,
+    "tempo_unchanged": true,
+    "authorized_original_ending_assembly_exact": true,
+    "exact_frame_locked_sample_count": true,
+    "duration_within_hard_maximum": true,
+    "no_100ms_music_zero_outside_end_fades": true,
+    "duck_floor_above_minus_8_1_db": true,
+    "no_mix_clipping": true,
+    "speech_six_db_above_music_95_percent": true,
+    "no_additional_mix_limiter": true
+  },
+  "duration": 314.5,
+  "sample_rate": 48000,
+  "channels": 2,
+  "samples": 15096000,
+  "audio_file": "audio.wav",
+  "audio_sha256": "4d386c174a965eea6bb86316a9d7c0d22a0e1da46d5ea17063fca9c2315c2ec0",
+  "voice": "Kyung - Warm, Calm and Clear",
+  "model_id": "eleven_v4",
+  "generation_mode": "single_take_with_authorized_original_ending_reuse",
+  "new_full_narration": false,
+  "tempo": 1,
+  "opening_and_ending_reused": false,
+  "source_master_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+  "source_master_pcm_sha256": "fca946beb47a1a6e12c5832cb6c55b0d4136283c50b4151be15d9f2a32e732af",
+  "source_master_samples": 16181760,
+  "source_samples_removed": 1277760,
+  "source_samples_duplicated": 0,
+  "continuous_source_placement_count": 1,
+  "audio_restarts_at_visual_boundaries": 0,
+  "global_silent_tail_samples": 192000,
+  "final_frame_padding_samples": 0,
+  "final_card_seconds": 4,
+  "normalization": {
+    "target_integrated_lufs": -18.5,
+    "true_peak_db": -3.5,
+    "first_pass": {
+      "input_i": "-29.44",
+      "input_tp": "-9.32",
+      "input_lra": "3.40",
+      "input_thresh": "-39.84",
+      "output_i": "-18.57",
+      "output_tp": "-3.50",
+      "output_lra": "3.20",
+      "output_thresh": "-28.99",
+      "normalization_type": "dynamic",
+      "target_offset": "0.07"
+    },
+    "second_pass": {
+      "input_i": "-29.44",
+      "input_tp": "-9.32",
+      "input_lra": "3.40",
+      "input_thresh": "-39.84",
+      "output_i": "-18.50",
+      "output_tp": "-3.50",
+      "output_lra": "3.30",
+      "output_thresh": "-28.92",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.00"
+    },
+    "changes_tempo": false
+  },
+  "bgm": {
+    "bpm": 113,
+    "intro_seconds": 39,
+    "loop_source_samples": [
+      1872000,
+      5236248
+    ],
+    "period_beats": 128,
+    "overlap_beats": 4,
+    "crossfades": [
+      {
+        "start_sample": 5134301,
+        "end_sample": 5236248,
+        "start": 106.96460416666666,
+        "end": 109.0885
+      },
+      {
+        "start_sample": 8396602,
+        "end_sample": 8498549,
+        "start": 174.92920833333332,
+        "end": 177.05310416666666
+      },
+      {
+        "start_sample": 11658903,
+        "end_sample": 11760850,
+        "start": 242.8938125,
+        "end": 245.01770833333333
+      },
+      {
+        "start_sample": 14921204,
+        "end_sample": 15023151,
+        "start": 310.85841666666664,
+        "end": 312.9823125
+      }
+    ],
+    "fade_in_seconds": 2,
+    "fade_out_seconds": 4,
+    "source_speed_changed": false,
+    "source": "assets/bgm/1-ES_Comprehension-Frank-Jonsson-1-.mp3",
+    "source_sha256": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2",
+    "source_track": "Comprehension / Frank Jonsson",
+    "base_gain": 0.125,
+    "duck_wet_mix": 0.6,
+    "duck_dry_floor": 0.4,
+    "attack_ms": 45,
+    "release_ms": 650,
+    "minimum_duck_db": -6.855540940648176,
+    "music_rms_dbfs_p05_median_p95": [
+      -47.06804605451144,
+      -34.51451648697508,
+      -30.564987537051735
+    ],
+    "speech_minus_music_db_p05_median_p95": [
+      8.127183193788744,
+      17.516720934425138,
+      29.877435383607196
+    ]
+  },
+  "mix_peak_integer": 23236,
+  "mix_peak_dbfs": -2.985771343110536,
+  "additional_mix_limiter_samples": 0,
+  "additional_mix_limiter_ratio": 0,
+  "placements": [
+    {
+      "section_id": "opening",
+      "source_start_sample": 0,
+      "source_end_sample": 2073600,
+      "start_sample": 0,
+      "end_sample": 1900501,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "508b20647e7e967081bf1cf2abecc2e7a15a6db2270433308e2512106c91257c",
+      "pcm_sha256": "0d7a1114ba83dea077229591b55fbebfddaabd395fa2fd43f6a62aebadae0228",
+      "raw_source_start_sample": 0,
+      "raw_source_end_sample": 2073600,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task11",
+      "source_start_sample": 2073600,
+      "source_end_sample": 3416000,
+      "start_sample": 1900501,
+      "end_sample": 3127159,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "88e03b271db93223cf42b77e349807f08dbee5c521ce1dfe7198fab7f247e06f",
+      "pcm_sha256": "83da96cceb31c664679ef98a5c1e359ab61bf52d8404b66b67590f4147b11a9c",
+      "raw_source_start_sample": 2073600,
+      "raw_source_end_sample": 3416000,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task13",
+      "source_start_sample": 3416000,
+      "source_end_sample": 4710400,
+      "start_sample": 3127159,
+      "end_sample": 4319753,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "ce982e9514f49c4a3262f74eecf5ecb58631c43525d888de0867dd40f70864f8",
+      "pcm_sha256": "d29340216f32c447b0d516538bd0aafc2f53b5a3e5edb7a1ce0338361f8b0390",
+      "raw_source_start_sample": 3416000,
+      "raw_source_end_sample": 4710400,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task7",
+      "source_start_sample": 4710400,
+      "source_end_sample": 5824000,
+      "start_sample": 4319753,
+      "end_sample": 5330697,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "f1d4beba3572d3625d0e93e21a0597f8974f028983708dac6995dacd06ad9ad0",
+      "pcm_sha256": "a1558ae171c86245e8c7cab8b2e8457cb221bde08dbdefd4a2e18be87c3c3132",
+      "raw_source_start_sample": 4710400,
+      "raw_source_end_sample": 5824000,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task17",
+      "source_start_sample": 5824000,
+      "source_end_sample": 6756800,
+      "start_sample": 5330697,
+      "end_sample": 6182805,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "f68705a992916ae72e0878af04d51b835f79ecaab4791b18f2d2773860250a32",
+      "pcm_sha256": "7d617a578a5a483480fa229416407e50c7e3f6922eb0a19758a2aa5122a5bf2a",
+      "raw_source_start_sample": 5824000,
+      "raw_source_end_sample": 6756800,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task5",
+      "source_start_sample": 6756800,
+      "source_end_sample": 7836800,
+      "start_sample": 6182805,
+      "end_sample": 7169279,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "49346b8548c1d30e86a4914d19dabc0b7d4de07b521e26a2b7ec2d3f0656fc94",
+      "pcm_sha256": "67338a8c129211f1c7d07bf0a7b5e8c3ebcba2e801ab8aa946fe2c90d82bae97",
+      "raw_source_start_sample": 6756800,
+      "raw_source_end_sample": 7836800,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task9",
+      "source_start_sample": 7836800,
+      "source_end_sample": 9198400,
+      "start_sample": 7169279,
+      "end_sample": 8429693,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "06c767726fad27c69c0a337e2bf72bd8402707c980da4db6eef097872674e98d",
+      "pcm_sha256": "c0ba60d306dee9abb74d7e6fda9010c3afb9f0fa68a08caae2d5b8fccadb9f48",
+      "raw_source_start_sample": 7836800,
+      "raw_source_end_sample": 9198400,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task4",
+      "source_start_sample": 9198400,
+      "source_end_sample": 10281600,
+      "start_sample": 8429693,
+      "end_sample": 9416167,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "a47afc563771033a2e4365672fbdc1ebc890534de6ffe28668f1cbd3ad535ea5",
+      "pcm_sha256": "6eff11c391f77e298729ee7b0a506d194deec6a9dd1b4414fee8e4eb4acfb435",
+      "raw_source_start_sample": 9198400,
+      "raw_source_end_sample": 10281600,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task12",
+      "source_start_sample": 10281600,
+      "source_end_sample": 11062400,
+      "start_sample": 9416167,
+      "end_sample": 10129428,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "f64297d3ce26cb3e72781066e1276670ffe0299558e8c631cffdf121a5b21ae9",
+      "pcm_sha256": "fcbfd1f1cfc73ec52c7f897dd769952c9e504d618da4519517cc904165bba885",
+      "raw_source_start_sample": 10281600,
+      "raw_source_end_sample": 11062400,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task3",
+      "source_start_sample": 11062400,
+      "source_end_sample": 12036800,
+      "start_sample": 10129428,
+      "end_sample": 11028255,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "bf9d9d3890e03cea2ec648efcede6b2ebb45bb6bc702d14f59c01855329ad972",
+      "pcm_sha256": "0f52f17d465c5df1401289864042aea86cd0357325cf1c853285c6f8acde1a2d",
+      "raw_source_start_sample": 11062400,
+      "raw_source_end_sample": 12036800,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task8",
+      "source_start_sample": 12036800,
+      "source_end_sample": 12904000,
+      "start_sample": 11028255,
+      "end_sample": 11808043,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "c459cd2e9728c766d46f7c5a426f20938f52e33934b79f98688d5d43baa9cae8",
+      "pcm_sha256": "d08d37d1ef06be415eb81e6ac4a92b15bc39fc5848bccb00eef583e0517a5c4c",
+      "raw_source_start_sample": 12036800,
+      "raw_source_end_sample": 12904000,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task14",
+      "source_start_sample": 12904000,
+      "source_end_sample": 14172800,
+      "start_sample": 11808043,
+      "end_sample": 12991843,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "c34250ea4eabafef8169a4fdebeb0875f075b7f16c78ae657592f3fccdfacde8",
+      "pcm_sha256": "36dcdde8f8c7363e1874f52a596b51dbf80bbac906bc02cd89c0f856f73948ce",
+      "raw_source_start_sample": 12904000,
+      "raw_source_end_sample": 14172800,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "task16",
+      "source_start_sample": 14172800,
+      "source_end_sample": 15419200,
+      "start_sample": 12991843,
+      "end_sample": 14144369,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "c47a2354f8d1e4254229dfde82cbf9e3fe2743ef3e96836e9ea13d4719fe25c7",
+      "pcm_sha256": "9b95cd09bc99f1f0d5b9d943f965f7be6225457b5203a40510eb768fd350254c",
+      "raw_source_start_sample": 14172800,
+      "raw_source_end_sample": 15419200,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    },
+    {
+      "section_id": "ending",
+      "source_start_sample": 15419200,
+      "source_end_sample": 16181760,
+      "start_sample": 14144369,
+      "end_sample": 14904000,
+      "exact_master_pcm": true,
+      "audio_restart": false,
+      "file_sha256": "649fd70b3a6255b398affb0147287e7d3fc4f53019ff28259aed61c041326cc3",
+      "pcm_sha256": "a6e26e822ebc3805d290e4f6b61c1fb1e326e08f300ef2eca40c7039a6b1b319",
+      "raw_source_start_sample": 15419200,
+      "raw_source_end_sample": 16181760,
+      "source_clock": "original_recovered_composite",
+      "timeline_clock": "pause_edited_working_master",
+      "raw_clip_is_audit_only": true,
+      "exact_master_pcm_meaning": "Source raw clip equals its original composite range; the whole working master is played once, not restarted by raw clip."
+    }
+  ],
+  "scope": "Exact raw PCM preservation, original sample-clock timing and objective audio envelope checks. Fresh normalized voice ASR, subjective pronunciation/BGM listening, and final encoded playback are separate.",
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "ending_reuse_exception_authorized": true,
+  "fresh_body_narration": true,
+  "speech_tempo": 1,
+  "ending_reused": true,
+  "opening_reused": false,
+  "working_master_file": "narration/recovery/pause-edited.wav",
+  "working_master_sha256": "1eb8e7f432223e7a2bad2fb8fc1a76b829329baf2b346f969b970672e2ea70e4",
+  "working_master_pcm_sha256": "152d900fb00c46845b67afd7e95af3c1dbccf8eabf4d19c7b64a2354f202fa14",
+  "working_master_samples": 14904000,
+  "non_speech_samples_removed": 1277760,
+  "spoken_samples_removed": 0,
+  "original_sources_preserved": true,
+  "actual_master_placements": [
+    {
+      "file": "narration/recovery/pause-edited.wav",
+      "source_start_sample": 0,
+      "source_end_sample": 14904000,
+      "timeline_start_sample": 0,
+      "timeline_end_sample": 14904000,
+      "pcm_sha256": "152d900fb00c46845b67afd7e95af3c1dbccf8eabf4d19c7b64a2354f202fa14",
+      "continuous": true
+    }
+  ],
+  "placements_are_original_clip_audit_ranges": true,
+  "pause_edit_map": "narration/recovery/pause-edit-map.json",
+  "pause_edit_map_sha256": "a8c6d7063a79f872fecb095083d5c652eb0f141a4a18cee9323afaa23fcf1607",
+  "approved_pause_plan_sha256": "c422aebab676e673c93c2945bd576ea85b4235bebc4d79760ce664f3e8fb0a58",
+  "protected_speech_pcm_exact_count": 68,
+  "input_bindings": [
+    {
+      "file": "timeline.json",
+      "sha256": "03c984a6d5b29b3be07a29669d76c3bc25cdde23da9b0ac9789b3dea73cbb68b"
+    },
+    {
+      "file": "narration/elevenlabs/manifest.json",
+      "sha256": "9e3dc63f60f614d32847b7a97bb79d0e7da149d8d528684bae58f9b08535c34e"
+    },
+    {
+      "file": "narration/elevenlabs/alignment-report.json",
+      "sha256": "bc08c188ff309abd0ff40c0b432f8fbd17839e3f4dc5b1363fd8ff135f9d1813"
+    },
+    {
+      "file": "narration/ko.json",
+      "sha256": "af21b829868fdb5e69fea88f58d1f3c5c8bdbed6e1872fa4d5fb1c8afa564ec5"
+    },
+    {
+      "file": "narration/recovery/composite-original.wav",
+      "sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e"
+    },
+    {
+      "file": "assets/bgm/1-ES_Comprehension-Frank-Jonsson-1-.mp3",
+      "sha256": "285aafebdbb4879d1678dd8ae520fb1283c604c6b1756cc4c6e964c6fc55e7c2"
+    },
+    {
+      "file": "mix-v9-audio.py",
+      "sha256": "a1364bc68f8da0eafdc4bed052fc23e59c6124ac6b8f0afa5850423f88e42c3b"
+    },
+    {
+      "file": "narration/recovery/pause-edited.wav",
+      "sha256": "1eb8e7f432223e7a2bad2fb8fc1a76b829329baf2b346f969b970672e2ea70e4"
+    },
+    {
+      "file": "narration/recovery/pause-edit-map.json",
+      "sha256": "a8c6d7063a79f872fecb095083d5c652eb0f141a4a18cee9323afaa23fcf1607"
+    },
+    {
+      "file": "narration/elevenlabs/pause-edit-proposal.json",
+      "sha256": "c422aebab676e673c93c2945bd576ea85b4235bebc4d79760ce664f3e8fb0a58"
+    },
+    {
+      "file": "narration/elevenlabs/take.wav",
+      "sha256": "b2e19801305df1f1e2624fca327b14943f9d04f696271869b09225afc42ba12b"
+    },
+    {
+      "file": "narration/recovery/approved-ending-original.wav",
+      "sha256": "7a6e5d372d4c1b178ca38ae54058e27d120e78d19dfb49d87309a9783598b615"
+    },
+    {
+      "file": "narration/recovery/authorization.json",
+      "sha256": "4111d8478312667656530c7ad005a5688a8ff9e9a1985a60720e0a9a6bc462cf"
+    },
+    {
+      "file": "narration/recovery/ending-reuse-review.json",
+      "sha256": "287db6fda714e82831b8468214f538033166155cfac95af2f0bd42b92f73ba6b"
+    },
+    {
+      "file": "narration/recovery/prefix64-narration-analysis.json",
+      "sha256": "57b5373e1b4223f7eb8225bbc10d93799baabfa7d95e7e75db618a4b6e013677"
+    },
+    {
+      "file": "narration/recovery/recovery-map.json",
+      "sha256": "2369ce9749b5d9418c835e1787dd572d325407496adec8fb6278ac7df33fadf1"
+    }
+  ],
+  "artifacts": {
+    "audio.wav": {
+      "sha256": "4d386c174a965eea6bb86316a9d7c0d22a0e1da46d5ea17063fca9c2315c2ec0",
+      "sample_count": 15096000,
+      "pcm_sha256": "0a4329f8cdc3d31b82c24aeaecc2d23be64f91a1ffe6829c3557584dcad78169"
+    },
+    "narration.wav": {
+      "sha256": "a3a2f8f49f39fb3e231f34dae62e9027a4702af9a2d6a9491c6c5ecdca45f7ba",
+      "sample_count": 15096000,
+      "pcm_sha256": "57cba348ede10cb83c5385afc1c733c5cd513b7f8d9534a3a88583dcbc6845d3"
+    },
+    "narration-raw.wav": {
+      "sha256": "0535616f83bc1d90f5b1349586b102306b6d289fe228d9e8a5c8a57801534439",
+      "sample_count": 15096000,
+      "pcm_sha256": "f644768671b6a441f9071596f9b4f49b8b247d95391e5a999db90774b440ee80"
+    },
+    "bgm-loop.wav": {
+      "sha256": "76f6fa9a759a37d9de6f5379a62d87348c23839c6503b1aeaa82ae4b92471026",
+      "sample_count": 15096000,
+      "pcm_sha256": "20d5080eaac768809e7cff30f4cf2ac3d4e3d975ee43732c4ab4a818695c3d1a"
+    }
+  }
+}

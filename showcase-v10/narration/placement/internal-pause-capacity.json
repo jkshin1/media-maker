@@ -1,0 +1,3360 @@
+{
+  "revision": 10,
+  "status": "ANALYSIS_ONLY_NO_EDITS_APPLIED",
+  "source_identity_sha256": "92c31c5917cbb6a5c7d8f7f998ac005bdd43bfb1e69e79183333c5dfcca5e3c2",
+  "source_parts": [
+    {
+      "part_id": "part1",
+      "master": "narration/two-parts/part1/take.wav",
+      "master_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "master_pcm_sha256": "7c0c0f5b3c2c0bbc145bf9f890abef16f60b3a84f6d275ceda96100d25c4a50e",
+      "asr": "narration/two-parts/part1/transcription/take.json",
+      "asr_sha256": "8257067881d91c1ad82cb663e1ab18d1d4c4d7e81db8070a23312107db01050d",
+      "cut_ids": [
+        "opening_cut1",
+        "opening_cut2",
+        "opening_cut3",
+        "opening_cut4",
+        "opening_cut5",
+        "opening_cut6",
+        "opening_cut7",
+        "opening_cut8",
+        "opening_cut9",
+        "task11_cut1",
+        "task11_cut2",
+        "task11_cut3",
+        "task11_cut4",
+        "task11_cut5",
+        "task13_cut1",
+        "task13_cut2",
+        "task13_cut3",
+        "task13_cut4",
+        "task13_cut5",
+        "task7_cut1",
+        "task7_cut2",
+        "task7_cut3",
+        "task7_cut4",
+        "task7_cut5",
+        "task17_cut1",
+        "task17_cut2",
+        "task17_cut3",
+        "task17_cut4",
+        "task5_cut1",
+        "task5_cut2",
+        "task5_cut3",
+        "task5_cut4",
+        "task5_cut5"
+      ],
+      "samples": 9308160,
+      "seconds": 193.92,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width": 2,
+      "virtual_start_sample": 0,
+      "virtual_end_sample": 9308160,
+      "first_word_index": 0,
+      "provenance": [
+        {
+          "path": "narration/two-parts/part1/import-provenance.json",
+          "sha256": "0778eb851314d3df9554a7a96cbfb3a2301ab6534dd065a1107d560a015a5ab6"
+        }
+      ],
+      "last_word_index": 258
+    },
+    {
+      "part_id": "part2",
+      "master": "narration/two-parts/part2/take.wav",
+      "master_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "master_pcm_sha256": "e5cba3472be52194ee103b38e647269428094906a2b6dd4c032013f2478ae8ca",
+      "asr": "narration/two-parts/part2/transcription/take.json",
+      "asr_sha256": "4cce7e0a86d71da7fc7f670f91c5727445801e1af0962249ba8b48597cd0b4b8",
+      "cut_ids": [
+        "task9_cut1",
+        "task9_cut2",
+        "task9_cut3",
+        "task9_cut4",
+        "task9_cut5",
+        "task4_cut1",
+        "task4_cut2",
+        "task4_cut3",
+        "task4_cut4",
+        "task4_cut5",
+        "task12_cut1",
+        "task12_cut2",
+        "task12_cut3",
+        "task3_cut1",
+        "task3_cut2",
+        "task3_cut3",
+        "task3_cut4",
+        "task8_cut1",
+        "task8_cut2",
+        "task8_cut3",
+        "task8_cut4",
+        "task14_cut1",
+        "task14_cut2",
+        "task14_cut3",
+        "task14_cut4",
+        "task14_cut5",
+        "task16_cut1",
+        "task16_cut2",
+        "task16_cut3",
+        "task16_cut4",
+        "task16_cut5",
+        "ending_cut1",
+        "ending_cut2",
+        "ending_cut3",
+        "ending_cut5"
+      ],
+      "samples": 9423360,
+      "seconds": 196.32,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width": 2,
+      "virtual_start_sample": 9308160,
+      "virtual_end_sample": 18731520,
+      "first_word_index": 259,
+      "provenance": [
+        {
+          "path": "narration/two-parts/part2/import-provenance.json",
+          "sha256": "3cebeca84c8e8f280c820dc966413b709b76b346ae622f19f1d576b00fd03cee"
+        }
+      ],
+      "last_word_index": 530
+    }
+  ],
+  "alignment_report_sha256": "7db7dffffacaa8729238cbeccfa46e3c1f5c555794a79b5b597db5b83f406d96",
+  "timeline_sha256": "03c984a6d5b29b3be07a29669d76c3bc25cdde23da9b0ac9789b3dea73cbb68b",
+  "fixed_slot_geometry_sha256": "884046c0cdb38f5b08334237a9d33a137d236ec9bd9badf8e51a1d336a42df38",
+  "speech_tempo": 1,
+  "new_audio_written": false,
+  "pause_edit_applied": false,
+  "application_authorized": false,
+  "waveform_threshold_dbfs": -48,
+  "waveform_rms_window_seconds": 0.01,
+  "minimum_sustained_quiet_seconds": 0.08,
+  "strict_energy_guard_each_side_seconds": 0.08,
+  "strict_minimum_retained_pause_seconds": 0.2,
+  "signal_overflow_cuts_analyzed": 68,
+  "strict_candidate_count": 10,
+  "strict_signal_fit_cuts": 54,
+  "strict_nonfit_cut_ids": [
+    "opening_cut3",
+    "task11_cut5",
+    "task13_cut3",
+    "task7_cut4",
+    "task17_cut3",
+    "task5_cut3",
+    "task5_cut4",
+    "task5_cut5",
+    "task9_cut2",
+    "task9_cut5",
+    "task12_cut2",
+    "task12_cut3",
+    "task14_cut5",
+    "task16_cut4"
+  ],
+  "optimistic_nonfit_cut_ids": [
+    "task13_cut3",
+    "task17_cut3",
+    "task5_cut5"
+  ],
+  "rows": [
+    {
+      "cut_id": "opening_cut1",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 2.3333333333333335,
+      "protected_signal_span_seconds": 2.06,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "opening_cut2",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 3.6,
+      "protected_signal_span_seconds": 3.38,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 181440,
+          "end_sample": 187680,
+          "start": 3.7800000000000002,
+          "end": 3.91,
+          "duration": 0.13,
+          "peak_10ms_rms_dbfs": -48.14636570307538
+        },
+        {
+          "start_sample": 283200,
+          "end_sample": 288000,
+          "start": 5.9,
+          "end": 6.0,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -48.10055392238201
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "opening_cut3",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.5,
+      "protected_signal_span_seconds": 4.77,
+      "signal_only_shortage_samples": 12960,
+      "signal_only_shortage_seconds": 0.27,
+      "preferred_80ms_guard_shortage_seconds": 0.4299999999999997,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.27,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 433440,
+          "end_sample": 439680,
+          "start": 9.03,
+          "end": 9.16,
+          "duration": 0.13,
+          "peak_10ms_rms_dbfs": -49.79005739583567
+        },
+        {
+          "start_sample": 498240,
+          "end_sample": 521280,
+          "start": 10.38,
+          "end": 10.86,
+          "duration": 0.48,
+          "peak_10ms_rms_dbfs": -50.670198041305554
+        },
+        {
+          "start_sample": 544320,
+          "end_sample": 548160,
+          "start": 11.34,
+          "end": 11.42,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -51.5589120760034
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.32,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "opening_cut4",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 3.3333333333333335,
+      "protected_signal_span_seconds": 3.0,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "opening_cut5",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.8,
+      "protected_signal_span_seconds": 5.13,
+      "signal_only_shortage_samples": 15840,
+      "signal_only_shortage_seconds": 0.33,
+      "preferred_80ms_guard_shortage_seconds": 0.4900000000000002,
+      "strict_word_wave_capacity_samples": 27840,
+      "strict_word_wave_capacity_seconds": 0.58,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [
+        {
+          "after_word_index": 34,
+          "before_word_index": 35,
+          "after_word": {
+            "word": " 공정,",
+            "start": 21.1,
+            "end": 21.5,
+            "probability": 0.876443088054657,
+            "source_part_id": "part1",
+            "source_local_start": 21.1,
+            "source_local_end": 21.5
+          },
+          "before_word": {
+            "word": " AI",
+            "start": 22.28,
+            "end": 22.8,
+            "probability": 0.98771733045578,
+            "source_part_id": "part1",
+            "source_local_start": 22.28,
+            "source_local_end": 22.8
+          },
+          "source_part_id": "part1",
+          "source_file": "narration/two-parts/part1/take.wav",
+          "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+          "quiet": {
+            "start_sample": 1037280,
+            "end_sample": 1077600,
+            "start": 21.61,
+            "end": 22.45,
+            "duration": 0.84,
+            "peak_10ms_rms_dbfs": -50.32356926478596
+          },
+          "source_local_quiet_start_sample": 1037280,
+          "source_local_quiet_end_sample": 1077600,
+          "safe_remove_virtual_window_samples": [
+            1041120,
+            1069440
+          ],
+          "safe_remove_source_local_window_samples": [
+            1041120,
+            1069440
+          ],
+          "lexical_gap_seconds": 0.78,
+          "capacity_samples": 27840,
+          "capacity_seconds": 0.58,
+          "energy_guard_each_side_seconds": 0.08,
+          "minimum_retained_quiet_and_lexical_gap_seconds": 0.2,
+          "word_overlap_in_safe_remove_window": false,
+          "application_authorized": false
+        }
+      ],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 932160,
+          "end_sample": 937920,
+          "start": 19.42,
+          "end": 19.54,
+          "duration": 0.12,
+          "peak_10ms_rms_dbfs": -51.47121243108489
+        },
+        {
+          "start_sample": 990720,
+          "end_sample": 995040,
+          "start": 20.64,
+          "end": 20.73,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -59.21778523269826
+        },
+        {
+          "start_sample": 1037280,
+          "end_sample": 1077600,
+          "start": 21.61,
+          "end": 22.45,
+          "duration": 0.84,
+          "peak_10ms_rms_dbfs": -50.32356926478596
+        },
+        {
+          "start_sample": 1100160,
+          "end_sample": 1104960,
+          "start": 22.92,
+          "end": 23.02,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -51.90542418697119
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.68,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "opening_cut6",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 5.566666666666666,
+      "protected_signal_span_seconds": 5.07,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 1300320,
+          "end_sample": 1308960,
+          "start": 27.09,
+          "end": 27.27,
+          "duration": 0.18,
+          "peak_10ms_rms_dbfs": -50.36802505182756
+        },
+        {
+          "start_sample": 1317120,
+          "end_sample": 1321440,
+          "start": 27.44,
+          "end": 27.53,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -48.28284141721238
+        },
+        {
+          "start_sample": 1341600,
+          "end_sample": 1345920,
+          "start": 27.95,
+          "end": 28.04,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -50.84963041718375
+        },
+        {
+          "start_sample": 1421280,
+          "end_sample": 1425600,
+          "start": 29.61,
+          "end": 29.7,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -49.35632348217679
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.02,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "opening_cut7",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 5.1,
+      "protected_signal_span_seconds": 4.93,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 1646880,
+          "end_sample": 1663200,
+          "start": 34.31,
+          "end": 34.65,
+          "duration": 0.34,
+          "peak_10ms_rms_dbfs": -49.96138515324401
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.18,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "opening_cut8",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 6.0,
+      "protected_signal_span_seconds": 5.3,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 1885440,
+          "end_sample": 1889280,
+          "start": 39.28,
+          "end": 39.36,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -48.2062923974315
+        },
+        {
+          "start_sample": 1909920,
+          "end_sample": 1937280,
+          "start": 39.79,
+          "end": 40.36,
+          "duration": 0.5700000000000001,
+          "peak_10ms_rms_dbfs": -53.007214248463626
+        },
+        {
+          "start_sample": 2021280,
+          "end_sample": 2027520,
+          "start": 42.11,
+          "end": 42.24,
+          "duration": 0.13,
+          "peak_10ms_rms_dbfs": -50.14016541238323
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.41,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "opening_cut9",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.333333333333333,
+      "protected_signal_span_seconds": 3.95,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 2180160,
+          "end_sample": 2184480,
+          "start": 45.42,
+          "end": 45.51,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -48.08446135371902
+        },
+        {
+          "start_sample": 2202240,
+          "end_sample": 2219040,
+          "start": 45.88,
+          "end": 46.230000000000004,
+          "duration": 0.35000000000000003,
+          "peak_10ms_rms_dbfs": -50.75281060709639
+        },
+        {
+          "start_sample": 2226720,
+          "end_sample": 2231040,
+          "start": 46.39,
+          "end": 46.480000000000004,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -50.863391674898736
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.19,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task11_cut1",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.766666666666667,
+      "protected_signal_span_seconds": 4.3,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 2558880,
+          "end_sample": 2577600,
+          "start": 53.31,
+          "end": 53.7,
+          "duration": 0.39,
+          "peak_10ms_rms_dbfs": -50.08143221144049
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.23,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task11_cut2",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 5.366666666666666,
+      "protected_signal_span_seconds": 5.54,
+      "signal_only_shortage_samples": 8320,
+      "signal_only_shortage_seconds": 0.17333333333333334,
+      "preferred_80ms_guard_shortage_seconds": 0.3333333333333339,
+      "strict_word_wave_capacity_samples": 11520,
+      "strict_word_wave_capacity_seconds": 0.24,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [
+        {
+          "after_word_index": 83,
+          "before_word_index": 84,
+          "after_word": {
+            "word": " 트렌드,",
+            "start": 59.64,
+            "end": 60.22,
+            "probability": 0.9607331901788712,
+            "source_part_id": "part1",
+            "source_local_start": 59.64,
+            "source_local_end": 60.22
+          },
+          "before_word": {
+            "word": " K",
+            "start": 60.82,
+            "end": 61.0,
+            "probability": 0.7640122771263123,
+            "source_part_id": "part1",
+            "source_local_start": 60.82,
+            "source_local_end": 61.0
+          },
+          "source_part_id": "part1",
+          "source_file": "narration/two-parts/part1/take.wav",
+          "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+          "quiet": {
+            "start_sample": 2898720,
+            "end_sample": 2919840,
+            "start": 60.39,
+            "end": 60.83,
+            "duration": 0.44,
+            "peak_10ms_rms_dbfs": -59.09095263801582
+          },
+          "source_local_quiet_start_sample": 2898720,
+          "source_local_quiet_end_sample": 2919840,
+          "safe_remove_virtual_window_samples": [
+            2902560,
+            2916000
+          ],
+          "safe_remove_source_local_window_samples": [
+            2902560,
+            2916000
+          ],
+          "lexical_gap_seconds": 0.6,
+          "capacity_samples": 11520,
+          "capacity_seconds": 0.24,
+          "energy_guard_each_side_seconds": 0.08,
+          "minimum_retained_quiet_and_lexical_gap_seconds": 0.2,
+          "word_overlap_in_safe_remove_window": false,
+          "application_authorized": false
+        }
+      ],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 2760000,
+          "end_sample": 2767200,
+          "start": 57.5,
+          "end": 57.65,
+          "duration": 0.15,
+          "peak_10ms_rms_dbfs": -48.293667653416705
+        },
+        {
+          "start_sample": 2829600,
+          "end_sample": 2844960,
+          "start": 58.95,
+          "end": 59.27,
+          "duration": 0.32,
+          "peak_10ms_rms_dbfs": -50.21753536759345
+        },
+        {
+          "start_sample": 2898720,
+          "end_sample": 2919840,
+          "start": 60.39,
+          "end": 60.83,
+          "duration": 0.44,
+          "peak_10ms_rms_dbfs": -59.09095263801582
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.44,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task11_cut3",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.833333333333333,
+      "protected_signal_span_seconds": 4.73,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0.05666666666666664,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 3168480,
+          "end_sample": 3176640,
+          "start": 66.01,
+          "end": 66.18,
+          "duration": 0.17,
+          "peak_10ms_rms_dbfs": -49.08071222187549
+        },
+        {
+          "start_sample": 3206400,
+          "end_sample": 3211200,
+          "start": 66.8,
+          "end": 66.9,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -49.17636051682642
+        },
+        {
+          "start_sample": 3224160,
+          "end_sample": 3228960,
+          "start": 67.17,
+          "end": 67.27,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -48.33726692314704
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.01,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task11_cut4",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 5.8,
+      "protected_signal_span_seconds": 5.55,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 3554400,
+          "end_sample": 3574080,
+          "start": 74.05,
+          "end": 74.46000000000001,
+          "duration": 0.41000000000000003,
+          "peak_10ms_rms_dbfs": -50.547674939382105
+        },
+        {
+          "start_sample": 3579840,
+          "end_sample": 3583680,
+          "start": 74.58,
+          "end": 74.66,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -49.97364622966241
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.25,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task11_cut5",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.766666666666667,
+      "protected_signal_span_seconds": 5.04,
+      "signal_only_shortage_samples": 13120,
+      "signal_only_shortage_seconds": 0.2733333333333333,
+      "preferred_80ms_guard_shortage_seconds": 0.43333333333333357,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.2733333333333333,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 3814080,
+          "end_sample": 3842400,
+          "start": 79.46000000000001,
+          "end": 80.05,
+          "duration": 0.59,
+          "peak_10ms_rms_dbfs": -51.193278143406204
+        },
+        {
+          "start_sample": 3856800,
+          "end_sample": 3860640,
+          "start": 80.35000000000001,
+          "end": 80.43,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -52.29778262764573
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.43,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task13_cut1",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.733333333333333,
+      "protected_signal_span_seconds": 4.23,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 4143360,
+          "end_sample": 4147200,
+          "start": 86.32000000000001,
+          "end": 86.4,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -58.97536630870811
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task13_cut2",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 3.6333333333333333,
+      "protected_signal_span_seconds": 3.22,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 4383840,
+          "end_sample": 4389600,
+          "start": 91.33,
+          "end": 91.45,
+          "duration": 0.12,
+          "peak_10ms_rms_dbfs": -48.8752428387966
+        },
+        {
+          "start_sample": 4402080,
+          "end_sample": 4406400,
+          "start": 91.71000000000001,
+          "end": 91.8,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -55.187120527577875
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task13_cut3",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 5.233333333333333,
+      "protected_signal_span_seconds": 5.77,
+      "signal_only_shortage_samples": 25760,
+      "signal_only_shortage_seconds": 0.5366666666666666,
+      "preferred_80ms_guard_shortage_seconds": 0.6966666666666663,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.5366666666666666,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 4566720,
+          "end_sample": 4570560,
+          "start": 95.14,
+          "end": 95.22,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -52.18774944049965
+        },
+        {
+          "start_sample": 4584480,
+          "end_sample": 4607040,
+          "start": 95.51,
+          "end": 95.98,
+          "duration": 0.47000000000000003,
+          "peak_10ms_rms_dbfs": -48.53788373670642
+        },
+        {
+          "start_sample": 4656960,
+          "end_sample": 4664640,
+          "start": 97.02,
+          "end": 97.18,
+          "duration": 0.16,
+          "peak_10ms_rms_dbfs": -50.60668576814187
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.31,
+      "optimistic_remaining_signal_shortage_seconds": 0.22666666666666666,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task13_cut4",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 7.0,
+      "protected_signal_span_seconds": 6.95,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0.11000000000000032,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 4955040,
+          "end_sample": 4959360,
+          "start": 103.23,
+          "end": 103.32000000000001,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -49.95694258158203
+        },
+        {
+          "start_sample": 4970880,
+          "end_sample": 4975680,
+          "start": 103.56,
+          "end": 103.66,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -52.04727577969968
+        },
+        {
+          "start_sample": 5035680,
+          "end_sample": 5039520,
+          "start": 104.91,
+          "end": 104.99000000000001,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -53.39803636210888
+        },
+        {
+          "start_sample": 5051040,
+          "end_sample": 5080800,
+          "start": 105.23,
+          "end": 105.85000000000001,
+          "duration": 0.62,
+          "peak_10ms_rms_dbfs": -50.134646114693204
+        },
+        {
+          "start_sample": 5121120,
+          "end_sample": 5125440,
+          "start": 106.69,
+          "end": 106.78,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -54.15758300231214
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.46,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task13_cut5",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.3,
+      "protected_signal_span_seconds": 4.46,
+      "signal_only_shortage_samples": 7680,
+      "signal_only_shortage_seconds": 0.16,
+      "preferred_80ms_guard_shortage_seconds": 0.3200000000000003,
+      "strict_word_wave_capacity_samples": 12960,
+      "strict_word_wave_capacity_seconds": 0.27,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [
+        {
+          "after_word_index": 153,
+          "before_word_index": 154,
+          "after_word": {
+            "word": " 검토,",
+            "start": 111.94,
+            "end": 112.44,
+            "probability": 0.9926751255989075,
+            "source_part_id": "part1",
+            "source_local_start": 111.94,
+            "source_local_end": 112.44
+          },
+          "before_word": {
+            "word": " 장비",
+            "start": 113.08,
+            "end": 113.42,
+            "probability": 0.8943959176540375,
+            "source_part_id": "part1",
+            "source_local_start": 113.08,
+            "source_local_end": 113.42
+          },
+          "source_part_id": "part1",
+          "source_file": "narration/two-parts/part1/take.wav",
+          "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+          "quiet": {
+            "start_sample": 5405280,
+            "end_sample": 5427840,
+            "start": 112.61,
+            "end": 113.08,
+            "duration": 0.47000000000000003,
+            "peak_10ms_rms_dbfs": -50.33104797342414
+          },
+          "source_local_quiet_start_sample": 5405280,
+          "source_local_quiet_end_sample": 5427840,
+          "safe_remove_virtual_window_samples": [
+            5409120,
+            5424000
+          ],
+          "safe_remove_source_local_window_samples": [
+            5409120,
+            5424000
+          ],
+          "lexical_gap_seconds": 0.64,
+          "capacity_samples": 12960,
+          "capacity_seconds": 0.27,
+          "energy_guard_each_side_seconds": 0.08,
+          "minimum_retained_quiet_and_lexical_gap_seconds": 0.2,
+          "word_overlap_in_safe_remove_window": false,
+          "application_authorized": false
+        }
+      ],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 5405280,
+          "end_sample": 5427840,
+          "start": 112.61,
+          "end": 113.08,
+          "duration": 0.47000000000000003,
+          "peak_10ms_rms_dbfs": -50.33104797342414
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.31,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task7_cut1",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 3.5,
+      "protected_signal_span_seconds": 3.11,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 5616960,
+          "end_sample": 5622240,
+          "start": 117.02,
+          "end": 117.13,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -49.058970117504
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task7_cut2",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.133333333333334,
+      "protected_signal_span_seconds": 3.97,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 5886720,
+          "end_sample": 5906880,
+          "start": 122.64,
+          "end": 123.06,
+          "duration": 0.42,
+          "peak_10ms_rms_dbfs": -48.994186817444515
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.26,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task7_cut3",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 3.5,
+      "protected_signal_span_seconds": 3.14,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 6095520,
+          "end_sample": 6099840,
+          "start": 126.99000000000001,
+          "end": 127.08,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -49.436572930744134
+        },
+        {
+          "start_sample": 6120000,
+          "end_sample": 6126720,
+          "start": 127.5,
+          "end": 127.64,
+          "duration": 0.14,
+          "peak_10ms_rms_dbfs": -48.00357712969978
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task7_cut4",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.566666666666666,
+      "protected_signal_span_seconds": 4.67,
+      "signal_only_shortage_samples": 4960,
+      "signal_only_shortage_seconds": 0.10333333333333333,
+      "preferred_80ms_guard_shortage_seconds": 0.26333333333333364,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.10333333333333333,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 6313920,
+          "end_sample": 6319200,
+          "start": 131.54,
+          "end": 131.65,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -48.41021265088563
+        },
+        {
+          "start_sample": 6402720,
+          "end_sample": 6422880,
+          "start": 133.39000000000001,
+          "end": 133.81,
+          "duration": 0.42,
+          "peak_10ms_rms_dbfs": -48.9219800173576
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.26,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task7_cut5",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 5.3,
+      "protected_signal_span_seconds": 5.03,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 6635520,
+          "end_sample": 6639360,
+          "start": 138.24,
+          "end": 138.32,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -54.757225120755606
+        },
+        {
+          "start_sample": 6644640,
+          "end_sample": 6648960,
+          "start": 138.43,
+          "end": 138.52,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -49.29319324627162
+        },
+        {
+          "start_sample": 6703200,
+          "end_sample": 6708000,
+          "start": 139.65,
+          "end": 139.75,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -49.16034621007155
+        },
+        {
+          "start_sample": 6731040,
+          "end_sample": 6735360,
+          "start": 140.23,
+          "end": 140.32,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -48.47107170508069
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task17_cut1",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.766666666666667,
+      "protected_signal_span_seconds": 4.23,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 6952320,
+          "end_sample": 6956160,
+          "start": 144.84,
+          "end": 144.92000000000002,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -53.30300521433514
+        },
+        {
+          "start_sample": 6978720,
+          "end_sample": 6983520,
+          "start": 145.39000000000001,
+          "end": 145.49,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -55.811971817457994
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task17_cut2",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 3.066666666666667,
+      "protected_signal_span_seconds": 2.75,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 7262880,
+          "end_sample": 7266720,
+          "start": 151.31,
+          "end": 151.39000000000001,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -50.933907541494634
+        },
+        {
+          "start_sample": 7271040,
+          "end_sample": 7275840,
+          "start": 151.48,
+          "end": 151.58,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -52.599906615347805
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task17_cut3",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 5.933333333333334,
+      "protected_signal_span_seconds": 6.52,
+      "signal_only_shortage_samples": 28160,
+      "signal_only_shortage_seconds": 0.5866666666666667,
+      "preferred_80ms_guard_shortage_seconds": 0.7466666666666661,
+      "strict_word_wave_capacity_samples": 12000,
+      "strict_word_wave_capacity_seconds": 0.25,
+      "strict_remaining_signal_shortage_seconds": 0.33666666666666667,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [
+        {
+          "after_word_index": 209,
+          "before_word_index": 210,
+          "after_word": {
+            "word": " 좌표,",
+            "start": 155.18,
+            "end": 155.74,
+            "probability": 0.9646679957707723,
+            "source_part_id": "part1",
+            "source_local_start": 155.18,
+            "source_local_end": 155.74
+          },
+          "before_word": {
+            "word": " 측정선",
+            "start": 156.36,
+            "end": 156.9,
+            "probability": 0.9893224835395813,
+            "source_part_id": "part1",
+            "source_local_start": 156.36,
+            "source_local_end": 156.9
+          },
+          "source_part_id": "part1",
+          "source_file": "narration/two-parts/part1/take.wav",
+          "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+          "quiet": {
+            "start_sample": 7484640,
+            "end_sample": 7506240,
+            "start": 155.93,
+            "end": 156.38,
+            "duration": 0.45,
+            "peak_10ms_rms_dbfs": -52.95526392157359
+          },
+          "source_local_quiet_start_sample": 7484640,
+          "source_local_quiet_end_sample": 7506240,
+          "safe_remove_virtual_window_samples": [
+            7488480,
+            7502400
+          ],
+          "safe_remove_source_local_window_samples": [
+            7488480,
+            7502400
+          ],
+          "lexical_gap_seconds": 0.62,
+          "capacity_samples": 12000,
+          "capacity_seconds": 0.25,
+          "energy_guard_each_side_seconds": 0.08,
+          "minimum_retained_quiet_and_lexical_gap_seconds": 0.2,
+          "word_overlap_in_safe_remove_window": false,
+          "application_authorized": false
+        }
+      ],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 7416480,
+          "end_sample": 7420800,
+          "start": 154.51,
+          "end": 154.6,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -50.77701222328685
+        },
+        {
+          "start_sample": 7464480,
+          "end_sample": 7469280,
+          "start": 155.51,
+          "end": 155.61,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -57.087077194389025
+        },
+        {
+          "start_sample": 7484640,
+          "end_sample": 7506240,
+          "start": 155.93,
+          "end": 156.38,
+          "duration": 0.45,
+          "peak_10ms_rms_dbfs": -52.95526392157359
+        },
+        {
+          "start_sample": 7510080,
+          "end_sample": 7514880,
+          "start": 156.46,
+          "end": 156.56,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -50.435516976969595
+        },
+        {
+          "start_sample": 7621440,
+          "end_sample": 7640640,
+          "start": 158.78,
+          "end": 159.18,
+          "duration": 0.4,
+          "peak_10ms_rms_dbfs": -55.368708613051155
+        },
+        {
+          "start_sample": 7668960,
+          "end_sample": 7674240,
+          "start": 159.77,
+          "end": 159.88,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -52.95756925969223
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.53,
+      "optimistic_remaining_signal_shortage_seconds": 0.056666666666666664,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task17_cut4",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.0,
+      "protected_signal_span_seconds": 3.54,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 7829760,
+          "end_sample": 7834080,
+          "start": 163.12,
+          "end": 163.21,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -55.03981488643335
+        },
+        {
+          "start_sample": 7869120,
+          "end_sample": 7877280,
+          "start": 163.94,
+          "end": 164.11,
+          "duration": 0.17,
+          "peak_10ms_rms_dbfs": -50.224239901591204
+        },
+        {
+          "start_sample": 7918560,
+          "end_sample": 7923360,
+          "start": 164.97,
+          "end": 165.07,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -51.399216684798105
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.01,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task5_cut1",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.066666666666666,
+      "protected_signal_span_seconds": 3.82,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 8141760,
+          "end_sample": 8145600,
+          "start": 169.62,
+          "end": 169.70000000000002,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -52.82064277140728
+        },
+        {
+          "start_sample": 8188800,
+          "end_sample": 8194080,
+          "start": 170.6,
+          "end": 170.71,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -49.61598463927355
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task5_cut2",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 2.433333333333333,
+      "protected_signal_span_seconds": 2.09,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task5_cut3",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 5.233333333333333,
+      "protected_signal_span_seconds": 5.33,
+      "signal_only_shortage_samples": 4640,
+      "signal_only_shortage_seconds": 0.09666666666666666,
+      "preferred_80ms_guard_shortage_seconds": 0.2566666666666668,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.09666666666666666,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 8608320,
+          "end_sample": 8632320,
+          "start": 179.34,
+          "end": 179.84,
+          "duration": 0.5,
+          "peak_10ms_rms_dbfs": -51.428733845405674
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.34,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task5_cut4",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.466666666666667,
+      "protected_signal_span_seconds": 4.69,
+      "signal_only_shortage_samples": 10720,
+      "signal_only_shortage_seconds": 0.22333333333333333,
+      "preferred_80ms_guard_shortage_seconds": 0.38333333333333286,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.22333333333333333,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 8868480,
+          "end_sample": 8891040,
+          "start": 184.76,
+          "end": 185.23,
+          "duration": 0.47000000000000003,
+          "peak_10ms_rms_dbfs": -50.85111344373365
+        },
+        {
+          "start_sample": 8918880,
+          "end_sample": 8924160,
+          "start": 185.81,
+          "end": 185.92000000000002,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -52.06519903768877
+        },
+        {
+          "start_sample": 8954400,
+          "end_sample": 8959200,
+          "start": 186.55,
+          "end": 186.65,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -50.17783307328411
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.31,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task5_cut5",
+      "source_part_id": "part1",
+      "source_file": "narration/two-parts/part1/take.wav",
+      "source_file_sha256": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+      "fixed_slot_seconds": 4.4,
+      "protected_signal_span_seconds": 4.44,
+      "signal_only_shortage_samples": 1920,
+      "signal_only_shortage_seconds": 0.04,
+      "preferred_80ms_guard_shortage_seconds": 0.14999999999999947,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.04,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.04,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task9_cut1",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 5.166666666666667,
+      "protected_signal_span_seconds": 4.41,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 9319680,
+          "end_sample": 9324000,
+          "start": 194.16,
+          "end": 194.25,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -56.23185419041243
+        },
+        {
+          "start_sample": 9380160,
+          "end_sample": 9386880,
+          "start": 195.42000000000002,
+          "end": 195.56,
+          "duration": 0.14,
+          "peak_10ms_rms_dbfs": -53.07580534933413
+        },
+        {
+          "start_sample": 9452640,
+          "end_sample": 9462240,
+          "start": 196.93,
+          "end": 197.13,
+          "duration": 0.2,
+          "peak_10ms_rms_dbfs": -49.86610384374807
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.04,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task9_cut2",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.8,
+      "protected_signal_span_seconds": 4.81,
+      "signal_only_shortage_samples": 480,
+      "signal_only_shortage_seconds": 0.01,
+      "preferred_80ms_guard_shortage_seconds": 0.16999999999999993,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.01,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 9614880,
+          "end_sample": 9621120,
+          "start": 200.31,
+          "end": 200.44,
+          "duration": 0.13,
+          "peak_10ms_rms_dbfs": -48.45478014959789
+        },
+        {
+          "start_sample": 9666240,
+          "end_sample": 9670080,
+          "start": 201.38,
+          "end": 201.46,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -51.270806771546525
+        },
+        {
+          "start_sample": 9686400,
+          "end_sample": 9696000,
+          "start": 201.8,
+          "end": 202.0,
+          "duration": 0.2,
+          "peak_10ms_rms_dbfs": -48.52750055698348
+        },
+        {
+          "start_sample": 9723840,
+          "end_sample": 9729120,
+          "start": 202.58,
+          "end": 202.69,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -50.83263794019528
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.04,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task9_cut3",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 6.166666666666667,
+      "protected_signal_span_seconds": 5.89,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 9960000,
+          "end_sample": 9990720,
+          "start": 207.5,
+          "end": 208.14000000000001,
+          "duration": 0.64,
+          "peak_10ms_rms_dbfs": -51.688424452821295
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.48,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task9_cut4",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 3.1666666666666665,
+      "protected_signal_span_seconds": 3.0,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 10228800,
+          "end_sample": 10232640,
+          "start": 213.1,
+          "end": 213.18,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -48.72397222347609
+        },
+        {
+          "start_sample": 10244160,
+          "end_sample": 10248000,
+          "start": 213.42000000000002,
+          "end": 213.5,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -48.90316413258765
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task9_cut5",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 6.9,
+      "protected_signal_span_seconds": 6.96,
+      "signal_only_shortage_samples": 2880,
+      "signal_only_shortage_seconds": 0.06,
+      "preferred_80ms_guard_shortage_seconds": 0.21999999999999975,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.06,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 10459200,
+          "end_sample": 10465440,
+          "start": 217.9,
+          "end": 218.03,
+          "duration": 0.13,
+          "peak_10ms_rms_dbfs": -53.02283865387173
+        },
+        {
+          "start_sample": 10528800,
+          "end_sample": 10559040,
+          "start": 219.35,
+          "end": 219.98000000000002,
+          "duration": 0.63,
+          "peak_10ms_rms_dbfs": -48.77776553952938
+        },
+        {
+          "start_sample": 10664640,
+          "end_sample": 10669440,
+          "start": 222.18,
+          "end": 222.28,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -50.27904273787592
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.47,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task4_cut1",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 5.7,
+      "protected_signal_span_seconds": 5.97,
+      "signal_only_shortage_samples": 12960,
+      "signal_only_shortage_seconds": 0.27,
+      "preferred_80ms_guard_shortage_seconds": 0.4299999999999997,
+      "strict_word_wave_capacity_samples": 15359,
+      "strict_word_wave_capacity_seconds": 0.31997916666666665,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [
+        {
+          "after_word_index": 303,
+          "before_word_index": 304,
+          "after_word": {
+            "word": " 라트,",
+            "start": 224.01999999999998,
+            "end": 225.16,
+            "probability": 0.41361067816615105,
+            "source_part_id": "part2",
+            "source_local_start": 30.1,
+            "source_local_end": 31.24
+          },
+          "before_word": {
+            "word": " 장비,",
+            "start": 225.67999999999998,
+            "end": 226.04,
+            "probability": 0.9952639639377594,
+            "source_part_id": "part2",
+            "source_local_start": 31.76,
+            "source_local_end": 32.12
+          },
+          "source_part_id": "part2",
+          "source_file": "narration/two-parts/part2/take.wav",
+          "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+          "quiet": {
+            "start_sample": 10799520,
+            "end_sample": 10829760,
+            "start": 224.99,
+            "end": 225.62,
+            "duration": 0.63,
+            "peak_10ms_rms_dbfs": -52.846272470842486
+          },
+          "source_local_quiet_start_sample": 1491360,
+          "source_local_quiet_end_sample": 1521600,
+          "safe_remove_virtual_window_samples": [
+            10807680,
+            10825920
+          ],
+          "safe_remove_source_local_window_samples": [
+            1499520,
+            1517760
+          ],
+          "lexical_gap_seconds": 0.5199791666666667,
+          "capacity_samples": 15359,
+          "capacity_seconds": 0.31997916666666665,
+          "energy_guard_each_side_seconds": 0.08,
+          "minimum_retained_quiet_and_lexical_gap_seconds": 0.2,
+          "word_overlap_in_safe_remove_window": false,
+          "application_authorized": false
+        }
+      ],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 10799520,
+          "end_sample": 10829760,
+          "start": 224.99,
+          "end": 225.62,
+          "duration": 0.63,
+          "peak_10ms_rms_dbfs": -52.846272470842486
+        },
+        {
+          "start_sample": 10857120,
+          "end_sample": 10863360,
+          "start": 226.19,
+          "end": 226.32,
+          "duration": 0.13,
+          "peak_10ms_rms_dbfs": -48.596734351089836
+        },
+        {
+          "start_sample": 10946400,
+          "end_sample": 10969440,
+          "start": 228.05,
+          "end": 228.53,
+          "duration": 0.48,
+          "peak_10ms_rms_dbfs": -50.97867530314134
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.79,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task4_cut2",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.233333333333333,
+      "protected_signal_span_seconds": 3.96,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 11134560,
+          "end_sample": 11138400,
+          "start": 231.97,
+          "end": 232.05,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -49.04726575453448
+        },
+        {
+          "start_sample": 11184960,
+          "end_sample": 11189280,
+          "start": 233.02,
+          "end": 233.11,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -48.6280069682265
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task4_cut3",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 3.3666666666666667,
+      "protected_signal_span_seconds": 3.03,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task4_cut4",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 3.1333333333333333,
+      "protected_signal_span_seconds": 2.94,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 11646240,
+          "end_sample": 11653920,
+          "start": 242.63,
+          "end": 242.79,
+          "duration": 0.16,
+          "peak_10ms_rms_dbfs": -52.478390891756234
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task4_cut5",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.133333333333334,
+      "protected_signal_span_seconds": 3.86,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 11911200,
+          "end_sample": 11915040,
+          "start": 248.15,
+          "end": 248.23000000000002,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -49.572617737356445
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task12_cut1",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.4,
+      "protected_signal_span_seconds": 3.95,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 12127200,
+          "end_sample": 12132480,
+          "start": 252.65,
+          "end": 252.76000000000002,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -50.60936483632108
+        },
+        {
+          "start_sample": 12158880,
+          "end_sample": 12169920,
+          "start": 253.31,
+          "end": 253.54,
+          "duration": 0.23,
+          "peak_10ms_rms_dbfs": -51.84970873880588
+        },
+        {
+          "start_sample": 12209280,
+          "end_sample": 12214080,
+          "start": 254.36,
+          "end": 254.46,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -55.94159939384441
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.07,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task12_cut2",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.766666666666667,
+      "protected_signal_span_seconds": 4.78,
+      "signal_only_shortage_samples": 640,
+      "signal_only_shortage_seconds": 0.013333333333333334,
+      "preferred_80ms_guard_shortage_seconds": 0.17333333333333378,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.013333333333333334,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 12427200,
+          "end_sample": 12452160,
+          "start": 258.9,
+          "end": 259.42,
+          "duration": 0.52,
+          "peak_10ms_rms_dbfs": -49.4039397354457
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.36,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task12_cut3",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 5.733333333333333,
+      "protected_signal_span_seconds": 6.07,
+      "signal_only_shortage_samples": 16160,
+      "signal_only_shortage_seconds": 0.33666666666666667,
+      "preferred_80ms_guard_shortage_seconds": 0.49666666666666703,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.33666666666666667,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 12682080,
+          "end_sample": 12687840,
+          "start": 264.21,
+          "end": 264.33,
+          "duration": 0.12,
+          "peak_10ms_rms_dbfs": -53.95597954957737
+        },
+        {
+          "start_sample": 12787680,
+          "end_sample": 12811680,
+          "start": 266.41,
+          "end": 266.91,
+          "duration": 0.5,
+          "peak_10ms_rms_dbfs": -49.71464970325772
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.34,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task3_cut1",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.7,
+      "protected_signal_span_seconds": 4.51,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 12986400,
+          "end_sample": 12991680,
+          "start": 270.55,
+          "end": 270.66,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -50.40661588744159
+        },
+        {
+          "start_sample": 13058400,
+          "end_sample": 13064640,
+          "start": 272.05,
+          "end": 272.18,
+          "duration": 0.13,
+          "peak_10ms_rms_dbfs": -50.39691336237584
+        },
+        {
+          "start_sample": 13088640,
+          "end_sample": 13097280,
+          "start": 272.68,
+          "end": 272.86,
+          "duration": 0.18,
+          "peak_10ms_rms_dbfs": -49.33810602671285
+        },
+        {
+          "start_sample": 13138560,
+          "end_sample": 13144320,
+          "start": 273.72,
+          "end": 273.84000000000003,
+          "duration": 0.12,
+          "peak_10ms_rms_dbfs": -52.94037945859812
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.02,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task3_cut2",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.6,
+      "protected_signal_span_seconds": 4.29,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 1920,
+      "strict_word_wave_capacity_seconds": 0.04,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [
+        {
+          "after_word_index": 375,
+          "before_word_index": 376,
+          "after_word": {
+            "word": " 이력,",
+            "start": 278.1,
+            "end": 278.36,
+            "probability": 0.9497489035129547,
+            "source_part_id": "part2",
+            "source_local_start": 84.18,
+            "source_local_end": 84.44
+          },
+          "before_word": {
+            "word": " 인라인",
+            "start": 278.62,
+            "end": 278.98,
+            "probability": 0.9822784066200256,
+            "source_part_id": "part2",
+            "source_local_start": 84.7,
+            "source_local_end": 85.06
+          },
+          "source_part_id": "part2",
+          "source_file": "narration/two-parts/part2/take.wav",
+          "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+          "quiet": {
+            "start_sample": 13361760,
+            "end_sample": 13373280,
+            "start": 278.37,
+            "end": 278.61,
+            "duration": 0.24,
+            "peak_10ms_rms_dbfs": -52.358075080080994
+          },
+          "source_local_quiet_start_sample": 4053600,
+          "source_local_quiet_end_sample": 4065120,
+          "safe_remove_virtual_window_samples": [
+            13365600,
+            13369440
+          ],
+          "safe_remove_source_local_window_samples": [
+            4057440,
+            4061280
+          ],
+          "lexical_gap_seconds": 0.26,
+          "capacity_samples": 1920,
+          "capacity_seconds": 0.04,
+          "energy_guard_each_side_seconds": 0.08,
+          "minimum_retained_quiet_and_lexical_gap_seconds": 0.2,
+          "word_overlap_in_safe_remove_window": false,
+          "application_authorized": false
+        }
+      ],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 13294560,
+          "end_sample": 13300320,
+          "start": 276.97,
+          "end": 277.09000000000003,
+          "duration": 0.12,
+          "peak_10ms_rms_dbfs": -51.70021328524136
+        },
+        {
+          "start_sample": 13307040,
+          "end_sample": 13311840,
+          "start": 277.23,
+          "end": 277.33,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -48.82827619244254
+        },
+        {
+          "start_sample": 13312320,
+          "end_sample": 13316160,
+          "start": 277.34000000000003,
+          "end": 277.42,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -52.93883413372947
+        },
+        {
+          "start_sample": 13361760,
+          "end_sample": 13373280,
+          "start": 278.37,
+          "end": 278.61,
+          "duration": 0.24,
+          "peak_10ms_rms_dbfs": -52.358075080080994
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.08,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task3_cut3",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.3,
+      "protected_signal_span_seconds": 3.87,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 13533120,
+          "end_sample": 13538880,
+          "start": 281.94,
+          "end": 282.06,
+          "duration": 0.12,
+          "peak_10ms_rms_dbfs": -54.06926927771836
+        },
+        {
+          "start_sample": 13599840,
+          "end_sample": 13605600,
+          "start": 283.33,
+          "end": 283.45,
+          "duration": 0.12,
+          "peak_10ms_rms_dbfs": -53.37946151998132
+        },
+        {
+          "start_sample": 13628640,
+          "end_sample": 13635840,
+          "start": 283.93,
+          "end": 284.08,
+          "duration": 0.15,
+          "peak_10ms_rms_dbfs": -52.177297708094265
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task3_cut4",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 5.066666666666666,
+      "protected_signal_span_seconds": 4.67,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 13864800,
+          "end_sample": 13874880,
+          "start": 288.85,
+          "end": 289.06,
+          "duration": 0.21,
+          "peak_10ms_rms_dbfs": -50.678274077562236
+        },
+        {
+          "start_sample": 13907520,
+          "end_sample": 13911360,
+          "start": 289.74,
+          "end": 289.82,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -51.81837011610383
+        },
+        {
+          "start_sample": 13948320,
+          "end_sample": 13952640,
+          "start": 290.59000000000003,
+          "end": 290.68,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -50.10588836558324
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.05,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task8_cut1",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 3.966666666666667,
+      "protected_signal_span_seconds": 3.7,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 14151360,
+          "end_sample": 14156640,
+          "start": 294.82,
+          "end": 294.93,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -53.31569731479451
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task8_cut2",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 3.1666666666666665,
+      "protected_signal_span_seconds": 2.79,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task8_cut3",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.133333333333334,
+      "protected_signal_span_seconds": 3.9,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 14537760,
+          "end_sample": 14543040,
+          "start": 302.87,
+          "end": 302.98,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -50.14420975244018
+        },
+        {
+          "start_sample": 14615520,
+          "end_sample": 14619360,
+          "start": 304.49,
+          "end": 304.57,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -48.81003534623012
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task8_cut4",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 5.0,
+      "protected_signal_span_seconds": 4.6,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 14908320,
+          "end_sample": 14912160,
+          "start": 310.59000000000003,
+          "end": 310.67,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -51.891499811442266
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task14_cut1",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 5.333333333333333,
+      "protected_signal_span_seconds": 4.93,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 9120,
+      "strict_word_wave_capacity_seconds": 0.19,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [
+        {
+          "after_word_index": 426,
+          "before_word_index": 427,
+          "after_word": {
+            "word": " 랏,",
+            "start": 314.65999999999997,
+            "end": 315.21999999999997,
+            "probability": 0.7188030282656351,
+            "source_part_id": "part2",
+            "source_local_start": 120.74,
+            "source_local_end": 121.3
+          },
+          "before_word": {
+            "word": " 장비,",
+            "start": 315.62,
+            "end": 315.96,
+            "probability": 0.991148829460144,
+            "source_part_id": "part2",
+            "source_local_start": 121.7,
+            "source_local_end": 122.04
+          },
+          "source_part_id": "part2",
+          "source_file": "narration/two-parts/part2/take.wav",
+          "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+          "quiet": {
+            "start_sample": 15129120,
+            "end_sample": 15147840,
+            "start": 315.19,
+            "end": 315.58,
+            "duration": 0.39,
+            "peak_10ms_rms_dbfs": -48.37380885339189
+          },
+          "source_local_quiet_start_sample": 5820960,
+          "source_local_quiet_end_sample": 5839680,
+          "safe_remove_virtual_window_samples": [
+            15132960,
+            15144000
+          ],
+          "safe_remove_source_local_window_samples": [
+            5824800,
+            5835840
+          ],
+          "lexical_gap_seconds": 0.4,
+          "capacity_samples": 9120,
+          "capacity_seconds": 0.19,
+          "energy_guard_each_side_seconds": 0.08,
+          "minimum_retained_quiet_and_lexical_gap_seconds": 0.2,
+          "word_overlap_in_safe_remove_window": false,
+          "application_authorized": false
+        }
+      ],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 15082560,
+          "end_sample": 15086400,
+          "start": 314.22,
+          "end": 314.3,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -51.81203351638932
+        },
+        {
+          "start_sample": 15113280,
+          "end_sample": 15120480,
+          "start": 314.86,
+          "end": 315.01,
+          "duration": 0.15,
+          "peak_10ms_rms_dbfs": -49.918103534577696
+        },
+        {
+          "start_sample": 15129120,
+          "end_sample": 15147840,
+          "start": 315.19,
+          "end": 315.58,
+          "duration": 0.39,
+          "peak_10ms_rms_dbfs": -48.37380885339189
+        },
+        {
+          "start_sample": 15167520,
+          "end_sample": 15173760,
+          "start": 315.99,
+          "end": 316.12,
+          "duration": 0.13,
+          "peak_10ms_rms_dbfs": -54.57765622216942
+        },
+        {
+          "start_sample": 15196800,
+          "end_sample": 15204480,
+          "start": 316.6,
+          "end": 316.76,
+          "duration": 0.16,
+          "peak_10ms_rms_dbfs": -52.794921265327865
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.23,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task14_cut2",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 5.6,
+      "protected_signal_span_seconds": 5.58,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0.14000000000000057,
+      "strict_word_wave_capacity_samples": 16800,
+      "strict_word_wave_capacity_seconds": 0.35,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [
+        {
+          "after_word_index": 437,
+          "before_word_index": 438,
+          "after_word": {
+            "word": " 상태,",
+            "start": 321.82,
+            "end": 322.12,
+            "probability": 0.7429397702217102,
+            "source_part_id": "part2",
+            "source_local_start": 127.9,
+            "source_local_end": 128.2
+          },
+          "before_word": {
+            "word": " 템커터와",
+            "start": 322.79999999999995,
+            "end": 323.72,
+            "probability": 0.7948871354262034,
+            "source_part_id": "part2",
+            "source_local_start": 128.88,
+            "source_local_end": 129.8
+          },
+          "source_part_id": "part2",
+          "source_file": "narration/two-parts/part2/take.wav",
+          "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+          "quiet": {
+            "start_sample": 15472320,
+            "end_sample": 15498720,
+            "start": 322.34000000000003,
+            "end": 322.89,
+            "duration": 0.55,
+            "peak_10ms_rms_dbfs": -50.236507181724264
+          },
+          "source_local_quiet_start_sample": 6164160,
+          "source_local_quiet_end_sample": 6190560,
+          "safe_remove_virtual_window_samples": [
+            15476160,
+            15494399
+          ],
+          "safe_remove_source_local_window_samples": [
+            6168000,
+            6186239
+          ],
+          "lexical_gap_seconds": 0.6799791666666667,
+          "capacity_samples": 16800,
+          "capacity_seconds": 0.35,
+          "energy_guard_each_side_seconds": 0.08,
+          "minimum_retained_quiet_and_lexical_gap_seconds": 0.2,
+          "word_overlap_in_safe_remove_window": false,
+          "application_authorized": false
+        }
+      ],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 15420000,
+          "end_sample": 15425280,
+          "start": 321.25,
+          "end": 321.36,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -49.24760485122331
+        },
+        {
+          "start_sample": 15472320,
+          "end_sample": 15498720,
+          "start": 322.34000000000003,
+          "end": 322.89,
+          "duration": 0.55,
+          "peak_10ms_rms_dbfs": -50.236507181724264
+        },
+        {
+          "start_sample": 15517920,
+          "end_sample": 15523200,
+          "start": 323.29,
+          "end": 323.40000000000003,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -50.2726362340377
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.39,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task14_cut3",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.1,
+      "protected_signal_span_seconds": 3.81,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 15726240,
+          "end_sample": 15730080,
+          "start": 327.63,
+          "end": 327.71,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -50.33630012080885
+        },
+        {
+          "start_sample": 15752160,
+          "end_sample": 15757440,
+          "start": 328.17,
+          "end": 328.28000000000003,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -52.922182211139116
+        },
+        {
+          "start_sample": 15772320,
+          "end_sample": 15778080,
+          "start": 328.59000000000003,
+          "end": 328.71,
+          "duration": 0.12,
+          "peak_10ms_rms_dbfs": -50.465452023166016
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task14_cut4",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.1,
+      "protected_signal_span_seconds": 3.39,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 16013280,
+          "end_sample": 16017600,
+          "start": 333.61,
+          "end": 333.7,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -50.00246859417889
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task14_cut5",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 5.5,
+      "protected_signal_span_seconds": 5.55,
+      "signal_only_shortage_samples": 2400,
+      "signal_only_shortage_seconds": 0.05,
+      "preferred_80ms_guard_shortage_seconds": 0.20999999999999996,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.05,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 16180800,
+          "end_sample": 16185600,
+          "start": 337.1,
+          "end": 337.2,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -49.661573581512506
+        },
+        {
+          "start_sample": 16224000,
+          "end_sample": 16236480,
+          "start": 338.0,
+          "end": 338.26,
+          "duration": 0.26,
+          "peak_10ms_rms_dbfs": -51.26551687763193
+        },
+        {
+          "start_sample": 16291680,
+          "end_sample": 16318080,
+          "start": 339.41,
+          "end": 339.96,
+          "duration": 0.55,
+          "peak_10ms_rms_dbfs": -52.696875221168035
+        },
+        {
+          "start_sample": 16322400,
+          "end_sample": 16326720,
+          "start": 340.05,
+          "end": 340.14,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -49.882359391890425
+        },
+        {
+          "start_sample": 16331040,
+          "end_sample": 16337280,
+          "start": 340.23,
+          "end": 340.36,
+          "duration": 0.13,
+          "peak_10ms_rms_dbfs": -51.86686960014302
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.49,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task16_cut1",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.733333333333333,
+      "protected_signal_span_seconds": 3.78,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 16583520,
+          "end_sample": 16587360,
+          "start": 345.49,
+          "end": 345.57,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -50.68377330783653
+        },
+        {
+          "start_sample": 16598400,
+          "end_sample": 16602240,
+          "start": 345.8,
+          "end": 345.88,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -53.04199482596693
+        },
+        {
+          "start_sample": 16642560,
+          "end_sample": 16646400,
+          "start": 346.72,
+          "end": 346.8,
+          "duration": 0.08,
+          "peak_10ms_rms_dbfs": -48.39333066016393
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task16_cut2",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 3.7333333333333334,
+      "protected_signal_span_seconds": 3.51,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 16767360,
+          "end_sample": 16772640,
+          "start": 349.32,
+          "end": 349.43,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -50.5435483851418
+        },
+        {
+          "start_sample": 16806720,
+          "end_sample": 16812000,
+          "start": 350.14,
+          "end": 350.25,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -51.21596628695086
+        },
+        {
+          "start_sample": 16846560,
+          "end_sample": 16853760,
+          "start": 350.97,
+          "end": 351.12,
+          "duration": 0.15,
+          "peak_10ms_rms_dbfs": -52.62540382344155
+        },
+        {
+          "start_sample": 16859520,
+          "end_sample": 16864800,
+          "start": 351.24,
+          "end": 351.35,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -49.541912507644696
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task16_cut3",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.866666666666666,
+      "protected_signal_span_seconds": 4.46,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 17039520,
+          "end_sample": 17043840,
+          "start": 354.99,
+          "end": 355.08,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -48.269719127522286
+        },
+        {
+          "start_sample": 17096160,
+          "end_sample": 17101440,
+          "start": 356.17,
+          "end": 356.28000000000003,
+          "duration": 0.11,
+          "peak_10ms_rms_dbfs": -48.00235398248859
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task16_cut4",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 8.366666666666667,
+      "protected_signal_span_seconds": 8.43,
+      "signal_only_shortage_samples": 3040,
+      "signal_only_shortage_seconds": 0.06333333333333334,
+      "preferred_80ms_guard_shortage_seconds": 0.22333333333333272,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.06333333333333334,
+      "strict_capacity_covers_signal_only_shortage": false,
+      "strict_capacity_covers_preferred_guard_shortage": false,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 17338080,
+          "end_sample": 17342880,
+          "start": 361.21,
+          "end": 361.31,
+          "duration": 0.1,
+          "peak_10ms_rms_dbfs": -55.77908201882628
+        },
+        {
+          "start_sample": 17431200,
+          "end_sample": 17462400,
+          "start": 363.15000000000003,
+          "end": 363.8,
+          "duration": 0.65,
+          "peak_10ms_rms_dbfs": -57.629868547787986
+        },
+        {
+          "start_sample": 17583840,
+          "end_sample": 17588160,
+          "start": 366.33,
+          "end": 366.42,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -53.86017528939188
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.49,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "task16_cut5",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 2.466666666666667,
+      "protected_signal_span_seconds": 2.01,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "ending_cut1",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 2.2333333333333334,
+      "protected_signal_span_seconds": 1.81,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "ending_cut2",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 3.2666666666666666,
+      "protected_signal_span_seconds": 2.68,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 0,
+      "strict_word_wave_capacity_seconds": 0.0,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 18054240,
+          "end_sample": 18058560,
+          "start": 376.13,
+          "end": 376.22,
+          "duration": 0.09,
+          "peak_10ms_rms_dbfs": -52.79465184451559
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.0,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "ending_cut3",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 4.433333333333334,
+      "protected_signal_span_seconds": 3.93,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 3360,
+      "strict_word_wave_capacity_seconds": 0.07,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [
+        {
+          "after_word_index": 517,
+          "before_word_index": 518,
+          "after_word": {
+            "word": " 데이터분석,",
+            "start": 380.44,
+            "end": 381.48,
+            "probability": 0.8518711209297181,
+            "source_part_id": "part2",
+            "source_local_start": 186.52,
+            "source_local_end": 187.56
+          },
+          "before_word": {
+            "word": " 더",
+            "start": 381.86,
+            "end": 381.96,
+            "probability": 0.9862216711044312,
+            "source_part_id": "part2",
+            "source_local_start": 187.94,
+            "source_local_end": 188.04
+          },
+          "source_part_id": "part2",
+          "source_file": "narration/two-parts/part2/take.wav",
+          "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+          "quiet": {
+            "start_sample": 18313920,
+            "end_sample": 18326880,
+            "start": 381.54,
+            "end": 381.81,
+            "duration": 0.27,
+            "peak_10ms_rms_dbfs": -51.71885982073228
+          },
+          "source_local_quiet_start_sample": 9005760,
+          "source_local_quiet_end_sample": 9018720,
+          "safe_remove_virtual_window_samples": [
+            18317760,
+            18323040
+          ],
+          "safe_remove_source_local_window_samples": [
+            9009600,
+            9014880
+          ],
+          "lexical_gap_seconds": 0.38,
+          "capacity_samples": 3360,
+          "capacity_seconds": 0.07,
+          "energy_guard_each_side_seconds": 0.08,
+          "minimum_retained_quiet_and_lexical_gap_seconds": 0.2,
+          "word_overlap_in_safe_remove_window": false,
+          "application_authorized": false
+        }
+      ],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 18252000,
+          "end_sample": 18257760,
+          "start": 380.25,
+          "end": 380.37,
+          "duration": 0.12,
+          "peak_10ms_rms_dbfs": -52.40047865318657
+        },
+        {
+          "start_sample": 18313920,
+          "end_sample": 18326880,
+          "start": 381.54,
+          "end": 381.81,
+          "duration": 0.27,
+          "peak_10ms_rms_dbfs": -51.71885982073228
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.11,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    },
+    {
+      "cut_id": "ending_cut5",
+      "source_part_id": "part2",
+      "source_file": "narration/two-parts/part2/take.wav",
+      "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+      "fixed_slot_seconds": 5.8,
+      "protected_signal_span_seconds": 5.57,
+      "signal_only_shortage_samples": 0,
+      "signal_only_shortage_seconds": 0.0,
+      "preferred_80ms_guard_shortage_seconds": 0,
+      "strict_word_wave_capacity_samples": 16800,
+      "strict_word_wave_capacity_seconds": 0.35,
+      "strict_remaining_signal_shortage_seconds": 0.0,
+      "strict_capacity_covers_signal_only_shortage": true,
+      "strict_capacity_covers_preferred_guard_shortage": true,
+      "strict_candidates": [
+        {
+          "after_word_index": 525,
+          "before_word_index": 526,
+          "after_word": {
+            "word": " 변화,",
+            "start": 386.67999999999995,
+            "end": 387.17999999999995,
+            "probability": 0.9967537224292755,
+            "source_part_id": "part2",
+            "source_local_start": 192.76,
+            "source_local_end": 193.26
+          },
+          "before_word": {
+            "word": " 이제",
+            "start": 387.84,
+            "end": 388.03999999999996,
+            "probability": 0.9220557808876038,
+            "source_part_id": "part2",
+            "source_local_start": 193.92,
+            "source_local_end": 194.12
+          },
+          "source_part_id": "part2",
+          "source_file": "narration/two-parts/part2/take.wav",
+          "source_file_sha256": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+          "quiet": {
+            "start_sample": 18589920,
+            "end_sample": 18616320,
+            "start": 387.29,
+            "end": 387.84000000000003,
+            "duration": 0.55,
+            "peak_10ms_rms_dbfs": -52.85130288058024
+          },
+          "source_local_quiet_start_sample": 9281760,
+          "source_local_quiet_end_sample": 9308160,
+          "safe_remove_virtual_window_samples": [
+            18593760,
+            18612480
+          ],
+          "safe_remove_source_local_window_samples": [
+            9285600,
+            9304320
+          ],
+          "lexical_gap_seconds": 0.66,
+          "capacity_samples": 16800,
+          "capacity_seconds": 0.35,
+          "energy_guard_each_side_seconds": 0.08,
+          "minimum_retained_quiet_and_lexical_gap_seconds": 0.2,
+          "word_overlap_in_safe_remove_window": false,
+          "application_authorized": false
+        }
+      ],
+      "all_internal_wave_quiet_regions": [
+        {
+          "start_sample": 18589920,
+          "end_sample": 18616320,
+          "start": 387.29,
+          "end": 387.84000000000003,
+          "duration": 0.55,
+          "peak_10ms_rms_dbfs": -52.85130288058024
+        }
+      ],
+      "optimistic_wave_only_capacity_with_160ms_pause_and_80ms_guards_seconds": 0.39,
+      "optimistic_remaining_signal_shortage_seconds": 0.0,
+      "optimistic_bound_is_not_an_edit_plan": true
+    }
+  ],
+  "limitations": [
+    "No ASR timestamp was overridden and no first-take timing was reused.",
+    "A low-energy interval inside a timestamped word is not an executable deletion candidate.",
+    "The generous wave-only bound is deliberately unsafe to execute; even it can show that quiet shortening cannot provide enough time under the stated pause/guard policy.",
+    "Signal span includes all original PCM between sentence-boundary quiet regions, including intentional in-sentence pauses. It is not a human phonetic label of every sample.",
+    "Root/independent review of any exact new edit map is required before application. No edit map or shortened WAV has been applied."
+  ]
+}

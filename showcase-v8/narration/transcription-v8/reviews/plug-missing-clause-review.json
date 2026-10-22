@@ -1,0 +1,389 @@
+{
+  "status": "FAIL",
+  "revision": 8,
+  "cut_id": "task16_cut3",
+  "reason": "GENERATION_OMISSION_SUPPORTED_BY_INDEPENDENT_NO_HINT_LOCAL_ASR",
+  "generated_at_utc": "2026-10-15T09:37:55Z",
+  "expected_narration": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+  "missing_phrase": "대시보드 자연어 분석을 제공합니다.",
+  "source": {
+    "source_file": "narration/elevenlabs/take.wav",
+    "source_sha256": "248deebef2807c2de8481dea645e471c1f0d4631310a6ea49593430ad27cd0e6",
+    "sample_rate": 48000,
+    "channels": 1,
+    "sample_width": 2,
+    "total_samples": 15690240,
+    "duration": 326.88,
+    "region_start": 306,
+    "region_end": 318,
+    "source_start_sample": 14688000,
+    "source_end_sample": 15264000,
+    "region_pcm_sha256": "833f782ec8bb0497bd90939fd48656229c854af2057a59687557864c5bc893d9",
+    "region_file": "plug-source-306-318.wav",
+    "note": "Exact PCM sample slice; original source unchanged. No ASR hints or prompt will be supplied."
+  },
+  "source_master_unchanged": true,
+  "source_master_sha256_after_review": "248deebef2807c2de8481dea645e471c1f0d4631310a6ea49593430ad27cd0e6",
+  "regional_asr": {
+    "engine": "Installed local OpenAI Whisper small, CPU, fp16 False, threads 4",
+    "command": [
+      "/opt/homebrew/bin/whisper",
+      "/Users/jk/projects/media-maker/showcase-v8/narration/transcription-v8/reviews/plug-source-306-318.wav",
+      "--language",
+      "ko",
+      "--task",
+      "transcribe",
+      "--word_timestamps",
+      "True",
+      "--output_format",
+      "json",
+      "--output_dir",
+      "/Users/jk/projects/media-maker/showcase-v8/narration/transcription-v8/reviews",
+      "--verbose",
+      "False",
+      "--condition_on_previous_text",
+      "False"
+    ],
+    "initial_prompt_supplied": false,
+    "text_hint_supplied": false,
+    "previous_text_conditioning": false,
+    "external_service_used": false,
+    "exit_code": 0,
+    "region_text": " 계측 데이터의 수집과 전 처리, 적재를 자동화합니다. 이미지 기반 5개측 후보 탐지와 자료상 수집 시간은 1200초에서 75초로 단일층 검증의 리뷰 대상",
+    "source_time_words": [
+      {
+        "word": " 계측",
+        "start": 0.0,
+        "end": 0.74,
+        "probability": 0.684245894352595,
+        "region_start": 0.0,
+        "region_end": 0.74,
+        "source_start": 306.0,
+        "source_end": 306.74
+      },
+      {
+        "word": " 데이터의",
+        "start": 0.74,
+        "end": 1.2,
+        "probability": 0.9031791836023331,
+        "region_start": 0.74,
+        "region_end": 1.2,
+        "source_start": 306.74,
+        "source_end": 307.2
+      },
+      {
+        "word": " 수집과",
+        "start": 1.2,
+        "end": 1.74,
+        "probability": 0.9865826964378357,
+        "region_start": 1.2,
+        "region_end": 1.74,
+        "source_start": 307.2,
+        "source_end": 307.74
+      },
+      {
+        "word": " 전",
+        "start": 1.74,
+        "end": 2.0,
+        "probability": 0.9977274537086487,
+        "region_start": 1.74,
+        "region_end": 2.0,
+        "source_start": 307.74,
+        "source_end": 308.0
+      },
+      {
+        "word": " 처리,",
+        "start": 2.0,
+        "end": 2.36,
+        "probability": 0.6602872312068939,
+        "region_start": 2.0,
+        "region_end": 2.36,
+        "source_start": 308.0,
+        "source_end": 308.36
+      },
+      {
+        "word": " 적재를",
+        "start": 2.58,
+        "end": 3.08,
+        "probability": 0.8677347898483276,
+        "region_start": 2.58,
+        "region_end": 3.08,
+        "source_start": 308.58,
+        "source_end": 309.08
+      },
+      {
+        "word": " 자동화합니다.",
+        "start": 3.08,
+        "end": 3.88,
+        "probability": 0.9411165565252304,
+        "region_start": 3.08,
+        "region_end": 3.88,
+        "source_start": 309.08,
+        "source_end": 309.88
+      },
+      {
+        "word": " 이미지",
+        "start": 4.18,
+        "end": 4.64,
+        "probability": 0.9604621231555939,
+        "region_start": 4.18,
+        "region_end": 4.64,
+        "source_start": 310.18,
+        "source_end": 310.64
+      },
+      {
+        "word": " 기반",
+        "start": 4.64,
+        "end": 4.94,
+        "probability": 0.9368121325969696,
+        "region_start": 4.64,
+        "region_end": 4.94,
+        "source_start": 310.64,
+        "source_end": 310.94
+      },
+      {
+        "word": " 5개측",
+        "start": 4.94,
+        "end": 5.52,
+        "probability": 0.7411825731396675,
+        "region_start": 4.94,
+        "region_end": 5.52,
+        "source_start": 310.94,
+        "source_end": 311.52
+      },
+      {
+        "word": " 후보",
+        "start": 5.52,
+        "end": 5.72,
+        "probability": 0.37676742672920227,
+        "region_start": 5.52,
+        "region_end": 5.72,
+        "source_start": 311.52,
+        "source_end": 311.72
+      },
+      {
+        "word": " 탐지와",
+        "start": 5.72,
+        "end": 6.32,
+        "probability": 0.9644668102264404,
+        "region_start": 5.72,
+        "region_end": 6.32,
+        "source_start": 311.72,
+        "source_end": 312.32
+      },
+      {
+        "word": " 자료상",
+        "start": 6.32,
+        "end": 6.86,
+        "probability": 0.9323597153027853,
+        "region_start": 6.32,
+        "region_end": 6.86,
+        "source_start": 312.32,
+        "source_end": 312.86
+      },
+      {
+        "word": " 수집",
+        "start": 6.86,
+        "end": 7.22,
+        "probability": 0.9931520819664001,
+        "region_start": 6.86,
+        "region_end": 7.22,
+        "source_start": 312.86,
+        "source_end": 313.22
+      },
+      {
+        "word": " 시간은",
+        "start": 7.22,
+        "end": 7.76,
+        "probability": 0.7694533169269562,
+        "region_start": 7.22,
+        "region_end": 7.76,
+        "source_start": 313.22,
+        "source_end": 313.76
+      },
+      {
+        "word": " 1200초에서",
+        "start": 7.76,
+        "end": 8.88,
+        "probability": 0.9027119278907776,
+        "region_start": 7.76,
+        "region_end": 8.88,
+        "source_start": 313.76,
+        "source_end": 314.88
+      },
+      {
+        "word": " 75초로",
+        "start": 8.88,
+        "end": 9.92,
+        "probability": 0.9894320368766785,
+        "region_start": 8.88,
+        "region_end": 9.92,
+        "source_start": 314.88,
+        "source_end": 315.92
+      },
+      {
+        "word": " 단일층",
+        "start": 9.92,
+        "end": 10.92,
+        "probability": 0.8668851256370544,
+        "region_start": 9.92,
+        "region_end": 10.92,
+        "source_start": 315.92,
+        "source_end": 316.92
+      },
+      {
+        "word": " 검증의",
+        "start": 10.92,
+        "end": 11.44,
+        "probability": 0.932118276755015,
+        "region_start": 10.92,
+        "region_end": 11.44,
+        "source_start": 316.92,
+        "source_end": 317.44
+      },
+      {
+        "word": " 리뷰",
+        "start": 11.44,
+        "end": 11.74,
+        "probability": 0.7249095588922501,
+        "region_start": 11.44,
+        "region_end": 11.74,
+        "source_start": 317.44,
+        "source_end": 317.74
+      },
+      {
+        "word": " 대상",
+        "start": 11.74,
+        "end": 11.98,
+        "probability": 0.8356307744979858,
+        "region_start": 11.74,
+        "region_end": 11.98,
+        "source_start": 317.74,
+        "source_end": 317.98
+      }
+    ]
+  },
+  "comparison": {
+    "full_asr_preceding_phrase": {
+      "text": "이미지 기반 5개 측 후보 탐지와",
+      "start": 310.3,
+      "end": 312.32
+    },
+    "independent_region_preceding_phrase": {
+      "text": "이미지 기반 5개측 후보 탐지와",
+      "start": 310.18,
+      "end": 312.32
+    },
+    "full_asr_next_phrase": {
+      "text": "자료상 수집 시간은 1200초에서 75초로",
+      "start": 312.32,
+      "end": 315.92
+    },
+    "independent_region_next_phrase": {
+      "text": "자료상 수집 시간은 1200초에서 75초로",
+      "start": 312.32,
+      "end": 315.92
+    },
+    "both_omit_requested_clause": true,
+    "both_move_directly_from_tamjiwa_to_existing_numeric_sentence": true,
+    "orthographic_caveat": "ASR 5개측/5개 측 is a phonetic spelling variant for 오계측 and is not treated as the missing clause."
+  },
+  "waveform_support": {
+    "file": "plug-source-waveform.json",
+    "note": "10ms RMS confirms speech continues around the approximate 312.32s handoff. Waveform energy alone does not identify Korean words.",
+    "handoff_312_15_to_312_60_rms_dbfs": -23.38750003038445,
+    "quiet_regions": [
+      {
+        "start": 306.07,
+        "end": 306.42,
+        "duration": 0.35000000000000003
+      },
+      {
+        "start": 306.69,
+        "end": 306.77,
+        "duration": 0.08
+      },
+      {
+        "start": 306.94,
+        "end": 307.01,
+        "duration": 0.07
+      },
+      {
+        "start": 307.49,
+        "end": 307.57,
+        "duration": 0.08
+      },
+      {
+        "start": 308.44,
+        "end": 308.57,
+        "duration": 0.13
+      },
+      {
+        "start": 308.7,
+        "end": 308.82,
+        "duration": 0.12
+      },
+      {
+        "start": 309.97,
+        "end": 310.28,
+        "duration": 0.31
+      },
+      {
+        "start": 311.31,
+        "end": 311.37,
+        "duration": 0.06
+      },
+      {
+        "start": 314.43,
+        "end": 314.51,
+        "duration": 0.08
+      },
+      {
+        "start": 316.03,
+        "end": 316.47,
+        "duration": 0.44
+      }
+    ]
+  },
+  "conclusion_ko": "전체 전사와 독립적인 무힌트 12초 구간 재전사 모두 후보 탐지와 이후 대시보드·자연어 분석·제공합니다 구절 없이 바로 기존 수치 문장으로 이어집니다. 현 원본 take에서 해당 원고 구절이 생성되지 않은 것으로 높은 신뢰도로 판단하며, 원고 전체 발화 보존 게이트를 통과시키지 않습니다.",
+  "limits": [
+    "Word timestamps are approximate ASR alignment, not sample-accurate phoneme boundaries.",
+    "This review used independent local ASR plus exact-PCM waveform timing. Direct human listening was not performed by this check.",
+    "This receipt applies to source SHA 248deebef2807c2de8481dea645e471c1f0d4631310a6ea49593430ad27cd0e6 only; a newly generated take requires a separate complete narration check."
+  ],
+  "actions": {
+    "original_audio_modified": false,
+    "narration_script_modified": false,
+    "numeric_claims_modified": false,
+    "timeline_or_video_modified": false,
+    "tts_generated_by_this_review": false,
+    "writes_limited_to": "narration/transcription-v8/reviews/"
+  },
+  "evidence_files": [
+    {
+      "file": "plug-source-306-318.wav",
+      "sha256": "aeaab881cef496a026a8806c3b4ef0285bbb683644fcbbd0887302c33f6d8e85",
+      "bytes": 1152044
+    },
+    {
+      "file": "plug-source-306-318.json",
+      "sha256": "2708a8fbc1a714c6e4009ee60d7d15aaba97a5afa7318cfcabda7507dcbe2422",
+      "bytes": 3827
+    },
+    {
+      "file": "plug-source-region.json",
+      "sha256": "818abcfc2367108d82e06f449386c829c9eb06aa166eeeb30b05ff99ce34a6ab",
+      "bytes": 605
+    },
+    {
+      "file": "plug-source-waveform.json",
+      "sha256": "e27d2cb218396d6676d84178de5fcae426754a3811d23b0ab38ad6ba2d9a70f9",
+      "bytes": 17166
+    },
+    {
+      "file": "plug-original-full-asr-region.json",
+      "sha256": "0dd1dc00cc10ac77fb6ad83b376677c26ec71908115c099b23a4fd4d14a97d7b",
+      "bytes": 8645
+    }
+  ]
+}

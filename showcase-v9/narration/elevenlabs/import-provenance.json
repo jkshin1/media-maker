@@ -1,0 +1,19 @@
+{
+  "generation_id": "m9RVGBO0IeXizGA1XFO7",
+  "model_id": "eleven_v4",
+  "voice_id": "JQaWvPoEUkcuOTfxFYpJ",
+  "voice_name": "Kyung - Warm, Calm and Clear",
+  "prompt_file": "narration/generated-prompt.txt",
+  "prompt_sha256": "7debebde11041a9a375beff537da17d7db7897d845ee10109497208ee3f82300",
+  "generation_mode": "single_take",
+  "scope": "complete_showcase_single_take",
+  "language_code": "ko",
+  "settings_reference": "narration/generation-settings-v9.json",
+  "original_sha256": "5c3f4e2d013d55808551a1abe46b97bf235353c1ceb895d7f98beceb34388328",
+  "master_sha256": "b2e19801305df1f1e2624fca327b14943f9d04f696271869b09225afc42ba12b",
+  "sample_rate": 48000,
+  "channels": 1,
+  "samples": 15651840,
+  "duration": 326.08,
+  "settings_scope": "Connector selected voice and model; additional saved voice settings are not exposed by this speech tool and are not claimed as independently applied."
+}

@@ -1,0 +1,1357 @@
+{
+  "source": "reference/user-revision8-brief.json",
+  "source_sha256": "43d3c4562980be8bddcce71264d156548ee6b10fc606f99edec69a42a395c2b2",
+  "order": [
+    "task11",
+    "task13",
+    "task7",
+    "task17",
+    "task5",
+    "task9",
+    "task4",
+    "task12",
+    "task3",
+    "task8",
+    "task14",
+    "task16"
+  ],
+  "tasks": {
+    "task11": {
+      "title": "RSAB SNM Overlay 열화 원인 분석 및 솔루션 제시 Agent",
+      "team": "DRAM트랙Photo",
+      "owner": "장민희 TL",
+      "cuts": [
+        {
+          "title": "여러 도구의 반복 조회",
+          "narration": "여러 도구에서 필터를 설정하고, 담당자의 경험으로 열화 원인을 분석했습니다.",
+          "key_phrases": [
+            "SmartDCP · TAS · Qoniac",
+            "도구별 필터 설정",
+            "지식·경험에 의존한 열화 원인 분석"
+          ],
+          "spoken_text": "여러 도구에서 필터를 설정하고, 담당자의 경험으로 열화 원인을 분석했습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "Lot ID로 통합 조회",
+          "narration": "Lot ID를 입력하면 Map과 Trend, K-param을 함께 조회합니다.",
+          "key_phrases": [
+            "Lot ID 입력",
+            "Map · Trend · K-param 통합 조회"
+          ],
+          "spoken_text": "로트 아이디를 입력하면 맵과 트렌드, 케이 파라미터를 함께 조회합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "표준 기준으로 진단 지원",
+          "narration": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+          "key_phrases": [
+            "표준 진단 기준",
+            "원인 분석 · 솔루션 제시 지원"
+          ],
+          "spoken_text": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "분석 시간 변화",
+          "narration": "기존 15분에서 1시간이던 분석은, 자료 기준 건당 수분으로 줄었습니다.",
+          "key_phrases": [
+            "자료 기준",
+            "분석 시간 15분~1시간 → 건당 수분"
+          ],
+          "metric": {
+            "label": "분석 시간",
+            "before": "15분~1시간",
+            "after": "건당 수분",
+            "basis": "사용자 제공 자료 기준",
+            "scope": null,
+            "independently_verified": false
+          },
+          "spoken_text": "기존 십오 분에서 한 시간이던 분석은, 자료 기준 건당 수분으로 줄었습니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "근거를 한 화면에서 확인",
+          "narration": "반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다.",
+          "key_phrases": [
+            "도구별 조회·반복 설정 감소",
+            "한 화면에서 분석 근거 확인"
+          ],
+          "spoken_text": "반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task13": {
+      "title": "장비 Daily Report Auto Mail System",
+      "team": "R&D장비기술 Photo",
+      "owner": "김도훈 TL",
+      "cuts": [
+        {
+          "title": "매일 반복되는 보고 업무",
+          "narration": "매일 여러 시스템의 장비 이슈와 PM 계획을 모아, 엑셀 정리부터 메일 발송까지 반복했습니다.",
+          "key_phrases": [
+            "장비 이슈 · PM 계획 수집",
+            "엑셀 정리 → 보고서 작성 → 메일 발송"
+          ],
+          "spoken_text": "매일 여러 시스템의 장비 이슈와 피엠 계획을 모아, 엑셀 정리부터 메일 발송까지 반복했습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "장비 이력과 계획 수집",
+          "narration": "Agent가 장비 이력과 PM 계획을 조회합니다.",
+          "key_phrases": [
+            "장비 이력 · PM 계획 조회"
+          ],
+          "spoken_text": "에이전트가 장비 이력과 피엠 계획을 조회합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "오전 6시 표준 보고 메일",
+          "narration": "내용을 요약해 오전 6시에 표준 HTML 보고 메일을 자동 발송합니다.",
+          "key_phrases": [
+            "조회 내용 요약",
+            "오전 6시 자동 발송",
+            "표준 HTML 보고 메일"
+          ],
+          "spoken_text": "내용을 요약해 오전 여섯 시에 표준 에이치티엠엘 보고 메일을 자동 발송합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "보고 작성 시간 변화",
+          "narration": "자료 기준, 일일 보고 작성은 20분에서 0분으로, 연간 약 122시간을 절감했습니다.",
+          "key_phrases": [
+            "자료 기준",
+            "일일 보고 작성 20분 → 0분",
+            "연간 약 122시간 절감"
+          ],
+          "metric": [
+            {
+              "label": "일일 보고 작성",
+              "before": "20분",
+              "after": "0분",
+              "basis": "사용자 제공 자료 기준",
+              "scope": null,
+              "independently_verified": false
+            },
+            {
+              "label": "연간 절감 시간",
+              "value": "약 122시간",
+              "basis": "사용자 제공 자료 기준",
+              "independently_verified": false
+            }
+          ],
+          "spoken_text": "자료 기준, 일일 보고 작성은 이십 분에서 영 분으로, 연간 약 백이십이 시간을 절감했습니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "검토와 장비 대응에 집중",
+          "narration": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다.",
+          "key_phrases": [
+            "메일 확인·검토",
+            "장비 대응에 집중"
+          ],
+          "spoken_text": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task7": {
+      "title": "Smart Process Architecture AI Agent",
+      "team": "Plug Etch",
+      "owner": "권혜선 TL",
+      "cuts": [
+        {
+          "title": "흩어진 자료와 전문가 의존",
+          "narration": "HyDisk와 Cube에서 과거 자료를 찾고 전문가에게 물어야 해, 지식이 특정 담당자에게 편중됐습니다.",
+          "key_phrases": [
+            "HyDisk · Cube 과거 자료 탐색",
+            "자료 위치 파악 어려움",
+            "전문가 문의 · 지식 편중"
+          ],
+          "spoken_text": "하이디스크와 큐브에서 과거 자료를 찾고 전문가에게 물어야 해, 지식이 특정 담당자에게 편중됐습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "평가 목적을 입력",
+          "narration": "평가 목적을 입력하면 내부 지식 아카이브를 검색합니다.",
+          "key_phrases": [
+            "평가 목적 입력",
+            "내부 지식 아카이브 검색"
+          ],
+          "spoken_text": "평가 목적을 입력하면 내부 지식 아카이브를 검색합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "Recipe와 근거를 함께 제안",
+          "narration": "관련 Recipe와 근거 자료를 함께 제안합니다.",
+          "key_phrases": [
+            "Recipe 제안",
+            "관련 근거 자료 함께 제공"
+          ],
+          "spoken_text": "관련 레시피와 근거 자료를 함께 제안합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "평가 계획 수립 지원",
+          "narration": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+          "key_phrases": [
+            "평가 계획 수립 지원",
+            "자료 탐색 · 구두 문의 의존 감소"
+          ],
+          "spoken_text": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "전문가 지식을 지속 활용",
+          "narration": "전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+          "key_phrases": [
+            "전문가 지식 축적",
+            "담당자 변경 후에도 활용할 기반"
+          ],
+          "spoken_text": "전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task17": {
+      "title": "TCAD-TEM 이미지 연계를 통한 이미지 Labeling Tool 개발",
+      "team": "DRAM ETCH",
+      "owner": "김성후 TL",
+      "cuts": [
+        {
+          "title": "수동 회전·측정·기록",
+          "narration": "TEM 이미지를 돌리고 측정선을 그어 값을 기록하면서, 측정자와 이미지 상태에 따른 편차가 생겼습니다.",
+          "key_phrases": [
+            "TEM 이미지 수동 회전",
+            "측정선 작성 · 항목별 기록·정리",
+            "측정자·이미지 상태에 따른 편차"
+          ],
+          "spoken_text": "템 이미지를 돌리고 측정선을 그어 값을 기록하면서, 측정자와 이미지 상태에 따른 편차가 생겼습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "기울기와 위치 분석",
+          "narration": "이미지 기울기와 측정 위치를 분석합니다.",
+          "key_phrases": [
+            "이미지 기울기 분석",
+            "측정 위치 분석"
+          ],
+          "spoken_text": "이미지 기울기와 측정 위치를 분석합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "측정 결과와 이력 저장",
+          "narration": "측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다.",
+          "key_phrases": [
+            "측정값 · 좌표 자동 생성",
+            "측정선 오버레이",
+            "결과·이력 저장"
+          ],
+          "spoken_text": "측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "이미지당 측정 시간 변화",
+          "narration": "자료 기준, 이미지당 측정 시간은 5분에서 6초로 줄었습니다.",
+          "key_phrases": [
+            "자료 기준",
+            "이미지당 측정 5분 → 6초"
+          ],
+          "metric": {
+            "label": "이미지당 측정 시간",
+            "before": "5분",
+            "after": "6초",
+            "basis": "사용자 제공 자료 기준",
+            "scope": null,
+            "independently_verified": false
+          },
+          "spoken_text": "자료 기준, 이미지당 측정 시간은 오 분에서 육 초로 줄었습니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "예외 확인과 최종 검증",
+          "narration": "담당자는 결과 검토와 예외 확인에 집중하며, 새 이미지의 누락·오류 보완과 사람의 최종 검증은 계속 필요합니다.",
+          "key_phrases": [
+            "반복 측정 → 결과 검토·예외 확인",
+            "새 이미지의 측정 누락·오류 보완 필요",
+            "사람의 최종 검증 필요"
+          ],
+          "caveat": "새 이미지의 측정 누락·오류 보완과 사람의 최종 검증이 계속 필요합니다.",
+          "spoken_text": "담당자는 결과 검토와 예외 확인에 집중하며, 새 이미지의 누락·오류 보완과 사람의 최종 검증은 계속 필요합니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task5": {
+      "title": "C&C Working Board 내 AI Agent 구축",
+      "team": "C&C Tech Design",
+      "owner": "서우석 TL",
+      "cuts": [
+        {
+          "title": "파일 탐색과 수동 취합",
+          "narration": "자료가 어느 파일에 있는지 찾고, 여러 표를 열어 비교와 복사, 요약을 반복했습니다.",
+          "key_phrases": [
+            "자료 파일 위치 탐색",
+            "여러 표 수동 비교·복사·요약"
+          ],
+          "spoken_text": "자료가 어느 파일에 있는지 찾고, 여러 표를 열어 비교와 복사, 요약을 반복했습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "Working Board에 데이터 등록",
+          "narration": "데이터를 Working Board에 등록합니다.",
+          "key_phrases": [
+            "Working Board 데이터 등록"
+          ],
+          "spoken_text": "데이터를 워킹 보드에 등록합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "자연어 추출과 교차 분석",
+          "narration": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+          "key_phrases": [
+            "자연어 질문",
+            "필요 정보 추출",
+            "여러 데이터 교차 분석"
+          ],
+          "spoken_text": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "데이터 조회 창구 단일화",
+          "narration": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+          "key_phrases": [
+            "데이터 조회 창구 단일화",
+            "파일 탐색·반복 취합 부담 감소"
+          ],
+          "spoken_text": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "자료와 도메인 지식 함께 관리",
+          "narration": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+          "key_phrases": [
+            "분석에 필요한 자료 관리",
+            "도메인 지식 함께 관리할 기반"
+          ],
+          "spoken_text": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task9": {
+      "title": "LLM을 활용한 C&C 공정 Inline Data 관리",
+      "team": "C&C Tech Design",
+      "owner": "윤지욱 TL",
+      "cuts": [
+        {
+          "title": "Spec out 이후 수동 조사",
+          "narration": "Spec out이 생기면 여러 공정의 이력을 조사하고 데이터를 가공해, 연계공정의 이상 여부를 확인했습니다.",
+          "key_phrases": [
+            "Spec out 발생",
+            "여러 공정 이력 조사",
+            "수동 데이터 가공 · 연계공정 이상 여부 확인"
+          ],
+          "spoken_text": "스펙 아웃이 생기면 여러 공정의 이력을 조사하고 데이터를 가공해, 연계공정의 이상 여부를 확인했습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "Lot ID와 메인 공정 입력",
+          "narration": "Lot ID와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+          "key_phrases": [
+            "Lot ID · 메인 공정 입력",
+            "데이터 수집·통합"
+          ],
+          "spoken_text": "로트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "분석부터 후보와 리포트까지",
+          "narration": "상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다.",
+          "key_phrases": [
+            "상관관계 · 이상치 분석",
+            "원인공정 후보 랭킹",
+            "리포트 생성"
+          ],
+          "spoken_text": "상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "분석 시간 변화",
+          "narration": "자료에는 분석 시간이 70퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+          "key_phrases": [
+            "자료 기준",
+            "분석 시간 70% 이상 단축"
+          ],
+          "metric": {
+            "label": "분석 시간 단축",
+            "value": "70% 이상",
+            "basis": "사용자 제공 자료 기준",
+            "independently_verified": false
+          },
+          "spoken_text": "자료에는 분석 시간이 칠십 퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "일관된 원인 탐색 지원",
+          "narration": "분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.",
+          "key_phrases": [
+            "하나의 분석 흐름",
+            "원인 탐색 시간 단축",
+            "분석 기준 일관 적용",
+            "후보 랭킹 ≠ 확정 원인"
+          ],
+          "caveat": "원인공정 랭킹은 확정 원인이 아닌 검토 후보입니다.",
+          "spoken_text": "분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task4": {
+      "title": "Thinfilm Agent",
+      "team": "BEOL Thinfilm",
+      "owner": "김태민 TL",
+      "cuts": [
+        {
+          "title": "분산 조회와 개인별 평가 결과",
+          "narration": "Lot과 장비, FDC를 따로 조회하고, 개인이 보유한 DOE 결과를 공유하기 어려웠습니다.",
+          "key_phrases": [
+            "Lot · 장비 · FDC 개별 시스템 조회",
+            "개인별 DOE 평가 결과",
+            "공유 어려움"
+          ],
+          "spoken_text": "로트와 장비, 에프디씨를 따로 조회하고, 개인이 보유한 디오이 결과를 공유하기 어려웠습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "웹에서 현황 통합 조회",
+          "narration": "웹 플랫폼에서 현황과 모니터링 Trend를 통합 조회합니다.",
+          "key_phrases": [
+            "웹 플랫폼 통합 조회",
+            "현황 · 모니터링 Trend"
+          ],
+          "spoken_text": "웹 플랫폼에서 현황과 모니터링 트렌드를 통합 조회합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "DOE 결과 공동 확인",
+          "narration": "구성원이 DOE 평가 결과를 함께 확인합니다.",
+          "key_phrases": [
+            "DOE 결과 공동 확인"
+          ],
+          "spoken_text": "구성원이 디오이 평가 결과를 함께 확인합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "시스템 이동과 가공 부담 감소",
+          "narration": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+          "key_phrases": [
+            "시스템 이동 감소",
+            "데이터 가공 부담 감소"
+          ],
+          "spoken_text": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "평가 결과와 노하우 공유",
+          "narration": "개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.",
+          "key_phrases": [
+            "개인 평가 결과 → 조직 공유",
+            "분석 노하우 공유"
+          ],
+          "spoken_text": "개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task12": {
+      "title": "경비 분석 및 절감 아이템 발굴 Agent 개발",
+      "team": "R&D장비기술 Thinfilm",
+      "owner": "오승재 TL",
+      "cuts": [
+        {
+          "title": "엑셀 집계와 경험 중심 분석",
+          "narration": "경비를 엑셀로 집계하고 장비 이력을 개별 확인해, 일부 항목을 경험에 따라 분석했습니다.",
+          "key_phrases": [
+            "많은 경비 실적 엑셀 집계",
+            "장비 이력 개별 확인",
+            "일부 항목 · 경험 중심 분석"
+          ],
+          "spoken_text": "경비를 엑셀로 집계하고 장비 이력을 개별 확인해, 일부 항목을 경험에 따라 분석했습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "경비와 장비 이력 연결",
+          "narration": "경비와 장비 이력을 연결하고 22개 판단 지표를 추가했습니다.",
+          "key_phrases": [
+            "경비 · 장비 이력 연결",
+            "22개 판단 지표 추가"
+          ],
+          "spoken_text": "경비와 장비 이력을 연결하고 스물두 개 판단 지표를 추가했습니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "증가 원인과 절감 후보 검토",
+          "narration": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다.",
+          "key_phrases": [
+            "비용 증가 원인 분석",
+            "절감 검토 후보",
+            "장비 이력 · 실행 가능성 함께 검토"
+          ],
+          "spoken_text": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "단축 수치와 검증 상태",
+          "narration": "자료에는 분석 시간 80퍼센트 이상 단축으로 기재됐지만, 지표와 결과의 실효성은 검증 중입니다.",
+          "key_phrases": [
+            "자료 기준",
+            "분석 시간 80% 이상 단축으로 기재",
+            "지표·결과 실효성 검증 진행 중"
+          ],
+          "metric": {
+            "label": "분석 시간 단축",
+            "value": "80% 이상",
+            "basis": "사용자 제공 자료 기준",
+            "verification": "지표·결과의 실효성 검증 진행 중",
+            "independently_verified": false
+          },
+          "caveat": "지표·결과의 실효성 검증이 진행 중입니다.",
+          "spoken_text": "자료에는 분석 시간 팔십 퍼센트 이상 단축으로 기재됐지만, 지표와 결과의 실효성은 검증 중입니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "검토 후보와 확정 실적 구분",
+          "narration": "비용 금액에 머물지 않고 판단 근거를 넓히되, 절감 검토 후보와 확정 절감 실적을 구분합니다.",
+          "key_phrases": [
+            "비용 금액 중심 → 장비 이력·실행 가능성",
+            "절감 검토 후보 ≠ 확정 절감 실적"
+          ],
+          "caveat": "절감 검토 후보를 확정 절감액이나 확정 실적으로 표현하지 않습니다.",
+          "spoken_text": "비용 금액에 머물지 않고 판단 근거를 넓히되, 절감 검토 후보와 확정 절감 실적을 구분합니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task3": {
+      "title": "R&D 공정 Eng'r 연구 환경 Infra 구축",
+      "team": "NAND Cell Lab",
+      "owner": "박재오 TL",
+      "cuts": [
+        {
+          "title": "Lot별 분산 정보 조사",
+          "narration": "Lot 하나를 해석하려고 공정 이력과 Inline, 장비와 FDC, 연계공정 정보를 각각 조사하고 정리했습니다.",
+          "key_phrases": [
+            "Lot별 공정 이력 · Inline",
+            "장비 · FDC · 연계공정 정보",
+            "개별 조사·정리"
+          ],
+          "spoken_text": "로트 하나를 해석하려고 공정 이력과 인라인, 장비와 에프디씨, 연계공정 정보를 각각 조사하고 정리했습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "앱에서 조회·추출",
+          "narration": "앱에서 Lot과 장비 이력, Inline 데이터를 조회하고 추출합니다.",
+          "key_phrases": [
+            "Lot · 장비 이력 조회",
+            "Inline 데이터 조회·추출"
+          ],
+          "spoken_text": "앱에서 로트와 장비 이력, 인라인 데이터를 조회하고 추출합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "Lot 간 차이 비교",
+          "narration": "Lot 간 공정 수순과 장비, Recipe 차이를 비교합니다.",
+          "key_phrases": [
+            "Lot 간 공정 수순 비교",
+            "장비 · Recipe 차이 비교"
+          ],
+          "spoken_text": "로트 간 공정 수순과 장비, 레시피 차이를 비교합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "Lot 1건 분석 시간 변화",
+          "narration": "자료 기준, Lot 한 건 분석은 약 2시간 40분에서 20분 이내로 줄었습니다.",
+          "key_phrases": [
+            "자료 기준 · Lot 1건",
+            "약 2시간 40분 → 20분 이내"
+          ],
+          "metric": {
+            "label": "Lot 1건 분석 시간",
+            "before": "약 2시간 40분",
+            "after": "20분 이내",
+            "basis": "사용자 제공 자료 기준",
+            "scope": "Lot 1건",
+            "independently_verified": false
+          },
+          "spoken_text": "자료 기준, 로트 한 건 분석은 약 두 시간 사십 분에서 이십 분 이내로 줄었습니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "해석 집중과 추가 개발 계획",
+          "narration": "공정 결과 해석에 집중하며, 자동 보고와 고도화된 연구 지원 Agent는 추가 개발 계획입니다.",
+          "key_phrases": [
+            "자료 수집·정리 부담 감소",
+            "공정 결과 해석에 집중",
+            "자동 보고 · 고도화 연구 지원 Agent: 추가 개발 계획"
+          ],
+          "caveat": "자동 보고와 고도화된 연구 지원 Agent는 완료 기능이 아닌 추가 개발 계획입니다.",
+          "spoken_text": "공정 결과 해석에 집중하며, 자동 보고와 고도화된 연구 지원 에이전트는 추가 개발 계획입니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task8": {
+      "title": "공정 Monitoring Data 자연어 검색 및 시각화 Agent",
+      "team": "R&D장비기술 Diffusion",
+      "owner": "이태관 TL",
+      "cuts": [
+        {
+          "title": "개별 조회와 엑셀 가공",
+          "narration": "Smart Factory별 조회와 엑셀 가공·시각화에 주당 한 시간 이상을 쓰고 있었습니다.",
+          "key_phrases": [
+            "Smart Factory별 데이터 조회",
+            "엑셀 다운로드 · 가공 · 시각화",
+            "조회·가공에 주당 1시간 이상"
+          ],
+          "spoken_text": "스마트 팩토리별 조회와 엑셀 가공·시각화에 주당 한 시간 이상을 쓰고 있었습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "자연어로 공정 데이터 조회",
+          "narration": "필요한 공정 데이터를 자연어로 조회합니다.",
+          "key_phrases": [
+            "자연어 공정 데이터 조회"
+          ],
+          "spoken_text": "필요한 공정 데이터를 자연어로 조회합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "Wafer Map과 그래프 시각화",
+          "narration": "Wafer Map과 그래프로 시각화해 수동 가공을 간소화합니다.",
+          "key_phrases": [
+            "Wafer Map · 그래프 시각화",
+            "수동 가공 간소화"
+          ],
+          "spoken_text": "웨이퍼 맵과 그래프로 시각화해 수동 가공을 간소화합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "업무 시간 변화",
+          "narration": "자료에는 업무 시간이 40퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+          "key_phrases": [
+            "자료 기준",
+            "업무 시간 40% 이상 단축"
+          ],
+          "metric": {
+            "label": "업무 시간 단축",
+            "value": "40% 이상",
+            "basis": "사용자 제공 자료 기준",
+            "independently_verified": false
+          },
+          "spoken_text": "자료에는 업무 시간이 사십 퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "협업 지원과 향후 계획",
+          "narration": "공정과 장비 간 협업을 돕고, 챗봇 자동 알림과 Reporting은 향후 계획입니다.",
+          "key_phrases": [
+            "데이터 접근·시각화 부담 감소",
+            "공정·장비 간 협업 지원",
+            "챗봇 자동 알림 · Reporting: 향후 계획"
+          ],
+          "caveat": "챗봇 자동 알림과 Reporting은 향후 계획입니다.",
+          "spoken_text": "공정과 장비 간 협업을 돕고, 챗봇 자동 알림과 리포팅은 향후 계획입니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task14": {
+      "title": "Cubic공정Lab 전용 App&Agent",
+      "team": "Cubic공정Lab",
+      "owner": "정현준 TL",
+      "cuts": [
+        {
+          "title": "여러 시스템과 별도 취합",
+          "narration": "다섯 개 이상 시스템에서 Lot과 장비, TEM을 확인하고 보고와 주말 근무자 정보를 따로 모았습니다.",
+          "key_phrases": [
+            "5개 이상 시스템 이동",
+            "Lot · 장비 · TEM 현황",
+            "Report · 주말 근무자 별도 취합"
+          ],
+          "spoken_text": "다섯 개 이상 시스템에서 로트와 장비, 템을 확인하고 보고와 주말 근무자 정보를 따로 모았습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "하나의 앱에서 현황 조회",
+          "narration": "하나의 앱에서 Lot과 장비 상태, TEM 쿼터와 의뢰 현황을 통합 조회합니다.",
+          "key_phrases": [
+            "Lot · 장비 상태 통합 조회",
+            "TEM 쿼터 · 의뢰 현황"
+          ],
+          "spoken_text": "하나의 앱에서 로트와 장비 상태, 템 쿼터와 의뢰 현황을 통합 조회합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "보고와 근무자 안내 자동화",
+          "narration": "Daily와 Weekly Report, 주말 근무자 안내를 자동화합니다.",
+          "key_phrases": [
+            "Daily · Weekly Report 자동화",
+            "주말 근무자 안내 자동화"
+          ],
+          "spoken_text": "데일리와 위클리 리포트, 주말 근무자 안내를 자동화합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "업무 시간 변화",
+          "narration": "자료에는 업무 시간이 90퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+          "key_phrases": [
+            "자료 기준",
+            "업무 시간 90% 이상 단축"
+          ],
+          "metric": {
+            "label": "업무 시간 단축",
+            "value": "90% 이상",
+            "basis": "사용자 제공 자료 기준",
+            "independently_verified": false
+          },
+          "spoken_text": "자료에는 업무 시간이 구십 퍼센트 이상 단축된 것으로 기재돼 있습니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "반복 부담 감소와 데이터 활용",
+          "narration": "반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+          "key_phrases": [
+            "반복 조회·취합·보고 부담 감소",
+            "축적 데이터 분석 활용"
+          ],
+          "spoken_text": "반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    },
+    "task16": {
+      "title": "AI Agent 기반 Plug 대면적 데이터 분석 자동화 및 인사이트 도출",
+      "team": "N-PMA",
+      "owner": "김지은 TL",
+      "cuts": [
+        {
+          "title": "수동 가공과 육안 검토",
+          "narration": "대량의 데이터를 내려받아 가공하고 오계측을 육안 검토하면서, 시간과 판정 편차가 발생했습니다.",
+          "key_phrases": [
+            "대량 계측 데이터 수동 다운로드·가공",
+            "이미지 오계측 육안 검토",
+            "시간 소요 · 판정 편차"
+          ],
+          "spoken_text": "대량의 데이터를 내려받아 가공하고 오계측을 육안 검토하면서, 시간과 판정 편차가 발생했습니다.",
+          "role": "manual_before"
+        },
+        {
+          "title": "계측 데이터 처리 자동화",
+          "narration": "계측 데이터의 수집과 전처리, 적재를 자동화합니다.",
+          "key_phrases": [
+            "DD-SEM 데이터",
+            "수집 · 전처리 · 적재 자동화"
+          ],
+          "spoken_text": "계측 데이터의 수집과 전처리, 적재를 자동화합니다.",
+          "role": "input_collection"
+        },
+        {
+          "title": "오계측 후보와 자연어 분석",
+          "narration": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+          "key_phrases": [
+            "이미지 기반 오계측 후보 탐지",
+            "대시보드 자연어 분석"
+          ],
+          "spoken_text": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+          "role": "analysis_action"
+        },
+        {
+          "title": "수집·리뷰 범위 변화",
+          "narration": "자료상 수집 시간은 1200초에서 75초로, 단일 층 검증의 리뷰 대상은 317건에서 19건으로 줄었습니다.",
+          "key_phrases": [
+            "자료 기준",
+            "수집 TAT 1200초 → 75초",
+            "단일 층 검증: 리뷰 대상 317건 → 19건"
+          ],
+          "metric": [
+            {
+              "label": "수집 TAT",
+              "before": "1200초",
+              "after": "75초",
+              "basis": "사용자 제공 자료 기준",
+              "scope": null,
+              "independently_verified": false
+            },
+            {
+              "label": "리뷰 대상",
+              "before": "317건",
+              "after": "19건",
+              "basis": "사용자 제공 자료 기준",
+              "scope": "단일 층 검증에 한정",
+              "independently_verified": false
+            }
+          ],
+          "caveat": "317건에서 19건으로 줄어든 리뷰 대상 수치는 단일 층 검증 결과입니다.",
+          "spoken_text": "자료상 수집 시간은 천이백 초에서 칠십오 초로, 단일 층 검증의 리뷰 대상은 삼백십칠 건에서 십구 건으로 줄었습니다.",
+          "role": "result_metric"
+        },
+        {
+          "title": "담당자 검토와 향후 확장",
+          "narration": "담당자의 검토 범위를 줄이며, PROvision 확장은 향후 계획입니다.",
+          "key_phrases": [
+            "담당자의 검토 범위 축소",
+            "PROvision 확장: 향후 계획"
+          ],
+          "caveat": "PROvision 확장은 향후 계획입니다.",
+          "spoken_text": "담당자의 검토 범위를 줄이며, 프로비전 확장은 향후 계획입니다.",
+          "role": "effect_limitations_future"
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "task11": {
+      "before": {
+        "source_fact": "SmartDCP, TAS, Qoniac 등 여러 도구에서 필터를 설정하고, 담당자의 지식과 경험으로 열화 원인을 분석",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "Lot ID 입력으로 Map·Trend·K-param을 통합 조회하고, 표준 진단 기준으로 원인 분석과 솔루션 제시를 지원",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "도구별 조회와 반복 설정을 줄이고, 분석 근거를 한 화면에서 확인. 자료에는 분석 시간 15분~1시간에서 건당 수분으로 기재",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task13": {
+      "before": {
+        "source_fact": "여러 시스템에 접속해 장비 이슈와 PM 계획을 수집하고, 엑셀 정리·보고서 작성·메일 발송을 매일 반복",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "Agent가 장비 이력과 PM 계획을 조회·요약하고, 오전 6시에 표준 HTML 보고 메일을 자동 발송",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "자료 기준 일일 보고 작성 20분에서 0분, 연간 약 122시간 절감. 담당자는 메일 확인·검토와 장비 대응에 집중",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task7": {
+      "before": {
+        "source_fact": "평가 계획을 세우려면 HyDisk·Cube에서 과거 자료를 찾고 전문가에게 문의해야 했음. 자료 위치를 알기 어렵고 지식이 특정 담당자에게 편중됨",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "평가 목적을 입력하면 내부 지식 아카이브를 검색해 Recipe와 근거 자료를 함께 제안하고, 평가 계획 수립을 지원",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "자료 탐색과 구두 문의 의존을 줄이고, 전문가 지식을 축적해 담당자가 바뀌어도 활용할 수 있는 기반 마련",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task17": {
+      "before": {
+        "source_fact": "TEM 이미지를 직접 회전하고 측정선을 그은 뒤, 항목별 값을 수동으로 기록·정리. 측정자와 이미지 상태에 따라 편차 발생",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "이미지 기울기와 측정 위치를 분석해 측정값·좌표·측정선 오버레이를 자동 생성하고 결과와 이력을 저장",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "자료 기준 이미지당 측정 5분에서 6초. 담당자는 반복 측정보다 결과 검토와 예외 확인에 집중. 새 이미지의 측정 누락·오류 보완과 사람의 최종 검증은 계속 필요",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [
+        {
+          "cut": 5,
+          "spoken": "담당자는 결과 검토와 예외 확인에 집중하며, 새 이미지의 누락·오류 보완과 사람의 최종 검증은 계속 필요합니다.",
+          "caveat": "새 이미지의 측정 누락·오류 보완과 사람의 최종 검증이 계속 필요합니다."
+        }
+      ],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task5": {
+      "before": {
+        "source_fact": "필요한 자료가 어느 파일에 있는지 찾고, 여러 표를 열어 수동으로 비교·복사·요약해야 했음",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "데이터를 Working Board에 등록하고, 자연어 질문에 따라 필요한 정보를 추출해 여러 데이터를 교차 분석",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "파일 탐색과 반복 취합 부담을 줄이고, 데이터 조회 창구를 단일화. 분석에 필요한 자료와 도메인 지식을 함께 관리할 수 있는 기반 마련",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task9": {
+      "before": {
+        "source_fact": "Spec out이 발생하면 여러 공정의 이력을 조사하고, 데이터를 따로 가공해 연계공정의 이상 여부를 확인",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "Lot ID와 메인 공정을 입력하면 데이터 수집·통합부터 상관관계·이상치 분석, 원인공정 후보 랭킹과 리포트 생성까지 연결",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "여러 분석 절차를 하나의 흐름으로 묶어 원인 탐색 시간을 단축하고 분석 기준을 일관되게 적용. 자료에는 분석시간 70% 이상 단축으로 기재",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [
+        {
+          "cut": 5,
+          "spoken": "분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.",
+          "caveat": "원인공정 랭킹은 확정 원인이 아닌 검토 후보입니다."
+        }
+      ],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task4": {
+      "before": {
+        "source_fact": "Lot, 장비, FDC 데이터를 여러 시스템에서 따로 조회하고, DOE 평가 결과는 개인별로 보유해 공유가 어려웠음",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "웹 플랫폼에서 현황과 모니터링 Trend를 통합 조회하고, DOE 결과를 구성원이 함께 확인",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "시스템 이동과 데이터 가공 부담을 줄이고, 개인이 보유하던 평가 결과와 분석 노하우를 조직 내에서 공유",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task12": {
+      "before": {
+        "source_fact": "많은 경비 실적을 엑셀로 집계하고 장비 이력을 개별 확인해 일부 항목만 경험에 따라 분석",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "경비와 장비 이력을 연결하고 22개 판단 지표를 추가해 비용 증가 원인과 절감 검토 후보를 분석",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "비용 금액만 보는 분석에서 장비 이력과 실행 가능성을 함께 검토하는 방식으로 개선. 자료에는 분석 시간 80% 이상 단축으로 기재되어 있으나 지표·결과의 실효성 검증이 진행 중이며, 절감액은 확정 실적과 구분해야 함",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [
+        {
+          "cut": 4,
+          "spoken": "자료에는 분석 시간 80퍼센트 이상 단축으로 기재됐지만, 지표와 결과의 실효성은 검증 중입니다.",
+          "caveat": "지표·결과의 실효성 검증이 진행 중입니다."
+        },
+        {
+          "cut": 5,
+          "spoken": "비용 금액에 머물지 않고 판단 근거를 넓히되, 절감 검토 후보와 확정 절감 실적을 구분합니다.",
+          "caveat": "절감 검토 후보를 확정 절감액이나 확정 실적으로 표현하지 않습니다."
+        }
+      ],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task3": {
+      "before": {
+        "source_fact": "Lot 하나를 해석하기 위해 공정 이력, Inline, 장비, FDC, 연계공정 정보를 각각 조사하고 정리해야 했음",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "앱에서 Lot·장비 이력과 Inline 데이터를 조회·추출하고, Lot 간 공정 수순·장비·Recipe 차이를 비교",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "자료 수집과 정리 부담을 줄여 공정 결과 해석에 집중. 자료에는 Lot 1건 기준 약 2시간 40분에서 20분 이내로 기재. 자동 보고와 고도화된 연구 지원 Agent는 추가 개발 계획",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [
+        {
+          "cut": 5,
+          "spoken": "공정 결과 해석에 집중하며, 자동 보고와 고도화된 연구 지원 Agent는 추가 개발 계획입니다.",
+          "caveat": "자동 보고와 고도화된 연구 지원 Agent는 완료 기능이 아닌 추가 개발 계획입니다."
+        }
+      ],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task8": {
+      "before": {
+        "source_fact": "Smart Factory별로 데이터를 조회하고 엑셀로 내려받아 가공·시각화. 조회와 가공에 주당 1시간 이상 소요",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "자연어로 공정 데이터를 조회하고 Wafer Map·그래프로 시각화해 수동 가공을 간소화",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "데이터 접근과 시각화 부담을 줄여 공정·장비 간 협업을 지원. 자료에는 업무 시간 40% 이상 단축으로 기재. 챗봇 자동 알림과 Reporting은 향후 계획",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [
+        {
+          "cut": 5,
+          "spoken": "공정과 장비 간 협업을 돕고, 챗봇 자동 알림과 Reporting은 향후 계획입니다.",
+          "caveat": "챗봇 자동 알림과 Reporting은 향후 계획입니다."
+        }
+      ],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task14": {
+      "before": {
+        "source_fact": "5개 이상의 시스템을 오가며 Lot, 장비, TEM 현황을 확인하고, Report와 주말 근무자 정보를 별도로 취합",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "하나의 앱에서 Lot, 장비 상태, TEM 쿼터, 의뢰 현황을 통합 조회하고, Daily·Weekly Report와 주말 근무자 안내를 자동화",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "반복 조회·취합·보고 부담을 줄이고, 축적된 데이터를 분석에 활용. 자료에는 업무시간 90% 이상 단축으로 기재됨",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    },
+    "task16": {
+      "before": {
+        "source_fact": "대량의 계측 데이터를 수동 다운로드·가공하고, 이미지의 오계측을 육안으로 검토해 시간과 판정 편차가 발생",
+        "cuts": [
+          1
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "after": {
+        "source_fact": "DD-SEM 데이터의 수집·전처리·적재를 자동화하고, 이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석 제공",
+        "cuts": [
+          2,
+          3
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "effect": {
+        "source_fact": "자료상 수집 TAT 1200초에서 75초. 단일 층 검증에서는 리뷰 대상 317건에서 19건으로 감소해 담당자의 검토 범위를 축소. PROvision 확장은 향후 계획",
+        "cuts": [
+          4,
+          5
+        ],
+        "channels": [
+          "narration",
+          "key_phrases"
+        ]
+      },
+      "qualifications": [
+        {
+          "cut": 4,
+          "spoken": "자료상 수집 시간은 1200초에서 75초로, 단일 층 검증의 리뷰 대상은 317건에서 19건으로 줄었습니다.",
+          "caveat": "317건에서 19건으로 줄어든 리뷰 대상 수치는 단일 층 검증 결과입니다."
+        },
+        {
+          "cut": 5,
+          "spoken": "담당자의 검토 범위를 줄이며, PROvision 확장은 향후 계획입니다.",
+          "caveat": "PROvision 확장은 향후 계획입니다."
+        }
+      ],
+      "coverage_note": "화면 key_phrases는 낭독에서 축약한 도구·기능·제약의 전체 표현을 보완합니다. 모든 key_phrases를 해당 컷에 실제 표시해야 이 커버리지가 성립합니다."
+    }
+  },
+  "pronunciation_notes": {
+    "basis": "기존 Kyung 설정의 발음 표기를 따릅니다.",
+    "DD-SEM": "2026-10-15 사용자 최종 재확인으로 DD-SEM을 표시합니다. 나레이션은 자연스러운 계측 데이터 발화를 유지합니다.",
+    "metrics": "정량 성과의 내레이션과 화면에 자료 기준을 명시합니다."
+  },
+  "narration_text": "여러 도구에서 필터를 설정하고, 담당자의 경험으로 열화 원인을 분석했습니다. Lot ID를 입력하면 Map과 Trend, K-param을 함께 조회합니다. 표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다. 기존 15분에서 1시간이던 분석은, 자료 기준 건당 수분으로 줄었습니다. 반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다.\n\n매일 여러 시스템의 장비 이슈와 PM 계획을 모아, 엑셀 정리부터 메일 발송까지 반복했습니다. Agent가 장비 이력과 PM 계획을 조회합니다. 내용을 요약해 오전 6시에 표준 HTML 보고 메일을 자동 발송합니다. 자료 기준, 일일 보고 작성은 20분에서 0분으로, 연간 약 122시간을 절감했습니다. 담당자는 메일 확인과 검토, 장비 대응에 집중합니다.\n\nHyDisk와 Cube에서 과거 자료를 찾고 전문가에게 물어야 해, 지식이 특정 담당자에게 편중됐습니다. 평가 목적을 입력하면 내부 지식 아카이브를 검색합니다. 관련 Recipe와 근거 자료를 함께 제안합니다. 자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다. 전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.\n\nTEM 이미지를 돌리고 측정선을 그어 값을 기록하면서, 측정자와 이미지 상태에 따른 편차가 생겼습니다. 이미지 기울기와 측정 위치를 분석합니다. 측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다. 자료 기준, 이미지당 측정 시간은 5분에서 6초로 줄었습니다. 담당자는 결과 검토와 예외 확인에 집중하며, 새 이미지의 누락·오류 보완과 사람의 최종 검증은 계속 필요합니다.\n\n자료가 어느 파일에 있는지 찾고, 여러 표를 열어 비교와 복사, 요약을 반복했습니다. 데이터를 Working Board에 등록합니다. 자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다. 조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다. 분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.\n\nSpec out이 생기면 여러 공정의 이력을 조사하고 데이터를 가공해, 연계공정의 이상 여부를 확인했습니다. Lot ID와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다. 상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다. 자료에는 분석 시간이 70퍼센트 이상 단축된 것으로 기재돼 있습니다. 분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.\n\nLot과 장비, FDC를 따로 조회하고, 개인이 보유한 DOE 결과를 공유하기 어려웠습니다. 웹 플랫폼에서 현황과 모니터링 Trend를 통합 조회합니다. 구성원이 DOE 평가 결과를 함께 확인합니다. 시스템 이동과 데이터 가공 부담을 줄입니다. 개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.\n\n경비를 엑셀로 집계하고 장비 이력을 개별 확인해, 일부 항목을 경험에 따라 분석했습니다. 경비와 장비 이력을 연결하고 22개 판단 지표를 추가했습니다. 비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다. 자료에는 분석 시간 80퍼센트 이상 단축으로 기재됐지만, 지표와 결과의 실효성은 검증 중입니다. 비용 금액에 머물지 않고 판단 근거를 넓히되, 절감 검토 후보와 확정 절감 실적을 구분합니다.\n\nLot 하나를 해석하려고 공정 이력과 Inline, 장비와 FDC, 연계공정 정보를 각각 조사하고 정리했습니다. 앱에서 Lot과 장비 이력, Inline 데이터를 조회하고 추출합니다. Lot 간 공정 수순과 장비, Recipe 차이를 비교합니다. 자료 기준, Lot 한 건 분석은 약 2시간 40분에서 20분 이내로 줄었습니다. 공정 결과 해석에 집중하며, 자동 보고와 고도화된 연구 지원 Agent는 추가 개발 계획입니다.\n\nSmart Factory별 조회와 엑셀 가공·시각화에 주당 한 시간 이상을 쓰고 있었습니다. 필요한 공정 데이터를 자연어로 조회합니다. Wafer Map과 그래프로 시각화해 수동 가공을 간소화합니다. 자료에는 업무 시간이 40퍼센트 이상 단축된 것으로 기재돼 있습니다. 공정과 장비 간 협업을 돕고, 챗봇 자동 알림과 Reporting은 향후 계획입니다.\n\n다섯 개 이상 시스템에서 Lot과 장비, TEM을 확인하고 보고와 주말 근무자 정보를 따로 모았습니다. 하나의 앱에서 Lot과 장비 상태, TEM 쿼터와 의뢰 현황을 통합 조회합니다. Daily와 Weekly Report, 주말 근무자 안내를 자동화합니다. 자료에는 업무 시간이 90퍼센트 이상 단축된 것으로 기재돼 있습니다. 반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.\n\n대량의 데이터를 내려받아 가공하고 오계측을 육안 검토하면서, 시간과 판정 편차가 발생했습니다. 계측 데이터의 수집과 전처리, 적재를 자동화합니다. 이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다. 자료상 수집 시간은 1200초에서 75초로, 단일 층 검증의 리뷰 대상은 317건에서 19건으로 줄었습니다. 담당자의 검토 범위를 줄이며, PROvision 확장은 향후 계획입니다.",
+  "spoken_text": "여러 도구에서 필터를 설정하고, 담당자의 경험으로 열화 원인을 분석했습니다. 로트 아이디를 입력하면 맵과 트렌드, 케이 파라미터를 함께 조회합니다. 표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다. 기존 십오 분에서 한 시간이던 분석은, 자료 기준 건당 수분으로 줄었습니다. 반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다.\n\n매일 여러 시스템의 장비 이슈와 피엠 계획을 모아, 엑셀 정리부터 메일 발송까지 반복했습니다. 에이전트가 장비 이력과 피엠 계획을 조회합니다. 내용을 요약해 오전 여섯 시에 표준 에이치티엠엘 보고 메일을 자동 발송합니다. 자료 기준, 일일 보고 작성은 이십 분에서 영 분으로, 연간 약 백이십이 시간을 절감했습니다. 담당자는 메일 확인과 검토, 장비 대응에 집중합니다.\n\n하이디스크와 큐브에서 과거 자료를 찾고 전문가에게 물어야 해, 지식이 특정 담당자에게 편중됐습니다. 평가 목적을 입력하면 내부 지식 아카이브를 검색합니다. 관련 레시피와 근거 자료를 함께 제안합니다. 자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다. 전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.\n\n템 이미지를 돌리고 측정선을 그어 값을 기록하면서, 측정자와 이미지 상태에 따른 편차가 생겼습니다. 이미지 기울기와 측정 위치를 분석합니다. 측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다. 자료 기준, 이미지당 측정 시간은 오 분에서 육 초로 줄었습니다. 담당자는 결과 검토와 예외 확인에 집중하며, 새 이미지의 누락·오류 보완과 사람의 최종 검증은 계속 필요합니다.\n\n자료가 어느 파일에 있는지 찾고, 여러 표를 열어 비교와 복사, 요약을 반복했습니다. 데이터를 워킹 보드에 등록합니다. 자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다. 조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다. 분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.\n\n스펙 아웃이 생기면 여러 공정의 이력을 조사하고 데이터를 가공해, 연계공정의 이상 여부를 확인했습니다. 로트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다. 상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다. 자료에는 분석 시간이 칠십 퍼센트 이상 단축된 것으로 기재돼 있습니다. 분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.\n\n로트와 장비, 에프디씨를 따로 조회하고, 개인이 보유한 디오이 결과를 공유하기 어려웠습니다. 웹 플랫폼에서 현황과 모니터링 트렌드를 통합 조회합니다. 구성원이 디오이 평가 결과를 함께 확인합니다. 시스템 이동과 데이터 가공 부담을 줄입니다. 개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.\n\n경비를 엑셀로 집계하고 장비 이력을 개별 확인해, 일부 항목을 경험에 따라 분석했습니다. 경비와 장비 이력을 연결하고 스물두 개 판단 지표를 추가했습니다. 비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다. 자료에는 분석 시간 팔십 퍼센트 이상 단축으로 기재됐지만, 지표와 결과의 실효성은 검증 중입니다. 비용 금액에 머물지 않고 판단 근거를 넓히되, 절감 검토 후보와 확정 절감 실적을 구분합니다.\n\n로트 하나를 해석하려고 공정 이력과 인라인, 장비와 에프디씨, 연계공정 정보를 각각 조사하고 정리했습니다. 앱에서 로트와 장비 이력, 인라인 데이터를 조회하고 추출합니다. 로트 간 공정 수순과 장비, 레시피 차이를 비교합니다. 자료 기준, 로트 한 건 분석은 약 두 시간 사십 분에서 이십 분 이내로 줄었습니다. 공정 결과 해석에 집중하며, 자동 보고와 고도화된 연구 지원 에이전트는 추가 개발 계획입니다.\n\n스마트 팩토리별 조회와 엑셀 가공·시각화에 주당 한 시간 이상을 쓰고 있었습니다. 필요한 공정 데이터를 자연어로 조회합니다. 웨이퍼 맵과 그래프로 시각화해 수동 가공을 간소화합니다. 자료에는 업무 시간이 사십 퍼센트 이상 단축된 것으로 기재돼 있습니다. 공정과 장비 간 협업을 돕고, 챗봇 자동 알림과 리포팅은 향후 계획입니다.\n\n다섯 개 이상 시스템에서 로트와 장비, 템을 확인하고 보고와 주말 근무자 정보를 따로 모았습니다. 하나의 앱에서 로트와 장비 상태, 템 쿼터와 의뢰 현황을 통합 조회합니다. 데일리와 위클리 리포트, 주말 근무자 안내를 자동화합니다. 자료에는 업무 시간이 구십 퍼센트 이상 단축된 것으로 기재돼 있습니다. 반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.\n\n대량의 데이터를 내려받아 가공하고 오계측을 육안 검토하면서, 시간과 판정 편차가 발생했습니다. 계측 데이터의 수집과 전처리, 적재를 자동화합니다. 이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다. 자료상 수집 시간은 천이백 초에서 칠십오 초로, 단일 층 검증의 리뷰 대상은 삼백십칠 건에서 십구 건으로 줄었습니다. 담당자의 검토 범위를 줄이며, 프로비전 확장은 향후 계획입니다.",
+  "counts": {
+    "tasks": 12,
+    "cuts": 60,
+    "narration_characters": 2534,
+    "spoken_characters": 2486,
+    "per_task": {
+      "task11": {
+        "narration": 200,
+        "spoken": 198
+      },
+      "task13": {
+        "narration": 199,
+        "spoken": 206
+      },
+      "task7": {
+        "narration": 197,
+        "spoken": 191
+      },
+      "task17": {
+        "narration": 220,
+        "spoken": 220
+      },
+      "task5": {
+        "narration": 187,
+        "spoken": 179
+      },
+      "task9": {
+        "narration": 227,
+        "spoken": 225
+      },
+      "task4": {
+        "narration": 169,
+        "spoken": 167
+      },
+      "task12": {
+        "narration": 233,
+        "spoken": 236
+      },
+      "task3": {
+        "narration": 237,
+        "spoken": 227
+      },
+      "task8": {
+        "narration": 198,
+        "spoken": 183
+      },
+      "task14": {
+        "narration": 224,
+        "spoken": 211
+      },
+      "task16": {
+        "narration": 221,
+        "spoken": 221
+      }
+    }
+  }
+}

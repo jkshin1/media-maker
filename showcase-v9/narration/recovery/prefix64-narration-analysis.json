@@ -1,0 +1,4211 @@
+{
+  "status": "PREFIX64_ANALYSIS_ONLY_WITH_ASR_VARIANTS_AND_BOUNDARY_REVIEW",
+  "revision": 9,
+  "generated_at_utc": "2026-10-19T08:47:16.069361+00:00",
+  "scope": "Only the first 64 approved lines: opening9 + task55 in13blocks. The four ending lines are excluded; this incomplete full take cannot pass full68 completeness or create a final timeline/mix.",
+  "source_hashes": {
+    "showcase-v9/narration/elevenlabs/take.wav": "b2e19801305df1f1e2624fca327b14943f9d04f696271869b09225afc42ba12b",
+    "showcase-v9/narration/transcription/take.json": "42f1b534d2c43ca02fa28e1d16b7e0ecb3e2e5dc9ec24b710fb16d0baa725bc3",
+    "showcase-v9/narration/ko.json": "af21b829868fdb5e69fea88f58d1f3c5c8bdbed6e1872fa4d5fb1c8afa564ec5",
+    "showcase-v9/reference/user-revision9-brief.json": "80709d19e491b01aab20b29a045392d815cb7995a41fa67a369a4907f6cb86cf",
+    "showcase-v9/spec.json": "0f6a3caf04d1d82a728f476b21c166fa225f2cd113c57cd27e92185378d19345",
+    "showcase-v9/align-narration-v9.py": "d398aa786784358cb1963a3f4c2b17bb06de68efe429ee0ac987b20b65f9e837"
+  },
+  "master_samples": 15651840,
+  "master_seconds": 326.08,
+  "sample_rate": 48000,
+  "prefix_line_count": 64,
+  "prefix_block_count": 13,
+  "ordered_line_anchor_count": 64,
+  "prefix_normalized_character_coverage": 0.9845297029702971,
+  "normalized_exact_line_count": 47,
+  "asr_variant_line_count": 17,
+  "suspected_entire_missing_prefix_lines": [],
+  "pronunciation_or_literal_reading_accepted": false,
+  "independent_human_audition_performed": false,
+  "new_local_asr_run": false,
+  "alignment_method": "Read-only pure normalization/global character alignment helpers establish anchors against the original full ASR; independently inspect all64 raw/approved line pairs, original word arrays and strict waveform quiet. Raw ASR variants are retained.",
+  "lines": [
+    {
+      "id": "opening_cut1",
+      "section_id": "opening",
+      "expected": "R&D 업무에 AI를 더합니다.",
+      "spoken_text": "알앤디 업무에 에이아이를 더합니다.",
+      "raw_asr_text": "R &D 업무의 AI를 더합니다.",
+      "normalized_character_coverage": 0.9333333333333333,
+      "first_word_index": 0,
+      "last_word_index": 4,
+      "source_word_start_approximate": 0.0,
+      "source_word_end_approximate": 1.98,
+      "first_word": {
+        "word": " R",
+        "start": 0.0,
+        "end": 0.22,
+        "probability": 0.3512280285358429
+      },
+      "last_word": {
+        "word": " 더합니다.",
+        "start": 1.58,
+        "end": 1.98,
+        "probability": 0.9338037669658661
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "opening_cut2",
+      "section_id": "opening",
+      "expected": "더 나은 R&D 공정을 위한 변화가 시작됩니다.",
+      "spoken_text": "더 나은 알앤디 공정을 위한 변화가 시작됩니다.",
+      "raw_asr_text": "더 나은 R &D 공정을 위한 변화가 시작됩니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 5,
+      "last_word_index": 12,
+      "source_word_start_approximate": 2.8,
+      "source_word_end_approximate": 5.96,
+      "first_word": {
+        "word": " 더",
+        "start": 2.8,
+        "end": 3.16,
+        "probability": 0.9865068197250366
+      },
+      "last_word": {
+        "word": " 시작됩니다.",
+        "start": 5.28,
+        "end": 5.96,
+        "probability": 0.9946227868398031
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "opening_cut3",
+      "section_id": "opening",
+      "expected": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+      "spoken_text": "현장의 경험과 에이아이 기술이 만나 새로운 해법을 만들어갑니다.",
+      "raw_asr_text": "현장의 경험과 AI 기술이 만나 새로운 해법을 만들어갑니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 13,
+      "last_word_index": 20,
+      "source_word_start_approximate": 6.8,
+      "source_word_end_approximate": 10.72,
+      "first_word": {
+        "word": " 현장의",
+        "start": 6.8,
+        "end": 7.28,
+        "probability": 0.9917646249135336
+      },
+      "last_word": {
+        "word": " 만들어갑니다.",
+        "start": 10.02,
+        "end": 10.72,
+        "probability": 0.8287506898244222
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "opening_cut4",
+      "section_id": "opening",
+      "expected": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "spoken_text": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "raw_asr_text": "현업의 다양한 과제를 해결하기 위한 도전입니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 21,
+      "last_word_index": 26,
+      "source_word_start_approximate": 11.72,
+      "source_word_end_approximate": 14.32,
+      "first_word": {
+        "word": " 현업의",
+        "start": 11.72,
+        "end": 12.14,
+        "probability": 0.9185753067334493
+      },
+      "last_word": {
+        "word": " 도전입니다.",
+        "start": 13.8,
+        "end": 14.32,
+        "probability": 0.9906389514605204
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "opening_cut5",
+      "section_id": "opening",
+      "expected": "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track.",
+      "spoken_text": "현업의 문제를 에이아이로 해결하는 알앤디 공정 에이아이 패스트 트랙.",
+      "raw_asr_text": "현업의 문제를 AI로 해결하는 R &D 공정 AI 페스트트랙",
+      "normalized_character_coverage": 0.9655172413793104,
+      "first_word_index": 27,
+      "last_word_index": 35,
+      "source_word_start_approximate": 15.88,
+      "source_word_end_approximate": 20.18,
+      "first_word": {
+        "word": " 현업의",
+        "start": 15.88,
+        "end": 16.34,
+        "probability": 0.9890208840370178
+      },
+      "last_word": {
+        "word": " 페스트트랙",
+        "start": 19.3,
+        "end": 20.18,
+        "probability": 0.6922736614942551
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "opening_cut6",
+      "section_id": "opening",
+      "expected": "서로 다른 현업의 고민에서 12개의 AI Agent 과제가 시작됐습니다.",
+      "spoken_text": "서로 다른 현업의 고민에서 열두 개의 에이아이 에이전트 과제가 시작됐습니다.",
+      "raw_asr_text": "서로 다른 현업의 고민에서 12개의 AI 에이전트 과제가 시작됐습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 36,
+      "last_word_index": 44,
+      "source_word_start_approximate": 20.84,
+      "source_word_end_approximate": 25.86,
+      "first_word": {
+        "word": " 서로",
+        "start": 20.84,
+        "end": 21.32,
+        "probability": 0.49499768018722534
+      },
+      "last_word": {
+        "word": " 시작됐습니다.",
+        "start": 25.02,
+        "end": 25.86,
+        "probability": 0.9607330560684204
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "opening_cut7",
+      "section_id": "opening",
+      "expected": "현업의 고민을 해결하기 위해 개발한 다양한 AI Agent를 살펴봅니다.",
+      "spoken_text": "현업의 고민을 해결하기 위해 개발한 다양한 에이아이 에이전트를 살펴봅니다.",
+      "raw_asr_text": "현업의 고민을 해결하기 위해 개발한 다양한 AI 에이전트를 살펴봅니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 45,
+      "last_word_index": 53,
+      "source_word_start_approximate": 26.86,
+      "source_word_end_approximate": 31.44,
+      "first_word": {
+        "word": " 현업의",
+        "start": 26.86,
+        "end": 27.62,
+        "probability": 0.7044150779644648
+      },
+      "last_word": {
+        "word": " 살펴봅니다.",
+        "start": 30.76,
+        "end": 31.44,
+        "probability": 0.7468567073345185
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "opening_cut8",
+      "section_id": "opening",
+      "expected": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+      "spoken_text": "업무 효율을 높이고, 데이터 기반의 의사결정과 새로운 분석을 지원합니다.",
+      "raw_asr_text": "업무 효율을 높이고 데이터 기반의 의사 결정과 새로운 분석을 지원합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 54,
+      "last_word_index": 63,
+      "source_word_start_approximate": 32.14,
+      "source_word_end_approximate": 37.6,
+      "first_word": {
+        "word": " 업무",
+        "start": 32.14,
+        "end": 33.2,
+        "probability": 0.9607970317204794
+      },
+      "last_word": {
+        "word": " 지원합니다.",
+        "start": 37.06,
+        "end": 37.6,
+        "probability": 0.984374076128006
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "opening_cut9",
+      "section_id": "opening",
+      "expected": "지금부터 12개의 AI Agent 과제를 소개합니다.",
+      "spoken_text": "지금부터 열두 개의 에이아이 에이전트 과제를 소개합니다.",
+      "raw_asr_text": "지금부터 12개의 AI 에이전트 과제를 소개합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 64,
+      "last_word_index": 69,
+      "source_word_start_approximate": 38.7,
+      "source_word_end_approximate": 42.1,
+      "first_word": {
+        "word": " 지금부터",
+        "start": 38.7,
+        "end": 39.3,
+        "probability": 0.990298847357432
+      },
+      "last_word": {
+        "word": " 소개합니다.",
+        "start": 41.52,
+        "end": 42.1,
+        "probability": 0.9836138784885406
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task11_cut1",
+      "section_id": "task11",
+      "expected": "여러 도구를 오가며 경험에 의존해 열화 원인을 분석했습니다.",
+      "spoken_text": "여러 도구를 오가며 경험에 의존해 열화 원인을 분석했습니다.",
+      "raw_asr_text": "여러 도구를 오가며 경험의 의존의 여러 원인을 분석했습니다.",
+      "normalized_character_coverage": 0.84,
+      "first_word_index": 70,
+      "last_word_index": 77,
+      "source_word_start_approximate": 44.3,
+      "source_word_end_approximate": 48.08,
+      "first_word": {
+        "word": " 여러",
+        "start": 44.3,
+        "end": 44.56,
+        "probability": 0.8401849865913391
+      },
+      "last_word": {
+        "word": " 분석했습니다.",
+        "start": 47.34,
+        "end": 48.08,
+        "probability": 0.9953399896621704
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task11_cut2",
+      "section_id": "task11",
+      "expected": "Lot ID를 입력하면 Map과 Trend, K-param을 함께 조회합니다.",
+      "spoken_text": "로트 아이디를 입력하면 맵과 트렌드, 케이 파라미터를 함께 조회합니다.",
+      "raw_asr_text": "로트 아이디를 입력하면 넵과 트렌드, K -파라미터를 함께 조회합니다.",
+      "normalized_character_coverage": 0.9655172413793104,
+      "first_word_index": 78,
+      "last_word_index": 86,
+      "source_word_start_approximate": 49.36,
+      "source_word_end_approximate": 54.02,
+      "first_word": {
+        "word": " 로트",
+        "start": 49.36,
+        "end": 49.68,
+        "probability": 0.6060703173279762
+      },
+      "last_word": {
+        "word": " 조회합니다.",
+        "start": 53.5,
+        "end": 54.02,
+        "probability": 0.7860298355420431
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task11_cut3",
+      "section_id": "task11",
+      "expected": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+      "spoken_text": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+      "raw_asr_text": "표준 진단 기준을 적용해 원인 분석과 솔루션 검토를 지원합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 87,
+      "last_word_index": 95,
+      "source_word_start_approximate": 55.02,
+      "source_word_end_approximate": 59.46,
+      "first_word": {
+        "word": " 표준",
+        "start": 55.02,
+        "end": 55.66,
+        "probability": 0.5118720717728138
+      },
+      "last_word": {
+        "word": " 지원합니다.",
+        "start": 58.8,
+        "end": 59.46,
+        "probability": 0.9830664396286011
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task11_cut4",
+      "section_id": "task11",
+      "expected": "기존 건당 15분에서 1시간 걸리던 분석 시간을 몇 분 수준으로 줄였습니다.",
+      "spoken_text": "기존 건당 십오 분에서 한 시간 걸리던 분석 시간을 몇 분 수준으로 줄였습니다.",
+      "raw_asr_text": "기존 건당 15분에서 1시간 걸리던 분석 시간을 몇 분 수준으로 줄였습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 96,
+      "last_word_index": 106,
+      "source_word_start_approximate": 60.0,
+      "source_word_end_approximate": 65.04,
+      "first_word": {
+        "word": " 기존",
+        "start": 60.0,
+        "end": 60.8,
+        "probability": 0.9604447782039642
+      },
+      "last_word": {
+        "word": " 줄였습니다.",
+        "start": 64.64,
+        "end": 65.04,
+        "probability": 0.9740827679634094
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task11_cut5",
+      "section_id": "task11",
+      "expected": "반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다.",
+      "spoken_text": "반복 조회와 설정을 줄이고, 분석 근거를 한 화면에서 확인합니다.",
+      "raw_asr_text": "반복 조회와 설정을 줄이고 분석 근거를 한 화면에서 확인합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 107,
+      "last_word_index": 115,
+      "source_word_start_approximate": 66.54,
+      "source_word_end_approximate": 70.46,
+      "first_word": {
+        "word": " 반복",
+        "start": 66.54,
+        "end": 66.88,
+        "probability": 0.9916144609451294
+      },
+      "last_word": {
+        "word": " 확인합니다.",
+        "start": 69.92,
+        "end": 70.46,
+        "probability": 0.9910526275634766
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task13_cut1",
+      "section_id": "task13",
+      "expected": "장비 이슈와 PM 계획을 모아 일일 보고를 반복 작성했습니다.",
+      "spoken_text": "장비 이슈와 피엠 계획을 모아 일일 보고를 반복 작성했습니다.",
+      "raw_asr_text": "장비 이슈와 PM 계획을 모아 1일 보고를 반복 작성했습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 116,
+      "last_word_index": 124,
+      "source_word_start_approximate": 71.9,
+      "source_word_end_approximate": 75.74,
+      "first_word": {
+        "word": " 장비",
+        "start": 71.9,
+        "end": 72.32,
+        "probability": 0.9775196015834808
+      },
+      "last_word": {
+        "word": " 작성했습니다.",
+        "start": 75.06,
+        "end": 75.74,
+        "probability": 0.8277045090993246
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task13_cut2",
+      "section_id": "task13",
+      "expected": "Agent가 장비 이력과 PM 계획을 조회합니다.",
+      "spoken_text": "에이전트가 장비 이력과 피엠 계획을 조회합니다.",
+      "raw_asr_text": "에이전트가 장비 이력과 PM 계획을 조회합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 125,
+      "last_word_index": 130,
+      "source_word_start_approximate": 77.04,
+      "source_word_end_approximate": 79.9,
+      "first_word": {
+        "word": " 에이전트가",
+        "start": 77.04,
+        "end": 77.56,
+        "probability": 0.7948907136917114
+      },
+      "last_word": {
+        "word": " 조회합니다.",
+        "start": 79.5,
+        "end": 79.9,
+        "probability": 0.9833626548449198
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task13_cut3",
+      "section_id": "task13",
+      "expected": "내용을 요약해 오전 6시에 표준 HTML 보고 메일을 자동 발송합니다.",
+      "spoken_text": "내용을 요약해 오전 여섯 시에 표준 에이치티엠엘 보고 메일을 자동 발송합니다.",
+      "raw_asr_text": "내용을 요약해 오전 6시에 표준 HTML 보고 메일을 자동발송합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 131,
+      "last_word_index": 139,
+      "source_word_start_approximate": 80.87,
+      "source_word_end_approximate": 85.6,
+      "first_word": {
+        "word": " 내용을",
+        "start": 80.87,
+        "end": 81.42,
+        "probability": 0.5117123909294605
+      },
+      "last_word": {
+        "word": " 자동발송합니다.",
+        "start": 84.76,
+        "end": 85.6,
+        "probability": 0.9122431159019471
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task13_cut4",
+      "section_id": "task13",
+      "expected": "일일 보고 작성 시간을 20분에서 0분으로 줄이고, 연간 약 122시간을 절감합니다.",
+      "spoken_text": "일일 보고 작성 시간을 이십 분에서 영 분으로 줄이고, 연간 약 백이십이 시간을 절감합니다.",
+      "raw_asr_text": "1일 보고 작성 시간을 20분에서 0분으로 줄이고 연간 약 122시간을 절감합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 140,
+      "last_word_index": 150,
+      "source_word_start_approximate": 86.52,
+      "source_word_end_approximate": 92.92,
+      "first_word": {
+        "word": " 1일",
+        "start": 86.52,
+        "end": 87.12,
+        "probability": 0.7474430799484253
+      },
+      "last_word": {
+        "word": " 절감합니다.",
+        "start": 92.36,
+        "end": 92.92,
+        "probability": 0.9739226847887039
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task13_cut5",
+      "section_id": "task13",
+      "expected": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다.",
+      "spoken_text": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다.",
+      "raw_asr_text": "담당자는 메일 확인과 검토, 장비 대응에 집중합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 151,
+      "last_word_index": 157,
+      "source_word_start_approximate": 94.04,
+      "source_word_end_approximate": 97.56,
+      "first_word": {
+        "word": " 담당자는",
+        "start": 94.04,
+        "end": 94.8,
+        "probability": 0.9871000051498413
+      },
+      "last_word": {
+        "word": " 집중합니다.",
+        "start": 97.02,
+        "end": 97.56,
+        "probability": 0.992966870466868
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task7_cut1",
+      "section_id": "task7",
+      "expected": "과거 자료 탐색과 전문가 문의에 의존했습니다.",
+      "spoken_text": "과거 자료 탐색과 전문가 문의에 의존했습니다.",
+      "raw_asr_text": "과거자료 탐색과 전문가 문의에 의존했습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 158,
+      "last_word_index": 162,
+      "source_word_start_approximate": 98.72,
+      "source_word_end_approximate": 101.34,
+      "first_word": {
+        "word": " 과거자료",
+        "start": 98.72,
+        "end": 99.28,
+        "probability": 0.8881153613328934
+      },
+      "last_word": {
+        "word": " 의존했습니다.",
+        "start": 100.76,
+        "end": 101.34,
+        "probability": 0.9507203102111816
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task7_cut2",
+      "section_id": "task7",
+      "expected": "평가 목적을 입력하면 내부 지식 아카이브를 검색합니다.",
+      "spoken_text": "평가 목적을 입력하면 내부 지식 아카이브를 검색합니다.",
+      "raw_asr_text": "평가 목적을 입력하면 내부지식 아카이브를 검색합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 163,
+      "last_word_index": 168,
+      "source_word_start_approximate": 102.72,
+      "source_word_end_approximate": 106.24,
+      "first_word": {
+        "word": " 평가",
+        "start": 102.72,
+        "end": 103.04,
+        "probability": 0.975814551115036
+      },
+      "last_word": {
+        "word": " 검색합니다.",
+        "start": 105.54,
+        "end": 106.24,
+        "probability": 0.9952043493588766
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task7_cut3",
+      "section_id": "task7",
+      "expected": "관련 Recipe와 근거 자료를 함께 제안합니다.",
+      "spoken_text": "관련 레시피와 근거 자료를 함께 제안합니다.",
+      "raw_asr_text": "관련 레시피와 근거 자료를 함께 제안합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 169,
+      "last_word_index": 174,
+      "source_word_start_approximate": 107.00999999999999,
+      "source_word_end_approximate": 109.96,
+      "first_word": {
+        "word": " 관련",
+        "start": 107.00999999999999,
+        "end": 107.52,
+        "probability": 0.43060317635536194
+      },
+      "last_word": {
+        "word": " 제안합니다.",
+        "start": 109.32,
+        "end": 109.96,
+        "probability": 0.8571067849795023
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task7_cut4",
+      "section_id": "task7",
+      "expected": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "spoken_text": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "raw_asr_text": "자료 탐색과 구도문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "normalized_character_coverage": 0.9615384615384616,
+      "first_word_index": 175,
+      "last_word_index": 183,
+      "source_word_start_approximate": 111.0,
+      "source_word_end_approximate": 114.94,
+      "first_word": {
+        "word": " 자료",
+        "start": 111.0,
+        "end": 111.32,
+        "probability": 0.9739233553409576
+      },
+      "last_word": {
+        "word": " 지원합니다.",
+        "start": 114.4,
+        "end": 114.94,
+        "probability": 0.9788808524608612
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task7_cut5",
+      "section_id": "task7",
+      "expected": "전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+      "spoken_text": "전문가 지식을 축적해, 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+      "raw_asr_text": "전문가 지식을 축적해 담당자가 바뀌어도 활용할 수 있는 기반을 마련합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 184,
+      "last_word_index": 193,
+      "source_word_start_approximate": 116.08,
+      "source_word_end_approximate": 120.54,
+      "first_word": {
+        "word": " 전문가",
+        "start": 116.08,
+        "end": 116.52,
+        "probability": 0.9878015120824178
+      },
+      "last_word": {
+        "word": " 마련합니다.",
+        "start": 120.0,
+        "end": 120.54,
+        "probability": 0.9861317674318949
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task17_cut1",
+      "section_id": "task17",
+      "expected": "TEM 이미지 측정과 기록을 수작업으로 진행해 편차가 생겼습니다.",
+      "spoken_text": "템 이미지 측정과 기록을 수작업으로 진행해 편차가 생겼습니다.",
+      "raw_asr_text": "템, 이미지 측정과 기록을 수작업으로 진행해 편차가 생겼습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 194,
+      "last_word_index": 201,
+      "source_word_start_approximate": 122.12,
+      "source_word_end_approximate": 126.14,
+      "first_word": {
+        "word": " 템,",
+        "start": 122.12,
+        "end": 122.4,
+        "probability": 0.913607269525528
+      },
+      "last_word": {
+        "word": " 생겼습니다.",
+        "start": 125.54,
+        "end": 126.14,
+        "probability": 0.9902983903884888
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task17_cut2",
+      "section_id": "task17",
+      "expected": "이미지 기울기와 측정 위치를 분석합니다.",
+      "spoken_text": "이미지 기울기와 측정 위치를 분석합니다.",
+      "raw_asr_text": "이미지 기울기와 측정 위치를 분석합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 202,
+      "last_word_index": 206,
+      "source_word_start_approximate": 127.24,
+      "source_word_end_approximate": 129.6,
+      "first_word": {
+        "word": " 이미지",
+        "start": 127.24,
+        "end": 127.64,
+        "probability": 0.9806450009346008
+      },
+      "last_word": {
+        "word": " 분석합니다.",
+        "start": 128.92,
+        "end": 129.6,
+        "probability": 0.9897184173266093
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task17_cut3",
+      "section_id": "task17",
+      "expected": "측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다.",
+      "spoken_text": "측정값과 좌표, 측정선 오버레이를 자동 생성하고 결과와 이력을 저장합니다.",
+      "raw_asr_text": "측정값과 좌표, 측정선 오버레이를 자동생성하고 결과와 이력을 저장합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 207,
+      "last_word_index": 214,
+      "source_word_start_approximate": 130.6,
+      "source_word_end_approximate": 136.04,
+      "first_word": {
+        "word": " 측정값과",
+        "start": 130.6,
+        "end": 131.42,
+        "probability": 0.6960274733603
+      },
+      "last_word": {
+        "word": " 저장합니다.",
+        "start": 135.52,
+        "end": 136.04,
+        "probability": 0.9712729255358378
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task17_cut4",
+      "section_id": "task17",
+      "expected": "이미지당 측정 시간을 5분에서 6초로 줄입니다.",
+      "spoken_text": "이미지당 측정 시간을 오 분에서 육 초로 줄입니다.",
+      "raw_asr_text": "이미지당 측정시간을 5분에서 6초로 줄입니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 215,
+      "last_word_index": 219,
+      "source_word_start_approximate": 136.82,
+      "source_word_end_approximate": 140.12,
+      "first_word": {
+        "word": " 이미지당",
+        "start": 136.82,
+        "end": 137.84,
+        "probability": 0.8296646475791931
+      },
+      "last_word": {
+        "word": " 줄입니다.",
+        "start": 139.76,
+        "end": 140.12,
+        "probability": 0.9815857112407684
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task5_cut1",
+      "section_id": "task5",
+      "expected": "여러 파일과 표를 오가며 자료를 비교·취합했습니다.",
+      "spoken_text": "여러 파일과 표를 오가며 자료를 비교, 취합했습니다.",
+      "raw_asr_text": "여러 파일과 표를 오가며 자료를 비교 취합했습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 220,
+      "last_word_index": 226,
+      "source_word_start_approximate": 141.42,
+      "source_word_end_approximate": 144.64,
+      "first_word": {
+        "word": " 여러",
+        "start": 141.42,
+        "end": 141.68,
+        "probability": 0.9544579982757568
+      },
+      "last_word": {
+        "word": " 취합했습니다.",
+        "start": 143.94,
+        "end": 144.64,
+        "probability": 0.8398734132448832
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task5_cut2",
+      "section_id": "task5",
+      "expected": "데이터를 Working Board에 등록합니다.",
+      "spoken_text": "데이터를 워킹 보드에 등록합니다.",
+      "raw_asr_text": "데이터를 워킹보드에 등록합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 227,
+      "last_word_index": 229,
+      "source_word_start_approximate": 145.78,
+      "source_word_end_approximate": 147.44,
+      "first_word": {
+        "word": " 데이터를",
+        "start": 145.78,
+        "end": 146.26,
+        "probability": 0.9933470487594604
+      },
+      "last_word": {
+        "word": " 등록합니다.",
+        "start": 146.92,
+        "end": 147.44,
+        "probability": 0.9900127450625101
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task5_cut3",
+      "section_id": "task5",
+      "expected": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+      "spoken_text": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+      "raw_asr_text": "자연어 질문으로 필요한 정보를 추출하고 여러 데이터를 교차 분석합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 230,
+      "last_word_index": 238,
+      "source_word_start_approximate": 148.48,
+      "source_word_end_approximate": 152.9,
+      "first_word": {
+        "word": " 자연어",
+        "start": 148.48,
+        "end": 148.92,
+        "probability": 0.7874284386634827
+      },
+      "last_word": {
+        "word": " 분석합니다.",
+        "start": 152.3,
+        "end": 152.9,
+        "probability": 0.9713501930236816
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task5_cut4",
+      "section_id": "task5",
+      "expected": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "spoken_text": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "raw_asr_text": "조회창고를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "normalized_character_coverage": 0.96,
+      "first_word_index": 239,
+      "last_word_index": 246,
+      "source_word_start_approximate": 154.3,
+      "source_word_end_approximate": 158.06,
+      "first_word": {
+        "word": " 조회창고를",
+        "start": 154.3,
+        "end": 155.04,
+        "probability": 0.8939277410507203
+      },
+      "last_word": {
+        "word": " 줄입니다.",
+        "start": 157.72,
+        "end": 158.06,
+        "probability": 0.9919244349002838
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task5_cut5",
+      "section_id": "task5",
+      "expected": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "spoken_text": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "raw_asr_text": "분석 자료와 도매인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "normalized_character_coverage": 0.9629629629629629,
+      "first_word_index": 247,
+      "last_word_index": 256,
+      "source_word_start_approximate": 159.02,
+      "source_word_end_approximate": 162.88,
+      "first_word": {
+        "word": " 분석",
+        "start": 159.02,
+        "end": 159.52,
+        "probability": 0.6807259917259216
+      },
+      "last_word": {
+        "word": " 마련합니다.",
+        "start": 162.32,
+        "end": 162.88,
+        "probability": 0.9877181847890218
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task9_cut1",
+      "section_id": "task9",
+      "expected": "Spec out 발생 시 공정 이력을 조사하고 데이터를 가공했습니다.",
+      "spoken_text": "스펙 아웃 발생 시 공정 이력을 조사하고 데이터를 가공했습니다.",
+      "raw_asr_text": "스펙 아웃 발생 시 공정 이력을 조사하고 데이터를 가공했습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 257,
+      "last_word_index": 265,
+      "source_word_start_approximate": 163.62,
+      "source_word_end_approximate": 168.04,
+      "first_word": {
+        "word": " 스펙",
+        "start": 163.62,
+        "end": 164.62,
+        "probability": 0.8137134512265524
+      },
+      "last_word": {
+        "word": " 가공했습니다.",
+        "start": 167.52,
+        "end": 168.04,
+        "probability": 0.9868413607279459
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task9_cut2",
+      "section_id": "task9",
+      "expected": "Lot ID와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "spoken_text": "로트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "raw_asr_text": "노트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "normalized_character_coverage": 0.9642857142857143,
+      "first_word_index": 266,
+      "last_word_index": 274,
+      "source_word_start_approximate": 169.52,
+      "source_word_end_approximate": 173.58,
+      "first_word": {
+        "word": " 노트",
+        "start": 169.52,
+        "end": 169.88,
+        "probability": 0.5780108273029327
+      },
+      "last_word": {
+        "word": " 연결합니다.",
+        "start": 173.08,
+        "end": 173.58,
+        "probability": 0.993364155292511
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task9_cut3",
+      "section_id": "task9",
+      "expected": "상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다.",
+      "spoken_text": "상관관계와 이상치를 분석하고, 원인공정 후보 랭킹과 리포트를 생성합니다.",
+      "raw_asr_text": "상관 관계와 이상치를 분석하고 원인 공정 후보랭킹과 리포트를 생성합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 275,
+      "last_word_index": 283,
+      "source_word_start_approximate": 174.68,
+      "source_word_end_approximate": 180.08,
+      "first_word": {
+        "word": " 상관",
+        "start": 174.68,
+        "end": 175.14,
+        "probability": 0.9865635931491852
+      },
+      "last_word": {
+        "word": " 생성합니다.",
+        "start": 179.46,
+        "end": 180.08,
+        "probability": 0.9874878327051798
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task9_cut4",
+      "section_id": "task9",
+      "expected": "분석 시간을 70퍼센트 이상 단축합니다.",
+      "spoken_text": "분석 시간을 칠십 퍼센트 이상 단축합니다.",
+      "raw_asr_text": "분석 시간을 70 % 이상 단축합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 284,
+      "last_word_index": 289,
+      "source_word_start_approximate": 181.28,
+      "source_word_end_approximate": 183.76,
+      "first_word": {
+        "word": " 분석",
+        "start": 181.28,
+        "end": 181.6,
+        "probability": 0.9991847574710846
+      },
+      "last_word": {
+        "word": " 단축합니다.",
+        "start": 183.04,
+        "end": 183.76,
+        "probability": 0.9902420043945312
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task9_cut5",
+      "section_id": "task9",
+      "expected": "분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.",
+      "spoken_text": "분석 절차와 기준을 일관되게 적용하며, 원인공정은 확정 원인이 아닌 후보로 검토합니다.",
+      "raw_asr_text": "분석 절차와 기준을 일관되게 적용하며 원인 공정은 확정 원인이 아닌 후보로 검토합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 290,
+      "last_word_index": 301,
+      "source_word_start_approximate": 184.76,
+      "source_word_end_approximate": 191.04,
+      "first_word": {
+        "word": " 분석",
+        "start": 184.76,
+        "end": 185.34,
+        "probability": 0.5825298577547073
+      },
+      "last_word": {
+        "word": " 검토합니다.",
+        "start": 190.48,
+        "end": 191.04,
+        "probability": 0.9922091364860535
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task4_cut1",
+      "section_id": "task4",
+      "expected": "Lot·장비·FDC를 따로 조회하고 DOE 결과를 공유하기 어려웠습니다.",
+      "spoken_text": "로트, 장비, 에프디씨를 따로 조회하고 디오이 결과를 공유하기 어려웠습니다.",
+      "raw_asr_text": "로트, 장비, FDC를 따로 조회하고 DOE 결과를 공유하기 어려웠습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 302,
+      "last_word_index": 310,
+      "source_word_start_approximate": 192.22,
+      "source_word_end_approximate": 197.22,
+      "first_word": {
+        "word": " 로트,",
+        "start": 192.22,
+        "end": 192.78,
+        "probability": 0.758501410484314
+      },
+      "last_word": {
+        "word": " 어려웠습니다.",
+        "start": 196.54,
+        "end": 197.22,
+        "probability": 0.994196891784668
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task4_cut2",
+      "section_id": "task4",
+      "expected": "웹 플랫폼에서 현황과 모니터링 Trend를 통합 조회합니다.",
+      "spoken_text": "웹 플랫폼에서 현황과 모니터링 트렌드를 통합 조회합니다.",
+      "raw_asr_text": "웹 플랫폼에서 현안과 모니터링 트렌드를 통합 조회합니다.",
+      "normalized_character_coverage": 0.9583333333333334,
+      "first_word_index": 311,
+      "last_word_index": 317,
+      "source_word_start_approximate": 198.44,
+      "source_word_end_approximate": 201.96,
+      "first_word": {
+        "word": " 웹",
+        "start": 198.44,
+        "end": 198.62,
+        "probability": 0.8665645718574524
+      },
+      "last_word": {
+        "word": " 조회합니다.",
+        "start": 201.46,
+        "end": 201.96,
+        "probability": 0.839993437131246
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task4_cut3",
+      "section_id": "task4",
+      "expected": "구성원이 DOE 평가 결과를 함께 확인합니다.",
+      "spoken_text": "구성원이 디오이 평가 결과를 함께 확인합니다.",
+      "raw_asr_text": "구성원이 DOE 평가 결과를 함께 확인합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 318,
+      "last_word_index": 323,
+      "source_word_start_approximate": 202.98,
+      "source_word_end_approximate": 205.6,
+      "first_word": {
+        "word": " 구성원이",
+        "start": 202.98,
+        "end": 203.5,
+        "probability": 0.9797118703524271
+      },
+      "last_word": {
+        "word": " 확인합니다.",
+        "start": 205.06,
+        "end": 205.6,
+        "probability": 0.9842117726802826
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task4_cut4",
+      "section_id": "task4",
+      "expected": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+      "spoken_text": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+      "raw_asr_text": "시스템 이동과 데이터 가공 부담을 줄입니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 324,
+      "last_word_index": 329,
+      "source_word_start_approximate": 206.7,
+      "source_word_end_approximate": 209.14,
+      "first_word": {
+        "word": " 시스템",
+        "start": 206.7,
+        "end": 207.08,
+        "probability": 0.9846850484609604
+      },
+      "last_word": {
+        "word": " 줄입니다.",
+        "start": 208.78,
+        "end": 209.14,
+        "probability": 0.9737508893013
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task4_cut5",
+      "section_id": "task4",
+      "expected": "개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.",
+      "spoken_text": "개인의 평가 결과와 분석 노하우를 조직 안에서 공유합니다.",
+      "raw_asr_text": "개인의 평가 결과와 분석 노하우를 조직안에서 공유합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 330,
+      "last_word_index": 336,
+      "source_word_start_approximate": 210.14,
+      "source_word_end_approximate": 213.76,
+      "first_word": {
+        "word": " 개인의",
+        "start": 210.14,
+        "end": 210.74,
+        "probability": 0.544321246445179
+      },
+      "last_word": {
+        "word": " 공유합니다.",
+        "start": 213.1,
+        "end": 213.76,
+        "probability": 0.9841130375862122
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task12_cut1",
+      "section_id": "task12",
+      "expected": "경비를 엑셀로 집계하고 장비 이력을 따로 확인했습니다.",
+      "spoken_text": "경비를 엑셀로 집계하고 장비 이력을 따로 확인했습니다.",
+      "raw_asr_text": "경비를 엑셀로 집계하고 장비 이력을 따로 확인했습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 337,
+      "last_word_index": 343,
+      "source_word_start_approximate": 214.64,
+      "source_word_end_approximate": 218.26,
+      "first_word": {
+        "word": " 경비를",
+        "start": 214.64,
+        "end": 215.6,
+        "probability": 0.9602362116177877
+      },
+      "last_word": {
+        "word": " 확인했습니다.",
+        "start": 217.74,
+        "end": 218.26,
+        "probability": 0.9927599430084229
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task12_cut2",
+      "section_id": "task12",
+      "expected": "경비와 장비 이력을 연결하고 22개 판단 지표를 추가했습니다.",
+      "spoken_text": "경비와 장비 이력을 연결하고 스물두 개 판단 지표를 추가했습니다.",
+      "raw_asr_text": "경비와 장비 이력을 연결하고 22개 판단 지표를 추가했습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 344,
+      "last_word_index": 351,
+      "source_word_start_approximate": 219.5,
+      "source_word_end_approximate": 223.38,
+      "first_word": {
+        "word": " 경비와",
+        "start": 219.5,
+        "end": 220.04,
+        "probability": 0.9870718916257223
+      },
+      "last_word": {
+        "word": " 추가했습니다.",
+        "start": 222.82,
+        "end": 223.38,
+        "probability": 0.9966512024402618
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task12_cut3",
+      "section_id": "task12",
+      "expected": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다.",
+      "spoken_text": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다.",
+      "raw_asr_text": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살피입니다.",
+      "normalized_character_coverage": 0.9666666666666667,
+      "first_word_index": 352,
+      "last_word_index": 362,
+      "source_word_start_approximate": 224.8,
+      "source_word_end_approximate": 229.8,
+      "first_word": {
+        "word": " 비용",
+        "start": 224.8,
+        "end": 225.14,
+        "probability": 0.9550284445285797
+      },
+      "last_word": {
+        "word": " 살피입니다.",
+        "start": 229.16,
+        "end": 229.8,
+        "probability": 0.6936559478441874
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task3_cut1",
+      "section_id": "task3",
+      "expected": "Lot 분석을 위해 공정·장비·Inline 정보를 따로 조사했습니다.",
+      "spoken_text": "로트 분석을 위해 공정, 장비, 인라인 정보를 따로 조사했습니다.",
+      "raw_asr_text": "로트 분석을 위해 공정, 장비, 인라인 정보를 따로 조사했습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 363,
+      "last_word_index": 371,
+      "source_word_start_approximate": 231.14,
+      "source_word_end_approximate": 235.0,
+      "first_word": {
+        "word": " 로트",
+        "start": 231.14,
+        "end": 231.4,
+        "probability": 0.24939659982919693
+      },
+      "last_word": {
+        "word": " 조사했습니다.",
+        "start": 234.48,
+        "end": 235.0,
+        "probability": 0.99333389600118
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task3_cut2",
+      "section_id": "task3",
+      "expected": "앱에서 Lot과 장비 이력, Inline 데이터를 조회하고 추출합니다.",
+      "spoken_text": "앱에서 로트와 장비 이력, 인라인 데이터를 조회하고 추출합니다.",
+      "raw_asr_text": "앱에서 로트와 장비 이력, 인라인 데이터를 조회하고 추출합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 372,
+      "last_word_index": 379,
+      "source_word_start_approximate": 236.0,
+      "source_word_end_approximate": 240.02,
+      "first_word": {
+        "word": " 앱에서",
+        "start": 236.0,
+        "end": 236.84,
+        "probability": 0.725822334488233
+      },
+      "last_word": {
+        "word": " 추출합니다.",
+        "start": 239.48,
+        "end": 240.02,
+        "probability": 0.9725632270177206
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task3_cut3",
+      "section_id": "task3",
+      "expected": "Lot 간 공정 수순과 장비, Recipe 차이를 비교합니다.",
+      "spoken_text": "로트 간 공정 수순과 장비, 레시피 차이를 비교합니다.",
+      "raw_asr_text": "로트 간 공정 수순과 장비 레시피 차이를 비교합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 380,
+      "last_word_index": 387,
+      "source_word_start_approximate": 240.92,
+      "source_word_end_approximate": 244.62,
+      "first_word": {
+        "word": " 로트",
+        "start": 240.92,
+        "end": 241.44,
+        "probability": 0.7844545841217041
+      },
+      "last_word": {
+        "word": " 비교합니다.",
+        "start": 244.08,
+        "end": 244.62,
+        "probability": 0.9934523701667786
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task3_cut4",
+      "section_id": "task3",
+      "expected": "Lot 한 건 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다.",
+      "spoken_text": "로트 한 건 분석 시간을 약 두 시간 사십 분에서 이십 분 이내로 줄입니다.",
+      "raw_asr_text": "로트 한 껌 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다.",
+      "normalized_character_coverage": 0.9642857142857143,
+      "first_word_index": 388,
+      "last_word_index": 398,
+      "source_word_start_approximate": 245.74,
+      "source_word_end_approximate": 250.06,
+      "first_word": {
+        "word": " 로트",
+        "start": 245.74,
+        "end": 246.18,
+        "probability": 0.979356050491333
+      },
+      "last_word": {
+        "word": " 줄입니다.",
+        "start": 249.72,
+        "end": 250.06,
+        "probability": 0.9902180731296539
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task8_cut1",
+      "section_id": "task8",
+      "expected": "공정 데이터를 조회하고 엑셀로 가공·시각화했습니다.",
+      "spoken_text": "공정 데이터를 조회하고 엑셀로 가공, 시각화했습니다.",
+      "raw_asr_text": "공정 데이터를 조회하고 엑셀로 가공 시각화했습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 399,
+      "last_word_index": 404,
+      "source_word_start_approximate": 251.48,
+      "source_word_end_approximate": 254.5,
+      "first_word": {
+        "word": " 공정",
+        "start": 251.48,
+        "end": 251.86,
+        "probability": 0.9877556562423706
+      },
+      "last_word": {
+        "word": " 시각화했습니다.",
+        "start": 253.8,
+        "end": 254.5,
+        "probability": 0.8483344912528992
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task8_cut2",
+      "section_id": "task8",
+      "expected": "필요한 공정 데이터를 자연어로 조회합니다.",
+      "spoken_text": "필요한 공정 데이터를 자연어로 조회합니다.",
+      "raw_asr_text": "필요한 공정 데이터를 자연으로 조회합니다.",
+      "normalized_character_coverage": 0.9444444444444444,
+      "first_word_index": 405,
+      "last_word_index": 409,
+      "source_word_start_approximate": 255.88,
+      "source_word_end_approximate": 258.26,
+      "first_word": {
+        "word": " 필요한",
+        "start": 255.88,
+        "end": 256.28,
+        "probability": 0.9932177066802979
+      },
+      "last_word": {
+        "word": " 조회합니다.",
+        "start": 257.7,
+        "end": 258.26,
+        "probability": 0.9829297860463461
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task8_cut3",
+      "section_id": "task8",
+      "expected": "Wafer Map과 그래프로 시각화해 수동 가공을 간소화합니다.",
+      "spoken_text": "웨이퍼 맵과 그래프로 시각화해 수동 가공을 간소화합니다.",
+      "raw_asr_text": "웨이퍼 맵과 그래프로 시각화에 수동 가공을 간소화합니다.",
+      "normalized_character_coverage": 0.9583333333333334,
+      "first_word_index": 410,
+      "last_word_index": 416,
+      "source_word_start_approximate": 259.46,
+      "source_word_end_approximate": 262.9,
+      "first_word": {
+        "word": " 웨이퍼",
+        "start": 259.46,
+        "end": 259.88,
+        "probability": 0.8108041882514954
+      },
+      "last_word": {
+        "word": " 간소화합니다.",
+        "start": 262.3,
+        "end": 262.9,
+        "probability": 0.8901833742856979
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task8_cut4",
+      "section_id": "task8",
+      "expected": "공정 데이터 조회와 시각화 업무 시간을 40퍼센트 이상 단축합니다.",
+      "spoken_text": "공정 데이터 조회와 시각화 업무 시간을 사십 퍼센트 이상 단축합니다.",
+      "raw_asr_text": "공정 데이터 조회와 시각화 업무 시간을 40 % 이상 단축합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 417,
+      "last_word_index": 426,
+      "source_word_start_approximate": 263.9,
+      "source_word_end_approximate": 268.32,
+      "first_word": {
+        "word": " 공정",
+        "start": 263.9,
+        "end": 264.56,
+        "probability": 0.7421400249004364
+      },
+      "last_word": {
+        "word": " 단축합니다.",
+        "start": 267.6,
+        "end": 268.32,
+        "probability": 0.9881685823202133
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task14_cut1",
+      "section_id": "task14",
+      "expected": "여러 시스템에서 Lot·장비·TEM과 보고 정보를 따로 확인했습니다.",
+      "spoken_text": "여러 시스템에서 로트, 장비, 템과 보고 정보를 따로 확인했습니다.",
+      "raw_asr_text": "여러 시스템에서 로트, 장비, 템과 보고 정보를 따로 확인했습니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 427,
+      "last_word_index": 435,
+      "source_word_start_approximate": 269.36,
+      "source_word_end_approximate": 273.94,
+      "first_word": {
+        "word": " 여러",
+        "start": 269.36,
+        "end": 270.2,
+        "probability": 0.8798046112060547
+      },
+      "last_word": {
+        "word": " 확인했습니다.",
+        "start": 273.48,
+        "end": 273.94,
+        "probability": 0.9878315329551697
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task14_cut2",
+      "section_id": "task14",
+      "expected": "하나의 앱에서 Lot과 장비 상태, TEM 쿼터와 의뢰 현황을 통합 조회합니다.",
+      "spoken_text": "하나의 앱에서 로트와 장비 상태, 템 쿼터와 의뢰 현황을 통합 조회합니다.",
+      "raw_asr_text": "하나의 앱에서 로트와 장비 상태, 템커터와 의뢰 현황을 통합 조회합니다.",
+      "normalized_character_coverage": 0.9655172413793104,
+      "first_word_index": 436,
+      "last_word_index": 445,
+      "source_word_start_approximate": 275.2,
+      "source_word_end_approximate": 279.98,
+      "first_word": {
+        "word": " 하나의",
+        "start": 275.2,
+        "end": 275.64,
+        "probability": 0.9790272414684296
+      },
+      "last_word": {
+        "word": " 조회합니다.",
+        "start": 279.52,
+        "end": 279.98,
+        "probability": 0.7955343226591746
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task14_cut3",
+      "section_id": "task14",
+      "expected": "Daily와 Weekly Report, 주말 근무자 안내를 자동화합니다.",
+      "spoken_text": "데일리와 위클리 리포트, 주말 근무자 안내를 자동화합니다.",
+      "raw_asr_text": "데일리와 위클리 리포트, 주말 근무자 안내를 자동화합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 446,
+      "last_word_index": 452,
+      "source_word_start_approximate": 281.22,
+      "source_word_end_approximate": 284.54,
+      "first_word": {
+        "word": " 데일리와",
+        "start": 281.22,
+        "end": 281.8,
+        "probability": 0.9825322031974792
+      },
+      "last_word": {
+        "word": " 자동화합니다.",
+        "start": 283.86,
+        "end": 284.54,
+        "probability": 0.9300966411828995
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task14_cut4",
+      "section_id": "task14",
+      "expected": "보고와 취합 업무 시간을 90퍼센트 이상 단축합니다.",
+      "spoken_text": "보고와 취합 업무 시간을 구십 퍼센트 이상 단축합니다.",
+      "raw_asr_text": "보고와 취합 업무 시간을 90 % 이상 단축합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 453,
+      "last_word_index": 460,
+      "source_word_start_approximate": 285.88,
+      "source_word_end_approximate": 288.92,
+      "first_word": {
+        "word": " 보고와",
+        "start": 285.88,
+        "end": 286.3,
+        "probability": 0.9756855964660645
+      },
+      "last_word": {
+        "word": " 단축합니다.",
+        "start": 288.22,
+        "end": 288.92,
+        "probability": 0.994700089097023
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task14_cut5",
+      "section_id": "task14",
+      "expected": "반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+      "spoken_text": "반복 조회와 취합, 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+      "raw_asr_text": "반복 조회와 취합 보고 부담을 줄이고 축적된 데이터를 분석에 활용합니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 461,
+      "last_word_index": 470,
+      "source_word_start_approximate": 288.92,
+      "source_word_end_approximate": 294.86,
+      "first_word": {
+        "word": " 반복",
+        "start": 288.92,
+        "end": 290.56,
+        "probability": 0.9601524770259857
+      },
+      "last_word": {
+        "word": " 활용합니다.",
+        "start": 294.26,
+        "end": 294.86,
+        "probability": 0.9950695832570394
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task16_cut1",
+      "section_id": "task16",
+      "expected": "대량 데이터를 가공하고 오계측을 육안으로 검토했습니다.",
+      "spoken_text": "대량 데이터를 가공하고 오계측을 육안으로 검토했습니다.",
+      "raw_asr_text": "대량 데이터를 가공하고 오개측을 유관으로 검토했습니다.",
+      "normalized_character_coverage": 0.875,
+      "first_word_index": 471,
+      "last_word_index": 476,
+      "source_word_start_approximate": 295.66,
+      "source_word_end_approximate": 299.64,
+      "first_word": {
+        "word": " 대량",
+        "start": 295.66,
+        "end": 296.68,
+        "probability": 0.9923356175422668
+      },
+      "last_word": {
+        "word": " 검토했습니다.",
+        "start": 298.98,
+        "end": 299.64,
+        "probability": 0.9920652508735657
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task16_cut2",
+      "section_id": "task16",
+      "expected": "계측 데이터의 수집과 전처리, 적재를 자동화합니다.",
+      "spoken_text": "계측 데이터의 수집과 전처리, 적재를 자동화합니다.",
+      "raw_asr_text": "개측 데이터의 수집과 전철이 적재를 자동화합니다.",
+      "normalized_character_coverage": 0.8571428571428571,
+      "first_word_index": 477,
+      "last_word_index": 482,
+      "source_word_start_approximate": 300.88,
+      "source_word_end_approximate": 303.88,
+      "first_word": {
+        "word": " 개측",
+        "start": 300.88,
+        "end": 301.22,
+        "probability": 0.8422541419665018
+      },
+      "last_word": {
+        "word": " 자동화합니다.",
+        "start": 303.16,
+        "end": 303.88,
+        "probability": 0.911801666021347
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task16_cut3",
+      "section_id": "task16",
+      "expected": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+      "spoken_text": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+      "raw_asr_text": "이미지 기반 오개측 후보 탐지와 데시보드 자연어 분석을 제공합니다.",
+      "normalized_character_coverage": 0.9285714285714286,
+      "first_word_index": 483,
+      "last_word_index": 491,
+      "source_word_start_approximate": 305.0,
+      "source_word_end_approximate": 309.14,
+      "first_word": {
+        "word": " 이미지",
+        "start": 305.0,
+        "end": 305.36,
+        "probability": 0.9865812659263611
+      },
+      "last_word": {
+        "word": " 제공합니다.",
+        "start": 308.6,
+        "end": 309.14,
+        "probability": 0.991406261920929
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task16_cut4",
+      "section_id": "task16",
+      "expected": "수집 시간을 1200초에서 75초로 줄이고, 단일 층 검증의 리뷰 대상은 317건에서 19건으로 줄입니다.",
+      "spoken_text": "수집 시간을 천이백 초에서 칠십오 초로 줄이고, 단일 층 검증의 리뷰 대상은 삼백십칠 건에서 십구 건으로 줄입니다.",
+      "raw_asr_text": "수집 시간을 1200초에서 75초로 줄이고 단일층 검증의 리뷰 대상은 317건에서 19건으로 줄입니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 492,
+      "last_word_index": 503,
+      "source_word_start_approximate": 310.42,
+      "source_word_end_approximate": 318.14,
+      "first_word": {
+        "word": " 수집",
+        "start": 310.42,
+        "end": 310.78,
+        "probability": 0.9929571449756622
+      },
+      "last_word": {
+        "word": " 줄입니다.",
+        "start": 317.76,
+        "end": 318.14,
+        "probability": 0.9907121360301971
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    },
+    {
+      "id": "task16_cut5",
+      "section_id": "task16",
+      "expected": "담당자의 검토 범위를 줄입니다.",
+      "spoken_text": "담당자의 검토 범위를 줄입니다.",
+      "raw_asr_text": "담당자의 검토 범위를 줄입니다.",
+      "normalized_character_coverage": 1.0,
+      "first_word_index": 504,
+      "last_word_index": 507,
+      "source_word_start_approximate": 319.0,
+      "source_word_end_approximate": 320.94,
+      "first_word": {
+        "word": " 담당자의",
+        "start": 319.0,
+        "end": 319.82,
+        "probability": 0.8446688801050186
+      },
+      "last_word": {
+        "word": " 줄입니다.",
+        "start": 320.52,
+        "end": 320.94,
+        "probability": 0.9674776196479797
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": false
+    }
+  ],
+  "asr_variant_lines": [
+    {
+      "id": "opening_cut1",
+      "section_id": "opening",
+      "expected": "R&D 업무에 AI를 더합니다.",
+      "spoken_text": "알앤디 업무에 에이아이를 더합니다.",
+      "raw_asr_text": "R &D 업무의 AI를 더합니다.",
+      "normalized_character_coverage": 0.9333333333333333,
+      "first_word_index": 0,
+      "last_word_index": 4,
+      "source_word_start_approximate": 0.0,
+      "source_word_end_approximate": 1.98,
+      "first_word": {
+        "word": " R",
+        "start": 0.0,
+        "end": 0.22,
+        "probability": 0.3512280285358429
+      },
+      "last_word": {
+        "word": " 더합니다.",
+        "start": 1.58,
+        "end": 1.98,
+        "probability": 0.9338037669658661
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "opening_cut5",
+      "section_id": "opening",
+      "expected": "현업의 문제를 AI로 해결하는 R&D 공정 AI Fast Track.",
+      "spoken_text": "현업의 문제를 에이아이로 해결하는 알앤디 공정 에이아이 패스트 트랙.",
+      "raw_asr_text": "현업의 문제를 AI로 해결하는 R &D 공정 AI 페스트트랙",
+      "normalized_character_coverage": 0.9655172413793104,
+      "first_word_index": 27,
+      "last_word_index": 35,
+      "source_word_start_approximate": 15.88,
+      "source_word_end_approximate": 20.18,
+      "first_word": {
+        "word": " 현업의",
+        "start": 15.88,
+        "end": 16.34,
+        "probability": 0.9890208840370178
+      },
+      "last_word": {
+        "word": " 페스트트랙",
+        "start": 19.3,
+        "end": 20.18,
+        "probability": 0.6922736614942551
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task11_cut1",
+      "section_id": "task11",
+      "expected": "여러 도구를 오가며 경험에 의존해 열화 원인을 분석했습니다.",
+      "spoken_text": "여러 도구를 오가며 경험에 의존해 열화 원인을 분석했습니다.",
+      "raw_asr_text": "여러 도구를 오가며 경험의 의존의 여러 원인을 분석했습니다.",
+      "normalized_character_coverage": 0.84,
+      "first_word_index": 70,
+      "last_word_index": 77,
+      "source_word_start_approximate": 44.3,
+      "source_word_end_approximate": 48.08,
+      "first_word": {
+        "word": " 여러",
+        "start": 44.3,
+        "end": 44.56,
+        "probability": 0.8401849865913391
+      },
+      "last_word": {
+        "word": " 분석했습니다.",
+        "start": 47.34,
+        "end": 48.08,
+        "probability": 0.9953399896621704
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task11_cut2",
+      "section_id": "task11",
+      "expected": "Lot ID를 입력하면 Map과 Trend, K-param을 함께 조회합니다.",
+      "spoken_text": "로트 아이디를 입력하면 맵과 트렌드, 케이 파라미터를 함께 조회합니다.",
+      "raw_asr_text": "로트 아이디를 입력하면 넵과 트렌드, K -파라미터를 함께 조회합니다.",
+      "normalized_character_coverage": 0.9655172413793104,
+      "first_word_index": 78,
+      "last_word_index": 86,
+      "source_word_start_approximate": 49.36,
+      "source_word_end_approximate": 54.02,
+      "first_word": {
+        "word": " 로트",
+        "start": 49.36,
+        "end": 49.68,
+        "probability": 0.6060703173279762
+      },
+      "last_word": {
+        "word": " 조회합니다.",
+        "start": 53.5,
+        "end": 54.02,
+        "probability": 0.7860298355420431
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task7_cut4",
+      "section_id": "task7",
+      "expected": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "spoken_text": "자료 탐색과 구두 문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "raw_asr_text": "자료 탐색과 구도문의 의존을 줄여 평가 계획 수립을 지원합니다.",
+      "normalized_character_coverage": 0.9615384615384616,
+      "first_word_index": 175,
+      "last_word_index": 183,
+      "source_word_start_approximate": 111.0,
+      "source_word_end_approximate": 114.94,
+      "first_word": {
+        "word": " 자료",
+        "start": 111.0,
+        "end": 111.32,
+        "probability": 0.9739233553409576
+      },
+      "last_word": {
+        "word": " 지원합니다.",
+        "start": 114.4,
+        "end": 114.94,
+        "probability": 0.9788808524608612
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task5_cut4",
+      "section_id": "task5",
+      "expected": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "spoken_text": "조회 창구를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "raw_asr_text": "조회창고를 단일화해 파일 탐색과 반복 취합 부담을 줄입니다.",
+      "normalized_character_coverage": 0.96,
+      "first_word_index": 239,
+      "last_word_index": 246,
+      "source_word_start_approximate": 154.3,
+      "source_word_end_approximate": 158.06,
+      "first_word": {
+        "word": " 조회창고를",
+        "start": 154.3,
+        "end": 155.04,
+        "probability": 0.8939277410507203
+      },
+      "last_word": {
+        "word": " 줄입니다.",
+        "start": 157.72,
+        "end": 158.06,
+        "probability": 0.9919244349002838
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task5_cut5",
+      "section_id": "task5",
+      "expected": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "spoken_text": "분석 자료와 도메인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "raw_asr_text": "분석 자료와 도매인 지식을 함께 관리할 수 있는 기반을 마련합니다.",
+      "normalized_character_coverage": 0.9629629629629629,
+      "first_word_index": 247,
+      "last_word_index": 256,
+      "source_word_start_approximate": 159.02,
+      "source_word_end_approximate": 162.88,
+      "first_word": {
+        "word": " 분석",
+        "start": 159.02,
+        "end": 159.52,
+        "probability": 0.6807259917259216
+      },
+      "last_word": {
+        "word": " 마련합니다.",
+        "start": 162.32,
+        "end": 162.88,
+        "probability": 0.9877181847890218
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task9_cut2",
+      "section_id": "task9",
+      "expected": "Lot ID와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "spoken_text": "로트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "raw_asr_text": "노트 아이디와 메인 공정을 입력해 데이터 수집과 통합을 연결합니다.",
+      "normalized_character_coverage": 0.9642857142857143,
+      "first_word_index": 266,
+      "last_word_index": 274,
+      "source_word_start_approximate": 169.52,
+      "source_word_end_approximate": 173.58,
+      "first_word": {
+        "word": " 노트",
+        "start": 169.52,
+        "end": 169.88,
+        "probability": 0.5780108273029327
+      },
+      "last_word": {
+        "word": " 연결합니다.",
+        "start": 173.08,
+        "end": 173.58,
+        "probability": 0.993364155292511
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task4_cut2",
+      "section_id": "task4",
+      "expected": "웹 플랫폼에서 현황과 모니터링 Trend를 통합 조회합니다.",
+      "spoken_text": "웹 플랫폼에서 현황과 모니터링 트렌드를 통합 조회합니다.",
+      "raw_asr_text": "웹 플랫폼에서 현안과 모니터링 트렌드를 통합 조회합니다.",
+      "normalized_character_coverage": 0.9583333333333334,
+      "first_word_index": 311,
+      "last_word_index": 317,
+      "source_word_start_approximate": 198.44,
+      "source_word_end_approximate": 201.96,
+      "first_word": {
+        "word": " 웹",
+        "start": 198.44,
+        "end": 198.62,
+        "probability": 0.8665645718574524
+      },
+      "last_word": {
+        "word": " 조회합니다.",
+        "start": 201.46,
+        "end": 201.96,
+        "probability": 0.839993437131246
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task12_cut3",
+      "section_id": "task12",
+      "expected": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다.",
+      "spoken_text": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살핍니다.",
+      "raw_asr_text": "비용 증가 원인과 절감 검토 후보를 분석하고 실행 가능성을 함께 살피입니다.",
+      "normalized_character_coverage": 0.9666666666666667,
+      "first_word_index": 352,
+      "last_word_index": 362,
+      "source_word_start_approximate": 224.8,
+      "source_word_end_approximate": 229.8,
+      "first_word": {
+        "word": " 비용",
+        "start": 224.8,
+        "end": 225.14,
+        "probability": 0.9550284445285797
+      },
+      "last_word": {
+        "word": " 살피입니다.",
+        "start": 229.16,
+        "end": 229.8,
+        "probability": 0.6936559478441874
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task3_cut4",
+      "section_id": "task3",
+      "expected": "Lot 한 건 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다.",
+      "spoken_text": "로트 한 건 분석 시간을 약 두 시간 사십 분에서 이십 분 이내로 줄입니다.",
+      "raw_asr_text": "로트 한 껌 분석 시간을 약 2시간 40분에서 20분 이내로 줄입니다.",
+      "normalized_character_coverage": 0.9642857142857143,
+      "first_word_index": 388,
+      "last_word_index": 398,
+      "source_word_start_approximate": 245.74,
+      "source_word_end_approximate": 250.06,
+      "first_word": {
+        "word": " 로트",
+        "start": 245.74,
+        "end": 246.18,
+        "probability": 0.979356050491333
+      },
+      "last_word": {
+        "word": " 줄입니다.",
+        "start": 249.72,
+        "end": 250.06,
+        "probability": 0.9902180731296539
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task8_cut2",
+      "section_id": "task8",
+      "expected": "필요한 공정 데이터를 자연어로 조회합니다.",
+      "spoken_text": "필요한 공정 데이터를 자연어로 조회합니다.",
+      "raw_asr_text": "필요한 공정 데이터를 자연으로 조회합니다.",
+      "normalized_character_coverage": 0.9444444444444444,
+      "first_word_index": 405,
+      "last_word_index": 409,
+      "source_word_start_approximate": 255.88,
+      "source_word_end_approximate": 258.26,
+      "first_word": {
+        "word": " 필요한",
+        "start": 255.88,
+        "end": 256.28,
+        "probability": 0.9932177066802979
+      },
+      "last_word": {
+        "word": " 조회합니다.",
+        "start": 257.7,
+        "end": 258.26,
+        "probability": 0.9829297860463461
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task8_cut3",
+      "section_id": "task8",
+      "expected": "Wafer Map과 그래프로 시각화해 수동 가공을 간소화합니다.",
+      "spoken_text": "웨이퍼 맵과 그래프로 시각화해 수동 가공을 간소화합니다.",
+      "raw_asr_text": "웨이퍼 맵과 그래프로 시각화에 수동 가공을 간소화합니다.",
+      "normalized_character_coverage": 0.9583333333333334,
+      "first_word_index": 410,
+      "last_word_index": 416,
+      "source_word_start_approximate": 259.46,
+      "source_word_end_approximate": 262.9,
+      "first_word": {
+        "word": " 웨이퍼",
+        "start": 259.46,
+        "end": 259.88,
+        "probability": 0.8108041882514954
+      },
+      "last_word": {
+        "word": " 간소화합니다.",
+        "start": 262.3,
+        "end": 262.9,
+        "probability": 0.8901833742856979
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task14_cut2",
+      "section_id": "task14",
+      "expected": "하나의 앱에서 Lot과 장비 상태, TEM 쿼터와 의뢰 현황을 통합 조회합니다.",
+      "spoken_text": "하나의 앱에서 로트와 장비 상태, 템 쿼터와 의뢰 현황을 통합 조회합니다.",
+      "raw_asr_text": "하나의 앱에서 로트와 장비 상태, 템커터와 의뢰 현황을 통합 조회합니다.",
+      "normalized_character_coverage": 0.9655172413793104,
+      "first_word_index": 436,
+      "last_word_index": 445,
+      "source_word_start_approximate": 275.2,
+      "source_word_end_approximate": 279.98,
+      "first_word": {
+        "word": " 하나의",
+        "start": 275.2,
+        "end": 275.64,
+        "probability": 0.9790272414684296
+      },
+      "last_word": {
+        "word": " 조회합니다.",
+        "start": 279.52,
+        "end": 279.98,
+        "probability": 0.7955343226591746
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task16_cut1",
+      "section_id": "task16",
+      "expected": "대량 데이터를 가공하고 오계측을 육안으로 검토했습니다.",
+      "spoken_text": "대량 데이터를 가공하고 오계측을 육안으로 검토했습니다.",
+      "raw_asr_text": "대량 데이터를 가공하고 오개측을 유관으로 검토했습니다.",
+      "normalized_character_coverage": 0.875,
+      "first_word_index": 471,
+      "last_word_index": 476,
+      "source_word_start_approximate": 295.66,
+      "source_word_end_approximate": 299.64,
+      "first_word": {
+        "word": " 대량",
+        "start": 295.66,
+        "end": 296.68,
+        "probability": 0.9923356175422668
+      },
+      "last_word": {
+        "word": " 검토했습니다.",
+        "start": 298.98,
+        "end": 299.64,
+        "probability": 0.9920652508735657
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task16_cut2",
+      "section_id": "task16",
+      "expected": "계측 데이터의 수집과 전처리, 적재를 자동화합니다.",
+      "spoken_text": "계측 데이터의 수집과 전처리, 적재를 자동화합니다.",
+      "raw_asr_text": "개측 데이터의 수집과 전철이 적재를 자동화합니다.",
+      "normalized_character_coverage": 0.8571428571428571,
+      "first_word_index": 477,
+      "last_word_index": 482,
+      "source_word_start_approximate": 300.88,
+      "source_word_end_approximate": 303.88,
+      "first_word": {
+        "word": " 개측",
+        "start": 300.88,
+        "end": 301.22,
+        "probability": 0.8422541419665018
+      },
+      "last_word": {
+        "word": " 자동화합니다.",
+        "start": 303.16,
+        "end": 303.88,
+        "probability": 0.911801666021347
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    },
+    {
+      "id": "task16_cut3",
+      "section_id": "task16",
+      "expected": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+      "spoken_text": "이미지 기반 오계측 후보 탐지와 대시보드 자연어 분석을 제공합니다.",
+      "raw_asr_text": "이미지 기반 오개측 후보 탐지와 데시보드 자연어 분석을 제공합니다.",
+      "normalized_character_coverage": 0.9285714285714286,
+      "first_word_index": 483,
+      "last_word_index": 491,
+      "source_word_start_approximate": 305.0,
+      "source_word_end_approximate": 309.14,
+      "first_word": {
+        "word": " 이미지",
+        "start": 305.0,
+        "end": 305.36,
+        "probability": 0.9865812659263611
+      },
+      "last_word": {
+        "word": " 제공합니다.",
+        "start": 308.6,
+        "end": 309.14,
+        "probability": 0.991406261920929
+      },
+      "whole_line_anchor_present": true,
+      "asr_variant_requires_review": true
+    }
+  ],
+  "gap_analysis": {
+    "scope": "63 original inter-line gaps within the usable prefix only; no removal at the prefix/defective-ending boundary is proposed here.",
+    "total_gaps": 63,
+    "waveform_threshold_dbfs": -48,
+    "rms_window_seconds": 0.01,
+    "lexical_and_waveform_safe_candidates": 62,
+    "boundary_reviews_required": 1,
+    "verified_candidate_capacity_samples": 1914220,
+    "verified_candidate_capacity_seconds": 39.879583333333336,
+    "illustrative_reduction_seconds": 15.58,
+    "illustrative_reduction_is_not_an_approved_edit": true,
+    "gap_minimum_seconds": 0.3,
+    "paragraph_minimum_seconds": 0.4,
+    "energy_guards_each_side_seconds": 0.08,
+    "rows": [
+      {
+        "after_cut": "opening_cut1",
+        "before_cut": "opening_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 1.98,
+        "next_asr_word_start": 2.8,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 107520,
+          "end_sample": 144960,
+          "start": 2.24,
+          "end": 3.02,
+          "duration": 0.78,
+          "peak_rms_dbfs": -48.959887970603205
+        },
+        "safe_central_removal_window_samples": [
+          111360,
+          134399
+        ],
+        "safe_central_removal_window_seconds": [
+          2.32,
+          2.7999791666666667
+        ],
+        "maximum_removable_samples": 23039,
+        "maximum_removable_seconds": 0.4799791666666667,
+        "illustrative_proportional_removal_samples": 9001,
+        "illustrative_proportional_removal_seconds": 0.18752083333333333
+      },
+      {
+        "after_cut": "opening_cut2",
+        "before_cut": "opening_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 5.96,
+        "next_asr_word_start": 6.8,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 292320,
+          "end_sample": 329760,
+          "start": 6.09,
+          "end": 6.87,
+          "duration": 0.78,
+          "peak_rms_dbfs": -49.823209142900666
+        },
+        "safe_central_removal_window_samples": [
+          296160,
+          325920
+        ],
+        "safe_central_removal_window_seconds": [
+          6.17,
+          6.79
+        ],
+        "maximum_removable_samples": 23040,
+        "maximum_removable_seconds": 0.48,
+        "illustrative_proportional_removal_samples": 9001,
+        "illustrative_proportional_removal_seconds": 0.18752083333333333
+      },
+      {
+        "after_cut": "opening_cut3",
+        "before_cut": "opening_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 10.72,
+        "next_asr_word_start": 11.72,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 521760,
+          "end_sample": 565920,
+          "start": 10.870000000000001,
+          "end": 11.790000000000001,
+          "duration": 0.92,
+          "peak_rms_dbfs": -49.3162405122963
+        },
+        "safe_central_removal_window_samples": [
+          525600,
+          562080
+        ],
+        "safe_central_removal_window_seconds": [
+          10.95,
+          11.71
+        ],
+        "maximum_removable_samples": 29760,
+        "maximum_removable_seconds": 0.62,
+        "illustrative_proportional_removal_samples": 11627,
+        "illustrative_proportional_removal_seconds": 0.24222916666666666
+      },
+      {
+        "after_cut": "opening_cut4",
+        "before_cut": "opening_cut5",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 14.32,
+        "next_asr_word_start": 15.88,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 700320,
+          "end_sample": 767040,
+          "start": 14.59,
+          "end": 15.98,
+          "duration": 1.3900000000000001,
+          "peak_rms_dbfs": -50.902890781197215
+        },
+        "safe_central_removal_window_samples": [
+          704160,
+          762239
+        ],
+        "safe_central_removal_window_seconds": [
+          14.67,
+          15.879979166666667
+        ],
+        "maximum_removable_samples": 52320,
+        "maximum_removable_seconds": 1.09,
+        "illustrative_proportional_removal_samples": 20440,
+        "illustrative_proportional_removal_seconds": 0.42583333333333334
+      },
+      {
+        "after_cut": "opening_cut5",
+        "before_cut": "opening_cut6",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 20.18,
+        "next_asr_word_start": 20.84,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 967680,
+          "end_sample": 1014240,
+          "start": 20.16,
+          "end": 21.13,
+          "duration": 0.97,
+          "peak_rms_dbfs": -50.8996813176127
+        },
+        "safe_central_removal_window_samples": [
+          971520,
+          1000319
+        ],
+        "safe_central_removal_window_seconds": [
+          20.24,
+          20.839979166666666
+        ],
+        "maximum_removable_samples": 28799,
+        "maximum_removable_seconds": 0.5999791666666666,
+        "illustrative_proportional_removal_samples": 11251,
+        "illustrative_proportional_removal_seconds": 0.23439583333333333
+      },
+      {
+        "after_cut": "opening_cut6",
+        "before_cut": "opening_cut7",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 25.86,
+        "next_asr_word_start": 26.86,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 1248960,
+          "end_sample": 1309920,
+          "start": 26.02,
+          "end": 27.29,
+          "duration": 1.27,
+          "peak_rms_dbfs": -48.10333365762573
+        },
+        "safe_central_removal_window_samples": [
+          1252800,
+          1289279
+        ],
+        "safe_central_removal_window_seconds": [
+          26.1,
+          26.859979166666665
+        ],
+        "maximum_removable_samples": 36479,
+        "maximum_removable_seconds": 0.7599791666666667,
+        "illustrative_proportional_removal_samples": 14251,
+        "illustrative_proportional_removal_seconds": 0.29689583333333336
+      },
+      {
+        "after_cut": "opening_cut7",
+        "before_cut": "opening_cut8",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 31.44,
+        "next_asr_word_start": 32.14,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 1520160,
+          "end_sample": 1579200,
+          "start": 31.67,
+          "end": 32.9,
+          "duration": 1.23,
+          "peak_rms_dbfs": -50.56994793761409
+        },
+        "safe_central_removal_window_samples": [
+          1524000,
+          1542719
+        ],
+        "safe_central_removal_window_seconds": [
+          31.75,
+          32.13997916666667
+        ],
+        "maximum_removable_samples": 18719,
+        "maximum_removable_seconds": 0.38997916666666665,
+        "illustrative_proportional_removal_samples": 7313,
+        "illustrative_proportional_removal_seconds": 0.15235416666666668
+      },
+      {
+        "after_cut": "opening_cut8",
+        "before_cut": "opening_cut9",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 37.6,
+        "next_asr_word_start": 38.7,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 1815840,
+          "end_sample": 1860480,
+          "start": 37.83,
+          "end": 38.76,
+          "duration": 0.93,
+          "peak_rms_dbfs": -48.39585874991204
+        },
+        "safe_central_removal_window_samples": [
+          1819680,
+          1856640
+        ],
+        "safe_central_removal_window_seconds": [
+          37.91,
+          38.68
+        ],
+        "maximum_removable_samples": 30240,
+        "maximum_removable_seconds": 0.63,
+        "illustrative_proportional_removal_samples": 11814,
+        "illustrative_proportional_removal_seconds": 0.246125
+      },
+      {
+        "after_cut": "opening_cut9",
+        "before_cut": "task11_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 42.1,
+        "next_asr_word_start": 44.3,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 2033280,
+          "end_sample": 2128320,
+          "start": 42.36,
+          "end": 44.34,
+          "duration": 1.98,
+          "peak_rms_dbfs": -49.05298119124814
+        },
+        "safe_central_removal_window_samples": [
+          2037120,
+          2124480
+        ],
+        "safe_central_removal_window_seconds": [
+          42.44,
+          44.26
+        ],
+        "maximum_removable_samples": 75840,
+        "maximum_removable_seconds": 1.58,
+        "illustrative_proportional_removal_samples": 29629,
+        "illustrative_proportional_removal_seconds": 0.6172708333333333
+      },
+      {
+        "after_cut": "task11_cut1",
+        "before_cut": "task11_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 48.08,
+        "next_asr_word_start": 49.36,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 2324160,
+          "end_sample": 2373120,
+          "start": 48.42,
+          "end": 49.44,
+          "duration": 1.02,
+          "peak_rms_dbfs": -48.19577552806312
+        },
+        "safe_central_removal_window_samples": [
+          2328000,
+          2369279
+        ],
+        "safe_central_removal_window_seconds": [
+          48.5,
+          49.35997916666667
+        ],
+        "maximum_removable_samples": 34560,
+        "maximum_removable_seconds": 0.72,
+        "illustrative_proportional_removal_samples": 13502,
+        "illustrative_proportional_removal_seconds": 0.28129166666666666
+      },
+      {
+        "after_cut": "task11_cut2",
+        "before_cut": "task11_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 54.02,
+        "next_asr_word_start": 55.02,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 2608800,
+          "end_sample": 2660160,
+          "start": 54.35,
+          "end": 55.42,
+          "duration": 1.07,
+          "peak_rms_dbfs": -54.76610387922293
+        },
+        "safe_central_removal_window_samples": [
+          2612640,
+          2640959
+        ],
+        "safe_central_removal_window_seconds": [
+          54.43,
+          55.019979166666666
+        ],
+        "maximum_removable_samples": 28319,
+        "maximum_removable_seconds": 0.5899791666666667,
+        "illustrative_proportional_removal_samples": 11064,
+        "illustrative_proportional_removal_seconds": 0.2305
+      },
+      {
+        "after_cut": "task11_cut3",
+        "before_cut": "task11_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 59.46,
+        "next_asr_word_start": 60.0,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 2861760,
+          "end_sample": 2906400,
+          "start": 59.620000000000005,
+          "end": 60.550000000000004,
+          "duration": 0.93,
+          "peak_rms_dbfs": -48.197521749762515
+        },
+        "safe_central_removal_window_samples": [
+          2865600,
+          2879999
+        ],
+        "safe_central_removal_window_seconds": [
+          59.7,
+          59.99997916666667
+        ],
+        "maximum_removable_samples": 14399,
+        "maximum_removable_seconds": 0.2999791666666667,
+        "illustrative_proportional_removal_samples": 5625,
+        "illustrative_proportional_removal_seconds": 0.1171875
+      },
+      {
+        "after_cut": "task11_cut4",
+        "before_cut": "task11_cut5",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 65.04,
+        "next_asr_word_start": 66.54,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 3141120,
+          "end_sample": 3196800,
+          "start": 65.44,
+          "end": 66.6,
+          "duration": 1.16,
+          "peak_rms_dbfs": -50.478728609548156
+        },
+        "safe_central_removal_window_samples": [
+          3144960,
+          3192960
+        ],
+        "safe_central_removal_window_seconds": [
+          65.52,
+          66.52
+        ],
+        "maximum_removable_samples": 41280,
+        "maximum_removable_seconds": 0.86,
+        "illustrative_proportional_removal_samples": 16127,
+        "illustrative_proportional_removal_seconds": 0.33597916666666666
+      },
+      {
+        "after_cut": "task11_cut5",
+        "before_cut": "task13_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 70.46,
+        "next_asr_word_start": 71.9,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 3396000,
+          "end_sample": 3453120,
+          "start": 70.75,
+          "end": 71.94,
+          "duration": 1.19,
+          "peak_rms_dbfs": -49.52686988071265
+        },
+        "safe_central_removal_window_samples": [
+          3399840,
+          3449280
+        ],
+        "safe_central_removal_window_seconds": [
+          70.83,
+          71.86
+        ],
+        "maximum_removable_samples": 37920,
+        "maximum_removable_seconds": 0.79,
+        "illustrative_proportional_removal_samples": 14814,
+        "illustrative_proportional_removal_seconds": 0.308625
+      },
+      {
+        "after_cut": "task13_cut1",
+        "before_cut": "task13_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 75.74,
+        "next_asr_word_start": 77.04,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 3651840,
+          "end_sample": 3700320,
+          "start": 76.08,
+          "end": 77.09,
+          "duration": 1.01,
+          "peak_rms_dbfs": -53.00497498959941
+        },
+        "safe_central_removal_window_samples": [
+          3655680,
+          3696480
+        ],
+        "safe_central_removal_window_seconds": [
+          76.16,
+          77.01
+        ],
+        "maximum_removable_samples": 34080,
+        "maximum_removable_seconds": 0.71,
+        "illustrative_proportional_removal_samples": 13314,
+        "illustrative_proportional_removal_seconds": 0.277375
+      },
+      {
+        "after_cut": "task13_cut2",
+        "before_cut": "task13_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 79.9,
+        "next_asr_word_start": 80.87,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 3852480,
+          "end_sample": 3889920,
+          "start": 80.26,
+          "end": 81.04,
+          "duration": 0.78,
+          "peak_rms_dbfs": -48.13770195637002
+        },
+        "safe_central_removal_window_samples": [
+          3856320,
+          3881759
+        ],
+        "safe_central_removal_window_seconds": [
+          80.34,
+          80.86997916666667
+        ],
+        "maximum_removable_samples": 23040,
+        "maximum_removable_seconds": 0.48,
+        "illustrative_proportional_removal_samples": 9001,
+        "illustrative_proportional_removal_seconds": 0.18752083333333333
+      },
+      {
+        "after_cut": "task13_cut3",
+        "before_cut": "task13_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 85.6,
+        "next_asr_word_start": 86.52,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 4119840,
+          "end_sample": 4168800,
+          "start": 85.83,
+          "end": 86.85000000000001,
+          "duration": 1.02,
+          "peak_rms_dbfs": -52.35074721910894
+        },
+        "safe_central_removal_window_samples": [
+          4123680,
+          4152959
+        ],
+        "safe_central_removal_window_seconds": [
+          85.91,
+          86.51997916666667
+        ],
+        "maximum_removable_samples": 29279,
+        "maximum_removable_seconds": 0.6099791666666666,
+        "illustrative_proportional_removal_samples": 11439,
+        "illustrative_proportional_removal_seconds": 0.2383125
+      },
+      {
+        "after_cut": "task13_cut4",
+        "before_cut": "task13_cut5",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 92.92,
+        "next_asr_word_start": 94.04,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 4475040,
+          "end_sample": 4521120,
+          "start": 93.23,
+          "end": 94.19,
+          "duration": 0.96,
+          "peak_rms_dbfs": -52.88197154181155
+        },
+        "safe_central_removal_window_samples": [
+          4478880,
+          4513919
+        ],
+        "safe_central_removal_window_seconds": [
+          93.31,
+          94.03997916666667
+        ],
+        "maximum_removable_samples": 31680,
+        "maximum_removable_seconds": 0.66,
+        "illustrative_proportional_removal_samples": 12377,
+        "illustrative_proportional_removal_seconds": 0.25785416666666666
+      },
+      {
+        "after_cut": "task13_cut5",
+        "before_cut": "task7_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 97.56,
+        "next_asr_word_start": 98.72,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 4696800,
+          "end_sample": 4738560,
+          "start": 97.85000000000001,
+          "end": 98.72,
+          "duration": 0.87,
+          "peak_rms_dbfs": -50.473943308897205
+        },
+        "safe_central_removal_window_samples": [
+          4700640,
+          4734720
+        ],
+        "safe_central_removal_window_seconds": [
+          97.93,
+          98.64
+        ],
+        "maximum_removable_samples": 22560,
+        "maximum_removable_seconds": 0.47,
+        "illustrative_proportional_removal_samples": 8814,
+        "illustrative_proportional_removal_seconds": 0.183625
+      },
+      {
+        "after_cut": "task7_cut1",
+        "before_cut": "task7_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 101.34,
+        "next_asr_word_start": 102.72,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 4881600,
+          "end_sample": 4932480,
+          "start": 101.7,
+          "end": 102.76,
+          "duration": 1.06,
+          "peak_rms_dbfs": -48.25562516881231
+        },
+        "safe_central_removal_window_samples": [
+          4885440,
+          4928640
+        ],
+        "safe_central_removal_window_seconds": [
+          101.78,
+          102.68
+        ],
+        "maximum_removable_samples": 36480,
+        "maximum_removable_seconds": 0.76,
+        "illustrative_proportional_removal_samples": 14252,
+        "illustrative_proportional_removal_seconds": 0.29691666666666666
+      },
+      {
+        "after_cut": "task7_cut2",
+        "before_cut": "task7_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 106.24,
+        "next_asr_word_start": 107.00999999999999,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 5111040,
+          "end_sample": 5149440,
+          "start": 106.48,
+          "end": 107.28,
+          "duration": 0.8,
+          "peak_rms_dbfs": -48.120671033995556
+        },
+        "safe_central_removal_window_samples": [
+          5114880,
+          5136479
+        ],
+        "safe_central_removal_window_seconds": [
+          106.56,
+          107.00997916666667
+        ],
+        "maximum_removable_samples": 21599,
+        "maximum_removable_seconds": 0.44997916666666665,
+        "illustrative_proportional_removal_samples": 8438,
+        "illustrative_proportional_removal_seconds": 0.17579166666666668
+      },
+      {
+        "after_cut": "task7_cut3",
+        "before_cut": "task7_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 109.96,
+        "next_asr_word_start": 111.0,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 5288640,
+          "end_sample": 5330880,
+          "start": 110.18,
+          "end": 111.06,
+          "duration": 0.88,
+          "peak_rms_dbfs": -50.27883697232288
+        },
+        "safe_central_removal_window_samples": [
+          5292480,
+          5327040
+        ],
+        "safe_central_removal_window_seconds": [
+          110.26,
+          110.98
+        ],
+        "maximum_removable_samples": 27840,
+        "maximum_removable_seconds": 0.58,
+        "illustrative_proportional_removal_samples": 10876,
+        "illustrative_proportional_removal_seconds": 0.22658333333333333
+      },
+      {
+        "after_cut": "task7_cut4",
+        "before_cut": "task7_cut5",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 114.94,
+        "next_asr_word_start": 116.08,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 5526720,
+          "end_sample": 5573760,
+          "start": 115.14,
+          "end": 116.12,
+          "duration": 0.98,
+          "peak_rms_dbfs": -48.09602916117028
+        },
+        "safe_central_removal_window_samples": [
+          5530560,
+          5569920
+        ],
+        "safe_central_removal_window_seconds": [
+          115.22,
+          116.04
+        ],
+        "maximum_removable_samples": 32640,
+        "maximum_removable_seconds": 0.68,
+        "illustrative_proportional_removal_samples": 12752,
+        "illustrative_proportional_removal_seconds": 0.26566666666666666
+      },
+      {
+        "after_cut": "task7_cut5",
+        "before_cut": "task17_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 120.54,
+        "next_asr_word_start": 122.12,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 5800320,
+          "end_sample": 5868000,
+          "start": 120.84,
+          "end": 122.25,
+          "duration": 1.41,
+          "peak_rms_dbfs": -50.00592676798856
+        },
+        "safe_central_removal_window_samples": [
+          5804160,
+          5861759
+        ],
+        "safe_central_removal_window_seconds": [
+          120.92,
+          122.11997916666667
+        ],
+        "maximum_removable_samples": 48480,
+        "maximum_removable_seconds": 1.01,
+        "illustrative_proportional_removal_samples": 18940,
+        "illustrative_proportional_removal_seconds": 0.39458333333333334
+      },
+      {
+        "after_cut": "task17_cut1",
+        "before_cut": "task17_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 126.14,
+        "next_asr_word_start": 127.24,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 6064800,
+          "end_sample": 6111840,
+          "start": 126.35000000000001,
+          "end": 127.33,
+          "duration": 0.98,
+          "peak_rms_dbfs": -49.83938502297959
+        },
+        "safe_central_removal_window_samples": [
+          6068640,
+          6107519
+        ],
+        "safe_central_removal_window_seconds": [
+          126.43,
+          127.23997916666667
+        ],
+        "maximum_removable_samples": 32640,
+        "maximum_removable_seconds": 0.68,
+        "illustrative_proportional_removal_samples": 12752,
+        "illustrative_proportional_removal_seconds": 0.26566666666666666
+      },
+      {
+        "after_cut": "task17_cut2",
+        "before_cut": "task17_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 129.6,
+        "next_asr_word_start": 130.6,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 6237600,
+          "end_sample": 6274560,
+          "start": 129.95,
+          "end": 130.72,
+          "duration": 0.77,
+          "peak_rms_dbfs": -48.15449139992054
+        },
+        "safe_central_removal_window_samples": [
+          6241440,
+          6268799
+        ],
+        "safe_central_removal_window_seconds": [
+          130.03,
+          130.59997916666666
+        ],
+        "maximum_removable_samples": 22560,
+        "maximum_removable_seconds": 0.47,
+        "illustrative_proportional_removal_samples": 8814,
+        "illustrative_proportional_removal_seconds": 0.183625
+      },
+      {
+        "after_cut": "task17_cut3",
+        "before_cut": "task17_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 136.04,
+        "next_asr_word_start": 136.82,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 6540480,
+          "end_sample": 6594720,
+          "start": 136.26,
+          "end": 137.39000000000001,
+          "duration": 1.1300000000000001,
+          "peak_rms_dbfs": -49.03676656026712
+        },
+        "safe_central_removal_window_samples": [
+          6544320,
+          6567359
+        ],
+        "safe_central_removal_window_seconds": [
+          136.34,
+          136.81997916666666
+        ],
+        "maximum_removable_samples": 23039,
+        "maximum_removable_seconds": 0.4799791666666667,
+        "illustrative_proportional_removal_samples": 9001,
+        "illustrative_proportional_removal_seconds": 0.18752083333333333
+      },
+      {
+        "after_cut": "task17_cut4",
+        "before_cut": "task5_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 140.12,
+        "next_asr_word_start": 141.42,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 6740160,
+          "end_sample": 6790080,
+          "start": 140.42000000000002,
+          "end": 141.46,
+          "duration": 1.04,
+          "peak_rms_dbfs": -50.19245916182125
+        },
+        "safe_central_removal_window_samples": [
+          6744000,
+          6786240
+        ],
+        "safe_central_removal_window_seconds": [
+          140.5,
+          141.38
+        ],
+        "maximum_removable_samples": 30720,
+        "maximum_removable_seconds": 0.64,
+        "illustrative_proportional_removal_samples": 12002,
+        "illustrative_proportional_removal_seconds": 0.25004166666666666
+      },
+      {
+        "after_cut": "task5_cut1",
+        "before_cut": "task5_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 144.64,
+        "next_asr_word_start": 145.78,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 6959040,
+          "end_sample": 6998880,
+          "start": 144.98,
+          "end": 145.81,
+          "duration": 0.8300000000000001,
+          "peak_rms_dbfs": -49.35998110613144
+        },
+        "safe_central_removal_window_samples": [
+          6962880,
+          6995040
+        ],
+        "safe_central_removal_window_seconds": [
+          145.06,
+          145.73
+        ],
+        "maximum_removable_samples": 25440,
+        "maximum_removable_seconds": 0.53,
+        "illustrative_proportional_removal_samples": 9939,
+        "illustrative_proportional_removal_seconds": 0.2070625
+      },
+      {
+        "after_cut": "task5_cut2",
+        "before_cut": "task5_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 147.44,
+        "next_asr_word_start": 148.48,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 7093440,
+          "end_sample": 7127520,
+          "start": 147.78,
+          "end": 148.49,
+          "duration": 0.71,
+          "peak_rms_dbfs": -49.24997790612423
+        },
+        "safe_central_removal_window_samples": [
+          7097280,
+          7123680
+        ],
+        "safe_central_removal_window_seconds": [
+          147.86,
+          148.41
+        ],
+        "maximum_removable_samples": 19680,
+        "maximum_removable_seconds": 0.41,
+        "illustrative_proportional_removal_samples": 7688,
+        "illustrative_proportional_removal_seconds": 0.16016666666666668
+      },
+      {
+        "after_cut": "task5_cut3",
+        "before_cut": "task5_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 152.9,
+        "next_asr_word_start": 154.3,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 7354560,
+          "end_sample": 7408320,
+          "start": 153.22,
+          "end": 154.34,
+          "duration": 1.12,
+          "peak_rms_dbfs": -48.920233610464464
+        },
+        "safe_central_removal_window_samples": [
+          7358400,
+          7404480
+        ],
+        "safe_central_removal_window_seconds": [
+          153.3,
+          154.26
+        ],
+        "maximum_removable_samples": 39360,
+        "maximum_removable_seconds": 0.82,
+        "illustrative_proportional_removal_samples": 15377,
+        "illustrative_proportional_removal_seconds": 0.32035416666666666
+      },
+      {
+        "after_cut": "task5_cut4",
+        "before_cut": "task5_cut5",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 158.06,
+        "next_asr_word_start": 159.02,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 7602720,
+          "end_sample": 7643040,
+          "start": 158.39000000000001,
+          "end": 159.23,
+          "duration": 0.84,
+          "peak_rms_dbfs": -51.57740390040015
+        },
+        "safe_central_removal_window_samples": [
+          7606560,
+          7632959
+        ],
+        "safe_central_removal_window_seconds": [
+          158.47,
+          159.01997916666667
+        ],
+        "maximum_removable_samples": 25920,
+        "maximum_removable_seconds": 0.54,
+        "illustrative_proportional_removal_samples": 10126,
+        "illustrative_proportional_removal_seconds": 0.21095833333333333
+      },
+      {
+        "after_cut": "task5_cut5",
+        "before_cut": "task9_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 162.88,
+        "next_asr_word_start": 163.62,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 7830720,
+          "end_sample": 7884000,
+          "start": 163.14000000000001,
+          "end": 164.25,
+          "duration": 1.11,
+          "peak_rms_dbfs": -48.05799869024781
+        },
+        "safe_central_removal_window_samples": [
+          7834560,
+          7853759
+        ],
+        "safe_central_removal_window_seconds": [
+          163.22,
+          163.61997916666667
+        ],
+        "maximum_removable_samples": 19199,
+        "maximum_removable_seconds": 0.39997916666666666,
+        "illustrative_proportional_removal_samples": 7501,
+        "illustrative_proportional_removal_seconds": 0.15627083333333333
+      },
+      {
+        "after_cut": "task9_cut1",
+        "before_cut": "task9_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 168.04,
+        "next_asr_word_start": 169.52,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 8085120,
+          "end_sample": 8141280,
+          "start": 168.44,
+          "end": 169.61,
+          "duration": 1.17,
+          "peak_rms_dbfs": -53.17717796631741
+        },
+        "safe_central_removal_window_samples": [
+          8088960,
+          8136959
+        ],
+        "safe_central_removal_window_seconds": [
+          168.52,
+          169.51997916666667
+        ],
+        "maximum_removable_samples": 41760,
+        "maximum_removable_seconds": 0.87,
+        "illustrative_proportional_removal_samples": 16315,
+        "illustrative_proportional_removal_seconds": 0.33989583333333334
+      },
+      {
+        "after_cut": "task9_cut2",
+        "before_cut": "task9_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 173.58,
+        "next_asr_word_start": 174.68,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 8346240,
+          "end_sample": 8388480,
+          "start": 173.88,
+          "end": 174.76,
+          "duration": 0.88,
+          "peak_rms_dbfs": -48.37399834121929
+        },
+        "safe_central_removal_window_samples": [
+          8350080,
+          8384639
+        ],
+        "safe_central_removal_window_seconds": [
+          173.96,
+          174.67997916666667
+        ],
+        "maximum_removable_samples": 27840,
+        "maximum_removable_seconds": 0.58,
+        "illustrative_proportional_removal_samples": 10876,
+        "illustrative_proportional_removal_seconds": 0.22658333333333333
+      },
+      {
+        "after_cut": "task9_cut3",
+        "before_cut": "task9_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 180.08,
+        "next_asr_word_start": 181.28,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 8659680,
+          "end_sample": 8703360,
+          "start": 180.41,
+          "end": 181.32,
+          "duration": 0.91,
+          "peak_rms_dbfs": -50.477674995855885
+        },
+        "safe_central_removal_window_samples": [
+          8663520,
+          8699520
+        ],
+        "safe_central_removal_window_seconds": [
+          180.49,
+          181.24
+        ],
+        "maximum_removable_samples": 29280,
+        "maximum_removable_seconds": 0.61,
+        "illustrative_proportional_removal_samples": 11439,
+        "illustrative_proportional_removal_seconds": 0.2383125
+      },
+      {
+        "after_cut": "task9_cut4",
+        "before_cut": "task9_cut5",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 183.76,
+        "next_asr_word_start": 184.76,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 8835840,
+          "end_sample": 8883360,
+          "start": 184.08,
+          "end": 185.07,
+          "duration": 0.99,
+          "peak_rms_dbfs": -48.36707321146166
+        },
+        "safe_central_removal_window_samples": [
+          8839680,
+          8868479
+        ],
+        "safe_central_removal_window_seconds": [
+          184.16,
+          184.75997916666665
+        ],
+        "maximum_removable_samples": 28799,
+        "maximum_removable_seconds": 0.5999791666666666,
+        "illustrative_proportional_removal_samples": 11251,
+        "illustrative_proportional_removal_seconds": 0.23439583333333333
+      },
+      {
+        "after_cut": "task9_cut5",
+        "before_cut": "task4_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 191.04,
+        "next_asr_word_start": 192.22,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 9181920,
+          "end_sample": 9234240,
+          "start": 191.29,
+          "end": 192.38,
+          "duration": 1.09,
+          "peak_rms_dbfs": -48.815526310594706
+        },
+        "safe_central_removal_window_samples": [
+          9185760,
+          9226559
+        ],
+        "safe_central_removal_window_seconds": [
+          191.37,
+          192.21997916666666
+        ],
+        "maximum_removable_samples": 33120,
+        "maximum_removable_seconds": 0.69,
+        "illustrative_proportional_removal_samples": 12939,
+        "illustrative_proportional_removal_seconds": 0.2695625
+      },
+      {
+        "after_cut": "task4_cut1",
+        "before_cut": "task4_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 197.22,
+        "next_asr_word_start": 198.44,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 9477600,
+          "end_sample": 9526560,
+          "start": 197.45000000000002,
+          "end": 198.47,
+          "duration": 1.02,
+          "peak_rms_dbfs": -51.407791509644724
+        },
+        "safe_central_removal_window_samples": [
+          9481440,
+          9522720
+        ],
+        "safe_central_removal_window_seconds": [
+          197.53,
+          198.39
+        ],
+        "maximum_removable_samples": 34560,
+        "maximum_removable_seconds": 0.72,
+        "illustrative_proportional_removal_samples": 13502,
+        "illustrative_proportional_removal_seconds": 0.28129166666666666
+      },
+      {
+        "after_cut": "task4_cut2",
+        "before_cut": "task4_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 201.96,
+        "next_asr_word_start": 202.98,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 9705600,
+          "end_sample": 9747840,
+          "start": 202.20000000000002,
+          "end": 203.08,
+          "duration": 0.88,
+          "peak_rms_dbfs": -48.112103080466426
+        },
+        "safe_central_removal_window_samples": [
+          9709440,
+          9743039
+        ],
+        "safe_central_removal_window_seconds": [
+          202.28,
+          202.97997916666668
+        ],
+        "maximum_removable_samples": 27840,
+        "maximum_removable_seconds": 0.58,
+        "illustrative_proportional_removal_samples": 10876,
+        "illustrative_proportional_removal_seconds": 0.22658333333333333
+      },
+      {
+        "after_cut": "task4_cut3",
+        "before_cut": "task4_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 205.6,
+        "next_asr_word_start": 206.7,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 9885600,
+          "end_sample": 9922560,
+          "start": 205.95000000000002,
+          "end": 206.72,
+          "duration": 0.77,
+          "peak_rms_dbfs": -48.038921192123816
+        },
+        "safe_central_removal_window_samples": [
+          9889440,
+          9918720
+        ],
+        "safe_central_removal_window_seconds": [
+          206.03,
+          206.64
+        ],
+        "maximum_removable_samples": 22560,
+        "maximum_removable_seconds": 0.47,
+        "illustrative_proportional_removal_samples": 8814,
+        "illustrative_proportional_removal_seconds": 0.183625
+      },
+      {
+        "after_cut": "task4_cut4",
+        "before_cut": "task4_cut5",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 209.14,
+        "next_asr_word_start": 210.14,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 10054560,
+          "end_sample": 10097760,
+          "start": 209.47,
+          "end": 210.37,
+          "duration": 0.9,
+          "peak_rms_dbfs": -50.302153101788804
+        },
+        "safe_central_removal_window_samples": [
+          10058400,
+          10086719
+        ],
+        "safe_central_removal_window_seconds": [
+          209.55,
+          210.13997916666668
+        ],
+        "maximum_removable_samples": 28319,
+        "maximum_removable_seconds": 0.5899791666666667,
+        "illustrative_proportional_removal_samples": 11064,
+        "illustrative_proportional_removal_seconds": 0.2305
+      },
+      {
+        "after_cut": "task4_cut5",
+        "before_cut": "task12_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 213.76,
+        "next_asr_word_start": 214.64,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 10270080,
+          "end_sample": 10327680,
+          "start": 213.96,
+          "end": 215.16,
+          "duration": 1.2,
+          "peak_rms_dbfs": -49.86725278111612
+        },
+        "safe_central_removal_window_samples": [
+          10273920,
+          10302719
+        ],
+        "safe_central_removal_window_seconds": [
+          214.04,
+          214.63997916666668
+        ],
+        "maximum_removable_samples": 28799,
+        "maximum_removable_seconds": 0.5999791666666666,
+        "illustrative_proportional_removal_samples": 11251,
+        "illustrative_proportional_removal_seconds": 0.23439583333333333
+      },
+      {
+        "after_cut": "task12_cut1",
+        "before_cut": "task12_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 218.26,
+        "next_asr_word_start": 219.5,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 10496160,
+          "end_sample": 10539360,
+          "start": 218.67000000000002,
+          "end": 219.57,
+          "duration": 0.9,
+          "peak_rms_dbfs": -50.62763405500658
+        },
+        "safe_central_removal_window_samples": [
+          10500000,
+          10535520
+        ],
+        "safe_central_removal_window_seconds": [
+          218.75,
+          219.49
+        ],
+        "maximum_removable_samples": 28800,
+        "maximum_removable_seconds": 0.6,
+        "illustrative_proportional_removal_samples": 11251,
+        "illustrative_proportional_removal_seconds": 0.23439583333333333
+      },
+      {
+        "after_cut": "task12_cut2",
+        "before_cut": "task12_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 223.38,
+        "next_asr_word_start": 224.8,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 10742880,
+          "end_sample": 10792800,
+          "start": 223.81,
+          "end": 224.85,
+          "duration": 1.04,
+          "peak_rms_dbfs": -50.169069441063115
+        },
+        "safe_central_removal_window_samples": [
+          10746720,
+          10788960
+        ],
+        "safe_central_removal_window_seconds": [
+          223.89,
+          224.77
+        ],
+        "maximum_removable_samples": 35520,
+        "maximum_removable_seconds": 0.74,
+        "illustrative_proportional_removal_samples": 13877,
+        "illustrative_proportional_removal_seconds": 0.28910416666666666
+      },
+      {
+        "after_cut": "task12_cut3",
+        "before_cut": "task3_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 229.8,
+        "next_asr_word_start": 231.14,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 11037600,
+          "end_sample": 11093760,
+          "start": 229.95000000000002,
+          "end": 231.12,
+          "duration": 1.17,
+          "peak_rms_dbfs": -50.16649536708567
+        },
+        "safe_central_removal_window_samples": [
+          11041440,
+          11089920
+        ],
+        "safe_central_removal_window_seconds": [
+          230.03,
+          231.04
+        ],
+        "maximum_removable_samples": 36960,
+        "maximum_removable_seconds": 0.77,
+        "illustrative_proportional_removal_samples": 14439,
+        "illustrative_proportional_removal_seconds": 0.3008125
+      },
+      {
+        "after_cut": "task3_cut1",
+        "before_cut": "task3_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 235.0,
+        "next_asr_word_start": 236.0,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 11298720,
+          "end_sample": 11349120,
+          "start": 235.39000000000001,
+          "end": 236.44,
+          "duration": 1.05,
+          "peak_rms_dbfs": -49.59807195084743
+        },
+        "safe_central_removal_window_samples": [
+          11302560,
+          11327999
+        ],
+        "safe_central_removal_window_seconds": [
+          235.47,
+          235.99997916666666
+        ],
+        "maximum_removable_samples": 25439,
+        "maximum_removable_seconds": 0.5299791666666667,
+        "illustrative_proportional_removal_samples": 9938,
+        "illustrative_proportional_removal_seconds": 0.20704166666666668
+      },
+      {
+        "after_cut": "task3_cut2",
+        "before_cut": "task3_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 240.02,
+        "next_asr_word_start": 240.92,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 11536320,
+          "end_sample": 11576640,
+          "start": 240.34,
+          "end": 241.18,
+          "duration": 0.84,
+          "peak_rms_dbfs": -48.829381668282
+        },
+        "safe_central_removal_window_samples": [
+          11540160,
+          11564159
+        ],
+        "safe_central_removal_window_seconds": [
+          240.42,
+          240.91997916666668
+        ],
+        "maximum_removable_samples": 23999,
+        "maximum_removable_seconds": 0.49997916666666664,
+        "illustrative_proportional_removal_samples": 9376,
+        "illustrative_proportional_removal_seconds": 0.19533333333333333
+      },
+      {
+        "after_cut": "task3_cut3",
+        "before_cut": "task3_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 244.62,
+        "next_asr_word_start": 245.74,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 11756640,
+          "end_sample": 11804160,
+          "start": 244.93,
+          "end": 245.92000000000002,
+          "duration": 0.99,
+          "peak_rms_dbfs": -52.33185940613951
+        },
+        "safe_central_removal_window_samples": [
+          11760480,
+          11795519
+        ],
+        "safe_central_removal_window_seconds": [
+          245.01,
+          245.73997916666667
+        ],
+        "maximum_removable_samples": 33120,
+        "maximum_removable_seconds": 0.69,
+        "illustrative_proportional_removal_samples": 12939,
+        "illustrative_proportional_removal_seconds": 0.2695625
+      },
+      {
+        "after_cut": "task3_cut4",
+        "before_cut": "task8_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 250.06,
+        "next_asr_word_start": 251.48,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 12017280,
+          "end_sample": 12073440,
+          "start": 250.36,
+          "end": 251.53,
+          "duration": 1.17,
+          "peak_rms_dbfs": -49.8788736269367
+        },
+        "safe_central_removal_window_samples": [
+          12021120,
+          12069600
+        ],
+        "safe_central_removal_window_seconds": [
+          250.44,
+          251.45
+        ],
+        "maximum_removable_samples": 36960,
+        "maximum_removable_seconds": 0.77,
+        "illustrative_proportional_removal_samples": 14439,
+        "illustrative_proportional_removal_seconds": 0.3008125
+      },
+      {
+        "after_cut": "task8_cut1",
+        "before_cut": "task8_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 254.5,
+        "next_asr_word_start": 255.88,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 12234720,
+          "end_sample": 12284640,
+          "start": 254.89000000000001,
+          "end": 255.93,
+          "duration": 1.04,
+          "peak_rms_dbfs": -51.067663425493414
+        },
+        "safe_central_removal_window_samples": [
+          12238560,
+          12280800
+        ],
+        "safe_central_removal_window_seconds": [
+          254.97,
+          255.85
+        ],
+        "maximum_removable_samples": 35520,
+        "maximum_removable_seconds": 0.74,
+        "illustrative_proportional_removal_samples": 13877,
+        "illustrative_proportional_removal_seconds": 0.28910416666666666
+      },
+      {
+        "after_cut": "task8_cut2",
+        "before_cut": "task8_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 258.26,
+        "next_asr_word_start": 259.46,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 12411360,
+          "end_sample": 12456000,
+          "start": 258.57,
+          "end": 259.5,
+          "duration": 0.93,
+          "peak_rms_dbfs": -49.95987874414617
+        },
+        "safe_central_removal_window_samples": [
+          12415200,
+          12452160
+        ],
+        "safe_central_removal_window_seconds": [
+          258.65,
+          259.42
+        ],
+        "maximum_removable_samples": 30240,
+        "maximum_removable_seconds": 0.63,
+        "illustrative_proportional_removal_samples": 11814,
+        "illustrative_proportional_removal_seconds": 0.246125
+      },
+      {
+        "after_cut": "task8_cut3",
+        "before_cut": "task8_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 262.9,
+        "next_asr_word_start": 263.9,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 12634080,
+          "end_sample": 12683520,
+          "start": 263.21,
+          "end": 264.24,
+          "duration": 1.03,
+          "peak_rms_dbfs": -49.65560536918994
+        },
+        "safe_central_removal_window_samples": [
+          12637920,
+          12667198
+        ],
+        "safe_central_removal_window_seconds": [
+          263.29,
+          263.89995833333336
+        ],
+        "maximum_removable_samples": 29278,
+        "maximum_removable_seconds": 0.6099583333333334,
+        "illustrative_proportional_removal_samples": 11438,
+        "illustrative_proportional_removal_seconds": 0.23829166666666668
+      },
+      {
+        "after_cut": "task8_cut4",
+        "before_cut": "task14_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 268.32,
+        "next_asr_word_start": 269.36,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 12892320,
+          "end_sample": 12958080,
+          "start": 268.59000000000003,
+          "end": 269.96,
+          "duration": 1.37,
+          "peak_rms_dbfs": -50.41100425033446
+        },
+        "safe_central_removal_window_samples": [
+          12896160,
+          12929279
+        ],
+        "safe_central_removal_window_seconds": [
+          268.67,
+          269.3599791666667
+        ],
+        "maximum_removable_samples": 33119,
+        "maximum_removable_seconds": 0.6899791666666667,
+        "illustrative_proportional_removal_samples": 12939,
+        "illustrative_proportional_removal_seconds": 0.2695625
+      },
+      {
+        "after_cut": "task14_cut1",
+        "before_cut": "task14_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 273.94,
+        "next_asr_word_start": 275.2,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 13167360,
+          "end_sample": 13212000,
+          "start": 274.32,
+          "end": 275.25,
+          "duration": 0.93,
+          "peak_rms_dbfs": -49.40828325535306
+        },
+        "safe_central_removal_window_samples": [
+          13171200,
+          13208160
+        ],
+        "safe_central_removal_window_seconds": [
+          274.4,
+          275.17
+        ],
+        "maximum_removable_samples": 30240,
+        "maximum_removable_seconds": 0.63,
+        "illustrative_proportional_removal_samples": 11814,
+        "illustrative_proportional_removal_seconds": 0.246125
+      },
+      {
+        "after_cut": "task14_cut2",
+        "before_cut": "task14_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 279.98,
+        "next_asr_word_start": 281.22,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 13456320,
+          "end_sample": 13499520,
+          "start": 280.34000000000003,
+          "end": 281.24,
+          "duration": 0.9,
+          "peak_rms_dbfs": -52.52545091695512
+        },
+        "safe_central_removal_window_samples": [
+          13460160,
+          13495680
+        ],
+        "safe_central_removal_window_seconds": [
+          280.42,
+          281.16
+        ],
+        "maximum_removable_samples": 28800,
+        "maximum_removable_seconds": 0.6,
+        "illustrative_proportional_removal_samples": 11251,
+        "illustrative_proportional_removal_seconds": 0.23439583333333333
+      },
+      {
+        "after_cut": "task14_cut3",
+        "before_cut": "task14_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 284.54,
+        "next_asr_word_start": 285.88,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 13670880,
+          "end_sample": 13723200,
+          "start": 284.81,
+          "end": 285.90000000000003,
+          "duration": 1.09,
+          "peak_rms_dbfs": -49.42910417288794
+        },
+        "safe_central_removal_window_samples": [
+          13674720,
+          13719360
+        ],
+        "safe_central_removal_window_seconds": [
+          284.89,
+          285.82
+        ],
+        "maximum_removable_samples": 37920,
+        "maximum_removable_seconds": 0.79,
+        "illustrative_proportional_removal_samples": 14814,
+        "illustrative_proportional_removal_seconds": 0.308625
+      },
+      {
+        "after_cut": "task14_cut4",
+        "before_cut": "task14_cut5",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 288.92,
+        "next_asr_word_start": 288.92,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "REVIEW_REQUIRED_ASR_WORD_TIMING",
+        "maximum_removable_samples": 0,
+        "maximum_removable_seconds": 0,
+        "nearby_quiet_candidates": [
+          {
+            "start_sample": 13882560,
+            "end_sample": 13930080,
+            "start": 289.22,
+            "end": 290.21,
+            "duration": 0.99,
+            "peak_rms_dbfs": -50.74595643564823
+          }
+        ],
+        "illustrative_proportional_removal_samples": 0,
+        "illustrative_proportional_removal_seconds": 0.0
+      },
+      {
+        "after_cut": "task14_cut5",
+        "before_cut": "task16_cut1",
+        "paragraph_boundary": true,
+        "previous_asr_word_end": 294.86,
+        "next_asr_word_start": 295.66,
+        "minimum_retained_actual_quiet_seconds": 0.4,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 14162880,
+          "end_sample": 14227680,
+          "start": 295.06,
+          "end": 296.41,
+          "duration": 1.35,
+          "peak_rms_dbfs": -50.49676995749322
+        },
+        "safe_central_removal_window_samples": [
+          14166720,
+          14191679
+        ],
+        "safe_central_removal_window_seconds": [
+          295.14,
+          295.6599791666667
+        ],
+        "maximum_removable_samples": 24959,
+        "maximum_removable_seconds": 0.5199791666666667,
+        "illustrative_proportional_removal_samples": 9751,
+        "illustrative_proportional_removal_seconds": 0.20314583333333333
+      },
+      {
+        "after_cut": "task16_cut1",
+        "before_cut": "task16_cut2",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 299.64,
+        "next_asr_word_start": 300.88,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 14399040,
+          "end_sample": 14443200,
+          "start": 299.98,
+          "end": 300.90000000000003,
+          "duration": 0.92,
+          "peak_rms_dbfs": -56.21142809541824
+        },
+        "safe_central_removal_window_samples": [
+          14402880,
+          14439360
+        ],
+        "safe_central_removal_window_seconds": [
+          300.06,
+          300.82
+        ],
+        "maximum_removable_samples": 29760,
+        "maximum_removable_seconds": 0.62,
+        "illustrative_proportional_removal_samples": 11627,
+        "illustrative_proportional_removal_seconds": 0.24222916666666666
+      },
+      {
+        "after_cut": "task16_cut2",
+        "before_cut": "task16_cut3",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 303.88,
+        "next_asr_word_start": 305.0,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 14598240,
+          "end_sample": 14640960,
+          "start": 304.13,
+          "end": 305.02,
+          "duration": 0.89,
+          "peak_rms_dbfs": -53.15932516278573
+        },
+        "safe_central_removal_window_samples": [
+          14602080,
+          14637120
+        ],
+        "safe_central_removal_window_seconds": [
+          304.21,
+          304.94
+        ],
+        "maximum_removable_samples": 28320,
+        "maximum_removable_seconds": 0.59,
+        "illustrative_proportional_removal_samples": 11064,
+        "illustrative_proportional_removal_seconds": 0.2305
+      },
+      {
+        "after_cut": "task16_cut3",
+        "before_cut": "task16_cut4",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 309.14,
+        "next_asr_word_start": 310.42,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 14851680,
+          "end_sample": 14905440,
+          "start": 309.41,
+          "end": 310.53000000000003,
+          "duration": 1.12,
+          "peak_rms_dbfs": -48.33950443925778
+        },
+        "safe_central_removal_window_samples": [
+          14855520,
+          14900159
+        ],
+        "safe_central_removal_window_seconds": [
+          309.49,
+          310.4199791666667
+        ],
+        "maximum_removable_samples": 39360,
+        "maximum_removable_seconds": 0.82,
+        "illustrative_proportional_removal_samples": 15377,
+        "illustrative_proportional_removal_seconds": 0.32035416666666666
+      },
+      {
+        "after_cut": "task16_cut4",
+        "before_cut": "task16_cut5",
+        "paragraph_boundary": false,
+        "previous_asr_word_end": 318.14,
+        "next_asr_word_start": 319.0,
+        "minimum_retained_actual_quiet_seconds": 0.3,
+        "phoneme_energy_guard_seconds_each_side": 0.08,
+        "source_clock": "unmodified_original_take",
+        "deletion_applied": false,
+        "status": "LEXICAL_AND_WAVEFORM_SAFE_CANDIDATE",
+        "quiet_region": {
+          "start_sample": 15286080,
+          "end_sample": 15323040,
+          "start": 318.46,
+          "end": 319.23,
+          "duration": 0.77,
+          "peak_rms_dbfs": -52.352616771510405
+        },
+        "safe_central_removal_window_samples": [
+          15289920,
+          15311999
+        ],
+        "safe_central_removal_window_seconds": [
+          318.54,
+          318.99997916666666
+        ],
+        "maximum_removable_samples": 22079,
+        "maximum_removable_seconds": 0.45997916666666666,
+        "illustrative_proportional_removal_samples": 8626,
+        "illustrative_proportional_removal_seconds": 0.17970833333333333
+      }
+    ]
+  },
+  "body_end_candidate": {
+    "after_cut": "task16_cut5",
+    "source_boundary_seconds": 321.5,
+    "source_boundary_sample": 15432000,
+    "source_prefix_pcm_sha256": "ce5e0c8f602b7aba76272d4aef211488d57f0e9ca37a4e01370fa59c136e45a2",
+    "last_approved_sentence": "담당자의 검토 범위를 줄입니다.",
+    "raw_asr_last_sentence": "담당자의 검토 범위를 줄입니다.",
+    "asr_last_word_end_approximate": 320.94,
+    "actual_energy_end_upper_bound_10ms": 321.22,
+    "quiet": {
+      "start_sample": 15418560,
+      "end_sample": 15471360,
+      "start": 321.22,
+      "end": 322.32,
+      "duration": 1.1,
+      "peak_rms_dbfs": -49.60670463167611
+    },
+    "margin_after_energy_end_seconds": 0.2799999999999727,
+    "next_defective_ending_first_asr_word": {
+      "word": " 서로",
+      "start": 321.76,
+      "end": 322.52,
+      "probability": 0.976816713809967
+    },
+    "protected_final_sentence_source_samples": [
+      15312000,
+      15418560
+    ],
+    "protected_final_sentence_pcm_sha256": "528fa1211b3397e9ab0fa8c2656f20df056da658c1c2343354d166071bb07fae",
+    "candidate_only_no_clip_written": true
+  },
+  "audio_speed_assessment": {
+    "tempo": 1,
+    "first64_original_speed_source_usable_for_further_review": true,
+    "actual_edited_working_master_available": false,
+    "speech_samples_removed": 0,
+    "source_audio_modified": false,
+    "audio_or_timeline_created": false,
+    "maximum315_final_film_feasibility": "Not decided by this prefix-only report. Candidate pause capacity is sufficient for an illustrative15.58s reduction, but final ending choice/duration and ASR variants require separate approval."
+  },
+  "limitations": [
+    "64 ordered anchors support line presence, not error-free pronunciation. Technical-word/particle variants are candidates requiring listening or regional transcription.",
+    "One zero-gap ASR boundary must be independently reviewed before it can contribute any pause-removal capacity.",
+    "10ms RMS measures energy, not semantic or phonetic identity. All proposed intervals also avoid every current ASR word interval.",
+    "No trimming, sample synthesis, crossfade, resampling, speed change, complete68 PASS or production timeline was performed."
+  ]
+}

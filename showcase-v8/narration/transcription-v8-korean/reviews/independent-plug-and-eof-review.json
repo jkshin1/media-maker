@@ -1,0 +1,52 @@
+{
+  "status": "PASS_WITH_ASR_VARIANTS",
+  "scope": "Independent unhinted regional local Whisper + exact PCM slice and waveform timing support; not a human audition or final mixed playback.",
+  "created_at_utc": "2026-10-15T11:46:44.308482+00:00",
+  "source_sha256": "3d064497f531d1486e13730387dfa0511ef9195644bf190c44e957d2afadec99",
+  "source_region": {
+    "source_file": "narration/elevenlabs/take.wav",
+    "source_sha256": "3d064497f531d1486e13730387dfa0511ef9195644bf190c44e957d2afadec99",
+    "sample_rate": 48000,
+    "channels": 1,
+    "sample_width": 2,
+    "total_samples": 15578880,
+    "source_duration": 324.56,
+    "region_file": "plug-source-299-eof.wav",
+    "source_start": 299,
+    "source_end": 324.56,
+    "source_start_sample": 14352000,
+    "source_end_sample": 15578880,
+    "pcm_sha256": "2329e74edbc4a2e71100bb5fac7aa9933ecbd8529c917c822a697d1a2196b943",
+    "wav_sha256": "e6028e77a4c6fee0e3a619a87d4fbf86f29c1657aaa5ff9e38793263419cd750",
+    "expected_plug_clause": "이미지 기반 오계측 후보 탐지와, 대시보드 자연어 분석을 제공합니다.",
+    "expected_last_sentence": "담당자의 검토 범위를 줄이며, 프로비전 확장은 향후 계획입니다.",
+    "method": "Exact original PCM sample slice; no re-encoding, resampling, tempo change, source/script edit, or external upload. ASR has no prompt/hints or previous-text conditioning.",
+    "created_at_utc": "2026-10-15T11:37:36Z"
+  },
+  "regional_asr_sha256": "02d5a33c4d69f8bdb087e55bf72e20ee4e867af3d94729671e018ec6ed6496c8",
+  "regional_asr_text": "과 판정편차가 발생했습니다. 계측데이터의 수집과 전 처리, 적재를 자동화합니다. 이미지 기반 5개측 후보 탐지와 데시보드 자연어 분석을 제공합니다. 자료상 수집시간은 1200초에서 75초로 단일층 검증의 리뷰 대상은 317건에서 19건으로 줄었습니다. 담당자의 검토 범위를 줄이며 프로비전 확장은 향후 계획입니다.",
+  "expected_previously_missing_clause": "이미지 기반 오계측 후보 탐지와, 대시보드 자연어 분석을 제공합니다.",
+  "complete_clause_found": true,
+  "clause_source_timing_approximate": [
+    305.24,
+    309.64
+  ],
+  "raw_asr_clause": "이미지 기반 5개측 후보 탐지와 데시보드 자연어 분석을 제공합니다.",
+  "clause_variants": [
+    "5개측 / 오계측",
+    "데시보드 / 대시보드"
+  ],
+  "expected_last_sentence": "담당자의 검토 범위를 줄이며, 프로비전 확장은 향후 계획입니다.",
+  "complete_last_sentence_found": true,
+  "last_sentence_source_timing_approximate": [
+    319.8,
+    324.18
+  ],
+  "last_waveform_energy_10ms_bin_end": 324.47,
+  "master_eof": 324.56,
+  "full_eof_required_not_asr_cut": true,
+  "caveats": [
+    "Whisper timestamps are approximate; 10ms waveform RMS does not identify a phoneme.",
+    "ASR spelling discrepancies are kept; no remote service, hints, TTS, tempo change or master edit."
+  ]
+}

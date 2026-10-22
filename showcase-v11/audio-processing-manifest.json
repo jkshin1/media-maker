@@ -1,0 +1,56 @@
+{
+  "revision": 11,
+  "pitch_cents": 0,
+  "speech_tempo": 1,
+  "no_pitch_processor": true,
+  "no_time_processor": true,
+  "no_filter_or_EQ_or_compressor": true,
+  "no_new_speech_generation": true,
+  "source_identity_sha256": "92c31c5917cbb6a5c7d8f7f998ac005bdd43bfb1e69e79183333c5dfcca5e3c2",
+  "timeline_sha256": "8beda6d4a6871df3542f86a1aacf7d4d6912caed99923a90b3725796f6958318",
+  "placement_manifest_sha256": "b8d415fda4c47a58dae22f1990832278e6c87aa6a1219cb337e59231e9fc03a9",
+  "constant_voice_gain_db": 10.239999999999998,
+  "gain_factor": 3.250872973854343,
+  "quantization": "np.rint(raw16.astype(float64) * 10**(gain_db/20)).astype('<i2')",
+  "files": {
+    "narration-raw.wav": {
+      "sha256": "6ffd0cedda626853c222e5c960ac8df862e764cf7e62845075fdc7c6f1663620",
+      "pcm_sha256": "8194f0e68353a3b5a3e8a51a9b743bfd9cb9d7a5247ae2d68a52128b75167ae1",
+      "samples": 15120000,
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "narration.wav": {
+      "sha256": "4301e9650433dd79b09661b6eea601c85766b3ff415234e5a9235d8d076dfb08",
+      "pcm_sha256": "6d6baa24e68d51f8165a1c86d07f6a5a3f854d97ac567f184ff720df9cba490d",
+      "samples": 15120000,
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "bgm-loop.wav": {
+      "sha256": "f51dc5750fc27dabb13f73e9c96945fee270e13f3bbb4106555b07c021941bfb",
+      "pcm_sha256": "4666d41861a90af4d4d16202fd4ec219143f17c3ef39d3ff3ac4eae2138d730a",
+      "samples": 15120000,
+      "sample_rate": 48000,
+      "channels": 2
+    },
+    "audio.wav": {
+      "sha256": "794503b496427c89d2a7293fdb91e34caf470436873e34759ece38de8fdd1972",
+      "pcm_sha256": "052f7fa40262a6d2a437f05929c84f8e96f3490c882586a6c818a6ac93b2b593",
+      "samples": 15120000,
+      "sample_rate": 48000,
+      "channels": 2
+    }
+  },
+  "input_bindings": {
+    "audio.py": "0e51ee7d1f88605914e1f86f559d000880e3c6ae02fa9f9cc67216eac4397a8d",
+    "authorization.json": "415d57927925b0f6fbb51c180976715349ce672d0bd4b2150a63378bcf77d981",
+    "baseline-provenance.json": "01291106d69a52407264b808c7e7d5e23821059fe48d6d376cadb0e26ebc0840",
+    "timeline.json": "8beda6d4a6871df3542f86a1aacf7d4d6912caed99923a90b3725796f6958318",
+    "visual-source-v10/narration/placement-manifest.json": "b8d415fda4c47a58dae22f1990832278e6c87aa6a1219cb337e59231e9fc03a9",
+    "visual-source-v10/narration/two-part-sources.json": "319728ec497b72695b2b0b8a57586ae37f62b653b64374ff8a0e57cfe094012b",
+    "visual-source-v10/narration/two-parts/part1/take.wav": "e103daa31e73d936467d01e450ecb2bb79f90697f5303a359a9bda4b5542df9d",
+    "visual-source-v10/narration/two-parts/part2/take.wav": "8353d97b7d63621bad0eecb8a6d910bed0df62b9936cef0cd42aa4f014517867",
+    "visual-source-v10/assets/bgm/revision9-approved-music.wav": "12d9b6b71aa83859bad9c53becaa74c4b962113a66b6206a0bec57e8057d1af0"
+  }
+}

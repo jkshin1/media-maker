@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 46,
+  "frames": 1380,
+  "elapsed_seconds": 83.114,
+  "sha256": "4681a2d08b1fefa026147ccc49ba16f4d61745dcbf644eff0f5720b4aca86d28",
+  "inputs": [
+    {
+      "file": "assets/cut01.png",
+      "sha256": "c701647db797c7fffa65e208694d6ee3ec7541a4022088d7e2299e029ea050e1"
+    },
+    {
+      "file": "assets/cut02.png",
+      "sha256": "b96a99b65fe48f00451201282e76a35a35811b2a860d235a1a4f5cc26cb93ea5"
+    },
+    {
+      "file": "assets/cut03.png",
+      "sha256": "7b2498c648f61d68ee0a539891130ad122f65b394aa45bae7edf2f46450286d8"
+    },
+    {
+      "file": "assets/cut04-clean.png",
+      "sha256": "345300c81839e7c3b1e24f3bd487e7efbd1d6ed3f33aed9ad5c1c041895e2073"
+    },
+    {
+      "file": "assets/cut04.png",
+      "sha256": "35b001a4d5d5ed1dc966eed4dc586ebcce8fc8634b6e4769f4d67a436ee8312a"
+    },
+    {
+      "file": "assets/cut05.png",
+      "sha256": "b2c2b5962a3e544d86d2955093915a7f106b00abd6b1c87c55b19963b1e40bf1"
+    },
+    {
+      "file": "assets/cut06.png",
+      "sha256": "e9067f744f46f6acdbf9ad1bc1ad66b12e7455e71151890a41cc22294f7d227c"
+    },
+    {
+      "file": "assets/cut07-clean.png",
+      "sha256": "382e8002fcfd88c48bb1b5643e77269e28c3b6be0659d528620c9e7b477d9a31"
+    },
+    {
+      "file": "assets/cut07.png",
+      "sha256": "ba3fda421f9fe42667e56d6e45b766677d30fb49596d948f99f59b68322c8bf9"
+    },
+    {
+      "file": "assets/cut08-clean-provenance.json",
+      "sha256": "f8ebc3c6f7b667dcd42e46c3b209203ce136a62cac622a5ecd60595e376d51e4"
+    },
+    {
+      "file": "assets/cut08-clean.png",
+      "sha256": "9fce70f839baf1fc3151b7a7020ee84114d5976bf58f2cc490d6b6ba9cf34921"
+    },
+    {
+      "file": "assets/cut08.png",
+      "sha256": "df54ced218b7ee151bd4130cb201ad751cc7d0a52fe9d1c9a94880d5364da01b"
+    },
+    {
+      "file": "assets/cut09.png",
+      "sha256": "b2288478ad3abb0490c9ce4728cad8efe5187697ec8d16f2056e736a14fbf85b"
+    },
+    {
+      "file": "assets/prompts-clean-plates.json",
+      "sha256": "5a11e0c95a68293163033efe7382224952abe8cbbd2adcdc50a6298ee966201c"
+    },
+    {
+      "file": "assets/prompts-revision-a.json",
+      "sha256": "6cce474ca0dfdb3f779a13b3a7733a13c1b0804549ae3e8d3d7aabd7db79b425"
+    },
+    {
+      "file": "assets/prompts-revision-b.json",
+      "sha256": "19f81d79b7616f5ce6eb4ca4579da8a40f861ea62eec1c482d9da2dae3fcab10"
+    },
+    {
+      "file": "fonts/NotoSansCJKkr-Bold.otf",
+      "sha256": "26d0c6748500a0444844280b308f5b62c7ae92ac6c6ac88148e502dd211eb52a"
+    },
+    {
+      "file": "fonts/NotoSansCJKkr-Regular.otf",
+      "sha256": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a"
+    },
+    {
+      "file": "fonts/SourceSerif4-Regular.woff2",
+      "sha256": "42aa010dbb82d90764a28f6cc7d809a9395999b7390eb3b212028c6975e97402"
+    },
+    {
+      "file": "hero-effects.js",
+      "sha256": "3bfe6ac419b38120f64d2090182aa4f61691c2985ea291e2b5fa2d7e2b35a78b"
+    },
+    {
+      "file": "index.html",
+      "sha256": "503c095f537636f7fe742a0f690dffccf491d4025f25b7570d5a9d8d1e9d8ed7"
+    },
+    {
+      "file": "inputs/revision-reference.png",
+      "sha256": "8fbb3322964a45e45baa70fbeb80a665e27407c0c11647783a3af884c56f4615"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "b6e2cfde8aaefd9c36262888143dc768eda1dc3cf9f7942d4d76a9528b278dc3"
+    },
+    {
+      "file": "package.json",
+      "sha256": "fe262e0bc99b9e3c8c3e729d561c271dc6c41b79715156da2de10b29825b943c"
+    },
+    {
+      "file": "scenes.js",
+      "sha256": "4f415380be999395664dbfc5b1ed7f92b64659d3be350c96954bf404ba80ad69"
+    },
+    {
+      "file": "spec-checklist.json",
+      "sha256": "0b39129c94729cc6656920a6dc4960b7b1d4c9e97f9e5d1fdfac3b0644b6c695"
+    }
+  ]
+}

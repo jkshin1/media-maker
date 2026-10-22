@@ -1,0 +1,11 @@
+{
+  "source_revision": 5,
+  "source_final_sha256": "278294d5f659355066b19f83d83416c4dd68d975ce8384ca9b77aa2bf6915ebc",
+  "approved_aac_file": "narration/revision5-approved-audio.m4a",
+  "approved_aac_file_sha256": "08a7da25916af4742491b4c0a650c3dc2934e18c389b29491724767e3b7fedfb",
+  "aac_packet_payload_hash": "SHA256=4324c63f2b3d526671b8368b4e1f30fb565f8130756bfde0b28a8d3840340e58",
+  "decoded_48000_stereo_s16le_hash": "SHA256=8f132436c55749c73d023e647175f071bd6461fd8ec05f8ed64d1764e6de1c0e",
+  "duration_seconds": 307.1333333333333,
+  "source_audio_changed": false,
+  "scope": "The complete approved Revision5 narration and repaired BGM are copied as AAC without re-encoding, editing, normalization or speed changes."
+}

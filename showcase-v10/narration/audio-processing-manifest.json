@@ -1,0 +1,47 @@
+{
+  "revision": 10,
+  "authorization": "narration/retime-tone-authorization.json",
+  "speech_tempo": 1,
+  "pitch_cents": 315,
+  "generation_mode": "two_part_with_user_authorization",
+  "timeline_sha256": "8beda6d4a6871df3542f86a1aacf7d4d6912caed99923a90b3725796f6958318",
+  "source_identity_sha256": "92c31c5917cbb6a5c7d8f7f998ac005bdd43bfb1e69e79183333c5dfcca5e3c2",
+  "placement_manifest_sha256": "b8d415fda4c47a58dae22f1990832278e6c87aa6a1219cb337e59231e9fc03a9",
+  "pitch_source": "pitch-narration.swift",
+  "pitch_source_sha256": "a427e856ba1f1dbbf0df9466dc27af6d14938a03b2e6ade428f795a19445da74",
+  "constant_voice_gain_db": 11.050000000000004,
+  "raw_source_sha256": "6ffd0cedda626853c222e5c960ac8df862e764cf7e62845075fdc7c6f1663620",
+  "music_source": "assets/bgm/revision9-approved-music.wav",
+  "music_source_sha256": "12d9b6b71aa83859bad9c53becaa74c4b962113a66b6206a0bec57e8057d1af0",
+  "music_zero_tail_samples": 24000,
+  "outputs": {
+    "narration-raw.wav": {
+      "file": "narration-raw.wav",
+      "sha256": "6ffd0cedda626853c222e5c960ac8df862e764cf7e62845075fdc7c6f1663620",
+      "samples": 15120000,
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "narration.wav": {
+      "file": "narration.wav",
+      "sha256": "df9a44673aebf63802af862e78558ba52718539d366ebea8e4b1aa43dadf3beb",
+      "samples": 15120000,
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "bgm-loop.wav": {
+      "file": "bgm-loop.wav",
+      "sha256": "f51dc5750fc27dabb13f73e9c96945fee270e13f3bbb4106555b07c021941bfb",
+      "samples": 15120000,
+      "sample_rate": 48000,
+      "channels": 2
+    },
+    "audio.wav": {
+      "file": "audio.wav",
+      "sha256": "a11b346f6b5285159e408e83ab149650119e9806944294a9bc439d99ccb06f86",
+      "samples": 15120000,
+      "sample_rate": 48000,
+      "channels": 2
+    }
+  }
+}

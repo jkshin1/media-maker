@@ -1,0 +1,36 @@
+{
+  "flow_id": "pT0QbjTslTFe8z8e9mnn",
+  "flow_created": false,
+  "url": "https://elevenlabs.io/app/flows/pT0QbjTslTFe8z8e9mnn?vs=viewstate_01m59rpfgnf71tcmjz9p1y8nj1&mode=switchWorkspace&oobCode=788635b1d9844b43a662b558fbd3ff92",
+  "flow_url": "https://elevenlabs.io/app/flows/pT0QbjTslTFe8z8e9mnn?mode=switchWorkspace&oobCode=788635b1d9844b43a662b558fbd3ff92",
+  "results": [
+    {
+      "success": true,
+      "node_id": "Jv2xL8dX2kOQM1Z2detZ",
+      "session_id": "rUxN82KPwIL8oPedCNmt",
+      "credit_costs": {
+        "5EeWj7MZFAaoKnEOxjCb": 2501.9999999999995
+      }
+    }
+  ],
+  "summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "Jv2xL8dX2kOQM1Z2detZ": 1
+    }
+  },
+  "session_ids": [
+    "rUxN82KPwIL8oPedCNmt"
+  ],
+  "pending": [
+    {
+      "generation_id": "5EeWj7MZFAaoKnEOxjCb",
+      "kind": "audio"
+    }
+  ],
+  "poll_after_seconds": 3,
+  "notes": "Not finished yet. The generation view tracks progress and polls by itself, so there is nothing to do here — do not call creative_get_flow_run_status.",
+  "view_state_id": "viewstate_01m59rpfgnf71tcmjz9p1y8nj1"
+}

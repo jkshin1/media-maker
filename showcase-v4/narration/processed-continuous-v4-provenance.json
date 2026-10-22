@@ -1,0 +1,145 @@
+{
+  "source_master": "narration/take.wav",
+  "source_master_sha256": "765a118636ccf1a0ee125d5c8554c34424ba07511b27df8b665b42da8ca8664f",
+  "source_pcm_sha256": "40220a7e29f5b5c5cafcd177facbf70fd5d57157a6ff84eddfdb753b72d5fa47",
+  "previous_tempo_ratio": 1.2446782514254684,
+  "nominal_requested_tempo": 1.134811809882259,
+  "tempo_ratio": 1.1349368098823,
+  "effective_ffmpeg_tempo": 1.1349368098823,
+  "atempo_filter": "atempo=1.1349368098823",
+  "previous_processed_samples": 11899022,
+  "target_samples": 13051022,
+  "target_voice_extension_seconds": 24,
+  "selected_rendered_samples": 13050876,
+  "tail_zero_padding_samples": 146,
+  "no_processed_samples_removed": true,
+  "selected_audio_continuous_processing_passes": 1,
+  "duration_search_candidates_all_direct_from_original_source": [
+    {
+      "factor": 1.1343118098823,
+      "samples": 13057888,
+      "target_delta_samples": 6866,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/00.wav"
+    },
+    {
+      "factor": 1.1353118098823,
+      "samples": 13046511,
+      "target_delta_samples": -4511,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/01.wav"
+    },
+    {
+      "factor": 1.1348118098823,
+      "samples": 13052134,
+      "target_delta_samples": 1112,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/02.wav"
+    },
+    {
+      "factor": 1.1350618098823,
+      "samples": 13047871,
+      "target_delta_samples": -3151,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/03.wav"
+    },
+    {
+      "factor": 1.1349368098823,
+      "samples": 13050876,
+      "target_delta_samples": -146,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/04.wav"
+    },
+    {
+      "factor": 1.1348743098823,
+      "samples": 13050041,
+      "target_delta_samples": -981,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/05.wav"
+    },
+    {
+      "factor": 1.1348430598823,
+      "samples": 13051765,
+      "target_delta_samples": 743,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/06.wav"
+    },
+    {
+      "factor": 1.1348586848823,
+      "samples": 13051707,
+      "target_delta_samples": 685,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/07.wav"
+    },
+    {
+      "factor": 1.1348664973823,
+      "samples": 13051481,
+      "target_delta_samples": 459,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/08.wav"
+    },
+    {
+      "factor": 1.1348704036323,
+      "samples": 13051615,
+      "target_delta_samples": 593,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/09.wav"
+    },
+    {
+      "factor": 1.1348723567573,
+      "samples": 13050055,
+      "target_delta_samples": -967,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/10.wav"
+    },
+    {
+      "factor": 1.1348713801948,
+      "samples": 13051613,
+      "target_delta_samples": 591,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/11.wav"
+    },
+    {
+      "factor": 1.1348718684761,
+      "samples": 13050053,
+      "target_delta_samples": -969,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/12.wav"
+    },
+    {
+      "factor": 1.1348716243354,
+      "samples": 13050055,
+      "target_delta_samples": -967,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/13.wav"
+    },
+    {
+      "factor": 1.1348715022651,
+      "samples": 13050055,
+      "target_delta_samples": -967,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/14.wav"
+    },
+    {
+      "factor": 1.1348714412299,
+      "samples": 13050053,
+      "target_delta_samples": -969,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/15.wav"
+    },
+    {
+      "factor": 1.1348714107123,
+      "samples": 13050053,
+      "target_delta_samples": -969,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/16.wav"
+    },
+    {
+      "factor": 1.1348713954535,
+      "samples": 13050053,
+      "target_delta_samples": -969,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/17.wav"
+    },
+    {
+      "factor": 1.1348713878242,
+      "samples": 13050053,
+      "target_delta_samples": -969,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/18.wav"
+    },
+    {
+      "factor": 1.1348713840095,
+      "samples": 13050053,
+      "target_delta_samples": -969,
+      "path": "/tmp/media-maker-v4-tempo-solve-i8p0raek/19.wav"
+    }
+  ],
+  "processed": "narration/processed-continuous-v4.wav",
+  "processed_sha256": "7fe93db49c003cbfb881ee2d569995651b8a9b6aa78fa218469b6d400589ef88",
+  "processing": "one whole continuous original take at the approved slower factor, with only <=5ms zero tail padding for exact duration",
+  "new_tts": false,
+  "pitch_preserving_filter": "ffmpeg atempo / WSOLA",
+  "speed_ratio_vs_previous": 0.9118314782013047
+}

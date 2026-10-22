@@ -1,0 +1,8 @@
+{
+  "name": "rd-ai-fast-track-showcase",
+  "private": true,
+  "type": "module",
+  "scripts": {"stills":"node render.mjs --stills", "render":"node render.mjs", "audio":"python3 audio.py"},
+  "dependencies": {"@napi-rs/canvas":"0.1.100"},
+  "devDependencies": {"puppeteer-core":"25.13.0"}
+}

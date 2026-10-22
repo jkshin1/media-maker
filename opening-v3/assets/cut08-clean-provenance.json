@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "generated_with": "built-in image_gen.imagegen",
+  "type": "precise-object-edit",
+  "date_local": "2026-10-14",
+  "asset": "cut08-clean.png",
+  "original_generated_path": "/Users/jk/.codex/generated_images/01a137f3-c4be-7540-9077-29d43532898a/exec-ea5e0cf9-2657-4177-9794-d11734195f27.png",
+  "sha256": "9fce70f839baf1fc3151b7a7020ee84114d5976bf58f2cc490d6b6ba9cf34921",
+  "width": 1672,
+  "height": 941,
+  "input": {
+    "file": "cut08.png",
+    "sha256": "df54ced218b7ee151bd4130cb201ad751cc7d0a52fe9d1c9a94880d5364da01b"
+  },
+  "purpose": "Remove only the static arrow/rising light ribbons so the dynamic arrow is rendered in code. Preserves original conceptual bars and lighting; contains no task metrics or UI.",
+  "visual_inspection": "Accepted: no arrowhead or luminous rising ribbon remains; original bar positions, heights, edges, floor reflections and right black copy area preserved.",
+  "prompt": "Use case: precise-object-edit.\nAsset type: clean photographic background plate for an animated video; dynamic arrow will be rendered by code later.\nInput image: the supplied single wide gold-bar photograph is the exact edit target.\nPrimary request: Remove ONLY the static glowing upward arrow and ALL of its bright curved rising light ribbons/trails, arrowhead glow, and little particles immediately attached to that rising light path. Reconstruct their underlying dark photographic background naturally.\nKeep invariants: preserve the exact full-frame 16:9 composition, all gold/black three-dimensional bar sculptures in the same positions, with the same heights and shapes, and the same luminous edge lighting. Preserve the black glossy floor, its realistic bar reflections, the dark far background with subtle gold/cool industrial bokeh, and the large nearly black right half for typography. Preserve each bar, including every tallest upper-center-left bar; DO NOT remove bars. Preserve realistic high-end cinematic photographed material texture and black/gold/amber palette.\nThe image should now show ONLY the bar sculptures and existing out-of-focus background, without any arrow, upward curve, bright ribbon, line drawing, directional beam, or extra symbols. Reflections of the removed bright arrow may be removed to keep a natural clean plate; bar reflections remain.\nNo new objects. ZERO text, letters, digits, captions, logos, watermarks, UI, axes, numbers, labels, or chart grid. These bars are an unlabelled conceptual visual from the reference, not measured task data. Do not crop or change camera view. Do not turn the photo into an illustration.",
+  "prompt_sha256": "8efe4f2da6506f5311158c79f9e80905e84f40ccbe477543cae02872251e3b89"
+}

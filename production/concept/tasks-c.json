@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "source_type": "user-provided concept images",
+  "extraction_method": "visual inspection with view_image",
+  "claims_status": "Claims and metrics below are transcribed from concept images; no independent performance verification is implied.",
+  "ordering": {
+    "user_constraint": "Place the tasks owned by 장민희 and 김지은 at the end of the task introductions.",
+    "suggested_last_two": ["1791878316232.png", "1791878316281.png"]
+  },
+  "tasks": [
+    {
+      "source_image": "concept/1791878316184.png",
+      "title_exact": "TCAD-TEM 이미지 연계를 통한 이미지 Labeling Tool 개발",
+      "team_exact": "DRAM ETCH",
+      "owner_exact": "김성후 TL",
+      "core_message_exact": "TEM 이미지 측정과 Raw data 정리를 자동화하는 이미지 분석 Tool",
+      "features_exact": ["이미지 회전 및 정렬", "측정 항목별 자동 측정", "Raw data 정리 및 분석"],
+      "benefits_exact": ["이미지 측정 시간 대폭 단축", "측정자별 편차 최소화", "분석 정확도 향상"],
+      "metric_claims_from_source": [
+        {"metric": "이미지당 측정 시간", "before": "5분", "after": "6초"},
+        {"metric": "R_NIT 정확도", "improvement": "44% 개선"},
+        {"metric": "S/W 정확도", "improvement": "84% 개선"}
+      ],
+      "scenes_from_source": [
+        {"number": 1, "heading_exact": "반복되는 수작업 분석", "visual": "여러 TEM 이미지와 측정 화면을 보고 이미지 회전, 항목별 측정, Raw data 정리, 수동 분석을 수행하는 엔지니어", "voiceover_exact": "TEM 이미지 분석에 반복되는 수작업이 많습니다."},
+        {"number": 2, "heading_exact": "이미지 분석 자동화 Tool", "visual": "TCAD-TEM Labeling Tool에서 이미지 불러오기, 이미지 회전 및 정렬, 측정 항목별 자동 측정, Raw data 정리, 데이터 분석 및 시각화를 한 번에 제공", "voiceover_exact": "하나의 Tool에서 이미지 측정부터 데이터 분석까지 자동으로 처리합니다."},
+        {"number": 3, "heading_exact": "측정 항목별 자동 측정", "visual": "TEM 단면 이미지에 색상별 측정선을 표시하고 R_NIT, S/W, CD, LS, Etch Depth, Sidewall Angle 항목과 Raw data 표를 연결", "voiceover_exact": "이미지를 회전하고, 항목별로 자동 측정해 Raw data까지 정리합니다."},
+        {"number": 4, "heading_exact": "데이터 분석 및 시각화", "visual": "R_NIT 정확도 +44%, S/W 정확도 +84% 개선 막대 그래프 및 R_NIT vs S/W 측정 결과 시각화", "voiceover_exact": "정리된 데이터를 기반으로 분석 결과를 시각화해 정확한 인사이트를 제공합니다."},
+        {"number": 5, "heading_exact": "더 빠르고 정확한 분석 환경", "visual": "이미지당 측정 시간 5분 → 6초, R_NIT 정확도 44% 개선, S/W 정확도 84% 개선 결과 카드", "voiceover_exact": "이미지당 측정 시간은 5분에서 6초로 줄고, R_NIT 정확도는 44%, S/W 정확도는 84% 개선됩니다."}
+      ],
+      "concise_voiceover_suggestion": "템 이미지 측정과 데이터 정리를 자동화합니다. 측정 시간은 5분에서 6초로 줄고, 분석 정확도도 높아집니다.",
+      "uncertain_text": [],
+      "production_notes": ["TEM, TCAD, R_NIT, S/W 등 약어의 발음은 최종 나레이션 원고에서 확정한다.", "성과 수치는 이미지에 있는 주장으로 표시하며 새 수치를 만들지 않는다."]
+    },
+    {
+      "source_image": "concept/1791878316232.png",
+      "title_exact": "RSAB SNM Overlay 열화 원인 분석 및 솔루션 제시 Agent",
+      "team_exact": "DRAM 트랙 Photo",
+      "owner_exact": "장민희 TL",
+      "must_be_in_last_two": true,
+      "core_message_exact": "Lot ID 하나로 Overlay 열화 원인을 신속하게 진단하고 해결 방안을 제시하는 AI Agent",
+      "features_exact": ["Overlay/Residual/MA Bias Vector Map, Scatter Map", "주요 Parameter Trend 비교 (박스플랏)", "K-parameter 기반 원인 추정"],
+      "benefits_exact": ["분석 시간 15분~1시간 → 건당 수분으로 단축", "원인 분석 정확도 향상", "신속한 대응 및 수율 안정화"],
+      "metric_claims_from_source": [
+        {"metric": "분석 시간", "before": "15분~1시간", "after": "건당 수분"}
+      ],
+      "scenes_from_source": [
+        {"number": 1, "heading_exact": "Overlay 분석 도구별 개별 조회", "visual": "Overlay 분석 도구, Residual 분석 도구, MA Bias 분석 도구와 Dcol Data (Spec in/out)가 여러 화면에 분산", "voiceover_exact": "Overlay 분석 도구별로 데이터를 조회하고 담당자의 지식에 의존해 열화 원인을 분석하던 업무를", "voiceover_is_sentence_fragment": true},
+        {"number": 2, "heading_exact": "Lot ID로 통합 조회", "visual": "RSAB SNM Overlay AI Agent에 Lot ID를 입력하고 Overlay Map, Residual Map, MA Bias Map, Trend 분석, K-parameter 분석, 원인 분석 및 솔루션 기능 조회", "voiceover_exact": "Lot ID 하나로 필요한 데이터를 통합 조회합니다."},
+        {"number": 3, "heading_exact": "다양한 Map으로 공정 상태 확인", "visual": "Overlay, Residual, MA Bias 탭과 Vector Map, Scatter Map, Residual Map, MA Bias Map의 웨이퍼 분포", "voiceover_exact": "Overlay, Residual, MA Bias를 Vector·Scatter Map으로 확인합니다."},
+        {"number": 4, "heading_exact": "주요 Parameter Trend 비교", "visual": "정상 Baseline과 입력 Lot의 Overlay Parameter 박스플랏 및 정상 대비 입력 Wafer 위치 분포 비교", "voiceover_exact": "주요 Overlay Parameter의 Trend를 비교하고, 정상 대비 Wafer 분포를 확인합니다."},
+        {"number": 5, "heading_exact": "K-parameter 분석으로 원인 추정", "visual": "Parameter별 Z-score와 의심 공정 계층을 표시하고 장비 정렬 상태 점검 및 보정, Reticle 교체 이력 확인, PR 조건 최적화 검토 솔루션 제시", "voiceover_exact": "K-parameter를 정상 Baseline 대비 Z-score로 평가하여 의심 공정 계층을 추정하고, 원인별 솔루션을 제시합니다."}
+      ],
+      "concise_voiceover_suggestion": "롯 아이디 하나로 오버레이 열화 원인을 진단합니다. 의심 공정을 좁히고, 원인별 해결 방안을 제시합니다.",
+      "uncertain_text": ["첫 장면의 나레이션은 '업무를'로 끝나는 미완 문장이다. 후속 장면과 이어 읽는 원고로 해석하되 그대로 완결된 문장이라고 주장하지 않는다."],
+      "production_notes": ["사용자의 명시적 순서 지시에 따라 마지막 두 과제 중 하나로 배치한다.", "본문 표의 장비 정렬/Reticle, 노광, CMP 기인, PR 등 값은 UI 예시이며 별도의 실적 수치로 취급하지 않는다."]
+    },
+    {
+      "source_image": "concept/1791878316281.png",
+      "title_exact": "AI Agent 기반 Plug 대면적 데이터 분석 자동화 및 인사이트 도출",
+      "team_exact": "N-PMA",
+      "owner_exact": "김지은 TL",
+      "must_be_in_last_two": true,
+      "core_message_exact": null,
+      "core_message_derived": "대면적 Plug 이미지에서 계측선과 Plug를 자동 인식하고 오계측 의심 대상을 선별하여 Profile 조회, 대시보드, 챗봇으로 분석 결과를 활용",
+      "features_derived_from_scenes": ["CV 기반 계측선 및 Plug 자동 인식", "오계측 탐지 및 검토 대상 선별", "담당자의 최종 판정", "CD Profile 및 Space Profile 조회", "대시보드와 분석 챗봇을 통한 업무 활용"],
+      "benefits_derived_from_scenes": ["대면적 데이터의 수동 검증 부담 감소", "오계측 의심 항목 자동 선별", "분석 데이터와 인사이트를 업무에 활용"],
+      "metric_claims_from_source": [],
+      "scenes_from_source": [
+        {"number": 1, "heading_exact": "1. 대면적 데이터 수동 검증", "visual": "대면적 Plug 이미지와 표를 엔지니어가 육안 검증", "voiceover_exact": "대면적 Plug 이미지를 엔지니어가 육안으로 검증합니다."},
+        {"number": 2, "heading_exact": "2. 계측 이미지 분석 및 자동 인식", "visual": "계측선이 있는 Plug 이미지를 여러 영역으로 분할하고 Plug에 번호를 자동 부여", "voiceover_exact": "CV로 계측선과 Plug를 분석해 자동으로 인식합니다."},
+        {"number": 3, "heading_exact": "3. 오계측 탐지 및 검토 대상 선별", "visual": "오계측 의심/정상 Plug 단면 비교와 No., Plug ID, 이미지, 판정 표", "voiceover_exact": "오계측 의심 항목을 자동으로 선별하고, 담당자가 최종 판정합니다."},
+        {"number": 4, "heading_exact": "4. Profile 조회 및 데이터 확인", "visual": "CD Profile, Space Profile 탭, Lot/Device/Plug ID 필터, Point 1~6 곡선 비교", "voiceover_exact": "Plug의 CD와 Space Profile을 조회하고 데이터를 확인합니다."},
+        {"number": 5, "heading_exact": "5. 대시보드 / 챗봇 및 분석 환경 지원", "visual": "총 파일 수, 총 Plug 수, CD AVG, MAX/MIN 카드와 데이터 표, '이번 Lot의 오계측 주요 원인은?' 분석 챗봇", "voiceover_exact": "대시보드와 챗봇으로 분석 결과를 업무에 활용합니다."}
+      ],
+      "concise_voiceover_suggestion": "대면적 플러그 이미지에서 오계측 의심 대상을 자동 선별합니다. 담당자의 검토와 챗봇을 연결해 분석 결과를 업무에 활용합니다.",
+      "uncertain_text": [],
+      "production_notes": ["사용자의 명시적 순서 지시에 따라 마지막 두 과제 중 하나로 배치한다.", "자동 선별 후 담당자가 최종 판정한다는 역할 구분을 유지한다.", "총 파일 수 320, 총 Plug 수 4,231, CD AVG 37.6nm 등의 수치는 예시 대시보드 데이터이며 개선 실적으로 제시하지 않는다.", "원본에는 별도 핵심 메시지/주요 기능/기대 효과 헤더가 없으므로 요약 항목은 derived로 표시했다."]
+    },
+    {
+      "source_image": "concept/1791878316342.png",
+      "title_exact": "Cubic공정Lab 전용 App&Agent",
+      "team_exact": "Cubic공정Lab",
+      "owner_exact": "정현준 TL",
+      "core_message_exact": "여러 시스템을 하나로 통합한 Cubic공정Lab 전용 포털",
+      "features_exact": ["Lot/장비 조회", "TEM 쿼터 예약", "Daily/Weekly Report 자동 생성", "주말 근무자 메일 발신 기능 (기능 제공)"],
+      "benefits_exact": ["업무 시간 단축", "시스템 간 이동 최소화", "더 나은 의사결정 지원"],
+      "metric_claims_from_source": [
+        {"metric": "업무 시간", "improvement": "90% 이상 단축"}
+      ],
+      "scenes_from_source": [
+        {"number": 1, "heading_exact": "1. 분산된 업무 환경 (Before)", "visual": "Excel, Smart Factory, APS, DataHub, 기타 시스템을 오가며 확인", "voiceover_exact": "여러 시스템을 오가며 확인하던 업무."},
+        {"number": 2, "heading_exact": "2. 하나의 포털로 통합", "visual": "Cubic공정Lab 포털에 Lot 조회, 장비 Status, TEM 예약, Daily/Weekly Report, 주말 근무자 메일 발신 메뉴 통합", "voiceover_exact": "이제 하나의 포털로 통합합니다."},
+        {"number": 3, "heading_exact": "3. 주요 기능 제공", "visual": "Lot 조회, 장비 Status 조회, TEM 쿼터 예약 관리, Daily/Weekly Report 자동 생성, 주말 근무자 메일 발신 기능 목록", "voiceover_exact": "조회부터 예약, 보고서 생성까지."},
+        {"number": 4, "heading_exact": "4. 간편해진 업무 환경 (After)", "visual": "Lot 현황, 장비 가동률, TEM 예약, 보고서 카드와 Lot 변동 추이/장비 상태 현황/최근 보고서 대시보드", "voiceover_exact": "필요한 기능을 한곳에서 편리하게."},
+        {"number": 5, "heading_exact": "5. 기대 효과", "visual": "업무 시간 90% 이상 단축을 강조하는 대형 결과 카드", "voiceover_exact": "업무 시간 90% 이상 단축."}
+      ],
+      "concise_voiceover_suggestion": "조회와 예약, 보고서 생성을 하나의 포털로 연결합니다. 여러 시스템을 오가는 시간을 줄여 업무를 더 편리하게 만듭니다.",
+      "uncertain_text": [],
+      "production_notes": ["90% 이상 단축은 원본의 기대 효과/성과 주장이다.", "메일 발신은 영상의 기능 소개이며 실제 메일 발신을 요청한 것으로 해석하지 않는다."]
+    }
+  ]
+}

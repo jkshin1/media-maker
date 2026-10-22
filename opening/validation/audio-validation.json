@@ -1,0 +1,182 @@
+{
+  "status": "PASS",
+  "output": "out/opening/audio.wav",
+  "sha256": "fb82b9cfc11be6fb9a8ca2f45b23a89098ed0c8b22878d7ce7d4ea57ce38f947",
+  "metadata": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 2,
+    "samples": 2208000,
+    "duration_seconds": 46.0
+  },
+  "decode": "PASS",
+  "source_master_sha256": "39d46461ac430a66e5ac2f33422a019423b3e90ffd4345508eb2889a283a6569",
+  "narration_config_sha256": "17bd8d1c6e6935e07e22ffc57656836fa5daae484cfab125c50a91922bfd5911",
+  "manifest_sha256": "5b8b8ee86ca60e8e6b32142db07979b39fd7596216907b8160e1f12a7d5f6d84",
+  "single_take": true,
+  "all_nine_sentences_covered": true,
+  "safe_boundaries": 8,
+  "clips": [
+    {
+      "id": 1,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 0.12,
+      "end_seconds": 2.7264583333333334
+    },
+    {
+      "id": 2,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 3.18,
+      "end_seconds": 6.789770833333334
+    },
+    {
+      "id": 3,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 7.25,
+      "end_seconds": 11.525020833333333
+    },
+    {
+      "id": 4,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 12.3,
+      "end_seconds": 15.441708333333334
+    },
+    {
+      "id": 5,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 17.04,
+      "end_seconds": 21.928833333333333
+    },
+    {
+      "id": 6,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 22.25,
+      "end_seconds": 27.3075625
+    },
+    {
+      "id": 7,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 28.45,
+      "end_seconds": 33.239041666666665
+    },
+    {
+      "id": 8,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 35.4,
+      "end_seconds": 40.5743125
+    },
+    {
+      "id": 9,
+      "exact_source_pcm": true,
+      "tempo_ratio": 1.0,
+      "start_seconds": 42.15,
+      "end_seconds": 45.925625
+    }
+  ],
+  "narration_loudness_source": {
+    "input_i": "-24.63",
+    "input_tp": "-4.29",
+    "input_lra": "6.50",
+    "input_thresh": "-34.96",
+    "output_i": "-18.36",
+    "output_tp": "-1.80",
+    "output_lra": "4.40",
+    "output_thresh": "-28.67",
+    "normalization_type": "dynamic",
+    "target_offset": "1.36"
+  },
+  "narration_loudness_final": {
+    "input_i": "-17.17",
+    "input_tp": "-1.74",
+    "input_lra": "4.20",
+    "input_thresh": "-27.47",
+    "output_i": "-17.49",
+    "output_tp": "-1.80",
+    "output_lra": "3.90",
+    "output_thresh": "-27.82",
+    "normalization_type": "dynamic",
+    "target_offset": "0.49"
+  },
+  "mix_loudness_final": {
+    "input_i": "-17.21",
+    "input_tp": "-4.92",
+    "input_lra": "4.10",
+    "input_thresh": "-28.09",
+    "output_i": "-17.46",
+    "output_tp": "-4.15",
+    "output_lra": "3.90",
+    "output_thresh": "-28.39",
+    "normalization_type": "dynamic",
+    "target_offset": "0.46"
+  },
+  "bgm": {
+    "title": "Mountains",
+    "artist": "Andrew Ev",
+    "sha256": "a096933b71ff9264dd3b20dcad5c01ef237658e30954f5c5cc8741266098f639",
+    "license": {
+      "name": "Mixkit Stock Music Free License",
+      "commercial_and_noncommercial_video_use": "permitted",
+      "verified_for_this_project": "Free commercial and noncommercial video/educational use in a combined narrated project.",
+      "allowed_examples": [
+        "Educational purposes",
+        "YouTube videos",
+        "Social media video posts",
+        "Online marketing ads",
+        "Podcasts"
+      ],
+      "excluded_media": [
+        "CDs/DVDs",
+        "TV/radio broadcasts",
+        "Video games"
+      ],
+      "other_limits": [
+        "Do not redistribute as a standalone music-only track",
+        "Do not claim ownership or register in a rights management service"
+      ],
+      "proof_file": "narration/bgm/license.html",
+      "proof_sha256": "723e4bd4673eeb125480d8d44c11eb591a0391332838485783c9e9928d487177"
+    },
+    "settings": {
+      "file": "narration/bgm/music.mp3",
+      "title": "Mountains",
+      "artist": "Andrew Ev",
+      "start_seconds": 0,
+      "source_url": "https://mixkit.co/free-stock-music/tag/corporate/?page=2",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "gain": 0.12,
+      "fade_in_seconds": 0.8,
+      "fade_out_seconds": 1.2,
+      "selection": "Restrained introductory portion of the previously licensed instrumental. Quiet bed and narration sidechain ducking."
+    },
+    "sidechain_ducking": {
+      "threshold": 0.015,
+      "ratio": 5,
+      "attack_ms": 20,
+      "release_ms": 320
+    }
+  },
+  "timing_adjustment": {
+    "requested_cut09": [
+      42,
+      45
+    ],
+    "actual_cut09": [
+      42,
+      46
+    ],
+    "reason": "The exact final sentence takes about 3.6 seconds at natural speed. The specification requests approximately 45 seconds and natural pacing; +1 second avoids a rushed final line."
+  },
+  "limits": [
+    "Local Whisper sentence coverage and waveform cuts are verified; ASR spelling and timestamps are approximate.",
+    "Creative Studio does not expose saved stability/similarity settings; the default values were used and cannot be independently confirmed.",
+    "This report validates the audio mix only. Final MP4 mux, video stream, playback and visual checks remain separate."
+  ]
+}

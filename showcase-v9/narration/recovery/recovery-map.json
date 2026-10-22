@@ -1,0 +1,53 @@
+{
+  "status": "EXACT_PCM_COMPOSITE_ASSEMBLED_PENDING_FULL_ASR",
+  "generation_mode": "single_take_with_authorized_original_ending_reuse",
+  "ending_reuse_exception_authorized": true,
+  "fresh_body_narration": true,
+  "new_full_narration": false,
+  "tempo": 1,
+  "speech_tempo": 1,
+  "authorization": "narration/recovery/authorization.json",
+  "authorization_sha256": "4111d8478312667656530c7ad005a5688a8ff9e9a1985a60720e0a9a6bc462cf",
+  "ending_review": "narration/recovery/ending-reuse-review.json",
+  "ending_review_sha256": "287db6fda714e82831b8468214f538033166155cfac95af2f0bd42b92f73ba6b",
+  "prefix_review": "narration/recovery/prefix64-narration-analysis.json",
+  "prefix_review_sha256": "57b5373e1b4223f7eb8225bbc10d93799baabfa7d95e7e75db618a4b6e013677",
+  "original_incomplete_take_preserved": true,
+  "original_incomplete_take": "narration/elevenlabs/take.wav",
+  "original_incomplete_take_sha256": "b2e19801305df1f1e2624fca327b14943f9d04f696271869b09225afc42ba12b",
+  "composite": "narration/recovery/composite-original.wav",
+  "composite_sha256": "955dc7129de5bdd8d464a6d71ac4353a91b55c9436c40d3ed2c823d003a44d2e",
+  "composite_pcm_sha256": "fca946beb47a1a6e12c5832cb6c55b0d4136283c50b4151be15d9f2a32e732af",
+  "samples": 16181760,
+  "duration": 337.12,
+  "sample_rate": 48000,
+  "channels": 1,
+  "sample_width": 2,
+  "source_spans": [
+    {
+      "role": "fresh_opening_and_55_task_lines",
+      "file": "narration/elevenlabs/take.wav",
+      "file_sha256": "b2e19801305df1f1e2624fca327b14943f9d04f696271869b09225afc42ba12b",
+      "source_start_sample": 0,
+      "source_end_sample": 15432000,
+      "composite_start_sample": 0,
+      "composite_end_sample": 15432000,
+      "pcm_sha256": "ce5e0c8f602b7aba76272d4aef211488d57f0e9ca37a4e01370fa59c136e45a2"
+    },
+    {
+      "role": "authorized_identical_original_speed_ending",
+      "file": "narration/recovery/approved-ending-original.wav",
+      "file_sha256": "7a6e5d372d4c1b178ca38ae54058e27d120e78d19dfb49d87309a9783598b615",
+      "source_start_sample": 0,
+      "source_end_sample": 749760,
+      "composite_start_sample": 15432000,
+      "composite_end_sample": 16181760,
+      "pcm_sha256": "c931039fd8e6365bfb3fd0955564600f078bf4ab24b08a19f9ed909f4cb98855"
+    }
+  ],
+  "words_or_samples_synthesized": 0,
+  "speech_speed_changed": false,
+  "crossfade_samples": 0,
+  "actual_pause_edit_applied": false,
+  "scope": "Exact authorized source assembly only; full 68-line completeness and pause-edit approval remain separate gates."
+}
